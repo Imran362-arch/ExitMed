@@ -2120,6 +2120,71 @@ body::before {
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
 [dir="rtl"] .breadcrumb-sep { transform: scaleX(-1); }
+/* Subtopics CSS */
+.subtopic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  padding: 16px 0;
+}
+.subtopic-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s;
+}
+.subtopic-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.subtopic-card:active {
+  transform: scale(0.98);
+}
+.subtopic-icon {
+  font-size: 32px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-hover);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.subtopic-info {
+  flex: 1;
+}
+.subtopic-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.subtopic-desc {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+.subtopic-stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.subtopic-stats span {
+  background: var(--bg-hover);
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+.subtopic-arrow {
+  font-size: 20px;
+  color: var(--text-dim);
+}
 </style>
 </head>
 <body>
