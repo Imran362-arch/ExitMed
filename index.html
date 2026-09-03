@@ -22,20 +22,20 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --bg-primary: #0a1628;
-  --bg-secondary: #0f1f38;
-  --bg-tertiary: #152a47;
-  --bg-card: #1a3352;
-  --bg-card-hover: #1f3d5e;
-  --bg-elevated: #24476b;
+  --bg-primary: #060d1a;
+  --bg-secondary: #0b1528;
+  --bg-tertiary: #111d33;
+  --bg-card: #152542;
+  --bg-card-hover: #1a2d4f;
+  --bg-elevated: #1f365c;
   --text-primary: #f1f5f9;
   --text-secondary: #a8c5d1;
   --text-muted: #6b8a99;
   --text-dim: #4a6775;
   --accent: #06b6d4;
   --accent-hover: #22d3ee;
-  --accent-dim: rgba(6, 182, 212, 0.15);
-  --accent-glow: rgba(6, 182, 212, 0.3);
+  --accent-dim: rgba(6, 182, 212, 0.12);
+  --accent-glow: rgba(6, 182, 212, 0.35);
   --success: #10b981;
   --success-dim: rgba(16, 185, 129, 0.15);
   --warning: #f59e0b;
@@ -45,48 +45,57 @@
   --purple: #a855f7;
   --purple-dim: rgba(168, 85, 247, 0.15);
   --pink: #ec4899;
+  --pink-dim: rgba(236, 72, 153, 0.15);
   --border: #1e3a47;
   --border-hover: #2a5163;
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
-  --shadow-lg: 0 10px 25px rgba(0,0,0,0.5);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.5);
+  --shadow-glow: 0 0 40px rgba(6, 182, 212, 0.15);
   --font-main: 'Inter', -apple-system, sans-serif;
   --font-arabic: 'Noto Naskh Arabic', 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
-  --radius-xl: 20px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --gradient-primary: linear-gradient(135deg, #06b6d4 0%, #10b981 100%);
+  --gradient-accent: linear-gradient(135deg, #06b6d4 0%, #a855f7 100%);
+  --gradient-warm: linear-gradient(135deg, #f59e0b 0%, #ec4899 100%);
+  --gradient-cool: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
 }
 
 [data-theme="light"] {
-  --bg-primary: #f5f7fa;
+  --bg-primary: #f8fafc;
   --bg-secondary: #ffffff;
-  --bg-tertiary: #eef2f7;
+  --bg-tertiary: #f1f5f9;
   --bg-card: #ffffff;
-  --bg-card-hover: #f0f4f8;
-  --bg-elevated: #e8edf3;
-  --text-primary: #1a2332;
-  --text-secondary: #4a5568;
-  --text-muted: #718096;
-  --text-dim: #a0aec0;
+  --bg-card-hover: #f8fafc;
+  --bg-elevated: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-dim: #94a3b8;
   --accent: #0891b2;
   --accent-hover: #0e7490;
-  --accent-dim: rgba(8, 145, 178, 0.1);
-  --accent-glow: rgba(8, 145, 178, 0.2);
+  --accent-dim: rgba(8, 145, 178, 0.08);
+  --accent-glow: rgba(8, 145, 178, 0.15);
   --success: #059669;
-  --success-dim: rgba(5, 150, 105, 0.1);
+  --success-dim: rgba(5, 150, 105, 0.08);
   --warning: #d97706;
-  --warning-dim: rgba(217, 119, 6, 0.1);
+  --warning-dim: rgba(217, 119, 6, 0.08);
   --danger: #dc2626;
-  --danger-dim: rgba(220, 38, 38, 0.1);
+  --danger-dim: rgba(220, 38, 38, 0.08);
   --purple: #9333ea;
-  --purple-dim: rgba(147, 51, 234, 0.1);
+  --purple-dim: rgba(147, 51, 234, 0.08);
+  --pink: #db2777;
+  --pink-dim: rgba(219, 39, 119, 0.08);
   --border: #e2e8f0;
   --border-hover: #cbd5e1;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
-  --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.08);
+  --shadow-glow: 0 0 40px rgba(8, 145, 178, 0.08);
 }
 
 body {
@@ -98,14 +107,24 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* RTL auto-detected content */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(6,182,212,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(168,85,247,0.06) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
 .rtl-content {
   font-family: var(--font-arabic) !important;
   direction: rtl !important;
   text-align: right !important;
+  line-height: 1.9 !important;
 }
 
-/* Force LTR for latin content even in RTL UI */
 .ltr-content {
   direction: ltr !important;
   text-align: left !important;
@@ -130,47 +149,50 @@ body {
 }
 
 .sidebar-header {
-  padding: 18px;
+  padding: 20px 18px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
   gap: 12px;
+  background: linear-gradient(135deg, rgba(6,182,212,0.05), rgba(16,185,129,0.03));
 }
 
 .logo {
-  width: 42px;
-  height: 42px;
-  border-radius: 11px;
-  background: linear-gradient(135deg, var(--accent), var(--success));
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--gradient-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 22px;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px var(--accent-glow);
+  box-shadow: 0 4px 16px var(--accent-glow);
 }
 
 .logo-text h1 {
-  font-size: 16px;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--accent), var(--success));
+  font-size: 17px;
+  font-weight: 800;
+  background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  letter-spacing: -0.3px;
 }
 
 .logo-text p {
   font-size: 10px;
   color: var(--text-muted);
   letter-spacing: 0.5px;
+  margin-top: 1px;
 }
 
-/* Controls bar */
+/* Controls */
 .controls-bar {
-  padding: 10px 12px;
+  padding: 12px;
   border-bottom: 1px solid var(--border);
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
 }
 
@@ -178,27 +200,27 @@ body {
   flex: 1;
   display: flex;
   background: var(--bg-tertiary);
-  border-radius: 8px;
-  padding: 2px;
+  border-radius: 10px;
+  padding: 3px;
   gap: 2px;
 }
 
 .lang-btn {
   flex: 1;
-  padding: 6px 4px;
+  padding: 7px 4px;
   background: transparent;
   border: none;
   color: var(--text-muted);
   font-size: 11px;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 7px;
   transition: all 0.2s;
   font-family: inherit;
 }
 
 .lang-btn.active {
-  background: var(--accent);
+  background: var(--gradient-primary);
   color: white;
   box-shadow: var(--shadow-sm);
 }
@@ -209,12 +231,12 @@ body {
 }
 
 .theme-toggle {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border: 1px solid var(--border);
   background: var(--bg-tertiary);
   color: var(--text-secondary);
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -225,19 +247,21 @@ body {
 
 .theme-toggle:hover {
   background: var(--bg-card-hover);
-  color: var(--text-primary);
+  color: var(--accent-hover);
+  border-color: var(--accent);
 }
 
 /* Breadcrumb */
 .breadcrumb-nav {
-  padding: 10px 14px;
+  padding: 12px 16px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
   font-size: 12px;
   overflow-x: auto;
   white-space: nowrap;
+  background: var(--bg-tertiary);
 }
 
 .breadcrumb-nav::-webkit-scrollbar { display: none; }
@@ -245,14 +269,15 @@ body {
 .breadcrumb-item {
   color: var(--text-muted);
   cursor: pointer;
-  padding: 3px 6px;
-  border-radius: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
   transition: all 0.15s;
+  font-weight: 500;
 }
 
 .breadcrumb-item:hover {
   color: var(--text-primary);
-  background: var(--bg-tertiary);
+  background: var(--bg-card-hover);
 }
 
 .breadcrumb-item.current {
@@ -269,7 +294,7 @@ body {
 .nav-list {
   flex: 1;
   overflow-y: auto;
-  padding: 8px;
+  padding: 10px;
 }
 
 .nav-list::-webkit-scrollbar { width: 5px; }
@@ -278,11 +303,21 @@ body {
 
 .nav-section-title {
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--text-dim);
-  padding: 10px 10px 6px;
+  padding: 12px 12px 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-section-title::before {
+  content: '';
+  width: 12px;
+  height: 1px;
+  background: var(--text-dim);
 }
 
 .nav-item {
@@ -290,12 +325,13 @@ body {
   align-items: center;
   gap: 10px;
   padding: 10px 12px;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 13px;
   color: var(--text-secondary);
   transition: all 0.15s;
   margin-bottom: 2px;
+  position: relative;
 }
 
 .nav-item:hover {
@@ -306,14 +342,36 @@ body {
 .nav-item.active {
   background: var(--accent-dim);
   color: var(--accent-hover);
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.nav-item.active::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 60%;
+  background: var(--gradient-primary);
+  border-radius: 0 3px 3px 0;
 }
 
 .nav-item .ni-icon {
   font-size: 18px;
   flex-shrink: 0;
-  width: 24px;
-  text-align: center;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-tertiary);
+  border-radius: 7px;
+}
+
+.nav-item.active .ni-icon {
+  background: var(--gradient-primary);
+  box-shadow: 0 2px 8px var(--accent-glow);
 }
 
 .nav-item .ni-name {
@@ -328,27 +386,23 @@ body {
   font-size: 10px;
   background: var(--bg-tertiary);
   color: var(--text-muted);
-  padding: 2px 7px;
+  padding: 2px 8px;
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .nav-item.active .ni-count {
-  background: var(--accent);
+  background: var(--gradient-primary);
   color: white;
 }
 
-.nav-item .ni-arrow {
-  color: var(--text-dim);
-  font-size: 12px;
-}
-
 .sidebar-footer {
-  padding: 10px 14px;
+  padding: 12px 16px;
   border-top: 1px solid var(--border);
   font-size: 10px;
   color: var(--text-dim);
   text-align: center;
+  background: var(--bg-tertiary);
 }
 
 /* ============ MAIN ============ */
@@ -361,21 +415,51 @@ body {
 }
 
 .topbar {
-  padding: 12px 24px;
+  padding: 14px 28px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   background: var(--bg-secondary);
+  backdrop-filter: blur(10px);
 }
 
-.toggle-sidebar-btn {
-  width: 34px;
-  height: 34px;
+.back-btn {
+  width: 38px;
+  height: 38px;
   border: 1px solid var(--border);
   background: var(--bg-tertiary);
   color: var(--text-secondary);
-  border-radius: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.back-btn:hover {
+  background: var(--accent-dim);
+  color: var(--accent-hover);
+  border-color: var(--accent);
+  transform: translateX(-2px);
+}
+
+[dir="rtl"] .back-btn:hover {
+  transform: translateX(2px);
+}
+
+.back-btn.visible { display: flex; }
+
+.toggle-sidebar-btn {
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border-radius: 10px;
   cursor: pointer;
   display: none;
   align-items: center;
@@ -399,6 +483,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  letter-spacing: -0.3px;
 }
 
 .topbar-title p {
@@ -409,15 +494,15 @@ body {
 
 .topbar-actions {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
 }
 
 .topbar-btn {
-  padding: 7px 12px;
+  padding: 8px 14px;
   background: var(--bg-tertiary);
   border: 1px solid var(--border);
-  border-radius: 7px;
+  border-radius: 10px;
   color: var(--text-secondary);
   font-size: 12px;
   cursor: pointer;
@@ -425,13 +510,14 @@ body {
   font-family: inherit;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-weight: 500;
 }
 
 .topbar-btn:hover {
   background: var(--bg-card-hover);
   color: var(--text-primary);
+  border-color: var(--border-hover);
 }
 
 .topbar-btn:disabled {
@@ -455,113 +541,194 @@ body {
 .content {
   flex: 1;
   overflow-y: auto;
-  padding: 28px 32px;
+  padding: 32px;
+  scroll-behavior: smooth;
 }
 
 .content::-webkit-scrollbar { width: 8px; }
 .content::-webkit-scrollbar-track { background: transparent; }
 .content::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 
-/* ============ WELCOME ============ */
-.welcome {
-  max-width: 1100px;
+/* ============ DASHBOARD ============ */
+.dashboard {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
-.welcome-hero {
-  text-align: center;
-  padding: 40px 20px;
-  margin-bottom: 30px;
-  background: linear-gradient(135deg, var(--accent-dim), rgba(16,185,129,0.05));
-  border: 1px solid var(--border);
+.dashboard-hero {
+  position: relative;
+  padding: 48px 40px;
+  margin-bottom: 32px;
   border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, rgba(6,182,212,0.12) 0%, rgba(168,85,247,0.08) 50%, rgba(16,185,129,0.08) 100%);
+  border: 1px solid var(--border);
+  overflow: hidden;
 }
 
-.welcome-icon {
-  font-size: 72px;
-  margin-bottom: 16px;
-  animation: pulse 2s ease-in-out infinite;
+.dashboard-hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(6,182,212,0.15) 0%, transparent 70%);
+  pointer-events: none;
 }
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+.dashboard-hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(168,85,247,0.1) 0%, transparent 70%);
+  pointer-events: none;
 }
 
-.welcome h1 {
-  font-size: 32px;
+.dashboard-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-hero .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--gradient-primary);
+  color: white;
+  font-size: 11px;
   font-weight: 700;
-  margin-bottom: 10px;
-  background: linear-gradient(135deg, var(--accent), var(--success));
+  border-radius: 20px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px var(--accent-glow);
+}
+
+.dashboard-hero h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -0.8px;
+  line-height: 1.2;
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-hover) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-.welcome p {
+.dashboard-hero p {
   color: var(--text-secondary);
   font-size: 15px;
   line-height: 1.6;
   max-width: 600px;
-  margin: 0 auto;
+  margin-bottom: 24px;
 }
 
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+.hero-stats {
+  display: flex;
   gap: 12px;
-  margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
-.stat-card {
-  background: var(--bg-card);
+.hero-stat {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 18px;
-  text-align: center;
-  transition: all 0.2s;
+  border-radius: var(--radius-md);
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 140px;
 }
 
-.stat-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
+[data-theme="light"] .hero-stat {
+  background: rgba(255,255,255,0.7);
 }
 
-.stat-card .stat-icon { font-size: 24px; margin-bottom: 6px; }
+.hero-stat .hs-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
 
-.stat-card .stat-value {
-  font-size: 26px;
+.hero-stat .hs-icon.cyan { background: var(--accent-dim); }
+.hero-stat .hs-icon.green { background: var(--success-dim); }
+.hero-stat .hs-icon.purple { background: var(--purple-dim); }
+.hero-stat .hs-icon.orange { background: var(--warning-dim); }
+
+.hero-stat .hs-value {
+  font-size: 20px;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--accent), var(--success));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
+  line-height: 1;
 }
 
-.stat-card .stat-label {
-  font-size: 11px;
+.hero-stat .hs-label {
+  font-size: 10px;
   color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 4px;
+  letter-spacing: 0.5px;
+  margin-top: 3px;
+}
+
+/* Section header */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.section-header h2 {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: -0.3px;
+}
+
+.section-header h2::before {
+  content: '';
+  width: 4px;
+  height: 22px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.section-header .section-subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
 }
 
 /* Category cards */
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
 }
 
 .category-card {
+  position: relative;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 24px;
+  padding: 28px;
   cursor: pointer;
-  transition: all 0.25s;
-  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
 }
 
@@ -570,117 +737,242 @@ body {
   position: absolute;
   top: 0;
   inset-inline-start: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, var(--accent), var(--success));
+  width: 100%;
+  height: 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+[dir="rtl"] .category-card::before {
+  transform-origin: right;
+}
+
+.category-card:hover::before {
+  transform: scaleX(1);
 }
 
 .category-card:hover {
   border-color: var(--accent);
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-lg), var(--shadow-glow);
 }
 
-.category-card .cc-icon { font-size: 40px; margin-bottom: 12px; }
+.category-card .cc-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.category-card .cc-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.category-card .cc-icon-wrap.cyan { background: var(--accent-dim); }
+.category-card .cc-icon-wrap.pink { background: var(--pink-dim); }
+.category-card .cc-icon-wrap.purple { background: var(--purple-dim); }
+
+.category-card .cc-title {
+  flex: 1;
+  min-width: 0;
+}
 
 .category-card h3 {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
+  letter-spacing: -0.3px;
 }
 
 .category-card .cc-desc {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-muted);
-  margin-bottom: 14px;
   line-height: 1.5;
 }
 
 .category-card .cc-stats {
-  display: flex;
-  gap: 14px;
-  font-size: 11px;
-  color: var(--text-secondary);
-  padding-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  padding-top: 16px;
   border-top: 1px solid var(--border);
-  flex-wrap: wrap;
 }
 
-.category-card .cc-stats span {
+.cc-stat {
+  text-align: center;
+  padding: 8px 4px;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+}
+
+.cc-stat .cc-stat-value {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.cc-stat .cc-stat-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.cc-stat.mcq .cc-stat-value { color: var(--accent-hover); }
+.cc-stat.qa .cc-stat-value { color: var(--success); }
+.cc-stat.flash .cc-stat-value { color: var(--purple); }
+.cc-stat.mnem .cc-stat-value { color: var(--warning); }
+
+.category-card .cc-arrow {
+  position: absolute;
+  bottom: 24px;
+  inset-inline-end: 24px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg-tertiary);
   display: flex;
   align-items: center;
-  gap: 4px;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 14px;
+  transition: all 0.3s;
 }
 
-/* Subjects grid */
+.category-card:hover .cc-arrow {
+  background: var(--gradient-primary);
+  color: white;
+  transform: translateX(4px);
+}
+
+[dir="rtl"] .category-card:hover .cc-arrow {
+  transform: translateX(-4px);
+}
+
+/* ============ SUBJECTS VIEW ============ */
 .subjects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
 }
 
 .subject-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 20px;
+  padding: 22px;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.25s;
+  position: relative;
+  overflow: hidden;
 }
+
+.subject-card::after {
+  content: '';
+  position: absolute;
+  inset-inline-end: -20px;
+  top: -20px;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.subject-card:hover::after { opacity: 1; }
 
 .subject-card:hover {
   border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-md);
 }
 
-.subject-card .sc-icon { font-size: 32px; margin-bottom: 10px; }
+.subject-card .sc-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--accent-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
 
 .subject-card h3 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  letter-spacing: -0.2px;
 }
 
-.subject-card .sc-count {
-  font-size: 12px;
+.subject-card .sc-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
   color: var(--text-muted);
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
 }
 
-/* Topics list */
+.subject-card .sc-meta span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ============ TOPICS VIEW ============ */
 .topics-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
 }
 
 .topic-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 16px;
+  padding: 18px;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
   align-items: center;
   gap: 14px;
+  position: relative;
 }
 
 .topic-card:hover {
   border-color: var(--accent);
   background: var(--bg-card-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .topic-card .tc-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background: var(--accent-dim);
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--gradient-primary);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 22px;
   flex-shrink: 0;
+  box-shadow: 0 4px 12px var(--accent-glow);
 }
 
 .topic-card .tc-content { flex: 1; min-width: 0; }
@@ -688,89 +980,169 @@ body {
 .topic-card .tc-name {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
+  letter-spacing: -0.2px;
 }
 
-.topic-card .tc-meta {
-  font-size: 11px;
-  color: var(--text-muted);
+.topic-card .tc-badges {
   display: flex;
-  gap: 10px;
+  gap: 6px;
   flex-wrap: wrap;
 }
+
+.tc-badge {
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.tc-badge.mcq { background: var(--accent-dim); color: var(--accent-hover); }
+.tc-badge.qa { background: var(--success-dim); color: var(--success); }
+.tc-badge.flash { background: var(--purple-dim); color: var(--purple); }
+.tc-badge.mnem { background: var(--warning-dim); color: var(--warning); }
 
 .topic-card .tc-arrow {
   color: var(--text-dim);
-  font-size: 14px;
+  font-size: 16px;
+  transition: all 0.2s;
 }
 
-/* Content viewer */
+.topic-card:hover .tc-arrow {
+  color: var(--accent-hover);
+  transform: translateX(3px);
+}
+
+[dir="rtl"] .topic-card:hover .tc-arrow {
+  transform: translateX(-3px);
+}
+
+/* ============ TOPIC CONTENT VIEWER ============ */
 .content-viewer {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.content-header {
-  background: var(--bg-card);
+.content-hero {
+  position: relative;
+  padding: 36px 32px;
+  margin-bottom: 24px;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(168,85,247,0.06));
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  margin-bottom: 20px;
+  overflow: hidden;
 }
 
-.content-header .ch-icon { font-size: 48px; margin-bottom: 12px; }
-
-.content-header h1 {
-  font-size: 26px;
-  font-weight: 800;
-  margin-bottom: 8px;
+.content-hero::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(6,182,212,0.12) 0%, transparent 70%);
+  pointer-events: none;
 }
 
-.content-header .ch-path {
-  font-size: 12px;
-  color: var(--text-muted);
+.content-hero > * { position: relative; z-index: 1; }
+
+.content-hero .ch-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 16px;
 }
 
-.content-header .ch-stats {
+.content-hero .ch-icon-wrap {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: var(--gradient-primary);
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  flex-shrink: 0;
+  box-shadow: 0 6px 20px var(--accent-glow);
+}
+
+.content-hero .ch-info { flex: 1; min-width: 0; }
+
+.content-hero h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+  line-height: 1.3;
+}
+
+.content-hero .ch-path {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
-.ch-stat-badge {
-  padding: 5px 12px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  font-size: 11px;
-  font-weight: 600;
-  display: flex;
+.content-hero .ch-path span {
+  display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
 }
 
-.ch-stat-badge.mcq { color: var(--accent-hover); border-color: var(--accent); background: var(--accent-dim); }
-.ch-stat-badge.qa { color: var(--success); border-color: var(--success); background: var(--success-dim); }
-.ch-stat-badge.flash { color: var(--purple); border-color: var(--purple); background: var(--purple-dim); }
-.ch-stat-badge.mnem { color: var(--warning); border-color: var(--warning); background: var(--warning-dim); }
+.content-hero .ch-description {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
 
-/* Content tabs */
+.ch-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.ch-badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid;
+}
+
+.ch-badge.mcq { color: var(--accent-hover); border-color: var(--accent); background: var(--accent-dim); }
+.ch-badge.qa { color: var(--success); border-color: var(--success); background: var(--success-dim); }
+.ch-badge.flash { color: var(--purple); border-color: var(--purple); background: var(--purple-dim); }
+.ch-badge.mnem { color: var(--warning); border-color: var(--warning); background: var(--warning-dim); }
+
+/* Tabs */
 .content-tabs {
   display: flex;
   gap: 4px;
-  padding: 4px;
+  padding: 6px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   overflow-x: auto;
+  box-shadow: var(--shadow-sm);
 }
 
 .content-tabs::-webkit-scrollbar { display: none; }
 
 .content-tab {
-  padding: 10px 16px;
+  padding: 11px 18px;
   background: transparent;
   border: none;
   color: var(--text-muted);
@@ -778,12 +1150,13 @@ body {
   font-weight: 600;
   cursor: pointer;
   border-radius: 8px;
-  transition: all 0.15s;
+  transition: all 0.2s;
   font-family: inherit;
   white-space: nowrap;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  position: relative;
 }
 
 .content-tab:hover:not(:disabled) {
@@ -792,100 +1165,222 @@ body {
 }
 
 .content-tab.active {
-  background: var(--accent);
+  background: var(--gradient-primary);
   color: white;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 12px var(--accent-glow);
 }
 
 .content-tab:disabled {
-  opacity: 0.4;
+  opacity: 0.35;
   cursor: not-allowed;
 }
 
 .content-tab .tab-count {
   background: rgba(255,255,255,0.2);
-  padding: 1px 6px;
-  border-radius: 8px;
+  padding: 2px 8px;
+  border-radius: 10px;
   font-size: 10px;
+  font-weight: 700;
 }
 
-.content-tab.active .tab-count {
-  background: rgba(255,255,255,0.3);
+.content-tab:not(.active) .tab-count {
+  background: var(--bg-tertiary);
+  color: var(--text-muted);
 }
 
 .content-panel { display: none; }
-.content-panel.active { display: block; animation: fadeIn 0.3s ease; }
+.content-panel.active { display: block; animation: fadeIn 0.4s ease; }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 /* ============ MCQ ============ */
-.mcq-list { display: grid; gap: 16px; }
+.mcq-progress {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mcq-progress-info {
+  flex: 1;
+}
+
+.mcq-progress-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.mcq-progress-bar {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.mcq-progress-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.mcq-progress-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mcq-progress-stats .stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mcq-progress-stats .stat.correct { color: var(--success); }
+.mcq-progress-stats .stat.wrong { color: var(--danger); }
+.mcq-progress-stats .stat.remaining { color: var(--text-muted); }
+
+.mcq-list { display: grid; gap: 18px; }
 
 .mcq-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 22px;
+  padding: 26px;
   transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
 }
 
-.mcq-card:hover { border-color: var(--accent); }
-
-.mcq-number {
-  display: inline-block;
-  background: var(--accent-dim);
-  color: var(--accent-hover);
-  font-size: 11px;
-  font-weight: 700;
-  padding: 3px 10px;
-  border-radius: 12px;
-  margin-bottom: 12px;
-  letter-spacing: 0.5px;
+.mcq-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline-start: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.mcq-question {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1.7;
+.mcq-card:hover::before { opacity: 1; }
+
+.mcq-card.answered-correct::before {
+  background: var(--success);
+  opacity: 1;
+}
+
+.mcq-card.answered-wrong::before {
+  background: var(--danger);
+  opacity: 1;
+}
+
+.mcq-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 16px;
 }
 
-.mcq-options { display: grid; gap: 8px; }
+.mcq-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 10px;
+  background: var(--gradient-primary);
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 8px var(--accent-glow);
+}
+
+.mcq-status {
+  margin-inline-start: auto;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  display: none;
+  align-items: center;
+  gap: 4px;
+}
+
+.mcq-card.answered-correct .mcq-status {
+  display: flex;
+  background: var(--success-dim);
+  color: var(--success);
+}
+
+.mcq-card.answered-wrong .mcq-status {
+  display: flex;
+  background: var(--danger-dim);
+  color: var(--danger);
+}
+
+.mcq-question {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  letter-spacing: -0.2px;
+}
+
+.mcq-options { display: grid; gap: 10px; }
 
 .mcq-option {
-  padding: 12px 14px;
+  padding: 14px 16px;
   background: var(--bg-tertiary);
   border: 2px solid var(--border);
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.2s;
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  font-size: 13px;
+  gap: 12px;
+  font-size: 14px;
   line-height: 1.6;
+  position: relative;
 }
 
 .mcq-option:hover:not(.disabled) {
   border-color: var(--accent);
   background: var(--accent-dim);
+  transform: translateX(4px);
+}
+
+[dir="rtl"] .mcq-option:hover:not(.disabled) {
+  transform: translateX(-4px);
 }
 
 .mcq-option .opt-letter {
-  width: 26px;
-  height: 26px;
-  border-radius: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
   background: var(--bg-elevated);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 11px;
+  font-weight: 800;
+  font-size: 12px;
   flex-shrink: 0;
-  transition: all 0.15s;
+  transition: all 0.2s;
+  border: 1px solid var(--border);
 }
 
 .mcq-option .opt-text { flex: 1; padding-top: 2px; }
@@ -898,6 +1393,7 @@ body {
 .mcq-option.correct .opt-letter {
   background: var(--success);
   color: white;
+  border-color: var(--success);
 }
 
 .mcq-option.wrong {
@@ -908,22 +1404,37 @@ body {
 .mcq-option.wrong .opt-letter {
   background: var(--danger);
   color: white;
+  border-color: var(--danger);
 }
 
-.mcq-option.disabled { cursor: default; opacity: 0.75; }
+.mcq-option.disabled { cursor: default; }
 .mcq-option.correct.disabled,
 .mcq-option.wrong.disabled { opacity: 1; }
+.mcq-option.disabled:not(.correct):not(.wrong) { opacity: 0.5; }
 
 .mcq-explanation {
-  margin-top: 14px;
-  padding: 12px 14px;
-  background: var(--accent-dim);
+  margin-top: 16px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, var(--accent-dim), rgba(16,185,129,0.05));
   border: 1px solid var(--accent);
   border-radius: var(--radius-md);
   font-size: 13px;
   line-height: 1.7;
   color: var(--text-secondary);
   display: none;
+  position: relative;
+}
+
+.mcq-explanation::before {
+  content: '💡';
+  position: absolute;
+  top: -12px;
+  inset-inline-start: 14px;
+  background: var(--bg-card);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: 1px solid var(--accent);
 }
 
 .mcq-explanation.show {
@@ -944,31 +1455,35 @@ body {
   transition: all 0.2s;
 }
 
-.qa-card:hover { border-color: var(--success); }
+.qa-card:hover {
+  border-color: var(--success);
+  box-shadow: var(--shadow-sm);
+}
 
 .qa-question {
-  padding: 14px 16px;
+  padding: 16px 18px;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   transition: background 0.15s;
 }
 
 .qa-question:hover { background: var(--bg-card-hover); }
 
 .qa-question .q-icon {
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
   background: var(--success-dim);
   color: var(--success);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 800;
   flex-shrink: 0;
+  border: 1px solid var(--success);
 }
 
 .qa-question .q-text {
@@ -980,11 +1495,18 @@ body {
 
 .qa-question .q-toggle {
   color: var(--text-dim);
-  font-size: 16px;
+  font-size: 14px;
   transition: transform 0.3s;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-tertiary);
+  border-radius: 6px;
 }
 
-.qa-card.open .q-toggle { transform: rotate(180deg); }
+.qa-card.open .q-toggle { transform: rotate(180deg); color: var(--success); }
 
 .qa-answer {
   max-height: 0;
@@ -995,8 +1517,8 @@ body {
 .qa-card.open .qa-answer { max-height: 600px; }
 
 .qa-answer-inner {
-  padding: 0 16px 16px 56px;
-  font-size: 13px;
+  padding: 0 18px 18px 64px;
+  font-size: 14px;
   color: var(--success);
   font-weight: 500;
   line-height: 1.7;
@@ -1005,62 +1527,82 @@ body {
 
 .qa-answer-inner .arrow {
   color: var(--warning);
-  margin-inline-end: 6px;
-  font-weight: 700;
+  margin-inline-end: 8px;
+  font-weight: 800;
 }
 
 /* ============ FLASHCARDS ============ */
+.flashcard-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .flashcard-controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
-.flashcard-progress {
-  font-size: 13px;
-  color: var(--text-muted);
-  font-weight: 600;
+.flashcard-progress-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.flashcard-nav { display: flex; gap: 6px; }
-
-.flashcard-nav button {
-  padding: 8px 14px;
-  background: var(--bg-tertiary);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text-secondary);
-  font-size: 12px;
-  cursor: pointer;
-  transition: all 0.2s;
-  font-family: inherit;
-  font-weight: 500;
-}
-
-.flashcard-nav button:hover:not(:disabled) {
-  background: var(--bg-card-hover);
+.flashcard-counter {
+  font-size: 14px;
+  font-weight: 700;
   color: var(--text-primary);
 }
 
+.flashcard-counter span {
+  color: var(--accent-hover);
+  font-size: 18px;
+}
+
+.flashcard-nav { display: flex; gap: 8px; }
+
+.flashcard-nav button {
+  padding: 10px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.flashcard-nav button:hover:not(:disabled) {
+  background: var(--accent-dim);
+  color: var(--accent-hover);
+  border-color: var(--accent);
+}
+
 .flashcard-nav button:disabled {
-  opacity: 0.4;
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
 .flashcard-container {
-  perspective: 1000px;
-  min-height: 280px;
+  perspective: 1500px;
+  min-height: 320px;
 }
 
 .flashcard {
   width: 100%;
-  min-height: 280px;
+  min-height: 320px;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.6s;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -1070,70 +1612,108 @@ body {
   position: absolute;
   inset: 0;
   backface-visibility: hidden;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 30px;
+  border-radius: var(--radius-xl);
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
 }
 
 .flashcard-front {
-  background: linear-gradient(135deg, var(--bg-card), var(--bg-tertiary));
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-tertiary) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.flashcard-front::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, var(--accent-dim) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .flashcard-back {
-  background: linear-gradient(135deg, var(--accent-dim), var(--bg-card));
+  background: linear-gradient(135deg, var(--accent-dim) 0%, var(--bg-card) 100%);
   transform: rotateY(180deg);
   border-color: var(--accent);
+  position: relative;
+  overflow: hidden;
+}
+
+.flashcard-back::before {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(16,185,129,0.1) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .flashcard-label {
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   color: var(--text-muted);
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  background: var(--bg-tertiary);
+  border-radius: 20px;
+  border: 1px solid var(--border);
 }
 
 .flashcard-text {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.7;
   color: var(--text-primary);
+  position: relative;
+  z-index: 1;
 }
 
 .flashcard-back .flashcard-text {
   color: var(--accent-hover);
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .flashcard-hint {
-  margin-top: 20px;
-  font-size: 11px;
+  margin-top: 24px;
+  font-size: 12px;
   color: var(--text-dim);
   font-style: italic;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--bg-tertiary);
+  border-radius: 20px;
 }
 
 /* ============ MNEMONICS ============ */
 .mnemonics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
 }
 
 .mnemonic-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 20px;
+  padding: 22px;
   position: relative;
   overflow: hidden;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .mnemonic-card::before {
@@ -1142,73 +1722,111 @@ body {
   top: 0;
   inset-inline-start: 0;
   inset-inline-end: 0;
-  height: 3px;
-  background: linear-gradient(90deg, var(--warning), var(--pink));
+  height: 4px;
+  background: var(--gradient-warm);
 }
 
 .mnemonic-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
   border-color: var(--warning);
 }
 
-.mnemonic-card .mn-icon { font-size: 26px; margin-bottom: 10px; }
+.mnemonic-card .mn-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.mnemonic-card .mn-icon-wrap {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--warning-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+  border: 1px solid var(--warning);
+}
 
 .mnemonic-card .mn-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--warning);
-  margin-bottom: 4px;
+  letter-spacing: -0.2px;
 }
 
 .mnemonic-card .mn-code {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--pink);
-  margin-bottom: 12px;
-  font-weight: 600;
+  margin: 8px 0 14px;
+  font-weight: 700;
+  padding: 6px 12px;
+  background: var(--pink-dim);
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid rgba(236,72,153,0.2);
 }
 
 .mnemonic-card .mn-items { list-style: none; }
 
 .mnemonic-card .mn-items li {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-secondary);
-  padding: 4px 0;
+  padding: 6px 0;
   display: flex;
-  gap: 8px;
+  gap: 10px;
   line-height: 1.6;
+  border-bottom: 1px dashed var(--border);
 }
+
+.mnemonic-card .mn-items li:last-child { border-bottom: none; }
 
 .mnemonic-card .mn-items li .letter {
   color: var(--success);
-  font-weight: 700;
+  font-weight: 800;
   font-family: var(--font-mono);
-  min-width: 18px;
+  min-width: 22px;
+  background: var(--success-dim);
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 12px;
 }
 
 /* ============ EMPTY STATE ============ */
 .empty-state {
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
   color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
 }
 
 .empty-state .es-icon {
-  font-size: 56px;
-  margin-bottom: 14px;
+  font-size: 64px;
+  margin-bottom: 16px;
   opacity: 0.5;
+  filter: grayscale(0.3);
 }
 
 .empty-state h3 {
-  font-size: 17px;
+  font-size: 18px;
   color: var(--text-secondary);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  font-weight: 700;
 }
 
 .empty-state p {
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.6;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 /* Loading */
@@ -1219,11 +1837,12 @@ body {
   justify-content: center;
   height: 100vh;
   gap: 20px;
+  background: var(--bg-primary);
 }
 
 .loading-spinner {
-  width: 48px;
-  height: 48px;
+  width: 52px;
+  height: 52px;
   border: 3px solid var(--border);
   border-top-color: var(--accent);
   border-radius: 50%;
@@ -1233,6 +1852,7 @@ body {
 .loading-text {
   font-size: 14px;
   color: var(--text-muted);
+  font-weight: 500;
 }
 
 /* Toast */
@@ -1249,17 +1869,18 @@ body {
 .toast {
   background: var(--bg-elevated);
   border: 1px solid var(--border);
-  border-inline-start: 3px solid var(--accent);
-  border-radius: 8px;
-  padding: 12px 16px;
-  min-width: 260px;
-  max-width: 400px;
+  border-inline-start: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 14px 18px;
+  min-width: 280px;
+  max-width: 420px;
   box-shadow: var(--shadow-lg);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   animation: slideIn 0.3s ease;
   font-size: 13px;
+  font-weight: 500;
 }
 
 @keyframes slideIn {
@@ -1271,7 +1892,7 @@ body {
 .toast.error { border-inline-start-color: var(--danger); }
 .toast.warning { border-inline-start-color: var(--warning); }
 
-.toast-icon { font-size: 16px; flex-shrink: 0; }
+.toast-icon { font-size: 18px; flex-shrink: 0; }
 .toast-message { flex: 1; color: var(--text-primary); }
 
 /* Modal */
@@ -1279,7 +1900,7 @@ body {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(8px);
   display: none;
   align-items: center;
   justify-content: center;
@@ -1295,51 +1916,59 @@ body {
 .modal {
   background: var(--bg-secondary);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   width: 100%;
-  max-width: 500px;
+  max-width: 520px;
   max-height: 90vh;
   overflow-y: auto;
   box-shadow: var(--shadow-lg);
-  animation: slideUp 0.25s ease;
+  animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @keyframes slideUp {
-  from { transform: translateY(20px); opacity: 0; }
+  from { transform: translateY(30px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
 
 .modal-header {
-  padding: 18px 22px;
+  padding: 20px 24px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: linear-gradient(135deg, rgba(6,182,212,0.05), transparent);
 }
 
-.modal-header h3 { font-size: 16px; font-weight: 700; }
+.modal-header h3 {
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 .modal-close {
-  width: 30px;
-  height: 30px;
-  border: none;
-  background: transparent;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
   color: var(--text-muted);
   cursor: pointer;
-  border-radius: 6px;
-  font-size: 18px;
+  border-radius: 8px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s;
 }
 
 .modal-close:hover {
-  background: var(--bg-tertiary);
+  background: var(--bg-card-hover);
   color: var(--text-primary);
 }
 
 .modal-body {
-  padding: 22px;
+  padding: 24px;
   font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.7;
@@ -1347,9 +1976,13 @@ body {
 
 .modal-body h4 {
   color: var(--text-primary);
-  margin-bottom: 8px;
-  margin-top: 14px;
+  margin-bottom: 10px;
+  margin-top: 18px;
   font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .modal-body h4:first-child { margin-top: 0; }
@@ -1357,36 +1990,38 @@ body {
 .modal-body ul {
   list-style: none;
   padding: 0;
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 .modal-body ul li {
-  padding: 4px 0 4px 20px;
+  padding: 8px 0 8px 24px;
   position: relative;
   font-size: 13px;
+  line-height: 1.6;
 }
 
 .modal-body ul li::before {
-  content: '•';
+  content: '✦';
   position: absolute;
-  inset-inline-start: 6px;
+  inset-inline-start: 4px;
   color: var(--accent);
-  font-weight: bold;
+  font-size: 12px;
 }
 
 .modal-footer {
-  padding: 14px 22px;
+  padding: 16px 24px;
   border-top: 1px solid var(--border);
   display: flex;
   justify-content: flex-end;
   gap: 8px;
+  background: var(--bg-tertiary);
 }
 
 .btn {
-  padding: 9px 18px;
-  border-radius: 8px;
+  padding: 10px 20px;
+  border-radius: 10px;
   border: none;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
@@ -1397,13 +2032,14 @@ body {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), var(--success));
+  background: var(--gradient-primary);
   color: white;
+  box-shadow: 0 4px 12px var(--accent-glow);
 }
 
 .btn-primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px var(--accent-glow);
+  box-shadow: 0 6px 20px var(--accent-glow);
 }
 
 .btn-secondary {
@@ -1434,19 +2070,45 @@ body {
 
   .sidebar.open { transform: translateX(0) !important; }
   .mobile-toggle { display: flex; }
-  .content { padding: 20px 16px; padding-top: 60px; }
-  .topbar { padding-inline-start: 56px; }
+  .content { padding: 20px 16px; padding-top: 24px; }
+  .topbar { padding: 12px 16px; padding-inline-start: 56px; }
   .category-grid, .subjects-grid, .topics-list { grid-template-columns: 1fr; }
-  .welcome h1 { font-size: 24px; }
-  .content-header h1 { font-size: 22px; }
+  .dashboard-hero { padding: 32px 24px; }
+  .dashboard-hero h1 { font-size: 26px; }
+  .content-hero { padding: 24px 20px; }
+  .content-hero h1 { font-size: 22px; }
   .mnemonics-grid { grid-template-columns: 1fr; }
+  .mcq-card { padding: 20px; }
+  .mcq-question { font-size: 15px; }
+  .flashcard-face { padding: 28px 20px; }
+  .flashcard-text { font-size: 17px; }
+  .hero-stats { gap: 8px; }
+  .hero-stat { min-width: 110px; padding: 10px 14px; }
+}
+
+.mobile-toggle {
+  display: none;
+  position: fixed;
+  top: 12px;
+  inset-inline-start: 12px;
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-overlay {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.6);
   z-index: 140;
 }
 
@@ -1457,12 +2119,7 @@ body {
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
-/* RTL UI adjustments */
 [dir="rtl"] .breadcrumb-sep { transform: scaleX(-1); }
-[dir="rtl"] .q-toggle,
-[dir="rtl"] .tc-arrow,
-[dir="rtl"] .ni-arrow { transform: scaleX(-1); }
-[dir="rtl"] .qa-card.open .q-toggle { transform: rotate(180deg) scaleX(-1); }
 </style>
 </head>
 <body>
@@ -1472,8 +2129,9 @@ body {
   <div class="loading-text" id="loadingText">Loading content...</div>
 </div>
 
+<button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
+
 <div class="app" id="app" style="display:none">
-  <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <div class="logo">🩺</div>
@@ -1501,9 +2159,9 @@ body {
 
   <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
 
-  <!-- MAIN -->
   <main class="main">
     <div class="topbar">
+      <button class="back-btn" id="backBtn" onclick="goBack()" title="Go back">←</button>
       <button class="toggle-sidebar-btn" onclick="toggleSidebar()">☰</button>
       <div class="topbar-title">
         <h2 id="topbarTitle">🩺 MedExit</h2>
@@ -1523,36 +2181,24 @@ body {
   </main>
 </div>
 
-<!-- MODAL -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal" id="modal"></div>
 </div>
 
-<!-- TOASTS -->
 <div class="toast-container" id="toastContainer"></div>
 
 <script>
 // ==================== RTL DETECTION ====================
-// Detects if text contains Arabic/Pashto/Dari script characters
 function isRTLText(text) {
   if (!text) return false;
-  // Arabic Unicode block: U+0600 to U+06FF, plus Arabic Supplement, Extended, etc.
-  const arabicRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/;
-  return arabicRegex.test(text);
+  return /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/.test(text);
 }
 
-// Returns CSS class based on text direction
 function dirClass(text) {
   return isRTLText(text) ? 'rtl-content' : 'ltr-content';
 }
 
-// Wraps text in a span with proper direction
-function dirSpan(text, extraClass = '') {
-  const cls = isRTLText(text) ? 'rtl-content' : 'ltr-content';
-  return `<span class="${cls} ${extraClass}">${escapeHtml(text)}</span>`;
-}
-
-// ==================== I18N (UI only) ====================
+// ==================== I18N ====================
 const i18n = {
   en: {
     loading: 'Loading content...',
@@ -1562,6 +2208,7 @@ const i18n = {
     about: 'About',
     footer: '© 2026 MedExit — Medical Education',
     home: 'Home',
+    dashboard: 'Dashboard',
     categories: 'Categories',
     subjects: 'Subjects',
     topics: 'Topics',
@@ -1581,10 +2228,10 @@ const i18n = {
     refreshSuccess: 'Content refreshed successfully',
     card: 'Card',
     of: 'of',
-    previous: '← Previous',
-    next: 'Next →',
+    previous: 'Previous',
+    next: 'Next',
     welcomeTitle: 'Welcome to MedExit',
-    welcomeDesc: 'Your comprehensive medical exit exam preparation platform. Select a category to begin studying.',
+    welcomeDesc: 'Your comprehensive medical exit exam preparation platform. Select a category to begin your journey.',
     totalMCQs: 'Total MCQs',
     totalQA: 'Q&A Items',
     totalFlash: 'Flashcards',
@@ -1603,7 +2250,19 @@ const i18n = {
       'Organized by Paraclinic, Clinic, and NMLE Qbanks',
       'Offline support via PWA'
     ],
-    ok: 'OK'
+    ok: 'OK',
+    back: 'Back',
+    exploreCategories: 'Explore Categories',
+    startStudying: 'Start Studying',
+    progress: 'Progress',
+    answered: 'Answered',
+    correct: 'Correct',
+    wrong: 'Wrong',
+    remaining: 'Remaining',
+    items: 'items',
+    topic: 'Topic',
+    subject: 'Subject',
+    category: 'Category'
   },
   ps: {
     loading: 'منځپانګه بار کیږي...',
@@ -1613,6 +2272,7 @@ const i18n = {
     about: 'په اړه',
     footer: '© ۲۰۲۶ MedExit — طبي زده کړې',
     home: 'کور',
+    dashboard: 'ډشبورډ',
     categories: 'کټګورۍ',
     subjects: 'مضمونونه',
     topics: 'موضوعات',
@@ -1628,12 +2288,12 @@ const i18n = {
     explanation: 'تشریح',
     noContent: 'تر اوسه هیڅ منځپانګه نشته',
     noContentDesc: 'دا برخه هیڅ توکي نلري.',
-    loadingFailed: 'د منځپانګې بارول ناکام شول. مهرباني وکړئ JSON فایل وګورئ.',
+    loadingFailed: 'د منځپانګې بارول ناکام شول.',
     refreshSuccess: 'منځپانګه په بریالیتوب سره تازه شوه',
     card: 'کارډ',
     of: 'د',
-    previous: '← مخکینی',
-    next: 'راتلونکی →',
+    previous: 'مخکینی',
+    next: 'راتلونکی',
     welcomeTitle: 'MedExit ته ښه راغلاست',
     welcomeDesc: 'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم. د زده کړې پیل لپاره یوه کټګوري غوره کړئ.',
     totalMCQs: 'ټول MCQs',
@@ -1641,7 +2301,7 @@ const i18n = {
     totalFlash: 'فلاش کارډونه',
     totalMnem: 'یادګارې',
     aboutTitle: 'د MedExit په اړه',
-    aboutText: 'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیټفارم ده چې MCQs، پوښتنې/ځوابونه، فلاش کارډونه، او یادګارې لري.',
+    aboutText: 'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیټفارم ده.',
     features: 'ځانګړتیاوې',
     featureList: [
       'د UI څو ژبې (انګلیسي، پښتو، دری)',
@@ -1654,7 +2314,19 @@ const i18n = {
       'د پراکلینیک، کلینیک، او NMLE له مخې تنظیم شوی',
       'د PWA له لارې آفلاین ملاتړ'
     ],
-    ok: 'سمه'
+    ok: 'سمه',
+    back: 'شاته',
+    exploreCategories: 'کټګورۍ وپلټئ',
+    startStudying: 'زده کړه پیل کړئ',
+    progress: 'پرمختګ',
+    answered: 'ځواب شوی',
+    correct: 'سم',
+    wrong: 'غلط',
+    remaining: 'پاتې',
+    items: 'توکي',
+    topic: 'موضوع',
+    subject: 'مضمون',
+    category: 'کټګوري'
   },
   dr: {
     loading: 'در حال بارگذاری...',
@@ -1664,6 +2336,7 @@ const i18n = {
     about: 'درباره',
     footer: '© ۲۰۲۶ MedExit — آموزش پزشکی',
     home: 'خانه',
+    dashboard: 'داشبورد',
     categories: 'دسته‌ها',
     subjects: 'مضامین',
     topics: 'موضوعات',
@@ -1679,12 +2352,12 @@ const i18n = {
     explanation: 'توضیح',
     noContent: 'هنوز محتوایی موجود نیست',
     noContentDesc: 'این بخش موردی ندارد.',
-    loadingFailed: 'بارگذاری ناموفق بود. لطفاً فایل JSON را بررسی کنید.',
+    loadingFailed: 'بارگذاری ناموفق بود.',
     refreshSuccess: 'محتوا با موفقیت تازه شد',
     card: 'کارت',
     of: 'از',
-    previous: '→ قبلی',
-    next: 'بعدی ←',
+    previous: 'قبلی',
+    next: 'بعدی',
     welcomeTitle: 'به MedExit خوش آمدید',
     welcomeDesc: 'پلتفرم جامع آمادگی امتحان فراغت طب. یک دسته را برای شروع مطالعه انتخاب کنید.',
     totalMCQs: 'مجموع MCQs',
@@ -1692,7 +2365,7 @@ const i18n = {
     totalFlash: 'فلش کارت‌ها',
     totalMnem: 'یادیارها',
     aboutTitle: 'درباره MedExit',
-    aboutText: 'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است که شامل MCQs، پرسش/پاسخ، فلش کارت‌ها و یادیارها می‌باشد.',
+    aboutText: 'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',
     features: 'ویژگی‌ها',
     featureList: [
       'UI چند زبانه (انگلیسی، پشتو، دری)',
@@ -1705,7 +2378,19 @@ const i18n = {
       'سازماندهی بر اساس پاراکلینیک، کلینیک و NMLE',
       'پشتیبانی آفلاین از طریق PWA'
     ],
-    ok: 'باشه'
+    ok: 'باشه',
+    back: 'بازگشت',
+    exploreCategories: 'کاوش دسته‌ها',
+    startStudying: 'شروع مطالعه',
+    progress: 'پیشرفت',
+    answered: 'پاسخ داده',
+    correct: 'درست',
+    wrong: 'نادرست',
+    remaining: 'باقی‌مانده',
+    items: 'مورد',
+    topic: 'موضوع',
+    subject: 'مضمون',
+    category: 'دسته'
   }
 };
 
@@ -1721,7 +2406,8 @@ let state = {
   currentTab: 'mcqs',
   mcqAnswers: {},
   flashcardIndex: {},
-  openQA: {}
+  openQA: {},
+  history: []
 };
 
 // ==================== I18N HELPERS ====================
@@ -1743,7 +2429,6 @@ function setLanguage(lang) {
   state.language = lang;
   localStorage.setItem('medexit_lang', lang);
   
-  // UI direction based on language
   const isRTL = (lang === 'ps' || lang === 'dr');
   document.documentElement.lang = lang === 'ps' ? 'ps' : lang === 'dr' ? 'fa' : 'en';
   document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
@@ -1754,9 +2439,7 @@ function setLanguage(lang) {
   });
   
   applyI18n();
-  renderBreadcrumb();
-  renderNav();
-  renderContent();
+  renderAll();
 }
 
 function toggleTheme() {
@@ -1784,8 +2467,8 @@ async function loadData() {
     console.error('Load error:', err);
     document.getElementById('loadingScreen').innerHTML = `
       <div style="text-align:center;padding:20px;">
-        <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
-        <h3 style="color:var(--text-primary);margin-bottom:8px;">${t('loadingFailed')}</h3>
+        <div style="font-size:56px;margin-bottom:16px;">⚠️</div>
+        <h3 style="color:var(--text-primary);margin-bottom:8px;font-size:18px;">${t('loadingFailed')}</h3>
         <p style="color:var(--text-muted);font-size:13px;margin-bottom:20px;">${err.message}</p>
         <button class="btn btn-primary" onclick="location.reload()">🔄 ${t('refresh')}</button>
       </div>
@@ -1869,12 +2552,109 @@ function getCategoryIcon(catId) {
   return icons[catId] || '📚';
 }
 
+function getCategoryColorClass(catId) {
+  const colors = { paraclinic: 'cyan', clinic: 'pink', nmle: 'purple' };
+  return colors[catId] || 'cyan';
+}
+
+// ==================== NAVIGATION ====================
+function pushHistory() {
+  state.history.push({
+    view: state.view,
+    categoryId: state.categoryId,
+    subjectId: state.subjectId,
+    topicId: state.topicId,
+    currentTab: state.currentTab
+  });
+  if (state.history.length > 20) state.history.shift();
+}
+
+function goBack() {
+  if (state.history.length > 0) {
+    const prev = state.history.pop();
+    state.view = prev.view;
+    state.categoryId = prev.categoryId;
+    state.subjectId = prev.subjectId;
+    state.topicId = prev.topicId;
+    state.currentTab = prev.currentTab;
+    renderAll();
+    window.scrollTo(0, 0);
+  } else {
+    goHome();
+  }
+}
+
+function goHome() {
+  pushHistory();
+  state.view = 'home';
+  state.categoryId = null;
+  state.subjectId = null;
+  state.topicId = null;
+  state.currentTab = 'mcqs';
+  renderAll();
+  window.scrollTo(0, 0);
+}
+
+function openCategory(catId) {
+  pushHistory();
+  state.view = 'category';
+  state.categoryId = catId;
+  state.subjectId = null;
+  state.topicId = null;
+  state.currentTab = 'mcqs';
+  renderAll();
+  window.scrollTo(0, 0);
+  closeSidebar();
+}
+
+function openSubject(catId, subId) {
+  pushHistory();
+  state.view = 'subject';
+  state.categoryId = catId;
+  state.subjectId = subId;
+  state.topicId = null;
+  state.currentTab = 'mcqs';
+  renderAll();
+  window.scrollTo(0, 0);
+  closeSidebar();
+}
+
+function openTopic(catId, subId, topicId) {
+  pushHistory();
+  state.view = 'topic';
+  state.categoryId = catId;
+  state.subjectId = subId;
+  state.topicId = topicId;
+  state.currentTab = 'mcqs';
+  renderAll();
+  window.scrollTo(0, 0);
+  closeSidebar();
+}
+
+function switchTab(tab) {
+  state.currentTab = tab;
+  document.querySelectorAll('.content-tab').forEach(t => {
+    const onclick = t.getAttribute('onclick') || '';
+    t.classList.toggle('active', onclick.includes(`'${tab}'`));
+  });
+  document.querySelectorAll('.content-panel').forEach(p => p.classList.remove('active'));
+  const panel = document.getElementById(`panel-${tab}`);
+  if (panel) panel.classList.add('active');
+}
+
 // ==================== RENDERING ====================
 function renderAll() {
   applyI18n();
   renderBreadcrumb();
   renderNav();
   renderContent();
+  updateBackButton();
+}
+
+function updateBackButton() {
+  const backBtn = document.getElementById('backBtn');
+  const isHome = state.view === 'home';
+  backBtn.classList.toggle('visible', !isHome);
 }
 
 function renderBreadcrumb() {
@@ -1885,7 +2665,7 @@ function renderBreadcrumb() {
     const cat = getCategory(state.categoryId);
     if (cat) {
       html += `<span class="breadcrumb-sep">›</span>`;
-      html += `<span class="breadcrumb-item ${state.view === 'category' ? 'current' : ''}" onclick="openCategory('${cat.id}')">${getCategoryIcon(cat.id)} ${escapeHtml(cat.name)}</span>`;
+      html += `<span class="breadcrumb-item ${state.view === 'category' ? 'current' : ''}" onclick="openCategoryDirect('${cat.id}')">${getCategoryIcon(cat.id)} ${escapeHtml(cat.name)}</span>`;
     }
   }
   
@@ -1893,7 +2673,7 @@ function renderBreadcrumb() {
     const sub = getSubject(state.categoryId, state.subjectId);
     if (sub) {
       html += `<span class="breadcrumb-sep">›</span>`;
-      html += `<span class="breadcrumb-item ${state.view === 'subject' ? 'current' : ''}" onclick="openSubject('${state.categoryId}','${sub.id}')">${sub.icon || '📖'} ${escapeHtml(sub.name)}</span>`;
+      html += `<span class="breadcrumb-item ${state.view === 'subject' ? 'current' : ''}" onclick="openSubjectDirect('${state.categoryId}','${sub.id}')">${sub.icon || '📖'} ${escapeHtml(sub.name)}</span>`;
     }
   }
   
@@ -1908,11 +2688,35 @@ function renderBreadcrumb() {
   bc.innerHTML = html;
 }
 
+function openCategoryDirect(catId) {
+  state.view = 'category';
+  state.categoryId = catId;
+  state.subjectId = null;
+  state.topicId = null;
+  state.history = [];
+  renderAll();
+}
+
+function openSubjectDirect(catId, subId) {
+  state.view = 'subject';
+  state.categoryId = catId;
+  state.subjectId = subId;
+  state.topicId = null;
+  state.history = [];
+  renderAll();
+}
+
 function renderNav() {
   const nav = document.getElementById('navList');
   
   if (state.view === 'home') {
     let html = `<div class="nav-section-title">${t('categories')}</div>`;
+    html += `
+      <div class="nav-item ${state.view === 'home' ? 'active' : ''}" onclick="goHome()">
+        <span class="ni-icon">🏠</span>
+        <span class="ni-name">${t('dashboard')}</span>
+      </div>
+    `;
     getCategories().forEach(cat => {
       const counts = countItemsInCategory(cat);
       html += `
@@ -1920,7 +2724,6 @@ function renderNav() {
           <span class="ni-icon">${getCategoryIcon(cat.id)}</span>
           <span class="ni-name">${escapeHtml(cat.name)}</span>
           <span class="ni-count">${counts.total}</span>
-          <span class="ni-arrow">›</span>
         </div>
       `;
     });
@@ -1930,11 +2733,10 @@ function renderNav() {
     getSubjects(state.categoryId).forEach(sub => {
       const counts = countItemsInSubject(sub);
       html += `
-        <div class="nav-item ${state.subjectId === sub.id ? 'active' : ''}" onclick="openSubject('${state.categoryId}','${sub.id}')">
+        <div class="nav-item" onclick="openSubject('${state.categoryId}','${sub.id}')">
           <span class="ni-icon">${sub.icon || '📖'}</span>
           <span class="ni-name">${escapeHtml(sub.name)}</span>
           <span class="ni-count">${counts.total}</span>
-          <span class="ni-arrow">›</span>
         </div>
       `;
     });
@@ -1944,12 +2746,12 @@ function renderNav() {
     getTopics(state.categoryId, state.subjectId).forEach(topic => {
       const c = topic.content || {};
       const total = (c.mcqs || []).length + (c.qa || []).length + (c.flashcards || []).length + (c.mnemonics || []).length;
+      const isActive = state.topicId === topic.id;
       html += `
-        <div class="nav-item ${state.topicId === topic.id ? 'active' : ''}" onclick="openTopic('${state.categoryId}','${state.subjectId}','${topic.id}')">
+        <div class="nav-item ${isActive ? 'active' : ''}" onclick="openTopic('${state.categoryId}','${state.subjectId}','${topic.id}')">
           <span class="ni-icon">${topic.icon || '📌'}</span>
           <span class="ni-name">${escapeHtml(topic.name)}</span>
           <span class="ni-count">${total}</span>
-          <span class="ni-arrow">›</span>
         </div>
       `;
     });
@@ -1963,7 +2765,7 @@ function renderContent() {
   const topbarSubtitle = document.getElementById('topbarSubtitle');
   
   if (state.view === 'home') {
-    renderHome();
+    renderDashboard();
     topbarTitle.innerHTML = '🩺 MedExit';
     topbarSubtitle.textContent = t('subtitle');
   } else if (state.view === 'category') {
@@ -1979,12 +2781,12 @@ function renderContent() {
   } else if (state.view === 'topic') {
     renderTopicView();
     const topic = getTopic(state.categoryId, state.subjectId, state.topicId);
-    topbarTitle.innerHTML = `<span style="cursor:pointer" onclick="openSubject('${state.categoryId}','${state.subjectId}')">←</span> ${topic?.icon || '📌'} ${escapeHtml(topic.name)}`;
-    topbarSubtitle.textContent = topic?.description || '';
+    topbarTitle.innerHTML = `${topic?.icon || '📌'} ${escapeHtml(topic.name)}`;
+    topbarSubtitle.textContent = topic?.description ? escapeHtml(topic.description).substring(0, 60) + '...' : '';
   }
 }
 
-function renderHome() {
+function renderDashboard() {
   const content = document.getElementById('content');
   const categories = getCategories();
   
@@ -1998,33 +2800,47 @@ function renderHome() {
   });
   
   let html = `
-    <div class="welcome">
-      <div class="welcome-hero">
-        <div class="welcome-icon">🩺</div>
+    <div class="dashboard">
+      <div class="dashboard-hero">
+        <div class="hero-badge">✨ ${t('dashboard')}</div>
         <h1>${t('welcomeTitle')}</h1>
         <p>${t('welcomeDesc')}</p>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hs-icon cyan">📋</div>
+            <div>
+              <div class="hs-value">${totalMCQs}</div>
+              <div class="hs-label">${t('totalMCQs')}</div>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div class="hs-icon green">💬</div>
+            <div>
+              <div class="hs-value">${totalQA}</div>
+              <div class="hs-label">${t('totalQA')}</div>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div class="hs-icon purple">🎴</div>
+            <div>
+              <div class="hs-value">${totalFlash}</div>
+              <div class="hs-label">${t('totalFlash')}</div>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div class="hs-icon orange">🧠</div>
+            <div>
+              <div class="hs-value">${totalMnem}</div>
+              <div class="hs-label">${t('totalMnem')}</div>
+            </div>
+          </div>
+        </div>
       </div>
       
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-icon">📋</div>
-          <div class="stat-value">${totalMCQs}</div>
-          <div class="stat-label">${t('totalMCQs')}</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">💬</div>
-          <div class="stat-value">${totalQA}</div>
-          <div class="stat-label">${t('totalQA')}</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">🎴</div>
-          <div class="stat-value">${totalFlash}</div>
-          <div class="stat-label">${t('totalFlash')}</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">🧠</div>
-          <div class="stat-value">${totalMnem}</div>
-          <div class="stat-label">${t('totalMnem')}</div>
+      <div class="section-header">
+        <div>
+          <h2>${t('exploreCategories')}</h2>
+          <div class="section-subtitle">${categories.length} ${t('categories')}</div>
         </div>
       </div>
       
@@ -2033,17 +2849,35 @@ function renderHome() {
   
   categories.forEach(cat => {
     const counts = countItemsInCategory(cat);
+    const colorClass = getCategoryColorClass(cat.id);
     html += `
       <div class="category-card" onclick="openCategory('${cat.id}')">
-        <div class="cc-icon">${getCategoryIcon(cat.id)}</div>
-        <h3>${escapeHtml(cat.name)}</h3>
-        ${cat.description ? `<div class="cc-desc ${dirClass(cat.description)}">${escapeHtml(cat.description)}</div>` : ''}
-        <div class="cc-stats">
-          <span>📋 ${counts.mcqs} MCQs</span>
-          <span>💬 ${counts.qa} Q&A</span>
-          <span>🎴 ${counts.flash}</span>
-          <span>🧠 ${counts.mnem}</span>
+        <div class="cc-header">
+          <div class="cc-icon-wrap ${colorClass}">${getCategoryIcon(cat.id)}</div>
+          <div class="cc-title">
+            <h3>${escapeHtml(cat.name)}</h3>
+            ${cat.description ? `<div class="cc-desc ${dirClass(cat.description)}">${escapeHtml(cat.description)}</div>` : ''}
+          </div>
         </div>
+        <div class="cc-stats">
+          <div class="cc-stat mcq">
+            <div class="cc-stat-value">${counts.mcqs}</div>
+            <div class="cc-stat-label">MCQs</div>
+          </div>
+          <div class="cc-stat qa">
+            <div class="cc-stat-value">${counts.qa}</div>
+            <div class="cc-stat-label">Q&A</div>
+          </div>
+          <div class="cc-stat flash">
+            <div class="cc-stat-value">${counts.flash}</div>
+            <div class="cc-stat-label">${t('flashcards')}</div>
+          </div>
+          <div class="cc-stat mnem">
+            <div class="cc-stat-value">${counts.mnem}</div>
+            <div class="cc-stat-label">${t('mnemonics')}</div>
+          </div>
+        </div>
+        <div class="cc-arrow">→</div>
       </div>
     `;
   });
@@ -2063,6 +2897,7 @@ function renderCategoryView() {
       <div class="empty-state" style="grid-column:1/-1">
         <div class="es-icon">📭</div>
         <h3>${t('noContent')}</h3>
+        <p>${t('noContentDesc')}</p>
       </div>
     `;
   } else {
@@ -2070,9 +2905,12 @@ function renderCategoryView() {
       const counts = countItemsInSubject(sub);
       html += `
         <div class="subject-card" onclick="openSubject('${state.categoryId}','${sub.id}')">
-          <div class="sc-icon">${sub.icon || '📖'}</div>
+          <div class="sc-icon-wrap">${sub.icon || '📖'}</div>
           <h3 class="${dirClass(sub.name)}">${escapeHtml(sub.name)}</h3>
-          <div class="sc-count">${(sub.topics || []).length} ${t('topics')} • ${counts.total} items</div>
+          <div class="sc-meta">
+            <span>📚 ${(sub.topics || []).length} ${t('topics')}</span>
+            <span>📋 ${counts.total} ${t('items')}</span>
+          </div>
         </div>
       `;
     });
@@ -2093,6 +2931,7 @@ function renderSubjectView() {
       <div class="empty-state" style="grid-column:1/-1">
         <div class="es-icon">📭</div>
         <h3>${t('noContent')}</h3>
+        <p>${t('noContentDesc')}</p>
       </div>
     `;
   } else {
@@ -2108,14 +2947,14 @@ function renderSubjectView() {
           <div class="tc-icon">${topic.icon || '📌'}</div>
           <div class="tc-content">
             <div class="tc-name ${dirClass(topic.name)}">${escapeHtml(topic.name)}</div>
-            <div class="tc-meta">
-              ${mcqCount ? `<span>📋 ${mcqCount}</span>` : ''}
-              ${qaCount ? `<span>💬 ${qaCount}</span>` : ''}
-              ${flashCount ? `<span>🎴 ${flashCount}</span>` : ''}
-              ${mnemCount ? `<span>🧠 ${mnemCount}</span>` : ''}
+            <div class="tc-badges">
+              ${mcqCount ? `<span class="tc-badge mcq">📋 ${mcqCount}</span>` : ''}
+              ${qaCount ? `<span class="tc-badge qa">💬 ${qaCount}</span>` : ''}
+              ${flashCount ? `<span class="tc-badge flash">🎴 ${flashCount}</span>` : ''}
+              ${mnemCount ? `<span class="tc-badge mnem">🧠 ${mnemCount}</span>` : ''}
             </div>
           </div>
-          <div class="tc-arrow">›</div>
+          <div class="tc-arrow">→</div>
         </div>
       `;
     });
@@ -2137,21 +2976,29 @@ function renderTopicView() {
   const mnemonics = c.mnemonics || [];
   
   const topicKey = `${state.categoryId}_${state.subjectId}_${state.topicId}`;
+  const cat = getCategory(state.categoryId);
+  const sub = getSubject(state.categoryId, state.subjectId);
   
   let html = `
     <div class="content-viewer">
-      <div class="content-header">
-        <div class="ch-icon">${topic.icon || '📌'}</div>
-        <h1 class="${dirClass(topic.name)}">${escapeHtml(topic.name)}</h1>
-        <div class="ch-path">
-          ${escapeHtml(getCategory(state.categoryId).name)} › ${escapeHtml(getSubject(state.categoryId, state.subjectId).name)}
+      <div class="content-hero">
+        <div class="ch-top">
+          <div class="ch-icon-wrap">${topic.icon || '📌'}</div>
+          <div class="ch-info">
+            <h1 class="${dirClass(topic.name)}">${escapeHtml(topic.name)}</h1>
+            <div class="ch-path">
+              <span>${getCategoryIcon(cat.id)} ${escapeHtml(cat.name)}</span>
+              <span style="color:var(--text-dim)">›</span>
+              <span>${sub?.icon || '📖'} ${escapeHtml(sub.name)}</span>
+            </div>
+          </div>
         </div>
-        ${topic.description ? `<p class="${dirClass(topic.description)}" style="color:var(--text-secondary);font-size:14px;margin-bottom:14px;line-height:1.7">${escapeHtml(topic.description)}</p>` : ''}
-        <div class="ch-stats">
-          ${mcqs.length ? `<div class="ch-stat-badge mcq">📋 ${mcqs.length} ${t('mcqs')}</div>` : ''}
-          ${qa.length ? `<div class="ch-stat-badge qa">💬 ${qa.length} ${t('qa')}</div>` : ''}
-          ${flashcards.length ? `<div class="ch-stat-badge flash">🎴 ${flashcards.length} ${t('flashcards')}</div>` : ''}
-          ${mnemonics.length ? `<div class="ch-stat-badge mnem">🧠 ${mnemonics.length} ${t('mnemonics')}</div>` : ''}
+        ${topic.description ? `<div class="ch-description ${dirClass(topic.description)}">${escapeHtml(topic.description)}</div>` : ''}
+        <div class="ch-badges">
+          ${mcqs.length ? `<div class="ch-badge mcq">📋 ${mcqs.length} ${t('mcqs')}</div>` : ''}
+          ${qa.length ? `<div class="ch-badge qa">💬 ${qa.length} ${t('qa')}</div>` : ''}
+          ${flashcards.length ? `<div class="ch-badge flash">🎴 ${flashcards.length} ${t('flashcards')}</div>` : ''}
+          ${mnemonics.length ? `<div class="ch-badge mnem">🧠 ${mnemonics.length} ${t('mnemonics')}</div>` : ''}
         </div>
       </div>
       
@@ -2206,32 +3053,61 @@ function renderMCQs(mcqs, topicKey) {
   const answers = state.mcqAnswers[topicKey] || {};
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
   
-  let html = `<div class="mcq-list">`;
+  const answered = Object.keys(answers).length;
+  const correct = Object.entries(answers).filter(([qIdx, optIdx]) => mcqs[qIdx].answer === optIdx).length;
+  const wrong = answered - correct;
+  const progress = mcqs.length > 0 ? (answered / mcqs.length) * 100 : 0;
+  
+  let html = `
+    <div class="mcq-progress">
+      <div class="mcq-progress-info">
+        <div class="mcq-progress-label">${t('progress')}</div>
+        <div class="mcq-progress-bar">
+          <div class="mcq-progress-fill" style="width: ${progress}%"></div>
+        </div>
+      </div>
+      <div class="mcq-progress-stats">
+        <div class="stat correct">✓ ${correct}</div>
+        <div class="stat wrong">✗ ${wrong}</div>
+        <div class="stat.remaining">${mcqs.length - answered} ${t('remaining')}</div>
+      </div>
+    </div>
+    <div class="mcq-list">
+  `;
   
   mcqs.forEach((mcq, qIdx) => {
-    const answered = answers[qIdx] !== undefined;
+    const wasAnswered = answers[qIdx] !== undefined;
     const selected = answers[qIdx];
     const correctIdx = mcq.answer;
     const question = mcq.q || mcq.question || '';
     const options = mcq.options || [];
     const explanation = mcq.explanation || mcq.explain || '';
+    const isCorrect = wasAnswered && selected === correctIdx;
+    
+    let cardClass = 'mcq-card';
+    if (wasAnswered) cardClass += isCorrect ? ' answered-correct' : ' answered-wrong';
     
     html += `
-      <div class="mcq-card">
-        <div class="mcq-number">${t('question')} ${qIdx + 1}</div>
+      <div class="${cardClass}">
+        <div class="mcq-header">
+          <div class="mcq-number">${t('question')} ${qIdx + 1}</div>
+          <div class="mcq-status">
+            ${isCorrect ? '✓ ' + t('correct') : '✗ ' + t('wrong')}
+          </div>
+        </div>
         <div class="mcq-question ${dirClass(question)}">${escapeHtml(question)}</div>
         <div class="mcq-options">
     `;
     
     options.forEach((opt, oIdx) => {
       let classes = 'mcq-option';
-      if (answered) {
+      if (wasAnswered) {
         classes += ' disabled';
         if (oIdx === correctIdx) classes += ' correct';
         else if (oIdx === selected) classes += ' wrong';
       }
       html += `
-        <div class="${classes}" onclick="${answered ? '' : `answerMCQ('${topicKey}', ${qIdx}, ${oIdx})`}">
+        <div class="${classes}" onclick="${wasAnswered ? '' : `answerMCQ('${topicKey}', ${qIdx}, ${oIdx})`}">
           <div class="opt-letter">${letters[oIdx]}</div>
           <div class="opt-text ${dirClass(opt)}">${escapeHtml(opt)}</div>
         </div>
@@ -2242,8 +3118,8 @@ function renderMCQs(mcqs, topicKey) {
     
     if (explanation) {
       html += `
-        <div class="mcq-explanation ${answered ? 'show' : ''} ${dirClass(explanation)}">
-          <strong>💡 ${t('explanation')}:</strong> ${escapeHtml(explanation)}
+        <div class="mcq-explanation ${wasAnswered ? 'show' : ''} ${dirClass(explanation)}">
+          <strong>${t('explanation')}:</strong> ${escapeHtml(explanation)}
         </div>
       `;
     }
@@ -2305,23 +3181,29 @@ function renderFlashcards(flashcards, topicKey) {
   const back = card.back || card.a || card.answer || '';
   
   return `
-    <div class="flashcard-controls">
-      <div class="flashcard-progress">${t('card')} ${idx + 1} ${t('of')} ${flashcards.length}</div>
-      <div class="flashcard-nav">
-        <button onclick="prevFlashcard('${topicKey}', ${flashcards.length})" ${idx === 0 ? 'disabled' : ''}>${t('previous')}</button>
-        <button onclick="nextFlashcard('${topicKey}', ${flashcards.length})" ${idx === flashcards.length - 1 ? 'disabled' : ''}>${t('next')}</button>
-      </div>
-    </div>
-    <div class="flashcard-container">
-      <div class="flashcard" id="flashcard-${topicKey}" onclick="flipFlashcard('${topicKey}')">
-        <div class="flashcard-face flashcard-front">
-          <div class="flashcard-label">${t('front')}</div>
-          <div class="flashcard-text ${dirClass(front)}">${escapeHtml(front)}</div>
-          <div class="flashcard-hint">${t('tapToFlip')}</div>
+    <div class="flashcard-wrapper">
+      <div class="flashcard-controls">
+        <div class="flashcard-progress-info">
+          <div class="flashcard-counter">
+            <span>${idx + 1}</span> ${t('of')} ${flashcards.length}
+          </div>
         </div>
-        <div class="flashcard-face flashcard-back">
-          <div class="flashcard-label">${t('back')}</div>
-          <div class="flashcard-text ${dirClass(back)}">${escapeHtml(back)}</div>
+        <div class="flashcard-nav">
+          <button onclick="prevFlashcard('${topicKey}', ${flashcards.length})" ${idx === 0 ? 'disabled' : ''}>← ${t('previous')}</button>
+          <button onclick="nextFlashcard('${topicKey}', ${flashcards.length})" ${idx === flashcards.length - 1 ? 'disabled' : ''}>${t('next')} →</button>
+        </div>
+      </div>
+      <div class="flashcard-container">
+        <div class="flashcard" id="flashcard-${topicKey}" onclick="flipFlashcard('${topicKey}')">
+          <div class="flashcard-face flashcard-front">
+            <div class="flashcard-label">${t('front')}</div>
+            <div class="flashcard-text ${dirClass(front)}">${escapeHtml(front)}</div>
+            <div class="flashcard-hint">👆 ${t('tapToFlip')}</div>
+          </div>
+          <div class="flashcard-face flashcard-back">
+            <div class="flashcard-label">${t('back')}</div>
+            <div class="flashcard-text ${dirClass(back)}">${escapeHtml(back)}</div>
+          </div>
         </div>
       </div>
     </div>
@@ -2360,14 +3242,16 @@ function renderMnemonics(mnemonics) {
     
     html += `
       <div class="mnemonic-card">
-        <div class="mn-icon">${mn.icon || '🧠'}</div>
-        <div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div>
+        <div class="mn-header">
+          <div class="mn-icon-wrap">${mn.icon || '🧠'}</div>
+          <div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div>
+        </div>
         ${code ? `<div class="mn-code ${dirClass(code)}">${escapeHtml(code)}</div>` : ''}
         <ul class="mn-items">
           ${items.map(it => `
             <li>
               <span class="letter ${dirClass(it.letter)}">${escapeHtml(it.letter)}</span>
-              <span class="${dirClass(it.text)}">→ ${escapeHtml(it.text)}</span>
+              <span class="${dirClass(it.text)}">${escapeHtml(it.text)}</span>
             </li>
           `).join('')}
         </ul>
@@ -2377,61 +3261,6 @@ function renderMnemonics(mnemonics) {
   
   html += `</div>`;
   return html;
-}
-
-// ==================== NAVIGATION ====================
-function goHome() {
-  state.view = 'home';
-  state.categoryId = null;
-  state.subjectId = null;
-  state.topicId = null;
-  state.currentTab = 'mcqs';
-  renderAll();
-  window.scrollTo(0, 0);
-}
-
-function openCategory(catId) {
-  state.view = 'category';
-  state.categoryId = catId;
-  state.subjectId = null;
-  state.topicId = null;
-  state.currentTab = 'mcqs';
-  renderAll();
-  window.scrollTo(0, 0);
-  closeSidebar();
-}
-
-function openSubject(catId, subId) {
-  state.view = 'subject';
-  state.categoryId = catId;
-  state.subjectId = subId;
-  state.topicId = null;
-  state.currentTab = 'mcqs';
-  renderAll();
-  window.scrollTo(0, 0);
-  closeSidebar();
-}
-
-function openTopic(catId, subId, topicId) {
-  state.view = 'topic';
-  state.categoryId = catId;
-  state.subjectId = subId;
-  state.topicId = topicId;
-  state.currentTab = 'mcqs';
-  renderAll();
-  window.scrollTo(0, 0);
-  closeSidebar();
-}
-
-function switchTab(tab) {
-  state.currentTab = tab;
-  document.querySelectorAll('.content-tab').forEach(t => {
-    const onclick = t.getAttribute('onclick') || '';
-    t.classList.toggle('active', onclick.includes(`'${tab}'`));
-  });
-  document.querySelectorAll('.content-panel').forEach(p => p.classList.remove('active'));
-  const panel = document.getElementById(`panel-${tab}`);
-  if (panel) panel.classList.add('active');
 }
 
 // ==================== SIDEBAR ====================
@@ -2455,7 +3284,7 @@ function openAboutModal() {
     </div>
     <div class="modal-body">
       <p>${t('aboutText')}</p>
-      <h4>${t('features')}</h4>
+      <h4>✨ ${t('features')}</h4>
       <ul>
         ${t('featureList').map(f => `<li>${f}</li>`).join('')}
       </ul>
@@ -2494,7 +3323,17 @@ function toast(message, type = 'info') {
 
 // ==================== KEYBOARD ====================
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') {
+    if (document.getElementById('modalOverlay').classList.contains('show')) {
+      closeModal();
+    } else if (state.view !== 'home') {
+      goBack();
+    }
+  }
+  if ((e.altKey || e.metaKey) && e.key === 'ArrowLeft') {
+    e.preventDefault();
+    goBack();
+  }
 });
 
 // ==================== INIT ====================
