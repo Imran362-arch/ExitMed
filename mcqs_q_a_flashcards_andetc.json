@@ -3,50 +3,126 @@
     {
       "id": "paraclinic",
       "name": "Paraclinic",
-      "icon": "🔬",
+      "icon": "\ud83d\udd2c",
       "description": "Basic medical sciences and diagnostics",
       "subjects": [
         {
           "id": "anatomy",
           "name": "Anatomy",
-          "icon": "🫀",
+          "icon": "\ud83e\udec0",
           "topics": [
             {
               "id": "heart_en",
               "name": "Heart Anatomy",
-              "icon": "❤️",
+              "icon": "\u2764\ufe0f",
               "description": "Structure and function of the heart",
               "content": {
                 "mcqs": [
                   {
                     "q": "Which chamber forms the apex of the heart?",
-                    "options": ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+                    "options": [
+                      "Right atrium",
+                      "Left atrium",
+                      "Right ventricle",
+                      "Left ventricle"
+                    ],
                     "answer": 3,
                     "explanation": "The left ventricle forms the apex, located at the 5th intercostal space midclavicular line."
                   }
                 ],
                 "qa": [
-                  { "q": "What forms the base of the heart?", "a": "Left atrium (mainly) + small part of right atrium" }
+                  {
+                    "q": "What forms the base of the heart?",
+                    "a": "Left atrium (mainly) + small part of right atrium"
+                  }
                 ],
                 "flashcards": [
-                  { "front": "How many cusps does the mitral valve have?", "back": "2 cusps (Anterior and Posterior)" }
+                  {
+                    "front": "How many cusps does the mitral valve have?",
+                    "back": "2 cusps (Anterior and Posterior)"
+                  }
                 ],
                 "mnemonics": [
                   {
                     "title": "Valve Cusps",
-                    "icon": "🧠",
+                    "icon": "\ud83e\udde0",
                     "code": "3-2-3-3",
                     "items": [
-                      { "letter": "3", "text": "Tricuspid = 3 cusps" },
-                      { "letter": "2", "text": "Mitral = 2 cusps" },
-                      { "letter": "3", "text": "Pulmonary = 3 cusps" },
-                      { "letter": "3", "text": "Aortic = 3 cusps" }
+                      {
+                        "letter": "3",
+                        "text": "Tricuspid = 3 cusps"
+                      },
+                      {
+                        "letter": "2",
+                        "text": "Mitral = 2 cusps"
+                      },
+                      {
+                        "letter": "3",
+                        "text": "Pulmonary = 3 cusps"
+                      },
+                      {
+                        "letter": "3",
+                        "text": "Aortic = 3 cusps"
+                      }
                     ]
                   }
                 ]
               }
             }
           ]
+        },
+        {
+          "id": "physiology",
+          "name": "Physiology",
+          "icon": "\u26a1",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "clinic",
+      "name": "Clinic",
+      "icon": "\ud83c\udfe5",
+      "description": "",
+      "subjects": [
+        {
+          "id": "internal_medicine",
+          "name": "Internal Medicine",
+          "icon": "\ud83e\ude7a",
+          "topics": [
+            {
+              "id": "cardiology",
+              "name": "Cardiology",
+              "icon": "\u2764\ufe0f",
+              "description": "Heart and cardiovascular system",
+              "content": {
+                "mcqs": [],
+                "qa": [],
+                "flashcards": [],
+                "mnemonics": []
+              }
+            }
+          ]
+        },
+        {
+          "id": "pediatrics",
+          "name": "Pediatrics",
+          "icon": "\ud83d\udc76",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "id": "nmle",
+      "name": "NMLE Qbanks",
+      "icon": "\ud83d\udcdd",
+      "description": "",
+      "subjects": [
+        {
+          "id": "nmle_step1",
+          "name": "NMLE Step 1",
+          "icon": "\ud83d\udcd7",
+          "topics": []
         }
       ]
     }
