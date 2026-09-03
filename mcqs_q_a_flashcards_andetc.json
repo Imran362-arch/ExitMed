@@ -101,6 +101,18 @@
                 "flashcards": [],
                 "mnemonics": []
               }
+            },
+            {
+              "id": "cardiovascular_disease",
+              "name": "Cardiovascular Disease",
+              "icon": "\u2764\ufe0f",
+              "description": "",
+              "content": {
+                "mcqs": [],
+                "qa": [],
+                "flashcards": [],
+                "mnemonics": []
+              }
             }
           ]
         },
