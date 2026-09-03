@@ -1,0 +1,648 @@
+{
+  "categories": [
+    {
+      "id": "clinic",
+      "name": "Clinic",
+      "icon": "🏥",
+      "subjects": [
+        {
+          "id": "internal_medicine",
+          "name": "Internal Medicine",
+          "icon": "🫀",
+          "topics": [
+            {
+              "id": "cardiovascular_disease",
+              "name": "Cardiovascular Disease",
+              "icon": "❤️",
+              "subtopics": [
+                {
+                  "id": "sudden_cardiac_death",
+                  "name": "Sudden Cardiac Death (SCD)",
+                  "icon": "⚡",
+                  "description": "Unexpected death from cardiac causes within 1 hour of symptom onset",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "What is the definition of Sudden Cardiac Death (SCD)?",
+                        "options": [
+                          "Death within 6 hours of symptom onset",
+                          "Death within 1 hour of symptom onset",
+                          "Death within 24 hours of symptom onset",
+                          "Death within 12 hours of symptom onset"
+                        ],
+                        "answer": 1,
+                        "explanation": "SCD is defined as unexpected death from cardiac causes occurring within 1 hour of symptom onset."
+                      },
+                      {
+                        "q": "What are the 4 phases of Sudden Cardiac Death?",
+                        "options": [
+                          "Warning → Arrest → Death → Recovery",
+                          "Pre-existing disease → Terminal event → Cardiac arrest → Biological death",
+                          "Symptoms → Hospitalization → Arrest → Death",
+                          "Onset → Progression → Arrest → Death"
+                        ],
+                        "answer": 1,
+                        "explanation": "Phase 1 = Pre-existing heart disease, Phase 2 = Onset of terminal event, Phase 3 = Cardiac arrest, Phase 4 = Biological death."
+                      },
+                      {
+                        "q": "Which gender is MORE commonly affected by SCD?",
+                        "options": [
+                          "Females",
+                          "Males",
+                          "Equally in both genders",
+                          "Children only"
+                        ],
+                        "answer": 1,
+                        "explanation": "SCD is more common in males than females."
+                      },
+                      {
+                        "q": "What percentage of SCD cases are the FIRST presentation of cardiovascular disease?",
+                        "options": [
+                          "10%",
+                          "15%",
+                          "25%",
+                          "50%"
+                        ],
+                        "answer": 2,
+                        "explanation": "25% of SCD cases occur as the first manifestation of underlying heart disease."
+                      },
+                      {
+                        "q": "What is the bimodal age distribution of SCD?",
+                        "options": [
+                          "Birth to 6 months and > 65 years",
+                          "10-20 years and 40-50 years",
+                          "Birth to 1 year and > 80 years",
+                          "20-30 years and 60-70 years"
+                        ],
+                        "answer": 0,
+                        "explanation": "SCD shows a bimodal distribution with peaks in infancy (birth to 6 months) and in the elderly (>65 years)."
+                      },
+                      {
+                        "q": "Which of the following is a STRONG risk factor for SCD?",
+                        "options": [
+                          "Hypertension",
+                          "Ejection Fraction (EF) < 35%",
+                          "Diabetes mellitus",
+                          "Obesity"
+                        ],
+                        "answer": 1,
+                        "explanation": "EF < 35% is a major risk factor for SCD, especially in patients with heart failure or after MI."
+                      },
+                      {
+                        "q": "Which of the following is a risk factor for SCD?",
+                        "options": [
+                          "Previous history of Ventricular Tachycardia (VT)",
+                          "Previous history of Supraventricular Tachycardia (SVT)",
+                          "Previous history of Atrial Fibrillation",
+                          "Previous history of Premature Atrial Contractions"
+                        ],
+                        "answer": 0,
+                        "explanation": "VT is a known risk factor for SCD. SVT and AF are not typically considered SCD risk factors."
+                      },
+                      {
+                        "q": "Which of the following cardiomyopathies is a risk factor for SCD?",
+                        "options": [
+                          "Dilated Cardiomyopathy",
+                          "Hypertrophic Cardiomyopathy",
+                          "Arrhythmogenic Right Ventricular Dysplasia",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "Dilated, Hypertrophic, and Arrhythmogenic RV Dysplasia are all cardiomyopathies associated with increased risk of SCD."
+                      },
+                      {
+                        "q": "Which genetic syndrome is a risk factor for SCD?",
+                        "options": [
+                          "Down syndrome",
+                          "Long QT syndrome",
+                          "Turner syndrome",
+                          "Marfan syndrome"
+                        ],
+                        "answer": 1,
+                        "explanation": "Long QT syndrome is a known risk factor for SCD. Brugada syndrome is another."
+                      },
+                      {
+                        "q": "Which of the following ECG syndromes increases SCD risk?",
+                        "options": [
+                          "Wolff-Parkinson-White syndrome",
+                          "Brugada syndrome",
+                          "Early repolarization syndrome",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "WPW, Brugada, and Early repolarization are all associated with increased SCD risk."
+                      },
+                      {
+                        "q": "Which of the following is NOT a risk factor for SCD?",
+                        "options": [
+                          "Previous MI",
+                          "CAD",
+                          "Atrial Fibrillation",
+                          "Family history of SCD"
+                        ],
+                        "answer": 2,
+                        "explanation": "Atrial fibrillation is not typically considered a risk factor for SCD. MI, CAD, and Family history are."
+                      },
+                      {
+                        "q": "Heart failure with what EF is considered high risk for SCD?",
+                        "options": [
+                          "EF < 50%",
+                          "EF < 40%",
+                          "EF < 35%",
+                          "EF < 30%"
+                        ],
+                        "answer": 2,
+                        "explanation": "EF < 35% is the threshold for high SCD risk in heart failure patients."
+                      },
+                      {
+                        "q": "What does the 'C' stand for in the CAB approach of BLS?",
+                        "options": [
+                          "Cardiac output",
+                          "Circulation (Chest Compressions)",
+                          "Cardiopulmonary",
+                          "Carotid pulse"
+                        ],
+                        "answer": 1,
+                        "explanation": "CAB = Circulation (Compressions) → Airway → Breathing."
+                      },
+                      {
+                        "q": "What is the recommended compression rate in BLS?",
+                        "options": [
+                          "80-100 per minute",
+                          "100-120 per minute",
+                          "120-140 per minute",
+                          "60-80 per minute"
+                        ],
+                        "answer": 1,
+                        "explanation": "The 2020 AHA guidelines recommend 100-120 compressions per minute."
+                      },
+                      {
+                        "q": "What is the recommended compression depth in BLS?",
+                        "options": [
+                          "2-3 cm",
+                          "3-4 cm",
+                          "At least 5 cm (2 inches)",
+                          "At least 7 cm (3 inches)"
+                        ],
+                        "answer": 2,
+                        "explanation": "Compression depth should be at least 2 inches (5 cm) for adults."
+                      },
+                      {
+                        "q": "What is the correct compression-to-ventilation ratio in BLS?",
+                        "options": [
+                          "15:2",
+                          "30:2",
+                          "5:1",
+                          "10:1"
+                        ],
+                        "answer": 1,
+                        "explanation": "30 chest compressions followed by 2 rescue breaths."
+                      },
+                      {
+                        "q": "What maneuver is used to open the airway if cervical spine injury is suspected?",
+                        "options": [
+                          "Head tilt - Chin lift",
+                          "Jaw thrust maneuver",
+                          "Neck extension",
+                          "Shoulder roll"
+                        ],
+                        "answer": 1,
+                        "explanation": "Jaw thrust is preferred when cervical spine injury is suspected to avoid neck manipulation."
+                      },
+                      {
+                        "q": "If an advanced airway is in place, how often should breaths be given?",
+                        "options": [
+                          "1 breath every 3 seconds (20 breaths/min)",
+                          "1 breath every 6 seconds (10 breaths/min)",
+                          "1 breath every 10 seconds (6 breaths/min)",
+                          "1 breath every 5 seconds (12 breaths/min)"
+                        ],
+                        "answer": 1,
+                        "explanation": "With an advanced airway, give 1 breath every 6 seconds without pausing compressions."
+                      },
+                      {
+                        "q": "Where should the hands be placed for chest compressions?",
+                        "options": [
+                          "Upper third of sternum",
+                          "Center of chest (lower half of sternum)",
+                          "Xiphoid process",
+                          "Left side of chest"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hand placement is on the lower half of the sternum in the center of the chest."
+                      },
+                      {
+                        "q": "What indicates adequate ventilation during rescue breaths?",
+                        "options": [
+                          "Audible breath sounds",
+                          "Visible chest rise",
+                          "Oxygen saturation > 90%",
+                          "End-tidal CO2 > 35 mmHg"
+                        ],
+                        "answer": 1,
+                        "explanation": "Visible chest rise indicates adequate ventilation during rescue breaths."
+                      },
+                      {
+                        "q": "Which of the following are SHOCKABLE rhythms?",
+                        "options": [
+                          "Ventricular Fibrillation (VF) + PEA",
+                          "VF + Pulseless Ventricular Tachycardia (VT)",
+                          "Asystole + PEA",
+                          "VT + Asystole"
+                        ],
+                        "answer": 1,
+                        "explanation": "Shockable rhythms are VF and Pulseless VT. PEA and Asystole are non-shockable."
+                      },
+                      {
+                        "q": "Which of the following are NON-SHOCKABLE rhythms?",
+                        "options": [
+                          "VF + Pulseless VT",
+                          "PEA + Asystole",
+                          "VF + Asystole",
+                          "Pulseless VT + PEA"
+                        ],
+                        "answer": 1,
+                        "explanation": "PEA and Asystole are non-shockable rhythms."
+                      },
+                      {
+                        "q": "What is the FIRST step in the ACLS algorithm for shockable rhythms?",
+                        "options": [
+                          "Give Epinephrine",
+                          "Defibrillate (Shock)",
+                          "Start CPR",
+                          "Give Amiodarone"
+                        ],
+                        "answer": 2,
+                        "explanation": "CPR is initiated immediately, then defibrillation is performed."
+                      },
+                      {
+                        "q": "What is the dose of EPINEPHRINE in cardiac arrest?",
+                        "options": [
+                          "0.5 mg IV/IO",
+                          "1 mg IV/IO",
+                          "2 mg IV/IO",
+                          "5 mg IV/IO"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epinephrine 1 mg IV/IO is given every 3-5 minutes in cardiac arrest."
+                      },
+                      {
+                        "q": "How often should EPINEPHRINE be given in cardiac arrest?",
+                        "options": [
+                          "Every 1-2 minutes",
+                          "Every 3-5 minutes",
+                          "Every 5-10 minutes",
+                          "Every 10-15 minutes"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epinephrine 1 mg is given every 3-5 minutes during cardiac arrest."
+                      },
+                      {
+                        "q": "What is the dose of AMIODARONE in cardiac arrest?",
+                        "options": [
+                          "150 mg IV/IO",
+                          "300 mg IV/IO",
+                          "500 mg IV/IO",
+                          "100 mg IV/IO"
+                        ],
+                        "answer": 1,
+                        "explanation": "Amiodarone 300 mg IV/IO is given for refractory VF/pulseless VT, followed by 150 mg if needed."
+                      },
+                      {
+                        "q": "What is the dose of LIDOCAINE in cardiac arrest?",
+                        "options": [
+                          "0.5-1 mg/kg",
+                          "1-1.5 mg/kg",
+                          "2-3 mg/kg",
+                          "5 mg/kg"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lidocaine is given at 1-1.5 mg/kg, then 0.5-0.75 mg/kg, max total 3 mg/kg."
+                      },
+                      {
+                        "q": "What is the dose of MAGNESIUM SULFATE in cardiac arrest?",
+                        "options": [
+                          "0.5-1 g IV/IO",
+                          "1-2 g IV/IO",
+                          "2-4 g IV/IO",
+                          "5 g IV/IO"
+                        ],
+                        "answer": 1,
+                        "explanation": "Magnesium sulfate 1-2 g IV/IO is given for Torsades de Pointes."
+                      },
+                      {
+                        "q": "In non-shockable rhythms (PEA/Asystole), what is the initial treatment?",
+                        "options": [
+                          "Defibrillation immediately",
+                          "CPR → Epinephrine 1 mg",
+                          "Amiodarone 300 mg",
+                          "Lidocaine 1.5 mg/kg"
+                        ],
+                        "answer": 1,
+                        "explanation": "Non-shockable rhythms are treated with CPR and Epinephrine, then treat reversible causes."
+                      },
+                      {
+                        "q": "What is the correct ACLS algorithm for SHOCKABLE rhythms?",
+                        "options": [
+                          "CPR → Shock → CPR → Epi → Shock → Amiodarone → Shock",
+                          "CPR → Epi → CPR → Shock → Amiodarone → Shock",
+                          "Shock → CPR → Epi → Shock → Amiodarone → CPR",
+                          "Epi → CPR → Shock → Amiodarone → CPR → Shock"
+                        ],
+                        "answer": 0,
+                        "explanation": "This is the correct sequence for shockable rhythms: CPR → Shock → CPR → Epi → Shock → Amiodarone → Shock."
+                      },
+                      {
+                        "q": "What are the '5 H's' of reversible causes of cardiac arrest?",
+                        "options": [
+                          "Hypoxia, Hypovolemia, Hypothermia, Hypo/Hyperkalemia, Hydrogen ion (Acidosis)",
+                          "Hypoxia, Hypotension, Hypothermia, Hypoglycemia, Hemorrhage",
+                          "Hypoxia, Hypovolemia, Hypoglycemia, Hypokalemia, Hydrogen",
+                          "Hypoxia, Hypotension, Hypothermia, Hypokalemia, Hypoglycemia"
+                        ],
+                        "answer": 0,
+                        "explanation": "The 5 H's are Hypoxia, Hypovolemia, Hypothermia, Hypo/Hyperkalemia, and Hydrogen ion (Acidosis)."
+                      },
+                      {
+                        "q": "What are the '5 T's' of reversible causes of cardiac arrest?",
+                        "options": [
+                          "Tension, Tamponade, Toxins, Thrombosis, Trauma",
+                          "Tachycardia, Tamponade, Toxins, Thrombosis, Trauma",
+                          "Tension, Tamponade, Thrombolytics, Toxins, Trauma",
+                          "Tamponade, Toxins, Thrombosis, Tachycardia, Trauma"
+                        ],
+                        "answer": 0,
+                        "explanation": "The 5 T's are Tension pneumothorax, Tamponade, Toxins, Thrombosis, and Trauma."
+                      },
+                      {
+                        "q": "Which of the following is a reversible cause of cardiac arrest?",
+                        "options": [
+                          "Chronic heart failure",
+                          "Tension pneumothorax",
+                          "Dilated cardiomyopathy",
+                          "Valvular heart disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tension pneumothorax is a reversible cause (T in 5 T's). Chronic conditions are generally not reversible."
+                      },
+                      {
+                        "q": "What is the definition of SYNCOPE?",
+                        "options": [
+                          "Transient loss of consciousness due to seizure",
+                          "Transient loss of consciousness due to cerebral hypoperfusion",
+                          "Prolonged loss of consciousness due to metabolic causes",
+                          "Sudden loss of consciousness due to head trauma"
+                        ],
+                        "answer": 1,
+                        "explanation": "Syncope is defined as transient LOC due to global cerebral hypoperfusion, with rapid onset and spontaneous recovery."
+                      },
+                      {
+                        "q": "What is the MOST COMMON type of syncope?",
+                        "options": [
+                          "Cardiac syncope",
+                          "Vasovagal syncope (Neurocardiogenic - NMS)",
+                          "Orthostatic hypotension",
+                          "Cerebrovascular syncope"
+                        ],
+                        "answer": 1,
+                        "explanation": "Vasovagal syncope is the most common type of syncope."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the first dose of Epinephrine in cardiac arrest?",
+                        "a": "1 mg IV/IO, repeated every 3-5 minutes"
+                      },
+                      {
+                        "q": "What is the first dose of Amiodarone in cardiac arrest?",
+                        "a": "300 mg IV/IO, followed by 150 mg if needed"
+                      },
+                      {
+                        "q": "What is the dose of Lidocaine in cardiac arrest?",
+                        "a": "1-1.5 mg/kg IV/IO, then 0.5-0.75 mg/kg, max total 3 mg/kg"
+                      },
+                      {
+                        "q": "What is the dose of Magnesium sulfate in cardiac arrest?",
+                        "a": "1-2 g IV/IO for Torsades de Pointes"
+                      },
+                      {
+                        "q": "What is the compression to ventilation ratio in BLS?",
+                        "a": "30 compressions : 2 breaths"
+                      },
+                      {
+                        "q": "What is the recommended compression rate in BLS?",
+                        "a": "100-120 compressions per minute"
+                      },
+                      {
+                        "q": "What is the recommended compression depth in BLS?",
+                        "a": "At least 5 cm (2 inches)"
+                      },
+                      {
+                        "q": "What are the 5 H's of reversible causes?",
+                        "a": "Hypoxia, Hypovolemia, Hypothermia, Hypo/Hyperkalemia, Hydrogen ion (Acidosis)"
+                      },
+                      {
+                        "q": "What are the 5 T's of reversible causes?",
+                        "a": "Tension pneumothorax, Tamponade, Toxins, Thrombosis, Trauma"
+                      },
+                      {
+                        "q": "What is the most common type of syncope?",
+                        "a": "Vasovagal syncope (Neurocardiogenic - NMS)"
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "Definition of Sudden Cardiac Death (SCD)",
+                        "back": "Unexpected death from cardiac causes within 1 HOUR of symptom onset"
+                      },
+                      {
+                        "front": "4 phases of SCD",
+                        "back": "1. Pre-existing heart disease\n2. Onset of terminal event\n3. Cardiac arrest\n4. Biological death"
+                      },
+                      {
+                        "front": "Bimodal age distribution of SCD",
+                        "back": "Peak 1: Birth to 6 months\nPeak 2: > 65 years"
+                      },
+                      {
+                        "front": "Gender more commonly affected by SCD",
+                        "back": "MALES"
+                      },
+                      {
+                        "front": "Percentage of SCD cases as first presentation of CVD",
+                        "back": "25%"
+                      },
+                      {
+                        "front": "STRONG risk factor for SCD",
+                        "back": "Ejection Fraction (EF) < 35%"
+                      },
+                      {
+                        "front": "Major risk factors for SCD",
+                        "back": "1. Previous VT\n2. EF < 35%\n3. Previous MI\n4. CAD\n5. Family history of SCD\n6. Cardiomyopathies\n7. Heart failure\n8. Long QT syndrome"
+                      },
+                      {
+                        "front": "3 cardiomyopathies that increase SCD risk",
+                        "back": "1. Dilated Cardiomyopathy\n2. Hypertrophic Cardiomyopathy\n3. Arrhythmogenic Right Ventricular Dysplasia"
+                      },
+                      {
+                        "front": "2 genetic syndromes that increase SCD risk",
+                        "back": "1. Long QT syndrome\n2. Brugada syndrome"
+                      },
+                      {
+                        "front": "What does CAB stand for in BLS?",
+                        "back": "C = Circulation (Chest Compressions)\nA = Airway\nB = Breathing"
+                      },
+                      {
+                        "front": "Recommended compression rate in BLS",
+                        "back": "100-120 compressions per minute"
+                      },
+                      {
+                        "front": "Recommended compression depth in BLS",
+                        "back": "At least 5 cm (2 inches)"
+                      },
+                      {
+                        "front": "Compression-to-ventilation ratio in BLS",
+                        "back": "30 compressions : 2 breaths (30:2)"
+                      },
+                      {
+                        "front": "Airway maneuver if C-spine injury is suspected",
+                        "back": "Jaw thrust maneuver"
+                      },
+                      {
+                        "front": "Breathing rate with advanced airway in place",
+                        "back": "1 breath every 6 seconds (10 breaths/min) WITHOUT pausing compressions"
+                      },
+                      {
+                        "front": "SHOCKABLE rhythms in cardiac arrest",
+                        "back": "1. Ventricular Fibrillation (VF)\n2. Pulseless Ventricular Tachycardia (VT)"
+                      },
+                      {
+                        "front": "NON-SHOCKABLE rhythms in cardiac arrest",
+                        "back": "1. Pulseless Electrical Activity (PEA)\n2. Asystole"
+                      },
+                      {
+                        "front": "Dose of EPINEPHRINE in cardiac arrest",
+                        "back": "1 mg IV/IO every 3-5 minutes"
+                      },
+                      {
+                        "front": "Dose of AMIODARONE in cardiac arrest",
+                        "back": "300 mg IV/IO (then 150 mg if needed)"
+                      },
+                      {
+                        "front": "Dose of MAGNESIUM SULFATE in cardiac arrest",
+                        "back": "1-2 g IV/IO (for Torsades de Pointes)"
+                      },
+                      {
+                        "front": "ACLS algorithm for SHOCKABLE rhythms",
+                        "back": "CPR → Shock → CPR → Epi (1mg) → Shock → Amiodarone (300mg) → Shock"
+                      },
+                      {
+                        "front": "The '5 H's' of reversible causes",
+                        "back": "1. Hypoxia\n2. Hypovolemia\n3. Hypothermia\n4. Hypo/Hyperkalemia\n5. Hydrogen ion (Acidosis)"
+                      },
+                      {
+                        "front": "The '5 T's' of reversible causes",
+                        "back": "1. Tension pneumothorax\n2. Tamponade (Cardiac)\n3. Toxins\n4. Thrombosis (Coronary/Pulmonary)\n5. Trauma"
+                      },
+                      {
+                        "front": "What is SYNCOPE?",
+                        "back": "Transient loss of consciousness due to global CEREBRAL HYPOPERFUSION.\nRapid onset, short duration, spontaneous recovery."
+                      },
+                      {
+                        "front": "MOST COMMON type of syncope",
+                        "back": "VASOVAGAL SYNCOPE (Neurocardiogenic - NMS)\nTriggers: Stress, Micturition, Postprandial, Post-exercise\nProdrome: Nausea, Sweating, Anxiety"
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "SCD Risk Factors",
+                        "icon": "🧠",
+                        "code": "V-E-F-C-H",
+                        "items": [
+                          { "letter": "V", "text": "Previous VT" },
+                          { "letter": "E", "text": "EF < 35%" },
+                          { "letter": "F", "text": "Family history" },
+                          { "letter": "C", "text": "CAD / Cardiomyopathy" },
+                          { "letter": "H", "text": "Heart failure" }
+                        ]
+                      },
+                      {
+                        "title": "BLS - CAB",
+                        "icon": "🫁",
+                        "code": "C-A-B",
+                        "items": [
+                          { "letter": "C", "text": "Circulation (100-120/min, ≥5cm)" },
+                          { "letter": "A", "text": "Airway (Head tilt-Chin lift / Jaw thrust)" },
+                          { "letter": "B", "text": "Breathing (30:2 ratio)" }
+                        ]
+                      },
+                      {
+                        "title": "Cardiac Arrest Rhythms",
+                        "icon": "⚡",
+                        "code": "V-V-P-A",
+                        "items": [
+                          { "letter": "V", "text": "VF (Shockable)" },
+                          { "letter": "V", "text": "Pulseless VT (Shockable)" },
+                          { "letter": "P", "text": "PEA (Non-shockable)" },
+                          { "letter": "A", "text": "Asystole (Non-shockable)" }
+                        ]
+                      },
+                      {
+                        "title": "ACLS Shockable Algorithm",
+                        "icon": "🔄",
+                        "code": "C-S-C-E-S-A-S",
+                        "items": [
+                          { "letter": "C", "text": "CPR" },
+                          { "letter": "S", "text": "Shock" },
+                          { "letter": "C", "text": "CPR" },
+                          { "letter": "E", "text": "Epinephrine (1 mg)" },
+                          { "letter": "S", "text": "Shock" },
+                          { "letter": "A", "text": "Amiodarone (300 mg)" },
+                          { "letter": "S", "text": "Shock" }
+                        ]
+                      },
+                      {
+                        "title": "5 H's (Reversible Causes)",
+                        "icon": "🅷",
+                        "code": "H-H-H-H-H",
+                        "items": [
+                          { "letter": "H", "text": "Hypoxia" },
+                          { "letter": "H", "text": "Hypovolemia" },
+                          { "letter": "H", "text": "Hypothermia" },
+                          { "letter": "H", "text": "Hypo/Hyperkalemia" },
+                          { "letter": "H", "text": "Hydrogen ion (Acidosis)" }
+                        ]
+                      },
+                      {
+                        "title": "5 T's (Reversible Causes)",
+                        "icon": "🆃",
+                        "code": "T-T-T-T-T",
+                        "items": [
+                          { "letter": "T", "text": "Tension pneumothorax" },
+                          { "letter": "T", "text": "Tamponade (Cardiac)" },
+                          { "letter": "T", "text": "Toxins" },
+                          { "letter": "T", "text": "Thrombosis" },
+                          { "letter": "T", "text": "Trauma" }
+                        ]
+                      },
+                      {
+                        "title": "Syncope Types",
+                        "icon": "😵",
+                        "code": "V-O-C-C",
+                        "items": [
+                          { "letter": "V", "text": "Vasovagal (most common)" },
+                          { "letter": "O", "text": "Orthostatic" },
+                          { "letter": "C", "text": "Cardiac arrhythmia" },
+                          { "letter": "C", "text": "Cerebrovascular" }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
