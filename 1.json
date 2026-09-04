@@ -1,0 +1,1758 @@
+{
+  "categories": [
+    {
+      "id": "nmle_qbanks",
+      "name": "NMLE Qbanks",
+      "icon": "📚",
+      "subjects": [
+        {
+          "id": "pashto",
+          "name": "Pashto",
+          "icon": "🔤",
+          "topics": [
+            {
+              "id": "first_form",
+              "name": "اول فورم",
+              "icon": "📝",
+              "description": "NMLE First Form - Comprehensive Medical Questions in Pashto",
+              "content": {
+                "mcqs": [
+                  {
+                    "q": "د امیندوارۍ او شیدې ورکولو په مرحله کې د تایروتوکسیکوزیسس لپاره غوره انتخابي درمل کوم دي؟",
+                    "options": [
+                      "Carbimazole",
+                      "Propylthiouracil",
+                      "Methimazole",
+                      "د آیودین مرکبات"
+                    ],
+                    "answer": 1,
+                    "explanation": "Propylthiouracil (PTU) د امیندوارۍ او شیدې ورکولو په مرحله کې غوره دی ځکه چې دا لږ اندازه شیدو ته داخلېږي او د جنین لپاره خوندي دی."
+                  },
+                  {
+                    "q": "د Cushing Syndrome ډېر اعراض او علایم د کوم لاندی هورمون د کموالی له امله رامنځته کېږي؟",
+                    "options": [
+                      "تیروئید",
+                      "میتا لوکورتيکویید",
+                      "ګلوکوکورتيکویید",
+                      "پروجېسترون"
+                    ],
+                    "answer": 2,
+                    "explanation": "Cushing Syndrome د ګلوکوکورتيکویید هورمون د زیاتوالي له امله رامنځته کېږي، نه د کموالی. دا پوښتنه د ګلوکوکورتيکویید د زیاتوالي په اړه ده."
+                  },
+                  {
+                    "q": "لاندې کوم یو فکتور د سیګموئید کولون د تدور سبب ګرځي؟",
+                    "options": [
+                      "اوبرډي کوچنی کولمې",
+                      "لنډ سیګموئید کولون",
+                      "اوږد سیګموئید کولون",
+                      "لوی کوچنی کولمې"
+                    ],
+                    "answer": 2,
+                    "explanation": "اوږد سیګموئید کولون د تدور (Volvulus) لپاره خطرناک فکتور دی ځکه چې اوږدوالی یې د څرخېدو امکان زیاتوي."
+                  },
+                  {
+                    "q": "د Trigeminal nerve دنده څه ده؟",
+                    "options": [
+                      "د بویایی حسیت",
+                      "د ژولو عمل",
+                      "د ذایقی حس",
+                      "د بینیایی حس"
+                    ],
+                    "answer": 1,
+                    "explanation": "Trigeminal nerve (Cranial Nerve V) د مخ حس او د ژولو په عمل کې رول لري، په ځانګړې توګه د ژاولو عضلاتو ته حرکت ورکوي."
+                  },
+                  {
+                    "q": "Urachal Sinus څه ته ویل کېږي؟",
+                    "options": [
+                      "Urachus د ناف طرف ته خلاص وي",
+                      "Urachus له ناف څخه تر مثانې بند وي",
+                      "Urachus د ناف او مثانې دواړو خواوو ته خلاص وي",
+                      "Urachus د مثانې طرف ته بند وي"
+                    ],
+                    "answer": 0,
+                    "explanation": "Urachal Sinus هغه حالت دی چې Urachus یوازې د ناف طرف ته خلاص وي او مثانې سره اړیکه ونلري."
+                  },
+                  {
+                    "q": "د مثانې التهاب کې انتان له کومې لارې انتقالېږي؟",
+                    "options": [
+                      "صاعده",
+                      "مجاورت",
+                      "هماتوجن (دموي)",
+                      "لمفاوي"
+                    ],
+                    "answer": 0,
+                    "explanation": "د مثانې التهاب (Cystitis) معمولاً د صاعدې لارې (Ascending) له لارې رامنځته کېږي، چې باکتریا د احلیل له لارې مثانې ته داخلېږي."
+                  },
+                  {
+                    "q": "د احلیل التهاب نښې کومې دي؟",
+                    "options": [
+                      "Urgency",
+                      "Frequency",
+                      "د احلیل افرازات",
+                      "Incontinence"
+                    ],
+                    "answer": 2,
+                    "explanation": "د احلیل التهاب (Urethritis) مهمه نښه د احلیل افرازات دي، چې معمولاً د سوزاک یا غیرسوزاکي انتان له امله وي."
+                  },
+                  {
+                    "q": "د پښتورګي د تیږی Aseptic اختلاطات کوم دي؟",
+                    "options": [
+                      "د پښتورګي د نسج تصلب",
+                      "Pyuria",
+                      "Uremia",
+                      "Pyonephrosis"
+                    ],
+                    "answer": 0,
+                    "explanation": "Aseptic اختلاطات هغه دي چې له انتان پرته رامنځته کېږي، لکه د پښتورګي د نسج تصلب (Nephrosclerosis) چې د اوږدې مودې تیږو له امله وي."
+                  },
+                  {
+                    "q": "د پښتورګي په شریاني آفت کې تر ټولو دقیقه معاینه کومه ده؟",
+                    "options": [
+                      "Ultrasound",
+                      "KUB",
+                      "Arteriography",
+                      "Urine Exam"
+                    ],
+                    "answer": 2,
+                    "explanation": "Arteriography (Renal Angiography) د پښتورګي د شریاني آفت (Renal Artery Stenosis) د تشخیص لپاره تر ټولو دقیقه معاینه ده."
+                  },
+                  {
+                    "q": "کوم هورمون د شیدو په افراغ کې مهم رول لري؟",
+                    "options": [
+                      "استروجن",
+                      "پروستاګلاندین",
+                      "پروجېسترون",
+                      "اوکسی‌توسین"
+                    ],
+                    "answer": 3,
+                    "explanation": "اوکسی‌توسین (Oxytocin) د شیدو د افراغ (Milk Ejection) په عمل کې مهم رول لري، چې د شیدو د غدودو په شاوخوا کې د عضلاتو انقباض سبب کېږي."
+                  },
+                  {
+                    "q": "د دماغ د انرژي ډیرۍ برخه د کوم موادو په واسطه تامینېږي؟",
+                    "options": [
+                      "شحم",
+                      "پروټین",
+                      "ګلوکوز",
+                      "بیټایډ"
+                    ],
+                    "answer": 2,
+                    "explanation": "دماغ د انرژي ډیره برخه له ګلوکوز (Glucose) څخه ترلاسه کوي، ځکه چې دماغ د شحمي اسیدونو د کارولو وړتیا نلري."
+                  },
+                  {
+                    "q": "کوم درمل د Third Generation Cephalosporin له ډلې څخه دی؟",
+                    "options": [
+                      "Ampicillin",
+                      "Cephalexin",
+                      "Cefuroxime",
+                      "Ceftriaxone"
+                    ],
+                    "answer": 3,
+                    "explanation": "Ceftriaxone د Third Generation Cephalosporin درملو څخه دی، چې پراخه اثر لري او د میننژیت، سینه بغل او سیپسس په درملنه کې کارول کېږي."
+                  },
+                  {
+                    "q": "پایودین آیودین د انتي‌سېپټیک په توګه په کوم مورد کې کارول کېږي؟",
+                    "options": [
+                      "د عملیات ساحه پاکول",
+                      "د وسایلو پاکول",
+                      "د اوبو ضد عفوني کول",
+                      "د بطن لوازم پاکول"
+                    ],
+                    "answer": 0,
+                    "explanation": "پایودین آیودین (Povidone-Iodine) د عملیاتو د ساحې د پاکولو لپاره د انتي‌سېپټیک په توګه کارول کېږي، ځکه چې دا پراخه انتي‌میکروبیال اثر لري."
+                  },
+                  {
+                    "q": "د خیاطۍ تخنیکونه عمومًا څو ډولونه لري؟",
+                    "options": [
+                      "۲",
+                      "۳",
+                      "۴",
+                      "۵"
+                    ],
+                    "answer": 0,
+                    "explanation": "د خیاطۍ (Suturing) تخنیکونه عموماً ۲ ډولونه لري: ساده (Interrupted) او دوامداره (Continuous)."
+                  },
+                  {
+                    "q": "د کسر په ضروري او عاجلو اهتماماتو کې د میزابي تطبیق اصلي دلیل څه دی؟",
+                    "options": [
+                      "د شحمي امبولۍ مخنیوی",
+                      "د هایپوولیمیک شاک درملنه",
+                      "د انټي‌سیسسي لاره",
+                      "د کموالي اصلاح"
+                    ],
+                    "answer": 0,
+                    "explanation": "د کسر په ضروري او عاجلو اهتماماتو کې د میزابي (Splint) تطبیق د شحمي امبولۍ (Fat Embolism) د مخنیوي لپاره دی، ځکه چې د هډوکي حرکت د شحمي ذراتو د خپریدو خطر زیاتوي."
+                  },
+                  {
+                    "q": "د سترګو په جروحاتو کې لومړنۍ مرستې کومې دي؟",
+                    "options": [
+                      "د روغي سترګی ساتنه",
+                      "د کوڼوالی مخنیوی",
+                      "د ړوندوالی مخنیوی",
+                      "د وینې بندول"
+                    ],
+                    "answer": 2,
+                    "explanation": "د سترګو په جروحاتو کې لومړنۍ مرستې د ړوندوالی (Blindness) مخنیوی دی، ځکه چې د سترګو هر ډول جراحت د لید د ضایع کیدو خطر لري."
+                  },
+                  {
+                    "q": "د ثدیو سلیم سرطان کوم دی؟",
+                    "options": [
+                      "Paget د Nipple ناروغي",
+                      "Inflammatory carcinoma",
+                      "Colloid carcinoma",
+                      "Fibroadenoma"
+                    ],
+                    "answer": 3,
+                    "explanation": "Fibroadenoma د ثدیو (Breast) تر ټولو عام سلیم (Benign) تومور دی، چې معمولاً په ځوانو ښځو کې لیدل کېږي."
+                  },
+                  {
+                    "q": "د شزن تشعب په کوم نوم یادیږي؟",
+                    "options": [
+                      "Carina trachea",
+                      "Base of trachea",
+                      "Bifurcation of trachea",
+                      "Thymus"
+                    ],
+                    "answer": 2,
+                    "explanation": "د شزن تشعب (Tracheal Bifurcation) د Trachea هغه ځای دی چې دوه برونشي ته وېشل کېږي، چې په اناتومي کې د Bifurcation of trachea په نوم یادیږي."
+                  },
+                  {
+                    "q": "Tophi د نقرص مرض په کومه مرحله کې رامنځته کېږي؟",
+                    "options": [
+                      "د نقرص مزمن",
+                      "د حاد حملاتو ترمنځ",
+                      "د نقرص حاد ارتریت",
+                      "د بستورکو بوري"
+                    ],
+                    "answer": 0,
+                    "explanation": "Tophi (د یوریک اسید کریسټالونه) د نقرص (Gout) په مزمنه مرحله کې رامنځته کېږي، چې په مفصلونو، غوږونو او نورو نسجونو کې رسوب کوي."
+                  },
+                  {
+                    "q": "په Rheumatoid Arthritis کې د مرض د سیر د بدلون لپاره غوره دوا کومه ده؟",
+                    "options": [
+                      "Paracetamol",
+                      "Aspirin",
+                      "Diclofenac",
+                      "Methotrexate"
+                    ],
+                    "answer": 3,
+                    "explanation": "Methotrexate د Rheumatoid Arthritis د درملنې لپاره د Disease-Modifying Antirheumatic Drug (DMARD) په توګه غوره ده، چې د مرض د سیر د بدلون لپاره کارول کېږي."
+                  },
+                  {
+                    "q": "د Iron Deficiency Anemia نښه کومه ده؟",
+                    "options": [
+                      "Ecchymosis",
+                      "Petechiae",
+                      "Glossitis",
+                      "Fever"
+                    ],
+                    "answer": 2,
+                    "explanation": "Glossitis (د ژبې التهاب) د Iron Deficiency Anemia یوه عامه نښه ده، چې د ژبې نرموالی، سوروالی او درد سبب کېږي."
+                  },
+                  {
+                    "q": "لاندې کوم قلبي مرض د چپ او ښی شنټ سبب کیږی؟",
+                    "options": [
+                      "Ventricular septal defect",
+                      "Coarctation of aorta",
+                      "Transposition of great arteries",
+                      "Tetralogy of Fallot"
+                    ],
+                    "answer": 0,
+                    "explanation": "Ventricular Septal Defect (VSD) د چپ او ښی شنټ (Left-to-Right Shunt) سبب کېږي، ځکه چې د زړه د دوو بطینونو ترمنځ سوري شتون لري."
+                  },
+                  {
+                    "q": "Peracetic acid د تعقیم لپاره له کومو موادو سره کارول کېږي؟",
+                    "options": [
+                      "Sodium bicarbonate",
+                      "Ammonium oxide",
+                      "Ethylene oxide",
+                      "د سوځېدنې ضد مواد"
+                    ],
+                    "answer": 3,
+                    "explanation": "Peracetic acid د تعقیم (Sterilization) لپاره د سوځېدنې ضد موادو (Antifungal) په توګه کارول کېږي، چې د طبي وسایلو د تعقیم لپاره مؤثره ده."
+                  },
+                  {
+                    "q": "د هایدروستاتیک فشار لوړوالی په کوم حالت کې لیدل کېږي؟",
+                    "options": [
+                      "Chronic inflammation",
+                      "Liver cirrhosis",
+                      "Nephrotic syndrome",
+                      "Congestive heart failure"
+                    ],
+                    "answer": 3,
+                    "explanation": "د هایدروستاتیک فشار (Hydrostatic Pressure) لوړوالی د Congestive Heart Failure په حالت کې لیدل کېږي، ځکه چې د زړه ناکامي د وینې د رکود او فشار د لوړیدو سبب کېږي."
+                  },
+                  {
+                    "q": "Lateral Rectus عضله د کوم عصب له خوا تعصیبېږي؟",
+                    "options": [
+                      "Optic nerve",
+                      "Trochlear nerve",
+                      "Abducent nerve",
+                      "Oculomotor nerve"
+                    ],
+                    "answer": 2,
+                    "explanation": "Lateral Rectus عضله د Abducent nerve (Cranial Nerve VI) له خوا تعصیبېږي، چې د سترګې بهر ته د حرکت مسؤلیت لري."
+                  },
+                  {
+                    "q": "په Type I Hypersensitivity کې کومه انتي بادي رول لري؟",
+                    "options": [
+                      "IgG",
+                      "IgA",
+                      "IgM",
+                      "IgE"
+                    ],
+                    "answer": 3,
+                    "explanation": "په Type I Hypersensitivity (فوري حساسیت) کې IgE انتي بادي رول لري، چې د ماست حجراتو او بیسوفیلونو د فعالیدو سبب کېږي."
+                  },
+                  {
+                    "q": "Fentanyl کومې ډلې درملو پورې اړه لري؟",
+                    "options": [
+                      "Narcotic Analgesics",
+                      "Neuroleptics",
+                      "NSAIDs",
+                      "SSRIs"
+                    ],
+                    "answer": 0,
+                    "explanation": "Fentanyl د Narcotic Analgesics (Opioid) درملو څخه دی، چې یو قوي درد ضد درمل دی او د انستزیا په برخه کې کارول کېږي."
+                  },
+                  {
+                    "q": "د کوم ویټامین کمښت د HIV له مور څخه ماشوم ته د انتقال خطر زیاتوي؟",
+                    "options": [
+                      "Vitamin B12",
+                      "Vitamin D",
+                      "Vitamin A",
+                      "Folic Acid"
+                    ],
+                    "answer": 2,
+                    "explanation": "د Vitamin A کمښت د HIV له مور څخه ماشوم ته د انتقال (Mother-to-Child Transmission) خطر زیاتوي، ځکه چې Vitamin A د معافیت سیسټم په پیاوړتیا کې رول لري."
+                  },
+                  {
+                    "q": "Erythropoietin دنده څه ده؟",
+                    "options": [
+                      "د نیټروفیل تولید",
+                      "د ترومبوسایت تولید",
+                      "د وینې د سرو حجرو تولید",
+                      "د ماکروفاژ تولید"
+                    ],
+                    "answer": 2,
+                    "explanation": "Erythropoietin (EPO) د وینې د سرو حجرو (Erythropoiesis) د تولید مسؤلیت لري، چې د پښتورګو له خوا ترشح کېږي."
+                  },
+                  {
+                    "q": "د Bacillus anthracis لپاره غوره انتي بیوټیک کوم دی؟",
+                    "options": [
+                      "Norfloxacin",
+                      "Levofloxacin",
+                      "Erythromycin",
+                      "Ciprofloxacin"
+                    ],
+                    "answer": 3,
+                    "explanation": "Ciprofloxacin د Bacillus anthracis (Anthrax) د درملنې لپاره د غوره انتي بیوټیکونو څخه دی، چې د Fluoroquinolone په ګروپ پورې اړه لري."
+                  },
+                  {
+                    "q": "د شحمو له امله د هډوکو د مغز ځایناستې چې د پانساتوپینیا سبب کیږی ته څه ویل کېږي؟",
+                    "options": [
+                      "Aplastic Anemia",
+                      "Megaloblastic Anemia",
+                      "Hemolytic Anemia",
+                      "Microcytic Anemia"
+                    ],
+                    "answer": 0,
+                    "explanation": "Aplastic Anemia د هډوکو د مغز د شحمو له امله د ځایناستې (Fatty Replacement) له امله رامنځته کېږي، چې د پانساتوپینیا (Pan Cytopenia) سبب کېږي."
+                  },
+                  {
+                    "q": "کوم مورد د امینوری د اسبابو له جملی څخه دی؟",
+                    "options": [
+                      "Polycystic Ovarian Syndrome",
+                      "Uremia",
+                      "Premenstrual Syndrome",
+                      "Thyroid dysfunction"
+                    ],
+                    "answer": 0,
+                    "explanation": "Polycystic Ovarian Syndrome (PCOS) د امینوری (Amenorrhea) یو له عامو اسبابو څخه دی، ځکه چې د هورمونل عدم توازن سبب کېږي."
+                  },
+                  {
+                    "q": "Chancre د Syphilis په کومه مرحله کې رامنځته کېږي؟",
+                    "options": [
+                      "Secondary Syphilis",
+                      "Tertiary Syphilis",
+                      "Primary Syphilis",
+                      "Congenital Syphilis"
+                    ],
+                    "answer": 2,
+                    "explanation": "Chancre د Syphilis په لومړۍ مرحله (Primary Syphilis) کې رامنځته کېږي، چې یو بې درده زخم دی او د انتان د ننوتلو په ځای کې څرګندیږي."
+                  },
+                  {
+                    "q": "د بینزودیازیپین انټاګونیسټ کوم دی؟",
+                    "options": [
+                      "Zolpidem",
+                      "Meprobamate",
+                      "Buspirone",
+                      "Flumazenil"
+                    ],
+                    "answer": 3,
+                    "explanation": "Flumazenil د بینزودیازیپین (Benzodiazepine) انټاګونیسټ دی، چې د بینزودیازیپین د زیاتوالي (Overdose) په صورت کې کارول کېږي."
+                  },
+                  {
+                    "q": "Threatened Abortion باید له کومو حالاتو سره تفریقي تشخیص شي؟",
+                    "options": [
+                      "Fibroid",
+                      "Abdominal Masses",
+                      "Ectopic Pregnancy",
+                      "خارج رحمي حمل"
+                    ],
+                    "answer": 2,
+                    "explanation": "Threatened Abortion باید له Ectopic Pregnancy (خارج رحمي حمل) سره تفریقي تشخیص شي، ځکه چې دواړه د حمل په لومړیو میاشتو کې د وینې بهیدن سبب کېږي."
+                  },
+                  {
+                    "q": "Quinsy یا Peritonsillar Abscess د چرک تجمع کوم ځای کې رامنځته کوي؟",
+                    "options": [
+                      "Retropharyngeal Space",
+                      "Pharyngeal Space",
+                      "Tonsillar Crypts",
+                      "د تانسل د کپسول او Superior Pharyngeal Constrictor عضلات"
+                    ],
+                    "answer": 3,
+                    "explanation": "Peritonsillar Abscess (Quinsy) د تانسل د کپسول او Superior Pharyngeal Constrictor عضلاتو ترمنځ د چرک تجمع دی."
+                  },
+                  {
+                    "q": "Postpartum Hemorrhage (PPH) څو ډولونه لري؟",
+                    "options": [
+                      "٢ ډولونه",
+                      "۳ ډولونه",
+                      "۴ ډولونه",
+                      "۵ ډولونه"
+                    ],
+                    "answer": 0,
+                    "explanation": "Postpartum Hemorrhage (PPH) ۲ ډولونه لري: Primary (د زېږون څخه ۲۴ ساعته وروسته) او Secondary (د زېږون څخه ۲۴ ساعته تر ۶ اونیو پورې)."
+                  },
+                  {
+                    "q": "د ۳–۶ کلونو ترمنځ د ماشومانو د ژوند مرحله څه نومېږي؟",
+                    "options": [
+                      "Infancy",
+                      "Pre-school",
+                      "Toddler",
+                      "School Age"
+                    ],
+                    "answer": 1,
+                    "explanation": "د ۳–۶ کلونو ترمنځ د ماشومانو د ژوند مرحله Pre-school (مخکې له ښوونځي) نومېږي."
+                  },
+                  {
+                    "q": "د سترګې داخلي طبقه کومه ده؟",
+                    "options": [
+                      "Choroid",
+                      "Sclera",
+                      "Retina",
+                      "Iris"
+                    ],
+                    "answer": 2,
+                    "explanation": "د سترګې داخلي طبقه (Inner Layer) Retina ده، چې د رڼا د حس لپاره مسؤلیت لري."
+                  },
+                  {
+                    "q": "د ماشومانو لپاره د کالوري مهمه تغذیوي سرچینه کومه ده؟",
+                    "options": [
+                      "Carbohydrates",
+                      "Vitamins",
+                      "Minerals",
+                      "Water"
+                    ],
+                    "answer": 0,
+                    "explanation": "Carbohydrates (کاربوهایډریټ) د ماشومانو لپاره د کالوري (انرژي) مهمه سرچینه ده، ځکه چې د ودې او فعالیت لپاره انرژي برابروي."
+                  },
+                  {
+                    "q": "Kwashiorkor-type malnutrition په کوم عمر کې ډېر لیدل کېږي؟",
+                    "options": [
+                      "Less than one year",
+                      "Years 6–8",
+                      "Years 1–5",
+                      "Years 8–10"
+                    ],
+                    "answer": 2,
+                    "explanation": "Kwashiorkor-type malnutrition (د پروټین کمښت) معمولاً د ۱–۵ کلونو په عمر کې لیدل کېږي، ځکه چې په دې عمر کې د شیدو ورکولو څخه وروسته د پروټین کمښت واقع کېږي."
+                  },
+                  {
+                    "q": "Keratomalacia د کوم ویټامین د کمښت له امله رامنځته کېږي؟",
+                    "options": [
+                      "Vitamin D",
+                      "Vitamin A",
+                      "Vitamin C",
+                      "Vitamin E"
+                    ],
+                    "answer": 1,
+                    "explanation": "Keratomalacia (د سترګې د قرنیې نرموالی) د Vitamin A د کمښت له امله رامنځته کېږي، چې د ړوندوالی لامل کېږي."
+                  },
+                  {
+                    "q": "د مور د وروستۍ میاشتنۍ دورې له لومړۍ ورځې تر د جنین زېږېدو پورې موده څه نومېږي؟",
+                    "options": [
+                      "Gestational Age",
+                      "Early Neonate",
+                      "Fetus",
+                      "Embryo"
+                    ],
+                    "answer": 0,
+                    "explanation": "Gestational Age (د حمل عمر) د مور د وروستۍ میاشتنۍ دورې له لومړۍ ورځې څخه تر جنین د زېږېدو پورې موده ده."
+                  },
+                  {
+                    "q": "د مورني خطر فکتورونه د اسفکسي نويو زېږېدلو ماشومانو کې کوم دي؟",
+                    "options": [
+                      "Hypotension",
+                      "Abnormal Presentation",
+                      "Cord Prolapse",
+                      "ټول پورته"
+                    ],
+                    "answer": 3,
+                    "explanation": "Hypotension، Abnormal Presentation او Cord Prolapse ټول د اسفکسي (Asphyxia) نويو زېږېدلو ماشومانو لپاره د مورني خطر فکتورونه دي."
+                  },
+                  {
+                    "q": "په غذايي رژیم کې تر ټولو زیاته اندازه شحم د کوم ترکیب له لارې جذبېږي؟",
+                    "options": [
+                      "Phospholipid",
+                      "Androgen",
+                      "Triglyceride",
+                      "Steroid"
+                    ],
+                    "answer": 2,
+                    "explanation": "په غذايي رژیم کې تر ټولو زیاته اندازه شحم د Triglyceride په شکل جذبېږي، چې د شحمو اصلي بڼه ده."
+                  },
+                  {
+                    "q": "ABO incompatibility د کومې وینې ډلې میندو ترمنځ معمول ده؟",
+                    "options": [
+                      "A",
+                      "B",
+                      "AB",
+                      "O"
+                    ],
+                    "answer": 3,
+                    "explanation": "ABO incompatibility معمولاً د O وینې ډلې په میندو کې لیدل کېږي، ځکه چې د دوی وینه کې د A او B انتي بادي شتون لري."
+                  },
+                  {
+                    "q": "په premature ماشومانو کې انفي‌تیوب په کوم حالت کې تطبیقېږي؟",
+                    "options": [
+                      "Swallowing condition",
+                      "Respiratory distress",
+                      "Feeding intolerance",
+                      "چی حملی عمر یی د 34 اونیو څخه کم وی"
+                    ],
+                    "answer": 3,
+                    "explanation": "په premature ماشومانو کې انفي‌تیوب هغه وخت تطبیقېږي چې د حمل عمر یې د ۳۴ اونیو څخه کم وي، ځکه چې د دوی د تغذیې ظرفیت محدود دی."
+                  },
+                  {
+                    "q": "Discreet lymphatic nodule کوم ډول ټانسل جوړوي؟",
+                    "options": [
+                      "Lingual tonsil",
+                      "Palatine tonsil",
+                      "Nasopharyngeal tonsil",
+                      "ټول غلط دي"
+                    ],
+                    "answer": 0,
+                    "explanation": "Lingual tonsil د ژبې په اساس کې د Discreet lymphatic nodules څخه جوړ شوی دی، چې د ژبې د غشا لاندې موقعیت لري."
+                  },
+                  {
+                    "q": "د اخذی عصبي کوڼوال علت څه دی؟",
+                    "options": [
+                      "Eustachian tube obstruction",
+                      "Ear wax",
+                      "Tympanic membrane perforation",
+                      "Presbyacusis"
+                    ],
+                    "answer": 3,
+                    "explanation": "Presbyacusis (د عمر له امله د اوریدلو کمښت) د اخذی عصبي کوڼوال (Sensorineural Hearing Loss) یو له عامو علتونو څخه دی."
+                  },
+                  {
+                    "q": "د غذا د تودوخې اثر (TEF) څو سلنه د ټول انرژي مصرف جوړوي؟",
+                    "options": [
+                      "%10",
+                      "%5",
+                      "%15",
+                      "%20"
+                    ],
+                    "answer": 0,
+                    "explanation": "د غذا د تودوخې اثر (Thermic Effect of Food - TEF) نږدې ۱۰٪ د ټول انرژي مصرف جوړوي."
+                  },
+                  {
+                    "q": "کوم mediator د Vasoactive amine له ډلې څخه دی؟",
+                    "options": [
+                      "Histamine",
+                      "Complement system",
+                      "Prostaglandin E2",
+                      "Interleukin-1"
+                    ],
+                    "answer": 0,
+                    "explanation": "Histamine د Vasoactive amines له ډلې څخه دی، چې د التهابي غبرګون په جریان کې د وینې د رګونو د پراخیدو سبب کېږي."
+                  },
+                  {
+                    "q": "کوم یو له لاندې یولي سکرایډونو څخه د Alpha-amylase په واسطه د امیلوژ نشایسته تجزیه کوي؟",
+                    "options": [
+                      "Prebiotic",
+                      "Glycogen",
+                      "Dextrin",
+                      "Probiotic"
+                    ],
+                    "answer": 2,
+                    "explanation": "Alpha-amylase د نشایسته (Starch) څخه Dextrin جوړوي، چې د هضم په لومړیو مرحلو کې رامنځته کېږي."
+                  },
+                  {
+                    "q": "د کوم ویټامین کمښت د نیورولوژیکي نښو او میګالوبلاستیک کمخوني سبب کېږي؟",
+                    "options": [
+                      "Vitamin K",
+                      "Vitamin A",
+                      "Vitamin B12",
+                      "Vitamin D"
+                    ],
+                    "answer": 2,
+                    "explanation": "د Vitamin B12 کمښت د نیورولوژیکي نښو (لکه د لاسونو او پښو بې حسي) او میګالوبلاستیک کمخوني (Megaloblastic Anemia) سبب کېږي."
+                  },
+                  {
+                    "q": "Axillary شریان له کوم شریان څخه سرچینه اخلي؟",
+                    "options": [
+                      "Aorta",
+                      "Brachial artery",
+                      "Radial artery",
+                      "Subclavian artery"
+                    ],
+                    "answer": 3,
+                    "explanation": "Axillary شریان د Subclavian artery څخه سرچینه اخلي، چې د لاس د وینې رسولو اصلي شریان دی."
+                  },
+                  {
+                    "q": "که یو ناروغ د دردناکه تحرک پر مهال سترګې پرانیزي، خو د تحرک موقعیت، وخت او شخص نه پېژني، د GCS نمره به څو وي؟",
+                    "options": [
+                      "۱۵",
+                      "۱۳",
+                      "۹",
+                      "۱۱"
+                    ],
+                    "answer": 3,
+                    "explanation": "د GCS نمره: د سترګو پرانیستل = ۴، د دردناکه تحرک په وخت کې محرک = ۵ (د محرک لپاره)، او د شخص، وخت او ځای نه پېژندل = ۴، مجموعه = ۴+۵+۴ = ۱۳."
+                  },
+                  {
+                    "q": "په کوم حالت کې باید Malingering د تفریقي تشخیص په توګه په پام کې ونیول شي؟",
+                    "options": [
+                      "د تشخیص اقداماتو کې د همکارۍ نشتوالی",
+                      "د توصیه شوې درملنې نه منل",
+                      "د قانوني سرچینو له خوا معرفي کېدل",
+                      "ټول پورته"
+                    ],
+                    "answer": 3,
+                    "explanation": "Malingering هغه وخت په پام کې نیول کېږي چې ناروغ د تشخیصي اقداماتو سره همکاري ونکړي، درملنه ومني، یا د قانوني سرچینو له خوا معرفي شوی وي."
+                  },
+                  {
+                    "q": "په مزاجي اختلال ناروغانو کې د برقي شاک (ECT) لپاره کوم حالت استطباب لري؟",
+                    "options": [
+                      "Pregnancy",
+                      "Young age",
+                      "Old age",
+                      "Breastfeeding"
+                    ],
+                    "answer": 0,
+                    "explanation": "برقي شاک (ECT) د امیندوارۍ (Pregnancy) په حالت کې استطباب لري، ځکه چې درملنه یې د جنین لپاره خطرناکه کېدای شي."
+                  },
+                  {
+                    "q": "د انټي‌بیوتیک تطبیق په شګیلوز اخته ماشومانو کې په څه اساس ټاکل کېږي؟",
+                    "options": [
+                      "Urine Culture",
+                      "Blood Examination",
+                      "Blood Culture",
+                      "Stool Culture"
+                    ],
+                    "answer": 3,
+                    "explanation": "په شګیلوز (Shigellosis) اخته ماشومانو کې د انټي‌بیوتیک تطبیق د Stool Culture (د مدفوع کلچر) پر اساس ټاکل کېږي."
+                  },
+                  {
+                    "q": "د شدت له نظره د Mitral Valve د عدم کفایت ډولونه څو دي؟",
+                    "options": [
+                      "پنځه ډولونه",
+                      "درې ډولونه",
+                      "څلور ډولونه",
+                      "دوه ډولونه"
+                    ],
+                    "answer": 1,
+                    "explanation": "د Mitral Valve Regurgitation درې ډولونه لري: Mild، Moderate او Severe."
+                  },
+                  {
+                    "q": "لاندې کومه دوا د معدې د محافظتي غشا ساتونکې ده؟",
+                    "options": [
+                      "Aluminium hydroxide",
+                      "Sucralfate",
+                      "Omeprazole",
+                      "Clarithromycin"
+                    ],
+                    "answer": 1,
+                    "explanation": "Sucralfate د معدې د محافظتي غشا ساتونکې ده، چې د زخم په سطحه یو محافظتي طبقه جوړوي."
+                  },
+                  {
+                    "q": "Cyanosis په څو ډولونو وېشل کېږي؟",
+                    "options": [
+                      "دوه",
+                      "درې",
+                      "څلور",
+                      "پنځه"
+                    ],
+                    "answer": 0,
+                    "explanation": "Cyanosis په دوه ډولونو وېشل کېږي: Central Cyanosis او Peripheral Cyanosis."
+                  },
+                  {
+                    "q": "د وکتورونو له لارې د مایکرو ارګانیزمونو انتقال په څو ډولونو ترسره کېږي؟",
+                    "options": [
+                      "په یوه ډول",
+                      "په دوو ډولونو",
+                      "په درې ډولونو",
+                      "په څلورو ډولونو"
+                    ],
+                    "answer": 1,
+                    "explanation": "د وکتورونو (Vectors) له لارې د مایکرو ارګانیزمونو انتقال په دوو ډولونو ترسره کېږي: Mechanical او Biological."
+                  },
+                  {
+                    "q": "د Hay Fever لپاره کومه دوا استعمالېږي؟",
+                    "options": [
+                      "Loratadin",
+                      "Noradrenaline",
+                      "Lamindine",
+                      "Alprazolam"
+                    ],
+                    "answer": 0,
+                    "explanation": "Loratadin د Hay Fever (Seasonal Allergic Rhinitis) لپاره د دوهم نسل Antihistamine په توګه کارول کېږي."
+                  },
+                  {
+                    "q": "لاندې کوم ویروس د مزمن التهاب سبب نه ګرځي؟",
+                    "options": [
+                      "Viral hepatitis B",
+                      "Viral hepatitis B+D",
+                      "Viral hepatitis C",
+                      "Viral hepatitis A"
+                    ],
+                    "answer": 3,
+                    "explanation": "Viral Hepatitis A معمولاً حاد (Acute) التهاب سبب کېږي او مزمن (Chronic) نه کېږي، د B، B+D او C ویروسونه مزمن التهاب سبب کېږي."
+                  },
+                  {
+                    "q": "Calcium channel blocker لکه Nemodipine په کوم حالت کې ورکول کېږي؟",
+                    "options": [
+                      "Epidural Hematoma",
+                      "Intraventricular Hemorrhage",
+                      "Acute Subdural Hematoma",
+                      "Subarachnoid Hemorrhage"
+                    ],
+                    "answer": 3,
+                    "explanation": "Nimodipine د Subarachnoid Hemorrhage په حالت کې د Vasospasm د مخنیوي لپاره کارول کېږي."
+                  },
+                  {
+                    "q": "Cluster headache له کوم حالت سره تفریقي تشخیص نه لري؟",
+                    "options": [
+                      "Temporal arteritis",
+                      "Vertigo",
+                      "Glaucoma",
+                      "Migraine"
+                    ],
+                    "answer": 1,
+                    "explanation": "Cluster headache د Temporal arteritis، Glaucoma او Migraine سره تفریقي تشخیص لري، خو Vertigo (سرخوږی) د Cluster headache سره تفریقي تشخیص نه لري."
+                  },
+                  {
+                    "q": "کوم درمل د Angiotensin receptor-neprilysin inhibitors (ARNi) ډلې پورې اړه لري؟",
+                    "options": [
+                      "Sacubitril/Valsartan",
+                      "Salmetrol/Fluticasone",
+                      "Captopril/Hydrochlorothiazide",
+                      "Spironolactone/Furosemide"
+                    ],
+                    "answer": 0,
+                    "explanation": "Sacubitril/Valsartan د ARNi (Angiotensin Receptor-Neprilysin Inhibitor) ډلې درمل دی، چې د زړه د ناکامۍ په درملنه کې کارول کېږي."
+                  },
+                  {
+                    "q": "د افغانستان په عدلي طب کې د صدري او بطني غړو اتوپسي رایج میتود کوم دی؟",
+                    "options": [
+                      "Lutelu",
+                      "Fecher",
+                      "Virchow",
+                      "Shor"
+                    ],
+                    "answer": 3,
+                    "explanation": "په افغانستان کې د صدري او بطني غړو اتوپسي (Autopsy) لپاره د Shor میتود کارول کېږي."
+                  },
+                  {
+                    "q": "Obturator foramen د کوم هډوکي برخه ده؟",
+                    "options": [
+                      "Hip",
+                      "Femur",
+                      "Radius",
+                      "Tibia"
+                    ],
+                    "answer": 0,
+                    "explanation": "Obturator foramen د Hip bone (Pelvis) برخه ده، چې د Ischium او Pubis ترمنځ موقعیت لري."
+                  },
+                  {
+                    "q": "د Aortic stenosis ولادي سبب کوم دی؟",
+                    "options": [
+                      "Bicuspid Aortic stenosis",
+                      "Aortic valve fibrosis",
+                      "Aortic valve calcification",
+                      "Rheumatic Aortic stenosis"
+                    ],
+                    "answer": 0,
+                    "explanation": "Bicuspid Aortic Stenosis د Aortic stenosis تر ټولو عام ولادي (Congenital) سبب دی."
+                  },
+                  {
+                    "q": "د Hyperthyroidism ډېر نادر سبب کوم دی؟",
+                    "options": [
+                      "Recurrent nerve paralysis",
+                      "Thyrotoxicosis factitia",
+                      "Simple goiter",
+                      "Stitch granuloma"
+                    ],
+                    "answer": 1,
+                    "explanation": "Thyrotoxicosis factitia د Hyperthyroidism یو نادر سبب دی، چې د تیروئید هورمونونو د اضافي مصرف له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "طبیبان د خپلی صحت د ارزونې مسؤل دي، خو د خپلی درملنې مسؤل نه دي. دا نظریه د کوم انجمن له خوا وړاندې شوې؟",
+                    "options": [
+                      "د بریتانیا طبي انجمن",
+                      "د روغتیا نړیوال سازمان",
+                      "نړیوال طبي انجمن",
+                      "د خوړو نړیوال سازمان"
+                    ],
+                    "answer": 0,
+                    "explanation": "دا نظریه د بریتانیا طبي انجمن (British Medical Association) له خوا وړاندې شوې ده."
+                  },
+                  {
+                    "q": "هغه کارسینوما چې د سکار پر نسج باندې پیدا کېږي، په کوم نوم یادېږي؟",
+                    "options": [
+                      "Dehli boil",
+                      "SCC",
+                      "Marjolin Ulcer",
+                      "Bazin's Disease"
+                    ],
+                    "answer": 2,
+                    "explanation": "Marjolin Ulcer هغه کارسینوما (Squamous Cell Carcinoma) دی چې د سکار (Scar) پر نسج باندې رامنځته کېږي، معمولاً د سوځېدنې یا مزمن زخمونو په پایله کې."
+                  },
+                  {
+                    "q": "د Apical impulse نشتوالی په کوم حالت کې لیدل کېږي؟",
+                    "options": [
+                      "Pericardial effusion",
+                      "PDA",
+                      "Rheumatic fever",
+                      "Mitral stenosis"
+                    ],
+                    "answer": 0,
+                    "explanation": "Apical impulse نشتوالی د Pericardial Effusion په حالت کې لیدل کېږي، ځکه چې د پریکارډیم کې د مایع جمع کېدل د زړه د حرکت مخنیوی کوي."
+                  },
+                  {
+                    "q": "Rheumatic fever د کومې باکتریا له امله رامنځته کېږي؟",
+                    "options": [
+                      "Shigella",
+                      "Staphylococcus",
+                      "Streptococcus",
+                      "Klebsiella"
+                    ],
+                    "answer": 2,
+                    "explanation": "Rheumatic fever د Group A Streptococcus باکتریا له امله رامنځته کېږي، چې معمولاً د ستوني د انتان وروسته لیدل کېږي."
+                  },
+                  {
+                    "q": "د Asthma د اول خط تداوي لپاره کوم درمل شامل دي؟",
+                    "options": [
+                      "Must cell stabilizer",
+                      "Magnesium sulphate",
+                      "Anti-IgE Therapy",
+                      "Anti Cholinergic"
+                    ],
+                    "answer": 3,
+                    "explanation": "د Asthma د اول خط تداوي کې د Anti Cholinergic درمل لکه Ipratropium Bromide شامل دي، چې د برونکو پراخولو لپاره کارول کېږي."
+                  },
+                  {
+                    "q": "هغه نسناستي چې انتاني منشا لري او ۱۲–۱۴ ورځې دوام وکړي، څه نومېږي؟",
+                    "options": [
+                      "Chronic diarrhea",
+                      "Persistent diarrhea",
+                      "Dysentery",
+                      "Acute diarrhea"
+                    ],
+                    "answer": 1,
+                    "explanation": "هغه نسناستي چې انتاني منشا ولري او ۱۲–۱۴ ورځې دوام وکړي، Persistent Diarrhea (دوامداره نسناستي) نومېږي."
+                  },
+                  {
+                    "q": "لاندې کوم حالت د بولي طرقو د سفلي برخې د بندېدو له اختلاطاتو څخه دی؟",
+                    "options": [
+                      "BPH",
+                      "د تشو متیازو حاده بندیدنه",
+                      "د پروستات سرطان",
+                      "د احلیل تنګوالی"
+                    ],
+                    "answer": 1,
+                    "explanation": "د تشو متیازو حاده بندیدنه (Acute Retention of Urine) د بولي طرقو د سفلي برخې د بندېدو له اختلاطاتو څخه ده."
+                  },
+                  {
+                    "q": "په ښځو کې د inguinal canal محتوا څه ده؟",
+                    "options": [
+                      "Spermatic cord",
+                      "Broad ligament",
+                      "Round ligament",
+                      "Epigastric vessels"
+                    ],
+                    "answer": 2,
+                    "explanation": "په ښځو کې د Inguinal Canal محتوا Round Ligament ده، چې د رحم د Ligament یوه برخه ده."
+                  },
+                  {
+                    "q": "د Tricuspid regurgitation ثانوي سبب کوم دی؟",
+                    "options": [
+                      "Chest trauma",
+                      "Rheumatic fever",
+                      "Infective endocarditis",
+                      "Cardiomyopathy"
+                    ],
+                    "answer": 3,
+                    "explanation": "Cardiomyopathy د Tricuspid Regurgitation ثانوي سبب دی، چې د زړه د عضلاتو د ضعف له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "په پوست کې لاندې کوم میکروب د فلورا نارمل برخه ده؟",
+                    "options": [
+                      "Staphylococcus aureus",
+                      "Streptococcus viridans",
+                      "Streptococcus pyogenes",
+                      "Staphylococcus epidermidis"
+                    ],
+                    "answer": 3,
+                    "explanation": "Staphylococcus epidermidis د پوست د نورمال فلورا (Normal Flora) برخه ده، چې معمولاً په پوست کې شتون لري."
+                  },
+                  {
+                    "q": "که په سوځېدلي پوست کې نیکروز تولید شوی وي او د پوست طبقاتو مړینه موجوده وي، کومه درجه ده؟",
+                    "options": [
+                      "درجه I",
+                      "درجه II",
+                      "درجه III",
+                      "درجه IV"
+                    ],
+                    "answer": 2,
+                    "explanation": "درجه III سوځېدنه (Third Degree Burn) کې د پوست ټول طبقات مړه (Necrosis) کېږي."
+                  },
+                  {
+                    "q": "هغه ښځه چې هیڅکله امیندواره شوې نه وي، کومه اصطلاح ورته کارول کېږي؟",
+                    "options": [
+                      "Nulligravid",
+                      "Multipara",
+                      "Nullipara",
+                      "Gravid"
+                    ],
+                    "answer": 0,
+                    "explanation": "هغه ښځه چې هیڅکله امیندواره شوې نه وي، Nulligravid نومېږي."
+                  },
+                  {
+                    "q": "د تنفسي عدم کفایت اختلاط کوم دی؟",
+                    "options": [
+                      "Bronchiectasis",
+                      "Asthma",
+                      "Pneumonia",
+                      "Pneumothorax"
+                    ],
+                    "answer": 2,
+                    "explanation": "Pneumonia د تنفسي عدم کفایت (Respiratory Failure) یو له اختلاطاتو څخه دی، چې د سږو د انتان له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "Amlodipine په کوم حالت کې استعمال نه لري؟",
+                    "options": [
+                      "شاک قلبي",
+                      "احتشاء میوکارد",
+                      "ترمبوز وريدي",
+                      "فرط فشار خون"
+                    ],
+                    "answer": 0,
+                    "explanation": "Amlodipine (د CCB درمل) د Cardiogenic Shock په حالت کې استعمال نه لري، ځکه چې دا د وینې فشار نور هم ټیټوي."
+                  },
+                  {
+                    "q": "Halo Vest د کومو فقراتو د تثبیت لپاره کارول کېږي؟",
+                    "options": [
+                      "Cervical",
+                      "Sacral",
+                      "Lumber",
+                      "Dorsal"
+                    ],
+                    "answer": 0,
+                    "explanation": "Halo Vest د Cervical (غاړې) فقراتو د تثبیت لپاره کارول کېږي، په ځانګړې توګه د C1-C2 د ماتیدو په صورت کې."
+                  },
+                  {
+                    "q": "د Astrocytoma دماغي تومور د WHO له مخې د خباثت درجه کومه ده؟",
+                    "options": [
+                      "Third",
+                      "Fourth",
+                      "Second",
+                      "First"
+                    ],
+                    "answer": 2,
+                    "explanation": "Astrocytoma د WHO له مخې د خباثت درجه دوهمه (Grade II) ده، چې د ټیټې درجې تومورونو څخه شمېرل کېږي."
+                  },
+                  {
+                    "q": "د کسبي معافیت په رامنځته کولو کې کوم حجرات رول لري؟",
+                    "options": [
+                      "اریټروبلاست",
+                      "ترومبوسایت",
+                      "لمفوسایت",
+                      "ماکروفاژ حجرات"
+                    ],
+                    "answer": 2,
+                    "explanation": "لمفوسایټونه (Lymphocytes) د کسبي معافیت (Acquired Immunity) په رامنځته کولو کې کلیدي رول لري."
+                  },
+                  {
+                    "q": "هغه حالت چی شزن یا تراکیا د افت په طرف بی ځایه کیږی عبارت دی له؟",
+                    "options": [
+                      "Pneumothorax",
+                      "Pleural effusion",
+                      "Empyema",
+                      "Atelactasis"
+                    ],
+                    "answer": 3,
+                    "explanation": "Atelectasis (د سږو د نسج سقوط) هغه حالت دی چې شزن (Trachea) د افت (د سږو د سقوط) په طرف بی ځایه کېږي."
+                  },
+                  {
+                    "q": "Acute Rheumatic Fever کې لوی معیارونه (Major Criteria) کوم دي؟",
+                    "options": [
+                      "Elevated ESR",
+                      "Fever",
+                      "Carditis",
+                      "Joint pain"
+                    ],
+                    "answer": 2,
+                    "explanation": "د Acute Rheumatic Fever لوی معیارونه (JONES Criteria): Carditis، Polyarthritis، Chorea، Erythema Marginatum او Subcutaneous Nodules دي."
+                  },
+                  {
+                    "q": "لاندې کوم حالت د کرون مرض له اختلاطاتو څخه نه شمېرل کېږي؟",
+                    "options": [
+                      "تثقب",
+                      "پریټونایټ",
+                      "فستولا",
+                      "IBS"
+                    ],
+                    "answer": 3,
+                    "explanation": "IBS (Irritable Bowel Syndrome) د کرون مرض (Crohn's Disease) له اختلاطاتو څخه نه دی، ځکه چې دا یو فعال اختلال دی نه التهابي."
+                  },
+                  {
+                    "q": "د شکری ناروغۍ کوم ډول د پانقراس د بیټا حجراتو او د اوټوامیون د تخریب پر اساس رامنځته کېږي؟",
+                    "options": [
+                      "د امیندوارۍ مرحله",
+                      "Type 2 Diabetes",
+                      "Type 1 Diabetes",
+                      "جنیټیک ډول"
+                    ],
+                    "answer": 2,
+                    "explanation": "Type 1 Diabetes د پانقراس د بیټا حجراتو د اوټوامیون (Autoimmune) تخریب له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "په کوم حالت کې د معدې او کولمو پریستالتیک حرکات د لیدلو وړ وي؟",
+                    "options": [
+                      "Peptic ulcer disease",
+                      "Malabsorption syndrome",
+                      "Paralytic ileus",
+                      "Pyloric Stenosis"
+                    ],
+                    "answer": 3,
+                    "explanation": "د Pyloric Stenosis په حالت کې د معدې او کولمو پریستالتیک حرکات (Peristaltic Waves) د لیدلو وړ وي، ځکه چې د معدې د خالي کېدو مخنیوی کوي."
+                  },
+                  {
+                    "q": "د ګلومیرول اصلي دنده څه ده؟",
+                    "options": [
+                      "د اوبو جذب",
+                      "فلتریشن",
+                      "د یوریا جذب",
+                      "دوباره جذب"
+                    ],
+                    "answer": 1,
+                    "explanation": "د ګلومیرول (Glomerulus) اصلي دنده د وینې فلتریشن (Filtration) ده، چې د پښتورګي د ادرار د تولید لومړی مرحله ده."
+                  },
+                  {
+                    "q": "هغه فتق چې د مغبني ligament له انسي نهایت څخه پورته وي، څه نومېږي؟",
+                    "options": [
+                      "Inguinal Hernia",
+                      "فخذي فتق",
+                      "حجاب حاجزي فتق",
+                      "عجانی فتق"
+                    ],
+                    "answer": 0,
+                    "explanation": "هغه فتق چې د Inguinal Ligament له انسي نهایت څخه پورته وي، Inguinal Hernia (عجانی فتق) نومېږي."
+                  },
+                  {
+                    "q": "هغه شاک چې د فارمکولوژیکو موادو یا ترضیضاتو په واسطه د سمپاتیک عصب د اختلال له امله رامنځته کېږي، څه نومېږي؟",
+                    "options": [
+                      "هایپوولیمیک شاک",
+                      "نیوروجنیک شاک",
+                      "انافلاکټیک شاک",
+                      "سیمیاتیک شاک"
+                    ],
+                    "answer": 1,
+                    "explanation": "نیوروجنیک شاک (Neurogenic Shock) د سمپاتیک عصب د اختلال له امله رامنځته کېږي، چې معمولاً د نخاعي زخم یا د فارمکولوژیکو موادو له امله وي."
+                  },
+                  {
+                    "q": "د مړینې د ډول تعیین د کومې برخې صلاحیت دی؟",
+                    "options": [
+                      "د کشف برخې صلاحیت",
+                      "د تحقیق برخې صلاحیت",
+                      "د قضایي برخې صلاحیت",
+                      "طبیب"
+                    ],
+                    "answer": 3,
+                    "explanation": "د مړینې د ډول (Cause of Death) تعیین د طبیب (طبي متخصص) صلاحیت دی."
+                  },
+                  {
+                    "q": "د نړی په سطح کې تر ټولو شایع تغذیوي کمښت کوم دی؟",
+                    "options": [
+                      "د اوسپنې کمښت",
+                      "د کلسیم کمښت",
+                      "د مګنیزیم کمښت",
+                      "د فاسفورس کمښت"
+                    ],
+                    "answer": 0,
+                    "explanation": "د نړی په سطح کې تر ټولو شایع تغذیوي کمښت د اوسپنې کمښت (Iron Deficiency) دی، چې د کمخوني لامل کېږي."
+                  },
+                  {
+                    "q": "Acute Hydrocephalus د کوم ډول intracranial hematoma اختلاط دی؟",
+                    "options": [
+                      "Intraventricular Hemorrhage",
+                      "Intracerebral Hemorrhage",
+                      "Subarachnoid Hemorrhage",
+                      "Epidural Hematoma"
+                    ],
+                    "answer": 0,
+                    "explanation": "Acute Hydrocephalus د Intraventricular Hemorrhage یو اختلاط دی، چې د وینې د جمع کېدو له امله د مغز د مایع جریان بندوي."
+                  },
+                  {
+                    "q": "د معقول نسخه لیکلو لومړۍ مرحله کومه ده؟",
+                    "options": [
+                      "د ناروغ مشکل پیدا کول (تشخیص)",
+                      "د درملو انتخاب",
+                      "دوز ټاکل",
+                      "د تطبیق طریقه ټاکل"
+                    ],
+                    "answer": 0,
+                    "explanation": "د معقول نسخه لیکلو (Rational Prescribing) لومړۍ مرحله د ناروغ مشکل پیدا کول (تشخیص) ده."
+                  },
+                  {
+                    "q": "Glenoid cavity د scapula په کومه زاویه کې موقعیت لري؟",
+                    "options": [
+                      "په علوي زاویه کې",
+                      "په وحشي زاویه کې",
+                      "په infraspinous fossa کې",
+                      "په داخلي زاویه کې"
+                    ],
+                    "answer": 1,
+                    "explanation": "Glenoid Cavity د Scapula په وحشي (Lateral) زاویه کې موقعیت لري، چې د Hummers سره مفصل جوړوي."
+                  },
+                  {
+                    "q": "د ECG کاغذ پر مخ د T موج د رامنځته کېدو علت څه دی؟",
+                    "options": [
+                      "د بطینونو ریپولرایزیشن",
+                      "د اذینو دپولرایزیشن",
+                      "د بطینونو دپولرایزیشن",
+                      "د اذینو ریپولرایزیشن"
+                    ],
+                    "answer": 0,
+                    "explanation": "د T موج د بطینونو د ریپولرایزیشن (Ventricular Repolarization) له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "د نارینه او ښځینه علایمو یو ځای موجودیت په یو شخص کې عبارت دی له؟",
+                    "options": [
+                      "Impotence",
+                      "Infertility",
+                      "Hermaphroditism",
+                      "Simulation"
+                    ],
+                    "answer": 2,
+                    "explanation": "د نارینه او ښځینه علایمو یو ځای موجودیت په یو شخص کې Hermaphroditism (دوه جنسي) بلل کېږي."
+                  },
+                  {
+                    "q": "د لویو عملیاتو لپاره د عملیاتو موافقه باید په کوم شکل وي؟",
+                    "options": [
+                      "ویدیوې موافقه",
+                      "تقريري موافقه",
+                      "تلويحي موافقه",
+                      "کتبي موافقه"
+                    ],
+                    "answer": 3,
+                    "explanation": "د لویو عملیاتو لپاره د عملیاتو موافقه باید په کتبي (Written) شکل وي، ترڅو قانوني او اخلاقي اړتیاوې پوره شي."
+                  },
+                  {
+                    "q": "د شیخویت قوس یا Arcus Senilis معمولاً په کوم عمر کې لیدل کېږي؟",
+                    "options": [
+                      "۵۰",
+                      "۵۵",
+                      "۴۵",
+                      "۶۵"
+                    ],
+                    "answer": 3,
+                    "explanation": "Arcus Senilis معمولاً د ۶۰ کلنۍ څخه پورته عمر کې لیدل کېږي، خو د ۶۵ کلنۍ په شاوخوا کې عام دی."
+                  },
+                  {
+                    "q": "د تنفسي غشا له لارې د ګازونو تبادله د کوم میکانیزم له لارې ترسره کېږي؟",
+                    "options": [
+                      "Diffusion",
+                      "Active transport",
+                      "Pinocytosis",
+                      "Osmosis"
+                    ],
+                    "answer": 0,
+                    "explanation": "د تنفسي غشا (Respiratory Membrane) له لارې د ګازونو تبادله د Diffusion (خپرېدو) له میکانیزم له لارې ترسره کېږي."
+                  },
+                  {
+                    "q": "د کولمو په حاد انسداد کې تر عملیاتو مخکې کوم اقدام بې اهمیته دی؟",
+                    "options": [
+                      "د انتي بیوټیکو تطبیق",
+                      "د ورید له لارې د ضایع شویو مایعاتو جبران",
+                      "د معدوي موادو اسپیریشن",
+                      "د خولې له لارې د غذایي موادو ورکول"
+                    ],
+                    "answer": 3,
+                    "explanation": "د کولمو په حاد انسداد (Acute Intestinal Obstruction) کې د خولې له لارې د غذایي موادو ورکول بې اهمیته او خطرناک دی، ځکه چې د استفراق او اسپیریشن خطر زیاتوي."
+                  },
+                  {
+                    "q": "کومه لاندې کمخوني د Hemolytic Anemia له ډلې څخه ده؟",
+                    "options": [
+                      "Aplastic anemia",
+                      "Thalassemia",
+                      "Pernicious anemia",
+                      "Sideroblastic anemia"
+                    ],
+                    "answer": 1,
+                    "explanation": "Thalassemia د Hemolytic Anemia له ډلې څخه ده، چې د وینې د سرو حجرو د تخریب له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "کله چی په دماغي توبورکولوما کې ناروغ Nystagmus ولري، نو د توبرکلوما موقعیت به چیرته وي؟",
+                    "options": [
+                      "Cerebellum",
+                      "Brainstem",
+                      "Pons",
+                      "Parietal lobe"
+                    ],
+                    "answer": 0,
+                    "explanation": "Nystagmus (د سترګو غیرارادي حرکت) معمولاً د Cerebellum (مخاغ) د زخم له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "کوم حجرات د B لمفوسایتونو په فعالولو کې ونډه لري؟",
+                    "options": [
+                      "ماکروفاژونه",
+                      "Helper T cells",
+                      "Cytotoxic T cells",
+                      "Antigen presenting cells"
+                    ],
+                    "answer": 1,
+                    "explanation": "Helper T cells د B لمفوسایتونو په فعالولو (Activation) کې کلیدي رول لري، د سایټوکینونو په واسطه."
+                  },
+                  {
+                    "q": "د مزمن پانکریاتیت د تشخیص لپاره کومه معاینه تشخیصي نه ده؟",
+                    "options": [
+                      "Serum amylase",
+                      "ERCP",
+                      "Cholecystokinin test",
+                      "CT scan"
+                    ],
+                    "answer": 2,
+                    "explanation": "Cholecystokinin test د مزمن پانکریاتیت (Chronic Pancreatitis) د تشخیص لپاره کارول نه کېږي، ځکه چې دا د پانقراس د خارجي فعالیت د ارزونې لپاره دی."
+                  },
+                  {
+                    "q": "کوم لاندی د وینی بهیدنی د وریدی لوړ فشار یا Epistaxis علت دی؟",
+                    "options": [
+                      "Mediastinal tumor",
+                      "Nasal tumors",
+                      "Nose picking",
+                      "Portal Hypertension"
+                    ],
+                    "answer": 3,
+                    "explanation": "Portal Hypertension (د پورتال ورید لوړ فشار) د Epistaxis (د پوزې وینه بهیدنه) یو له علتونو څخه دی، ځکه چې د پورتال ورید فشار د پوزې د وریدونو په فشار اغیز کوي."
+                  },
+                  {
+                    "q": "د Salbutamol یوه جانبي عارضه کومه ده؟",
+                    "options": [
+                      "Dyspepsia",
+                      "Sedation",
+                      "Bradycardia",
+                      "Tachycardia"
+                    ],
+                    "answer": 3,
+                    "explanation": "Salbutamol (Beta-2 Agonist) یوه جانبي عارضه Tachycardia (د زړه د ضربان زیاتوالی) ده."
+                  },
+                  {
+                    "q": "د لاندی د معدې ترشحات د معدی د موکوزا د زیانمنېدو وړتیا لري؟",
+                    "options": [
+                      "Hydrochloric acid",
+                      "Chymotrypsin",
+                      "Trypsin",
+                      "Lipase"
+                    ],
+                    "answer": 0,
+                    "explanation": "Hydrochloric Acid (HCl) د معدې ترشحات دي چې د معدی د موکوزا د زیانمنېدو وړتیا لري، په ځانګړې توګه د Peptic Ulcer په حالت کې."
+                  },
+                  {
+                    "q": "هغه ناروغ چې له خلکو څخه لیری والی غوره کوي او اعراض یی د تحمل وړ نه وی دا کوم ډول PMS دی؟",
+                    "options": [
+                      "خفیف",
+                      "دوهمه درجه",
+                      "متوسط",
+                      "شدید"
+                    ],
+                    "answer": 3,
+                    "explanation": "هغه ناروغ چې له خلکو څخه لیری والی غوره کوي او اعراض یې د تحمل وړ نه وي، دا د شدید (Severe) PMS ډول دی."
+                  },
+                  {
+                    "q": "مایعاتو ته د لاسرسي کمښت د کوم ډول renal shock سبب کېږي؟",
+                    "options": [
+                      "د پښتورګي مزمن عدم کفایه",
+                      "Renal azotemia",
+                      "Pre-renal azotemia",
+                      "Post-renal azotemia"
+                    ],
+                    "answer": 2,
+                    "explanation": "مایعاتو ته د لاسرسي کمښت (Hypovolemia) د Pre-renal Azotemia سبب کېږي، ځکه چې د پښتورګي ته د وینې جریان کم شوی دی."
+                  },
+                  {
+                    "q": "د وینې ګلوکوز د نهاری اندازه د شکر تشخیص لپاره څومره وي؟",
+                    "options": [
+                      "120mg/dl",
+                      "115mg/dl",
+                      "110mg/dl",
+                      "126mg/dl"
+                    ],
+                    "answer": 3,
+                    "explanation": "د وینې ګلوکوز د نهاری (Fasting) اندازه د شکر (Diabetes) تشخیص لپاره ≥ 126 mg/dl ده."
+                  },
+                  {
+                    "q": "کومه ناروغي د ischemic heart disease له جملې څخه ده؟",
+                    "options": [
+                      "Myxomatous mitral valve",
+                      "Sudden cardiac death",
+                      "Infective endocarditis",
+                      "Calcific aortic stenosis"
+                    ],
+                    "answer": 2,
+                    "explanation": "Calcific Aortic Stenosis د Ischemic Heart Disease له جملې څخه نه ده، بلکې د زړه د والو ناروغي ده."
+                  },
+                  {
+                    "q": "د ابهر دسام د عدم کفایی په حالت کی د نبض لاندی کوم حالت لیدل کیږی؟",
+                    "options": [
+                      "Musset sign",
+                      "Pulsus paradoxus",
+                      "Water hammer pulse",
+                      "Bisferiens pulse"
+                    ],
+                    "answer": 0,
+                    "explanation": "د ابهر دسام (Aortic Regurgitation) په حالت کې د Musset sign (د سر وهل) لیدل کېږي."
+                  },
+                  {
+                    "q": "قشر رويت visual cortex موقعيت در كدام فص است؟",
+                    "options": [
+                      "Frontal lobe",
+                      "Temporal lobe",
+                      "Parietal lobe",
+                      "Occipital lobe"
+                    ],
+                    "answer": 3,
+                    "explanation": "Visual Cortex (د لید قشر) د Occipital Lobe (د مغز شاته برخه) کې موقعیت لري."
+                  },
+                  {
+                    "q": "بكترياى هوازى مطلق؟",
+                    "options": [
+                      "E. coli",
+                      "Streptococcus",
+                      "Mycobacterium tuberculosis",
+                      "Clostridium"
+                    ],
+                    "answer": 2,
+                    "explanation": "Mycobacterium tuberculosis یو مطلق هوازي (Obligate Aerobe) باکتریا ده."
+                  },
+                  {
+                    "q": "تب نزد اطفال كه تويط فواصل درجه حرارت نارمل از هم جدا ميشود بنام؟",
+                    "options": [
+                      "Remittent fever",
+                      "Intermittent fever",
+                      "Relapsing fever",
+                      "Continuous fever"
+                    ],
+                    "answer": 2,
+                    "explanation": "هغه تب چې د تودوخې په منځ کې د عادي تودوخې وقفې (Normal Intervals) ولري، Relapsing Fever (تکراري تب) نومېږي."
+                  },
+                  {
+                    "q": "سيروز قلبى توسط؟",
+                    "options": [
+                      "Left heart failure",
+                      "Congenital heart disease",
+                      "Long-standing right heart failure",
+                      "Pulmonary embolism"
+                    ],
+                    "answer": 2,
+                    "explanation": "Cardiac Cirrhosis (د زړه له امله د جگر سیروز) د اوږدې مودې د ښي زړه د ناکامۍ (Long-standing Right Heart Failure) له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "كدام تومور خبييث است؟",
+                    "options": [
+                      "Melanoma",
+                      "Papilloma",
+                      "Chondroma",
+                      "Lipoma"
+                    ],
+                    "answer": 0,
+                    "explanation": "Melanoma یو خبیث (Malignant) تومور دی، چې د Melanocytes څخه رامنځته کېږي."
+                  },
+                  {
+                    "q": "عرضه جانبى سلبتامول؟",
+                    "options": [
+                      "Bradycardia",
+                      "Tachycardia",
+                      "Hypotension",
+                      "Nausea"
+                    ],
+                    "answer": 1,
+                    "explanation": "Salbutamol یوه جانبي عارضه Tachycardia ده."
+                  },
+                  {
+                    "q": "د زړه Apex په کومو بین الضلعي مسافه کې موقعیت لري؟",
+                    "options": [
+                      "Left 5th intercostal space",
+                      "Right 4th intercostal space",
+                      "Midsternal line",
+                      "Left 3rd intercostal space"
+                    ],
+                    "answer": 0,
+                    "explanation": "د زړه Apex (نوک) د کیڼ ۵مې بین الضلعي مسافې (Left 5th Intercostal Space) په Midclavicular Line کې موقعیت لري."
+                  },
+                  {
+                    "q": "سردردی، استفراق، د غاړی شخوالی د کومې ناروغۍ له اختلاطاتو څخه دي؟",
+                    "options": [
+                      "Migraine",
+                      "Meningococci",
+                      "Cluster headache",
+                      "Sinusitis"
+                    ],
+                    "answer": 1,
+                    "explanation": "سردردی، استفراق او د غاړې شخوالی (Neck Stiffness) د Meningitis (Meningococci) له کلاسیکو نښو څخه دي."
+                  },
+                  {
+                    "q": "کوم انزایم د Fibrinogen څخه Fibrin جوړولو کې رول لري؟",
+                    "options": [
+                      "Catalase",
+                      "Oxidase",
+                      "Coagulase",
+                      "Proteinase"
+                    ],
+                    "answer": 2,
+                    "explanation": "Coagulase انزایم د Fibrinogen څخه Fibrin جوړولو کې رول لري، چې د وینې د جمع کېدو (Coagulation) لپاره مهم دی."
+                  },
+                  {
+                    "q": "Plummer Vinson Syndrome د کوم موادو اوږدمهاله کمښت له امله رامنځته کېږي؟",
+                    "options": [
+                      "آهن",
+                      "أيودين",
+                      "مكنيزيم",
+                      "كلسيم"
+                    ],
+                    "answer": 0,
+                    "explanation": "Plummer Vinson Syndrome د آهن (Iron) د اوږدمهاله کمښت له امله رامنځته کېږي، چې د Dysphagia او د پورتنۍ مری د غشا د نرموالي سبب کېږي."
+                  },
+                  {
+                    "q": "Atrophic Rhinitis کې د 25% Glucose in Glycerin د تطبیق هدف عبارت دی له؟",
+                    "options": [
+                      "د Proteolytic مایکرو اورگانیزمونو وده نهي کول",
+                      "د مخاطي طبقي بیا رغونه",
+                      "د وینې جریان زیاتول",
+                      "د درد کمول"
+                    ],
+                    "answer": 0,
+                    "explanation": "Atrophic Rhinitis کې د 25% Glucose in Glycerin د تطبیق هدف د Proteolytic مایکرو اورگانیزمونو د ودې مخنیوی دی."
+                  },
+                  {
+                    "q": "د Mitral stenosis معمول سبب کوم دی؟",
+                    "options": [
+                      "Congenital",
+                      "Rheumatic",
+                      "Infective",
+                      "Degenerative"
+                    ],
+                    "answer": 1,
+                    "explanation": "د Mitral Stenosis تر ټولو عام سبب Rheumatic Fever دی، چې د والو د کلسیمي کېدو او ضخامت سبب کېږي."
+                  },
+                  {
+                    "q": "د مينيجيتس نوې حمله د کوم عامل له امله رامنځته کېږي؟",
+                    "options": [
+                      "Reinfection",
+                      "Relapse",
+                      "Recurrence",
+                      "Superinfection"
+                    ],
+                    "answer": 2,
+                    "explanation": "Recurrence (تکرار) د میننژیت نوې حمله ده، چې د ورته یا بل عامل له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "په ماشومانو کې د ملاریا شدید شکل کوم دی؟",
+                    "options": [
+                      "Plasmodium vivax",
+                      "Plasmodium malariae",
+                      "Plasmodium ovale",
+                      "Plasmodium falciparum"
+                    ],
+                    "answer": 3,
+                    "explanation": "Plasmodium falciparum په ماشومانو کې د ملاریا شدید شکل (Severe Malaria) سبب کېږي، چې د Cerebral Malaria لامل کېږي."
+                  },
+                  {
+                    "q": "په ماشومانو کې د زیري معمول علت کوم دی؟",
+                    "options": [
+                      "Hemolysis",
+                      "Impaired conjugation",
+                      "Biliary atresia",
+                      "Sepsis"
+                    ],
+                    "answer": 1,
+                    "explanation": "په ماشومانو کې د زیري (Jaundice) معمول علت د Bilirubin د Conjugation (تړل) کې اختلال دی، چې د ناپاکه Bilirubin د زیاتوالي سبب کېږي."
+                  },
+                  {
+                    "q": "د حمل د فرضي نښو څخه یوه کومه ده؟",
+                    "options": [
+                      "د جنین حرکت",
+                      "د رحم پراخوالی",
+                      "د مياشتني عادت قطع كول",
+                      "د شیدو تولید"
+                    ],
+                    "answer": 2,
+                    "explanation": "د مياشتني عادت قطع کول (Amenorrhea) د حمل د فرضي (Presumptive) نښو څخه ده."
+                  },
+                  {
+                    "q": "Measles کې کومه ځانګړې نښه لیدل کېږي؟",
+                    "options": [
+                      "Strawberry tongue",
+                      "Koplik’s spot",
+                      "White patches",
+                      "Maculopapular rash"
+                    ],
+                    "answer": 1,
+                    "explanation": "Koplik's spot د Measles (حبه) ځانګړې نښه ده، چې د خولې په مخاط کې د سپینو داغونو په شکل لیدل کېږي."
+                  },
+                  {
+                    "q": "بدن ته د انتان د داخلېدو څخه تر لومني عرض څرګندېدو پورې موده څه نومېږي؟",
+                    "options": [
+                      "Prodromal period",
+                      "Incubation period",
+                      "Convalescence",
+                      "Latent period"
+                    ],
+                    "answer": 1,
+                    "explanation": "Incubation Period (د کمون موده) د بدن ته د انتان د داخلېدو څخه تر لومړني عرض (Symptoms) څرګندېدو پورې موده ده."
+                  },
+                  {
+                    "q": "په وینه کې د بکتریا تکثر ته څه وایی؟",
+                    "options": [
+                      "Bacteremia",
+                      "Septicemia",
+                      "Toxemia",
+                      "Viremia"
+                    ],
+                    "answer": 1,
+                    "explanation": "Septicemia د وینې په جریان کې د باکتریا تکثر (Multiplication) ته ویل کېږي، چې د سیسټمیک التهاب سبب کېږي."
+                  },
+                  {
+                    "q": "ايتانازيا په کوم هېواد کې رواده ده؟",
+                    "options": [
+                      "هالند",
+                      "افغانستان",
+                      "پاکستان",
+                      "ایران"
+                    ],
+                    "answer": 0,
+                    "explanation": "Euthanasia (ایتانازیا) په هالند (Netherlands) کې قانوني ده."
+                  },
+                  {
+                    "q": "د Cotrimoxazole درملو تركيب عبارت دي له؟",
+                    "options": [
+                      "Amoxicillin + Clavulanic acid",
+                      "Trimethoprim + Sulfamethoxazole",
+                      "Ciprofloxacin + Metronidazole",
+                      "Doxycycline + Rifampin"
+                    ],
+                    "answer": 1,
+                    "explanation": "Cotrimoxazole د Trimethoprim او Sulfamethoxazole ترکیب دی، چې د انتي بیوټیک په توګه کارول کېږي."
+                  },
+                  {
+                    "q": "د زړه لومری اواز د څه شي بواسطه منخته راخي؟",
+                    "options": [
+                      "د Semilunar والونو د بندېدو له امله",
+                      "د Bicuspid او Tricuspid والونو د بندېدو له امله",
+                      "د بطینونو د انقباض له امله",
+                      "د اذینو د انقباض له امله"
+                    ],
+                    "answer": 1,
+                    "explanation": "د زړه لومړی اواز (S1) د Bicuspid (Mitral) او Tricuspid والونو د بندېدو له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "Graves’ disease علت کوم دی؟",
+                    "options": [
+                      "Hashimoto thyroiditis",
+                      "Toxic thyrotoxicosis",
+                      "Subacute thyroiditis",
+                      "Thyroid adenoma"
+                    ],
+                    "answer": 1,
+                    "explanation": "Graves' Disease د Toxic Thyrotoxicosis له امله رامنځته کېږي، چې د تیروئید هورمونونو د زیاتوالي سبب کېږي."
+                  },
+                  {
+                    "q": "د سطحی وریدونو ترمبوزس په کومو وریدونو کې لیدل کېږي؟",
+                    "options": [
+                      "Deep veins",
+                      "Femoral veins",
+                      "Superficial veins",
+                      "Pulmonary veins"
+                    ],
+                    "answer": 2,
+                    "explanation": "د سطحی وریدونو ترمبوزس (Superficial Vein Thrombosis) په سطحی وریدونو کې لیدل کېږي، لکه د پښې د Saphenous Vein."
+                  },
+                  {
+                    "q": "د ثدي malignant معمول تومور کوم دی؟",
+                    "options": [
+                      "Ductal carcinoma",
+                      "Fibroadenoma",
+                      "Phyllodes tumor",
+                      "Papillary carcinoma"
+                    ],
+                    "answer": 0,
+                    "explanation": "د ثدي (Breast) تر ټولو عام Malignant تومور Ductal Carcinoma دی، چې د شیدو د نلونو (Ducts) څخه رامنځته کېږي."
+                  },
+                  {
+                    "q": "د پتالوژی له نظره ARDS به څو مرحلو وېشل شوي دي؟",
+                    "options": [
+                      "یوه مرحله",
+                      "دوه مرحلې",
+                      "درې مرحلې",
+                      "څلور مرحلې"
+                    ],
+                    "answer": 1,
+                    "explanation": "ARDS (Acute Respiratory Distress Syndrome) د پتالوژی له نظره په دوه مرحلو وېشل شوی دی: Exudative Phase او Fibroproliferative Phase."
+                  },
+                  {
+                    "q": "د Ischemic Heart Disease له جملې څخه کوم یو دی؟",
+                    "options": [
+                      "Stable Angina",
+                      "Sudden Cardiac Death",
+                      "Pericarditis",
+                      "Atrial Fibrillation"
+                    ],
+                    "answer": 1,
+                    "explanation": "Sudden Cardiac Death د Ischemic Heart Disease له جملې څخه دی، چې د زړه د شریان د بندیدو له امله رامنځته کېږي."
+                  },
+                  {
+                    "q": "د لومړنیو طبي مرسته کوونکو مسؤلیت عبارت دی له؟",
+                    "options": [
+                      "تشخیص کول",
+                      "جراحي کول",
+                      "Promote",
+                      "درملنه کول"
+                    ],
+                    "answer": 2,
+                    "explanation": "د لومړنیو طبي مرسته کوونکو (First Aiders) مسؤلیت د روغتیا ترویج (Promote) دی، نه تشخیص یا جراحي."
+                  },
+                  {
+                    "q": "Heat intolerance په کوم حالت کې لیدل کېږي؟",
+                    "options": [
+                      "Hypothyroidism",
+                      "Hyperthyroidism",
+                      "Cushing Syndrome",
+                      "Addison Disease"
+                    ],
+                    "answer": 1,
+                    "explanation": "Heat Intolerance (د تودوخې نه زغمل) د Hyperthyroidism په حالت کې لیدل کېږي، ځکه چې د میټابولیزم زیاتوالی د بدن تودوخه لوړوي."
+                  },
+                  {
+                    "q": "په برقی سوځېدنې کی لاندی یو حالت رامنځته کېږي؟",
+                    "options": [
+                      "د پوستکي سطحی زخم",
+                      "د وینې فشار لوړوالی",
+                      "عمومي تغیر او الکترولایت اختلال",
+                      "د زړه ضربان کمښت"
+                    ],
+                    "answer": 2,
+                    "explanation": "په برقی سوځېدنې (Electrical Burn) کې عمومي تغیرات او الکترولایت اختلال رامنځته کېږي، ځکه چې بریښنا د بدن د داخلي ارګانونو اغیزه کوي."
+                  },
+                  {
+                    "q": "Patient Control Analgesia د عملیات نه وروسته د درد ارامولو لپاره عبارت دی له؟",
+                    "options": [
+                      "د نرس لخوا د انالجزيک درملو تطبیق",
+                      "د جراح لخوا د درد کنټرول",
+                      "د ناروغ تر کنټرول لاندې انالجزيک درملو تطبیق",
+                      "د درد د ارزونې وروسته درملنه"
+                    ],
+                    "answer": 2,
+                    "explanation": "Patient-Controlled Analgesia (PCA) د ناروغ تر کنټرول لاندې د انالجزيک درملو تطبیق دی، چې ناروغ پخپله د درد د کنټرول لپاره درمل کاروي."
+                  },
+                  {
+                    "q": "د Infertility د سیسټمیکو اسبابو له جملې څخه کوم یو دی؟",
+                    "options": [
+                      "شديده کمخوني",
+                      "د مثانې التهاب",
+                      "د رحم پولیپ",
+                      "د تخمدانونو چپه موقعیت"
+                    ],
+                    "answer": 0,
+                    "explanation": "شديده کمخوني (Severe Anemia) د Infertility (بانست) د سیسټمیکو اسبابو څخه ده."
+                  },
+                  {
+                    "q": "د ګیډی اصغا د لاندی معاینه څخه مخکی ترسره کېږي؟",
+                    "options": [
+                      "Inspection",
+                      "Percussion",
+                      "Palpation",
+                      "Auscultation"
+                    ],
+                    "answer": 3,
+                    "explanation": "د ګیډی اصغا (Abdominal Auscultation) د Percussion او Palpation څخه مخکی ترسره کېږي، ترڅو د کولمو د غږونو (Bowel Sounds) دقیق ارزونه وشي."
+                  },
+                  {
+                    "q": "د مفصل دردناکه جس څو درجې لري؟",
+                    "options": [
+                      "۳ درجې",
+                      "۴ درجې",
+                      "۵ درجې",
+                      "۶ درجې"
+                    ],
+                    "answer": 2,
+                    "explanation": "د مفصل دردناکه جس (Painful Joint) ۵ درجې لري، چې د مفصل د حرکت او درد د شدت له مخې ارزول کېږي."
+                  },
+                  {
+                    "q": "Myenteric Plexus لاندي کومه دنده لري؟",
+                    "options": [
+                      "Gut Motility",
+                      "Hormone Secretion",
+                      "Nutrient Absorption",
+                      "Immune Defense"
+                    ],
+                    "answer": 0,
+                    "explanation": "Myenteric Plexus (Auerbach's Plexus) د کولمو د حرکاتو (Gut Motility) د تنظیم مسؤلیت لري."
+                  },
+                  {
+                    "q": "Superior Oblique Muscle د کوم عصب له خوا تعصبېږي؟",
+                    "options": [
+                      "Oculomotor nerve",
+                      "Trochlear nerve",
+                      "Abducent nerve",
+                      "Optic nerve"
+                    ],
+                    "answer": 1,
+                    "explanation": "Superior Oblique Muscle د Trochlear nerve (Cranial Nerve IV) له خوا تعصیبېږي، چې د سترګې د ښکته او بهر حرکت مسؤلیت لري."
+                  },
+                  {
+                    "q": "لاندی یو غړی Retroperitoneal موقعیت لري؟",
+                    "options": [
+                      "Liver",
+                      "Kidneys",
+                      "Spleen",
+                      "Stomach"
+                    ],
+                    "answer": 1,
+                    "explanation": "پښتورګي (Kidneys) Retroperitoneal موقعیت لري، چې د صفاق (Peritoneum) شاته موقعیت لري."
+                  },
+                  {
+                    "q": "د Pyelonephritis عامل کوم میکروب دی؟",
+                    "options": [
+                      "Streptococcus pneumoniae",
+                      "Klebsiella pneumoniae",
+                      "E. coli",
+                      "Pseudomonas aeruginosa"
+                    ],
+                    "answer": 2,
+                    "explanation": "E. coli د Pyelonephritis (د پښتورګي التهاب) تر ټولو عام عامل دی، چې د بولي طرقو له انتان څخه رامنځته کېږي."
+                  }
+                ],
+                "qa": [],
+                "flashcards": [],
+                "mnemonics": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
