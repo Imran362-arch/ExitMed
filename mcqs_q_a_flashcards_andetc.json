@@ -823,6 +823,824 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "shock",
+                  "name": "Shock",
+                  "icon": "\u26a1",
+                  "description": "A state of cellular and tissue hypoxia due to reduced oxygen delivery and/or increased oxygen consumption or inadequate utilization",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "A patient presents with fever, heart rate 110 bpm, respiratory rate 24/min, and WBC 14,000/\u00b5L. This clinical picture is best described as:",
+                        "options": [
+                          "Sepsis",
+                          "Septic Shock",
+                          "SIRS",
+                          "Bacteremia"
+                        ],
+                        "answer": 2,
+                        "explanation": "SIRS (Systemic Inflammatory Response Syndrome) is defined by 2 or more criteria: temperature >38\u00b0C or <36\u00b0C, heart rate >90 bpm, respiratory rate >20/min, or WBC >12,000 or <4,000/\u00b5L. This patient meets 3 criteria."
+                      },
+                      {
+                        "q": "According to the Sepsis-3 criteria, the minimum SOFA score increase required to define organ dysfunction in a patient with infection is:",
+                        "options": [
+                          "1 point",
+                          "2 points",
+                          "3 points",
+                          "4 points"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sepsis-3 defines sepsis as life-threatening organ dysfunction caused by a dysregulated host response to infection, with a SOFA score increase of \u22652 points."
+                      },
+                      {
+                        "q": "Which of the following is NOT a criterion for qSOFA?",
+                        "options": [
+                          "Respiratory rate \u2265 22/min",
+                          "Systolic blood pressure \u2264 100 mmHg",
+                          "Altered mentation (GCS \u2264 13)",
+                          "Heart rate > 90 bpm"
+                        ],
+                        "answer": 3,
+                        "explanation": "qSOFA criteria are: 1) Respiratory rate \u226522/min, 2) Altered mentation (GCS \u226413), 3) Systolic BP \u2264100 mmHg. Heart rate is not part of qSOFA."
+                      },
+                      {
+                        "q": "A patient with septic shock is defined as having sepsis with persistent hypotension requiring vasopressors to maintain MAP \u2265 65 mmHg and serum lactate level greater than:",
+                        "options": [
+                          "1 mmol/L",
+                          "2 mmol/L",
+                          "3 mmol/L",
+                          "4 mmol/L"
+                        ],
+                        "answer": 1,
+                        "explanation": "Septic shock is defined as sepsis with persistent hypotension requiring vasopressors to maintain MAP \u226565 mmHg and serum lactate >2 mmol/L despite adequate fluid resuscitation."
+                      },
+                      {
+                        "q": "The most common cause of Cardiogenic shock is:",
+                        "options": [
+                          "Acute myocardial infarction",
+                          "Cardiomyopathy",
+                          "Valvular heart disease",
+                          "Cardiac contusion"
+                        ],
+                        "answer": 0,
+                        "explanation": "Acute Myocardial Infarction (AMI) is the most common cause of cardiogenic shock, accounting for approximately 80% of cases."
+                      },
+                      {
+                        "q": "In Cardiogenic shock, the echocardiogram typically shows:",
+                        "options": [
+                          "Small ventricular cavities with normal contractility",
+                          "Dilated ventricular cavities with hypokinetic walls",
+                          "Small ventricular cavities with hyperkinetic walls",
+                          "Normal ventricular size with hyperkinetic walls"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cardiogenic shock is characterized by pump failure, showing dilated ventricles with poor contractility (hypokinetic walls) due to myocardial dysfunction."
+                      },
+                      {
+                        "q": "In Hypovolemic shock, the echocardiogram typically shows:",
+                        "options": [
+                          "Small ventricular cavities with normal contractility",
+                          "Dilated ventricular cavities with hypokinetic walls",
+                          "Large ventricular cavities with hyperkinetic walls",
+                          "Normal ventricular size with normal contractility"
+                        ],
+                        "answer": 0,
+                        "explanation": "Hypovolemic shock shows small, under-filled ventricles with normal contractility due to decreased preload from volume loss."
+                      },
+                      {
+                        "q": "The primary initial treatment for refractory Cardiogenic shock is:",
+                        "options": [
+                          "Dobutamine infusion",
+                          "Intra-aortic balloon pump",
+                          "Volume resuscitation",
+                          "Revascularization"
+                        ],
+                        "answer": 3,
+                        "explanation": "For cardiogenic shock caused by AMI, the definitive treatment is revascularization (PCI or CABG). Mechanical support like IABP is a bridge, not primary treatment."
+                      },
+                      {
+                        "q": "The most common cause of obstructive shock is:",
+                        "options": [
+                          "Cardiac tamponade",
+                          "Massive pulmonary embolism",
+                          "Tension pneumothorax",
+                          "Aortic stenosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Massive Pulmonary Embolism is the most common cause of obstructive shock, causing acute right ventricular outflow obstruction."
+                      },
+                      {
+                        "q": "A patient is diagnosed with SIRS. Which of the following is a defining criterion?",
+                        "options": [
+                          "Temperature of 37.5\u00b0C",
+                          "Heart rate of 85 bpm",
+                          "Respiratory rate of 18/min",
+                          "WBC count of 14,000/\u00b5L"
+                        ],
+                        "answer": 3,
+                        "explanation": "SIRS criteria include WBC >12,000 or <4,000/\u00b5L. A WBC of 14,000/\u00b5L meets this criterion. The other values are normal."
+                      },
+                      {
+                        "q": "A defining feature of Septic shock is hypotension that:",
+                        "options": [
+                          "Responds to fluids",
+                          "Does not respond to fluids",
+                          "Is associated with bradycardia",
+                          "Is seen only in immunocompromised patients"
+                        ],
+                        "answer": 1,
+                        "explanation": "Septic shock is characterized by persistent hypotension that does NOT respond to adequate fluid resuscitation, requiring vasopressors."
+                      },
+                      {
+                        "q": "Which vasoactive substance, produced in large amounts during septic shock, plays a major role in the hyperdynamic cardiovascular response?",
+                        "options": [
+                          "Thromboxane A2",
+                          "Angiotensin II",
+                          "Endothelin",
+                          "Nitric Oxide (NO)"
+                        ],
+                        "answer": 3,
+                        "explanation": "Nitric Oxide (NO) is a potent vasodilator produced in large amounts during septic shock, contributing to the hyperdynamic state and hypotension."
+                      },
+                      {
+                        "q": "A strong Vasoconstrictor that causes Acute Tubular Necrosis and pulmonary hypertension is:",
+                        "options": [
+                          "Prostacyclin",
+                          "Thromboxane A2",
+                          "Lipoxin",
+                          "Nitric Oxide"
+                        ],
+                        "answer": 1,
+                        "explanation": "Thromboxane A2 is a potent vasoconstrictor that can cause acute kidney injury (ATN) and pulmonary hypertension by reducing renal and pulmonary blood flow."
+                      },
+                      {
+                        "q": "The inflammatory mediator that acts as a potent pyrogen and is produced by macrophages is:",
+                        "options": [
+                          "TNF-\u03b1",
+                          "Interleukin-1",
+                          "Leukotriene",
+                          "Thromboxane A2"
+                        ],
+                        "answer": 1,
+                        "explanation": "Interleukin-1 (IL-1) is a potent pyrogen produced by macrophages that induces fever and promotes the inflammatory response in sepsis."
+                      },
+                      {
+                        "q": "The primary mechanism by which Epinephrine contributes to maintaining blood volume during shock includes:",
+                        "options": [
+                          "Increased insulin secretion",
+                          "Glycogenolysis and Gluconeogenesis",
+                          "Stimulation of Vagus nerve",
+                          "Decreased release of glucagon"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epinephrine promotes glycogenolysis and gluconeogenesis, increasing blood glucose levels and helping maintain blood volume during shock."
+                      },
+                      {
+                        "q": "In the cellular response to shock, the accumulation of which substance leads to cellular edema?",
+                        "options": [
+                          "Calcium",
+                          "Sodium",
+                          "Potassium",
+                          "Magnesium"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sodium accumulation inside cells draws water into the cell, leading to cellular edema due to the Na+/K+ ATPase pump failure during shock."
+                      },
+                      {
+                        "q": "The final common pathway of cellular injury in shock often leads to:",
+                        "options": [
+                          "Hypertrophy",
+                          "Programmed cell death (Apoptosis)",
+                          "Hyperplasia",
+                          "Metaplasia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Apoptosis (programmed cell death) is the final common pathway of cellular injury in shock due to prolonged hypoxia and energy depletion."
+                      },
+                      {
+                        "q": "The classification of shock that includes Septic shock is:",
+                        "options": [
+                          "Hypovolemic",
+                          "Cardiogenic",
+                          "Obstructive",
+                          "Distributive"
+                        ],
+                        "answer": 3,
+                        "explanation": "Septic shock is a type of Distributive shock, characterized by abnormal distribution of blood flow and peripheral vasodilation."
+                      },
+                      {
+                        "q": "A patient with anaphylaxis is experiencing which type of shock?",
+                        "options": [
+                          "Hypovolemic",
+                          "Cardiogenic",
+                          "Obstructive",
+                          "Distributive"
+                        ],
+                        "answer": 3,
+                        "explanation": "Anaphylactic shock is a type of Distributive shock caused by massive vasodilation and increased capillary permeability from a severe allergic reaction."
+                      },
+                      {
+                        "q": "The complement cascade produces anaphylatoxins that include:",
+                        "options": [
+                          "C3a and C5a",
+                          "C3b and C4b",
+                          "C5b and C9",
+                          "C1 and C4"
+                        ],
+                        "answer": 0,
+                        "explanation": "C3a and C5a are anaphylatoxins that cause mast cell degranulation, increased vascular permeability, and chemotaxis of inflammatory cells."
+                      },
+                      {
+                        "q": "The hallmark of Neurogenic shock is:",
+                        "options": [
+                          "Hypertension and tachycardia",
+                          "Hypotension and bradycardia",
+                          "Hypotension and tachycardia",
+                          "Hypertension and bradycardia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Neurogenic shock is characterized by hypotension and bradycardia due to loss of sympathetic tone from spinal cord injury or spinal anesthesia."
+                      },
+                      {
+                        "q": "Which of the following criteria is used to calculate a SOFA score?",
+                        "options": [
+                          "Respiratory rate",
+                          "GCS score",
+                          "Heart rate",
+                          "Blood pressure"
+                        ],
+                        "answer": 1,
+                        "explanation": "SOFA score components include GCS (CNS), PaO2/FiO2 (Respiratory), Platelets (Coagulation), Bilirubin (Liver), MAP/Vasopressors (Cardiovascular), and Creatinine (Renal)."
+                      },
+                      {
+                        "q": "SIRS can be caused by which of the following?",
+                        "options": [
+                          "Infection only",
+                          "Non-infectious conditions only",
+                          "Both infectious and non-infectious conditions",
+                          "Neither infectious nor non-infectious conditions"
+                        ],
+                        "answer": 2,
+                        "explanation": "SIRS can be caused by both infectious (e.g., sepsis) and non-infectious conditions (e.g., trauma, burns, pancreatitis)."
+                      },
+                      {
+                        "q": "What is the most common finding in a patient with Cardiogenic shock upon physical examination?",
+                        "options": [
+                          "Warm, dry skin",
+                          "Bounding pulses",
+                          "Cool, clammy skin",
+                          "Wide pulse pressure"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cool, clammy skin with weak peripheral pulses is the classic physical exam finding in cardiogenic shock due to poor cardiac output and vasoconstriction."
+                      },
+                      {
+                        "q": "The activation of the Coagulation Cascade in sepsis leads to:",
+                        "options": [
+                          "Increased fibrinolysis",
+                          "Microvascular injury",
+                          "Hypotension via kinin system",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "Coagulation cascade activation in sepsis leads to microvascular injury, fibrin deposition, and activation of the kinin system causing hypotension."
+                      },
+                      {
+                        "q": "The primary inotrope used to improve cardiac output in Cardiogenic shock is:",
+                        "options": [
+                          "Norepinephrine",
+                          "Dobutamine",
+                          "Phenylephrine",
+                          "Vasopressin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Dobutamine is a potent inotrope that increases myocardial contractility and cardiac output in cardiogenic shock. Norepinephrine is primarily a vasopressor."
+                      },
+                      {
+                        "q": "Which of the following is a characteristic feature of the inflammatory response in sepsis?",
+                        "options": [
+                          "Decreased vascular permeability",
+                          "Activation of the Complement and Coagulation cascades",
+                          "Reduced production of Reactive Oxygen Species",
+                          "Decreased leukocyte adhesion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sepsis is characterized by activation of both complement and coagulation cascades, leading to widespread inflammation and microvascular thrombosis."
+                      },
+                      {
+                        "q": "One of the most important mediators causing vasodilation and contributing to hypotension in septic shock is:",
+                        "options": [
+                          "Endothelin",
+                          "Thromboxane A2",
+                          "Nitric Oxide",
+                          "Angiotensin II"
+                        ],
+                        "answer": 2,
+                        "explanation": "Nitric Oxide (NO) is the primary mediator causing vasodilation and contributing to refractory hypotension in septic shock."
+                      },
+                      {
+                        "q": "The term 'Distributive shock' refers to a condition characterized by:",
+                        "options": [
+                          "Decreased intravascular volume",
+                          "Inadequate cardiac pump function",
+                          "Abnormal distribution of blood flow and vasodilation",
+                          "Mechanical obstruction of blood flow"
+                        ],
+                        "answer": 2,
+                        "explanation": "Distributive shock is characterized by abnormal distribution of blood flow due to peripheral vasodilation and maldistribution of circulating volume."
+                      },
+                      {
+                        "q": "The qSOFA score is used to:",
+                        "options": [
+                          "Diagnose sepsis",
+                          "Predict in-hospital mortality in patients with suspected infection",
+                          "Determine the need for antibiotics",
+                          "Assess organ dysfunction in the ICU"
+                        ],
+                        "answer": 1,
+                        "explanation": "qSOFA is a bedside tool to rapidly identify patients with suspected infection who are at higher risk of poor outcomes and in-hospital mortality."
+                      },
+                      {
+                        "q": "In the setting of septic shock, the use of Norepinephrine is indicated when:",
+                        "options": [
+                          "Fluid resuscitation is successful",
+                          "There is persistent hypotension despite fluid resuscitation",
+                          "The patient has a confirmed infection",
+                          "The patient has a high fever"
+                        ],
+                        "answer": 1,
+                        "explanation": "Norepinephrine is the first-line vasopressor in septic shock when persistent hypotension persists despite adequate fluid resuscitation."
+                      },
+                      {
+                        "q": "Which of the following conditions is a direct cause of Cardiogenic shock?",
+                        "options": [
+                          "Severe dehydration",
+                          "Massive GI bleed",
+                          "Massive pulmonary embolism",
+                          "Acute myocardial infarction"
+                        ],
+                        "answer": 3,
+                        "explanation": "Acute Myocardial Infarction is a direct cause of cardiogenic shock due to pump failure. The other options cause hypovolemic or obstructive shock."
+                      },
+                      {
+                        "q": "The SIRS criteria that includes 'Heart rate > 90 bpm' is indicative of:",
+                        "options": [
+                          "Bradycardia",
+                          "Tachycardia",
+                          "Normal heart rate",
+                          "Arrhythmia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Heart rate >90 bpm indicates tachycardia, one of the four SIRS criteria, reflecting the compensatory response to systemic inflammation."
+                      },
+                      {
+                        "q": "Which classification of shock is most commonly associated with a Hyperdynamic cardiovascular response?",
+                        "options": [
+                          "Hypovolemic",
+                          "Cardiogenic",
+                          "Obstructive",
+                          "Distributive"
+                        ],
+                        "answer": 3,
+                        "explanation": "Distributive shock (especially septic shock) is associated with a hyperdynamic response characterized by high cardiac output and low systemic vascular resistance."
+                      },
+                      {
+                        "q": "The substance that acts as a strong chemoattractant for neutrophils is:",
+                        "options": [
+                          "Interleukins",
+                          "Leukotrienes",
+                          "Prostaglandins",
+                          "Thromboxane"
+                        ],
+                        "answer": 1,
+                        "explanation": "Leukotrienes (particularly LTB4) are strong chemoattractants for neutrophils, promoting their migration to sites of inflammation."
+                      },
+                      {
+                        "q": "In the management of shock, 'Volume' resuscitation is a critical step. Over resuscitation can lead to:",
+                        "options": [
+                          "Preload overload",
+                          "Afterload reduction",
+                          "Increased contractility",
+                          "Decreased cardiac output"
+                        ],
+                        "answer": 0,
+                        "explanation": "Over-resuscitation leads to preload overload, causing volume overload, pulmonary edema, and worsening cardiac function."
+                      },
+                      {
+                        "q": "The primary purpose of the neuroendocrine response in shock is to:",
+                        "options": [
+                          "Decrease heart rate",
+                          "Inhibit the adrenergic system",
+                          "Promote vasodilation",
+                          "Maintain organ perfusion"
+                        ],
+                        "answer": 3,
+                        "explanation": "The neuroendocrine response (sympathetic and adrenal) aims to maintain organ perfusion through vasoconstriction, increased cardiac output, and metabolic changes."
+                      },
+                      {
+                        "q": "A patient with Sepsis is defined as having SIRS plus:",
+                        "options": [
+                          "Hypotension",
+                          "Documented or suspected infection",
+                          "Organ dysfunction",
+                          "Hyperlactatemia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sepsis (Sepsis-3) is defined as SIRS plus documented or suspected infection. Organ dysfunction (SOFA \u22652) defines severe sepsis."
+                      },
+                      {
+                        "q": "Thromboxane A2 is a potent vasoconstrictor that contributes to:",
+                        "options": [
+                          "Decreased vascular resistance",
+                          "Acute kidney injury",
+                          "Decreased blood pressure",
+                          "Vasodilation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Thromboxane A2 causes potent vasoconstriction leading to renal ischemia and Acute Kidney Injury (ATN) in shock states."
+                      },
+                      {
+                        "q": "The definition of Septic Shock includes persistent hypotension requiring vasopressors to maintain MAP \u2265 65 mmHg and:",
+                        "options": [
+                          "Hyperventilation",
+                          "Lactate > 2 mmol/L",
+                          "GCS < 13",
+                          "Respiratory rate > 22/min"
+                        ],
+                        "answer": 1,
+                        "explanation": "Septic shock is defined by persistent hypotension requiring vasopressors AND serum lactate >2 mmol/L after adequate fluid resuscitation."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the most common type of distributive shock?",
+                        "a": "Septic shock."
+                      },
+                      {
+                        "q": "A patient with hypotension and bradycardia following a spinal cord injury is most likely experiencing which type of shock?",
+                        "a": "Neurogenic shock."
+                      },
+                      {
+                        "q": "What is the qSOFA score used for?",
+                        "a": "To quickly identify patients with suspected infection who are at higher risk of poor outcomes and in-hospital mortality."
+                      },
+                      {
+                        "q": "What is the primary difference between Sepsis and Septic Shock?",
+                        "a": "Septic shock involves persistent hypotension and hyperlactatemia that does not respond to fluid resuscitation, indicating more severe circulatory and cellular dysfunction."
+                      },
+                      {
+                        "q": "Name two potent vasoconstrictors released during shock.",
+                        "a": "Thromboxane A2 and Angiotensin II."
+                      },
+                      {
+                        "q": "What are the three main causes of Obstructive shock?",
+                        "a": "Massive pulmonary embolism, cardiac tamponade, and tension pneumothorax."
+                      },
+                      {
+                        "q": "What is the mechanism of action of Norepinephrine in septic shock?",
+                        "a": "It acts as a potent \u03b1-1 agonist (vasoconstriction) and has mild \u03b2-1 agonist effects (increases cardiac contractility and heart rate)."
+                      },
+                      {
+                        "q": "What is the most important initial step in managing Hypovolemic shock?",
+                        "a": "Fluid resuscitation with crystalloids."
+                      },
+                      {
+                        "q": "What is the significance of Thromboxane A2 in shock?",
+                        "a": "It is a potent vasoconstrictor that can lead to acute kidney injury (ATN) and pulmonary hypertension."
+                      },
+                      {
+                        "q": "What is Anaphylactic shock?",
+                        "a": "A severe, life-threatening allergic reaction causing distributive shock due to massive vasodilation and increased capillary permeability."
+                      },
+                      {
+                        "q": "What is a key physical exam finding in a patient with Cardiogenic shock?",
+                        "a": "Cool, clammy extremities with weak peripheral pulses."
+                      },
+                      {
+                        "q": "What is the effect of Cortisol release during shock?",
+                        "a": "It decreases glucose uptake in peripheral tissues and increases lipolysis and gluconeogenesis to raise blood glucose levels."
+                      },
+                      {
+                        "q": "What does a SOFA score of 2 or greater indicate in the context of infection?",
+                        "a": "It indicates organ dysfunction, which is a defining criterion for Sepsis (Sepsis-3)."
+                      },
+                      {
+                        "q": "Why is Dobutamine used in Cardiogenic shock?",
+                        "a": "It is a potent inotrope that increases myocardial contractility, thereby improving cardiac output."
+                      },
+                      {
+                        "q": "What are the two primary pathways that activate the Complement Cascade in sepsis?",
+                        "a": "The Classical pathway and the Alternate pathway."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is Shock?",
+                        "back": "A state of cellular and tissue hypoxia due to reduced oxygen delivery and/or increased oxygen consumption or inadequate utilization."
+                      },
+                      {
+                        "front": "What are the 4 main classifications of shock?",
+                        "back": "1. Hypovolemic\n2. Cardiogenic\n3. Obstructive\n4. Distributive"
+                      },
+                      {
+                        "front": "What is SIRS?",
+                        "back": "A systemic inflammatory response to a variety of insults, characterized by two or more of the following: fever/hypothermia, tachycardia, tachypnea, or leukocytosis/leukopenia."
+                      },
+                      {
+                        "front": "What are the criteria for Sepsis (Sepsis-3)?",
+                        "back": "Sepsis = SIRS + Documented or suspected infection."
+                      },
+                      {
+                        "front": "What is the definition of Septic Shock (Sepsis-3)?",
+                        "back": "Sepsis with persistent hypotension requiring vasopressors to maintain MAP \u2265 65 mmHg and serum lactate > 2 mmol/L despite adequate fluid resuscitation."
+                      },
+                      {
+                        "front": "What is a key finding on echocardiography in Cardiogenic shock?",
+                        "back": "Dilated ventricles with hypokinetic walls (poor contractility)."
+                      },
+                      {
+                        "front": "What is a key finding on echocardiography in Hypovolemic shock?",
+                        "back": "Small, under-filled ventricles with normal contractility."
+                      },
+                      {
+                        "front": "What is the most common cause of Cardiogenic shock?",
+                        "back": "Acute Myocardial Infarction (AMI)."
+                      },
+                      {
+                        "front": "What is the most common cause of Obstructive shock?",
+                        "back": "Massive Pulmonary Embolism."
+                      },
+                      {
+                        "front": "What are the components of the qSOFA score?",
+                        "back": "1. Respiratory rate \u2265 22/min\n2. Altered mentation (GCS \u2264 13)\n3. Systolic blood pressure \u2264 100 mmHg"
+                      },
+                      {
+                        "front": "What is the hallmark finding in Neurogenic shock?",
+                        "back": "Hypotension and Bradycardia (due to loss of sympathetic tone)."
+                      },
+                      {
+                        "front": "What is a defining feature of Distributive shock?",
+                        "back": "Vasodilation and abnormal distribution of blood flow."
+                      },
+                      {
+                        "front": "What are the key inflammatory mediators in sepsis?",
+                        "back": "1. Complement Cascade\n2. Coagulation Cascade\n3. Eicosanoids\n4. TNF-\u03b1\n5. Interleukins"
+                      },
+                      {
+                        "front": "Which vasodilator plays a major role in the hyperdynamic response in septic shock?",
+                        "back": "Nitric Oxide (NO)."
+                      },
+                      {
+                        "front": "What is the primary goal of the Neuroendocrine response in shock?",
+                        "back": "To maintain organ perfusion and blood volume (via vasoconstriction and metabolic changes)."
+                      },
+                      {
+                        "front": "What is the first-line vasopressor for Septic shock?",
+                        "back": "Norepinephrine."
+                      },
+                      {
+                        "front": "What is the primary inotrope used to increase cardiac contractility in Cardiogenic shock?",
+                        "back": "Dobutamine."
+                      },
+                      {
+                        "front": "What is the definitive treatment for Cardiogenic shock caused by AMI?",
+                        "back": "Revascularization (e.g., PCI or CABG)."
+                      },
+                      {
+                        "front": "What are the criteria for SIRS? (List 3 of 4)",
+                        "back": "1. Temperature >38\u00b0C or <36\u00b0C\n2. Heart rate >90 bpm\n3. Respiratory rate >20/min\n4. WBC >12,000 or <4,000/\u00b5L or >10% immature forms"
+                      },
+                      {
+                        "front": "What is the final pathway of cellular injury in shock?",
+                        "back": "Programmed cell death (Apoptosis)."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "SIRS Criteria",
+                        "icon": "\ud83c\udf21\ufe0f",
+                        "code": "TWO WBCs",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Temperature >38\u00b0C or <36\u00b0C"
+                          },
+                          {
+                            "letter": "W",
+                            "text": "WBC >12,000 or <4,000/\u00b5L"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Other: Heart Rate >90 bpm, Respiratory Rate >20/min"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "The 4 Types of Shock",
+                        "icon": "\ud83d\udd04",
+                        "code": "Her Cats Often Do",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hypovolemic"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cardiogenic"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Obstructive"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Distributive"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "qSOFA Criteria",
+                        "icon": "\u26a1",
+                        "code": "R.A.S.",
+                        "items": [
+                          {
+                            "letter": "R",
+                            "text": "Respiratory rate \u2265 22/min"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Altered mentation (GCS \u2264 13)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Systolic BP \u2264 100 mmHg"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "SOFA Score Components",
+                        "icon": "\ud83d\udcca",
+                        "code": "R.P.C.L.C.C.",
+                        "items": [
+                          {
+                            "letter": "R",
+                            "text": "Respiratory (PaO2/FiO2)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Platelets"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Coagulation"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Liver (Bilirubin)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "CNS (GCS)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cardiovascular (MAP, Vasopressors)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Causes of Obstructive Shock",
+                        "icon": "\ud83d\udeab",
+                        "code": "P.T.A.C.",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Pulmonary Embolism"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Tension Pneumothorax"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Aortic Stenosis (Severe)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cardiac Tamponade"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Signs of Cardiogenic Shock",
+                        "icon": "\u2744\ufe0f",
+                        "code": "C.O.L.D.",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Cool, clammy skin"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Oliguria"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Low blood pressure"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Dyspnea (Pulmonary edema)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Causes of Distributive Shock",
+                        "icon": "\ud83c\udf0a",
+                        "code": "A.N.S.",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Anaphylaxis"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Neurogenic"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Sepsis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Sepsis-3 Criteria",
+                        "icon": "\ud83e\udda0",
+                        "code": "S.O.F.A.",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Sepsis = SIRS + Infection"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Organ Dysfunction = SOFA Score \u2265 2"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Fluid-Resistant Hypotension = Septic Shock"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Antibiotics are key in management"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Vasoactive Mediators in Shock",
+                        "icon": "\ud83d\udc8a",
+                        "code": "C.A.N.",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Constrictors (Thromboxane A2, Angiotensin II)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Activators (Adrenergic system)"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Nitric Oxide (Vasodilator)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Inflammatory Mediators in Sepsis",
+                        "icon": "\ud83d\udd25",
+                        "code": "C.I.T.T.",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Complement Cascade"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Interleukins (IL-1)"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "TNF-\u03b1"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Thromboxane A2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
