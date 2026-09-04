@@ -38,6 +38,7 @@
 --font-main:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
 --font-arabic:'Noto Naskh Arabic','Inter',sans-serif;
 --sidebar-w:300px;--topbar-h:64px;
+--fs-base:14px;--fs-mcq:18px;--fs-small:12px;--fs-large:22px;
 }
 [data-theme="light"]{
 --bg-0:#f8fafc;--bg-1:#ffffff;--bg-2:#f1f5f9;--bg-3:#e2e8f0;--bg-4:#cbd5e1;
@@ -47,7 +48,7 @@
 --primary:#6366f1;--primary-hover:#4f46e5;
 --shadow-sm:0 2px 8px rgba(0,0,0,0.06);--shadow-md:0 8px 24px rgba(0,0,0,0.08);--shadow-lg:0 20px 50px rgba(0,0,0,0.12);
 }
-html,body{font-family:var(--font-main);background:var(--bg-0);color:var(--text-1);min-height:100vh;overflow:hidden;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s;overscroll-behavior:none}
+html,body{font-family:var(--font-main);background:var(--bg-0);color:var(--text-1);min-height:100vh;overflow:hidden;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s;overscroll-behavior:none;font-size:var(--fs-base)}
 body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 60% at 20% 0%,rgba(99,102,241,0.12) 0%,transparent 50%),radial-gradient(ellipse 60% 50% at 80% 100%,rgba(236,72,153,0.08) 0%,transparent 50%),radial-gradient(ellipse 50% 40% at 50% 50%,rgba(6,182,212,0.04) 0%,transparent 50%);pointer-events:none;z-index:0}
 [data-theme="light"] body::before{background:radial-gradient(ellipse 80% 60% at 20% 0%,rgba(99,102,241,0.06) 0%,transparent 50%),radial-gradient(ellipse 60% 50% at 80% 100%,rgba(236,72,153,0.04) 0%,transparent 50%)}
 .rtl-text{font-family:var(--font-arabic)!important;direction:rtl!important;text-align:right!important;line-height:1.9!important}
@@ -64,8 +65,8 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .lang-btn{flex:1;padding:8px 4px;background:transparent;border:none;color:var(--text-3);font-size:11px;font-weight:700;cursor:pointer;border-radius:8px;transition:all .2s;font-family:inherit}
 .lang-btn.active{background:var(--gradient-primary);color:white;box-shadow:0 4px 12px var(--primary-glow)}
 .lang-btn:hover:not(.active){color:var(--text-1);background:var(--surface-hover)}
-.theme-toggle{width:42px;height:42px;border:1px solid var(--border);background:var(--surface);color:var(--text-2);border-radius:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;transition:all .2s}
-.theme-toggle:hover{background:var(--surface-hover);color:var(--primary-hover);border-color:var(--primary)}
+.theme-toggle,.settings-toggle{width:42px;height:42px;border:1px solid var(--border);background:var(--surface);color:var(--text-2);border-radius:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;transition:all .2s}
+.theme-toggle:hover,.settings-toggle:hover{background:var(--surface-hover);color:var(--primary-hover);border-color:var(--primary)}
 .breadcrumb-nav{padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px;font-size:12px;overflow-x:auto;white-space:nowrap;background:var(--surface);overscroll-behavior:none}
 .breadcrumb-nav::-webkit-scrollbar{display:none}
 .breadcrumb-item{color:var(--text-3);cursor:pointer;padding:5px 10px;border-radius:8px;transition:all .15s;font-weight:600;display:inline-flex;align-items:center;gap:5px}
@@ -118,10 +119,17 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 
 .quiz-fullscreen-page{min-height:100vh;display:flex;flex-direction:column;background:var(--bg-0);position:relative;animation:fadeIn .4s ease}
 .quiz-fullscreen-page::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 60% at 20% 0%,rgba(99,102,241,0.1) 0%,transparent 50%),radial-gradient(ellipse 60% 50% at 80% 100%,rgba(236,72,153,0.06) 0%,transparent 50%);pointer-events:none;z-index:0}
-.quiz-fs-header{position:sticky;top:0;z-index:10;padding:16px 24px;background:rgba(4,7,13,0.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-[data-theme="light"] .quiz-fs-header{background:rgba(255,255,255,0.9)}
-.quiz-fs-exit{width:40px;height:40px;border-radius:12px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;transition:all .2s;flex-shrink:0}
-.quiz-fs-exit:hover{background:var(--danger-soft);color:var(--danger);border-color:var(--danger)}
+.quiz-fs-header{position:sticky;top:0;z-index:10;padding:14px 20px;background:rgba(4,7,13,0.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+[data-theme="light"] .quiz-fs-header{background:rgba(255,255,255,0.95)}
+.quiz-fs-exit{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--danger-soft),rgba(239,68,68,0.25));border:1.5px solid var(--danger);color:var(--danger);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;transition:all .25s;flex-shrink:0;position:relative;overflow:hidden}
+.quiz-fs-exit::before{content:'';position:absolute;inset:0;background:var(--danger);opacity:0;transition:opacity .25s}
+.quiz-fs-exit:hover::before{opacity:.15}
+.quiz-fs-exit:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(239,68,68,0.4)}
+.quiz-fs-exit:active{transform:scale(0.95)}
+.quiz-fs-exit .exit-icon{position:relative;z-index:1;display:flex;align-items:center;justify-content:center}
+.quiz-fs-exit.warn{animation:shake .5s ease;background:var(--danger);color:white}
+.quiz-fs-exit-label{position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);font-size:9px;color:var(--danger);font-weight:700;white-space:nowrap;opacity:0;transition:opacity .2s;pointer-events:none;text-transform:uppercase;letter-spacing:.5px}
+.quiz-fs-exit:hover .quiz-fs-exit-label{opacity:1}
 .quiz-fs-title{flex:1;min-width:0}
 .quiz-fs-title h2{font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .quiz-fs-title p{font-size:11px;color:var(--text-3);margin-top:2px}
@@ -129,7 +137,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-fs-timer .timer-icon{color:var(--warning);font-size:14px}
 .quiz-fs-streak{display:flex;align-items:center;gap:6px;padding:8px 14px;background:var(--warning-soft);border:1px solid var(--warning);border-radius:10px;font-size:12px;font-weight:700;color:var(--warning);flex-shrink:0}
 .quiz-fs-streak.on-fire{animation:pulse 1s ease infinite;background:linear-gradient(135deg,rgba(245,158,11,0.2),rgba(239,68,68,0.2));border-color:var(--danger);color:var(--danger)}
-.quiz-fs-progress{padding:12px 24px;background:var(--bg-1);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.quiz-fs-progress{padding:12px 20px;background:var(--bg-1);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .quiz-fs-progress-bar-wrap{flex:1;min-width:200px}
 .quiz-fs-progress-label{display:flex;justify-content:space-between;font-size:12px;color:var(--text-3);margin-bottom:6px;font-weight:600}
 .quiz-fs-progress-bar{height:8px;background:var(--surface);border-radius:6px;overflow:hidden;border:1px solid var(--border)}
@@ -153,6 +161,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 @keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
 @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
 @keyframes scaleIn{from{transform:scale(.9);opacity:0}to{transform:scale(1);opacity:1}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
 
 .dashboard{max-width:1280px;margin:0 auto;animation:fadeUp .5s ease}
 .dashboard-hero{position:relative;padding:48px 40px;margin-bottom:36px;border-radius:var(--radius-xl);background:linear-gradient(135deg,rgba(99,102,241,0.15) 0%,rgba(139,92,246,0.1) 40%,rgba(236,72,153,0.1) 100%);border:1px solid var(--border);overflow:hidden;backdrop-filter:blur(20px)}
@@ -244,7 +253,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 /* ============ QUIZ STARTER MODAL ============ */
 .quiz-starter-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(12px);z-index:2500;display:none;align-items:center;justify-content:center;padding:20px}
 .quiz-starter-overlay.show{display:flex;animation:fadeIn .3s ease}
-.quiz-starter{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:520px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .4s cubic-bezier(.4,0,.2,1)}
+.quiz-starter{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:520px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .4s cubic-bezier(.4,0,.2,1);max-height:90vh;overflow-y:auto}
 .qs-header{padding:28px 32px 20px;background:linear-gradient(135deg,rgba(99,102,241,0.1),rgba(236,72,153,0.05));border-bottom:1px solid var(--border);text-align:center;position:relative;overflow:hidden}
 .qs-header::before{content:'';position:absolute;top:-50%;right:-30%;width:300px;height:300px;background:radial-gradient(circle,rgba(99,102,241,0.2) 0%,transparent 70%);pointer-events:none}
 .qs-header>*{position:relative;z-index:1}
@@ -274,7 +283,48 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .qs-footer{padding:18px 32px 24px;display:flex;gap:10px}
 .qs-footer .btn{flex:1;justify-content:center;padding:14px 20px;font-size:14px}
 
-/* ============ QUIZ CARD (fullscreen) ============ */
+/* ============ SETTINGS MODAL ============ */
+.settings-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(12px);z-index:2500;display:none;align-items:center;justify-content:center;padding:20px}
+.settings-overlay.show{display:flex;animation:fadeIn .3s ease}
+.settings-panel{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:560px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .4s cubic-bezier(.4,0,.2,1);max-height:90vh;overflow-y:auto}
+.settings-header{padding:24px 28px 18px;background:linear-gradient(135deg,rgba(99,102,241,0.1),rgba(6,182,212,0.05));border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
+.settings-header::before{content:'';position:absolute;top:-50%;right:-30%;width:300px;height:300px;background:radial-gradient(circle,rgba(6,182,212,0.15) 0%,transparent 70%);pointer-events:none}
+.settings-header>*{position:relative;z-index:1}
+.settings-header h3{font-size:20px;font-weight:800;display:flex;align-items:center;gap:10px;letter-spacing:-.3px}
+.settings-close{width:36px;height:36px;border-radius:10px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;transition:all .2s}
+.settings-close:hover{background:var(--danger-soft);color:var(--danger);border-color:var(--danger)}
+.settings-body{padding:24px 28px}
+.settings-group{margin-bottom:24px}
+.settings-group:last-child{margin-bottom:0}
+.settings-group-title{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-3);margin-bottom:14px;display:flex;align-items:center;gap:8px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.settings-group-title::before{content:'';width:14px;height:2px;background:var(--gradient-accent);border-radius:2px}
+.settings-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:10px;transition:all .2s}
+.settings-row:hover{border-color:var(--border-strong);background:var(--surface-hover)}
+.settings-row:last-child{margin-bottom:0}
+.settings-row-info{flex:1;min-width:0}
+.settings-row-label{font-size:13px;font-weight:600;color:var(--text-1);margin-bottom:2px}
+.settings-row-desc{font-size:11px;color:var(--text-3);line-height:1.4}
+.settings-row-control{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.settings-slider-wrap{display:flex;align-items:center;gap:10px;min-width:200px}
+.settings-slider{flex:1;height:6px;-webkit-appearance:none;appearance:none;background:var(--surface);border:1px solid var(--border);border-radius:3px;outline:none;cursor:pointer}
+.settings-slider::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--gradient-primary);cursor:pointer;box-shadow:0 2px 8px var(--primary-glow);border:2px solid white}
+.settings-slider::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--primary);cursor:pointer;border:2px solid white}
+.settings-slider-value{min-width:48px;text-align:center;padding:5px 10px;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:700;color:var(--primary-hover);font-variant-numeric:tabular-nums}
+.settings-preview{margin-top:12px;padding:14px 16px;background:var(--bg-2);border:1px dashed var(--border);border-radius:10px;font-size:13px;color:var(--text-2);line-height:1.6}
+.settings-preview-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-4);margin-bottom:6px}
+.settings-footer{padding:16px 28px 22px;border-top:1px solid var(--border);display:flex;gap:10px;justify-content:flex-end;background:var(--surface)}
+
+/* ============ EXIT CONFIRM MODAL ============ */
+.exit-confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(10px);z-index:2600;display:none;align-items:center;justify-content:center;padding:20px}
+.exit-confirm-overlay.show{display:flex;animation:fadeIn .2s ease}
+.exit-confirm{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:420px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .3s cubic-bezier(.4,0,.2,1);text-align:center}
+.exit-confirm-icon{font-size:64px;margin:28px 0 12px;filter:drop-shadow(0 8px 20px rgba(239,68,68,0.3))}
+.exit-confirm-title{font-size:20px;font-weight:800;margin-bottom:8px;padding:0 24px}
+.exit-confirm-desc{font-size:13px;color:var(--text-3);line-height:1.6;padding:0 24px 24px}
+.exit-confirm-actions{padding:16px 24px 24px;display:flex;gap:10px}
+.exit-confirm-actions .btn{flex:1;justify-content:center;padding:13px 20px;font-size:14px}
+
+/* ============ QUIZ CARD ============ */
 .quiz-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:32px;position:relative;overflow:hidden;animation:fadeUp .4s ease;transition:border-color .3s}
 .quiz-card::before{content:'';position:absolute;top:0;inset-inline-start:0;width:5px;height:100%;background:var(--gradient-primary)}
 .quiz-card.answered-correct::before{background:var(--gradient-success)}
@@ -291,11 +341,11 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-action-btn:hover{background:var(--surface-hover);color:var(--text-1);border-color:var(--border-strong)}
 .quiz-action-btn.flagged{background:var(--warning-soft);color:var(--warning);border-color:var(--warning)}
 .quiz-action-btn.bookmarked{background:var(--purple-soft);color:var(--purple);border-color:var(--purple)}
-.quiz-question{font-size:18px;font-weight:600;line-height:1.7;margin-bottom:20px;letter-spacing:-.3px}
+.quiz-question{font-size:var(--fs-mcq);font-weight:600;line-height:1.7;margin-bottom:20px;letter-spacing:-.3px}
 .quiz-question-image{margin:16px 0;border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--border);max-height:300px;display:flex;align-items:center;justify-content:center;background:var(--bg-2)}
 .quiz-question-image img{max-width:100%;max-height:300px;object-fit:contain;display:block}
 .quiz-options{display:grid;gap:10px}
-.quiz-option{padding:16px 18px;background:var(--surface);border:2px solid var(--border);border-radius:var(--radius-md);cursor:pointer;transition:all .25s;display:flex;align-items:flex-start;gap:14px;font-size:14px;line-height:1.6;font-weight:500;position:relative;overflow:hidden}
+.quiz-option{padding:16px 18px;background:var(--surface);border:2px solid var(--border);border-radius:var(--radius-md);cursor:pointer;transition:all .25s;display:flex;align-items:flex-start;gap:14px;font-size:var(--fs-base);line-height:1.6;font-weight:500;position:relative;overflow:hidden}
 .quiz-option:hover:not(.disabled){border-color:var(--primary);background:var(--primary-soft);transform:translateX(4px)}
 [dir="rtl"] .quiz-option:hover:not(.disabled){transform:translateX(-4px)}
 .quiz-option .opt-letter{width:32px;height:32px;border-radius:10px;background:var(--bg-3);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;transition:all .2s;border:1px solid var(--border);position:relative;z-index:1}
@@ -307,13 +357,13 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-option.disabled{cursor:default}
 .quiz-option.correct.disabled,.quiz-option.wrong.disabled{opacity:1}
 .quiz-option.disabled:not(.correct):not(.wrong){opacity:.5}
-.quiz-explanation{margin-top:20px;padding:20px 24px;background:linear-gradient(135deg,var(--primary-soft),var(--info-soft));border:1px solid var(--primary);border-radius:var(--radius-md);font-size:14px;line-height:1.8;color:var(--text-2);display:none;position:relative}
+.quiz-explanation{margin-top:20px;padding:20px 24px;background:linear-gradient(135deg,var(--primary-soft),var(--info-soft));border:1px solid var(--primary);border-radius:var(--radius-md);font-size:var(--fs-base);line-height:1.8;color:var(--text-2);display:none;position:relative}
 .quiz-explanation::before{content:'💡';position:absolute;top:-14px;inset-inline-start:16px;background:var(--bg-1);padding:4px 8px;border-radius:8px;font-size:16px;border:1px solid var(--primary)}
 .quiz-explanation.show{display:block;animation:fadeUp .3s ease}
 .quiz-explanation strong{color:var(--primary-hover)}
 .quiz-note-box{margin-top:16px;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md)}
 .quiz-note-box label{display:block;font-size:11px;font-weight:700;color:var(--text-3);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
-.quiz-note-box textarea{width:100%;min-height:60px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;padding:10px;color:var(--text-1);font-family:inherit;font-size:13px;resize:vertical;outline:none;transition:border-color .2s}
+.quiz-note-box textarea{width:100%;min-height:60px;background:var(--bg-2);border:1px solid var(--border);border-radius:10px;padding:10px;color:var(--text-1);font-family:inherit;font-size:var(--fs-small);resize:vertical;outline:none;transition:border-color .2s}
 .quiz-note-box textarea:focus{border-color:var(--primary)}
 .quiz-nav{display:flex;justify-content:space-between;align-items:center;margin-top:20px;gap:12px}
 .quiz-nav-btn{padding:12px 24px;background:var(--bg-1);border:1px solid var(--border);border-radius:12px;color:var(--text-2);font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;font-family:inherit;display:flex;align-items:center;gap:8px}
@@ -330,7 +380,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-dot.flagged::after{content:'🚩';position:absolute;top:-6px;inset-inline-end:-6px;font-size:10px}
 .quiz-dot.bookmarked::before{content:'⭐';position:absolute;top:-6px;inset-inline-start:-6px;font-size:10px}
 
-/* ============ QUIZ RESULTS (fullscreen) ============ */
+/* ============ QUIZ RESULTS ============ */
 .quiz-results-wrap{width:100%;max-width:720px;margin:0 auto;animation:fadeUp .5s ease}
 .quiz-results{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:48px 40px;text-align:center;position:relative;overflow:hidden}
 .quiz-results::before{content:'';position:absolute;top:-50%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,var(--primary-soft) 0%,transparent 70%);pointer-events:none}
@@ -350,7 +400,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .confetti-container{position:fixed;inset:0;pointer-events:none;z-index:9999;overflow:hidden}
 .confetti-piece{position:absolute;width:10px;height:10px;top:-20px;animation:confetti 3s ease-out forwards}
 
-/* ============ STARTER CARD (in-page) ============ */
+/* ============ STARTER CARD ============ */
 .starter-card{max-width:600px;margin:0 auto;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:48px 40px;text-align:center;position:relative;overflow:hidden;animation:fadeUp .4s ease}
 .starter-card::before{content:'';position:absolute;top:-50%;right:-30%;width:400px;height:400px;background:radial-gradient(circle,rgba(99,102,241,0.15) 0%,transparent 70%);pointer-events:none}
 .starter-card>*{position:relative;z-index:1}
@@ -374,12 +424,12 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .qa-question{padding:18px 20px;cursor:pointer;display:flex;align-items:center;gap:14px;transition:background .15s}
 .qa-question:hover{background:var(--surface-hover)}
 .qa-question .q-icon{width:36px;height:36px;border-radius:10px;background:var(--success-soft);color:var(--success);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;flex-shrink:0;border:1px solid var(--success)}
-.qa-question .q-text{flex:1;font-size:14px;font-weight:500;line-height:1.6}
+.qa-question .q-text{flex:1;font-size:var(--fs-base);font-weight:500;line-height:1.6}
 .qa-question .q-toggle{color:var(--text-4);font-size:14px;transition:transform .3s;width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:var(--surface);border-radius:8px}
 .qa-card.open .q-toggle{transform:rotate(180deg);color:var(--success)}
 .qa-answer{max-height:0;overflow:hidden;transition:max-height .3s ease}
 .qa-card.open .qa-answer{max-height:1000px}
-.qa-answer-inner{padding:0 20px 20px 70px;font-size:14px;color:var(--success);font-weight:500;line-height:1.7}
+.qa-answer-inner{padding:0 20px 20px 70px;font-size:var(--fs-base);color:var(--success);font-weight:500;line-height:1.7}
 .qa-answer-inner .arrow{color:var(--warning);margin-inline-end:8px;font-weight:800}
 .qa-answer-inner img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border)}
 
@@ -407,10 +457,10 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 [data-theme="light"] .flashcard-back{background:linear-gradient(135deg,#d1fae5 0%,#a7f3d0 50%,#6ee7b7 100%)}
 .flashcard-back::before{content:'';position:absolute;top:-40%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(16,185,129,0.3) 0%,transparent 70%);pointer-events:none;animation:float 7s ease-in-out infinite}
 .flashcard-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:3px;color:rgba(255,255,255,0.6);margin-bottom:24px;padding:8px 18px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);border-radius:20px;border:1px solid rgba(255,255,255,0.15);position:relative;z-index:1}
-.flashcard-text{font-size:22px;font-weight:600;line-height:1.7;color:white;position:relative;z-index:1;max-width:100%}
-.flashcard-back .flashcard-text{color:#d1fae5;font-size:20px}
+.flashcard-text{font-size:var(--fs-large);font-weight:600;line-height:1.7;color:white;position:relative;z-index:1;max-width:100%}
+.flashcard-back .flashcard-text{color:#d1fae5;font-size:calc(var(--fs-large) - 2px)}
 .flashcard-text img{max-width:100%;max-height:200px;border-radius:var(--radius-sm);margin:12px 0;border:2px solid rgba(255,255,255,0.2)}
-.flashcard-hint{margin-top:28px;font-size:12px;color:rgba(255,255,255,0.5);font-style:italic;display:flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(255,255,255,0.05);border-radius:20px;position:relative;z-index:1;border:1px solid rgba(255,255,255,0.1)}
+.flashcard-hint{margin-top:28px;font-size:var(--fs-small);color:rgba(255,255,255,0.5);font-style:italic;display:flex;align-items:center;gap:6px;padding:8px 16px;background:rgba(255,255,255,0.05);border-radius:20px;position:relative;z-index:1;border:1px solid rgba(255,255,255,0.1)}
 .flashcard-rating{display:flex;gap:10px;justify-content:center;margin-top:24px;flex-wrap:wrap}
 .flashcard-rating.hidden{display:none}
 .rating-btn{padding:12px 22px;border-radius:14px;border:2px solid;font-size:13px;font-weight:700;cursor:pointer;transition:all .25s;font-family:inherit;display:flex;align-items:center;gap:8px;min-width:100px;justify-content:center}
@@ -444,7 +494,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .mn-title{font-size:17px;font-weight:700;color:var(--warning);letter-spacing:-.3px}
 .mn-code{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--pink);margin:10px 0 16px;font-weight:700;padding:8px 14px;background:var(--pink-soft);border-radius:10px;display:inline-block;border:1px solid rgba(236,72,153,0.2)}
 .mn-items{list-style:none}
-.mn-items li{font-size:13px;color:var(--text-2);padding:8px 0;display:flex;gap:10px;line-height:1.6;border-bottom:1px dashed var(--border)}
+.mn-items li{font-size:var(--fs-base);color:var(--text-2);padding:8px 0;display:flex;gap:10px;line-height:1.6;border-bottom:1px dashed var(--border)}
 .mn-items li:last-child{border-bottom:none}
 .mn-items li .letter{color:var(--success);font-weight:800;font-family:'JetBrains Mono',monospace;min-width:28px;background:var(--success-soft);padding:3px 10px;border-radius:8px;text-align:center;font-size:12px;border:1px solid var(--success)}
 
@@ -510,7 +560,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .note-card:hover{border-color:var(--success);box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .note-title{font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text-1);display:flex;align-items:center;gap:8px}
 .note-title .note-icon{color:var(--success)}
-.note-content{font-size:14px;color:var(--text-2);line-height:1.8;white-space:pre-wrap}
+.note-content{font-size:var(--fs-base);color:var(--text-2);line-height:1.8;white-space:pre-wrap}
 .note-content img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border)}
 .note-meta{margin-top:12px;padding-top:12px;border-top:1px solid var(--border);font-size:11px;color:var(--text-4);display:flex;gap:12px;font-weight:600}
 
@@ -561,8 +611,8 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .btn-primary:hover{transform:translateY(-1px);box-shadow:0 8px 24px var(--primary-glow)}
 .btn-secondary{background:var(--surface);color:var(--text-2);border:1px solid var(--border)}
 .btn-secondary:hover{background:var(--surface-hover);color:var(--text-1)}
-.btn-danger{background:var(--danger-soft);color:var(--danger);border:1px solid var(--danger)}
-.btn-danger:hover{background:var(--danger);color:white}
+.btn-danger{background:var(--danger);color:white;box-shadow:0 4px 16px rgba(239,68,68,0.3)}
+.btn-danger:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(239,68,68,0.4)}
 
 .mobile-toggle{display:none;position:fixed;top:12px;inset-inline-start:12px;z-index:200}
 .sidebar-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:140;backdrop-filter:blur(4px)}
@@ -586,10 +636,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .topic-icon-wrap{width:56px;height:56px;font-size:28px}
 .mnemonics-grid{grid-template-columns:1fr}
 .quiz-card{padding:24px 20px}
-.quiz-question{font-size:16px}
 .flashcard-face{padding:32px 24px}
-.flashcard-text{font-size:18px}
-.flashcard-back .flashcard-text{font-size:16px}
 .flashcard-container{min-height:340px}
 .flashcard{min-height:340px}
 .results-score{font-size:56px}
@@ -617,9 +664,15 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .starter-stats{grid-template-columns:repeat(3,1fr);gap:8px}
 .starter-stat{padding:14px 8px}
 .starter-stat-value{font-size:24px}
-.quiz-fs-header{padding:12px 16px;gap:10px}
-.quiz-fs-progress{padding:10px 16px}
+.quiz-fs-header{padding:12px 14px;gap:10px}
+.quiz-fs-progress{padding:10px 14px}
 .quiz-fs-body{padding:16px}
+.settings-body{padding:18px 20px}
+.settings-header{padding:18px 20px 14px}
+.settings-footer{padding:14px 20px 18px}
+.settings-slider-wrap{min-width:160px}
+.settings-row{flex-direction:column;align-items:stretch;gap:12px}
+.settings-row-control{justify-content:flex-start}
 }
 @media (max-width:500px){
 .hero-stats{grid-template-columns:repeat(2,1fr)}
@@ -678,6 +731,9 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <p id="topbarSubtitle">Browse exam preparation materials</p>
 </div>
 <div class="topbar-actions">
+<button class="topbar-btn" onclick="openSettings()" title="Settings">
+<span>⚙️</span> <span id="settingsLabel">Settings</span>
+</button>
 <button class="topbar-btn" id="refreshBtn" onclick="refreshData()" title="Refresh">
 <span>🔄</span> <span id="refreshLabel">Refresh</span>
 </button>
@@ -688,6 +744,89 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 </div>
 <div class="content" id="content"></div>
 </main>
+</div>
+
+<!-- Settings Modal -->
+<div class="settings-overlay" id="settingsOverlay">
+<div class="settings-panel">
+<div class="settings-header">
+<h3>⚙️ <span id="settingsTitle">Settings</span></h3>
+<button class="settings-close" onclick="closeSettings()">✕</button>
+</div>
+<div class="settings-body">
+<div class="settings-group">
+<div class="settings-group-title" id="sgAppearance">🎨 Appearance</div>
+<div class="settings-row">
+<div class="settings-row-info">
+<div class="settings-row-label" id="sThemeLabel">Theme Mode</div>
+<div class="settings-row-desc" id="sThemeDesc">Switch between dark and light theme</div>
+</div>
+<div class="settings-row-control">
+<button class="btn btn-secondary" onclick="toggleTheme();updateSettingsUI()" id="sThemeBtn">🌙 Dark</button>
+</div>
+</div>
+</div>
+<div class="settings-group">
+<div class="settings-group-title" id="sgTypography">🔤 Typography</div>
+<div class="settings-row">
+<div class="settings-row-info">
+<div class="settings-row-label" id="sBaseLabel">General Font Size</div>
+<div class="settings-row-desc" id="sBaseDesc">Controls text size across the app</div>
+</div>
+<div class="settings-row-control">
+<div class="settings-slider-wrap">
+<input type="range" class="settings-slider" id="baseFontSlider" min="12" max="22" step="1" value="14" oninput="updateBaseFont(this.value)">
+<div class="settings-slider-value" id="baseFontValue">14px</div>
+</div>
+</div>
+</div>
+<div class="settings-row">
+<div class="settings-row-info">
+<div class="settings-row-label" id="sMcqLabel">MCQ Question Font Size</div>
+<div class="settings-row-desc" id="sMcqDesc">Specifically for quiz question text</div>
+</div>
+<div class="settings-row-control">
+<div class="settings-slider-wrap">
+<input type="range" class="settings-slider" id="mcqFontSlider" min="14" max="32" step="1" value="18" oninput="updateMcqFont(this.value)">
+<div class="settings-slider-value" id="mcqFontValue">18px</div>
+</div>
+</div>
+</div>
+<div class="settings-preview">
+<div class="settings-preview-label" id="sPreviewLabel">Live Preview</div>
+<div id="settingsPreviewText">The quick brown fox jumps over the lazy dog. 0123456789</div>
+</div>
+</div>
+<div class="settings-group">
+<div class="settings-group-title" id="sgData">💾 Data & Progress</div>
+<div class="settings-row">
+<div class="settings-row-info">
+<div class="settings-row-label" id="sResetLabel">Reset All Progress</div>
+<div class="settings-row-desc" id="sResetDesc">Clear all quiz answers, bookmarks, and study progress</div>
+</div>
+<div class="settings-row-control">
+<button class="btn btn-danger" onclick="resetAllProgress()" id="sResetBtn">🗑️ Reset</button>
+</div>
+</div>
+</div>
+</div>
+<div class="settings-footer">
+<button class="btn btn-primary" onclick="closeSettings()" id="sDoneBtn">✓ Done</button>
+</div>
+</div>
+</div>
+
+<!-- Exit Confirm Modal -->
+<div class="exit-confirm-overlay" id="exitConfirmOverlay">
+<div class="exit-confirm">
+<div class="exit-confirm-icon">⚠️</div>
+<div class="exit-confirm-title" id="exitTitle">Exit Quiz?</div>
+<div class="exit-confirm-desc" id="exitDesc">Your progress will be saved. You can resume or start a new session later.</div>
+<div class="exit-confirm-actions">
+<button class="btn btn-secondary" onclick="cancelExitQuiz()" id="exitCancelBtn">Continue Quiz</button>
+<button class="btn btn-danger" onclick="confirmExitQuizAction()" id="exitConfirmBtn">Exit Quiz</button>
+</div>
+</div>
 </div>
 
 <!-- Quiz Starter Modal -->
@@ -786,15 +925,17 @@ function dirClass(t){return isRTLText(t)?'rtl-text':'ltr-text'}
 
 // ==================== I18N ====================
 const i18n={
-en:{loading:'Loading content...',loadingDecrypt:'Decrypting content...',tagline:'Medical Exit Exam Prep',subtitle:'Browse exam preparation materials',refresh:'Refresh',about:'About',footer:'© 2026 MedExit — Medical Education',home:'Home',dashboard:'Dashboard',categories:'Categories',subjects:'Subjects',topics:'Topics',subtopics:'Subtopics',mcqs:'MCQs',qa:'Q&A',flashcards:'Flashcards',mnemonics:'Mnemonics',videos:'Videos',images:'Images',notes:'Notes',links:'Links',question:'Question',answer:'Answer',front:'Question',back:'Answer',tapToFlip:'Tap card to reveal answer',explanation:'Explanation',noContent:'No content available yet',noContentDesc:'This section does not have any items.',loadingFailed:'Failed to load content.',refreshSuccess:'Content refreshed successfully',card:'Card',of:'of',previous:'Previous',next:'Next',finish:'Finish Quiz',welcomeTitle:'Welcome to MedExit',welcomeDesc:'Your comprehensive medical exit exam preparation platform. Select a category to begin your journey.',totalMCQs:'Total MCQs',totalQA:'Q&A Items',totalFlash:'Flashcards',totalMnem:'Mnemonics',aboutTitle:'About MedExit',aboutText:'MedExit is a comprehensive medical exit exam preparation platform.',features:'Features',featureList:['Multi-language UI (English, Pashto, Dari)','Auto RTL detection','Dark and Light theme modes','Interactive MCQs with progress tracking','Smart quiz starter with count selection','No-repeat MCQ system','Offline support with encrypted data','Premium flip flashcards','Built-in video player','Image gallery viewer','Notes and external links'],ok:'OK',back:'Back',exploreCategories:'Explore Categories',items:'items',correct:'Correct',wrong:'Wrong',remaining:'Remaining',progress:'Progress',quizComplete:'Quiz Complete!',youScored:'You scored',excellent:'Excellent! Outstanding performance!',great:'Great job! Keep up the good work!',good:'Good effort! Review the topics you missed.',keepGoing:'Keep studying! Practice makes perfect.',retry:'Retry Quiz',reviewAnswers:'Review Answers',backToTopic:'Back to Topic',newSession:'New Session',bookmark:'Bookmark',flag:'Flag for Review',addNote:'Add Note',shuffle:'Shuffle',sequential:'Sequential',randomMode:'Random',wrongOnly:'Wrong Only',streak:'Streak',flip:'Flip',again:'Again',hard:'Hard',goodRating:'Good',easy:'Easy',watchVideo:'Watch Video',viewImage:'View Image',openLink:'Open Link',noVideos:'No videos available',noImages:'No images available',noNotes:'No notes available',noLinks:'No links available',startQuiz:'Start Quiz',configureSession:'Configure your practice session',howMany:'How many questions?',quizMode:'Quiz mode',modeRandom:'Random',modeSequential:'Order',modeWrong:'Wrong',available:'Available',studied:'Studied',newQ:'New',cancel:'Cancel',start:'Start Quiz',quick:'Quick',standard:'Standard',extended:'Extended',complete:'Complete',online:'Online',offline:'Offline',allStudied:'All questions studied!',resetProgress:'Reset & Start Over',progressSaved:'Progress saved',decryptError:'Failed to decrypt content',exitQuiz:'Exit Quiz',confirmExit:'Exit quiz? Progress will be saved.',yes:'Yes',no:'No',readyToStart:'Ready to start?',chooseConfig:'Choose your configuration below',quizInProgress:'Quiz in progress',exitQuizConfirm:'Are you sure you want to exit? Your progress will be saved.'},
-ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',footer:'© ۲۰۲۶ MedExit — طبي زده کړې',home:'کور',dashboard:'ډشبورډ',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انځورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'ځواب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منځپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارډونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیټفارم ده.',features:'ځانګړتیاوې',featureList:['د UI څو ژبې','اتوماتیک RTL','تعاملی MCQs','فلاش کارډونه','یادګارې','آفلاین ملاتړ'],ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلټئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ښه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ټولې پوښتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',confirmExit:'ازموینه بند کړئ؟',yes:'هو',no:'نه',readyToStart:'چمتو یاست؟',chooseConfig:'لاندې تنظیم وکړئ',quizInProgress:'ازموینه روانه ده',exitQuizConfirm:'ډاډه یاست؟'},
-dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',footer:'© ۲۰۲۶ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',featureList:['UI چند زبانه','تشخیص خودکار RTL','MCQs تعاملی','فلش کارت‌ها','یادیارها','پشتیبانی آفلاین'],ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',confirmExit:'خروج از آزمون؟',yes:'بله',no:'خیر',readyToStart:'آماده شروع؟',chooseConfig:'تنظیمات خود را انتخاب کنید',quizInProgress:'آزمون در حال انجام',exitQuizConfirm:'مطمئن هستید؟'}
+en:{loading:'Loading content...',loadingDecrypt:'Decrypting content...',tagline:'Medical Exit Exam Prep',subtitle:'Browse exam preparation materials',refresh:'Refresh',about:'About',settings:'Settings',footer:'© 2026 MedExit — Medical Education',home:'Home',dashboard:'Dashboard',categories:'Categories',subjects:'Subjects',topics:'Topics',subtopics:'Subtopics',mcqs:'MCQs',qa:'Q&A',flashcards:'Flashcards',mnemonics:'Mnemonics',videos:'Videos',images:'Images',notes:'Notes',links:'Links',question:'Question',answer:'Answer',front:'Question',back:'Answer',tapToFlip:'Tap card to reveal answer',explanation:'Explanation',noContent:'No content available yet',noContentDesc:'This section does not have any items.',loadingFailed:'Failed to load content.',refreshSuccess:'Content refreshed successfully',card:'Card',of:'of',previous:'Previous',next:'Next',finish:'Finish Quiz',welcomeTitle:'Welcome to MedExit',welcomeDesc:'Your comprehensive medical exit exam preparation platform.',totalMCQs:'Total MCQs',totalQA:'Q&A Items',totalFlash:'Flashcards',totalMnem:'Mnemonics',aboutTitle:'About MedExit',aboutText:'MedExit is a comprehensive medical exit exam preparation platform.',features:'Features',featureList:['Multi-language UI (English, Pashto, Dari)','Auto RTL detection','Customizable font sizes','Interactive MCQs with progress tracking','Smart quiz starter with count selection','No-repeat MCQ system','Offline support with encrypted data','Premium flip flashcards','Built-in video player','Image gallery viewer','Notes and external links'],ok:'OK',back:'Back',exploreCategories:'Explore Categories',items:'items',correct:'Correct',wrong:'Wrong',remaining:'Remaining',progress:'Progress',quizComplete:'Quiz Complete!',youScored:'You scored',excellent:'Excellent! Outstanding performance!',great:'Great job! Keep up the good work!',good:'Good effort! Review the topics you missed.',keepGoing:'Keep studying! Practice makes perfect.',retry:'Retry Quiz',reviewAnswers:'Review Answers',backToTopic:'Back to Topic',newSession:'New Session',bookmark:'Bookmark',flag:'Flag for Review',addNote:'Add Note',shuffle:'Shuffle',sequential:'Sequential',randomMode:'Random',wrongOnly:'Wrong Only',streak:'Streak',flip:'Flip',again:'Again',hard:'Hard',goodRating:'Good',easy:'Easy',watchVideo:'Watch Video',viewImage:'View Image',openLink:'Open Link',noVideos:'No videos available',noImages:'No images available',noNotes:'No notes available',noLinks:'No links available',startQuiz:'Start Quiz',configureSession:'Configure your practice session',howMany:'How many questions?',quizMode:'Quiz mode',modeRandom:'Random',modeSequential:'Order',modeWrong:'Wrong',available:'Available',studied:'Studied',newQ:'New',cancel:'Cancel',start:'Start Quiz',quick:'Quick',standard:'Standard',extended:'Extended',complete:'Complete',allStudied:'All questions studied!',resetProgress:'Reset & Start Over',progressSaved:'Progress saved',decryptError:'Failed to decrypt content',exitQuiz:'Exit Quiz',exitQuizTitle:'Exit Quiz?',exitQuizDesc:'Your progress will be saved. You can resume or start a new session later.',continueQuiz:'Continue Quiz',confirmExit:'Exit Quiz',tapTwiceHint:'Tap again to exit',settingsTitle:'Settings',appearance:'Appearance',themeMode:'Theme Mode',themeDesc:'Switch between dark and light theme',darkTheme:'🌙 Dark',lightTheme:'☀️ Light',typography:'Typography',generalFont:'General Font Size',generalFontDesc:'Controls text size across the app',mcqFont:'MCQ Question Font Size',mcqFontDesc:'Specifically for quiz question text',livePreview:'Live Preview',dataProgress:'Data & Progress',resetAll:'Reset All Progress',resetAllDesc:'Clear all quiz answers, bookmarks, and study progress',reset:'Reset',done:'Done',resetConfirm:'Are you sure? This will erase ALL your progress, answers, and bookmarks.',resetYes:'Yes, Reset',resetNo:'Cancel',resetDone:'All progress has been reset',quizInProgress:'Quiz in progress'},
+ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — طبي زده کړې',home:'کور',dashboard:'ډشبورډ',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انځورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'ځواب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منځپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارډونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیټفارم ده.',features:'ځانګړتیاوې',featureList:['د UI څو ژبې','اتوماتیک RTL','د فونټ اندازه تنظیم','تعاملی MCQs','فلاش کارډونه','یادګارې','آفلاین ملاتړ'],ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلټئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ښه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ټولې پوښتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',exitQuizTitle:'ازموینه بند کړئ؟',exitQuizDesc:'ستاسو پرمختګ به خوندي شي.',continueQuiz:'ازموینه دوام',confirmExit:'بندول',tapTwiceHint:'د بندولو لپاره بیا کېکاږئ',settingsTitle:'تنظیمات',appearance:'ښکلا',themeMode:'موضوع',themeDesc:'تیاره یا روڼه موضوع',darkTheme:'🌙 تیاره',lightTheme:'☀️ روښانه',typography:'لیکنه',generalFont:'عمومي فونټ اندازه',generalFontDesc:'د ټول اپلیکیشن لیکنه',mcqFont:'د MCQ پوښتنې فونټ',mcqFontDesc:'یوازې د ازموینې پوښتنو لپاره',livePreview:'مخکتنه',dataProgress:'ډاټا او پرمختګ',resetAll:'ټول پرمختګ پاک کړئ',resetAllDesc:'ټول ځوابونه، نښې، او پرمختګ پاک کړئ',reset:'پاکول',done:'بشپړ',resetConfirm:'ډاډه یاست؟ ټول پرمختګ به پاک شي.',resetYes:'هو، پاک کړئ',resetNo:'لغوه',resetDone:'ټول پرمختګ پاک شو',quizInProgress:'ازموینه روانه ده'},
+dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',featureList:['UI چند زبانه','تشخیص خودکار RTL','اندازه فونت قابل تنظیم','MCQs تعاملی','فلش کارت‌ها','یادیارها','پشتیبانی آفلاین'],ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',exitQuizTitle:'خروج از آزمون؟',exitQuizDesc:'پیشرفت شما ذخیره خواهد شد.',continueQuiz:'ادامه آزمون',confirmExit:'خروج',tapTwiceHint:'برای خروج دوباره بزنید',settingsTitle:'تنظیمات',appearance:'ظاهر',themeMode:'حالت تم',themeDesc:'تغییر بین تم تیره و روشن',darkTheme:'🌙 تیره',lightTheme:'☀️ روشن',typography:'تایپوگرافی',generalFont:'اندازه فونت عمومی',generalFontDesc:'اندازه متن در کل برنامه',mcqFont:'اندازه فونت سوالات MCQ',mcqFontDesc:'مخصوص متن سوالات آزمون',livePreview:'پیش‌نمایش زنده',dataProgress:'داده و پیشرفت',resetAll:'بازنشانی کل پیشرفت',resetAllDesc:'پاک کردن همه پاسخ‌ها، نشان‌ها و پیشرفت',reset:'بازنشانی',done:'انجام شد',resetConfirm:'مطمئن هستید؟ تمام پیشرفت پاک خواهد شد.',resetYes:'بله، بازنشانی',resetNo:'لغو',resetDone:'تمام پیشرفت بازنشانی شد',quizInProgress:'آزمون در حال انجام'}
 };
 
 // ==================== STATE ====================
 let state={
 language:localStorage.getItem('medexit_lang')||'en',
 theme:localStorage.getItem('medexit_theme')||'dark',
+baseFont:parseInt(localStorage.getItem('medexit_base_font'))||14,
+mcqFont:parseInt(localStorage.getItem('medexit_mcq_font'))||18,
 data:null,
 navStack:[],
 currentTab:'mcqs',
@@ -813,14 +954,61 @@ mcqWrongList:{},
 mcqStudied:{},
 mcqSessionSize:{},
 mcqSessionIndices:{},
-mcqSessionActive:{}, // NEW: tracks if a quiz session is actively running
+mcqSessionActive:{},
 flashcardIndex:{},
 flashcardRatings:{},
 flashcardShuffled:{},
 openQA:{},
 videoOrientation:'landscape',
-quizStarter:{topicKey:null,total:0,count:20,mode:'random'}
+quizStarter:{topicKey:null,total:0,count:20,mode:'random'},
+exitPending:null
 };
+
+// ==================== FONT SIZE ====================
+function applyFontSizes(){
+document.documentElement.style.setProperty('--fs-base',state.baseFont+'px');
+document.documentElement.style.setProperty('--fs-mcq',state.mcqFont+'px');
+document.documentElement.style.setProperty('--fs-small',Math.max(10,state.baseFont-2)+'px');
+document.documentElement.style.setProperty('--fs-large',(state.baseFont+8)+'px');
+}
+function updateBaseFont(val){
+state.baseFont=parseInt(val);
+localStorage.setItem('medexit_base_font',state.baseFont);
+applyFontSizes();
+document.getElementById('baseFontValue').textContent=state.baseFont+'px';
+updateSettingsPreview();
+}
+function updateMcqFont(val){
+state.mcqFont=parseInt(val);
+localStorage.setItem('medexit_mcq_font',state.mcqFont);
+applyFontSizes();
+document.getElementById('mcqFontValue').textContent=state.mcqFont+'px';
+updateSettingsPreview();
+}
+function updateSettingsPreview(){
+const el=document.getElementById('settingsPreviewText');
+if(el){
+el.style.fontSize=state.baseFont+'px';
+el.style.lineHeight='1.6';
+const activeTab=state.currentTab;
+if(activeTab==='mcqs'&&isAnyQuizActive()){
+const topicKey=getActiveQuizTopicKey();
+if(topicKey){
+const item=findItemById(state.data?.categories||[],topicKey);
+const mcqs=item?.content?.mcqs||[];
+const sessionIndices=state.mcqSessionIndices[topicKey]||[];
+const activeIdx=state.mcqCurrentIndex[topicKey]||0;
+const origIdx=sessionIndices[activeIdx];
+if(origIdx!==undefined&&mcqs[origIdx]){
+el.textContent=mcqs[origIdx].q||mcqs[origIdx].question||'';
+el.style.fontSize=state.mcqFont+'px';
+}
+}
+}else{
+el.textContent='The quick brown fox jumps over the lazy dog. 0123456789';
+}
+}
+}
 
 // ==================== PERSISTENCE ====================
 const STORAGE_KEY='medexit_progress_v2';
@@ -879,6 +1067,7 @@ document.getElementById('taglineText').textContent=t('tagline');
 document.getElementById('topbarSubtitle').textContent=t('subtitle');
 document.getElementById('refreshLabel').textContent=t('refresh');
 document.getElementById('aboutLabel').textContent=t('about');
+document.getElementById('settingsLabel').textContent=t('settings');
 document.getElementById('footerText').textContent=t('footer');
 }
 
@@ -892,6 +1081,7 @@ document.documentElement.dir=isRTL?'rtl':'ltr';
 document.body.dir=isRTL?'rtl':'ltr';
 document.querySelectorAll('.lang-btn').forEach(btn=>{btn.classList.toggle('active',btn.dataset.lang===lang)});
 applyI18n();
+updateSettingsUI();
 renderAll();
 }
 function toggleTheme(){
@@ -926,6 +1116,7 @@ parsed=await decryptData(parsed);
 }
 state.data=normalizeData(parsed);
 loadProgress();
+applyFontSizes();
 document.getElementById('loadingScreen').style.display='none';
 document.getElementById('app').style.display='flex';
 renderAll();
@@ -1029,21 +1220,55 @@ const s=Math.floor(seconds%60);
 return m+':'+(s<10?'0':'')+s;
 }
 
-// ==================== CHECK IF ANY QUIZ IS ACTIVE ====================
-function isAnyQuizActive(){
-return Object.values(state.mcqSessionActive).some(v=>v===true);
+// ==================== QUIZ ACTIVE CHECK ====================
+function isAnyQuizActive(){return Object.values(state.mcqSessionActive).some(v=>v===true)}
+function getActiveQuizTopicKey(){for(const k in state.mcqSessionActive){if(state.mcqSessionActive[k])return k}return null}
+
+// ==================== SETTINGS ====================
+function openSettings(){
+updateSettingsUI();
+document.getElementById('settingsOverlay').classList.add('show');
 }
-function getActiveQuizTopicKey(){
-for(const k in state.mcqSessionActive){
-if(state.mcqSessionActive[k])return k;
+function closeSettings(){document.getElementById('settingsOverlay').classList.remove('show')}
+function updateSettingsUI(){
+document.getElementById('settingsTitle').textContent=t('settingsTitle');
+document.getElementById('sgAppearance').innerHTML='🎨 '+t('appearance');
+document.getElementById('sThemeLabel').textContent=t('themeMode');
+document.getElementById('sThemeDesc').textContent=t('themeDesc');
+document.getElementById('sThemeBtn').textContent=state.theme==='dark'?t('darkTheme'):t('lightTheme');
+document.getElementById('sgTypography').innerHTML='🔤 '+t('typography');
+document.getElementById('sBaseLabel').textContent=t('generalFont');
+document.getElementById('sBaseDesc').textContent=t('generalFontDesc');
+document.getElementById('sMcqLabel').textContent=t('mcqFont');
+document.getElementById('sMcqDesc').textContent=t('mcqFontDesc');
+document.getElementById('sPreviewLabel').textContent=t('livePreview');
+document.getElementById('sgData').innerHTML='💾 '+t('dataProgress');
+document.getElementById('sResetLabel').textContent=t('resetAll');
+document.getElementById('sResetDesc').textContent=t('resetAllDesc');
+document.getElementById('sResetBtn').innerHTML='🗑️ '+t('reset');
+document.getElementById('sDoneBtn').innerHTML='✓ '+t('done');
+document.getElementById('baseFontSlider').value=state.baseFont;
+document.getElementById('baseFontValue').textContent=state.baseFont+'px';
+document.getElementById('mcqFontSlider').value=state.mcqFont;
+document.getElementById('mcqFontValue').textContent=state.mcqFont+'px';
+updateSettingsPreview();
 }
-return null;
+function resetAllProgress(){
+if(confirm(t('resetConfirm'))){
+state.mcqAnswers={};state.mcqFlags={};state.mcqBookmarks={};
+state.mcqNotes={};state.mcqStudied={};state.mcqWrongList={};
+state.flashcardRatings={};state.openQA={};
+state.mcqSessionActive={};state.mcqSessionIndices={};
+try{localStorage.removeItem(STORAGE_KEY)}catch(e){}
+closeSettings();
+renderAll();
+toast(t('resetDone'),'success');
+}
 }
 
 // ==================== RENDERING ====================
 function renderAll(){
 applyI18n();
-// Apply fullscreen quiz mode
 const app=document.getElementById('app');
 if(isAnyQuizActive()){
 app.classList.add('quiz-fullscreen');
@@ -1290,7 +1515,7 @@ function renderEmpty(msg){
 return`<div class="empty-state"><div class="es-icon">📭</div><h3>${msg||t('noContent')}</h3><p>${t('noContentDesc')}</p></div>`;
 }
 
-// ==================== MCQ STARTER (in-page card) ====================
+// ==================== MCQ STARTER ====================
 function renderMCQStarter(mcqs,topicKey){
 const studied=state.mcqStudied[topicKey]||[];
 const total=mcqs.length;
@@ -1298,8 +1523,8 @@ const studiedCount=studied.length;
 const remaining=total-studiedCount;
 return`<div class="starter-card">
 <div class="starter-icon">📋</div>
-<h2 class="starter-title">${t('readyToStart')}</h2>
-<p class="starter-subtitle">${t('chooseConfig')}</p>
+<h2 class="starter-title">${t('startQuiz')}</h2>
+<p class="starter-subtitle">${t('configureSession')}</p>
 <div class="starter-stats">
 <div class="starter-stat"><div class="starter-stat-value available">${total}</div><div class="starter-stat-label">${t('available')}</div></div>
 <div class="starter-stat"><div class="starter-stat-value studied">${studiedCount}</div><div class="starter-stat-label">${t('studied')}</div></div>
@@ -1401,7 +1626,6 @@ if(!state.mcqFlags[topicKey])state.mcqFlags[topicKey]={};
 if(!state.mcqBookmarks[topicKey])state.mcqBookmarks[topicKey]={};
 if(!state.mcqNotes[topicKey])state.mcqNotes[topicKey]={};
 if(!state.mcqWrongList[topicKey])state.mcqWrongList[topicKey]=[];
-// Mark session as ACTIVE - this triggers fullscreen mode
 state.mcqSessionActive[topicKey]=true;
 closeQuizStarter();
 renderAll();
@@ -1417,7 +1641,7 @@ renderAll();
 toast(t('progressSaved'),'success');
 }
 
-// ==================== FULLSCREEN QUIZ RENDER ====================
+// ==================== FULLSCREEN QUIZ ====================
 function renderFullscreenQuiz(){
 const topicKey=getActiveQuizTopicKey();
 if(!topicKey){return}
@@ -1484,10 +1708,13 @@ if(wasAnswered)cardClass+=isCorrect?' answered-correct':' answered-wrong';
 
 let html=`<div class="quiz-fullscreen-page">
 <div class="quiz-fs-header">
-<button class="quiz-fs-exit" onclick="confirmExitQuiz('${topicKey}')" title="${t('exitQuiz')}">✕</button>
+<button class="quiz-fs-exit" id="quizExitBtn" onclick="handleQuizExitClick('${topicKey}')" title="${t('exitQuiz')}">
+<span class="exit-icon">✕</span>
+<span class="quiz-fs-exit-label">${t('tapTwiceHint')}</span>
+</button>
 <div class="quiz-fs-title">
 <h2>${item.icon||'📚'} ${escapeHtml(item.name)}</h2>
-<p>${t('quizInProgress')} • ${t('mode'+mode.charAt(0).toUpperCase()+mode.slice(1))||mode}</p>
+<p>${t('quizInProgress')} • ${mode}</p>
 </div>
 <div class="quiz-fs-timer"><span class="timer-icon">⏱️</span><span id="quizTimerDisplay">${formatTime(state.mcqElapsed[topicKey])}</span></div>
 ${streak>=2?`<div class="quiz-fs-streak ${streak>=5?'on-fire':''}">🔥 ${streak} ${t('streak')}</div>`:''}
@@ -1565,7 +1792,9 @@ else if(percent>=50){icon='📚';message=t('good')}
 else{icon='💪';message=t('keepGoing')}
 return`<div class="quiz-fullscreen-page">
 <div class="quiz-fs-header">
-<button class="quiz-fs-exit" onclick="exitQuiz('${topicKey}')" title="${t('backToTopic')}">✕</button>
+<button class="quiz-fs-exit" onclick="exitQuiz('${topicKey}')" title="${t('backToTopic')}">
+<span class="exit-icon">✕</span>
+</button>
 <div class="quiz-fs-title">
 <h2>${item.icon||'📚'} ${escapeHtml(item.name)}</h2>
 <p>${t('quizComplete')}</p>
@@ -1595,6 +1824,53 @@ ${state.mcqWrongList[topicKey]&&state.mcqWrongList[topicKey].length>0?`<button c
 </div>
 </div>
 </div>`;
+}
+
+// ==================== QUIZ EXIT (Double-Tap) ====================
+function handleQuizExitClick(topicKey){
+if(state.exitPending&&state.exitPending.topicKey===topicKey&&Date.now()-state.exitPending.time<2500){
+// Second tap - show confirm modal
+clearTimeout(state.exitPending.timeout);
+state.exitPending=null;
+showExitConfirm(topicKey);
+}else{
+// First tap - show hint and wait
+state.exitPending={topicKey,time:Date.now()};
+const btn=document.getElementById('quizExitBtn');
+if(btn){
+btn.classList.add('warn');
+setTimeout(()=>{if(btn)btn.classList.remove('warn')},600);
+}
+toast(t('tapTwiceHint'),'warning');
+state.exitPending.timeout=setTimeout(()=>{state.exitPending=null},2500);
+}
+}
+function showExitConfirm(topicKey){
+state.exitPending=null;
+document.getElementById('exitTitle').textContent=t('exitQuizTitle');
+document.getElementById('exitDesc').textContent=t('exitQuizDesc');
+document.getElementById('exitCancelBtn').textContent=t('continueQuiz');
+document.getElementById('exitConfirmBtn').textContent=t('confirmExit');
+document.getElementById('exitConfirmOverlay').classList.add('show');
+state._exitTopicKey=topicKey;
+}
+function cancelExitQuiz(){
+document.getElementById('exitConfirmOverlay').classList.remove('show');
+state._exitTopicKey=null;
+}
+function confirmExitQuizAction(){
+const topicKey=state._exitTopicKey;
+document.getElementById('exitConfirmOverlay').classList.remove('show');
+if(topicKey)exitQuiz(topicKey);
+state._exitTopicKey=null;
+}
+function exitQuiz(topicKey){
+if(state.mcqTimerInterval)clearInterval(state.mcqTimerInterval);
+state.mcqSessionActive[topicKey]=false;
+state.mcqShowResults[topicKey]=false;
+state.mcqSessionIndices[topicKey]=null;
+saveProgress();
+renderAll();
 }
 
 // ==================== QUIZ ACTIONS ====================
@@ -1677,19 +1953,6 @@ renderAll();
 function reviewQuiz(topicKey){
 state.mcqShowResults[topicKey]=false;
 state.mcqCurrentIndex[topicKey]=0;
-renderAll();
-}
-function confirmExitQuiz(topicKey){
-if(confirm(t('exitQuizConfirm'))){
-exitQuiz(topicKey);
-}
-}
-function exitQuiz(topicKey){
-if(state.mcqTimerInterval)clearInterval(state.mcqTimerInterval);
-state.mcqSessionActive[topicKey]=false;
-state.mcqShowResults[topicKey]=false;
-state.mcqSessionIndices[topicKey]=null;
-saveProgress();
 renderAll();
 }
 
@@ -2065,12 +2328,14 @@ navigator.serviceWorker.register(swUrl).catch(()=>{});
 // ==================== KEYBOARD ====================
 document.addEventListener('keydown',(e)=>{
 if(e.key==='Escape'){
+if(document.getElementById('exitConfirmOverlay').classList.contains('show')){cancelExitQuiz();return}
+if(document.getElementById('settingsOverlay').classList.contains('show')){closeSettings();return}
 if(document.getElementById('quizStarterOverlay').classList.contains('show')){closeQuizStarter();return}
 if(document.getElementById('imageViewerModal').classList.contains('show')){closeImageViewer();return}
 if(document.getElementById('videoPlayerModal').classList.contains('show')){closeVideoPlayer();return}
 if(document.getElementById('modalOverlay').classList.contains('show')){closeModal();return}
 const activeTopic=getActiveQuizTopicKey();
-if(activeTopic){confirmExitQuiz(activeTopic);return}
+if(activeTopic){handleQuizExitClick(activeTopic);return}
 if(state.navStack.length>0){goBack();return}
 }
 const current=getCurrentItem();
@@ -2110,7 +2375,12 @@ if((e.altKey||e.metaKey)&&e.key==='ArrowLeft'){e.preventDefault();goBack()}
 });
 
 // ==================== INIT ====================
-function init(){applyTheme();setLanguage(state.language);loadData()}
+function init(){
+applyTheme();
+applyFontSizes();
+setLanguage(state.language);
+loadData();
+}
 init();
 </script>
 </body>
