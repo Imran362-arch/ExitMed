@@ -4220,6 +4220,925 @@
               ]
             }
           ]
+        },
+        {
+          "id": "obstetrics_gynecology",
+          "name": "Obstetrics/Gynecology",
+          "icon": "\ud83d\udc69\u200d\u2695\ufe0f",
+          "topics": [
+            {
+              "id": "obstetrics",
+              "name": "Obstetrics",
+              "icon": "\ud83e\udd30",
+              "description": "",
+              "subtopics": [
+                {
+                  "id": "abortions",
+                  "name": "Abortions",
+                  "icon": "\u26a0\ufe0f",
+                  "description": "Termination of pregnancy before 20 weeks gestation OR fetal weight < 500 grams (WHO definition)",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "According to WHO, abortion is defined as termination of pregnancy before:",
+                        "options": [
+                          "16 weeks gestation",
+                          "20 weeks gestation",
+                          "24 weeks gestation",
+                          "28 weeks gestation"
+                        ],
+                        "answer": 1,
+                        "explanation": "WHO defines abortion as termination of pregnancy before 20 weeks gestation OR fetal weight < 500 grams."
+                      },
+                      {
+                        "q": "The fetal weight threshold for defining abortion according to WHO is:",
+                        "options": [
+                          "< 300 grams",
+                          "< 500 grams",
+                          "< 700 grams",
+                          "< 1000 grams"
+                        ],
+                        "answer": 1,
+                        "explanation": "WHO defines abortion as termination of pregnancy with fetal weight < 500 grams."
+                      },
+                      {
+                        "q": "The most common cause of spontaneous abortion in the first trimester is:",
+                        "options": [
+                          "Maternal infection",
+                          "Uterine anomalies",
+                          "Chromosomal abnormalities",
+                          "Cervical incompetence"
+                        ],
+                        "answer": 2,
+                        "explanation": "Chromosomal abnormalities account for 50-60% of first-trimester spontaneous abortions."
+                      },
+                      {
+                        "q": "The most common chromosomal abnormality found in spontaneous abortion is:",
+                        "options": [
+                          "Trisomy 21",
+                          "Trisomy 16",
+                          "Trisomy 18",
+                          "Monosomy X"
+                        ],
+                        "answer": 1,
+                        "explanation": "Trisomy 16 is the most common chromosomal abnormality in spontaneous abortion, accounting for 15-20% of all abortions."
+                      },
+                      {
+                        "q": "The most common live-born trisomy is:",
+                        "options": [
+                          "Trisomy 13",
+                          "Trisomy 16",
+                          "Trisomy 18",
+                          "Trisomy 21"
+                        ],
+                        "answer": 3,
+                        "explanation": "Trisomy 21 (Down syndrome) is the most common live-born trisomy. Trisomy 16 is not compatible with live birth."
+                      },
+                      {
+                        "q": "In aneuploid abortions, the chromosomal abnormality originates from the mother in what percentage?",
+                        "options": [
+                          "50%",
+                          "75%",
+                          "95%",
+                          "99%"
+                        ],
+                        "answer": 2,
+                        "explanation": "In aneuploid abortions, 95% of chromosomal abnormalities originate from the mother, increasing with maternal age."
+                      },
+                      {
+                        "q": "A blighted ovum is characterized by:",
+                        "options": [
+                          "An empty gestational sac with no embryo",
+                          "A fetus with multiple anomalies",
+                          "A molar pregnancy",
+                          "An ectopic pregnancy"
+                        ],
+                        "answer": 0,
+                        "explanation": "Blighted ovum (anembryonic pregnancy) is an empty gestational sac with no embryo, caused by chromosomal abnormalities."
+                      },
+                      {
+                        "q": "More than 80% of spontaneous abortions occur during which period?",
+                        "options": [
+                          "First 8 weeks",
+                          "First 12 weeks",
+                          "First 16 weeks",
+                          "First 20 weeks"
+                        ],
+                        "answer": 1,
+                        "explanation": "More than 80% of spontaneous abortions occur during the first 12 weeks of gestation."
+                      },
+                      {
+                        "q": "Which type of abortion is characterized by vaginal bleeding, a closed cervix, and a viable fetus?",
+                        "options": [
+                          "Inevitable abortion",
+                          "Threatened abortion",
+                          "Incomplete abortion",
+                          "Missed abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Threatened abortion = vaginal bleeding + CLOSED cervix + VIABLE fetus."
+                      },
+                      {
+                        "q": "Which type of abortion is characterized by ruptured membranes, cervical dilation, and inevitable expulsion of products?",
+                        "options": [
+                          "Threatened abortion",
+                          "Inevitable abortion",
+                          "Complete abortion",
+                          "Septic abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Inevitable abortion = ruptured membranes + OPEN cervix + inevitable expulsion."
+                      },
+                      {
+                        "q": "In which type of abortion are all products of conception completely expelled and bleeding stops?",
+                        "options": [
+                          "Incomplete abortion",
+                          "Complete abortion",
+                          "Missed abortion",
+                          "Threatened abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Complete abortion = all products expelled + bleeding stops + cervix closes."
+                      },
+                      {
+                        "q": "In which type of abortion do some products of conception remain in utero, causing severe bleeding?",
+                        "options": [
+                          "Complete abortion",
+                          "Incomplete abortion",
+                          "Threatened abortion",
+                          "Missed abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Incomplete abortion = some products retained + severe bleeding + open cervix."
+                      },
+                      {
+                        "q": "Before 10 weeks of gestation, the placenta and fetus are expelled:",
+                        "options": [
+                          "Separately",
+                          "Together",
+                          "Never",
+                          "Only if infection is present"
+                        ],
+                        "answer": 1,
+                        "explanation": "Before 10 weeks, the placenta and fetus are expelled TOGETHER because the placental attachment is weak."
+                      },
+                      {
+                        "q": "After 10 weeks of gestation, the placenta and fetus are expelled:",
+                        "options": [
+                          "Together",
+                          "Separately",
+                          "Only by surgical intervention",
+                          "With the amniotic sac intact"
+                        ],
+                        "answer": 1,
+                        "explanation": "After 10 weeks, the placenta and fetus are expelled SEPARATELY because the placental attachment is stronger."
+                      },
+                      {
+                        "q": "The classical feature of cervical incompetence is:",
+                        "options": [
+                          "Painful uterine contractions",
+                          "Painless cervical dilation in the second trimester",
+                          "First-trimester bleeding",
+                          "Severe abdominal pain"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cervical incompetence = PAINLESS cervical dilation in the SECOND trimester."
+                      },
+                      {
+                        "q": "Cervical incompetence typically presents in which trimester?",
+                        "options": [
+                          "First trimester",
+                          "Second trimester",
+                          "Third trimester",
+                          "Postpartum"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cervical incompetence typically presents in the SECOND trimester (14-20 weeks)."
+                      },
+                      {
+                        "q": "The treatment of choice for cervical incompetence is:",
+                        "options": [
+                          "Bed rest",
+                          "Progesterone supplementation",
+                          "Cerclage",
+                          "Tocolytics"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cerclage (cervical stitch) is the treatment of choice for cervical incompetence."
+                      },
+                      {
+                        "q": "Elective cerclage is typically performed at which gestational age?",
+                        "options": [
+                          "8-10 weeks",
+                          "12-16 weeks",
+                          "20-24 weeks",
+                          "28-32 weeks"
+                        ],
+                        "answer": 1,
+                        "explanation": "Elective cerclage is typically performed at 12-16 weeks gestation."
+                      },
+                      {
+                        "q": "Cerclage should NOT be performed after which gestational age?",
+                        "options": [
+                          "16 weeks",
+                          "20 weeks",
+                          "23 weeks",
+                          "26 weeks"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cerclage should NOT be performed after 23 weeks gestation due to increased risk of complications."
+                      },
+                      {
+                        "q": "The McDonald technique of cerclage has a success rate of:",
+                        "options": [
+                          "50-60%",
+                          "70-80%",
+                          "85-95%",
+                          "98-100%"
+                        ],
+                        "answer": 2,
+                        "explanation": "The McDonald technique has a success rate of 85-95% for preventing preterm birth in cervical incompetence."
+                      },
+                      {
+                        "q": "Which technique of cerclage is used for complex anatomical abnormalities of the cervix?",
+                        "options": [
+                          "McDonald",
+                          "Shirodkar",
+                          "Intra-abdominal",
+                          "Laparoscopic"
+                        ],
+                        "answer": 1,
+                        "explanation": "Shirodkar technique is used for complex anatomical abnormalities of the cervix."
+                      },
+                      {
+                        "q": "All of the following are contraindications to cerclage EXCEPT:",
+                        "options": [
+                          "Bleeding",
+                          "Uterine contractions",
+                          "Ruptured membranes",
+                          "History of previous cerclage"
+                        ],
+                        "answer": 3,
+                        "explanation": "History of previous cerclage is NOT a contraindication. Contraindications include bleeding, uterine contractions, ruptured membranes, infection, and >23 weeks."
+                      },
+                      {
+                        "q": "Before performing cerclage, which infection must be ruled out?",
+                        "options": [
+                          "Urinary tract infection",
+                          "Chlamydia and Gonorrhea",
+                          "Bacterial vaginosis",
+                          "Group B Streptococcus"
+                        ],
+                        "answer": 1,
+                        "explanation": "Chlamydia and Gonorrhea must be ruled out before cerclage to prevent ascending infection."
+                      },
+                      {
+                        "q": "Recurrent abortion is defined as:",
+                        "options": [
+                          "2 consecutive spontaneous abortions",
+                          "3 consecutive spontaneous abortions",
+                          "4 consecutive spontaneous abortions",
+                          "Any abortion in a woman over 35 years"
+                        ],
+                        "answer": 1,
+                        "explanation": "Recurrent abortion = 3 or more CONSECUTIVE spontaneous abortions."
+                      },
+                      {
+                        "q": "In recurrent abortion, no cause is found in what percentage of couples?",
+                        "options": [
+                          "10%",
+                          "25%",
+                          "50%",
+                          "75%"
+                        ],
+                        "answer": 2,
+                        "explanation": "No cause is found in approximately 50% of couples with recurrent abortion (unexplained recurrent miscarriage)."
+                      },
+                      {
+                        "q": "What percentage of couples with recurrent abortion have a successful pregnancy without specific treatment?",
+                        "options": [
+                          "30-40%",
+                          "50-60%",
+                          "60-70%",
+                          "80-90%"
+                        ],
+                        "answer": 2,
+                        "explanation": "60-70% of couples with recurrent abortion will have a successful pregnancy without specific treatment."
+                      },
+                      {
+                        "q": "The treatment for antiphospholipid syndrome in recurrent abortion is:",
+                        "options": [
+                          "Heparin alone",
+                          "Aspirin alone",
+                          "Low-dose Aspirin + Heparin",
+                          "Steroids"
+                        ],
+                        "answer": 2,
+                        "explanation": "Low-dose Aspirin (75 mg) + Heparin (5000 units SC) started as soon as pregnancy is diagnosed."
+                      },
+                      {
+                        "q": "In a patient with PCOS and recurrent abortion, which drug reduces the risk of abortion?",
+                        "options": [
+                          "Clomiphene",
+                          "Metformin",
+                          "Progesterone",
+                          "Aspirin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Metformin in PCOS patients reduces the risk of abortion by improving insulin sensitivity and ovulation."
+                      },
+                      {
+                        "q": "Metformin in PCOS patients also reduces the risk of:",
+                        "options": [
+                          "Preeclampsia",
+                          "Gestational diabetes and IUGR",
+                          "Placental abruption",
+                          "Ectopic pregnancy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Metformin in PCOS patients reduces the risk of gestational diabetes and IUGR (Intrauterine Growth Restriction)."
+                      },
+                      {
+                        "q": "Which of the following is a characteristic feature of missed abortion?",
+                        "options": [
+                          "Active bleeding",
+                          "Open cervix",
+                          "Fetal death with retained products",
+                          "Foul-smelling discharge"
+                        ],
+                        "answer": 2,
+                        "explanation": "Missed abortion = fetal death in utero with retained products + closed cervix."
+                      },
+                      {
+                        "q": "The most serious complication of prolonged missed abortion is:",
+                        "options": [
+                          "Hemorrhage",
+                          "Infection",
+                          "Disseminated Intravascular Coagulation (DIC)",
+                          "Uterine perforation"
+                        ],
+                        "answer": 2,
+                        "explanation": "Prolonged retention of dead fetus in missed abortion can lead to DIC due to release of thromboplastin."
+                      },
+                      {
+                        "q": "Which of the following should be checked before intervention in a missed abortion?",
+                        "options": [
+                          "Blood glucose",
+                          "Coagulation profile",
+                          "Liver function tests",
+                          "Renal function tests"
+                        ],
+                        "answer": 1,
+                        "explanation": "Coagulation profile (PT, aPTT, fibrinogen, platelet count) should be checked before intervention in missed abortion due to risk of DIC."
+                      },
+                      {
+                        "q": "A septic abortion is defined as:",
+                        "options": [
+                          "Abortion with fever",
+                          "Abortion complicated by infection",
+                          "Abortion with heavy bleeding",
+                          "Abortion with severe pain"
+                        ],
+                        "answer": 1,
+                        "explanation": "Septic abortion = abortion complicated by infection (fever, foul discharge, uterine tenderness)."
+                      },
+                      {
+                        "q": "The management of septic abortion includes:",
+                        "options": [
+                          "Antibiotics alone",
+                          "Evacuation alone",
+                          "Antibiotics + Evacuation",
+                          "Hysterectomy"
+                        ],
+                        "answer": 2,
+                        "explanation": "Management of septic abortion = broad-spectrum antibiotics + evacuation of retained products."
+                      },
+                      {
+                        "q": "Asherman's syndrome is characterized by:",
+                        "options": [
+                          "Cervical stenosis",
+                          "Intrauterine adhesions",
+                          "Uterine fibroids",
+                          "Endometrial polyps"
+                        ],
+                        "answer": 1,
+                        "explanation": "Asherman's syndrome = intrauterine adhesions (synechiae) causing infertility and abortion."
+                      },
+                      {
+                        "q": "Asherman's syndrome is most commonly caused by:",
+                        "options": [
+                          "Infection",
+                          "Severe curettage",
+                          "Congenital anomaly",
+                          "Hormonal imbalance"
+                        ],
+                        "answer": 1,
+                        "explanation": "Asherman's syndrome is most commonly caused by severe curettage (D&C) that damages the endometrial basal layer."
+                      },
+                      {
+                        "q": "Which of the following is NOT a cause of recurrent abortion?",
+                        "options": [
+                          "Antiphospholipid syndrome",
+                          "Cervical incompetence",
+                          "Trisomy 16 in the fetus",
+                          "Thyroid disorders"
+                        ],
+                        "answer": 2,
+                        "explanation": "Trisomy 16 is a cause of sporadic abortion, NOT recurrent abortion (it is a random chromosomal event)."
+                      },
+                      {
+                        "q": "The most common maternal age-related cause of abortion is:",
+                        "options": [
+                          "Uterine fibroids",
+                          "Chromosomal abnormalities",
+                          "Cervical incompetence",
+                          "Endocrine disorders"
+                        ],
+                        "answer": 1,
+                        "explanation": "Chromosomal abnormalities are the most common maternal age-related cause of abortion (increased with maternal age >35)."
+                      },
+                      {
+                        "q": "Which of the following is a known risk factor for cervical incompetence?",
+                        "options": [
+                          "Multiparity",
+                          "DES exposure in utero",
+                          "Obesity",
+                          "Smoking"
+                        ],
+                        "answer": 1,
+                        "explanation": "DES (Diethylstilbestrol) exposure in utero is a known risk factor for cervical incompetence."
+                      },
+                      {
+                        "q": "All of the following are indications for Anti-D Immunoglobulin in abortion EXCEPT:",
+                        "options": [
+                          "Rh-negative mother",
+                          "Rh-positive mother",
+                          "After spontaneous abortion",
+                          "After induced abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Anti-D Immunoglobulin is given to Rh-NEGATIVE mothers, NOT Rh-positive mothers. It is given after ANY abortion."
+                      },
+                      {
+                        "q": "The most common cause of bleeding in early pregnancy that does NOT result in abortion is:",
+                        "options": [
+                          "Implantation bleeding",
+                          "Cervical polyp",
+                          "Subchorionic hemorrhage",
+                          "Threatened abortion"
+                        ],
+                        "answer": 0,
+                        "explanation": "Implantation bleeding (implantation spotting) occurs at 6-12 days post-conception and does NOT result in abortion."
+                      },
+                      {
+                        "q": "Which of the following is a congenital cause of recurrent abortion?",
+                        "options": [
+                          "Asherman's syndrome",
+                          "Cervical incompetence",
+                          "M\u00fcllerian duct anomalies",
+                          "Antiphospholipid syndrome"
+                        ],
+                        "answer": 2,
+                        "explanation": "M\u00fcllerian duct anomalies (e.g., bicornuate uterus, septate uterus) are congenital causes of recurrent abortion."
+                      },
+                      {
+                        "q": "The risk of DIC in missed abortion increases with:",
+                        "options": [
+                          "Gestational age less than 12 weeks",
+                          "Prolonged retention of dead fetus",
+                          "Maternal age over 35",
+                          "Previous abortion"
+                        ],
+                        "answer": 1,
+                        "explanation": "The risk of DIC in missed abortion increases with PROLONGED retention of the dead fetus (usually >4 weeks)."
+                      },
+                      {
+                        "q": "Which of the following is a complication of curettage?",
+                        "options": [
+                          "Cervical incompetence",
+                          "Uterine perforation",
+                          "Asherman's syndrome",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "All are complications of curettage: cervical incompetence, uterine perforation, and Asherman's syndrome."
+                      },
+                      {
+                        "q": "Euploid abortions tend to occur:",
+                        "options": [
+                          "Earlier than aneuploid abortions",
+                          "Later than aneuploid abortions",
+                          "Only in the first trimester",
+                          "Only in the third trimester"
+                        ],
+                        "answer": 1,
+                        "explanation": "Euploid abortions (normal chromosomes) tend to occur LATER than aneuploid abortions."
+                      },
+                      {
+                        "q": "Which of the following autosomal trisomies is LEAST commonly associated with live birth?",
+                        "options": [
+                          "Trisomy 13",
+                          "Trisomy 16",
+                          "Trisomy 18",
+                          "Trisomy 21"
+                        ],
+                        "answer": 1,
+                        "explanation": "Trisomy 16 is LEAST commonly associated with live birth (it is the most common cause of spontaneous abortion)."
+                      },
+                      {
+                        "q": "A patient with 3 consecutive first-trimester losses. Which investigation is most appropriate?",
+                        "options": [
+                          "Hysterosalpingography",
+                          "Parental karyotyping",
+                          "Antiphospholipid antibody testing",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "All of the above are indicated in the workup of recurrent abortion: HSG, parental karyotyping, and APS testing."
+                      },
+                      {
+                        "q": "Which of the following is NOT a feature of threatened abortion?",
+                        "options": [
+                          "Vaginal bleeding",
+                          "Closed cervix",
+                          "Viable fetus",
+                          "Ruptured membranes"
+                        ],
+                        "answer": 3,
+                        "explanation": "Threatened abortion = vaginal bleeding + CLOSED cervix + viable fetus. Ruptured membranes indicate inevitable abortion."
+                      },
+                      {
+                        "q": "Which of the following is a characteristic feature of inevitable abortion?",
+                        "options": [
+                          "Closed cervix",
+                          "Bleeding has stopped",
+                          "Cervical dilation with membranes visible",
+                          "Products of conception completely expelled"
+                        ],
+                        "answer": 2,
+                        "explanation": "Inevitable abortion = OPEN cervix + membranes visible + active bleeding."
+                      },
+                      {
+                        "q": "The most common type of spontaneous abortion is:",
+                        "options": [
+                          "Threatened",
+                          "Inevitable",
+                          "Complete",
+                          "Missed"
+                        ],
+                        "answer": 0,
+                        "explanation": "Threatened abortion is the most common type of spontaneous abortion."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the WHO definition of abortion?",
+                        "a": "Termination of pregnancy before 20 weeks gestation OR fetal weight < 500 grams."
+                      },
+                      {
+                        "q": "What is the most common cause of first-trimester abortion?",
+                        "a": "Chromosomal abnormalities (50-60%)."
+                      },
+                      {
+                        "q": "What is the most common chromosomal abnormality in spontaneous abortion?",
+                        "a": "Trisomy 16."
+                      },
+                      {
+                        "q": "What is the difference between Threatened and Inevitable abortion?",
+                        "a": "Threatened = Closed cervix + viable fetus; Inevitable = Open cervix + ruptured membranes."
+                      },
+                      {
+                        "q": "What is the classical feature of Cervical Incompetence?",
+                        "a": "Painless cervical dilation in the second trimester."
+                      },
+                      {
+                        "q": "What is the treatment for Cervical Incompetence?",
+                        "a": "Cerclage (McDonald or Shirodkar technique)."
+                      },
+                      {
+                        "q": "At what gestational age is elective cerclage performed?",
+                        "a": "12-16 weeks."
+                      },
+                      {
+                        "q": "What are the contraindications to cerclage?",
+                        "a": "Bleeding, uterine contractions, ruptured membranes, infection, >23 weeks."
+                      },
+                      {
+                        "q": "What is Recurrent Abortion?",
+                        "a": "3 or more consecutive spontaneous abortions."
+                      },
+                      {
+                        "q": "What is the treatment for Antiphospholipid Syndrome in recurrent abortion?",
+                        "a": "Low-dose Aspirin (75 mg) + Heparin (5000 units SC)."
+                      },
+                      {
+                        "q": "What is the most serious complication of Missed Abortion?",
+                        "a": "Disseminated Intravascular Coagulation (DIC)."
+                      },
+                      {
+                        "q": "What is Asherman's Syndrome?",
+                        "a": "Intrauterine adhesions caused by severe curettage leading to infertility and abortion."
+                      },
+                      {
+                        "q": "What is the management of Septic Abortion?",
+                        "a": "Broad-spectrum antibiotics + Evacuation of retained products."
+                      },
+                      {
+                        "q": "What is a Blighted Ovum?",
+                        "a": "An empty gestational sac with no embryo."
+                      },
+                      {
+                        "q": "Which women need Anti-D Immunoglobulin after abortion?",
+                        "a": "ALL Rh-negative women after ANY abortion (spontaneous or induced)."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "WHO definition of abortion",
+                        "back": "Termination of pregnancy BEFORE 20 weeks gestation OR fetal weight < 500 grams."
+                      },
+                      {
+                        "front": "Most common cause of first-trimester spontaneous abortion",
+                        "back": "Chromosomal abnormalities (50-60% of cases)."
+                      },
+                      {
+                        "front": "Most common chromosomal abnormality in spontaneous abortion",
+                        "back": "Trisomy 16."
+                      },
+                      {
+                        "front": "Most common live-born trisomy",
+                        "back": "Trisomy 21 (Down syndrome)."
+                      },
+                      {
+                        "front": "Blighted Ovum",
+                        "back": "An empty gestational sac with no embryo."
+                      },
+                      {
+                        "front": "Threatened Abortion",
+                        "back": "Vaginal bleeding in first trimester with a CLOSED cervix and a VIABLE fetus."
+                      },
+                      {
+                        "front": "Inevitable Abortion",
+                        "back": "Ruptured membranes, cervical dilation, and abortion is certain to occur."
+                      },
+                      {
+                        "front": "Complete Abortion",
+                        "back": "All products of conception expelled completely; bleeding stops; cervix closes."
+                      },
+                      {
+                        "front": "Incomplete Abortion",
+                        "back": "Some products of conception remain in utero; severe bleeding; open cervix."
+                      },
+                      {
+                        "front": "Missed Abortion",
+                        "back": "Fetal death in utero with retained products; closed cervix; risk of DIC."
+                      },
+                      {
+                        "front": "Classical feature of Cervical Incompetence",
+                        "back": "PAINLESS cervical dilation in the second trimester."
+                      },
+                      {
+                        "front": "Treatment for Cervical Incompetence",
+                        "back": "Cerclage (McDonald or Shirodkar technique)."
+                      },
+                      {
+                        "front": "Contraindications to Cerclage",
+                        "back": "Bleeding, Uterine contractions, Ruptured membranes, and > 23 weeks gestation."
+                      },
+                      {
+                        "front": "Timing for elective Cerclage",
+                        "back": "12-16 weeks gestation."
+                      },
+                      {
+                        "front": "Recurrent Abortion",
+                        "back": "3 or more CONSECUTIVE spontaneous abortions."
+                      },
+                      {
+                        "front": "Treatment for Antiphospholipid Syndrome in recurrent abortion",
+                        "back": "Low-dose Aspirin (75 mg) + Heparin (5000 units SC) started as soon as pregnancy is diagnosed."
+                      },
+                      {
+                        "front": "Septic Abortion",
+                        "back": "Abortion complicated by infection (fever, foul discharge, uterine tenderness)."
+                      },
+                      {
+                        "front": "Asherman's Syndrome",
+                        "back": "Intrauterine adhesions caused by severe curettage; leads to infertility and abortion."
+                      },
+                      {
+                        "front": "Rh-negative women needing Anti-D Immunoglobulin after abortion",
+                        "back": "ALL Rh-negative women after ANY abortion (spontaneous or induced)."
+                      },
+                      {
+                        "front": "Risk of prolonged retention in Missed Abortion",
+                        "back": "Disseminated Intravascular Coagulation (DIC). Check coagulation profile before intervention."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "WHO Definition of Abortion",
+                        "icon": "\ud83d\udccb",
+                        "code": "20/500",
+                        "items": [
+                          {
+                            "letter": "20",
+                            "text": "20 weeks gestation"
+                          },
+                          {
+                            "letter": "500",
+                            "text": "500 grams fetal weight"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Types of Spontaneous Abortion",
+                        "icon": "\ud83d\udcca",
+                        "code": "T-I-M-C-I-S-R",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Threatened"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Inevitable"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Missed"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Complete"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Incomplete"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Septic"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Recurrent"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Threatened vs Inevitable",
+                        "icon": "\ud83d\udd2c",
+                        "code": "CLOSED = Threatened, OPEN = Inevitable",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Closed cervix + Alive fetus = Threatened"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Open cervix + Bleeding = Inevitable"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cerclage Techniques",
+                        "icon": "\ud83e\uddf5",
+                        "code": "M-S",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "McDonald (Simple, 85-95% success)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Shirodkar (Complex, for anomalies)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cerclage Contraindications",
+                        "icon": "\ud83d\udeab",
+                        "code": "B.U.R.N.",
+                        "items": [
+                          {
+                            "letter": "B",
+                            "text": "Bleeding"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Uterine contractions"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Ruptured membranes"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Not after 23 weeks"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Recurrent Abortion Causes",
+                        "icon": "\ud83d\udd0d",
+                        "code": "C-A-I-E-T",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Chromosomal"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Anatomic (Uterine)"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Immunological (APS)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Endocrine (Thyroid, Diabetes, PCOS)"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Thrombophilia"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Antiphospholipid Syndrome Treatment",
+                        "icon": "\ud83d\udc8a",
+                        "code": "A-H",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Aspirin (75 mg daily)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Heparin (5000 units SC)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Chromosomal Abnormalities in Abortion",
+                        "icon": "\ud83e\uddec",
+                        "code": "A-T-M-T",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Aneuploidy (95% maternal)"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Trisomy (13,16,18,21,22)"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Monosomy X (Turner)"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Triploidy (Molar degeneration)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Placenta + Fetus Expulsion",
+                        "icon": "\ud83d\udc76",
+                        "code": "Before 10 = Together; After 10 = Separate",
+                        "items": [
+                          {
+                            "letter": "<10",
+                            "text": "< 10 weeks: Expelled together"
+                          },
+                          {
+                            "letter": ">10",
+                            "text": "> 10 weeks: Expelled separately"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Missed Abortion Complication",
+                        "icon": "\u26a0\ufe0f",
+                        "code": "DIC in Missed",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Prolonged retention = Risk of DIC"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Check coagulation BEFORE intervention"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
