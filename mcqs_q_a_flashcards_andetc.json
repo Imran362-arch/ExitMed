@@ -5137,6 +5137,670 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "gynecology",
+              "name": "Gynecology",
+              "icon": "\ud83c\udf38",
+              "description": "",
+              "subtopics": [
+                {
+                  "id": "amenorrhea",
+                  "name": "Amenorrhea",
+                  "icon": "\ud83e\ude78",
+                  "description": "Absence of menstruation. Primary: no menses by age 13 (no secondary sexual characteristics) or age 15 (normal secondary sexual characteristics). Secondary: no menses for 3 consecutive cycles OR 6 months.",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "The most common cause of amenorrhea at any age is:",
+                        "options": [
+                          "Polycystic Ovarian Syndrome",
+                          "Pregnancy",
+                          "Thyroid disorders",
+                          "Hyperprolactinemia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pregnancy is the most common cause of amenorrhea at any age and should always be ruled out first."
+                      },
+                      {
+                        "q": "A 14-year-old girl presents with no menstruation and no breast development. This is classified as:",
+                        "options": [
+                          "Primary amenorrhea",
+                          "Secondary amenorrhea",
+                          "Delayed menarche",
+                          "Physiological amenorrhea"
+                        ],
+                        "answer": 0,
+                        "explanation": "Primary amenorrhea = no menses by age 13 with NO secondary sexual characteristics."
+                      },
+                      {
+                        "q": "A 16-year-old girl presents with no menstruation but has normal breast development and pubic hair. This is classified as:",
+                        "options": [
+                          "Primary amenorrhea",
+                          "Secondary amenorrhea",
+                          "Normal variant",
+                          "Constitutional delay"
+                        ],
+                        "answer": 0,
+                        "explanation": "Primary amenorrhea = no menses by age 15 WITH normal secondary sexual characteristics."
+                      },
+                      {
+                        "q": "Secondary amenorrhea is defined as no menstruation for:",
+                        "options": [
+                          "2 consecutive cycles",
+                          "3 consecutive cycles OR 6 months",
+                          "4 consecutive cycles",
+                          "12 months"
+                        ],
+                        "answer": 1,
+                        "explanation": "Secondary amenorrhea = no menses for 3 consecutive cycles OR 6 months in a woman with previously normal cycles."
+                      },
+                      {
+                        "q": "The four components required for a normal menstrual cycle are:",
+                        "options": [
+                          "Hypothalamus, Pituitary, Ovaries, Uterus",
+                          "Hypothalamus, Thyroid, Ovaries, Uterus",
+                          "Pituitary, Adrenals, Ovaries, Uterus",
+                          "Hypothalamus, Pituitary, Adrenals, Ovaries"
+                        ],
+                        "answer": 0,
+                        "explanation": "The four components required for a normal menstrual cycle are Hypothalamus, Pituitary, Ovaries, and Uterus/Genital tract."
+                      },
+                      {
+                        "q": "Dysfunction in which component of the menstrual cycle can cause amenorrhea?",
+                        "options": [
+                          "Hypothalamus only",
+                          "Pituitary only",
+                          "Ovaries only",
+                          "Any of the four components"
+                        ],
+                        "answer": 3,
+                        "explanation": "Dysfunction in ANY of the four components (Hypothalamus, Pituitary, Ovaries, Uterus) can cause amenorrhea."
+                      },
+                      {
+                        "q": "Kallmann's syndrome is characterized by:",
+                        "options": [
+                          "Hypothyroidism and amenorrhea",
+                          "GnRH deficiency and anosmia",
+                          "Pituitary necrosis and amenorrhea",
+                          "Ovarian dysgenesis and webbed neck"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kallmann's syndrome = congenital GnRH deficiency associated with Anosmia (absence of smell)."
+                      },
+                      {
+                        "q": "Sheehan's syndrome is caused by:",
+                        "options": [
+                          "Severe postpartum hemorrhage",
+                          "Pituitary adenoma",
+                          "Ovarian failure",
+                          "Hypothalamic suppression"
+                        ],
+                        "answer": 0,
+                        "explanation": "Sheehan's syndrome = pituitary necrosis caused by severe postpartum hemorrhage leading to panhypopituitarism."
+                      },
+                      {
+                        "q": "Sheehan's syndrome results in which type of amenorrhea?",
+                        "options": [
+                          "Primary amenorrhea",
+                          "Secondary amenorrhea",
+                          "Physiological amenorrhea",
+                          "Postmenopausal amenorrhea"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sheehan's syndrome causes secondary amenorrhea as it occurs after a normal menstrual cycle has been established."
+                      },
+                      {
+                        "q": "The classic presentation of Testicular Feminization is:",
+                        "options": [
+                          "46,XX with male phenotype",
+                          "46,XY with female phenotype",
+                          "46,XX with ambiguous genitalia",
+                          "45,X with Turner syndrome"
+                        ],
+                        "answer": 1,
+                        "explanation": "Testicular Feminization (Androgen Insensitivity Syndrome) = 46,XY with female phenotype, primary amenorrhea, and breast development."
+                      },
+                      {
+                        "q": "In Testicular Feminization, external genitalia are:",
+                        "options": [
+                          "Male",
+                          "Female",
+                          "Ambiguous",
+                          "Absent"
+                        ],
+                        "answer": 1,
+                        "explanation": "In Testicular Feminization, external genitalia are FEMALE due to complete androgen insensitivity."
+                      },
+                      {
+                        "q": "In Testicular Feminization, internal genitalia are:",
+                        "options": [
+                          "Male",
+                          "Female",
+                          "Absent",
+                          "Both male and female"
+                        ],
+                        "answer": 0,
+                        "explanation": "In Testicular Feminization, internal genitalia are MALE (testes are present, but uterus and upper vagina are absent)."
+                      },
+                      {
+                        "q": "The enzyme deficiency in Testicular Feminization is:",
+                        "options": [
+                          "17-Hydroxysteroid dehydrogenase",
+                          "5-alpha reductase",
+                          "Aromatase",
+                          "21-Hydroxylase"
+                        ],
+                        "answer": 1,
+                        "explanation": "Testicular Feminization is caused by 5-alpha reductase deficiency (androgen receptor defect)."
+                      },
+                      {
+                        "q": "Pure Gonadal Dysgenesis is characterized by:",
+                        "options": [
+                          "Failure of primordial germ cells to migrate",
+                          "Presence of testes",
+                          "Male external genitalia",
+                          "High testosterone levels"
+                        ],
+                        "answer": 0,
+                        "explanation": "Pure Gonadal Dysgenesis = failure of primordial germ cells to migrate to the genital ridge, resulting in no testes and female genitalia."
+                      },
+                      {
+                        "q": "In Pure Gonadal Dysgenesis, the genitalia are:",
+                        "options": [
+                          "Male",
+                          "Female",
+                          "Ambiguous",
+                          "Absent"
+                        ],
+                        "answer": 1,
+                        "explanation": "In Pure Gonadal Dysgenesis, genitalia are FEMALE (no testes, no testosterone)."
+                      },
+                      {
+                        "q": "Asherman's syndrome is caused by:",
+                        "options": [
+                          "Congenital uterine anomaly",
+                          "D&C (Dilatation & Curettage) trauma",
+                          "Ovarian failure",
+                          "Pituitary necrosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Asherman's syndrome = intrauterine adhesions caused by trauma from D&C (Dilatation & Curettage)."
+                      },
+                      {
+                        "q": "Asherman's syndrome is characterized by:",
+                        "options": [
+                          "Intrauterine adhesions",
+                          "Cervical stenosis",
+                          "Vaginal agenesis",
+                          "Ovarian cysts"
+                        ],
+                        "answer": 0,
+                        "explanation": "Asherman's syndrome = intrauterine adhesions (synechiae) causing amenorrhea and infertility."
+                      },
+                      {
+                        "q": "Imperforate hymen presents with:",
+                        "options": [
+                          "No menstruation and no vaginal outlet",
+                          "Menstruation occurring with no outlet",
+                          "Absent uterus",
+                          "Normal menstruation with pain"
+                        ],
+                        "answer": 1,
+                        "explanation": "Imperforate hymen = menstruation occurs but there is no vaginal outlet, causing hematocolpos and cyclical pain."
+                      },
+                      {
+                        "q": "The karyotype in M\u00fcllerian duct anomalies with absent uterus and upper vagina is:",
+                        "options": [
+                          "45,X",
+                          "46,XY",
+                          "46,XX",
+                          "47,XXY"
+                        ],
+                        "answer": 2,
+                        "explanation": "M\u00fcllerian duct anomalies with absent uterus and upper vagina (Mayer-Rokitansky-K\u00fcster-Hauser syndrome) have 46,XX karyotype."
+                      },
+                      {
+                        "q": "Which of the following is a congenital cause of hypothalamic amenorrhea?",
+                        "options": [
+                          "Anorexia nervosa",
+                          "Kallmann's syndrome",
+                          "Severe stress",
+                          "Intense exercise"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kallmann's syndrome is a congenital cause of hypothalamic amenorrhea (GnRH deficiency). The others are acquired/functional."
+                      },
+                      {
+                        "q": "Functional hypothalamic amenorrhea can be caused by all of the following EXCEPT:",
+                        "options": [
+                          "Anorexia nervosa",
+                          "Severe stress",
+                          "Intense exercise",
+                          "Pituitary adenoma"
+                        ],
+                        "answer": 3,
+                        "explanation": "Functional hypothalamic amenorrhea is caused by anorexia, stress, weight loss, and exercise. Pituitary adenoma is an organic cause."
+                      },
+                      {
+                        "q": "The diagnostic criteria for PCOS include:",
+                        "options": [
+                          "Hyperandrogenism, polycystic ovaries, and exclude CAH",
+                          "Hyperandrogenism, oligomenorrhea, and exclude tumors",
+                          "Polycystic ovaries, obesity, and hirsutism",
+                          "Hyperandrogenism, obesity, and insulin resistance"
+                        ],
+                        "answer": 0,
+                        "explanation": "PCOS diagnostic criteria (Rotterdam): Hyperandrogenism + Polycystic ovaries + Exclude CAH and other causes."
+                      },
+                      {
+                        "q": "In Testicular Feminization, breast development occurs because:",
+                        "options": [
+                          "Estrogen is produced by ovaries",
+                          "High testosterone is converted to estrogen",
+                          "Exogenous estrogen is given",
+                          "Prolactin levels are high"
+                        ],
+                        "answer": 1,
+                        "explanation": "In Testicular Feminization, high testosterone is converted to estrogen via aromatase, causing breast development."
+                      },
+                      {
+                        "q": "Which condition presents with primary amenorrhea and delayed puberty?",
+                        "options": [
+                          "Testicular feminization",
+                          "Pure Gonadal Dysgenesis",
+                          "Imperforate hymen",
+                          "Kallmann's syndrome"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pure Gonadal Dysgenesis presents with primary amenorrhea and delayed puberty due to lack of estrogen production."
+                      },
+                      {
+                        "q": "Anorchia results from:",
+                        "options": [
+                          "Failure of primordial germ cells to migrate",
+                          "Regression of testes before week 7 of gestation",
+                          "5-alpha reductase deficiency",
+                          "Pituitary necrosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Anorchia = regression of testes before week 7, resulting in female phenotype (no testes, no testosterone)."
+                      },
+                      {
+                        "q": "If testes regress between 7-13 weeks of gestation, the result is:",
+                        "options": [
+                          "Female external genitalia",
+                          "Male external genitalia",
+                          "Ambiguous external genitalia",
+                          "Absent genitalia"
+                        ],
+                        "answer": 2,
+                        "explanation": "If testes regress between 7-13 weeks, ambiguous external genitalia result because testosterone production stops after the critical period."
+                      },
+                      {
+                        "q": "Which enzyme deficiency causes ambiguous genitalia and virilization at puberty?",
+                        "options": [
+                          "5-alpha reductase",
+                          "Aromatase",
+                          "17-Hydroxysteroid dehydrogenase",
+                          "21-Hydroxylase"
+                        ],
+                        "answer": 2,
+                        "explanation": "17-Hydroxysteroid dehydrogenase deficiency causes ambiguous genitalia at birth and virilization at puberty."
+                      },
+                      {
+                        "q": "Which of the following is NOT a cause of secondary amenorrhea?",
+                        "options": [
+                          "Sheehan's syndrome",
+                          "Asherman's syndrome",
+                          "Imperforate hymen",
+                          "Hyperprolactinemia"
+                        ],
+                        "answer": 2,
+                        "explanation": "Imperforate hymen causes primary amenorrhea, not secondary amenorrhea. All others cause secondary amenorrhea."
+                      },
+                      {
+                        "q": "A patient with congenital absence of vagina and uterus with 46,XX karyotype has:",
+                        "options": [
+                          "Testicular feminization",
+                          "Mullerian duct anomaly",
+                          "Pure gonadal dysgenesis",
+                          "Kallmann's syndrome"
+                        ],
+                        "answer": 1,
+                        "explanation": "46,XX with absent uterus and vagina = M\u00fcllerian duct anomaly (Mayer-Rokitansky-K\u00fcster-Hauser syndrome)."
+                      },
+                      {
+                        "q": "Which diagnostic test is used in the evaluation of amenorrhea?",
+                        "options": [
+                          "Progesterone challenge test",
+                          "Glucose tolerance test",
+                          "Thyroid function test only",
+                          "MRI brain only"
+                        ],
+                        "answer": 0,
+                        "explanation": "Progesterone challenge test is used to evaluate endometrial response and estrogen status in amenorrhea."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the most common cause of amenorrhea at any age?",
+                        "a": "Pregnancy."
+                      },
+                      {
+                        "q": "Define Primary Amenorrhea.",
+                        "a": "No menses by age 13 with no secondary sexual characteristics, OR no menses by age 15 with normal secondary sexual characteristics."
+                      },
+                      {
+                        "q": "Define Secondary Amenorrhea.",
+                        "a": "No menses for 3 consecutive cycles OR 6 months."
+                      },
+                      {
+                        "q": "What are the four components required for a normal menstrual cycle?",
+                        "a": "Hypothalamus, Pituitary, Ovaries, Uterus/Genital tract."
+                      },
+                      {
+                        "q": "What is Kallmann's Syndrome?",
+                        "a": "Congenital GnRH deficiency associated with Anosmia (absence of smell)."
+                      },
+                      {
+                        "q": "What is Sheehan's Syndrome?",
+                        "a": "Pituitary necrosis caused by severe postpartum hemorrhage."
+                      },
+                      {
+                        "q": "What is Testicular Feminization?",
+                        "a": "46,XY with female phenotype, primary amenorrhea, and breast development due to 5-alpha reductase deficiency."
+                      },
+                      {
+                        "q": "What is the karyotype in Testicular Feminization?",
+                        "a": "46,XY."
+                      },
+                      {
+                        "q": "What enzyme is deficient in Testicular Feminization?",
+                        "a": "5-alpha reductase."
+                      },
+                      {
+                        "q": "What is Pure Gonadal Dysgenesis?",
+                        "a": "Failure of primordial germ cells to migrate, resulting in female genitalia and no estrogen production."
+                      },
+                      {
+                        "q": "What is Asherman's Syndrome?",
+                        "a": "Intrauterine adhesions caused by D&C trauma."
+                      },
+                      {
+                        "q": "What is the presentation of Imperforate Hymen?",
+                        "a": "Menstruation occurs with no vaginal outlet."
+                      },
+                      {
+                        "q": "What are the PCOS diagnostic criteria?",
+                        "a": "Hyperandrogenism, polycystic ovaries on ultrasound, and exclusion of CAH and androgen-producing tumors."
+                      },
+                      {
+                        "q": "What is the karyotype in Mullerian duct anomalies causing absent uterus and upper vagina?",
+                        "a": "46,XX."
+                      },
+                      {
+                        "q": "What causes Functional Hypothalamic Amenorrhea?",
+                        "a": "Anorexia nervosa, Severe stress, Weight loss, Intense exercise."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "Most common cause of amenorrhea at any age",
+                        "back": "Pregnancy."
+                      },
+                      {
+                        "front": "Primary Amenorrhea definition",
+                        "back": "No menses by age 13 with NO secondary sexual characteristics, OR no menses by age 15 with normal secondary sexual characteristics."
+                      },
+                      {
+                        "front": "Secondary Amenorrhea definition",
+                        "back": "No menses for 3 consecutive cycles OR 6 months."
+                      },
+                      {
+                        "front": "Four components required for a normal menstrual cycle",
+                        "back": "Hypothalamus, Pituitary, Ovaries, Uterus/Genital tract."
+                      },
+                      {
+                        "front": "Kallmann's Syndrome",
+                        "back": "Congenital GnRH deficiency associated with Anosmia (absence of smell)."
+                      },
+                      {
+                        "front": "Sheehan's Syndrome",
+                        "back": "Pituitary necrosis caused by severe postpartum hemorrhage."
+                      },
+                      {
+                        "front": "Testicular Feminization",
+                        "back": "46,XY karyotype with female phenotype, primary amenorrhea, and breast development due to 5-alpha reductase deficiency."
+                      },
+                      {
+                        "front": "External genitalia in Testicular Feminization",
+                        "back": "Female."
+                      },
+                      {
+                        "front": "Internal genitalia in Testicular Feminization",
+                        "back": "Male (testes are present)."
+                      },
+                      {
+                        "front": "Enzyme deficient in Testicular Feminization",
+                        "back": "5-alpha reductase (converts testosterone to DHT)."
+                      },
+                      {
+                        "front": "Pure Gonadal Dysgenesis",
+                        "back": "Primordial germ cells fail to migrate, resulting in no testes and female genitalia, with no estrogen production."
+                      },
+                      {
+                        "front": "Anorchia",
+                        "back": "Regression of testes before week 7 results in female phenotype; regression at 7-13 weeks results in ambiguous genitalia."
+                      },
+                      {
+                        "front": "Asherman's Syndrome",
+                        "back": "Intrauterine adhesions caused by D&C trauma."
+                      },
+                      {
+                        "front": "Imperforate Hymen presentation",
+                        "back": "Menstruation occurs but there is no vaginal outlet."
+                      },
+                      {
+                        "front": "PCOS diagnostic criteria",
+                        "back": "Hyperandrogenism + Polycystic ovaries + Exclude CAH and androgen-producing tumors."
+                      },
+                      {
+                        "front": "Karyotype in Mullerian duct anomalies causing absent uterus and upper vagina",
+                        "back": "46,XX."
+                      },
+                      {
+                        "front": "Causes of Functional Hypothalamic Amenorrhea",
+                        "back": "Anorexia nervosa, Severe stress, Weight loss, Intense exercise."
+                      },
+                      {
+                        "front": "Enzyme deficiency causing ambiguous genitalia and virilization at puberty",
+                        "back": "17-Hydroxysteroid dehydrogenase deficiency."
+                      },
+                      {
+                        "front": "Karyotype in Pure Gonadal Dysgenesis",
+                        "back": "46,XY (but testes do not develop)."
+                      },
+                      {
+                        "front": "Why breast development occurs in Testicular Feminization",
+                        "back": "High testosterone is converted to estrogen via aromatase."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Primary Amenorrhea Criteria",
+                        "icon": "\ud83d\udccb",
+                        "code": "13-15",
+                        "items": [
+                          {
+                            "letter": "13",
+                            "text": "13 years old: No menses AND no secondary sexual characteristics"
+                          },
+                          {
+                            "letter": "15",
+                            "text": "15 years old: No menses WITH normal secondary sexual characteristics"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Secondary Amenorrhea Criteria",
+                        "icon": "\ud83d\udcca",
+                        "code": "3-6",
+                        "items": [
+                          {
+                            "letter": "3",
+                            "text": "3 consecutive cycles"
+                          },
+                          {
+                            "letter": "6",
+                            "text": "OR 6 months"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Four Components for Normal Cycle",
+                        "icon": "\ud83d\udd04",
+                        "code": "H-P-O-U",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hypothalamus"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pituitary"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Ovaries"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Uterus/Genital tract"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Hypothalamic Causes of Amenorrhea",
+                        "icon": "\ud83e\udde0",
+                        "code": "A-S-W-E",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Anorexia nervosa"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Severe Stress"
+                          },
+                          {
+                            "letter": "W",
+                            "text": "Weight loss"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Exercise (intense)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Kallmann's Syndrome",
+                        "icon": "\ud83d\udc43",
+                        "code": "K-A",
+                        "items": [
+                          {
+                            "letter": "K",
+                            "text": "Kallmann's"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Anosmia (absence of smell)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Sheehan's Syndrome",
+                        "icon": "\ud83e\ude78",
+                        "code": "S-P",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Sheehan's"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Postpartum hemorrhage \u2192 Pituitary necrosis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "PCOS Diagnostic Criteria",
+                        "icon": "\ud83d\udd2c",
+                        "code": "H-E-C",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hyperandrogenism (clinical/biochemical)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Exclude other causes (CAH, tumors)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "PolyCystic ovaries on ultrasound"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Testicular Feminization",
+                        "icon": "\ud83e\uddec",
+                        "code": "T-F",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Testicular feminization"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Female phenotype + 46,XY + Primary amenorrhea"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Asherman's Syndrome",
+                        "icon": "\ud83c\udfe5",
+                        "code": "D-A",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "D&C trauma"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Adhesions (intrauterine)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Imperforate Hymen",
+                        "icon": "\ud83d\udeab",
+                        "code": "I-M",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "Imperforate"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Menstruation occurs but no outlet"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ]
         }
