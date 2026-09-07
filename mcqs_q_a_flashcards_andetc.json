@@ -2776,6 +2776,1450 @@
               ]
             }
           ]
+        },
+        {
+          "id": "pediatric",
+          "name": "Pediatric",
+          "icon": "\ud83d\udc76",
+          "topics": [
+            {
+              "id": "neonatology",
+              "name": "Neonatology",
+              "icon": "\ud83c\udf7c",
+              "description": "",
+              "subtopics": [
+                {
+                  "id": "infectious_disease",
+                  "name": "Infectious Disease",
+                  "icon": "\ud83e\udda0",
+                  "description": "\u062f \u0646\u0648\u064a \u0632\u06d0\u0696\u06d0\u062f\u0644\u0648 \u0645\u0627\u0634\u0648\u0645\u0627\u0646\u0648 \u0627\u0646\u062a\u0627\u0646\u064a \u0646\u0627\u0631\u0648\u063a\u06cd - 100 \u0644\u0648\u0693-\u0645\u0639\u06cc\u0627\u0631\u064a MCQs \u062f NEC\u060c TORCH\u060c Toxoplasmosis\u060c Rubella\u060c CMV \u0627\u0648 Neonatal HSV \u067e\u0647 \u0627\u0693\u0647",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "NEC \u0685\u0647 \u0634\u06cc \u062f\u06cc\u061f",
+                        "options": [
+                          "\u062f \u06a9\u0648\u0644\u0645\u0648 \u0627\u0633\u06a9\u06cc\u0645\u06cc\u06a9 \u0627\u0648 \u0627\u0644\u062a\u0647\u0627\u0628\u064a \u0646\u06a9\u0631\u0648\u0632 \u0686\u06d0 \u0639\u0645\u0648\u0645\u0627\u064b \u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u062f \u062a\u063a\u0630\u06cc\u06d0 \u0644\u0647 \u067e\u06cc\u0644 \u0648\u0631\u0648\u0633\u062a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a.",
+                          "\u062f \u0633\u0696\u0648 \u062d\u0627\u062f \u0627\u0644\u062a\u0647\u0627\u0628",
+                          "\u062f \u0681\u06cc\u06ab\u0631 \u0648\u06cc\u0631\u0648\u0633\u064a \u0627\u0644\u062a\u0647\u0627\u0628",
+                          "\u062f CNS \u0645\u0627\u062f\u0631\u0632\u0627\u062f\u064a \u0627\u062e\u062a\u0644\u0627\u0644"
+                        ],
+                        "answer": 0,
+                        "explanation": "Necrotizing Enterocolitis (NEC) \u062f \u06a9\u0648\u0644\u0645\u0648 \u0627\u0633\u06a9\u06cc\u0645\u06cc\u06a9 \u0627\u0648 \u0627\u0644\u062a\u0647\u0627\u0628\u064a \u0646\u06a9\u0631\u0648\u0632 \u062f\u06cc \u0686\u06d0 \u0645\u0639\u0645\u0648\u0644\u0627\u064b \u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u062f \u062a\u063a\u0630\u06cc\u06d0 \u0644\u0647 \u067e\u06cc\u0644 \u0648\u0631\u0648\u0633\u062a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "NEC \u062a\u0631 \u067c\u0648\u0644\u0648 \u0632\u06cc\u0627\u062a \u067e\u0647 \u06a9\u0648\u0645\u0648 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0647 \u062a\u0631\u0645 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0647 \u0644\u0648\u06cc\u0648 \u0645\u0627\u0634\u0648\u0645\u0627\u0646\u0648 \u06a9\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0647 \u0628\u0627\u0644\u063a\u0648 \u06a9\u0633\u0627\u0646\u0648 \u06a9\u06d0",
+                          "\u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0627\u0648 \u06a9\u0645\u200c\u0648\u0632\u0646\u0647 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0"
+                        ],
+                        "answer": 3,
+                        "explanation": "NEC \u062a\u0631 \u067c\u0648\u0644\u0648 \u0632\u06cc\u0627\u062a \u067e\u0647 Premature \u0627\u0648 \u06a9\u0645 \u0648\u0632\u0646\u0647 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f \u0648\u0631\u06a9\u0693\u0644 \u0634\u0648\u064a PDF \u0644\u0647 \u0645\u062e\u06d0\u060c \u067e\u0647 \u0639\u0645\u0648\u0645\u064a \u0689\u0648\u0644 \u062f NEC \u0648\u0642\u0648\u0639\u0627\u062a \u0646\u0696\u062f\u06d0 \u0685\u0648\u0645\u0631\u0647 \u069a\u0648\u062f\u0644 \u0634\u0648\u064a\u061f",
+                        "options": [
+                          "\u06f1\u06f0\u06f0 \u067e\u0647 \u06f1\u06f0\u06f0\u06f0 \u0698\u0648\u0646\u062f\u064a \u0632\u06cc\u0696\u0648\u0646\u0648\u0646\u0648 \u06a9\u06d0",
+                          "\u06f0\u066b\u06f0\u06f1 \u067e\u0647 \u06f1\u06f0\u06f0\u06f0 \u0698\u0648\u0646\u062f\u064a \u0632\u06cc\u0696\u0648\u0646\u0648\u0646\u0648 \u06a9\u06d0",
+                          "\u06f2--\u06f1 \u067e\u0647 \u06f1\u06f0\u06f0\u06f0 \u0698\u0648\u0646\u062f\u064a \u0632\u06cc\u0696\u0648\u0646\u0648\u0646\u0648 \u06a9\u06d0",
+                          "\u06f2\u06f0 \u067e\u0647 \u06f1\u06f0\u06f0\u06f0 \u0698\u0648\u0646\u062f\u064a \u0632\u06cc\u0696\u0648\u0646\u0648\u0646\u0648 \u06a9\u06d0"
+                        ],
+                        "answer": 2,
+                        "explanation": "NEC \u0639\u0645\u0648\u0645\u064a \u0648\u0642\u0648\u0639\u0627\u062a \u067e\u0647 1000 \u0698\u0648\u0646\u062f\u064a \u0632\u06cc\u0696\u0648\u0646\u0648\u0646\u0648 \u06a9\u06d0 1-2 \u0645\u0648\u0627\u0631\u062f \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u062f \u062e\u0637\u0631 \u0645\u0647\u0645 \u0641\u06a9\u062a\u0648\u0631 \u06a9\u0648\u0645 \u06cc\u0648 \u062f\u06cc\u061f",
+                        "options": [
+                          "Appendicitis",
+                          "Prematurity",
+                          "Hyperthyroidism",
+                          "Otitis media"
+                        ],
+                        "answer": 1,
+                        "explanation": "Prematurity (\u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0632\u06cc\u0696\u0648\u0646) \u062f NEC \u062a\u0631\u067c\u0648\u0644\u0648 \u0645\u0647\u0645 \u062e\u0637\u0631 \u0641\u06a9\u062a\u0648\u0631 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u067e\u0627\u062a\u0648\u0698\u0646\u06cc\u0632 \u06a9\u06d0 \u062f \u0645\u062e\u0627\u0637\u064a \u062f\u0641\u0627\u0639 \u062f \u06a9\u0645\u0632\u0648\u0631\u06cd \u0645\u0647\u0645 \u0644\u0627\u0645\u0644 \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "options": [
+                          "\u062f \u062d\u0645\u0644 \u062f \u0639\u0645\u0631 \u06a9\u0645\u069a\u062a",
+                          "\u062f \u0645\u0627\u0634\u0648\u0645 \u062f \u0639\u0645\u0631 \u0632\u06cc\u0627\u062a\u0648\u0627\u0644\u06cc",
+                          "\u062f \u0648\u06cc\u0646\u06d0 \u0644\u0648\u0693 \u0641\u0634\u0627\u0631",
+                          "\u062f \u0634\u06a9\u0631 \u0646\u0627\u0631\u0648\u063a\u064a"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f \u062d\u0645\u0644 \u062f \u0639\u0645\u0631 \u06a9\u0645\u069a\u062a (Prematurity) \u062f \u0645\u062e\u0627\u0637\u064a \u062f\u0641\u0627\u0639 \u062f \u06a9\u0645\u0632\u0648\u0631\u06cd \u0645\u0647\u0645 \u0644\u0627\u0645\u0644 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u062e\u0627\u0637 \u062f \u063a\u06cc\u0631\u0646\u0648\u0631\u0645\u0627\u0644 \u0648\u06cc\u0646\u06d0 \u062c\u0631\u06cc\u0627\u0646 \u0644\u0647 \u06a9\u0648\u0645\u0648 \u062d\u0627\u0644\u062a\u0648\u0646\u0648 \u0633\u0631\u0647 \u062a\u0693\u0627\u0648 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "Asthma \u0627\u0648 eczema",
+                          "Migraine \u0627\u0648 epilepsy",
+                          "Otitis \u0627\u0648 sinusitis",
+                          "Asphyxia\u060c Polycythemia\u060c PDA \u0627\u0648 Cyanotic congenital heart disease"
+                        ],
+                        "answer": 3,
+                        "explanation": "Asphyxia\u060c Polycythemia\u060c PDA \u0627\u0648 Cyanotic congenital heart disease \u062f \u0645\u062e\u0627\u0637 \u062f \u063a\u06cc\u0631\u0646\u0648\u0631\u0645\u0627\u0644 \u0648\u06cc\u0646\u06d0 \u062c\u0631\u06cc\u0627\u0646 \u0633\u0631\u0647 \u062a\u0693\u0627\u0648 \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "Enteral feeding \u062f NEC \u0644\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u062f\u0648 \u0633\u0631\u0647 \u0685\u0647 \u0627\u0693\u06cc\u06a9\u0647 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u0647\u06cc\u0685 \u0627\u0693\u06cc\u06a9\u0647 \u0646\u0647 \u0644\u0631\u064a",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0647 \u0628\u0627\u0644\u063a\u0648 \u06a9\u0633\u0627\u0646\u0648 \u06a9\u06d0 \u0627\u063a\u06d0\u0632 \u0644\u0631\u064a",
+                          "\u062f \u0689\u06d0\u0631\u0648 \u0645\u0648\u0627\u0631\u062f\u0648 \u0644\u0647 \u067e\u06cc\u0644 \u0633\u0631\u0647 \u0646\u0696\u062f\u06d0 \u062a\u0693\u0627\u0648 \u0644\u0631\u064a",
+                          "\u062a\u0644 \u062f NEC \u0645\u062e\u0647 \u0646\u06cc\u0633\u064a"
+                        ],
+                        "answer": 2,
+                        "explanation": "Enteral feeding \u062f NEC \u062f \u0689\u06d0\u0631\u0648 \u0645\u0648\u0627\u0631\u062f\u0648 \u0644\u0647 \u067e\u06cc\u0644 \u0633\u0631\u0647 \u0646\u0696\u062f\u06d0 \u062a\u0693\u0627\u0648 \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "Hyperosmolar \u063a\u0630\u0627 \u067e\u0647 NEC \u06a9\u06d0 \u0648\u0644\u06d0 \u062e\u0637\u0631 \u0632\u06cc\u0627\u062a\u0648\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u062f \u067e\u069a\u062a\u0648\u0631\u06ab\u0648 \u0641\u0639\u0627\u0644\u06cc\u062a \u0628\u0634\u067e\u0693 \u062f\u0631\u0648\u064a.",
+                          "\u062f \u0645\u062e\u0627\u0637\u064a \u063a\u0634\u0627 \u0646\u0641\u0648\u0630\u067e\u0630\u06cc\u0631\u064a \u0628\u062f\u0644\u0648\u064a \u0627\u0648 \u062f \u0647\u063a\u06d0 \u062f \u062a\u062e\u0631\u06cc\u0628 \u0632\u0645\u06cc\u0646\u0647 \u0628\u0631\u0627\u0628\u0631\u0648\u064a.",
+                          "\u062f \u0648\u06cc\u0646\u06d0 \u0641\u0634\u0627\u0631 \u062a\u0644 \u06a9\u0645\u0648\u064a.",
+                          "\u062f \u0632\u0693\u0647 \u0636\u0631\u0628\u0627\u0646 \u062a\u0644 \u0632\u06cc\u0627\u062a\u0648\u064a."
+                        ],
+                        "answer": 1,
+                        "explanation": "Hyperosmolar \u063a\u0630\u0627 \u062f \u0645\u062e\u0627\u0637\u064a \u063a\u0634\u0627 \u0646\u0641\u0648\u0630\u067e\u0630\u06cc\u0631\u064a \u0628\u062f\u0644\u0648\u064a \u0627\u0648 \u062f \u0647\u063a\u06d0 \u062f \u062a\u062e\u0631\u06cc\u0628 \u0632\u0645\u06cc\u0646\u0647 \u0628\u0631\u0627\u0628\u0631\u0648\u064a."
+                      },
+                      {
+                        "q": "\u062f \u0645\u0648\u0631 \u0634\u06cc\u062f\u06d0 \u062f NEC \u067e\u0647 \u0627\u0693\u0647 \u0685\u0647 \u0627\u063a\u06d0\u0632 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u062f NEC \u0648\u0642\u0648\u0639\u0627\u062a \u06a9\u0645\u0648\u064a.",
+                          "\u062f NEC \u0648\u0642\u0648\u0639\u0627\u062a \u062a\u0644 \u0632\u06cc\u0627\u062a\u0648\u064a.",
+                          "\u0647\u06cc\u0685 \u0627\u063a\u06d0\u0632 \u0646\u0647 \u0644\u0631\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f Stage III \u062f\u0631\u0645\u0644\u0646\u0647 \u062f\u0647."
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f \u0645\u0648\u0631 \u0634\u06cc\u062f\u06d0 \u062f NEC \u0648\u0642\u0648\u0639\u0627\u062a \u06a9\u0645\u0648\u064a \u0681\u06a9\u0647 \u0686\u06d0 \u0645\u062d\u0627\u0641\u0638\u062a\u064a \u0641\u06a9\u062a\u0648\u0631\u0648\u0646\u0647 \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u0627\u0646\u062a\u0627\u0646\u0627\u062a \u0685\u0647 \u0631\u0648\u0644 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u062a\u0644 \u062f NEC \u0627\u0635\u0644\u064a \u0627\u0648 \u06cc\u0648\u0627\u0632\u06cc\u0646\u06cc \u0644\u0627\u0645\u0644 \u0648\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f CNS \u0646\u0627\u0631\u0648\u063a\u064a \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u064a.",
+                          "\u0647\u06cc\u0685 \u0631\u0648\u0644 \u0646\u0647 \u0644\u0631\u064a.",
+                          "\u067e\u0647 \u062a\u062e\u0631\u06cc\u0628 \u0634\u0648\u064a \u0645\u062e\u0627\u0637 \u06a9\u06d0 \u062f\u0648\u06cc\u0645\u0647 \u0645\u062f\u0627\u062e\u0644\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a \u0627\u0648 \u0646\u0627\u0631\u0648\u063a\u064a \u0634\u062f\u06cc\u062f\u0647 \u06a9\u0648\u064a."
+                        ],
+                        "answer": 3,
+                        "explanation": "\u0627\u0646\u062a\u0627\u0646\u0627\u062a \u067e\u0647 \u062a\u062e\u0631\u06cc\u0628 \u0634\u0648\u064a \u0645\u062e\u0627\u0637 \u06a9\u06d0 \u062f\u0648\u06cc\u0645\u0647 \u0645\u062f\u0627\u062e\u0644\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a \u0627\u0648 \u0646\u0627\u0631\u0648\u063a\u064a \u0634\u062f\u06cc\u062f\u0647 \u06a9\u0648\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u062e\u0627\u0637 \u062a\u062e\u0631\u06cc\u0628 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u06ab\u0627\u0632 \u062c\u0648\u0693\u0648\u0646\u06a9\u0648 \u0645\u06cc\u06a9\u0631\u0648\u0628\u0648\u0646\u0648 \u0645\u062f\u0627\u062e\u0644\u0647 \u06a9\u0648\u0645\u0647 \u0646\u069a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u064a\u061f",
+                        "options": [
+                          "Microcephaly",
+                          "Cataract",
+                          "Pneumatosis intestinalis",
+                          "Hydrocephalus"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pneumatosis intestinalis \u062f NEC \u06a9\u0644\u06cc\u062f\u064a \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u062f\u0647 \u0686\u06d0 \u062f \u06ab\u0627\u0632 \u062c\u0648\u0693\u0648\u0646\u06a9\u0648 \u0645\u06cc\u06a9\u0631\u0648\u0628\u0648\u0646\u0648 \u0644\u0647 \u0627\u0645\u0644\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u0644\u0647 \u067e\u0631\u0645\u062e\u062a\u06ab \u0633\u0631\u0647 \u062f \u06a9\u0648\u0644\u0645\u0648 \u062f \u062f\u06cc\u0648\u0627\u0644 \u0634\u062f\u06cc\u062f \u062a\u062e\u0631\u06cc\u0628 \u06a9\u0648\u0645\u0647 \u067e\u0627\u06cc\u0644\u0647 \u0644\u0631\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "Hepatitis",
+                          "\u0646\u06a9\u0631\u0648\u0632 \u0627\u0648 Gangrene",
+                          "Cataract",
+                          "Retinopathy"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f \u06a9\u0648\u0644\u0645\u0648 \u062f \u062f\u06cc\u0648\u0627\u0644 \u0634\u062f\u06cc\u062f \u062a\u062e\u0631\u06cc\u0628 \u062f \u0646\u06a9\u0631\u0648\u0632 \u0627\u0648 Gangrene \u0644\u0627\u0645\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u0644\u0647 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0646\u069a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f \u063a\u0630\u0627 \u0646\u0647 \u0632\u063a\u0645\u0644",
+                          "\u062f \u0633\u062a\u0631\u06ab\u0648 \u0633\u067e\u06cc\u0646\u0648\u0627\u0644\u06cc",
+                          "Microphthalmia",
+                          "\u06a9\u067c\u0631\u06a9\u067c"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f \u063a\u0630\u0627 \u0646\u0647 \u0632\u063a\u0645\u0644 (Feeding intolerance) \u062f NEC \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u0639\u062f\u06d0 \u062f \u0645\u062d\u062a\u0648\u06cc\u0627\u062a\u0648 \u06a9\u0648\u0645 \u0689\u0648\u0644 \u062f \u062e\u0637\u0631 \u0646\u069a\u0647 \u06ab\u06bc\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0634\u0641\u0627\u0641 \u0645\u0627\u06cc\u0639",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0634\u06cc\u062f\u0648 \u06a9\u0648\u0686\u0646\u06cd \u0627\u0646\u062f\u0627\u0632\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0648\u06cc\u0646\u0647 \u067e\u0647 \u0627\u062f\u0631\u0627\u0631 \u06a9\u06d0",
+                          "\u0635\u0641\u0631\u0627\u0648\u064a (bilious) \u0645\u062d\u062a\u0648\u06cc\u0627\u062a"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u0635\u0641\u0631\u0627\u0648\u064a (Bilious) \u0645\u062d\u062a\u0648\u06cc\u0627\u062a \u062f NEC \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u062e\u0637\u0631 \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u063a\u0627\u06cc\u0637\u06d0 \u06a9\u0648\u0645\u0647 \u0646\u069a\u0647 \u0645\u0647\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0642\u0628\u0636\u06cc\u062a",
+                          "\u06cc\u0648\u0627\u0632\u06d0 Polyuria",
+                          "\u067e\u0647 \u063a\u0627\u06cc\u0637\u0647 \u0645\u0648\u0627\u062f\u0648 \u06a9\u06d0 \u0648\u06cc\u0646\u0647",
+                          "\u062f \u0627\u062f\u0631\u0627\u0631 \u0648\u06cc\u0646\u0647"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u067e\u0647 \u063a\u0627\u06cc\u0637\u0647 \u0645\u0648\u0627\u062f\u0648 \u06a9\u06d0 \u0648\u06cc\u0646\u0647 (Blood in stool) \u062f NEC \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f NEC \u062f Stage I \u06cc\u0627 Suspected NEC \u067e\u0647 \u0633\u06cc\u0633\u062a\u0645\u06cc\u06a9\u0648 \u0646\u069a\u0648 \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u0645\u062c\u0645\u0648\u0639\u0647 \u0634\u0627\u0645\u0644\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Seizure\u060c hydrocephalus \u0627\u0648 microcephaly",
+                          "Lethargy\u060c apnea\u060c \u062f \u0632\u0693\u0647 \u062f \u0636\u0631\u0628\u0627\u0646 \u0628\u062f\u0644\u0648\u0646 \u0627\u0648 \u062f \u062d\u0631\u0627\u0631\u062a \u06ab\u0689\u0648\u0689\u064a",
+                          "Cataract\u060c deafness \u0627\u0648 rash",
+                          "Hematuria\u060c jaundice \u0627\u0648 cough"
+                        ],
+                        "answer": 1,
+                        "explanation": "Stage I NEC \u06a9\u06d0 Lethargy\u060c Apnea\u060c \u062f \u0632\u0693\u0647 \u062f \u0636\u0631\u0628\u0627\u0646 \u0628\u062f\u0644\u0648\u0646 \u0627\u0648 \u062f \u062d\u0631\u0627\u0631\u062a \u06ab\u0689\u0648\u0689\u064a \u0634\u0627\u0645\u0644 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 Stage I NEC \u06a9\u06d0 \u062f \u0628\u0637\u0646 \u0645\u0647\u0645\u0647 \u0646\u069a\u0647 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f \u062a\u063a\u0630\u06cc\u06d0 \u0646\u0647 \u0632\u063a\u0645\u0644\u060c \u0635\u0641\u0631\u0627\u0648\u064a \u0645\u0639\u062f\u06d0 \u0645\u062d\u062a\u0648\u06cc\u0627\u062a \u0627\u0648 \u062f \u0628\u0637\u0646 \u062a\u0648\u0633\u0639",
+                          "\u06cc\u0648\u0627\u0632\u06d0 ascites",
+                          "\u06cc\u0648\u0627\u0632\u06d0 hepatomegaly",
+                          "\u06cc\u0648\u0627\u0632\u06d0 splenomegaly"
+                        ],
+                        "answer": 0,
+                        "explanation": "Stage I NEC \u06a9\u06d0 \u062f \u062a\u063a\u0630\u06cc\u06d0 \u0646\u0647 \u0632\u063a\u0645\u0644\u060c \u0635\u0641\u0631\u0627\u0648\u064a \u0645\u0639\u062f\u06d0 \u0645\u062d\u062a\u0648\u06cc\u0627\u062a \u0627\u0648 \u062f \u0628\u0637\u0646 \u062a\u0648\u0633\u0639 \u0634\u0627\u0645\u0644 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 Stage II \u06cc\u0627 Proven NEC \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u0644\u0627\u0628\u0631\u0627\u062a\u0648\u0627\u0631\u064a \u0646\u069a\u0647 \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u06cc\u0627\u062f \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u062f Hemoglobin \u0689\u06d0\u0631\u06d0\u062f\u0644",
+                          "\u062f Calcium \u0689\u06d0\u0631\u06d0\u062f\u0644",
+                          "\u062f WBC \u062a\u0644 \u0635\u0641\u0631 \u06a9\u06d0\u062f\u0644",
+                          "\u062f Platelets \u06a9\u0645\u06d0\u062f\u0644"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f Platelets \u06a9\u0645\u06d0\u062f\u0644 (Thrombocytopenia) \u062f Stage II NEC \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u0644\u0627\u0628\u0631\u0627\u062a\u0648\u0627\u0631\u064a \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f Stage II NEC \u0681\u0627\u0646\u06ab\u0693\u06d0 \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Chorioretinitis",
+                          "Microcephaly",
+                          "Pneumatosis intestinalis",
+                          "Hydrocephalus"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pneumatosis intestinalis \u062f Stage II NEC \u0681\u0627\u0646\u06ab\u0693\u06d0 \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 Stage III \u06cc\u0627 Advanced NEC \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u062c\u062f\u064a \u0633\u062a\u0648\u0646\u0632\u0647 \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u062f\u0627\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 otitis",
+                          "Metabolic/respiratory acidosis\u060c respiratory failure\u060c shock \u0627\u0648 DIC",
+                          "\u06cc\u0648\u0627\u0632\u06d0 mild rash",
+                          "\u06cc\u0648\u0627\u0632\u06d0 cataract"
+                        ],
+                        "answer": 1,
+                        "explanation": "Stage III NEC \u06a9\u06d0 Metabolic/respiratory acidosis\u060c respiratory failure\u060c shock \u0627\u0648 DIC \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u062f\u0627\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 Advanced NEC \u06a9\u06d0 \u062f \u0628\u0637\u0646 \u06a9\u0648\u0645 \u062d\u0627\u0644\u062a \u062f peritonitis \u067e\u0647 \u06ab\u067c\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "\u0628\u0637\u0646 \u0689\u06d0\u0631 \u062d\u0633\u0627\u0633 \u0627\u0648 \u062f \u0627\u0644\u062a\u0647\u0627\u0628 \u0646\u069a\u06d0 \u0644\u0631\u064a.",
+                          "\u0628\u0637\u0646 \u062a\u0644 \u0646\u0631\u0645 \u0627\u0648 \u0628\u06d0\u200c\u062f\u0631\u062f\u0647 \u0648\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0633\u062a\u0631\u06ab\u0648 \u062f\u0631\u062f",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u063a\u0648\u0696 \u062f\u0631\u062f"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u067e\u0647 Advanced NEC \u06a9\u06d0 \u0628\u0637\u0646 \u0689\u06d0\u0631 \u062d\u0633\u0627\u0633 \u0627\u0648 \u062f \u0627\u0644\u062a\u0647\u0627\u0628 \u0646\u069a\u06d0 \u0644\u0631\u064a \u0686\u06d0 \u062f peritonitis \u067e\u0647 \u06ab\u067c\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u0627\u0631\u0632\u0648\u0646\u0647 \u06a9\u06d0 \u06a9\u0648\u0645 \u0644\u0627\u0628\u0631\u0627\u062a\u0648\u0627\u0631\u064a \u0627\u0632\u0645\u0648\u06cc\u0646\u06d0 \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u06cc\u0627\u062f\u06d0 \u0634\u0648\u06d0 \u062f\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 urine dipstick",
+                          "\u06cc\u0648\u0627\u0632\u06d0 thyroid function tests",
+                          "\u06cc\u0648\u0627\u0632\u06d0 lipid profile",
+                          "CBC\u060c CRP\u060c blood culture\u060c stool culture\u060c electrolytes \u0627\u0648 blood gases"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f NEC \u067e\u0647 \u0627\u0631\u0632\u0648\u0646\u0647 \u06a9\u06d0 CBC\u060c CRP\u060c blood culture\u060c stool culture\u060c electrolytes \u0627\u0648 blood gases \u0634\u0627\u0645\u0644 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u0633\u0627\u062f\u0647 abdominal X-ray \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u0646\u069a\u0647 \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u0627\u0631\u0632\u069a\u062a\u0646\u0627\u06a9\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 lung hyperinflation",
+                          "\u06cc\u0648\u0627\u0632\u06d0 skull fracture",
+                          "\u067e\u0647 \u06a9\u0648\u0644\u0645\u0648 \u06a9\u06d0 \u062b\u0627\u0628\u062a \u0627\u0648 \u0645\u062a\u0648\u0633\u0639 loops \u0627\u0648 intramural gas",
+                          "\u06cc\u0648\u0627\u0632\u06d0 cardiomegaly"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u067e\u0647 \u06a9\u0648\u0644\u0645\u0648 \u06a9\u06d0 \u062b\u0627\u0628\u062a \u0627\u0648 \u0645\u062a\u0648\u0633\u0639 loops \u0627\u0648 intramural gas \u062f NEC \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u0627\u0631\u0632\u069a\u062a\u0646\u0627\u06a9\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 Portal venous gas \u0685\u0647 \u0689\u0648\u0644 \u0627\u0631\u0632\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u0647\u06cc\u0685 \u0627\u0631\u0632\u069a\u062a \u0646\u0647 \u0644\u0631\u064a.",
+                          "\u062f \u0646\u0627\u0631\u0648\u063a\u06cd \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u062f\u0647.",
+                          "\u062f NEC \u062e\u0644\u0627\u0641 \u0642\u0637\u0639\u064a \u0646\u069a\u0647 \u062f\u0647.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f Rubella \u0646\u069a\u0647 \u062f\u0647."
+                        ],
+                        "answer": 1,
+                        "explanation": "Portal venous gas \u062f NEC \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 Pneumoperitoneum \u0685\u0647 \u062a\u0647 \u0627\u0634\u0627\u0631\u0647 \u06a9\u0648\u064a\u061f",
+                        "options": [
+                          "\u062f \u06a9\u0648\u0644\u0645\u0648 \u062f perforation \u0627\u062d\u062a\u0645\u0627\u0644 \u062a\u0647",
+                          "\u062f Hydrocephalus \u0627\u062d\u062a\u0645\u0627\u0644 \u062a\u0647",
+                          "\u062f CMV \u0627\u0646\u062a\u0627\u0646 \u062a\u0647",
+                          "\u062f Cataract \u0627\u062d\u062a\u0645\u0627\u0644 \u062a\u0647"
+                        ],
+                        "answer": 0,
+                        "explanation": "Pneumoperitoneum \u062f \u06a9\u0648\u0644\u0645\u0648 \u062f perforation \u0627\u062d\u062a\u0645\u0627\u0644 \u062a\u0647 \u0627\u0634\u0627\u0631\u0647 \u06a9\u0648\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u0644\u0648\u0645\u0693\u0646\u06cd \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 NPO \u0685\u0647 \u0645\u0639\u0646\u0627 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u062f \u0627\u0646\u067c\u064a\u200c\u0628\u06cc\u0648\u062a\u06cc\u06a9 \u0628\u0646\u062f\u0648\u0644",
+                          "\u062f \u0627\u06a9\u0633\u06cc\u062c\u0646 \u0628\u0646\u062f\u0648\u0644",
+                          "\u062f \u0648\u06cc\u0646\u06d0 \u0627\u0646\u062a\u0642\u0627\u0644 \u0628\u0646\u062f\u0648\u0644",
+                          "\u062f \u062e\u0648\u0644\u06d0/\u06a9\u0648\u0644\u0645\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0 \u062a\u063a\u0630\u06cc\u0647 \u0645\u0648\u0642\u062a\u064a \u0628\u0646\u062f\u0648\u0644"
+                        ],
+                        "answer": 3,
+                        "explanation": "NPO \u062f \u062e\u0648\u0644\u06d0/\u06a9\u0648\u0644\u0645\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0 \u062a\u063a\u0630\u06cc\u0647 \u0645\u0648\u0642\u062a\u064a \u0628\u0646\u062f\u0648\u0644 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u0644\u067e\u0627\u0631\u0647 NPO \u0639\u0645\u0648\u0645\u0627\u064b \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u0685\u0648\u0645\u0631\u0647 \u0645\u0648\u062f\u0647 \u069a\u0648\u062f\u0644 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u06f3 \u0645\u06cc\u0627\u0634\u062a\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u06f3\u06f0 \u062f\u0642\u06cc\u0642\u06d0",
+                          "\u06f7--\u06f1\u06f4 \u0648\u0631\u0681\u06d0\u060c \u062f \u0646\u0627\u0631\u0648\u063a\u06cd \u0644\u0647 \u0645\u0631\u062d\u0644\u06d0 \u0633\u0631\u0647 \u0633\u0645",
+                          "\u06f1 \u0633\u0627\u0639\u062a"
+                        ],
+                        "answer": 2,
+                        "explanation": "NPO \u0639\u0645\u0648\u0645\u0627\u064b 7-14 \u0648\u0631\u0681\u06d0\u060c \u062f \u0646\u0627\u0631\u0648\u063a\u06cd \u0644\u0647 \u0645\u0631\u062d\u0644\u06d0 \u0633\u0631\u0647 \u0633\u0645 \u069a\u0648\u062f\u0644 \u0634\u0648\u06d0."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u062f \u0645\u0639\u062f\u06d0 \u062f \u062a\u062e\u0644\u06cc\u06d0 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u0648\u0633\u06cc\u0644\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "Central venous catheter",
+                          "\u0644\u0648\u06cc\u0647 NGT",
+                          "Foley catheter",
+                          "Endotracheal tube"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f NEC \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u062f \u0645\u0639\u062f\u06d0 \u062f \u062a\u062e\u0644\u06cc\u06d0 \u0644\u067e\u0627\u0631\u0647 \u0644\u0648\u06cc\u0647 NGT (Nasogastric Tube) \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u0627\u06cc\u0639\u0627\u062a\u0648 \u0627\u0648 \u062f\u0648\u0631\u0627\u0646 \u062f \u062f\u0631\u0645\u0644\u0646\u06d0 \u062a\u0631 \u0685\u0646\u06ab \u06a9\u0648\u0645\u0647 \u0628\u0631\u062e\u0647 \u0628\u0627\u06cc\u062f \u0648\u0685\u0627\u0631\u0644 \u0634\u064a\u061f",
+                        "options": [
+                          "Renal output/\u0627\u062f\u0631\u0627\u0631\u064a \u0627\u0646\u062f\u0627\u0632\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0633\u062a\u0631\u06ab\u0648 \u0641\u0634\u0627\u0631",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0627\u0648\u0631\u06d0\u062f\u0648 \u0648\u0693\u062a\u06cc\u0627",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0642\u062f \u0627\u0646\u062f\u0627\u0632\u0647"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u0627\u06cc\u0639\u0627\u062a\u0648 \u0627\u0648 \u062f\u0648\u0631\u0627\u0646 \u062f \u062f\u0631\u0645\u0644\u0646\u06d0 \u062a\u0631 \u0685\u0646\u06ab Renal output/\u0627\u062f\u0631\u0627\u0631\u064a \u0627\u0646\u062f\u0627\u0632\u0647 \u0628\u0627\u06cc\u062f \u0648\u0685\u0627\u0631\u0644 \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f NEC \u0644\u067e\u0627\u0631\u0647 \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u062f \u0648\u0631\u06cc\u062f \u0644\u0647 \u0644\u0627\u0631\u06d0 \u0627\u0646\u067c\u064a\u200c\u0628\u06cc\u0648\u062a\u06cc\u06a9\u0648\u0646\u0647 \u0645\u0639\u0645\u0648\u0644\u0627\u064b \u0685\u0648 \u0648\u0631\u0681\u06d0 \u062a\u0648\u0635\u06cc\u0647 \u0634\u0648\u064a\u061f",
+                        "options": [
+                          "\u06f1 \u0648\u0631\u0681",
+                          "\u06f6 \u0645\u06cc\u0627\u0634\u062a\u06d0",
+                          "\u06f1 \u06a9\u0627\u0644",
+                          "\u06f1\u06f0--\u06f1\u06f4 \u0648\u0631\u0681\u06d0"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f NEC \u0644\u067e\u0627\u0631\u0647 IV \u0627\u0646\u067c\u064a\u200c\u0628\u06cc\u0648\u062a\u06cc\u06a9\u0648\u0646\u0647 \u0645\u0639\u0645\u0648\u0644\u0627\u064b 10-14 \u0648\u0631\u0681\u06d0 \u062a\u0648\u0635\u06cc\u0647 \u0634\u0648\u064a."
+                      },
+                      {
+                        "q": "TORCH \u062f \u06a9\u0648\u0645\u0648 \u0689\u0648\u0644\u0648\u0646\u0648 \u062f \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0633\u0696\u0648 \u0633\u0631\u0637\u0627\u0646 \u0644\u067e\u0627\u0631\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0648\u06cc\u0646\u06d0 \u062f \u0644\u0648\u0693 \u0641\u0634\u0627\u0631 \u0644\u067e\u0627\u0631\u0647",
+                          "\u062f \u0645\u0648\u0631 \u0685\u062e\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u062f \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0648\u0646\u06a9\u0648 \u0645\u0647\u0645\u0648 intrauterine/perinatal \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u062f \u0689\u0644\u06d0 \u0644\u067e\u0627\u0631\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u06a9\u0648\u0644\u0645\u0648 \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u0644\u067e\u0627\u0631\u0647"
+                        ],
+                        "answer": 2,
+                        "explanation": "TORCH \u062f \u0645\u0648\u0631 \u0685\u062e\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u062f \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0648\u0646\u06a9\u0648 \u0645\u0647\u0645\u0648 intrauterine/perinatal \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u062f \u0689\u0644\u06d0 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 T \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "Tetanus",
+                          "Toxoplasmosis",
+                          "Tuberculosis",
+                          "Typhoid"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u067e\u0647 TORCH \u06a9\u06d0 T \u062f Toxoplasmosis \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 O \u0639\u0645\u0648\u0645\u0627\u064b \u0685\u0647 \u062a\u0647 \u0627\u0634\u0627\u0631\u0647 \u06a9\u0648\u064a\u061f",
+                        "options": [
+                          "Other infections",
+                          "Ocular disease",
+                          "Obesity",
+                          "Osteomyelitis"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u067e\u0647 TORCH \u06a9\u06d0 O \u0639\u0645\u0648\u0645\u0627\u064b Other infections \u062a\u0647 \u0627\u0634\u0627\u0631\u0647 \u06a9\u0648\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 R \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "Rabies",
+                          "Rickettsia",
+                          "Rheumatic fever",
+                          "Rubella"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u067e\u0647 TORCH \u06a9\u06d0 R \u062f Rubella \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 C \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "Candidiasis",
+                          "Chlamydia",
+                          "Cytomegalovirus",
+                          "Cholera"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u067e\u0647 TORCH \u06a9\u06d0 C \u062f Cytomegalovirus \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 H \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "Hantavirus",
+                          "Herpes simplex virus",
+                          "Hepatitis A",
+                          "HIV"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u067e\u0647 TORCH \u06a9\u06d0 H \u062f Herpes simplex virus \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f intrauterine infection \u0627\u062d\u062a\u0645\u0627\u0644 \u06a9\u0644\u0647 \u0632\u06cc\u0627\u062a \u06ab\u06bc\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u06a9\u0644\u0647 \u0686\u06d0 \u0644\u0647 \u062f\u0631\u06d0 \u06cc\u0627 \u0632\u06cc\u0627\u062a\u0648 \u0645\u0634\u062e\u0635\u0648 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0646\u069a\u0648 \u0633\u0631\u0647 \u06cc\u0648\u0681\u0627\u06cc \u0634\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u062a\u0628\u06d0 \u067e\u0647 \u0634\u062a\u0648\u0646 \u06a9\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u067c\u0648\u062e\u064a \u067e\u0647 \u0634\u062a\u0648\u0646 \u06a9\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0648\u0632\u0646 \u067e\u0647 \u0632\u06cc\u0627\u062a\u06d0\u062f\u0648 \u06a9\u06d0"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f intrauterine infection \u0627\u062d\u062a\u0645\u0627\u0644 \u0647\u063a\u0647 \u0648\u062e\u062a \u0632\u06cc\u0627\u062a \u06ab\u06bc\u0644 \u06a9\u06d0\u0696\u064a \u06a9\u0644\u0647 \u0686\u06d0 \u0644\u0647 \u062f\u0631\u06d0 \u06cc\u0627 \u0632\u06cc\u0627\u062a\u0648 \u0645\u0634\u062e\u0635\u0648 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0646\u069a\u0648 \u0633\u0631\u0647 \u06cc\u0648\u0681\u0627\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital infection \u062f \u0627\u062d\u062a\u0645\u0627\u0644 \u0644\u0647 \u0646\u069a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Hypertension",
+                          "Obesity",
+                          "Fracture",
+                          "Intrauterine growth restriction (IUGR)"
+                        ],
+                        "answer": 3,
+                        "explanation": "Intrauterine growth restriction (IUGR) \u062f congenital infection \u062f \u0627\u062d\u062a\u0645\u0627\u0644 \u0644\u0647 \u0646\u069a\u0648 \u0685\u062e\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital infection \u067e\u0647 \u0646\u069a\u0648 \u06a9\u06d0 Hepatosplenomegaly \u0685\u0647 \u0645\u0639\u0646\u0627 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u062f \u0632\u0693\u0647 \u0644\u0648\u06cc\u0648\u0627\u0644\u06cc",
+                          "\u062f \u0633\u0696\u0648 \u06a9\u0648\u0686\u0646\u06cc\u0648\u0627\u0644\u06cc",
+                          "\u062f \u0681\u06cc\u06ab\u0631 \u0627\u0648 \u062a\u0648\u0631\u064a \u0644\u0648\u06cc\u0648\u0627\u0644\u06cc",
+                          "\u062f \u067e\u069a\u062a\u0648\u0631\u06ab\u0648 \u06a9\u0648\u0686\u0646\u06cc\u0648\u0627\u0644\u06cc"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hepatosplenomegaly \u062f \u0681\u06cc\u06ab\u0631 \u0627\u0648 \u062a\u0648\u0631\u064a \u0644\u0648\u06cc\u0648\u0627\u0644\u06cc \u0645\u0639\u0646\u0627 \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital infection \u0644\u0647 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u0648 \u0646\u069a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f \u0645\u0644\u0627 \u062f\u0631\u062f",
+                          "Petechiae \u0627\u0648 purpura",
+                          "\u062f \u067e\u069a\u06d0 \u062f\u0631\u062f",
+                          "\u062f \u063a\u0627\u069a\u0648\u0646\u0648 \u062f\u0631\u062f"
+                        ],
+                        "answer": 1,
+                        "explanation": "Petechiae \u0627\u0648 purpura \u062f congenital infection \u0644\u0647 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u0648 \u0646\u069a\u0648 \u0685\u062e\u0647 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f Toxoplasmosis \u0639\u0627\u0645\u0644 \u0685\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "Toxoplasma gondii",
+                          "Rubella virus",
+                          "CMV",
+                          "HSV-2"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f Toxoplasmosis \u0639\u0627\u0645\u0644 Toxoplasma gondii \u062f\u06cc."
+                      },
+                      {
+                        "q": "Toxoplasma gondii \u062f \u06a9\u0648\u0645 \u0689\u0648\u0644 \u0639\u0627\u0645\u0644 \u067e\u0647 \u062a\u0648\u06ab\u0647 \u062a\u0634\u0631\u06cc\u062d \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "DNA virus",
+                          "RNA virus",
+                          "Fungus",
+                          "Intracellular parasite"
+                        ],
+                        "answer": 3,
+                        "explanation": "Toxoplasma gondii \u062f Intracellular parasite \u067e\u0647 \u062a\u0648\u06ab\u0647 \u062a\u0634\u0631\u06cc\u062d \u0634\u0648\u06cc."
+                      },
+                      {
+                        "q": "\u062f Toxoplasma gondii \u0627\u0635\u0644\u064a \u06a9\u0648\u0631\u0628\u0647 \u06a9\u0648\u0645 \u062d\u06cc\u0648\u0627\u0646 \u062f\u06cc\u061f",
+                        "options": [
+                          "\u0645\u0631\u063a",
+                          "\u0645\u0627\u0647\u064a",
+                          "\u067e\u06cc\u0634\u0648",
+                          "\u0633\u067e\u06cc\u0646 \u0696\u06cc\u0631\u06cc \u0627\u0646\u0633\u0627\u0646"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u062f Toxoplasma gondii \u0627\u0635\u0644\u064a \u06a9\u0648\u0631\u0628\u0647 \u067e\u06cc\u0634\u0648 (Cat) \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 Toxoplasmosis \u06a9\u06d0 \u0627\u0646\u0633\u0627\u0646 \u062a\u0647 \u062f \u0627\u0646\u062a\u0642\u0627\u0644 \u0645\u0647\u0645\u0647 \u0644\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0627\u0648\u0628\u0648 \u062f \u062a\u0646\u0641\u0633 \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u062e\u0627\u0645 \u06cc\u0627 \u0646\u06cc\u0645\u200c\u067e\u062e\u06d0 \u063a\u0648\u069a\u06d0 \u062e\u0648\u0693\u0644 \u0627\u0648 \u062f \u067e\u06cc\u0634\u0648 \u062f oocyst \u0633\u0631\u0647 \u062a\u0645\u0627\u0633",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0647\u0648\u0627 \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0645\u0686 \u0644\u0647 \u0686\u06cc\u0686\u0644\u0648"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u067e\u0647 Toxoplasmosis \u06a9\u06d0 \u0627\u0646\u0633\u0627\u0646 \u062a\u0647 \u062f \u0627\u0646\u062a\u0642\u0627\u0644 \u0645\u0647\u0645\u0647 \u0644\u0627\u0631\u0647 \u062e\u0627\u0645 \u06cc\u0627 \u0646\u06cc\u0645\u200c\u067e\u062e\u06d0 \u063a\u0648\u069a\u06d0 \u062e\u0648\u0693\u0644 \u0627\u0648 \u062f \u067e\u06cc\u0634\u0648 \u062f oocyst \u0633\u0631\u0647 \u062a\u0645\u0627\u0633 \u062f\u06cc."
+                      },
+                      {
+                        "q": "Toxoplasma gondii \u06a9\u0648\u0645\u06d0 \u062f\u0631\u06d0 \u0645\u0647\u0645\u06d0 \u0628\u06bc\u06d0 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "Tachyzoite\u060c tissue cyst/bradyzoite \u0627\u0648 oocyst",
+                          "Spore\u060c hypha \u0627\u0648 yeast",
+                          "Cyst\u060c larva \u0627\u0648 adult worm",
+                          "Capsid\u060c envelope \u0627\u0648 spike"
+                        ],
+                        "answer": 0,
+                        "explanation": "Toxoplasma gondii \u062f\u0631\u06d0 \u0645\u0647\u0645\u06d0 \u0628\u06bc\u06d0 \u0644\u0631\u064a: Tachyzoite\u060c tissue cyst/bradyzoite \u0627\u0648 oocyst."
+                      },
+                      {
+                        "q": "\u067e\u0647 \u062c\u0646\u06cc\u0646 \u06a9\u06d0 Toxoplasma \u06a9\u0648\u0645\u0648 \u0633\u06cc\u0633\u062a\u0645\u0648\u0646\u0648 \u062a\u0647 \u0632\u06cc\u0627\u0646 \u0631\u0633\u0648\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0648\u0633\u062a\u06a9\u064a",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u069a\u062a\u0648\u0631\u06ab\u064a",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u063a\u0648\u0696\u0648\u0646\u0647",
+                          "CNS\u060c \u0633\u062a\u0631\u06ab\u06d0 \u0627\u0648 \u067e\u0647 \u0681\u06cc\u0646\u0648 \u0645\u0648\u0627\u0631\u062f\u0648 \u06a9\u06d0 \u0633\u06cc\u0633\u062a\u0645\u06cc\u06a9 \u0627\u0631\u06ab\u0627\u0646\u0648\u0646\u0647"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u067e\u0647 \u062c\u0646\u06cc\u0646 \u06a9\u06d0 Toxoplasma CNS\u060c \u0633\u062a\u0631\u06ab\u06d0 \u0627\u0648 \u067e\u0647 \u0681\u06cc\u0646\u0648 \u0645\u0648\u0627\u0631\u062f\u0648 \u06a9\u06d0 \u0633\u06cc\u0633\u062a\u0645\u06cc\u06a9 \u0627\u0631\u06ab\u0627\u0646\u0648\u0646\u0647 \u0632\u06cc\u0627\u0646\u0645\u0646\u0648\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital toxoplasmosis \u0685\u0644\u0648\u0631 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u06d0 \u0646\u069a\u06d0 \u06a9\u0648\u0645\u06d0 \u062f\u064a\u061f",
+                        "options": [
+                          "Cataract\u060c deafness\u060c PDA \u0627\u0648 jaundice",
+                          "Asthma\u060c anemia\u060c arthritis \u0627\u0648 nephritis",
+                          "Hydrocephalus\u060c Chorioretinitis\u060c intracranial calcification \u0627\u0648 seizures",
+                          "Cough\u060c diarrhea\u060c otitis \u0627\u0648 rash"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u062f congenital toxoplasmosis \u0685\u0644\u0648\u0631 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u06d0 \u0646\u069a\u06d0 Hydrocephalus\u060c Chorioretinitis\u060c intracranial calcification \u0627\u0648 seizures \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital toxoplasmosis \u0689\u06d0\u0631\u06cc \u0646\u0648\u0632\u0627\u062f\u0627\u0646 \u0685\u0646\u06ab\u0647 \u0648\u0693\u0627\u0646\u062f\u06d0 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u062a\u0644 \u062f \u0634\u062f\u06cc\u062f \u0627\u0633\u0647\u0627\u0644 \u0633\u0631\u0647 \u0648\u064a.",
+                          "\u0628\u06d0\u200c\u0627\u0639\u0631\u0627\u0636\u0647 \u0648\u064a \u0627\u0648 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u0644\u06cc\u062f\u060c \u0632\u062f\u0647\u200c\u06a9\u0693\u06d0 \u06cc\u0627 \u0639\u0635\u0628\u064a \u0633\u062a\u0648\u0646\u0632\u06d0 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a.",
+                          "\u062a\u0644 \u067e\u0647 \u0634\u062f\u06cc\u062f shock \u06a9\u06d0 \u0648\u064a.",
+                          "\u062a\u0644 \u0644\u0647 \u0632\u06cc\u0696\u0648\u0646 \u0633\u0631\u0647 cataract \u0644\u0631\u064a."
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f congenital toxoplasmosis \u0689\u06d0\u0631\u06cc \u0646\u0648\u0632\u0627\u062f\u0627\u0646 \u0628\u06d0\u200c\u0627\u0639\u0631\u0627\u0636\u0647 \u0648\u064a \u0627\u0648 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u0644\u06cc\u062f\u060c \u0632\u062f\u0647\u200c\u06a9\u0693\u06d0 \u06cc\u0627 \u0639\u0635\u0628\u064a \u0633\u062a\u0648\u0646\u0632\u06d0 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f Toxoplasmosis \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u0627\u0632\u0645\u0648\u06cc\u0646\u0647 \u067e\u0647 PDF \u06a9\u06d0 \u062f nucleic acid \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647 \u06cc\u0627\u062f\u0647 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "PCR",
+                          "ECG",
+                          "EEG",
+                          "Spirometry"
+                        ],
+                        "answer": 0,
+                        "explanation": "PCR \u062f Toxoplasmosis \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u062f nucleic acid \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital toxoplasmosis \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645 \u0633\u06cc\u0631\u0648\u0644\u0648\u0698\u06cc\u06a9 antibodies \u0627\u0631\u0632\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "IgE \u06cc\u0648\u0627\u0632\u06d0",
+                          "Troponin \u0627\u0648 CK-MB",
+                          "HBsAg \u0627\u0648 anti-HBs",
+                          "IgM\u060c IgG \u0627\u0648 IgA"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f congenital toxoplasmosis \u0644\u067e\u0627\u0631\u0647 IgM\u060c IgG \u0627\u0648 IgA antibodies \u0627\u0631\u0632\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f Toxoplasmosis \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u062f\u0631\u0645\u0644\u0648 \u0645\u062c\u0645\u0648\u0639\u0647 \u067e\u0647 PDF \u06a9\u06d0 \u0630\u06a9\u0631 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "Vancomycin \u0627\u0648 gentamicin \u06cc\u0648\u0627\u0632\u06d0",
+                          "Insulin \u0627\u0648 metformin",
+                          "Pyrimethamine\u060c Sulfadiazine \u0627\u0648 Leucovorin/Folinic acid",
+                          "Acyclovir \u0627\u0648 oseltamivir"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u062f Toxoplasmosis \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 Pyrimethamine\u060c Sulfadiazine \u0627\u0648 Leucovorin/Folinic acid \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "Leucovorin/Folinic acid \u067e\u0647 congenital toxoplasmosis \u06a9\u06d0 \u062f \u06a9\u0648\u0645\u06d0 \u062f\u0631\u0645\u0644\u0646\u06d0 \u0628\u0631\u062e\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f CMV \u0648\u0627\u06a9\u0633\u06cc\u0646",
+                          "\u062f Pyrimethamine/Sulfadiazine \u0631\u0698\u06cc\u0645 \u0633\u0631\u0647 \u06cc\u0648\u0681\u0627\u06cc",
+                          "\u062f HSV \u062f\u0631\u0645\u0644\u0646\u06d0 \u0627\u0635\u0644\u064a \u062f\u0631\u0645\u0644",
+                          "\u062f Rubella \u0648\u0627\u06a9\u0633\u06cc\u0646"
+                        ],
+                        "answer": 1,
+                        "explanation": "Leucovorin/Folinic acid \u062f Pyrimethamine/Sulfadiazine \u0631\u0698\u06cc\u0645 \u0633\u0631\u0647 \u06cc\u0648\u0681\u0627\u06cc \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "Prednisone \u062f congenital toxoplasmosis \u067e\u0647 \u06a9\u0648\u0645 \u062d\u0627\u0644\u062a \u06a9\u06d0 \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u0648\u0631\u0632\u06cc\u0627\u062a\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "\u06a9\u0644\u0647 \u0686\u06d0 \u0641\u0639\u0627\u0644 Chorioretinitis \u062f \u0644\u06cc\u062f \u0644\u067e\u0627\u0631\u0647 \u06ab\u0648\u0627\u069a \u0648\u064a.",
+                          "\u062f \u0647\u0631 \u0645\u0627\u0634\u0648\u0645 \u0644\u067e\u0627\u0631\u0647 \u067e\u0647 \u0631\u0648\u062a\u06cc\u0646 \u0689\u0648\u0644",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f mild rash \u0644\u067e\u0627\u0631\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f otitis \u0644\u067e\u0627\u0631\u0647"
+                        ],
+                        "answer": 0,
+                        "explanation": "Prednisone \u0647\u063a\u0647 \u0648\u062e\u062a \u0648\u0631\u0632\u06cc\u0627\u062a\u06d0\u0696\u064a \u06a9\u0644\u0647 \u0686\u06d0 \u0641\u0639\u0627\u0644 Chorioretinitis \u062f \u0644\u06cc\u062f \u0644\u067e\u0627\u0631\u0647 \u06ab\u0648\u0627\u069a \u0648\u064a."
+                      },
+                      {
+                        "q": "\u062f toxoplasmosis \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u0645\u0634\u0648\u0631\u0647 \u0633\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0647\u0631\u0647 \u0648\u0631\u0681 \u0627\u0646\u067c\u064a\u200c\u0628\u06cc\u0648\u062a\u06cc\u06a9 \u0648\u0627\u062e\u0644\u0626.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0634\u06cc\u062f\u06d0 \u0645\u0647 \u0685\u069a\u0626.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0644\u0647 \u0644\u0645\u0631 \u0685\u062e\u0647 \u0681\u0627\u0646 \u0648\u0633\u0627\u062a\u0626.",
+                          "\u062e\u0627\u0645 \u06cc\u0627 \u0646\u06cc\u0645\u200c\u067e\u062e\u06d0 \u063a\u0648\u069a\u06d0 \u0645\u0647 \u062e\u0648\u0631\u0626 \u0627\u0648 \u062f \u063a\u0648\u069a\u06d0/\u0633\u0628\u0632\u06cc\u062c\u0627\u062a\u0648 \u0633\u0631\u0647 \u062f\u0633\u062a\u06a9\u0634\u06d0 \u0627\u0648 \u062f \u0644\u0627\u0633\u0648\u0646\u0648 \u067e\u0627\u06a9\u0648\u0627\u0644\u06cc \u0645\u0631\u0627\u0639\u062a \u06a9\u0693\u0626."
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f toxoplasmosis \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0644\u067e\u0627\u0631\u0647 \u062e\u0627\u0645 \u06cc\u0627 \u0646\u06cc\u0645\u200c\u067e\u062e\u06d0 \u063a\u0648\u069a\u06d0 \u0645\u0647 \u062e\u0648\u0631\u0626 \u0627\u0648 \u062f \u063a\u0648\u069a\u06d0/\u0633\u0628\u0632\u06cc\u062c\u0627\u062a\u0648 \u0633\u0631\u0647 \u062f\u0633\u062a\u06a9\u0634\u06d0 \u0627\u0648 \u062f \u0644\u0627\u0633\u0648\u0646\u0648 \u067e\u0627\u06a9\u0648\u0627\u0644\u06cc \u0645\u0631\u0627\u0639\u062a \u06a9\u0693\u0626."
+                      },
+                      {
+                        "q": "\u062f toxoplasmosis \u067e\u0647 \u0645\u062e\u0646\u06cc\u0648\u064a \u06a9\u06d0 \u062f \u067e\u06cc\u0634\u0648 \u062f \u0641\u0636\u0644\u0647 \u0645\u0648\u0627\u062f\u0648 \u067e\u0647 \u0627\u0693\u0647 \u0685\u0647 \u0633\u067e\u0627\u0631\u069a\u062a\u0646\u0647 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u067e\u0647 \u0627\u0648\u0628\u0648 \u06a9\u06d0 \u0648\u0627\u0686\u0648\u0644 \u0634\u064a.",
+                          "\u0647\u06cc\u0685 \u0627\u062d\u062a\u06cc\u0627\u0637 \u062a\u0647 \u0627\u0693\u062a\u06cc\u0627 \u0646\u0634\u062a\u0647.",
+                          "\u0644\u0647 \u062a\u0645\u0627\u0633 \u0685\u062e\u0647 \u0689\u0689\u0647 \u0648\u0634\u064a.",
+                          "\u0647\u0631\u0647 \u0648\u0631\u0681 \u0644\u0645\u0633 \u0634\u064a."
+                        ],
+                        "answer": 2,
+                        "explanation": "\u062f toxoplasmosis \u067e\u0647 \u0645\u062e\u0646\u06cc\u0648\u064a \u06a9\u06d0 \u062f \u067e\u06cc\u0634\u0648 \u062f \u0641\u0636\u0644\u0647 \u0645\u0648\u0627\u062f\u0648 \u0644\u0647 \u062a\u0645\u0627\u0633 \u0685\u062e\u0647 \u0689\u0689\u0647 \u0648\u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital toxoplasmosis \u062f \u0627\u0646\u0630\u0627\u0631 \u067e\u0647 \u0627\u0693\u0647 \u06a9\u0648\u0645\u0647 \u062e\u0628\u0631\u0647 \u0633\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062a\u0644 \u067e\u0647 \u0628\u0634\u067e\u0693\u0647 \u062a\u0648\u06ab\u0647 \u0628\u06d0\u200c\u0646\u069a\u06d0 \u067e\u0627\u062a\u06d0 \u06a9\u06d0\u0696\u064a.",
+                          "\u062f \u0639\u0635\u0628\u064a \u06cc\u0627 \u0633\u06cc\u0633\u062a\u0645\u06cc\u06a9\u0648 \u0685\u0631\u06ab\u0646\u062f\u0648\u0646\u0648 \u067e\u0647 \u0635\u0648\u0631\u062a \u06a9\u06d0\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u06a9\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u0648\u0646\u0647 \u0634\u064a\u060c \u0627\u0646\u0630\u0627\u0631 \u062e\u0631\u0627\u0628\u06d0\u062f\u0627\u06cc \u0634\u064a.",
+                          "\u067c\u0648\u0644 \u0645\u0648\u0627\u0631\u062f \u0628\u06d0\u200c\u062e\u0637\u0631\u0647 \u062f\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u067e\u0648\u0633\u062a\u06a9\u064a \u0646\u0627\u0631\u0648\u063a\u064a \u062f\u0647."
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f \u0639\u0635\u0628\u064a \u06cc\u0627 \u0633\u06cc\u0633\u062a\u0645\u06cc\u06a9\u0648 \u0685\u0631\u06ab\u0646\u062f\u0648\u0646\u0648 \u067e\u0647 \u0635\u0648\u0631\u062a \u06a9\u06d0\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u06a9\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u0648\u0646\u0647 \u0634\u064a\u060c \u0627\u0646\u0630\u0627\u0631 \u062e\u0631\u0627\u0628\u06d0\u062f\u0627\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "Rubella \u062f \u06a9\u0648\u0645 \u0689\u0648\u0644 \u0639\u0627\u0645\u0644 \u0644\u0647 \u0627\u0645\u0644\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "RNA virus \u062f Rubivirus \u0644\u0647 \u062c\u0646\u0633 \u0685\u062e\u0647",
+                          "DNA parasite",
+                          "Bacterium",
+                          "Fungus"
+                        ],
+                        "answer": 0,
+                        "explanation": "Rubella \u062f RNA virus \u062f Rubivirus \u0644\u0647 \u062c\u0646\u0633 \u0685\u062e\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "Congenital Rubella \u062f \u062c\u0646\u06cc\u0646 \u0644\u067e\u0627\u0631\u0647 \u067e\u0647 \u06a9\u0648\u0645 \u0648\u062e\u062a \u06a9\u06d0 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0689\u06d0\u0631 \u062e\u0637\u0631 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0632\u06cc\u0696\u0648\u0646 \u0648\u0631\u0648\u0633\u062a\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u06f5 \u06a9\u0644\u0646\u06cd \u0648\u0631\u0648\u0633\u062a\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0628\u0644\u0648\u063a \u067e\u0631 \u0645\u0647\u0627\u0644",
+                          "\u062f \u062d\u0645\u0644 \u067e\u0647 \u0644\u0648\u0645\u0693\u06cc\u0648 \u0627\u0648\u0648\u0646\u06cc\u0648 \u06a9\u06d0"
+                        ],
+                        "answer": 3,
+                        "explanation": "Congenital Rubella \u062f \u062c\u0646\u06cc\u0646 \u0644\u067e\u0627\u0631\u0647 \u062f \u062d\u0645\u0644 \u067e\u0647 \u0644\u0648\u0645\u0693\u06cc\u0648 \u0627\u0648\u0648\u0646\u06cc\u0648 \u06a9\u06d0 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0689\u06d0\u0631 \u062e\u0637\u0631 \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital Rubella \u0644\u0647 transient systemic \u0646\u069a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f \u067e\u069a\u062a\u0648\u0631\u06ab\u0648 \u062a\u06cc\u0696\u0647",
+                          "Appendicitis",
+                          "\u06a9\u0645 birth weight",
+                          "Hydrocephalus \u062a\u0644"
+                        ],
+                        "answer": 2,
+                        "explanation": "\u06a9\u0645 birth weight \u062f congenital Rubella \u0644\u0647 transient systemic \u0646\u069a\u0648 \u0685\u062e\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 congenital Rubella \u06a9\u06d0 \u062f transient hematologic \u0646\u069a\u0648 \u0644\u0647 \u0689\u0644\u06d0 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Hemophilia \u062a\u0644",
+                          "Thrombocytopenia \u0627\u0648 purpura",
+                          "Polycythemia \u062a\u0644",
+                          "Hypercalcemia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Thrombocytopenia \u0627\u0648 purpura \u062f congenital Rubella \u062f transient hematologic \u0646\u069a\u0648 \u0644\u0647 \u0689\u0644\u06d0 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 congenital Rubella \u06a9\u06d0 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645 congenital heart lesion \u0686\u06d0 \u067e\u0647 PDF \u06a9\u06d0 \u06cc\u0627\u062f \u0634\u0648\u06cc \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "options": [
+                          "PDA",
+                          "VSD \u062a\u0644",
+                          "Tetralogy of Fallot \u062a\u0644",
+                          "Coarctation \u062a\u0644"
+                        ],
+                        "answer": 0,
+                        "explanation": "PDA (Patent Ductus Arteriosus) \u062f congenital Rubella \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645 congenital heart lesion \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f congenital Rubella \u062f \u0633\u062a\u0631\u06ab\u0648 \u0644\u0647 \u062f\u0627\u06cc\u0645\u064a \u062a\u0638\u0627\u0647\u0631\u0627\u062a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Hydrocephalus",
+                          "Pneumatosis intestinalis",
+                          "PDA",
+                          "Cataract"
+                        ],
+                        "answer": 3,
+                        "explanation": "Cataract \u062f congenital Rubella \u062f \u0633\u062a\u0631\u06ab\u0648 \u0644\u0647 \u062f\u0627\u06cc\u0645\u064a \u062a\u0638\u0627\u0647\u0631\u0627\u062a\u0648 \u0685\u062e\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital Rubella \u062f \u0639\u0635\u0628\u064a \u0633\u06cc\u0633\u062a\u0645 \u0644\u0647 \u062a\u0638\u0627\u0647\u0631\u0627\u062a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Pneumoperitoneum",
+                          "Ascites",
+                          "Microcephaly",
+                          "Hepatosplenomegaly"
+                        ],
+                        "answer": 2,
+                        "explanation": "Microcephaly \u062f congenital Rubella \u062f \u0639\u0635\u0628\u064a \u0633\u06cc\u0633\u062a\u0645 \u0644\u0647 \u062a\u0638\u0627\u0647\u0631\u0627\u062a\u0648 \u0685\u062e\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital Rubella \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u0633\u06cc\u0631\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0627\u0632\u0645\u0648\u06cc\u0646\u0647 \u0627\u0633\u0627\u0633\u064a \u0628\u0644\u0644 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "Creatinine",
+                          "\u062f Rubella-specific IgM \u062a\u062b\u0628\u06cc\u062a",
+                          "Troponin",
+                          "CRP \u06cc\u0648\u0627\u0632\u06d0"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f Rubella-specific IgM \u062a\u062b\u0628\u06cc\u062a \u062f congenital Rubella \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u0627\u0633\u0627\u0633\u064a \u0633\u06cc\u0631\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0627\u0632\u0645\u0648\u06cc\u0646\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital Rubella \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u06a9\u0648\u0645 \u0681\u0627\u0646\u06ab\u0693\u06cc antiviral treatment \u067e\u0647 PDF \u06a9\u06d0 \u0645\u0648\u062c\u0648\u062f \u0646\u0647 \u062f\u06cc\u061f",
+                        "options": [
+                          "\u0681\u0627\u0646\u06ab\u0693\u06d0 \u062f\u0631\u0645\u0644\u0646\u0647/antiviral therapy \u0646\u0634\u062a\u0647\u061b \u062f\u0631\u0645\u0644\u0646\u0647 \u062d\u0645\u0627\u06cc\u0648\u064a \u062f\u0647.",
+                          "Acyclovir \u062a\u0644 \u0627\u0693\u06cc\u0646 \u062f\u06cc.",
+                          "Ganciclovir \u062a\u0644 \u0627\u0693\u06cc\u0646 \u062f\u06cc.",
+                          "Pyrimethamine \u062a\u0644 \u0627\u0693\u06cc\u0646 \u062f\u06cc."
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f congenital Rubella \u0644\u067e\u0627\u0631\u0647 \u0681\u0627\u0646\u06ab\u0693\u06d0 antiviral therapy \u0646\u0634\u062a\u0647\u061b \u062f\u0631\u0645\u0644\u0646\u0647 \u062d\u0645\u0627\u06cc\u0648\u064a \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f Rubella \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0627\u0633\u0627\u0633\u064a \u0648\u0633\u06cc\u0644\u0647 \u0685\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u0627\u0646\u067c\u064a\u200c\u0628\u06cc\u0648\u062a\u06cc\u06a9",
+                          "\u06cc\u0648\u0627\u0632\u06d0 corticosteroid",
+                          "\u06cc\u0648\u0627\u0632\u06d0 IV fluid",
+                          "\u0648\u0627\u06a9\u0633\u06cc\u0646"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u0648\u0627\u06a9\u0633\u06cc\u0646 \u062f Rubella \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0627\u0633\u0627\u0633\u064a \u0648\u0633\u06cc\u0644\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "CMV \u062f \u06a9\u0648\u0645\u06d0 \u06a9\u0648\u0631\u0646\u06cd \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc\u061f",
+                        "options": [
+                          "Picornavirus family",
+                          "Retrovirus family",
+                          "Herpesvirus family",
+                          "Orthomyxovirus family"
+                        ],
+                        "answer": 2,
+                        "explanation": "CMV \u062f Herpesvirus family \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc."
+                      },
+                      {
+                        "q": "CMV \u06a9\u0648\u0645 \u0689\u0648\u0644 genetic material \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u0647\u06cc\u0685 \u06cc\u0648 \u0646\u0647 \u0644\u0631\u064a",
+                          "DNA",
+                          "RNA",
+                          "DNA \u0627\u0648 RNA \u062f\u0648\u0627\u0693\u0647 \u062f \u062c\u06cc\u0646\u0648\u0645 \u067e\u0647 \u062a\u0648\u06ab\u0647"
+                        ],
+                        "answer": 1,
+                        "explanation": "CMV DNA genetic material \u0644\u0631\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital CMV \u067e\u0647 \u0627\u0693\u0647 \u06a9\u0648\u0645\u0647 \u062e\u0628\u0631\u0647 \u0633\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u062f congenital infections \u0644\u0647 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645\u0648 \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u0685\u062e\u0647 \u06ab\u06bc\u0644 \u0634\u0648\u06cc.",
+                          "\u062a\u0644 \u06cc\u0648\u0627\u0632\u06d0 \u062f \u0628\u0627\u0644\u063a\u0648 \u06a9\u0633\u0627\u0646\u0648 \u0646\u0627\u0631\u0648\u063a\u064a \u062f\u0647.",
+                          "\u0647\u06cc\u0685\u06a9\u0644\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u0646\u0647 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u0696\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u067e\u0648\u0633\u062a\u06a9\u064a \u0646\u0627\u0631\u0648\u063a\u064a \u062f\u0647."
+                        ],
+                        "answer": 0,
+                        "explanation": "Congenital CMV \u062f congenital infections \u0644\u0647 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645\u0648 \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u0685\u062e\u0647 \u062f\u06cc."
+                      },
+                      {
+                        "q": "CMV \u0644\u0647 \u0645\u0648\u0631 \u0685\u062e\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u067e\u0647 \u06a9\u0648\u0645 \u0648\u062e\u062a \u06a9\u06d0 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u06f5 \u06a9\u0644\u0646\u06cd \u0648\u0631\u0648\u0633\u062a\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f puberty \u067e\u0631 \u0645\u0647\u0627\u0644",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u069a\u0648\u0648\u0646\u0681\u064a \u067e\u0647 \u0639\u0645\u0631 \u06a9\u06d0",
+                          "\u062f \u062d\u0645\u0644 \u067e\u0647 \u062c\u0631\u06cc\u0627\u0646 \u06a9\u06d0 \u062f placenta \u0644\u0647 \u0644\u0627\u0631\u06d0"
+                        ],
+                        "answer": 3,
+                        "explanation": "CMV \u062f \u062d\u0645\u0644 \u067e\u0647 \u062c\u0631\u06cc\u0627\u0646 \u06a9\u06d0 \u062f placenta \u0644\u0647 \u0644\u0627\u0631\u06d0 \u0644\u0647 \u0645\u0648\u0631 \u0685\u062e\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "CMV \u062f \u0648\u0644\u0627\u062f\u062a \u067e\u0631 \u0645\u0647\u0627\u0644 \u062f \u0685\u0647 \u0644\u0647 \u0644\u0627\u0631\u06d0 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0633\u062a\u0631\u06ab\u0648 \u0644\u0647 \u0627\u0648\u069a\u06a9\u0648",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0647\u0689\u0648\u06a9\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u062f \u0645\u0646\u062a\u0646\u0648 birth-canal secretions \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0648\u06cc\u0646\u06d0 \u0641\u0634\u0627\u0631 \u0644\u0647 \u0644\u0627\u0631\u06d0"
+                        ],
+                        "answer": 2,
+                        "explanation": "CMV \u062f \u0648\u0644\u0627\u062f\u062a \u067e\u0631 \u0645\u0647\u0627\u0644 \u062f \u0645\u0646\u062a\u0646\u0648 birth-canal secretions \u0644\u0647 \u0644\u0627\u0631\u06d0 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "CMV \u062f \u0632\u06cc\u0696\u0648\u0646 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u0645\u0648\u0631 \u0644\u0647 \u06a9\u0648\u0645 \u0634\u064a \u0685\u062e\u0647 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u063a\u0627\u069a\u0648\u0646\u0647",
+                          "\u0634\u06cc\u062f\u06d0",
+                          "\u0648\u06cc\u069a\u062a\u0627\u0646",
+                          "\u0646\u0648\u06a9\u0627\u0646"
+                        ],
+                        "answer": 1,
+                        "explanation": "CMV \u062f \u0632\u06cc\u0696\u0648\u0646 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u0645\u0648\u0631 \u0644\u0647 \u0634\u06cc\u062f\u0648 \u0685\u062e\u0647 \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital CMV \u067e\u0647 \u0646\u0648\u0632\u0627\u062f \u06a9\u06d0 \u06a9\u0648\u0645\u0647 \u0646\u069a\u0647 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Microcephaly",
+                          "Pneumoperitoneum",
+                          "PDA \u062a\u0644",
+                          "Appendicitis"
+                        ],
+                        "answer": 0,
+                        "explanation": "Microcephaly \u062f congenital CMV \u06a9\u0644\u0627\u0633\u06cc\u06a9\u0647 \u0646\u069a\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital CMV \u0644\u0647 \u0646\u0648\u0631\u0648 \u0645\u0647\u0645\u0648 \u0646\u069a\u0648 \u0685\u062e\u0647 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 hypertension",
+                          "\u06cc\u0648\u0627\u0632\u06d0 obesity",
+                          "\u06cc\u0648\u0627\u0632\u06d0 arthritis",
+                          "Petechiae/purpura\u060c thrombocytopenia \u0627\u0648 jaundice"
+                        ],
+                        "answer": 3,
+                        "explanation": "Petechiae/purpura\u060c thrombocytopenia \u0627\u0648 jaundice \u062f congenital CMV \u0646\u0648\u0631\u06d0 \u0645\u0647\u0645\u06d0 \u0646\u069a\u06d0 \u062f\u064a."
+                      },
+                      {
+                        "q": "\u062f congenital CMV \u067e\u0647 \u0645\u0627\u0634\u0648\u0645 \u06a9\u06d0 \u062f \u0627\u0648\u0696\u062f\u0645\u0647\u0627\u0644\u0647 \u0639\u0627\u0631\u0636\u06d0 \u0644\u0647 \u0689\u0644\u06d0 \u06a9\u0648\u0645\u0647 \u06cc\u0648\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "Peptic ulcer",
+                          "Renal stone",
+                          "Hearing loss/deafness",
+                          "Appendicitis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hearing loss/deafness \u062f congenital CMV \u0627\u0648\u0696\u062f\u0645\u0647\u0627\u0644\u0647 \u0639\u0627\u0631\u0636\u0647 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f CMV \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 Gold Standard \u0685\u0647 \u0628\u0644\u0644 \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "CBC \u06cc\u0648\u0627\u0632\u06d0",
+                          "\u062f \u0648\u06cc\u0631\u0648\u0633 culture\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u062f urine \u0627\u0648 oral secretions \u0685\u062e\u0647",
+                          "ECG",
+                          "X-ray \u06cc\u0648\u0627\u0632\u06d0"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f CMV \u062a\u0634\u062e\u06cc\u0635 Gold Standard \u062f \u0648\u06cc\u0631\u0648\u0633 culture \u062f\u06cc\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u062f urine \u0627\u0648 oral secretions \u0685\u062e\u0647."
+                      },
+                      {
+                        "q": "\u062f congenital CMV \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 urine/oral culture \u0628\u0627\u06cc\u062f \u0639\u0645\u0648\u0645\u0627\u064b \u06a9\u0644\u0647 \u062a\u0631\u0633\u0631\u0647 \u0634\u064a\u061f",
+                        "options": [
+                          "\u062f \u0698\u0648\u0646\u062f \u067e\u0647 \u0644\u0648\u0645\u0693\u06cc\u0648 \u062f\u0631\u06d0 \u0627\u0648\u0648\u0646\u06cc\u0648 \u06a9\u06d0",
+                          "\u062f \u06f1\u06f0 \u06a9\u0644\u0646\u06cd \u0648\u0631\u0648\u0633\u062a\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0628\u0644\u0648\u063a \u0648\u0631\u0648\u0633\u062a\u0647",
+                          "\u0647\u0631 \u0648\u062e\u062a \u067e\u0631\u062a\u0647 \u0644\u0647 \u0645\u062d\u062f\u0648\u062f\u06cc\u062a \u0685\u062e\u0647"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f congenital CMV \u062f \u062a\u0634\u062e\u06cc\u0635 \u0644\u067e\u0627\u0631\u0647 urine/oral culture \u0628\u0627\u06cc\u062f \u062f \u0698\u0648\u0646\u062f \u067e\u0647 \u0644\u0648\u0645\u0693\u06cc\u0648 \u062f\u0631\u06d0 \u0627\u0648\u0648\u0646\u06cc\u0648 \u06a9\u06d0 \u062a\u0631\u0633\u0631\u0647 \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f CMV \u062f DNA \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u0627\u0632\u0645\u0648\u06cc\u0646\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "EEG",
+                          "ECG",
+                          "ESR",
+                          "PCR"
+                        ],
+                        "answer": 3,
+                        "explanation": "PCR \u062f CMV \u062f DNA \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 congenital CMV \u06a9\u06d0 \u062f \u062f\u0645\u0627\u063a \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u0647 \u0627\u0631\u0632\u0648\u0646\u0647 \u0685\u0647 \u069a\u0648\u062f\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "Bowel obstruction \u062a\u0644",
+                          "PDA",
+                          "Intracranial calcifications",
+                          "Pneumoperitoneum"
+                        ],
+                        "answer": 2,
+                        "explanation": "Intracranial calcifications \u062f congenital CMV \u067e\u0647 \u062f\u0645\u0627\u063a \u06a9\u06d0 \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f \u0634\u062f\u06cc\u062f/\u0639\u0644\u0627\u0645\u0647\u200c\u062f\u0627\u0631 congenital CMV \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645 antiviral \u062f\u0631\u0645\u0644 \u067e\u0647 PDF \u06a9\u06d0 \u0630\u06a9\u0631 \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "Ribavirin",
+                          "Ganciclovir",
+                          "Acyclovir",
+                          "Pyrimethamine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Ganciclovir \u062f \u0634\u062f\u06cc\u062f congenital CMV \u0644\u067e\u0627\u0631\u0647 antiviral \u062f\u0631\u0645\u0644 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f CMV \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 Ganciclovir \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u0685\u0646\u06ab\u0647 \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "options": [
+                          "IV\u060c \u062f \u06f6 mg/kg \u067e\u0647 \u0627\u0646\u062f\u0627\u0632\u0647 \u0647\u0631 \u06f1\u06f2 \u0633\u0627\u0639\u062a\u0648\u0646\u0648 \u06a9\u06d0 \u062f \u0644\u0648\u0645\u0693\u06cc\u0648 \u06f6 \u0627\u0648\u0648\u0646\u06cc\u0648 \u0644\u067e\u0627\u0631\u0647",
+                          "PO\u060c \u0647\u0631\u0647 \u0645\u06cc\u0627\u0634\u062a \u06cc\u0648 \u0681\u0644",
+                          "IM\u060c \u0647\u0631 \u06f7 \u0648\u0631\u0681\u06d0",
+                          "\u062f \u067e\u0648\u0633\u062a\u06a9\u064a \u067e\u0631 \u0633\u0631\u060c \u0647\u0631\u0647 \u0648\u0631\u0681"
+                        ],
+                        "answer": 0,
+                        "explanation": "Ganciclovir IV\u060c \u062f \u06f6 mg/kg \u067e\u0647 \u0627\u0646\u062f\u0627\u0632\u0647 \u0647\u0631 \u06f1\u06f2 \u0633\u0627\u0639\u062a\u0648\u0646\u0648 \u06a9\u06d0 \u062f \u0644\u0648\u0645\u0693\u06cc\u0648 \u06f6 \u0627\u0648\u0648\u0646\u06cc\u0648 \u0644\u067e\u0627\u0631\u0647 \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "HSV \u062f \u06a9\u0648\u0645\u06d0 \u06a9\u0648\u0631\u0646\u06cd \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc\u061f",
+                        "options": [
+                          "Paramyxovirus family",
+                          "Flavivirus family",
+                          "Adenovirus family",
+                          "Herpesvirus family"
+                        ],
+                        "answer": 3,
+                        "explanation": "HSV \u062f Herpesvirus family \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc."
+                      },
+                      {
+                        "q": "HSV \u0685\u0648 \u0645\u0647\u0645 \u0689\u0648\u0644\u0648\u0646\u0647 \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 HSV-4",
+                          "HSV-1\u060c 2\u060c 3\u060c 4\u060c 5 \u067c\u0648\u0644 \u06cc\u0648 \u0634\u0627\u0646",
+                          "HSV-1 \u0627\u0648 HSV-2",
+                          "\u06cc\u0648\u0627\u0632\u06d0 HSV-3"
+                        ],
+                        "answer": 2,
+                        "explanation": "HSV \u062f\u0648\u0647 \u0645\u0647\u0645 \u0689\u0648\u0644\u0648\u0646\u0647 \u0644\u0631\u064a: HSV-1 \u0627\u0648 HSV-2."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u062f \u0627\u0646\u062a\u0642\u0627\u0644 \u06cc\u0648\u0647 \u0645\u0647\u0645\u0647 \u0644\u0627\u0631\u0647 \u06a9\u0648\u0645\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u062e\u0648\u0693\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u062f \u0648\u0644\u0627\u062f\u062a \u067e\u0631 \u0645\u0647\u0627\u0644 \u062f \u0645\u0646\u062a\u0646 birth canal \u0644\u0647 \u0644\u0627\u0631\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0645\u0648\u0631 \u0644\u0647 \u0627\u062f\u0631\u0627\u0631 \u0685\u062e\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0647\u0648\u0627 \u0644\u0647 \u0644\u0627\u0631\u06d0"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f neonatal HSV \u062f \u0627\u0646\u062a\u0642\u0627\u0644 \u0645\u0647\u0645\u0647 \u0644\u0627\u0631\u0647 \u062f \u0648\u0644\u0627\u062f\u062a \u067e\u0631 \u0645\u0647\u0627\u0644 \u062f \u0645\u0646\u062a\u0646 birth canal \u0644\u0647 \u0644\u0627\u0631\u06d0 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u0646\u0627\u0631\u0648\u063a\u064a \u067e\u0647 \u0685\u0648 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0628\u06bc\u0648 \u0648\u06cc\u0634\u0644 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "SEM disease\u060c CNS disease \u0627\u0648 disseminated disease",
+                          "\u06cc\u0648\u0627\u0632\u06d0 skin disease",
+                          "\u06cc\u0648\u0627\u0632\u06d0 pneumonia",
+                          "\u06cc\u0648\u0627\u0632\u06d0 hepatitis"
+                        ],
+                        "answer": 0,
+                        "explanation": "Neonatal HSV \u067e\u0647 \u062f\u0631\u06d0 \u06a9\u0644\u06cc\u0646\u06cc\u06a9\u064a \u0628\u06bc\u0648 \u0648\u06cc\u0634\u0644 \u0634\u0648\u06cc: SEM disease\u060c CNS disease \u0627\u0648 disseminated disease."
+                      },
+                      {
+                        "q": "SEM \u062f \u0685\u0647 \u0644\u0646\u0689\u06cc\u0632 \u062f\u06cc\u061f",
+                        "options": [
+                          "Systemic, Ear and Muscle",
+                          "Sepsis, Eye and Meninges",
+                          "Skin, Ear and Myocardium",
+                          "Skin, Eyes and Mouth"
+                        ],
+                        "answer": 3,
+                        "explanation": "SEM \u062f Skin, Eyes and Mouth \u0644\u0646\u0689\u06cc\u0632 \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u062f SEM disease \u0646\u069a\u06d0 \u06a9\u0648\u0645\u06d0 \u062f\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 hepatosplenomegaly",
+                          "\u06cc\u0648\u0627\u0632\u06d0 diarrhea",
+                          "Vesicles/bullae\u060c oral ulcers \u0627\u0648 keratoconjunctivitis",
+                          "\u06cc\u0648\u0627\u0632\u06d0 jaundice"
+                        ],
+                        "answer": 2,
+                        "explanation": "Vesicles/bullae\u060c oral ulcers \u0627\u0648 keratoconjunctivitis \u062f neonatal HSV \u062f SEM disease \u0646\u069a\u06d0 \u062f\u064a."
+                      },
+                      {
+                        "q": "CNS disease \u062f neonatal HSV \u062f \u06a9\u0648\u0645\u06d0 \u0645\u0647\u0645\u06d0 \u0646\u069a\u06d0 \u0633\u0631\u0647 \u0648\u0693\u0627\u0646\u062f\u06d0 \u06a9\u06d0\u062f\u0627\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 ascites",
+                          "Lethargy\u060c irritability\u060c seizures \u0627\u0648 bulging fontanelle",
+                          "\u06cc\u0648\u0627\u0632\u06d0 cough",
+                          "\u06cc\u0648\u0627\u0632\u06d0 purpura"
+                        ],
+                        "answer": 1,
+                        "explanation": "CNS disease \u062f Lethargy\u060c irritability\u060c seizures \u0627\u0648 bulging fontanelle \u0633\u0631\u0647 \u0648\u0693\u0627\u0646\u062f\u06d0 \u06a9\u06d0\u062f\u0627\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "Disseminated neonatal HSV \u06a9\u0648\u0645\u0647 \u062c\u062f\u064a \u0646\u069a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a\u061f",
+                        "options": [
+                          "Shock\u060c respiratory failure\u060c thrombocytopenia \u0627\u0648 DIC",
+                          "\u06cc\u0648\u0627\u0632\u06d0 mild rash",
+                          "\u06cc\u0648\u0627\u0632\u06d0 cataract",
+                          "\u06cc\u0648\u0627\u0632\u06d0 PDA"
+                        ],
+                        "answer": 0,
+                        "explanation": "Disseminated neonatal HSV Shock\u060c respiratory failure\u060c thrombocytopenia \u0627\u0648 DIC \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u062f HSV \u062f \u062a\u0634\u062e\u06cc\u0635 Gold Standard \u067e\u0647 PDF \u06a9\u06d0 \u0685\u0647 \u0628\u0644\u0644 \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "CBC",
+                          "Chest X-ray",
+                          "Serum sodium",
+                          "\u062f lesions \u0644\u0647 \u0645\u0648\u0627\u062f\u0648 \u0685\u062e\u0647 \u062f \u0648\u06cc\u0631\u0648\u0633 isolation/culture"
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f HSV \u062f \u062a\u0634\u062e\u06cc\u0635 Gold Standard \u062f lesions \u0644\u0647 \u0645\u0648\u0627\u062f\u0648 \u0685\u062e\u0647 \u062f \u0648\u06cc\u0631\u0648\u0633 isolation/culture \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f HSV \u067e\u0647 \u062a\u0634\u062e\u06cc\u0635 \u06a9\u06d0 PCR \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u0645\u0647\u0645 \u062f\u06cc\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f PDA \u0644\u067e\u0627\u0631\u0647",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f NEC \u0644\u067e\u0627\u0631\u0647",
+                          "\u062f HSV DNA \u067e\u0647 \u0648\u06cc\u0646\u0647 \u0627\u0648 CSF \u06a9\u06d0 \u062f \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 HSV encephalitis \u06a9\u06d0",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f anemia \u0644\u067e\u0627\u0631\u0647"
+                        ],
+                        "answer": 2,
+                        "explanation": "PCR \u062f HSV DNA \u067e\u0647 \u0648\u06cc\u0646\u0647 \u0627\u0648 CSF \u06a9\u06d0 \u062f \u062a\u062b\u0628\u06cc\u062a \u0644\u067e\u0627\u0631\u0647 \u0645\u0647\u0645 \u062f\u06cc\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 HSV encephalitis \u06a9\u06d0."
+                      },
+                      {
+                        "q": "\u067e\u0647 neonatal HSV \u06a9\u06d0 serology \u0685\u0647 \u0627\u0631\u0632\u069a\u062a \u0644\u0631\u064a\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f NEC \u062a\u0634\u062e\u06cc\u0635 \u06a9\u0648\u064a.",
+                          "\u062a\u0634\u062e\u06cc\u0635\u064a \u0627\u0631\u0632\u069a\u062a \u06cc\u06d0 \u0645\u062d\u062f\u0648\u062f \u062f\u06cc\u060c \u062e\u0648 \u062f \u0645\u0648\u0631 \u062f primary \u0627\u0648 recurrent infection \u067e\u0647 \u062a\u0648\u067e\u06cc\u0631 \u06a9\u06d0 \u0645\u0631\u0633\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a.",
+                          "\u062a\u0644 Gold Standard \u062f\u06cc.",
+                          "\u0647\u06cc\u0685\u06a9\u0644\u0647 \u0647\u06d0\u0685 \u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0646\u0647 \u0648\u0631\u06a9\u0648\u064a."
+                        ],
+                        "answer": 1,
+                        "explanation": "Serology \u062a\u0634\u062e\u06cc\u0635\u064a \u0627\u0631\u0632\u069a\u062a \u0645\u062d\u062f\u0648\u062f \u062f\u06cc\u060c \u062e\u0648 \u062f \u0645\u0648\u0631 \u062f primary \u0627\u0648 recurrent infection \u067e\u0647 \u062a\u0648\u067e\u06cc\u0631 \u06a9\u06d0 \u0645\u0631\u0633\u062a\u0647 \u06a9\u0648\u0644\u06cc \u0634\u064a."
+                      },
+                      {
+                        "q": "\u067e\u0647 CNS disease \u0644\u0631\u0648\u0646\u06a9\u0648 neonatal HSV \u0646\u0627\u0631\u0648\u063a\u0627\u0646\u0648 \u06a9\u06d0 \u06a9\u0648\u0645\u06d0 \u0631\u0627\u062f\u06cc\u0648\u0644\u0648\u0698\u06cc\u06a9\u06d0 \u0645\u0639\u0627\u06cc\u0646\u06d0 \u0633\u067e\u0627\u0631\u069a\u062a\u0646\u0647 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "CT scan \u0627\u0648 MRI \u062f \u0633\u0631",
+                          "\u06cc\u0648\u0627\u0632\u06d0 abdominal X-ray",
+                          "\u06cc\u0648\u0627\u0632\u06d0 echocardiography",
+                          "\u06cc\u0648\u0627\u0632\u06d0 bone scan"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u067e\u0647 CNS disease \u06a9\u06d0 CT scan \u0627\u0648 MRI \u062f \u0633\u0631 \u0633\u067e\u0627\u0631\u069a\u062a\u0646\u0647 \u0634\u0648\u06d0."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u0627\u0635\u0644\u064a antiviral \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "options": [
+                          "Ganciclovir",
+                          "Pyrimethamine",
+                          "Sulfadiazine",
+                          "Acyclovir"
+                        ],
+                        "answer": 3,
+                        "explanation": "Acyclovir \u062f neonatal HSV \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u0627\u0635\u0644\u064a antiviral \u062f\u06cc."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 Acyclovir \u062f\u0648\u0632 \u0685\u0646\u06ab\u0647 \u069a\u0648\u062f\u0644 \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "1 mg/kg PO \u0647\u0631\u0647 \u0648\u0631\u0681",
+                          "1000 mg \u062b\u0627\u0628\u062a \u062f\u0648\u0632 \u062f \u0647\u0631 \u0646\u0648\u0632\u0627\u062f \u0644\u067e\u0627\u0631\u0647",
+                          "60 mg/kg/day\u060c \u067e\u0647 \u062f\u0631\u06d0 \u0648\u06d0\u0634\u0644 \u0634\u0648\u0648 IV \u062f\u0648\u0632\u0648\u0646\u0648 \u06a9\u06d0",
+                          "5 mg/kg \u06cc\u0648 \u0681\u0644 \u067e\u0647 \u0645\u06cc\u0627\u0634\u062a"
+                        ],
+                        "answer": 2,
+                        "explanation": "Acyclovir 60 mg/kg/day\u060c \u067e\u0647 \u062f\u0631\u06d0 \u0648\u06d0\u0634\u0644 \u0634\u0648\u0648 IV \u062f\u0648\u0632\u0648\u0646\u0648 \u06a9\u06d0 \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u062f disseminated \u0627\u0648 CNS neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u069a\u0648\u062f\u0644 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u06f6 \u0645\u06cc\u0627\u0634\u062a\u06d0",
+                          "\u06f2\u06f1 \u0648\u0631\u0681\u06d0",
+                          "\u06f3 \u0648\u0631\u0681\u06d0",
+                          "\u06f7 \u0648\u0631\u0681\u06d0"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f disseminated \u0627\u0648 CNS neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u06f2\u06f1 \u0648\u0631\u0681\u06d0 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u062f SEM neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u069a\u0648\u062f\u0644 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u06f1\u06f4 \u0648\u0631\u0681\u06d0",
+                          "\u06f1 \u0648\u0631\u0681",
+                          "\u06f5 \u0648\u0631\u0681\u06d0",
+                          "\u06f9\u06f0 \u0648\u0631\u0681\u06d0"
+                        ],
+                        "answer": 0,
+                        "explanation": "\u062f SEM neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u06f1\u06f4 \u0648\u0631\u0681\u06d0 \u062f\u0647."
+                      },
+                      {
+                        "q": "\u06a9\u0647 \u0645\u0648\u0631 recurrent genital HSV \u0648\u0644\u0631\u064a \u0627\u0648 \u0646\u0648\u0632\u0627\u062f \u0628\u06d0\u200c\u0627\u0639\u0631\u0627\u0636\u0647 \u0648\u064a\u060c \u062f PDF \u0644\u0647 \u0645\u062e\u06d0 \u06a9\u0648\u0645\u0647 \u062a\u06ab\u0644\u0627\u0631\u0647 \u0645\u0646\u0627\u0633\u0628\u0647 \u062f\u0647\u061f",
+                        "options": [
+                          "\u0633\u0645\u062f\u0633\u062a\u064a \u0647\u0631 \u0646\u0648\u0632\u0627\u062f \u062a\u0647 \u06f6 \u0645\u06cc\u0627\u0634\u062a\u06d0 Acyclovir",
+                          "\u0647\u06cc\u0685 \u0685\u0627\u0631\u0646\u0647 \u0646\u0647 \u06a9\u06d0\u0696\u064a.",
+                          "\u06cc\u0648\u0627\u0632\u06d0 oral antibiotic \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a.",
+                          "\u062f \u0646\u0648\u0632\u0627\u062f \u062f \u0627\u0693\u0648\u0646\u062f\u0648 \u0645\u0648\u0627\u062f\u0648 culture \u0648\u0627\u062e\u06cc\u0633\u062a\u0644 \u0634\u064a \u0627\u0648 \u0646\u0648\u0632\u0627\u062f \u062a\u0631 \u0685\u0627\u0631\u0646\u06d0 \u0644\u0627\u0646\u062f\u06d0 \u0648\u064a\u061b \u062f \u0645\u062b\u0628\u062a culture \u06cc\u0627 \u0646\u069a\u0648 \u067e\u0647 \u0635\u0648\u0631\u062a \u06a9\u06d0 Acyclovir \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                        ],
+                        "answer": 3,
+                        "explanation": "\u062f \u0646\u0648\u0632\u0627\u062f \u062f \u0627\u0693\u0648\u0646\u062f\u0648 \u0645\u0648\u0627\u062f\u0648 culture \u0648\u0627\u062e\u06cc\u0633\u062a\u0644 \u0634\u064a \u0627\u0648 \u0646\u0648\u0632\u0627\u062f \u062a\u0631 \u0685\u0627\u0631\u0646\u06d0 \u0644\u0627\u0646\u062f\u06d0 \u0648\u064a\u061b \u062f \u0645\u062b\u0628\u062a culture \u06cc\u0627 \u0646\u069a\u0648 \u067e\u0647 \u0635\u0648\u0631\u062a \u06a9\u06d0 Acyclovir \u0648\u0631\u06a9\u0648\u0644 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "q": "\u06a9\u0647 \u0645\u0648\u0631 \u062f \u062e\u0648\u0644\u06d0/\u0634\u0648\u0646\u0689\u0648 Herpes simplex \u0648\u0644\u0631\u064a\u060c \u062f \u0646\u0648\u0632\u0627\u062f \u062f \u0633\u0627\u062a\u0646\u06d0 \u0644\u067e\u0627\u0631\u0647 \u0685\u0647 \u0633\u067e\u0627\u0631\u069a\u062a\u0646\u0647 \u0634\u0648\u06d0\u061f",
+                        "options": [
+                          "\u0646\u0648\u0632\u0627\u062f \u0644\u0647 \u0634\u06cc\u062f\u0648 \u0645\u062d\u0631\u0648\u0645 \u06a9\u0693\u064a.",
+                          "\u0646\u0648\u0632\u0627\u062f \u062a\u0647 prednisone \u0648\u0631\u06a9\u0693\u064a.",
+                          "\u0645\u0627\u0633\u06a9 \u0648\u06a9\u0627\u0631\u0648\u064a \u0627\u0648 \u0646\u0648\u0632\u0627\u062f \u0648\u0646\u0647 \u069a\u06a9\u0644\u0648\u064a.",
+                          "\u0646\u0648\u0632\u0627\u062f \u062a\u0647 \u0647\u0631\u0647 \u0648\u0631\u0681 \u0648\u0627\u06a9\u0633\u06cc\u0646 \u0648\u0631\u06a9\u0693\u064a."
+                        ],
+                        "answer": 2,
+                        "explanation": "\u06a9\u0647 \u0645\u0648\u0631 \u062f \u062e\u0648\u0644\u06d0/\u0634\u0648\u0646\u0689\u0648 Herpes simplex \u0648\u0644\u0631\u064a\u060c \u0645\u0627\u0633\u06a9 \u0648\u06a9\u0627\u0631\u0648\u064a \u0627\u0648 \u0646\u0648\u0632\u0627\u062f \u0648\u0646\u0647 \u069a\u06a9\u0644\u0648\u064a."
+                      },
+                      {
+                        "q": "\u062f neonatal sepsis \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0644\u067e\u0627\u0631\u0647 \u067e\u0647 PDF \u06a9\u06d0 \u06a9\u0648\u0645 \u0633\u0627\u062f\u0647 \u0627\u0642\u062f\u0627\u0645 \u0689\u06d0\u0631 \u0645\u0647\u0645 \u0628\u0644\u0644 \u0634\u0648\u06cc\u061f",
+                        "options": [
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0648\u06cc\u067c\u0627\u0645\u06cc\u0646 \u0648\u0631\u06a9\u0648\u0644",
+                          "\u062f \u0645\u0648\u0631 \u0627\u0648 \u0631\u0648\u063a\u062a\u06cc\u0627\u064a\u064a \u067e\u0631\u0633\u0648\u0646\u0644 \u0645\u06a9\u0631\u0631 \u062f \u0644\u0627\u0633\u0648\u0646\u0648 \u0645\u06cc\u0646\u0681\u0644",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u062e\u0648\u0646\u06d0 \u062a\u0648\u062f\u0648\u062e\u0647 \u0644\u0648\u0693\u0648\u0644",
+                          "\u06cc\u0648\u0627\u0632\u06d0 \u062f \u0645\u0627\u0634\u0648\u0645 \u063a\u0633\u0644 \u06a9\u0648\u0644"
+                        ],
+                        "answer": 1,
+                        "explanation": "\u062f \u0645\u0648\u0631 \u0627\u0648 \u0631\u0648\u063a\u062a\u06cc\u0627\u064a\u064a \u067e\u0631\u0633\u0648\u0646\u0644 \u0645\u06a9\u0631\u0631 \u062f \u0644\u0627\u0633\u0648\u0646\u0648 \u0645\u06cc\u0646\u0681\u0644 \u062f neonatal sepsis \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0644\u067e\u0627\u0631\u0647 \u0689\u06d0\u0631 \u0645\u0647\u0645 \u062f\u06cc."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "NEC \u062a\u0631 \u067c\u0648\u0644\u0648 \u0632\u06cc\u0627\u062a \u067e\u0647 \u06a9\u0648\u0645\u0648 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u0644\u06cc\u062f\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "a": "\u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0627\u0648 \u06a9\u0645\u200c\u0648\u0632\u0646\u0647 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0."
+                      },
+                      {
+                        "q": "\u062f NEC \u062f \u062e\u0637\u0631 \u0645\u0647\u0645 \u0641\u06a9\u062a\u0648\u0631 \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "a": "Prematurity (\u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0632\u06cc\u0696\u0648\u0646)."
+                      },
+                      {
+                        "q": "\u062f NEC \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 NPO \u0685\u0647 \u0645\u0639\u0646\u0627 \u0644\u0631\u064a\u061f",
+                        "a": "\u062f \u062e\u0648\u0644\u06d0/\u06a9\u0648\u0644\u0645\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0 \u062a\u063a\u0630\u06cc\u0647 \u0645\u0648\u0642\u062a\u064a \u0628\u0646\u062f\u0648\u0644."
+                      },
+                      {
+                        "q": "\u067e\u0647 TORCH \u06a9\u06d0 T \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "a": "Toxoplasmosis."
+                      },
+                      {
+                        "q": "\u062f Toxoplasmosis \u0639\u0627\u0645\u0644 \u0685\u0647 \u062f\u06cc\u061f",
+                        "a": "Toxoplasma gondii."
+                      },
+                      {
+                        "q": "\u062f congenital toxoplasmosis \u0685\u0644\u0648\u0631 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u06d0 \u0646\u069a\u06d0 \u06a9\u0648\u0645\u06d0 \u062f\u064a\u061f",
+                        "a": "Hydrocephalus\u060c Chorioretinitis\u060c intracranial calcification \u0627\u0648 seizures."
+                      },
+                      {
+                        "q": "Rubella \u062f \u06a9\u0648\u0645 \u0689\u0648\u0644 \u0639\u0627\u0645\u0644 \u0644\u0647 \u0627\u0645\u0644\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a\u061f",
+                        "a": "RNA virus \u062f Rubivirus \u0644\u0647 \u062c\u0646\u0633 \u0685\u062e\u0647."
+                      },
+                      {
+                        "q": "\u067e\u0647 congenital Rubella \u06a9\u06d0 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645 congenital heart lesion \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "a": "PDA (Patent Ductus Arteriosus)."
+                      },
+                      {
+                        "q": "CMV \u062f \u06a9\u0648\u0645\u06d0 \u06a9\u0648\u0631\u0646\u06cd \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc\u061f",
+                        "a": "Herpesvirus family."
+                      },
+                      {
+                        "q": "\u062f CMV \u062a\u0634\u062e\u06cc\u0635 Gold Standard \u0685\u0647 \u062f\u06cc\u061f",
+                        "a": "\u062f \u0648\u06cc\u0631\u0648\u0633 culture\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u062f urine \u0627\u0648 oral secretions \u0685\u062e\u0647."
+                      },
+                      {
+                        "q": "\u062f \u0634\u062f\u06cc\u062f congenital CMV \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645 antiviral \u062f\u0631\u0645\u0644 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "a": "Ganciclovir."
+                      },
+                      {
+                        "q": "HSV \u0685\u0648 \u0645\u0647\u0645 \u0689\u0648\u0644\u0648\u0646\u0647 \u0644\u0631\u064a\u061f",
+                        "a": "HSV-1 \u0627\u0648 HSV-2."
+                      },
+                      {
+                        "q": "\u062f neonatal HSV \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u0627\u0635\u0644\u064a antiviral \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "a": "Acyclovir."
+                      },
+                      {
+                        "q": "\u062f disseminated \u0627\u0648 CNS neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u062f\u0647\u061f",
+                        "a": "\u06f2\u06f1 \u0648\u0631\u0681\u06d0."
+                      },
+                      {
+                        "q": "\u062f SEM neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u062f\u0647\u061f",
+                        "a": "\u06f1\u06f4 \u0648\u0631\u0681\u06d0."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "NEC \u0685\u0647 \u0634\u06cc \u062f\u06cc\u061f",
+                        "back": "\u062f \u06a9\u0648\u0644\u0645\u0648 \u0627\u0633\u06a9\u06cc\u0645\u06cc\u06a9 \u0627\u0648 \u0627\u0644\u062a\u0647\u0627\u0628\u064a \u0646\u06a9\u0631\u0648\u0632 \u0686\u06d0 \u0639\u0645\u0648\u0645\u0627\u064b \u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0646\u0648\u0632\u0627\u062f\u0627\u0646\u0648 \u06a9\u06d0 \u062f \u062a\u063a\u0630\u06cc\u06d0 \u0644\u0647 \u067e\u06cc\u0644 \u0648\u0631\u0648\u0633\u062a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a."
+                      },
+                      {
+                        "front": "\u062f NEC \u062f \u062e\u0637\u0631 \u0645\u0647\u0645 \u0641\u06a9\u062a\u0648\u0631 \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "back": "Prematurity (\u0644\u0647 \u0648\u062e\u062a \u0645\u062e\u06a9\u06d0 \u0632\u06cc\u0696\u0648\u0646)."
+                      },
+                      {
+                        "front": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u062e\u0627\u0637 \u062f \u063a\u06cc\u0631\u0646\u0648\u0631\u0645\u0627\u0644 \u0648\u06cc\u0646\u06d0 \u062c\u0631\u06cc\u0627\u0646 \u0644\u0647 \u06a9\u0648\u0645\u0648 \u062d\u0627\u0644\u062a\u0648\u0646\u0648 \u0633\u0631\u0647 \u062a\u0693\u0627\u0648 \u0644\u0631\u064a\u061f",
+                        "back": "Asphyxia\u060c Polycythemia\u060c PDA \u0627\u0648 Cyanotic congenital heart disease."
+                      },
+                      {
+                        "front": "\u067e\u0647 NEC \u06a9\u06d0 \u062f \u0645\u062e\u0627\u0637 \u062a\u062e\u0631\u06cc\u0628 \u0648\u0631\u0648\u0633\u062a\u0647 \u062f \u06ab\u0627\u0632 \u062c\u0648\u0693\u0648\u0646\u06a9\u0648 \u0645\u06cc\u06a9\u0631\u0648\u0628\u0648\u0646\u0648 \u0645\u062f\u0627\u062e\u0644\u0647 \u06a9\u0648\u0645\u0647 \u0646\u069a\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u0648\u064a\u061f",
+                        "back": "Pneumatosis intestinalis."
+                      },
+                      {
+                        "front": "\u062f NEC \u067e\u0647 \u0644\u0648\u0645\u0693\u0646\u06cd \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 NPO \u0685\u0647 \u0645\u0639\u0646\u0627 \u0644\u0631\u064a\u061f",
+                        "back": "\u062f \u062e\u0648\u0644\u06d0/\u06a9\u0648\u0644\u0645\u0648 \u0644\u0647 \u0644\u0627\u0631\u06d0 \u062a\u063a\u0630\u06cc\u0647 \u0645\u0648\u0642\u062a\u064a \u0628\u0646\u062f\u0648\u0644."
+                      },
+                      {
+                        "front": "TORCH \u062f \u06a9\u0648\u0645\u0648 \u0689\u0648\u0644\u0648\u0646\u0648 \u062f \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u0644\u067e\u0627\u0631\u0647 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "back": "\u062f \u0645\u0648\u0631 \u0685\u062e\u0647 \u062c\u0646\u06cc\u0646 \u062a\u0647 \u062f \u0627\u0646\u062a\u0642\u0627\u0644\u06d0\u062f\u0648\u0646\u06a9\u0648 \u0645\u0647\u0645\u0648 intrauterine/perinatal \u0627\u0646\u062a\u0627\u0646\u0627\u062a\u0648 \u062f \u0689\u0644\u06d0 \u0644\u067e\u0627\u0631\u0647."
+                      },
+                      {
+                        "front": "\u067e\u0647 TORCH \u06a9\u06d0 T \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "back": "Toxoplasmosis."
+                      },
+                      {
+                        "front": "\u067e\u0647 TORCH \u06a9\u06d0 R \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "back": "Rubella."
+                      },
+                      {
+                        "front": "\u067e\u0647 TORCH \u06a9\u06d0 C \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "back": "Cytomegalovirus."
+                      },
+                      {
+                        "front": "\u067e\u0647 TORCH \u06a9\u06d0 H \u062f \u0685\u0647 \u0644\u067e\u0627\u0631\u0647 \u062f\u06cc\u061f",
+                        "back": "Herpes simplex virus."
+                      },
+                      {
+                        "front": "\u062f Toxoplasmosis \u0639\u0627\u0645\u0644 \u0685\u0647 \u062f\u06cc\u061f",
+                        "back": "Toxoplasma gondii."
+                      },
+                      {
+                        "front": "\u062f Toxoplasma gondii \u0627\u0635\u0644\u064a \u06a9\u0648\u0631\u0628\u0647 \u06a9\u0648\u0645 \u062d\u06cc\u0648\u0627\u0646 \u062f\u06cc\u061f",
+                        "back": "\u067e\u06cc\u0634\u0648 (Cat)."
+                      },
+                      {
+                        "front": "\u062f congenital toxoplasmosis \u0685\u0644\u0648\u0631 \u06a9\u0644\u0627\u0633\u06cc\u06a9\u06d0 \u0646\u069a\u06d0 \u06a9\u0648\u0645\u06d0 \u062f\u064a\u061f",
+                        "back": "Hydrocephalus\u060c Chorioretinitis\u060c intracranial calcification \u0627\u0648 seizures."
+                      },
+                      {
+                        "front": "\u062f Toxoplasmosis \u067e\u0647 \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u06a9\u0648\u0645 \u062f\u0631\u0645\u0644 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "back": "Pyrimethamine\u060c Sulfadiazine \u0627\u0648 Leucovorin/Folinic acid."
+                      },
+                      {
+                        "front": "Rubella \u062f \u06a9\u0648\u0645 \u0689\u0648\u0644 \u0639\u0627\u0645\u0644 \u0644\u0647 \u0627\u0645\u0644\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u06a9\u06d0\u0696\u064a\u061f",
+                        "back": "RNA virus \u062f Rubivirus \u0644\u0647 \u062c\u0646\u0633 \u0685\u062e\u0647."
+                      },
+                      {
+                        "front": "\u067e\u0647 congenital Rubella \u06a9\u06d0 \u062a\u0631 \u067c\u0648\u0644\u0648 \u0639\u0627\u0645 congenital heart lesion \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "back": "PDA (Patent Ductus Arteriosus)."
+                      },
+                      {
+                        "front": "\u062f Rubella \u062f \u0645\u062e\u0646\u06cc\u0648\u064a \u0627\u0633\u0627\u0633\u064a \u0648\u0633\u06cc\u0644\u0647 \u0685\u0647 \u062f\u0647\u061f",
+                        "back": "\u0648\u0627\u06a9\u0633\u06cc\u0646."
+                      },
+                      {
+                        "front": "CMV \u062f \u06a9\u0648\u0645\u06d0 \u06a9\u0648\u0631\u0646\u06cd \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc\u061f",
+                        "back": "Herpesvirus family."
+                      },
+                      {
+                        "front": "\u062f CMV \u062a\u0634\u062e\u06cc\u0635 Gold Standard \u0685\u0647 \u062f\u06cc\u061f",
+                        "back": "\u062f \u0648\u06cc\u0631\u0648\u0633 culture\u060c \u067e\u0647 \u0681\u0627\u0646\u06ab\u0693\u064a \u0689\u0648\u0644 \u062f urine \u0627\u0648 oral secretions \u0685\u062e\u0647."
+                      },
+                      {
+                        "front": "\u062f \u0634\u062f\u06cc\u062f congenital CMV \u0644\u067e\u0627\u0631\u0647 \u06a9\u0648\u0645 antiviral \u062f\u0631\u0645\u0644 \u06a9\u0627\u0631\u0648\u0644 \u06a9\u06d0\u0696\u064a\u061f",
+                        "back": "Ganciclovir."
+                      },
+                      {
+                        "front": "HSV \u062f \u06a9\u0648\u0645\u06d0 \u06a9\u0648\u0631\u0646\u06cd \u0648\u06cc\u0631\u0648\u0633 \u062f\u06cc\u061f",
+                        "back": "Herpesvirus family."
+                      },
+                      {
+                        "front": "HSV \u0685\u0648 \u0645\u0647\u0645 \u0689\u0648\u0644\u0648\u0646\u0647 \u0644\u0631\u064a\u061f",
+                        "back": "HSV-1 \u0627\u0648 HSV-2."
+                      },
+                      {
+                        "front": "\u062f neonatal HSV \u062f\u0631\u0645\u0644\u0646\u0647 \u06a9\u06d0 \u0627\u0635\u0644\u064a antiviral \u06a9\u0648\u0645 \u062f\u06cc\u061f",
+                        "back": "Acyclovir."
+                      },
+                      {
+                        "front": "\u062f disseminated \u0627\u0648 CNS neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u062f\u0647\u061f",
+                        "back": "\u06f2\u06f1 \u0648\u0631\u0681\u06d0."
+                      },
+                      {
+                        "front": "\u062f SEM neonatal HSV \u0644\u067e\u0627\u0631\u0647 \u062f Acyclovir \u062f\u0631\u0645\u0644\u0646\u06d0 \u0645\u0648\u062f\u0647 \u0685\u0648\u0645\u0631\u0647 \u062f\u0647\u061f",
+                        "back": "\u06f1\u06f4 \u0648\u0631\u0681\u06d0."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "TORCH Infections",
+                        "icon": "\ud83e\udda0",
+                        "code": "T-O-R-C-H",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Toxoplasmosis"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Other infections (Syphilis, Hepatitis B, HIV, etc.)"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Rubella"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cytomegalovirus (CMV)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Herpes Simplex Virus (HSV)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "NEC Risk Factors",
+                        "icon": "\u26a0\ufe0f",
+                        "code": "P-A-P-A",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Prematurity"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Asphyxia"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Polycythemia"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "PDA (Patent Ductus Arteriosus)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "NEC Clinical Stages",
+                        "icon": "\ud83d\udcca",
+                        "code": "I-II-III",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "Suspected NEC: Feeding intolerance, bilious aspirates"
+                          },
+                          {
+                            "letter": "II",
+                            "text": "Proven NEC: Pneumatosis intestinalis, thrombocytopenia"
+                          },
+                          {
+                            "letter": "III",
+                            "text": "Advanced NEC: Acidosis, shock, DIC, peritonitis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Congenital Toxoplasmosis Classic Tetrad",
+                        "icon": "\ud83e\udde0",
+                        "code": "H-C-I-S",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hydrocephalus"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Chorioretinitis"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Intracranial Calcifications"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Seizures"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Congenital Rubella Classic Triad",
+                        "icon": "\ud83d\udc76",
+                        "code": "C-D-H",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Cataracts"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Deafness (Sensorineural)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Heart Disease (PDA, Pulmonary Stenosis)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Congenital CMV Features",
+                        "icon": "\ud83d\udd2c",
+                        "code": "M-P-H-J",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Microcephaly"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Petechiae/Purpura"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Hepatosplenomegaly"
+                          },
+                          {
+                            "letter": "J",
+                            "text": "Jaundice"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Neonatal HSV Clinical Forms",
+                        "icon": "\ud83e\ude7a",
+                        "code": "S-C-D",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "SEM (Skin, Eyes, Mouth) - Limited disease"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "CNS Disease - Encephalitis, seizures"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Disseminated Disease - Multiorgan, DIC, shock"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
