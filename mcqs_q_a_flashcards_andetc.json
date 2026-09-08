@@ -5799,6 +5799,589 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "menopause",
+                  "name": "Menopause & Related Problems",
+                  "icon": "\ud83c\udf19",
+                  "description": "Natural physiological phenomenon where menstruation permanently stops and women can no longer conceive. Average age: 51 years. Permanent cessation of menstruation for 1 YEAR = Menopause.",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Menopause is defined as permanent cessation of menstruation for:",
+                        "options": [
+                          "3 months",
+                          "6 months",
+                          "1 year",
+                          "2 years"
+                        ],
+                        "answer": 2,
+                        "explanation": "Menopause is defined as permanent cessation of menstruation for 1 YEAR."
+                      },
+                      {
+                        "q": "The average age of menopause is:",
+                        "options": [
+                          "45 years",
+                          "48 years",
+                          "51 years",
+                          "55 years"
+                        ],
+                        "answer": 2,
+                        "explanation": "The average age of menopause is 51 years."
+                      },
+                      {
+                        "q": "Climacteric refers to:",
+                        "options": [
+                          "The permanent cessation of menstruation",
+                          "The transition from reproductive to non-reproductive phase",
+                          "Surgical removal of ovaries",
+                          "The onset of menstruation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Climacteric is the stage where a woman transitions from reproductive to non-reproductive phase, where menstruation becomes irregular and fertility is impaired."
+                      },
+                      {
+                        "q": "Which of the following is a type of menopause?",
+                        "options": [
+                          "Physiological menopause only",
+                          "Artificial menopause only",
+                          "Both Physiological and Artificial menopause",
+                          "Neither Physiological nor Artificial menopause"
+                        ],
+                        "answer": 2,
+                        "explanation": "There are TWO types of menopause: Physiological (Natural) and Artificial (Surgical)."
+                      },
+                      {
+                        "q": "Artificial menopause can be caused by:",
+                        "options": [
+                          "Pregnancy",
+                          "Oophorectomy or Radiotherapy",
+                          "Thyroid disorders",
+                          "Polycystic Ovarian Syndrome"
+                        ],
+                        "answer": 1,
+                        "explanation": "Artificial menopause occurs after removal of ovaries (oophorectomy) or radiotherapy, used for treatment of endometriosis, breast cancer, and endometrial cancer."
+                      },
+                      {
+                        "q": "The classic vasomotor symptom of menopause is:",
+                        "options": [
+                          "Weight gain",
+                          "Hot flushes",
+                          "Osteoporosis",
+                          "Urinary incontinence"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hot flushes are the classic vasomotor symptom of menopause, associated with estrogen deficiency."
+                      },
+                      {
+                        "q": "Hot flushes can be associated with all of the following EXCEPT:",
+                        "options": [
+                          "Night sweats",
+                          "Sleep disturbances",
+                          "Weight gain",
+                          "Irritability"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hot flushes can be associated with night sweats, sleep disturbances, elevated temperature, irritability, restlessness, insomnia, and fatigue. Weight gain is a separate symptom."
+                      },
+                      {
+                        "q": "In the first few years after menopause, there is a rapid decrease in:",
+                        "options": [
+                          "Body weight",
+                          "Blood pressure",
+                          "Bone mineral density",
+                          "Skin elasticity"
+                        ],
+                        "answer": 2,
+                        "explanation": "In the first few years after menopause, there is a rapid decrease in bone mineral density, increasing the risk of osteoporosis."
+                      },
+                      {
+                        "q": "Postmenopausal women are especially prone to fractures of which bones?",
+                        "options": [
+                          "Femur and tibia",
+                          "Pelvis, wrist, and spine",
+                          "Skull and ribs",
+                          "Clavicle and scapula"
+                        ],
+                        "answer": 1,
+                        "explanation": "Postmenopausal women are especially prone to fractures of the pelvis, wrist, and spine due to osteoporosis."
+                      },
+                      {
+                        "q": "Osteoporosis is often described as a:",
+                        "options": [
+                          "Symptomatic disease",
+                          "Silent disease",
+                          "Acute disease",
+                          "Contagious disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "Osteoporosis is a silent disease with no symptoms, only discovered after a fracture from a minor fall."
+                      },
+                      {
+                        "q": "The recommended daily calcium intake for postmenopausal women is:",
+                        "options": [
+                          "600-800 mg",
+                          "800-1000 mg",
+                          "1200-1500 mg",
+                          "2000-2500 mg"
+                        ],
+                        "answer": 2,
+                        "explanation": "The recommended daily calcium intake for postmenopausal women is 1200-1500 mg per day."
+                      },
+                      {
+                        "q": "The recommended daily Vitamin D intake for postmenopausal women is:",
+                        "options": [
+                          "200 IU",
+                          "400 IU",
+                          "800 IU",
+                          "2000 IU"
+                        ],
+                        "answer": 2,
+                        "explanation": "The recommended daily Vitamin D intake for postmenopausal women is 800 IU per day."
+                      },
+                      {
+                        "q": "Which type of urinary incontinence is characterized by urine leakage with coughing or laughing?",
+                        "options": [
+                          "Urge incontinence",
+                          "Stress incontinence",
+                          "Overflow incontinence",
+                          "Functional incontinence"
+                        ],
+                        "answer": 1,
+                        "explanation": "Stress incontinence is characterized by leakage with coughing, laughing, or climbing due to weak pelvic floor muscles."
+                      },
+                      {
+                        "q": "Which type of urinary incontinence is characterized by urine leakage with a sudden urge to urinate?",
+                        "options": [
+                          "Urge incontinence",
+                          "Stress incontinence",
+                          "Overflow incontinence",
+                          "Functional incontinence"
+                        ],
+                        "answer": 0,
+                        "explanation": "Urge incontinence is characterized by urine leakage with a sudden urge to urinate that the patient is unable to control."
+                      },
+                      {
+                        "q": "Hormonal therapy with estrogen is indicated in all of the following EXCEPT:",
+                        "options": [
+                          "Ovarian insufficiency",
+                          "Gonadal dysgenesis",
+                          "Premature menopause from surgery",
+                          "Asymptomatic menopause"
+                        ],
+                        "answer": 3,
+                        "explanation": "Estrogen therapy is indicated for ovarian insufficiency, gonadal dysgenesis, and premature menopause from surgery or radiotherapy. Asymptomatic women do NOT need hormone therapy."
+                      },
+                      {
+                        "q": "Which of the following is a form of estrogen therapy?",
+                        "options": [
+                          "Oral forms only",
+                          "Skin patches only",
+                          "Oral, subcutaneous, creams, and patches",
+                          "Injections only"
+                        ],
+                        "answer": 2,
+                        "explanation": "Estrogen is available in oral forms, subcutaneous forms, creams, and skin patches."
+                      },
+                      {
+                        "q": "Which non-hormonal drug may reduce hot flushes but has unpleasant side effects?",
+                        "options": [
+                          "Aspirin",
+                          "Clonidine",
+                          "Metformin",
+                          "Ibuprofen"
+                        ],
+                        "answer": 1,
+                        "explanation": "Clonidine (an alpha-adrenergic agonist) may reduce hot flushes but has unpleasant side effects."
+                      },
+                      {
+                        "q": "What percentage of patients with depression may benefit from hypnotics or tranquilizers?",
+                        "options": [
+                          "20%",
+                          "40%",
+                          "60%",
+                          "80%"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hypnotics, tranquilizers, and sedatives are helpful in 40% of patients with depression, but results are disappointing and should be limited."
+                      },
+                      {
+                        "q": "Weight gain during menopause transition is typically:",
+                        "options": [
+                          "1-2 kg",
+                          "3-4 kg",
+                          "5-6 kg",
+                          "7-8 kg"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hormonal changes can account for 3-4 kg weight gain during menopause transition."
+                      },
+                      {
+                        "q": "Most weight gain during menopause is due to:",
+                        "options": [
+                          "Hormonal changes only",
+                          "Lack of exercise and lifestyle changes",
+                          "Increased appetite",
+                          "Thyroid disorders"
+                        ],
+                        "answer": 1,
+                        "explanation": "Most weight gain during menopause is due to lack of exercise and lifestyle changes, not just hormonal changes."
+                      },
+                      {
+                        "q": "Skin changes during menopause include all of the following EXCEPT:",
+                        "options": [
+                          "Skin becomes thinner",
+                          "Elasticity decreases",
+                          "Skin becomes oily",
+                          "Wrinkles develop"
+                        ],
+                        "answer": 2,
+                        "explanation": "During menopause, skin becomes thinner, elasticity decreases, wrinkles develop, and skin becomes dry (not oily)."
+                      },
+                      {
+                        "q": "Which of the following is NOT a urinary symptom associated with menopause?",
+                        "options": [
+                          "Urinary frequency",
+                          "Urgency",
+                          "Incontinence",
+                          "Polyuria"
+                        ],
+                        "answer": 3,
+                        "explanation": "Urinary frequency, urgency, and incontinence are associated with menopause. Polyuria (excessive urine production) is not typically a menopausal symptom."
+                      },
+                      {
+                        "q": "Menopause should be differentiated from all of the following EXCEPT:",
+                        "options": [
+                          "Prolactin-producing tumors",
+                          "Hypothyroidism",
+                          "Pregnancy",
+                          "Vasomotor disorders"
+                        ],
+                        "answer": 2,
+                        "explanation": "Menopause should be differentiated from amenorrhea, prolactin-producing tumors, hypothyroidism, abnormal uterine bleeding, uterine lesions, PCOS, vasomotor disorders, vulvovaginitis, and hypothalamic dysfunction."
+                      },
+                      {
+                        "q": "Which of the following statements about menopause is TRUE?",
+                        "options": [
+                          "Menopause is a disease that requires treatment",
+                          "Menopause is a normal physiological event, not a disease",
+                          "All women with menopause need hormone therapy",
+                          "Menopause only occurs artificially"
+                        ],
+                        "answer": 1,
+                        "explanation": "Menopause is a normal physiological event, NOT a disease. Not all women need hormone therapy, especially asymptomatic ones."
+                      },
+                      {
+                        "q": "Women approaching menopause should reduce their daily caloric intake by:",
+                        "options": [
+                          "50-100 calories",
+                          "100-200 calories",
+                          "200-400 calories",
+                          "500-700 calories"
+                        ],
+                        "answer": 2,
+                        "explanation": "Women approaching menopause should eat less (200-400 fewer calories per day) to manage weight gain."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the definition of menopause?",
+                        "a": "Permanent cessation of menstruation for 1 YEAR."
+                      },
+                      {
+                        "q": "What is the average age of menopause?",
+                        "a": "51 years."
+                      },
+                      {
+                        "q": "What is climacteric?",
+                        "a": "The stage where a woman transitions from reproductive to non-reproductive phase, with irregular menstruation and impaired fertility."
+                      },
+                      {
+                        "q": "What are the two types of menopause?",
+                        "a": "Physiological (Natural) and Artificial (Surgical)."
+                      },
+                      {
+                        "q": "What causes artificial menopause?",
+                        "a": "Oophorectomy (removal of ovaries) or radiotherapy."
+                      },
+                      {
+                        "q": "What is the classic vasomotor symptom of menopause?",
+                        "a": "Hot flushes (associated with estrogen deficiency)."
+                      },
+                      {
+                        "q": "What is osteoporosis?",
+                        "a": "A silent disease with weak and thin bones, increasing fracture risk. Often discovered after a fracture from a minor fall."
+                      },
+                      {
+                        "q": "What are the recommended daily calcium and Vitamin D intakes for postmenopausal women?",
+                        "a": "Calcium: 1200-1500 mg/day, Vitamin D: 800 IU/day."
+                      },
+                      {
+                        "q": "What are the two types of urinary incontinence?",
+                        "a": "Urge incontinence (leakage with sudden urge) and Stress incontinence (leakage with coughing, laughing, or climbing)."
+                      },
+                      {
+                        "q": "What is the indication for hormonal therapy with estrogen?",
+                        "a": "Ovarian insufficiency, gonadal dysgenesis, and premature menopause from surgery or radiotherapy."
+                      },
+                      {
+                        "q": "What are the forms of estrogen therapy?",
+                        "a": "Oral, subcutaneous, creams, and skin patches."
+                      },
+                      {
+                        "q": "Which non-hormonal drug may reduce hot flushes?",
+                        "a": "Clonidine (alpha-adrenergic agonist)."
+                      },
+                      {
+                        "q": "How much weight do hormonal changes account for during menopause?",
+                        "a": "3-4 kg."
+                      },
+                      {
+                        "q": "What is the most important message about menopause?",
+                        "a": "Menopause is a normal physiological event, NOT a disease."
+                      },
+                      {
+                        "q": "What skin changes occur during menopause?",
+                        "a": "Skin becomes thinner, less elastic, dry, with wrinkles developing."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "Definition of Menopause",
+                        "back": "Permanent cessation of menstruation for 1 YEAR."
+                      },
+                      {
+                        "front": "Average age of Menopause",
+                        "back": "51 years."
+                      },
+                      {
+                        "front": "Climacteric",
+                        "back": "Transition from reproductive to non-reproductive phase, with irregular menstruation and impaired fertility."
+                      },
+                      {
+                        "front": "Types of Menopause",
+                        "back": "1. Physiological (Natural)\n2. Artificial (Surgical)"
+                      },
+                      {
+                        "front": "Causes of Artificial Menopause",
+                        "back": "Oophorectomy (removal of ovaries) or Radiotherapy."
+                      },
+                      {
+                        "front": "Classic Vasomotor Symptom",
+                        "back": "Hot flushes (associated with estrogen deficiency)."
+                      },
+                      {
+                        "front": "Associated Symptoms of Hot Flushes",
+                        "back": "Night sweats, Sleep disturbances, Elevated temperature, Irritability, Restlessness, Insomnia, Fatigue."
+                      },
+                      {
+                        "front": "Osteoporosis",
+                        "back": "Silent disease. Weak and thin bones. Increased fracture risk (Pelvis, Wrist, Spine)."
+                      },
+                      {
+                        "front": "Calcium Requirement for Postmenopausal Women",
+                        "back": "1200-1500 mg/day."
+                      },
+                      {
+                        "front": "Vitamin D Requirement for Postmenopausal Women",
+                        "back": "800 IU/day."
+                      },
+                      {
+                        "front": "Urge Incontinence",
+                        "back": "Urine leakage with sudden urge to urinate. Unable to control."
+                      },
+                      {
+                        "front": "Stress Incontinence",
+                        "back": "Urine leakage with coughing, laughing, or climbing."
+                      },
+                      {
+                        "front": "Indications for Hormonal Therapy",
+                        "back": "Ovarian insufficiency, Gonadal dysgenesis, Premature menopause (surgery/radiotherapy)."
+                      },
+                      {
+                        "front": "Forms of Estrogen Therapy",
+                        "back": "Oral, Subcutaneous, Creams, Skin patches."
+                      },
+                      {
+                        "front": "Non-Hormonal Drug for Hot Flushes",
+                        "back": "Clonidine (alpha-adrenergic agonist) - reduces hot flushes but has unpleasant side effects."
+                      },
+                      {
+                        "front": "Weight Gain in Menopause",
+                        "back": "3-4 kg from hormonal changes. Most due to lack of exercise and lifestyle changes."
+                      },
+                      {
+                        "front": "Skin Changes in Menopause",
+                        "back": "Thinner, less elastic, wrinkles develop, dry skin."
+                      },
+                      {
+                        "front": "Urinary Changes in Menopause",
+                        "back": "Dry, thin, fragile mucosa. Burning, itching, UTIs, frequency, urgency, incontinence."
+                      },
+                      {
+                        "front": "Key Message about Menopause",
+                        "back": "Menopause is a NORMAL physiological event, NOT a disease."
+                      },
+                      {
+                        "front": "Differential Diagnosis of Menopause",
+                        "back": "Amenorrhea, Prolactin tumors, Hypothyroidism, AUB, Uterine lesions, PCOS, Vasomotor disorders, Vulvovaginitis, Hypothalamic dysfunction."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Menopause Definition",
+                        "icon": "\ud83d\udccb",
+                        "code": "1 YEAR",
+                        "items": [
+                          {
+                            "letter": "1",
+                            "text": "No menstruation for 1 year = Menopause"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Average Age",
+                        "icon": "\ud83c\udf82",
+                        "code": "51",
+                        "items": [
+                          {
+                            "letter": "51",
+                            "text": "Average age of menopause = 51 years"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Menopause Symptoms",
+                        "icon": "\ud83c\udf0a",
+                        "code": "H-O-S-U-W",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hot flushes"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Osteoporosis"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Skin changes"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Urinary problems"
+                          },
+                          {
+                            "letter": "W",
+                            "text": "Weight gain"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Osteoporosis Requirements",
+                        "icon": "\ud83e\uddb4",
+                        "code": "C-D-E",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Calcium (1200-1500 mg/day)"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Vitamin D (800 IU/day)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Exercise (walking, jogging)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Types of Menopause",
+                        "icon": "\ud83d\udd04",
+                        "code": "P-A",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Physiological (Natural)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Artificial (Surgical)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Forms of Estrogen",
+                        "icon": "\ud83d\udc8a",
+                        "code": "O-S-C-P",
+                        "items": [
+                          {
+                            "letter": "O",
+                            "text": "Oral"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Subcutaneous"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Creams"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Patches (Skin patches)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Urinary Incontinence Types",
+                        "icon": "\ud83d\udebd",
+                        "code": "U-S",
+                        "items": [
+                          {
+                            "letter": "U",
+                            "text": "Urge Incontinence (sudden urge, can't control)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Stress Incontinence (coughing, laughing, climbing)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Key Message",
+                        "icon": "\ud83d\udca1",
+                        "code": "NORMAL",
+                        "items": [
+                          {
+                            "letter": "N",
+                            "text": "Menopause is NORMAL"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "NOT a disease"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Reassure patients"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Majority need estrogen therapy only if symptomatic"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Asymptomatic women do NOT need treatment"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Lifestyle changes are important"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
