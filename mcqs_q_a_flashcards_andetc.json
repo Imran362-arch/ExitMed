@@ -6386,6 +6386,771 @@
               ]
             }
           ]
+        },
+        {
+          "id": "surgery",
+          "name": "Surgery",
+          "icon": "\ud83d\udd2a",
+          "topics": [
+            {
+              "id": "thoracic_surgery",
+              "name": "Thoracic Surgery",
+              "icon": "\ud83e\udec1",
+              "description": "",
+              "subtopics": [
+                {
+                  "id": "venous_disorders",
+                  "name": "Venous Disorders",
+                  "icon": "\ud83e\ude78",
+                  "description": "Disorders of the venous system including Deep Vein Thrombosis (DVT), Pulmonary Embolism (PE), Superficial Vein Thrombosis, Varicose Veins, and Venous Ulcers.",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "The most common cause of pulmonary embolism is:",
+                        "options": [
+                          "Superficial vein thrombosis",
+                          "Deep vein thrombosis",
+                          "Varicose veins",
+                          "Venous ulcers"
+                        ],
+                        "answer": 1,
+                        "explanation": "Deep Vein Thrombosis (DVT) is the most common cause of pulmonary embolism."
+                      },
+                      {
+                        "q": "Virchow's Triad consists of all of the following EXCEPT:",
+                        "options": [
+                          "Vessel wall changes",
+                          "Decreased blood flow",
+                          "Increased blood coagulability",
+                          "Increased arterial pressure"
+                        ],
+                        "answer": 3,
+                        "explanation": "Virchow's Triad = Vessel wall changes + Decreased blood flow (stasis) + Increased blood coagulability. Increased arterial pressure is NOT part of Virchow's Triad."
+                      },
+                      {
+                        "q": "The most common diagnostic test for DVT is:",
+                        "options": [
+                          "Venography",
+                          "Duplex ultrasound",
+                          "Plethysmography",
+                          "Fibrinogen uptake test"
+                        ],
+                        "answer": 1,
+                        "explanation": "Duplex ultrasound is the most common and preferred diagnostic test for DVT."
+                      },
+                      {
+                        "q": "DVT treatment with intravenous heparin is monitored by:",
+                        "options": [
+                          "INR",
+                          "APTT",
+                          "Bleeding time",
+                          "Platelet count"
+                        ],
+                        "answer": 1,
+                        "explanation": "IV heparin therapy is monitored by APTT (Activated Partial Thromboplastin Time)."
+                      },
+                      {
+                        "q": "Warfarin therapy for DVT is monitored by:",
+                        "options": [
+                          "APTT",
+                          "INR",
+                          "Bleeding time",
+                          "Fibrinogen level"
+                        ],
+                        "answer": 1,
+                        "explanation": "Warfarin therapy is monitored by INR (International Normalized Ratio)."
+                      },
+                      {
+                        "q": "The target INR for warfarin therapy in DVT is:",
+                        "options": [
+                          "1.5-2.0",
+                          "2.0-2.5",
+                          "2.5-3.5",
+                          "3.5-4.5"
+                        ],
+                        "answer": 2,
+                        "explanation": "The target INR for warfarin therapy in DVT is 2.5-3.5."
+                      },
+                      {
+                        "q": "Warfarin does NOT:",
+                        "options": [
+                          "Prevent recurrence",
+                          "Dissolve existing thrombus",
+                          "Require monitoring",
+                          "Reduce PE risk"
+                        ],
+                        "answer": 1,
+                        "explanation": "Warfarin prevents recurrence but does NOT dissolve existing thrombus."
+                      },
+                      {
+                        "q": "Recurrent VTE requires:",
+                        "options": [
+                          "3 months of anticoagulation",
+                          "6 months of anticoagulation",
+                          "Lifelong anticoagulation",
+                          "No anticoagulation"
+                        ],
+                        "answer": 2,
+                        "explanation": "Recurrent VTE (Venous Thromboembolism) requires lifelong anticoagulation."
+                      },
+                      {
+                        "q": "The most common site for superficial vein thrombosis is:",
+                        "options": [
+                          "Deep veins of leg",
+                          "Superficial veins used for IV applications",
+                          "Axillary vein",
+                          "Popliteal vein"
+                        ],
+                        "answer": 1,
+                        "explanation": "The most common site for superficial vein thrombosis is superficial veins used for IV applications."
+                      },
+                      {
+                        "q": "Thrombophlebitis migrans is an indicator of:",
+                        "options": [
+                          "Varicose veins",
+                          "Visceral malignancy",
+                          "Deep vein thrombosis",
+                          "Arterial disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "Thrombophlebitis migrans is an indicator of visceral malignancy."
+                      },
+                      {
+                        "q": "Axillary vein thrombosis is associated with:",
+                        "options": [
+                          "Cervical rib",
+                          "Femoral hernia",
+                          "Varicose veins",
+                          "Deep vein thrombosis"
+                        ],
+                        "answer": 0,
+                        "explanation": "Axillary vein thrombosis is associated with cervical rib."
+                      },
+                      {
+                        "q": "Axillary vein thrombosis most commonly occurs after:",
+                        "options": [
+                          "Prolonged bed rest",
+                          "Strenuous exercise",
+                          "Surgery",
+                          "Pregnancy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Axillary vein thrombosis most commonly occurs after strenuous exercise."
+                      },
+                      {
+                        "q": "Varicose veins in the thigh indicate incompetence of:",
+                        "options": [
+                          "Short Saphenous Vein",
+                          "Long Saphenous Vein",
+                          "Popliteal vein",
+                          "Femoral vein"
+                        ],
+                        "answer": 1,
+                        "explanation": "Varicose veins in the thigh indicate Long Saphenous Vein (LSV) incompetence."
+                      },
+                      {
+                        "q": "Varicose veins in the calf indicate incompetence of:",
+                        "options": [
+                          "Long Saphenous Vein",
+                          "Short Saphenous Vein",
+                          "Femoral vein",
+                          "Popliteal vein"
+                        ],
+                        "answer": 1,
+                        "explanation": "Varicose veins in the calf indicate Short Saphenous Vein (SSV) incompetence."
+                      },
+                      {
+                        "q": "Primary varicose veins are due to:",
+                        "options": [
+                          "Venous thrombosis",
+                          "Connective tissue and muscle wall disorders",
+                          "Arteriovenous fistula",
+                          "Congenital anomalies"
+                        ],
+                        "answer": 1,
+                        "explanation": "Primary varicose veins are due to connective tissue and muscle wall disorders."
+                      },
+                      {
+                        "q": "Secondary varicose veins follow:",
+                        "options": [
+                          "Connective tissue disorders",
+                          "Venous thrombosis",
+                          "Occupational factors",
+                          "Congenital predisposition"
+                        ],
+                        "answer": 1,
+                        "explanation": "Secondary varicose veins follow venous thrombosis."
+                      },
+                      {
+                        "q": "Before sclerotherapy or surgery for varicose veins, it is essential to:",
+                        "options": [
+                          "Confirm deep veins are patent",
+                          "Perform venography",
+                          "Start anticoagulation",
+                          "Check INR"
+                        ],
+                        "answer": 0,
+                        "explanation": "Before sclerotherapy or surgery for varicose veins, it is essential to confirm deep veins are patent."
+                      },
+                      {
+                        "q": "If DVT is present and sclerotherapy is performed, the complication is:",
+                        "options": [
+                          "Bleeding",
+                          "Venous gangrene",
+                          "Infection",
+                          "Recurrence"
+                        ],
+                        "answer": 1,
+                        "explanation": "If DVT is present and sclerotherapy is performed, the complication is venous gangrene."
+                      },
+                      {
+                        "q": "The most common symptom of varicose veins is:",
+                        "options": [
+                          "Severe pain",
+                          "Pain at end of day after standing",
+                          "Bleeding",
+                          "Ulceration"
+                        ],
+                        "answer": 1,
+                        "explanation": "The most common symptom of varicose veins is pain at the end of the day after standing."
+                      },
+                      {
+                        "q": "Photoplethysmography measures:",
+                        "options": [
+                          "Arterial flow",
+                          "Light reflection from skin",
+                          "Calf volume changes",
+                          "Venous pressure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Photoplethysmography measures light reflection from skin."
+                      },
+                      {
+                        "q": "Duplex imaging combines:",
+                        "options": [
+                          "B-Mode ultrasound + Doppler probe",
+                          "Venography + Plethysmography",
+                          "Doppler + Strain gauge",
+                          "MRI + CT"
+                        ],
+                        "answer": 0,
+                        "explanation": "Duplex imaging combines B-Mode ultrasound + Doppler probe."
+                      },
+                      {
+                        "q": "Venography is contraindicated in:",
+                        "options": [
+                          "Deep vein thrombosis",
+                          "Infected thrombi and iodine intolerance",
+                          "Varicose veins",
+                          "Superficial vein thrombosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Venography is contraindicated in infected thrombi and iodine intolerance."
+                      },
+                      {
+                        "q": "The most common risk factor for venous thromboembolism is:",
+                        "options": [
+                          "Age",
+                          "Obesity",
+                          "Immobility (bed rest > 4 days)",
+                          "Pregnancy"
+                        ],
+                        "answer": 2,
+                        "explanation": "The most common risk factor for venous thromboembolism is immobility (bed rest > 4 days)."
+                      },
+                      {
+                        "q": "LMWH for DVT prophylaxis has all of the following advantages EXCEPT:",
+                        "options": [
+                          "No monitoring required",
+                          "Lower risk of thrombocytopenia",
+                          "Lower risk of bleeding",
+                          "Requires daily INR monitoring"
+                        ],
+                        "answer": 3,
+                        "explanation": "LMWH does NOT require daily INR monitoring. Advantages include no monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
+                      },
+                      {
+                        "q": "Mechanical prophylaxis for DVT includes:",
+                        "options": [
+                          "LMWH",
+                          "Graduated compression stockings",
+                          "Warfarin",
+                          "Aspirin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mechanical prophylaxis for DVT includes graduated compression stockings."
+                      },
+                      {
+                        "q": "High-risk patients for DVT should receive:",
+                        "options": [
+                          "Mechanical prophylaxis only",
+                          "Pharmacological prophylaxis only",
+                          "Combined mechanical + pharmacological prophylaxis",
+                          "No prophylaxis"
+                        ],
+                        "answer": 2,
+                        "explanation": "High-risk patients for DVT should receive combined mechanical + pharmacological prophylaxis."
+                      },
+                      {
+                        "q": "The differential diagnosis of DVT includes all of the following EXCEPT:",
+                        "options": [
+                          "Baker's cyst",
+                          "Superficial vein thrombophlebitis",
+                          "Calf muscle hematoma",
+                          "Varicose veins"
+                        ],
+                        "answer": 3,
+                        "explanation": "Differential diagnosis of DVT includes Baker's cyst, superficial vein thrombophlebitis, and calf muscle hematoma. Varicose veins are not a differential diagnosis for DVT."
+                      },
+                      {
+                        "q": "Venous thrombectomy is indicated for:",
+                        "options": [
+                          "All DVT cases",
+                          "Pre-gangrenous venous state (phlegmasia cerulea dolens)",
+                          "Superficial vein thrombosis",
+                          "Varicose veins"
+                        ],
+                        "answer": 1,
+                        "explanation": "Venous thrombectomy is indicated for pre-gangrenous venous state (phlegmasia cerulea dolens)."
+                      },
+                      {
+                        "q": "Fibrinolytic agents used for DVT include:",
+                        "options": [
+                          "Heparin",
+                          "Warfarin",
+                          "Plasminogen activator",
+                          "Aspirin"
+                        ],
+                        "answer": 2,
+                        "explanation": "Fibrinolytic agents used for DVT include plasminogen activator."
+                      },
+                      {
+                        "q": "The saphenofemoral junction is located:",
+                        "options": [
+                          "Above femoral artery, 4 cm medial",
+                          "Below knee",
+                          "In the popliteal fossa",
+                          "At the ankle"
+                        ],
+                        "answer": 0,
+                        "explanation": "The saphenofemoral junction is located above the femoral artery, 4 cm medial."
+                      },
+                      {
+                        "q": "The most common complication of varicose veins is:",
+                        "options": [
+                          "Bleeding",
+                          "Superficial vein thrombophlebitis",
+                          "Venous ulceration",
+                          "Eczema"
+                        ],
+                        "answer": 1,
+                        "explanation": "The most common complication of varicose veins is superficial vein thrombophlebitis."
+                      },
+                      {
+                        "q": "Lipodermatosclerosis is a complication of:",
+                        "options": [
+                          "DVT",
+                          "Varicose veins",
+                          "Superficial vein thrombosis",
+                          "Axillary vein thrombosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lipodermatosclerosis is a complication of varicose veins."
+                      },
+                      {
+                        "q": "Which of the following is NOT a cause of secondary varicose veins?",
+                        "options": [
+                          "Venous thrombosis",
+                          "Congenital anomalies",
+                          "Arteriovenous fistulas",
+                          "Connective tissue disorders"
+                        ],
+                        "answer": 3,
+                        "explanation": "Secondary varicose veins are caused by venous thrombosis, congenital anomalies, and arteriovenous fistulas. Connective tissue disorders cause primary varicose veins."
+                      },
+                      {
+                        "q": "Strain gauge plethysmography is useful for:",
+                        "options": [
+                          "Superficial vein thrombosis",
+                          "Iliofemoral venous thrombosis",
+                          "Varicose veins",
+                          "Axillary vein thrombosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Strain gauge plethysmography is useful for iliofemoral venous thrombosis."
+                      },
+                      {
+                        "q": "The deep veins of the leg contain:",
+                        "options": [
+                          "No valves",
+                          "Valves that prevent backflow",
+                          "Only one valve",
+                          "Valves that allow backflow"
+                        ],
+                        "answer": 1,
+                        "explanation": "The deep veins of the leg contain valves that prevent backflow."
+                      },
+                      {
+                        "q": "Venous stasis leads to:",
+                        "options": [
+                          "Decreased venous pressure",
+                          "Venous hypertension and edema",
+                          "Arterial hypertension",
+                          "Decreased edema"
+                        ],
+                        "answer": 1,
+                        "explanation": "Venous stasis leads to venous hypertension and edema."
+                      },
+                      {
+                        "q": "The gastrocsoleus pump is important for:",
+                        "options": [
+                          "Arterial flow",
+                          "Venous return",
+                          "Lymphatic drainage",
+                          "Nerve conduction"
+                        ],
+                        "answer": 1,
+                        "explanation": "The gastrocsoleus pump is important for venous return."
+                      },
+                      {
+                        "q": "Inherited thrombophilia includes all of the following EXCEPT:",
+                        "options": [
+                          "Protein C deficiency",
+                          "Protein S deficiency",
+                          "Antithrombin III deficiency",
+                          "Factor VIII excess"
+                        ],
+                        "answer": 3,
+                        "explanation": "Inherited thrombophilia includes Protein C deficiency, Protein S deficiency, and Antithrombin III deficiency. Factor VIII excess is not an inherited thrombophilia."
+                      },
+                      {
+                        "q": "The most common inherited thrombophilia is:",
+                        "options": [
+                          "Protein C deficiency",
+                          "Protein S deficiency",
+                          "Antithrombin III deficiency",
+                          "Factor V Leiden mutation"
+                        ],
+                        "answer": 3,
+                        "explanation": "The most common inherited thrombophilia is Factor V Leiden mutation."
+                      },
+                      {
+                        "q": "Sclerotherapy works by:",
+                        "options": [
+                          "Dissolving the vein",
+                          "Causing thrombophlebitis to prevent recanalization",
+                          "Dilating the vein",
+                          "Increasing venous flow"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sclerotherapy works by causing thrombophlebitis to prevent recanalization."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is Virchow's Triad?",
+                        "a": "Vessel wall changes, decreased blood flow, and increased blood coagulability."
+                      },
+                      {
+                        "q": "What is the most common cause of pulmonary embolism?",
+                        "a": "Deep Vein Thrombosis (DVT)."
+                      },
+                      {
+                        "q": "What is the most common diagnostic test for DVT?",
+                        "a": "Duplex ultrasound."
+                      },
+                      {
+                        "q": "How is IV heparin monitored in DVT treatment?",
+                        "a": "APTT (Activated Partial Thromboplastin Time)."
+                      },
+                      {
+                        "q": "How is warfarin monitored in DVT treatment?",
+                        "a": "INR (International Normalized Ratio)."
+                      },
+                      {
+                        "q": "What is the target INR for warfarin therapy in DVT?",
+                        "a": "2.5-3.5."
+                      },
+                      {
+                        "q": "Does warfarin dissolve existing thrombus?",
+                        "a": "No, warfarin prevents recurrence but does not dissolve existing thrombus."
+                      },
+                      {
+                        "q": "What is the treatment for recurrent VTE?",
+                        "a": "Lifelong anticoagulation."
+                      },
+                      {
+                        "q": "What is thrombophlebitis migrans an indicator of?",
+                        "a": "Visceral malignancy."
+                      },
+                      {
+                        "q": "What is Axillary Vein Thrombosis associated with?",
+                        "a": "Strenuous exercise and cervical rib."
+                      },
+                      {
+                        "q": "What does varicose veins in the thigh indicate?",
+                        "a": "Long Saphenous Vein (LSV) incompetence."
+                      },
+                      {
+                        "q": "What does varicose veins in the calf indicate?",
+                        "a": "Short Saphenous Vein (SSV) incompetence."
+                      },
+                      {
+                        "q": "What must be confirmed before sclerotherapy or surgery for varicose veins?",
+                        "a": "Deep veins must be patent."
+                      },
+                      {
+                        "q": "What is the most common symptom of varicose veins?",
+                        "a": "Pain at the end of the day after standing."
+                      },
+                      {
+                        "q": "What are the advantages of LMWH over standard heparin?",
+                        "a": "No monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "Virchow's Triad",
+                        "back": "1. Vessel wall changes (endothelial injury)\n2. Decreased blood flow (stasis)\n3. Increased blood coagulability (hypercoagulability)"
+                      },
+                      {
+                        "front": "Most common cause of pulmonary embolism",
+                        "back": "Deep Vein Thrombosis (DVT)."
+                      },
+                      {
+                        "front": "Most common diagnostic test for DVT",
+                        "back": "Duplex ultrasound."
+                      },
+                      {
+                        "front": "Standard treatment for established DVT",
+                        "back": "IV Heparin for 5 days (monitored by APTT) + Warfarin for 3 months (INR 2.5-3.5)."
+                      },
+                      {
+                        "front": "Does warfarin dissolve existing thrombus?",
+                        "back": "No. Warfarin prevents recurrence but does NOT dissolve existing thrombus."
+                      },
+                      {
+                        "front": "Treatment for recurrent VTE",
+                        "back": "Lifelong anticoagulation."
+                      },
+                      {
+                        "front": "Thrombophlebitis migrans",
+                        "back": "Superficial vein thrombosis that migrates; indicates visceral malignancy."
+                      },
+                      {
+                        "front": "Most common site for superficial vein thrombosis",
+                        "back": "Superficial veins used for IV applications."
+                      },
+                      {
+                        "front": "Axillary Vein Thrombosis associated with",
+                        "back": "Strenuous exercise and cervical rib."
+                      },
+                      {
+                        "front": "Significance of varicose veins in the thigh",
+                        "back": "Long Saphenous Vein (LSV) incompetence."
+                      },
+                      {
+                        "front": "Significance of varicose veins in the calf",
+                        "back": "Short Saphenous Vein (SSV) incompetence."
+                      },
+                      {
+                        "front": "Difference between primary and secondary varicose veins",
+                        "back": "Primary: Connective tissue and muscle wall disorders.\nSecondary: Follows venous thrombosis."
+                      },
+                      {
+                        "front": "Before sclerotherapy or surgery for varicose veins, what must be confirmed?",
+                        "back": "Deep veins must be patent. If DVT is present, surgery can cause venous gangrene."
+                      },
+                      {
+                        "front": "Most common symptom of varicose veins",
+                        "back": "Pain at the end of the day after standing."
+                      },
+                      {
+                        "front": "Advantages of LMWH over standard heparin for DVT prophylaxis",
+                        "back": "No monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Virchow's Triad",
+                        "icon": "\ud83d\udd3a",
+                        "code": "V-D-C",
+                        "items": [
+                          {
+                            "letter": "V",
+                            "text": "Vessel wall changes (endothelial injury)"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Decreased blood flow (stasis)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Coagulability changes (hypercoagulability)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "DVT Risk Factors",
+                        "icon": "\u26a0\ufe0f",
+                        "code": "A-B-V-I-P-P-H-P-T",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Age"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Bed rest (> 4 days)"
+                          },
+                          {
+                            "letter": "V",
+                            "text": "Varicose veins"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Immobility"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pregnancy"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Puerperium"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "High-dose estrogen"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Previous DVT/PE"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Thrombophilia"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "DVT Treatment",
+                        "icon": "\ud83d\udc8a",
+                        "code": "H-W-3",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Heparin (5 days, APTT)"
+                          },
+                          {
+                            "letter": "W",
+                            "text": "Warfarin (3 months, INR 2.5-3.5)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Varicose Veins Location",
+                        "icon": "\ud83e\uddb5",
+                        "code": "T-L, C-S",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Thigh \u2192 Long saphenous"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Calf \u2192 Short saphenous"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "DVT Prophylaxis",
+                        "icon": "\ud83d\udee1\ufe0f",
+                        "code": "M-P",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Mechanical (stockings, compression)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pharmacological (LMWH)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Saphenofemoral Junction",
+                        "icon": "\ud83d\udccd",
+                        "code": "Above femoral artery, 4 cm medial",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Saphenofemoral junction location"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "DVT Diagnosis",
+                        "icon": "\ud83d\udd2c",
+                        "code": "D-D",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Duplex ultrasound (most common)"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "D-dimer (adjunct)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Thrombophlebitis Migrans",
+                        "icon": "\ud83d\udd04",
+                        "code": "M = Malignancy",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Migrans indicates visceral malignancy"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Axillary Vein Thrombosis",
+                        "icon": "\ud83d\udcaa",
+                        "code": "E-C",
+                        "items": [
+                          {
+                            "letter": "E",
+                            "text": "Exercise (strenuous)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cervical rib"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Sclerotherapy/Surgery",
+                        "icon": "\ud83d\udc89",
+                        "code": "P-P",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Patent deep veins must be confirmed"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Prevent venous gangrene"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
