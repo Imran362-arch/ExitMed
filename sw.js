@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medexit-v1';
+const CACHE_NAME = 'medexit-v3';
 const ASSETSTOCACHE = [
   './',
   './index.html',
@@ -36,22 +36,11 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   
-  // JSON data file - network first, fallback to cache
+  // JSON data file - NETWORK ONLY (never use cache)
   if (url.pathname.endsWith('.json')) {
     event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (response.ok) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, clone);
-            });
-          }
-          return response;
-        })
-        .catch(() => {
-          return caches.match(event.request);
-        })
+      fetch(event.request, { cache: 'no-store' })
+        .catch(() => caches.match(event.request))
     );
     return;
   }
@@ -68,7 +57,6 @@ self.addEventListener('fetch', (event) => {
         }
         return response;
       }).catch(() => {
-        // Offline fallback for navigation
         if (event.request.mode === 'navigate') {
           return caches.match('./index.html');
         }
