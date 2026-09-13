@@ -8923,6 +8923,13 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cardiology",
+      "name": "Cardiology",
+      "icon": "\u2764\ufe0f",
+      "description": "",
+      "subjects": []
     }
   ]
 }
