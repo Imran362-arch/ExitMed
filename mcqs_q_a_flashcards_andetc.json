@@ -3626,6 +3626,812 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "mitral_stenosis",
+                  "name": "Mitral Stenosis",
+                  "icon": "\u2764\ufe0f",
+                  "description": "Narrowing of the mitral valve opening",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "What is the most common cause of Mitral Stenosis?",
+                        "options": [
+                          "Congenital defect",
+                          "Rheumatic fever",
+                          "Infective endocarditis",
+                          "Degenerative calcification"
+                        ],
+                        "answer": 1,
+                        "explanation": "Rheumatic fever is the most common cause of mitral stenosis, accounting for the vast majority of cases."
+                      },
+                      {
+                        "q": "What is the normal mitral valve area?",
+                        "options": [
+                          "2-3 cm\u00b2",
+                          "4-6 cm\u00b2",
+                          "7-9 cm\u00b2",
+                          "10-12 cm\u00b2"
+                        ],
+                        "answer": 1,
+                        "explanation": "The normal mitral valve area is 4-6 cm\u00b2. Symptoms appear when it decreases to <2 cm\u00b2, and severe stenosis is <1 cm\u00b2."
+                      },
+                      {
+                        "q": "At what valve area do symptoms of mitral stenosis typically appear?",
+                        "options": [
+                          "< 3 cm\u00b2",
+                          "< 2 cm\u00b2",
+                          "< 1.5 cm\u00b2",
+                          "< 1 cm\u00b2"
+                        ],
+                        "answer": 1,
+                        "explanation": "Symptoms typically appear when the mitral valve area decreases to less than 2 cm\u00b2."
+                      },
+                      {
+                        "q": "What is the pathognomonic histopathological finding in rheumatic mitral stenosis?",
+                        "options": [
+                          "Libman-Sacks endocarditis",
+                          "Aschoff's nodule",
+                          "Vegetations",
+                          "Caseating granuloma"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aschoff's nodule is the pathognomonic histopathological finding in rheumatic heart disease including mitral stenosis."
+                      },
+                      {
+                        "q": "What is the most prominent symptom of mitral stenosis?",
+                        "options": [
+                          "Chest pain",
+                          "Exertional dyspnea",
+                          "Palpitations",
+                          "Syncope"
+                        ],
+                        "answer": 1,
+                        "explanation": "Exertional dyspnea is the most prominent and common symptom of mitral stenosis."
+                      },
+                      {
+                        "q": "What is the characteristic facial appearance in severe mitral stenosis?",
+                        "options": [
+                          "Moon face",
+                          "Mitral facies",
+                          "Hippocratic facies",
+                          "Cushingoid facies"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mitral facies presents as dusky pink cheeks and upper lips, seen in severe stenosis with pulmonary hypertension."
+                      },
+                      {
+                        "q": "What is the characteristic murmur of mitral stenosis?",
+                        "options": [
+                          "Systolic ejection murmur",
+                          "Rumbling diastolic murmur",
+                          "Holosystolic murmur",
+                          "Early diastolic murmur"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mitral stenosis causes a low-pitched rumbling diastolic murmur best heard at the apex with the bell in left lateral decubitus position."
+                      },
+                      {
+                        "q": "What is the characteristic ECG finding in mitral stenosis?",
+                        "options": [
+                          "P mitrale",
+                          "P pulmonale",
+                          "Delta wave",
+                          "U wave"
+                        ],
+                        "answer": 0,
+                        "explanation": "P mitrale (double-peaked P wave) is characteristic of left atrial enlargement in mitral stenosis."
+                      },
+                      {
+                        "q": "What is the characteristic CXR finding in mitral stenosis?",
+                        "options": [
+                          "Boot-shaped heart",
+                          "Double shadow",
+                          "Egg-on-side appearance",
+                          "Water bottle heart"
+                        ],
+                        "answer": 1,
+                        "explanation": "Double shadow sign on CXR represents the enlarged left atrium behind the right atrium."
+                      },
+                      {
+                        "q": "What is the gold standard for assessing severity of mitral stenosis?",
+                        "options": [
+                          "Echocardiography",
+                          "Cardiac catheterization",
+                          "CXR",
+                          "ECG"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cardiac catheterization is the gold standard for assessing severity, measuring PA pressure, CO, and valve area."
+                      },
+                      {
+                        "q": "What is the test of choice for diagnosis of mitral stenosis?",
+                        "options": [
+                          "Cardiac catheterization",
+                          "Echocardiography",
+                          "CXR",
+                          "MRI"
+                        ],
+                        "answer": 1,
+                        "explanation": "Echocardiography (TTE) is the test of choice for diagnosis, showing thickened/calcified leaflets and decreased mobility."
+                      },
+                      {
+                        "q": "What is the best test for detecting left atrial thrombus?",
+                        "options": [
+                          "TTE",
+                          "TEE",
+                          "CXR",
+                          "CT scan"
+                        ],
+                        "answer": 1,
+                        "explanation": "Transesophageal echocardiography (TEE) is best for detecting left atrial thrombus."
+                      },
+                      {
+                        "q": "What heart sound is characteristically loud in mitral stenosis?",
+                        "options": [
+                          "S1",
+                          "S2",
+                          "S3",
+                          "S4"
+                        ],
+                        "answer": 0,
+                        "explanation": "S1 is loud in mitral stenosis due to high left atrial pressure causing forceful valve closure."
+                      },
+                      {
+                        "q": "What additional heart sound is heard in mitral stenosis?",
+                        "options": [
+                          "Ejection click",
+                          "Opening snap",
+                          "Pericardial knock",
+                          "Tumor plop"
+                        ],
+                        "answer": 1,
+                        "explanation": "Opening snap is heard in mitral stenosis due to forceful valve opening."
+                      },
+                      {
+                        "q": "What murmur indicates severe pulmonary hypertension in mitral stenosis?",
+                        "options": [
+                          "Austin Flint murmur",
+                          "Graham Steel murmur",
+                          "Carey-Coombs murmur",
+                          "Still's murmur"
+                        ],
+                        "answer": 1,
+                        "explanation": "Graham Steel murmur (early diastolic murmur of pulmonary regurgitation) indicates severe pulmonary hypertension."
+                      },
+                      {
+                        "q": "What is the characteristic palpation finding at the apex in mitral stenosis?",
+                        "options": [
+                          "Thrill",
+                          "Tapping impulse",
+                          "Heave",
+                          "Normal impulse"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tapping impulse (palpable S1) is characteristic at the apex in mitral stenosis."
+                      },
+                      {
+                        "q": "What does parasternal lift indicate in mitral stenosis?",
+                        "options": [
+                          "Left ventricular hypertrophy",
+                          "Right ventricular hypertrophy",
+                          "Left atrial enlargement",
+                          "Pericardial effusion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Parasternal lift indicates right ventricular hypertrophy due to pulmonary hypertension."
+                      },
+                      {
+                        "q": "What arrhythmia commonly develops in mitral stenosis?",
+                        "options": [
+                          "Ventricular tachycardia",
+                          "Atrial fibrillation",
+                          "Heart block",
+                          "Sinus bradycardia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Atrial fibrillation commonly develops due to left atrial dilation and increased pressure."
+                      },
+                      {
+                        "q": "What is a serious complication of left atrial thrombus in mitral stenosis?",
+                        "options": [
+                          "Myocardial infarction",
+                          "Systemic embolization",
+                          "Pulmonary embolism",
+                          "Cardiac tamponade"
+                        ],
+                        "answer": 1,
+                        "explanation": "Systemic embolization can occur from left atrial thrombus, affecting spleen, brain, and periphery."
+                      },
+                      {
+                        "q": "What causes hemoptysis in mitral stenosis?",
+                        "options": [
+                          "Bronchial artery rupture",
+                          "Pulmonary hypertension + acute pulmonary edema",
+                          "Tuberculosis",
+                          "Lung cancer"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hemoptysis in mitral stenosis is due to pulmonary hypertension and acute pulmonary edema."
+                      },
+                      {
+                        "q": "What is Paroxysmal Nocturnal Dyspnea (PND)?",
+                        "options": [
+                          "Dyspnea on exertion",
+                          "Dyspnea that wakes patient from sleep",
+                          "Orthopnea",
+                          "Platypnea"
+                        ],
+                        "answer": 1,
+                        "explanation": "PND is dyspnea that wakes the patient from sleep, common in mitral stenosis."
+                      },
+                      {
+                        "q": "What valve changes occur in rheumatic mitral stenosis?",
+                        "options": [
+                          "Leaflet prolapse",
+                          "Fibrosis + calcification + commissural fusion",
+                          "Vegetations",
+                          "Perforation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Rheumatic mitral stenosis causes fibrosis, calcification, and commissural fusion creating a funnel-shaped valve."
+                      },
+                      {
+                        "q": "What is the shape of the mitral valve in rheumatic stenosis?",
+                        "options": [
+                          "Fish-mouth",
+                          "Funnel-shaped",
+                          "Ball-valve",
+                          "Bicuspid"
+                        ],
+                        "answer": 1,
+                        "explanation": "The valve becomes funnel-shaped due to fibrosis, calcification, and commissural fusion."
+                      },
+                      {
+                        "q": "What is the valve area in severe mitral stenosis?",
+                        "options": [
+                          "< 2 cm\u00b2",
+                          "< 1.5 cm\u00b2",
+                          "< 1 cm\u00b2",
+                          "< 0.5 cm\u00b2"
+                        ],
+                        "answer": 2,
+                        "explanation": "Severe mitral stenosis is defined as valve area < 1 cm\u00b2."
+                      },
+                      {
+                        "q": "What is the hemodynamic consequence of mitral stenosis?",
+                        "options": [
+                          "\u2191 Left atrial pressure",
+                          "\u2193 Left atrial pressure",
+                          "\u2191 Left ventricular pressure",
+                          "\u2193 Right ventricular pressure"
+                        ],
+                        "answer": 0,
+                        "explanation": "Mitral stenosis causes increased left atrial pressure leading to pulmonary venous congestion."
+                      },
+                      {
+                        "q": "What causes right heart failure in mitral stenosis?",
+                        "options": [
+                          "Left ventricular failure",
+                          "Pulmonary hypertension \u2192 RV hypertrophy",
+                          "Tricuspid regurgitation",
+                          "Pericardial disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pulmonary hypertension from chronic left atrial pressure elevation causes RV hypertrophy and eventual right heart failure."
+                      },
+                      {
+                        "q": "What does TTE show in mitral stenosis?",
+                        "options": [
+                          "Normal leaflets",
+                          "Thickened/calcified leaflets with decreased mobility",
+                          "Leaflet prolapse",
+                          "Vegetations"
+                        ],
+                        "answer": 1,
+                        "explanation": "TTE shows thickened/calcified leaflets, decreased mobility, decreased valve area, and commissural fusion."
+                      },
+                      {
+                        "q": "What does Doppler echo measure in mitral stenosis?",
+                        "options": [
+                          "Ejection fraction",
+                          "Pressure gradient across mitral valve",
+                          "Wall motion",
+                          "Valve thickness only"
+                        ],
+                        "answer": 1,
+                        "explanation": "Doppler echo measures increased pressure gradient across the mitral valve and increased pulmonary artery pressure."
+                      },
+                      {
+                        "q": "What does cardiac catheterization measure in mitral stenosis?",
+                        "options": [
+                          "Ejection fraction only",
+                          "PA pressure, CO, Valve area",
+                          "Coronary anatomy only",
+                          "Wall thickness"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cardiac catheterization (gold standard) measures PA pressure, cardiac output, and valve area."
+                      },
+                      {
+                        "q": "What is coronary arteriography used for in mitral stenosis?",
+                        "options": [
+                          "Diagnosis of MS",
+                          "CAD assessment",
+                          "Valve area measurement",
+                          "Pressure gradient"
+                        ],
+                        "answer": 1,
+                        "explanation": "Coronary arteriography is used for coronary artery disease assessment before intervention."
+                      },
+                      {
+                        "q": "What are late signs of right heart failure in mitral stenosis?",
+                        "options": [
+                          "Dyspnea only",
+                          "Large V waves in JVP, peripheral edema, hepatomegaly, ascites",
+                          "Chest pain",
+                          "Palpitations only"
+                        ],
+                        "answer": 1,
+                        "explanation": "Late signs include large V waves in JVP, peripheral edema, hepatomegaly, ascites, and pleural effusion."
+                      },
+                      {
+                        "q": "What is the radiation pattern of the mitral stenosis murmur?",
+                        "options": [
+                          "To the carotids",
+                          "To the axilla",
+                          "To the back",
+                          "No radiation"
+                        ],
+                        "answer": 1,
+                        "explanation": "The rumbling diastolic murmur of mitral stenosis is best heard at the apex and may radiate to the axilla."
+                      },
+                      {
+                        "q": "How is the mitral stenosis murmur best heard?",
+                        "options": [
+                          "Diaphragm, sitting up",
+                          "Bell, left lateral decubitus",
+                          "Diaphragm, supine",
+                          "Bell, standing"
+                        ],
+                        "answer": 1,
+                        "explanation": "The low-pitched rumbling diastolic murmur is best heard with the bell in left lateral decubitus position."
+                      },
+                      {
+                        "q": "What is the pitch of the mitral stenosis murmur?",
+                        "options": [
+                          "High-pitched",
+                          "Medium-pitched",
+                          "Low-pitched",
+                          "Musical"
+                        ],
+                        "answer": 2,
+                        "explanation": "The murmur of mitral stenosis is characteristically low-pitched (rumbling)."
+                      },
+                      {
+                        "q": "What is the location of the mitral stenosis murmur?",
+                        "options": [
+                          "Base",
+                          "Apex",
+                          "Left sternal border",
+                          "Right sternal border"
+                        ],
+                        "answer": 1,
+                        "explanation": "The murmur is best heard at the apex (mitral area)."
+                      },
+                      {
+                        "q": "What causes the loud S1 in mitral stenosis?",
+                        "options": [
+                          "Low LA pressure",
+                          "High LA pressure \u2192 forceful valve closure",
+                          "Valve calcification",
+                          "LV hypertrophy"
+                        ],
+                        "answer": 1,
+                        "explanation": "High left atrial pressure causes forceful valve closure, resulting in a loud S1."
+                      },
+                      {
+                        "q": "What causes the opening snap in mitral stenosis?",
+                        "options": [
+                          "Forceful valve closure",
+                          "Forceful valve opening",
+                          "Valve calcification",
+                          "Chordae rupture"
+                        ],
+                        "answer": 1,
+                        "explanation": "The opening snap is due to forceful opening of the stenotic mitral valve."
+                      },
+                      {
+                        "q": "What is the timing of the mitral stenosis murmur?",
+                        "options": [
+                          "Systolic",
+                          "Early diastolic",
+                          "Mid-diastolic to late diastolic",
+                          "Continuous"
+                        ],
+                        "answer": 2,
+                        "explanation": "The rumbling murmur occurs in mid-to-late diastole after the opening snap."
+                      },
+                      {
+                        "q": "What is mitral facies indicative of?",
+                        "options": [
+                          "Mild MS",
+                          "Severe stenosis + pulmonary hypertension",
+                          "Aortic stenosis",
+                          "Mitral regurgitation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mitral facies (dusky pink cheeks and upper lips) indicates severe stenosis with pulmonary hypertension."
+                      },
+                      {
+                        "q": "What is the most common complication of mitral stenosis?",
+                        "options": [
+                          "Infective endocarditis",
+                          "Atrial fibrillation",
+                          "Ventricular tachycardia",
+                          "Heart block"
+                        ],
+                        "answer": 1,
+                        "explanation": "Atrial fibrillation is a common complication due to left atrial dilation and increased pressure."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the most common cause of Mitral Stenosis?",
+                        "a": "Rheumatic fever is the most common cause, accounting for the vast majority of cases."
+                      },
+                      {
+                        "q": "What is the normal mitral valve area?",
+                        "a": "The normal mitral valve area is 4-6 cm\u00b2."
+                      },
+                      {
+                        "q": "At what valve area do symptoms appear?",
+                        "a": "Symptoms typically appear when the valve area decreases to less than 2 cm\u00b2."
+                      },
+                      {
+                        "q": "What defines severe mitral stenosis?",
+                        "a": "Severe mitral stenosis is defined as a valve area less than 1 cm\u00b2."
+                      },
+                      {
+                        "q": "What is the pathognomonic histopathological finding?",
+                        "a": "Aschoff's nodule is the pathognomonic histopathological finding in rheumatic mitral stenosis."
+                      },
+                      {
+                        "q": "What are the valve changes in rheumatic mitral stenosis?",
+                        "a": "Fibrosis, calcification, and commissural fusion creating a funnel-shaped valve."
+                      },
+                      {
+                        "q": "What is the most prominent symptom?",
+                        "a": "Exertional dyspnea is the most prominent and common symptom."
+                      },
+                      {
+                        "q": "What is mitral facies?",
+                        "a": "Dusky pink cheeks and upper lips, seen in severe stenosis with pulmonary hypertension."
+                      },
+                      {
+                        "q": "What is the characteristic murmur?",
+                        "a": "Low-pitched rumbling diastolic murmur best heard at the apex with the bell in left lateral decubitus position, radiating to the axilla."
+                      },
+                      {
+                        "q": "What heart sounds are characteristic?",
+                        "a": "Loud S1 (due to high LA pressure) and opening snap (due to forceful valve opening)."
+                      },
+                      {
+                        "q": "What is the characteristic ECG finding?",
+                        "a": "P mitrale (double-peaked P wave) indicating left atrial enlargement, along with RVH and atrial fibrillation."
+                      },
+                      {
+                        "q": "What is the characteristic CXR finding?",
+                        "a": "Double shadow sign (LA behind RA), straightening of left heart border, LA enlargement, and valve calcification."
+                      },
+                      {
+                        "q": "What does echocardiography show?",
+                        "a": "Thickened/calcified leaflets, decreased mobility, decreased valve area, and commissural fusion."
+                      },
+                      {
+                        "q": "What is the gold standard for severity assessment?",
+                        "a": "Cardiac catheterization is the gold standard, measuring PA pressure, cardiac output, and valve area."
+                      },
+                      {
+                        "q": "What is the best test for detecting LA thrombus?",
+                        "a": "Transesophageal echocardiography (TEE) is best for detecting left atrial thrombus."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is the most common cause of Mitral Stenosis?",
+                        "back": "Rheumatic fever"
+                      },
+                      {
+                        "front": "What is the normal mitral valve area?",
+                        "back": "4-6 cm\u00b2"
+                      },
+                      {
+                        "front": "At what valve area do symptoms appear?",
+                        "back": "< 2 cm\u00b2"
+                      },
+                      {
+                        "front": "What defines severe mitral stenosis?",
+                        "back": "Valve area < 1 cm\u00b2"
+                      },
+                      {
+                        "front": "What is the pathognomonic histopathological finding?",
+                        "back": "Aschoff's nodule"
+                      },
+                      {
+                        "front": "What is the most prominent symptom?",
+                        "back": "Exertional dyspnea"
+                      },
+                      {
+                        "front": "What is mitral facies?",
+                        "back": "Dusky pink cheeks and upper lips (severe stenosis + pulmonary hypertension)"
+                      },
+                      {
+                        "front": "What is the characteristic murmur?",
+                        "back": "Low-pitched rumbling diastolic murmur at apex, radiates to axilla"
+                      },
+                      {
+                        "front": "What heart sounds are characteristic?",
+                        "back": "Loud S1 and opening snap"
+                      },
+                      {
+                        "front": "What is the characteristic ECG finding?",
+                        "back": "P mitrale (double-peaked P wave)"
+                      },
+                      {
+                        "front": "What is the characteristic CXR finding?",
+                        "back": "Double shadow (LA behind RA)"
+                      },
+                      {
+                        "front": "What is the gold standard for severity?",
+                        "back": "Cardiac catheterization"
+                      },
+                      {
+                        "front": "What is the test of choice for diagnosis?",
+                        "back": "Echocardiography"
+                      },
+                      {
+                        "front": "What is best for detecting LA thrombus?",
+                        "back": "TEE (Transesophageal Echo)"
+                      },
+                      {
+                        "front": "What arrhythmia commonly develops?",
+                        "back": "Atrial fibrillation"
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Causes",
+                        "icon": "\ud83e\udec0",
+                        "code": "Rheumatic = Common, Others = Uncommon",
+                        "items": [
+                          {
+                            "letter": "R",
+                            "text": "Rheumatic fever (Most common)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Congenital"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Infective endocarditis"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Calcification"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Malignant disease"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "SLE"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Rheumatoid arthritis"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Thrombus/Myxoma"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Valve Area",
+                        "icon": "\ud83d\udccf",
+                        "code": "4-6 Normal, 2 Symptoms, 1 Severe",
+                        "items": [
+                          {
+                            "letter": "4-6",
+                            "text": "Normal valve area (cm\u00b2)"
+                          },
+                          {
+                            "letter": "<2",
+                            "text": "Symptoms appear"
+                          },
+                          {
+                            "letter": "<1",
+                            "text": "Severe stenosis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Symptoms",
+                        "icon": "\ud83e\ude7a",
+                        "code": "D-P-H-E",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Dyspnea (Exertional)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "PND (Paroxysmal Nocturnal Dyspnea)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Hemoptysis"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Embolization"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Signs",
+                        "icon": "\ud83d\udc42",
+                        "code": "T-P-L-O-R-G",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Tapping impulse"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Parasternal lift"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Loud S1"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Opening snap"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Rumbling diastolic murmur"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Graham Steel murmur"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ECG Findings",
+                        "icon": "",
+                        "code": "P Mitrale + RVH + AF",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "P mitrale (double-peaked P wave)"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Right ventricular hypertrophy"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Atrial fibrillation"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "CXR Findings",
+                        "icon": "",
+                        "code": "Double Shadow + Straight Left Border",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Double shadow (LA behind RA)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Straightening of left heart border"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "LA enlargement"
+                          },
+                          {
+                            "letter": "V",
+                            "text": "Valve calcification"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Gold Standard",
+                        "icon": "\ud83c\udfc6",
+                        "code": "Cardiac Catheterization",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Cardiac catheterization"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Measures: PA pressure, CO, Valve area"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Diagnosis of Choice",
+                        "icon": "\ud83d\udd0d",
+                        "code": "Echocardiography",
+                        "items": [
+                          {
+                            "letter": "E",
+                            "text": "Echocardiography (TTE)"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Thickened/calcified leaflets"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Decreased mobility and valve area"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "LA Thrombus Detection",
+                        "icon": "",
+                        "code": "TEE",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Transesophageal Echo"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Excellent for LA thrombus"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Essential before intervention"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Hemodynamic Sequence",
+                        "icon": "",
+                        "code": "LA\u2191 \u2192 Pulm\u2191 \u2192 RV\u2191 \u2192 RF",
+                        "items": [
+                          {
+                            "letter": "LA\u2191",
+                            "text": "\u2191 Left atrial pressure"
+                          },
+                          {
+                            "letter": "Pulm\u2191",
+                            "text": "\u2192 Pulmonary venous congestion"
+                          },
+                          {
+                            "letter": "RV\u2191",
+                            "text": "\u2192 RV hypertrophy"
+                          },
+                          {
+                            "letter": "RF",
+                            "text": "\u2192 Right heart failure"
+                          }
+                        ]
+                      }
+                    ]
+                  }
                 }
               ]
             }
