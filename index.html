@@ -1642,50 +1642,44 @@ const images=c.images||[];
 const notes=c.notes||[];
 const links=c.links||[];
 const topicKey=item.id;
-const availableTabs=[];
-if(mcqs.length)availableTabs.push('mcqs');
-if(qa.length)availableTabs.push('qa');
-if(flashcards.length)availableTabs.push('flashcards');
-if(mnemonics.length)availableTabs.push('mnemonics');
-if(notes.length)availableTabs.push('notes');
-if(videos.length)availableTabs.push('videos');
-if(images.length)availableTabs.push('images');
-if(links.length)availableTabs.push('links');
-if(!availableTabs.includes(state.currentTab)&&availableTabs.length){state.currentTab=availableTabs[0]}
-let html=`<div class="topic-hero" style="margin-bottom:24px;">
-<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||'📚'}</div><div class="topic-info">
-<h1 class="${dirClass(item.name)}">${escapeHtml(item.name)}</h1>
-<div class="topic-path">${buildPathDisplay()}</div>
-</div></div>
-${item.description?`<div class="topic-description ${dirClass(item.description)}">${escapeHtml(item.description)}</div>`:''}
-<div class="topic-badges">
-${mcqs.length?`<div class="topic-badge">📋 ${mcqs.length} ${t('mcqs')}</div>`:''}
-${qa.length?`<div class="topic-badge">💬 ${qa.length} ${t('qa')}</div>`:''}
-${flashcards.length?`<div class="topic-badge">🎴 ${flashcards.length} ${t('flashcards')}</div>`:''}
-${mnemonics.length?`<div class="topic-badge">🧠 ${mnemonics.length} ${t('mnemonics')}</div>`:''}
-${notes.length?`<div class="topic-badge">📝 ${notes.length} ${t('notes')}</div>`:''}
-${videos.length?`<div class="topic-badge">🎬 ${videos.length} ${t('videos')}</div>`:''}
-${images.length?`<div class="topic-badge">🖼️ ${images.length} ${t('images')}</div>`:''}
-${links.length?`<div class="topic-badge">🔗 ${links.length} ${t('links')}</div>`:''}
-</div></div>
-<div class="content-tabs">
-${mcqs.length?`<button class="content-tab ${state.currentTab==='mcqs'?'active':''}" onclick="switchTab('mcqs')">📋 ${t('mcqs')} <span class="tab-count">${mcqs.length}</span></button>`:''}
-${qa.length?`<button class="content-tab ${state.currentTab==='qa'?'active':''}" onclick="switchTab('qa')">💬 ${t('qa')} <span class="tab-count">${qa.length}</span></button>`:''}
-${flashcards.length?`<button class="content-tab ${state.currentTab==='flashcards'?'active':''}" onclick="switchTab('flashcards')">🎴 ${t('flashcards')} <span class="tab-count">${flashcards.length}</span></button>`:''}
-${mnemonics.length?`<button class="content-tab ${state.currentTab==='mnemonics'?'active':''}" onclick="switchTab('mnemonics')">🧠 ${t('mnemonics')} <span class="tab-count">${mnemonics.length}</span></button>`:''}
-${notes.length?`<button class="content-tab ${state.currentTab==='notes'?'active':''}" onclick="switchTab('notes')">📝 ${t('notes')} <span class="tab-count">${notes.length}</span></button>`:''}
-${videos.length?`<button class="content-tab ${state.currentTab==='videos'?'active':''}" onclick="switchTab('videos')">🎬 ${t('videos')} <span class="tab-count">${videos.length}</span></button>`:''}
-${images.length?`<button class="content-tab ${state.currentTab==='images'?'active':''}" onclick="switchTab('images')">🖼️ ${t('images')} <span class="tab-count">${images.length}</span></button>`:''}
-${links.length?`<button class="content-tab ${state.currentTab==='links'?'active':''}" onclick="switchTab('links')"> ${t('links')} <span class="tab-count">${links.length}</span></button>`:''}
-</div>
-<div class="content-panel ${state.currentTab==='mcqs'?'active':''}" id="panel-mcqs">${mcqs.length?renderMCQStarter(mcqs,topicKey):renderEmpty()}</div>
-<div class="content-panel ${state.currentTab==='qa'?'active':''}" id="panel-qa">${qa.length?renderQA(qa,topicKey):renderEmpty()}</div>
-<div class="content-panel ${state.currentTab==='flashcards'?'active':''}" id="panel-flashcards">${flashcards.length?renderFlashcards(flashcards,topicKey):renderEmpty()}</div>
-<div class="content-panel ${state.currentTab==='mnemonics'?'active':''}" id="panel-mnemonics">${mnemonics.length?renderMnemonics(mnemonics):renderEmpty()}</div>
-<div class="content-panel ${state.currentTab==='notes'?'active':''}" id="panel-notes">${notes.length?renderNotes(notes,topicKey):renderEmpty(t('noNotes'),t('noNotesDesc'))}</div>
-<div class="content-panel ${state.currentTab==='videos'?'active':''}" id="panel-videos">${videos.length?renderVideos(videos):renderEmpty(t('noVideos'))}</div>
-<div class="content-panel ${state.currentTab==='images'?'active':''}" id="panel-images">${images.length?renderImages(images):renderEmpty(t('noImages'))}</div>
-<div class="content-panel ${state.currentTab==='links'?'active':''}" id="panel-links">${links.length?renderLinks(links):renderEmpty(t('noLinks'))}</div>`;
+
+// Always include all tabs
+const allTabs=['mcqs','qa','flashcards','mnemonics','notes','videos','images','links'];
+if(!allTabs.includes(state.currentTab)){state.currentTab='mcqs'}
+
+let html=
+${item.icon||'📚'}
+${escapeHtml(item.name)}
+${buildPathDisplay()}
+
+${item.description?${escapeHtml(item.description)}:''}
+
+${mcqs.length?📋 ${mcqs.length} ${t('mcqs')}:''}
+${qa.length?💬 ${qa.length} ${t('qa')}:''}
+${flashcards.length?🎴 ${flashcards.length} ${t('flashcards')}:''}
+${mnemonics.length?🧠 ${mnemonics.length} ${t('mnemonics')}:''}
+${notes.length?📝 ${notes.length} ${t('notes')}:''}
+${videos.length? ${videos.length} ${t('videos')}:''}
+${images.length?🖼️ ${images.length} ${t('images')}:''}
+${links.length? ${links.length} ${t('links')}:''}
+
+📋 ${t('mcqs')} ${mcqs.length}
+💬 ${t('qa')} ${qa.length}
+🎴 ${t('flashcards')} ${flashcards.length}
+🧠 ${t('mnemonics')} ${mnemonics.length}
+ ${t('notes')} ${notes.length}
+🎬 ${t('videos')} ${videos.length}
+🖼️ ${t('images')} ${images.length}
+🔗 ${t('links')} ${links.length}
+
+${mcqs.length?renderMCQStarter(mcqs,topicKey):renderEmpty()}
+${qa.length?renderQA(qa,topicKey):renderEmpty()}
+${flashcards.length?renderFlashcards(flashcards,topicKey):renderEmpty()}
+${mnemonics.length?renderMnemonics(mnemonics):renderEmpty()}
+${notes.length?renderNotes(notes,topicKey):renderEmpty(t('noNotes'),t('noNotesDesc'))}
+${videos.length?renderVideos(videos):renderEmpty(t('noVideos'))}
+${images.length?renderImages(images):renderEmpty(t('noImages'))}
+${links.length?renderLinks(links):renderEmpty(t('noLinks'))};
 return html;
 }
 function renderEmpty(msg,desc){
