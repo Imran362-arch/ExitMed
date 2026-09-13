@@ -1,4 +1,4 @@
-const CACHE_NAME = 'medexit-v3';
+const CACHE_NAME = 'medexit-v4';
 const ASSETSTOCACHE = [
   './',
   './index.html',
