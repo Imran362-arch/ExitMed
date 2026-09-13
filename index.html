@@ -1560,14 +1560,14 @@ return parts.join('<span style="color:rgba(255,255,255,0.4)">›</span>');
 }
 function renderContentTabs(item){
 const c=item.content||{};
-const mcqs=c.mcqs||[];
-const qa=c.qa||[];
-const flashcards=c.flashcards||[];
-const mnemonics=c.mnemonics||[];
-const videos=c.videos||[];
-const images=c.images||[];
-const notes=c.notes||[];
-const links=c.links||[];
+const mcqs=c.mcqs||item.mcqs||[];
+const qa=c.qa||item.qa||[];
+const flashcards=c.flashcards||item.flashcards||[];
+const mnemonics=c.mnemonics||item.mnemonics||[];
+const videos=item.videos||c.videos||[];
+const images=item.images||c.images||[];
+const notes=item.notes||c.notes||[];
+const links=item.links||c.links||[];
 const topicKey=item.id;
 const allTabs=['mcqs','qa','flashcards','mnemonics','notes','videos','images','links'];
 if(!allTabs.includes(state.currentTab)){state.currentTab='mcqs'}
