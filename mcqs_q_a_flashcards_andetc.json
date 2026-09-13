@@ -83,7 +83,7 @@
       "id": "clinic",
       "name": "Clinic",
       "icon": "\ud83c\udfe5",
-      "description": "",
+      "description": "Clinical sciences and medical specialties",
       "subjects": [
         {
           "id": "internal_medicine",
@@ -2774,8 +2774,863 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "valvular_heart_disease",
+              "name": "Valvular Heart Disease",
+              "icon": "\ud83e\udec0",
+              "description": "Diseases of the heart valves",
+              "subtopics": [
+                {
+                  "id": "acute_rheumatic_fever",
+                  "name": "Acute Rheumatic Fever",
+                  "icon": "\ud83d\udd25",
+                  "description": "Systemic immune-mediated inflammatory disease following GABHS pharyngitis",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Acute Rheumatic Fever is best classified as which type of disease?",
+                        "options": [
+                          "Infectious disease",
+                          "Immune-mediated inflammatory disease",
+                          "Degenerative disease",
+                          "Congenital disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "ARF is a systemic immune-mediated inflammatory disease that occurs as a delayed reaction following Group A Beta-Hemolytic Streptococcal pharyngitis."
+                      },
+                      {
+                        "q": "ARF most commonly occurs after which type of infection?",
+                        "options": [
+                          "Skin infection",
+                          "GABHS pharyngitis",
+                          "Urinary tract infection",
+                          "Pneumonia"
+                        ],
+                        "answer": 1,
+                        "explanation": "ARF follows Group A Beta-Hemolytic Streptococcal (GABHS) pharyngitis, NOT skin infections. This is a critical distinction."
+                      },
+                      {
+                        "q": "What is the most common time interval between GABHS pharyngitis and onset of ARF?",
+                        "options": [
+                          "1-3 days",
+                          "2-3 weeks",
+                          "2-3 months",
+                          "6-12 months"
+                        ],
+                        "answer": 1,
+                        "explanation": "ARF typically develops 2-3 weeks after the initial GABHS pharyngitis episode."
+                      },
+                      {
+                        "q": "What is the most common age group affected by Acute Rheumatic Fever?",
+                        "options": [
+                          "Infants under 1 year",
+                          "5-15 years",
+                          "25-35 years",
+                          "Above 60 years"
+                        ],
+                        "answer": 1,
+                        "explanation": "ARF most commonly affects children aged 5-15 years. It is rare before age 5 and after age 40."
+                      },
+                      {
+                        "q": "Which heart valve is most commonly affected in Rheumatic Heart Disease?",
+                        "options": [
+                          "Aortic valve",
+                          "Mitral valve",
+                          "Tricuspid valve",
+                          "Pulmonary valve"
+                        ],
+                        "answer": 1,
+                        "explanation": "The mitral valve is the most commonly affected valve in RHD. The aortic valve is second most common."
+                      },
+                      {
+                        "q": "What is the pathognomonic histopathological lesion of Acute Rheumatic Fever?",
+                        "options": [
+                          "Caseating granuloma",
+                          "Aschoff's body",
+                          "Negri body",
+                          "Lewy body"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aschoff's body is the pathognomonic lesion of ARF. It is a granulomatous lesion containing T-cells, plasma cells, macrophages, and fibrinoid necrosis."
+                      },
+                      {
+                        "q": "What is the underlying mechanism by which GABHS antibodies damage heart tissue in ARF?",
+                        "options": [
+                          "Direct bacterial invasion",
+                          "Molecular mimicry",
+                          "Toxin-mediated damage",
+                          "Complement deficiency"
+                        ],
+                        "answer": 1,
+                        "explanation": "Molecular mimicry is the mechanism: antibodies against GABHS cross-react with heart tissue because streptococcal M protein resembles cardiac myosin."
+                      },
+                      {
+                        "q": "Streptococcal M protein most closely resembles which cardiac protein?",
+                        "options": [
+                          "Troponin",
+                          "Cardiac myosin",
+                          "Actin",
+                          "Collagen"
+                        ],
+                        "answer": 1,
+                        "explanation": "The streptococcal M protein structurally resembles cardiac myosin, leading to cross-reactive antibody-mediated damage."
+                      },
+                      {
+                        "q": "Which is the most common major Jones criterion seen in ARF patients?",
+                        "options": [
+                          "Carditis",
+                          "Migratory polyarthritis",
+                          "Sydenham chorea",
+                          "Erythema marginatum"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migratory polyarthritis is the most common major criterion, seen in the majority of ARF patients."
+                      },
+                      {
+                        "q": "Migratory polyarthritis in ARF most commonly begins in which joints?",
+                        "options": [
+                          "Small joints of hands",
+                          "Large joints of lower extremities",
+                          "Temporomandibular joints",
+                          "Spine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migratory polyarthritis typically starts in the large joints of the lower extremities (ankles, knees) and migrates to upper extremities."
+                      },
+                      {
+                        "q": "Which is the ONLY major Jones criterion that causes permanent damage?",
+                        "options": [
+                          "Migratory polyarthritis",
+                          "Carditis",
+                          "Subcutaneous nodules",
+                          "Sydenham chorea"
+                        ],
+                        "answer": 1,
+                        "explanation": "Carditis is the only major criterion that causes permanent damage, potentially leading to chronic rheumatic heart disease."
+                      },
+                      {
+                        "q": "The Carey-Coombs murmur in acute rheumatic carditis indicates which valvular lesion?",
+                        "options": [
+                          "Aortic stenosis",
+                          "Mitral regurgitation",
+                          "Tricuspid stenosis",
+                          "Pulmonary regurgitation"
+                        ],
+                        "answer": 1,
+                        "explanation": "The Carey-Coombs murmur is a mid-diastolic murmur caused by mitral regurgitation/valvulitis in acute rheumatic carditis."
+                      },
+                      {
+                        "q": "Subcutaneous nodules in ARF are most characteristically located over which areas?",
+                        "options": [
+                          "Face and neck",
+                          "Bony prominences and tendons",
+                          "Abdomen and chest",
+                          "Palms and soles"
+                        ],
+                        "answer": 1,
+                        "explanation": "Subcutaneous nodules are firm, painless, and found over bony prominences and tendons such as the back of hand joints, lateral elbow, anterior knee, and spine."
+                      },
+                      {
+                        "q": "Which of the following is a defining characteristic of Erythema Marginatum?",
+                        "options": [
+                          "Intensely itchy",
+                          "Involves the face",
+                          "Non-itchy with pale-centered macules",
+                          "Vesicular rash"
+                        ],
+                        "answer": 2,
+                        "explanation": "Erythema marginatum presents as red, pale-centered macules in a snake-like or ring-shaped pattern. It is NOT itchy and does NOT involve the face."
+                      },
+                      {
+                        "q": "Erythema marginatum in ARF characteristically spares which body area?",
+                        "options": [
+                          "Trunk",
+                          "Arms",
+                          "Face",
+                          "Legs"
+                        ],
+                        "answer": 2,
+                        "explanation": "Erythema marginatum characteristically does NOT appear on the face. It is found on the trunk and arms."
+                      },
+                      {
+                        "q": "Sydenham chorea is most commonly seen in which demographic?",
+                        "options": [
+                          "Males under 5",
+                          "Females",
+                          "Elderly males",
+                          "Infants"
+                        ],
+                        "answer": 1,
+                        "explanation": "Sydenham chorea is more common in females. It is also known as St. Vitus' Dance."
+                      },
+                      {
+                        "q": "What is the most characteristic timing of Sydenham chorea onset after GABHS pharyngitis?",
+                        "options": [
+                          "1-3 days",
+                          "2-3 weeks",
+                          "6-8 weeks (delayed)",
+                          "6-12 months"
+                        ],
+                        "answer": 2,
+                        "explanation": "Sydenham chorea has a DELAYED onset of 6-8 weeks after pharyngitis, which is why ESR/CRP/antibodies may be normal when chorea appears alone."
+                      },
+                      {
+                        "q": "The 'Milkmaid's grip' is a clinical sign most specific for which condition?",
+                        "options": [
+                          "Rheumatoid arthritis",
+                          "Sydenham chorea",
+                          "Parkinson's disease",
+                          "Multiple sclerosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Milkmaid's grip (irregular contractions when gripping) is a classic clinical maneuver finding in Sydenham chorea."
+                      },
+                      {
+                        "q": "Which combination of Jones criteria is required to diagnose ARF?",
+                        "options": [
+                          "3 Major criteria",
+                          "2 Major OR 1 Major + 2 Minor + evidence of GABHS",
+                          "1 Major + 1 Minor",
+                          "4 Minor criteria"
+                        ],
+                        "answer": 1,
+                        "explanation": "Diagnosis requires 2 Major criteria OR 1 Major + 2 Minor criteria, PLUS evidence of preceding GABHS infection."
+                      },
+                      {
+                        "q": "Which single finding alone is sufficient to diagnose ARF without other Jones criteria?",
+                        "options": [
+                          "Migratory polyarthritis",
+                          "Fever and elevated ESR",
+                          "Sydenham chorea",
+                          "Subcutaneous nodules"
+                        ],
+                        "answer": 2,
+                        "explanation": "Sydenham chorea alone is diagnostic of ARF. This is the only exception to the standard Jones criteria requirement."
+                      },
+                      {
+                        "q": "What is the most common ECG finding in Acute Rheumatic Fever?",
+                        "options": [
+                          "ST elevation",
+                          "Prolonged PR interval",
+                          "QRS widening",
+                          "QT prolongation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Prolonged PR interval is the most common ECG finding in ARF and is classified as a minor Jones criterion."
+                      },
+                      {
+                        "q": "Which HLA types are associated with increased susceptibility to ARF?",
+                        "options": [
+                          "HLA-B27",
+                          "HLA-DR4 and HLA-DR7",
+                          "HLA-A3",
+                          "HLA-DQ2"
+                        ],
+                        "answer": 1,
+                        "explanation": "HLA-DR4 and HLA-DR7 are associated with increased susceptibility to ARF, while other HLA types may be protective."
+                      },
+                      {
+                        "q": "Which cell types are found within Aschoff's body?",
+                        "options": [
+                          "Neutrophils and eosinophils",
+                          "T-cells, plasma cells, and macrophages",
+                          "Only fibroblasts",
+                          "B-cells exclusively"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aschoff's body contains T-cells, plasma cells, macrophages, and fibrinoid necrosis. It is a granulomatous lesion."
+                      },
+                      {
+                        "q": "What is the antibiotic of choice for treating GABHS pharyngitis in ARF?",
+                        "options": [
+                          "Oral amoxicillin",
+                          "Benzathine penicillin IM",
+                          "IV vancomycin",
+                          "Oral ciprofloxacin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Benzathine penicillin (1.2 million units IM, single dose) is the antibiotic of choice for eradicating GABHS in ARF."
+                      },
+                      {
+                        "q": "What is the first-line anti-inflammatory treatment for ARF arthritis and fever?",
+                        "options": [
+                          "Ibuprofen",
+                          "Aspirin (salicylates)",
+                          "Methotrexate",
+                          "Colchicine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aspirin (salicylates) is the first-line anti-inflammatory treatment. It reduces fever, joint swelling, and pain but does NOT alter the disease course."
+                      },
+                      {
+                        "q": "What is the drug of choice for treating Sydenham chorea?",
+                        "options": [
+                          "Diazepam",
+                          "Phenobarbital",
+                          "Levodopa",
+                          "Carbamazepine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Phenobarbital is the drug of choice for Sydenham chorea. If no response, haloperidol or chlorpromazine may be used."
+                      },
+                      {
+                        "q": "What is the most appropriate drug for secondary prevention of ARF?",
+                        "options": [
+                          "Oral amoxicillin daily",
+                          "Benzathine penicillin IM every 4 weeks",
+                          "IV ceftriaxone monthly",
+                          "Oral azithromycin daily"
+                        ],
+                        "answer": 1,
+                        "explanation": "Benzathine penicillin 1.2 million units IM every 4 weeks is the standard secondary prophylaxis for ARF."
+                      },
+                      {
+                        "q": "What is the recommended duration of secondary prophylaxis for ARF WITHOUT carditis?",
+                        "options": [
+                          "1 year",
+                          "5 years or until age 21",
+                          "10 years",
+                          "Lifelong"
+                        ],
+                        "answer": 1,
+                        "explanation": "Without carditis, secondary prophylaxis is recommended for 5 years or until age 21, whichever is longer."
+                      },
+                      {
+                        "q": "What is the recommended duration of secondary prophylaxis for ARF with carditis AND valve damage?",
+                        "options": [
+                          "5 years",
+                          "10 years",
+                          "Until age 35-40",
+                          "2 years"
+                        ],
+                        "answer": 2,
+                        "explanation": "With carditis and valve damage, prophylaxis should continue until age 35-40. Severe valvular disease or post-surgery requires lifelong prophylaxis."
+                      },
+                      {
+                        "q": "Which drug is the most appropriate alternative for ARF prophylaxis in penicillin-allergic patients?",
+                        "options": [
+                          "Amoxicillin",
+                          "Erythromycin",
+                          "Tetracycline",
+                          "Gentamicin"
+                        ],
+                        "answer": 1,
+                        "explanation": "Erythromycin is the recommended alternative for secondary prophylaxis in penicillin-allergic patients. Sulfadiazine and azithromycin are also options."
+                      },
+                      {
+                        "q": "Which serological combination provides the highest sensitivity for detecting preceding GABHS infection?",
+                        "options": [
+                          "ASOT alone",
+                          "ASOT + Anti-DNase B + Antihyaluronidase",
+                          "CRP + ESR",
+                          "Throat culture alone"
+                        ],
+                        "answer": 1,
+                        "explanation": "The combination of ASOT + Anti-DNase B + Antihyaluronidase provides the highest sensitivity for detecting preceding GABHS infection."
+                      },
+                      {
+                        "q": "Subclinical carditis in ARF is best detected by which investigation?",
+                        "options": [
+                          "ECG",
+                          "Chest X-ray",
+                          "Echocardiography",
+                          "Cardiac MRI"
+                        ],
+                        "answer": 2,
+                        "explanation": "Subclinical carditis (valvulitis without audible murmur) is detected by echocardiography, which can show valvular changes not apparent clinically."
+                      },
+                      {
+                        "q": "Rheumatic Heart Disease is most commonly seen in which gender?",
+                        "options": [
+                          "Males",
+                          "Females",
+                          "Equal in both",
+                          "Only in children"
+                        ],
+                        "answer": 1,
+                        "explanation": "While ARF affects males and females equally, Rheumatic Heart Disease is MORE COMMON in females."
+                      },
+                      {
+                        "q": "Migratory polyarthritis in ARF is characterized by all of the following EXCEPT:",
+                        "options": [
+                          "Affects large joints",
+                          "Causes permanent joint deformity",
+                          "Responds dramatically to aspirin",
+                          "Self-limiting per joint"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migratory polyarthritis does NOT cause joint deformity. It is self-limiting, affects large joints, and responds dramatically to anti-inflammatory drugs."
+                      },
+                      {
+                        "q": "Which of the following is classified as a MINOR Jones criterion?",
+                        "options": [
+                          "Migratory polyarthritis",
+                          "Subcutaneous nodules",
+                          "Prolonged PR interval",
+                          "Erythema marginatum"
+                        ],
+                        "answer": 2,
+                        "explanation": "Prolonged PR interval is a minor Jones criterion. The others listed are all major criteria."
+                      },
+                      {
+                        "q": "ARF can also occur following which condition besides pharyngitis?",
+                        "options": [
+                          "Impetigo",
+                          "Scarlet fever",
+                          "Otitis media",
+                          "Cellulitis"
+                        ],
+                        "answer": 1,
+                        "explanation": "ARF can also occur after Scarlet Fever, which is also caused by GABHS."
+                      },
+                      {
+                        "q": "What is the most common environmental risk factor for ARF?",
+                        "options": [
+                          "Cold climate",
+                          "Crowded living conditions",
+                          "High altitude",
+                          "Rural farming"
+                        ],
+                        "answer": 1,
+                        "explanation": "Crowded living conditions (schools, military barracks) are the most significant environmental risk factor for ARF transmission."
+                      },
+                      {
+                        "q": "In the chronic phase, Aschoff's bodies are replaced by which tissue type?",
+                        "options": [
+                          "Granulation tissue",
+                          "Fibrotic tissue",
+                          "Adipose tissue",
+                          "Cartilage"
+                        ],
+                        "answer": 1,
+                        "explanation": "In the chronic phase, Aschoff's bodies are replaced by fibrotic tissue and are rarely seen."
+                      },
+                      {
+                        "q": "Which of the following best describes the primary prevention strategy for ARF?",
+                        "options": [
+                          "Monthly benzathine penicillin",
+                          "Adequate treatment of GABHS pharyngitis",
+                          "Aspirin prophylaxis",
+                          "Tonsillectomy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Primary prevention of ARF is adequate treatment of GABHS pharyngitis, which dramatically reduces the risk of developing ARF."
+                      },
+                      {
+                        "q": "Which organ systems are affected by Acute Rheumatic Fever?",
+                        "options": [
+                          "Heart, Brain, Joints, Skin",
+                          "Lungs, Liver, Kidneys",
+                          "Heart, Lungs, Liver",
+                          "Brain, Kidneys, Bones"
+                        ],
+                        "answer": 0,
+                        "explanation": "ARF affects the Heart (carditis), Brain (chorea), Joints (arthritis), and Skin (erythema marginatum, subcutaneous nodules)."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is Acute Rheumatic Fever?",
+                        "a": "A systemic immune-mediated inflammatory disease that occurs as a delayed reaction (2-3 weeks) following Group A Beta-Hemolytic Streptococcal (GABHS) pharyngitis."
+                      },
+                      {
+                        "q": "What is the pathognomonic lesion of ARF?",
+                        "a": "Aschoff's body \u2014 a granulomatous lesion containing T-cells, plasma cells, macrophages, and fibrinoid necrosis found in all layers of the heart during the acute phase."
+                      },
+                      {
+                        "q": "What is molecular mimicry in the context of ARF?",
+                        "a": "Antibodies produced against GABHS cross-react with heart tissue because streptococcal M protein structurally resembles cardiac myosin, leading to pericarditis, myocarditis, and endocarditis."
+                      },
+                      {
+                        "q": "What are the 5 Major Jones Criteria?",
+                        "a": "1) Migratory polyarthritis, 2) Carditis, 3) Subcutaneous nodules, 4) Erythema marginatum, 5) Sydenham chorea."
+                      },
+                      {
+                        "q": "What are the Minor Jones Criteria?",
+                        "a": "Clinical: Fever, Arthralgia, Previous ARF. Laboratory: Elevated ESR/CRP, Leukocytosis, Prolonged PR interval, Positive streptococcal serology (ASOT, Anti-DNase B, Antihyaluronidase)."
+                      },
+                      {
+                        "q": "What is required to diagnose ARF?",
+                        "a": "2 Major criteria OR 1 Major + 2 Minor criteria, PLUS evidence of preceding GABHS infection. Exception: Sydenham chorea alone is diagnostic."
+                      },
+                      {
+                        "q": "Which major criterion is the only one that causes permanent damage?",
+                        "a": "Carditis \u2014 it is the only major Jones criterion that causes permanent damage and can lead to chronic rheumatic heart disease with valvular involvement."
+                      },
+                      {
+                        "q": "What are the clinical maneuvers used to detect Sydenham chorea?",
+                        "a": "Milkmaid's grip (irregular contractions when gripping), Pronation and spooning (hands turn inward when arms extended), Tongue movements when protruded, and Impaired handwriting."
+                      },
+                      {
+                        "q": "What is the drug of choice for Sydenham chorea?",
+                        "a": "Phenobarbital is the drug of choice. If no response, haloperidol or chlorpromazine can be used."
+                      },
+                      {
+                        "q": "What is the standard secondary prophylaxis for ARF?",
+                        "a": "Benzathine penicillin 1.2 million units IM every 4 weeks. Duration depends on cardiac involvement: without carditis 5 years/age 21, with carditis and valve damage until age 35-40, severe disease lifelong."
+                      },
+                      {
+                        "q": "Which valve is most commonly affected in Rheumatic Heart Disease?",
+                        "a": "The mitral valve is most commonly affected, followed by the aortic valve. Tricuspid and pulmonary valves are rarely involved."
+                      },
+                      {
+                        "q": "Why can ESR, CRP, and antibodies be normal in isolated chorea?",
+                        "a": "Because Sydenham chorea has a delayed onset of 6-8 weeks after pharyngitis. By the time chorea appears, the acute inflammatory markers may have already normalized."
+                      },
+                      {
+                        "q": "What is subclinical carditis?",
+                        "a": "Valvulitis detected on echocardiography WITHOUT an audible murmur on clinical examination. It is an important finding that can only be detected by echo."
+                      },
+                      {
+                        "q": "What are the four goals of ARF treatment?",
+                        "a": "1) Stop the inflammatory reaction, 2) Eradicate GABHS infection, 3) Relieve symptoms, 4) Secondary prevention of recurrence."
+                      },
+                      {
+                        "q": "What HLA types increase susceptibility to ARF?",
+                        "a": "HLA-DR4 and HLA-DR7 are associated with increased susceptibility. Only 3-6% of exposed individuals develop ARF, indicating a strong host genetic component."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What type of disease is Acute Rheumatic Fever?",
+                        "back": "A systemic immune-mediated inflammatory disease following GABHS pharyngitis"
+                      },
+                      {
+                        "front": "What is the typical timing of ARF after GABHS pharyngitis?",
+                        "back": "2-3 weeks after initial pharyngitis"
+                      },
+                      {
+                        "front": "What is the most common age group for ARF?",
+                        "back": "5-15 years"
+                      },
+                      {
+                        "front": "What is the pathognomonic lesion of ARF?",
+                        "back": "Aschoff's body (granulomatous lesion with T-cells, plasma cells, macrophages, and fibrinoid necrosis)"
+                      },
+                      {
+                        "front": "What is the mechanism of cardiac damage in ARF?",
+                        "back": "Molecular mimicry \u2014 Streptococcal M protein resembles cardiac myosin, causing cross-reactive antibody damage"
+                      },
+                      {
+                        "front": "Which is the most commonly affected valve in RHD?",
+                        "back": "Mitral valve"
+                      },
+                      {
+                        "front": "Which major Jones criterion is the ONLY one causing permanent damage?",
+                        "back": "Carditis"
+                      },
+                      {
+                        "front": "What is the most common ECG finding in ARF?",
+                        "back": "Prolonged PR interval"
+                      },
+                      {
+                        "front": "Which single finding alone can diagnose ARF?",
+                        "back": "Sydenham chorea (St. Vitus' Dance)"
+                      },
+                      {
+                        "front": "What is the drug of choice for Sydenham chorea?",
+                        "back": "Phenobarbital"
+                      },
+                      {
+                        "front": "What is the standard secondary prophylaxis for ARF?",
+                        "back": "Benzathine penicillin IM every 4 weeks"
+                      },
+                      {
+                        "front": "Erythema marginatum characteristically spares which area?",
+                        "back": "The face \u2014 it appears on trunk and arms only, is non-itchy, with pale-centered ring-shaped macules"
+                      },
+                      {
+                        "front": "What are the chorea clinical maneuvers?",
+                        "back": "Milkmaid's grip, Pronation & spooning, Tongue movements, Handwriting impairment"
+                      },
+                      {
+                        "front": "Which HLA types increase ARF susceptibility?",
+                        "back": "HLA-DR4 and HLA-DR7"
+                      },
+                      {
+                        "front": "What is the Carey-Coombs murmur?",
+                        "back": "A murmur of mitral regurgitation heard in acute rheumatic carditis"
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Major Jones Criteria",
+                        "icon": "\ud83e\udec0",
+                        "code": "JONES",
+                        "items": [
+                          {
+                            "letter": "J",
+                            "text": "Joint involvement (Migratory polyarthritis)"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Heart (Carditis) \u2014 O looks like a heart"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Nodules (Subcutaneous)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Erythema marginatum"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Sydenham chorea"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Major + Minor Jones Criteria",
+                        "icon": "\ud83d\udccb",
+                        "code": "JONES CAF\u00c9 PAL",
+                        "items": [
+                          {
+                            "letter": "J",
+                            "text": "Joint involvement (Migratory polyarthritis)"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Carditis"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Nodules (Subcutaneous)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Erythema marginatum"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Sydenham chorea"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "CRP increased"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Arthralgia"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Fever"
+                          },
+                          {
+                            "letter": "\u00c9",
+                            "text": "Elevated ESR"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Prolonged PR interval"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Anamnesis of Rheumatism (previous ARF)"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Leukocytosis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Chorea Clinical Maneuvers",
+                        "icon": "\ud83e\udd38",
+                        "code": "MPTH",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Milkmaid's grip (irregular contractions)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pronation & spooning of hands"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Tongue movements when protruded"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Handwriting impairment"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ARF Treatment Goals",
+                        "icon": "\ud83d\udc8a",
+                        "code": "AACP",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Antibiotics (Benzathine penicillin for GABHS)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Anti-inflammatory (Aspirin for joints/fever)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Chorea treatment (Phenobarbital)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Prevention (Secondary prophylaxis)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Aschoff's Body Contents",
+                        "icon": "\ud83d\udd2c",
+                        "code": "TPMF",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "T-cells"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Plasma cells"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Macrophages"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Fibrinoid necrosis"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ARF Affected Organs",
+                        "icon": "\ud83c\udfaf",
+                        "code": "H-BJS",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Heart (Carditis \u2014 only permanent damage)"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Brain (Sydenham chorea)"
+                          },
+                          {
+                            "letter": "J",
+                            "text": "Joints (Migratory polyarthritis)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Skin (Erythema marginatum & nodules)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Secondary Prophylaxis Duration",
+                        "icon": "\u23f1\ufe0f",
+                        "code": "5-10-LIFE",
+                        "items": [
+                          {
+                            "letter": "5",
+                            "text": "Without carditis: 5 years or until age 21"
+                          },
+                          {
+                            "letter": "10",
+                            "text": "With carditis (no valve damage): 10 years or until age 25"
+                          },
+                          {
+                            "letter": "35",
+                            "text": "With carditis + valve damage: until age 35-40"
+                          },
+                          {
+                            "letter": "LIFE",
+                            "text": "Severe valvular disease/post-surgery: Lifelong"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Erythema Marginatum Features",
+                        "icon": "\ud83d\udd34",
+                        "code": "RINGS",
+                        "items": [
+                          {
+                            "letter": "R",
+                            "text": "Ring-shaped / snake-like pattern"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Inner pale center"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "No itching"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Gone from face (spares face)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Seen on trunk and arms"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Migratory Polyarthritis Features",
+                        "icon": "\ud83e\uddb5",
+                        "code": "LMSR",
+                        "items": [
+                          {
+                            "letter": "L",
+                            "text": "Large joints of lower extremities first"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Migrates to upper extremities"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Self-limiting (resolves per joint in 1-3 days)"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Responds dramatically to aspirin, No deformity"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ARF Diagnosis Rule",
+                        "icon": "\u2705",
+                        "code": "2-1-2-G",
+                        "items": [
+                          {
+                            "letter": "2",
+                            "text": "2 Major criteria"
+                          },
+                          {
+                            "letter": "1",
+                            "text": "OR 1 Major"
+                          },
+                          {
+                            "letter": "2",
+                            "text": "+ 2 Minor criteria"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "+ GABHS evidence required"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
             }
-          ]
+          ],
+          "description": "Diagnosis and treatment of adult diseases"
         },
         {
           "id": "pediatric",
