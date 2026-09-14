@@ -4,687 +4,469 @@
       "id": "clinic",
       "name": "Clinic",
       "icon": "🏥",
-      "subjects": [
+      "description": "Clinical sciences and medical specialties",
+      "children": [
         {
-          "id": "surgery",
-          "name": "Surgery",
-          "icon": "🔪",
-          "topics": [
+          "id": "internal_medicine",
+          "name": "Internal Medicine",
+          "icon": "🩺",
+          "description": "Diagnosis and treatment of adult diseases",
+          "children": [
             {
-              "id": "thoracic_surgery",
-              "name": "Thoracic Surgery",
-              "icon": "🫁",
-              "subtopics": [
+              "id": "valvular_heart_disease",
+              "name": "Valvular Heart Disease",
+              "icon": "🫀",
+              "description": "Diseases of the heart valves",
+              "children": [
                 {
-                  "id": "venous_disorders",
-                  "name": "Venous Disorders",
-                  "icon": "🩸",
-                  "description": "Disorders of the venous system including Deep Vein Thrombosis (DVT), Pulmonary Embolism (PE), Superficial Vein Thrombosis, Varicose Veins, and Venous Ulcers.",
+                  "id": "aortic_stenosis",
+                  "name": "Aortic Stenosis",
+                  "icon": "🚪",
+                  "description": "Failure of aortic valve to open adequately during left ventricular systole",
                   "content": {
                     "mcqs": [
                       {
-                        "q": "The most common cause of pulmonary embolism is:",
-                        "options": [
-                          "Superficial vein thrombosis",
-                          "Deep vein thrombosis",
-                          "Varicose veins",
-                          "Venous ulcers"
-                        ],
+                        "q": "Aortic Stenosis is defined as failure of the aortic valve to open adequately during:",
+                        "options": ["Left ventricular diastole", "Left ventricular systole", "Right ventricular systole", "Right ventricular diastole"],
                         "answer": 1,
-                        "explanation": "Deep Vein Thrombosis (DVT) is the most common cause of pulmonary embolism."
+                        "explanation": "Aortic Stenosis is defined as failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
                       },
                       {
-                        "q": "Virchow's Triad consists of all of the following EXCEPT:",
-                        "options": [
-                          "Vessel wall changes",
-                          "Decreased blood flow",
-                          "Increased blood coagulability",
-                          "Increased arterial pressure"
-                        ],
+                        "q": "The most common location of obstruction in Aortic Stenosis is:",
+                        "options": ["Supravalvular", "Subvalvular", "Valvular", "Supravalvular and subvalvular equally"],
+                        "answer": 2,
+                        "explanation": "Valvular is the most common location of obstruction in Aortic Stenosis."
+                      },
+                      {
+                        "q": "The most common cause of Aortic Stenosis is:",
+                        "options": ["Rheumatic fever", "Congenital bicuspid valve", "Calcific degeneration of a bicuspid valve", "Infective endocarditis"],
+                        "answer": 2,
+                        "explanation": "Calcific degeneration of a bicuspid valve is the most common cause of Aortic Stenosis."
+                      },
+                      {
+                        "q": "In young patients, the most common cause of Aortic Stenosis is:",
+                        "options": ["Rheumatic fever", "Congenital aortic stenosis", "Calcific degeneration", "Paget disease"],
+                        "answer": 1,
+                        "explanation": "In young patients, congenital aortic stenosis is the most common cause."
+                      },
+                      {
+                        "q": "In young adults, the most common cause of Aortic Stenosis is:",
+                        "options": ["Congenital", "Rheumatic valve disease", "Calcific degeneration", "Radiation damage"],
+                        "answer": 1,
+                        "explanation": "In young adults, rheumatic valve disease is the most common cause."
+                      },
+                      {
+                        "q": "In middle-aged and elderly patients, the most common cause of Aortic Stenosis is:",
+                        "options": ["Congenital", "Rheumatic", "Calcific degeneration", "Infective endocarditis"],
+                        "answer": 2,
+                        "explanation": "In middle-aged and elderly patients, calcific degeneration is the most common cause."
+                      },
+                      {
+                        "q": "Which of the following is a risk factor for calcific Aortic Stenosis?",
+                        "options": ["Female gender", "Low LDL", "Hypertension", "Young age"],
+                        "answer": 2,
+                        "explanation": "Hypertension is a risk factor for calcific Aortic Stenosis. Other risk factors include advanced age, male gender, elevated LDL/Lp(a), diabetes, and smoking."
+                      },
+                      {
+                        "q": "The normal aortic valve orifice area is:",
+                        "options": ["1-2 cm²", "2-3 cm²", "3-4 cm²", "4-6 cm²"],
+                        "answer": 2,
+                        "explanation": "The normal aortic valve orifice area is 3-4 cm²."
+                      },
+                      {
+                        "q": "The pathophysiological consequence of Aortic Stenosis is:",
+                        "options": ["Volume overload", "Pressure overload", "Both volume and pressure overload", "No overload"],
+                        "answer": 1,
+                        "explanation": "Aortic Stenosis causes pressure overload of the left ventricle."
+                      },
+                      {
+                        "q": "The type of hypertrophy seen in Aortic Stenosis is:",
+                        "options": ["Eccentric hypertrophy", "Concentric hypertrophy", "Dilated hypertrophy", "No hypertrophy"],
+                        "answer": 1,
+                        "explanation": "Concentric left ventricular hypertrophy is seen in Aortic Stenosis due to pressure overload."
+                      },
+                      {
+                        "q": "Angina pectoris in Aortic Stenosis occurs due to:",
+                        "options": ["Coronary artery disease always", "Increased O₂ demand by hypertrophied LV", "Decreased heart rate", "Aortic regurgitation"],
+                        "answer": 1,
+                        "explanation": "Angina in Aortic Stenosis occurs due to increased O₂ demand by the hypertrophied LV, causing supply-demand mismatch even without CAD."
+                      },
+                      {
+                        "q": "The classic triad of severe Aortic Stenosis includes all of the following EXCEPT:",
+                        "options": ["Exertional dyspnea", "Angina pectoris", "Syncope", "Hemoptysis"],
                         "answer": 3,
-                        "explanation": "Virchow's Triad = Vessel wall changes + Decreased blood flow (stasis) + Increased blood coagulability. Increased arterial pressure is NOT part of Virchow's Triad."
+                        "explanation": "Hemoptysis is NOT part of the classic triad of Aortic Stenosis. The triad is Exertional Dyspnea, Angina Pectoris, and Syncope."
                       },
                       {
-                        "q": "The most common diagnostic test for DVT is:",
-                        "options": [
-                          "Venography",
-                          "Duplex ultrasound",
-                          "Plethysmography",
-                          "Fibrinogen uptake test"
-                        ],
+                        "q": "Syncope in Aortic Stenosis typically occurs:",
+                        "options": ["At rest", "During exertion", "During sleep", "After meals"],
                         "answer": 1,
-                        "explanation": "Duplex ultrasound is the most common and preferred diagnostic test for DVT."
+                        "explanation": "Syncope in Aortic Stenosis typically occurs during exertion due to inadequate cardiac output and decreased blood pressure."
                       },
                       {
-                        "q": "DVT treatment with intravenous heparin is monitored by:",
-                        "options": [
-                          "INR",
-                          "APTT",
-                          "Bleeding time",
-                          "Platelet count"
-                        ],
+                        "q": "The characteristic pulse in Aortic Stenosis is:",
+                        "options": ["Bounding pulse", "Pulsus parvus et tardus", "Water hammer pulse", "Pulsus alternans"],
                         "answer": 1,
-                        "explanation": "IV heparin therapy is monitored by APTT (Activated Partial Thromboplastin Time)."
+                        "explanation": "Pulsus parvus et tardus (slow-rising, low volume) is characteristic of Aortic Stenosis."
                       },
                       {
-                        "q": "Warfarin therapy for DVT is monitored by:",
-                        "options": [
-                          "APTT",
-                          "INR",
-                          "Bleeding time",
-                          "Fibrinogen level"
-                        ],
-                        "answer": 1,
-                        "explanation": "Warfarin therapy is monitored by INR (International Normalized Ratio)."
-                      },
-                      {
-                        "q": "The target INR for warfarin therapy in DVT is:",
-                        "options": [
-                          "1.5-2.0",
-                          "2.0-2.5",
-                          "2.5-3.5",
-                          "3.5-4.5"
-                        ],
+                        "q": "The pulse in Aortic Stenosis is best examined at:",
+                        "options": ["Radial artery", "Femoral artery", "Carotid artery", "Brachial artery"],
                         "answer": 2,
-                        "explanation": "The target INR for warfarin therapy in DVT is 2.5-3.5."
+                        "explanation": "The pulse in Aortic Stenosis is best examined at the carotid artery."
                       },
                       {
-                        "q": "Warfarin does NOT:",
-                        "options": [
-                          "Prevent recurrence",
-                          "Dissolve existing thrombus",
-                          "Require monitoring",
-                          "Reduce PE risk"
-                        ],
+                        "q": "The murmur of Aortic Stenosis is best heard at:",
+                        "options": ["Mitral area", "Aortic area", "Tricuspid area", "Pulmonary area"],
                         "answer": 1,
-                        "explanation": "Warfarin prevents recurrence but does NOT dissolve existing thrombus."
+                        "explanation": "The murmur of Aortic Stenosis is best heard at the aortic area."
                       },
                       {
-                        "q": "Recurrent VTE requires:",
-                        "options": [
-                          "3 months of anticoagulation",
-                          "6 months of anticoagulation",
-                          "Lifelong anticoagulation",
-                          "No anticoagulation"
-                        ],
-                        "answer": 2,
-                        "explanation": "Recurrent VTE (Venous Thromboembolism) requires lifelong anticoagulation."
-                      },
-                      {
-                        "q": "The most common site for superficial vein thrombosis is:",
-                        "options": [
-                          "Deep veins of leg",
-                          "Superficial veins used for IV applications",
-                          "Axillary vein",
-                          "Popliteal vein"
-                        ],
+                        "q": "The murmur of Aortic Stenosis radiates to:",
+                        "options": ["Axilla", "Carotid arteries", "Back", "Neck"],
                         "answer": 1,
-                        "explanation": "The most common site for superficial vein thrombosis is superficial veins used for IV applications."
+                        "explanation": "The murmur of Aortic Stenosis radiates to the carotid arteries."
                       },
                       {
-                        "q": "Thrombophlebitis migrans is an indicator of:",
-                        "options": [
-                          "Varicose veins",
-                          "Visceral malignancy",
-                          "Deep vein thrombosis",
-                          "Arterial disease"
-                        ],
+                        "q": "The murmur of Aortic Stenosis is:",
+                        "options": ["Pansystolic", "Harsh, crescendo-decrescendo", "Early diastolic", "Mid-diastolic"],
                         "answer": 1,
-                        "explanation": "Thrombophlebitis migrans is an indicator of visceral malignancy."
+                        "explanation": "The murmur of Aortic Stenosis is harsh and crescendo-decrescendo (saw-like)."
                       },
                       {
-                        "q": "Axillary vein thrombosis is associated with:",
-                        "options": [
-                          "Cervical rib",
-                          "Femoral hernia",
-                          "Varicose veins",
-                          "Deep vein thrombosis"
-                        ],
+                        "q": "The intensity of the murmur in Aortic Stenosis:",
+                        "options": ["Correlates well with severity", "Does NOT correlate with severity", "Is always loud", "Is always soft"],
+                        "answer": 1,
+                        "explanation": "The intensity of the murmur in Aortic Stenosis does NOT correlate with severity."
+                      },
+                      {
+                        "q": "In very severe Aortic Stenosis, the murmur may be:",
+                        "options": ["Very loud", "Inaudible", "Continuous", "Machinery-like"],
+                        "answer": 1,
+                        "explanation": "In very severe Aortic Stenosis, the murmur may be inaudible."
+                      },
+                      {
+                        "q": "A systolic ejection click in Aortic Stenosis is heard when:",
+                        "options": ["Valve is heavily calcified", "Valve is not calcified", "Valve is regurgitant", "Valve is stenotic"],
+                        "answer": 1,
+                        "explanation": "A systolic ejection click in Aortic Stenosis is heard when the valve is not calcified."
+                      },
+                      {
+                        "q": "A soft or inaudible S2 in Aortic Stenosis indicates:",
+                        "options": ["Mild stenosis", "Calcified and immobile valve", "Normal valve", "Aortic regurgitation"],
+                        "answer": 1,
+                        "explanation": "A soft or inaudible S2 in Aortic Stenosis indicates a calcified and immobile valve."
+                      },
+                      {
+                        "q": "Reversed splitting of S2 in Aortic Stenosis means:",
+                        "options": ["Pulmonary component during expiration", "Aortic component during expiration", "Both components during inspiration", "Both components during expiration"],
+                        "answer": 1,
+                        "explanation": "Reversed splitting of S2 in Aortic Stenosis means the aortic component occurs during expiration."
+                      },
+                      {
+                        "q": "The CXR finding in late Aortic Stenosis includes:",
+                        "options": ["Post-stenotic dilatation of ascending aorta", "Left atrial enlargement", "Right ventricular enlargement", "Pulmonary congestion"],
                         "answer": 0,
-                        "explanation": "Axillary vein thrombosis is associated with cervical rib."
+                        "explanation": "Post-stenotic dilatation of the ascending aorta is a CXR finding in late Aortic Stenosis."
                       },
                       {
-                        "q": "Axillary vein thrombosis most commonly occurs after:",
-                        "options": [
-                          "Prolonged bed rest",
-                          "Strenuous exercise",
-                          "Surgery",
-                          "Pregnancy"
-                        ],
-                        "answer": 1,
-                        "explanation": "Axillary vein thrombosis most commonly occurs after strenuous exercise."
-                      },
-                      {
-                        "q": "Varicose veins in the thigh indicate incompetence of:",
-                        "options": [
-                          "Short Saphenous Vein",
-                          "Long Saphenous Vein",
-                          "Popliteal vein",
-                          "Femoral vein"
-                        ],
-                        "answer": 1,
-                        "explanation": "Varicose veins in the thigh indicate Long Saphenous Vein (LSV) incompetence."
-                      },
-                      {
-                        "q": "Varicose veins in the calf indicate incompetence of:",
-                        "options": [
-                          "Long Saphenous Vein",
-                          "Short Saphenous Vein",
-                          "Femoral vein",
-                          "Popliteal vein"
-                        ],
-                        "answer": 1,
-                        "explanation": "Varicose veins in the calf indicate Short Saphenous Vein (SSV) incompetence."
-                      },
-                      {
-                        "q": "Primary varicose veins are due to:",
-                        "options": [
-                          "Venous thrombosis",
-                          "Connective tissue and muscle wall disorders",
-                          "Arteriovenous fistula",
-                          "Congenital anomalies"
-                        ],
-                        "answer": 1,
-                        "explanation": "Primary varicose veins are due to connective tissue and muscle wall disorders."
-                      },
-                      {
-                        "q": "Secondary varicose veins follow:",
-                        "options": [
-                          "Connective tissue disorders",
-                          "Venous thrombosis",
-                          "Occupational factors",
-                          "Congenital predisposition"
-                        ],
-                        "answer": 1,
-                        "explanation": "Secondary varicose veins follow venous thrombosis."
-                      },
-                      {
-                        "q": "Before sclerotherapy or surgery for varicose veins, it is essential to:",
-                        "options": [
-                          "Confirm deep veins are patent",
-                          "Perform venography",
-                          "Start anticoagulation",
-                          "Check INR"
-                        ],
-                        "answer": 0,
-                        "explanation": "Before sclerotherapy or surgery for varicose veins, it is essential to confirm deep veins are patent."
-                      },
-                      {
-                        "q": "If DVT is present and sclerotherapy is performed, the complication is:",
-                        "options": [
-                          "Bleeding",
-                          "Venous gangrene",
-                          "Infection",
-                          "Recurrence"
-                        ],
-                        "answer": 1,
-                        "explanation": "If DVT is present and sclerotherapy is performed, the complication is venous gangrene."
-                      },
-                      {
-                        "q": "The most common symptom of varicose veins is:",
-                        "options": [
-                          "Severe pain",
-                          "Pain at end of day after standing",
-                          "Bleeding",
-                          "Ulceration"
-                        ],
-                        "answer": 1,
-                        "explanation": "The most common symptom of varicose veins is pain at the end of the day after standing."
-                      },
-                      {
-                        "q": "Photoplethysmography measures:",
-                        "options": [
-                          "Arterial flow",
-                          "Light reflection from skin",
-                          "Calf volume changes",
-                          "Venous pressure"
-                        ],
-                        "answer": 1,
-                        "explanation": "Photoplethysmography measures light reflection from skin."
-                      },
-                      {
-                        "q": "Duplex imaging combines:",
-                        "options": [
-                          "B-Mode ultrasound + Doppler probe",
-                          "Venography + Plethysmography",
-                          "Doppler + Strain gauge",
-                          "MRI + CT"
-                        ],
-                        "answer": 0,
-                        "explanation": "Duplex imaging combines B-Mode ultrasound + Doppler probe."
-                      },
-                      {
-                        "q": "Venography is contraindicated in:",
-                        "options": [
-                          "Deep vein thrombosis",
-                          "Infected thrombi and iodine intolerance",
-                          "Varicose veins",
-                          "Superficial vein thrombosis"
-                        ],
-                        "answer": 1,
-                        "explanation": "Venography is contraindicated in infected thrombi and iodine intolerance."
-                      },
-                      {
-                        "q": "The most common risk factor for venous thromboembolism is:",
-                        "options": [
-                          "Age",
-                          "Obesity",
-                          "Immobility (bed rest > 4 days)",
-                          "Pregnancy"
-                        ],
+                        "q": "A calcified aortic valve is best seen on CXR in which view?",
+                        "options": ["PA view", "AP view", "Lateral view", "Oblique view"],
                         "answer": 2,
-                        "explanation": "The most common risk factor for venous thromboembolism is immobility (bed rest > 4 days)."
-                      },
-                      {
-                        "q": "LMWH for DVT prophylaxis has all of the following advantages EXCEPT:",
-                        "options": [
-                          "No monitoring required",
-                          "Lower risk of thrombocytopenia",
-                          "Lower risk of bleeding",
-                          "Requires daily INR monitoring"
-                        ],
-                        "answer": 3,
-                        "explanation": "LMWH does NOT require daily INR monitoring. Advantages include no monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
-                      },
-                      {
-                        "q": "Mechanical prophylaxis for DVT includes:",
-                        "options": [
-                          "LMWH",
-                          "Graduated compression stockings",
-                          "Warfarin",
-                          "Aspirin"
-                        ],
-                        "answer": 1,
-                        "explanation": "Mechanical prophylaxis for DVT includes graduated compression stockings."
-                      },
-                      {
-                        "q": "High-risk patients for DVT should receive:",
-                        "options": [
-                          "Mechanical prophylaxis only",
-                          "Pharmacological prophylaxis only",
-                          "Combined mechanical + pharmacological prophylaxis",
-                          "No prophylaxis"
-                        ],
-                        "answer": 2,
-                        "explanation": "High-risk patients for DVT should receive combined mechanical + pharmacological prophylaxis."
-                      },
-                      {
-                        "q": "The differential diagnosis of DVT includes all of the following EXCEPT:",
-                        "options": [
-                          "Baker's cyst",
-                          "Superficial vein thrombophlebitis",
-                          "Calf muscle hematoma",
-                          "Varicose veins"
-                        ],
-                        "answer": 3,
-                        "explanation": "Differential diagnosis of DVT includes Baker's cyst, superficial vein thrombophlebitis, and calf muscle hematoma. Varicose veins are not a differential diagnosis for DVT."
-                      },
-                      {
-                        "q": "Venous thrombectomy is indicated for:",
-                        "options": [
-                          "All DVT cases",
-                          "Pre-gangrenous venous state (phlegmasia cerulea dolens)",
-                          "Superficial vein thrombosis",
-                          "Varicose veins"
-                        ],
-                        "answer": 1,
-                        "explanation": "Venous thrombectomy is indicated for pre-gangrenous venous state (phlegmasia cerulea dolens)."
-                      },
-                      {
-                        "q": "Fibrinolytic agents used for DVT include:",
-                        "options": [
-                          "Heparin",
-                          "Warfarin",
-                          "Plasminogen activator",
-                          "Aspirin"
-                        ],
-                        "answer": 2,
-                        "explanation": "Fibrinolytic agents used for DVT include plasminogen activator."
-                      },
-                      {
-                        "q": "The saphenofemoral junction is located:",
-                        "options": [
-                          "Above femoral artery, 4 cm medial",
-                          "Below knee",
-                          "In the popliteal fossa",
-                          "At the ankle"
-                        ],
-                        "answer": 0,
-                        "explanation": "The saphenofemoral junction is located above the femoral artery, 4 cm medial."
-                      },
-                      {
-                        "q": "The most common complication of varicose veins is:",
-                        "options": [
-                          "Bleeding",
-                          "Superficial vein thrombophlebitis",
-                          "Venous ulceration",
-                          "Eczema"
-                        ],
-                        "answer": 1,
-                        "explanation": "The most common complication of varicose veins is superficial vein thrombophlebitis."
-                      },
-                      {
-                        "q": "Lipodermatosclerosis is a complication of:",
-                        "options": [
-                          "DVT",
-                          "Varicose veins",
-                          "Superficial vein thrombosis",
-                          "Axillary vein thrombosis"
-                        ],
-                        "answer": 1,
-                        "explanation": "Lipodermatosclerosis is a complication of varicose veins."
-                      },
-                      {
-                        "q": "Which of the following is NOT a cause of secondary varicose veins?",
-                        "options": [
-                          "Venous thrombosis",
-                          "Congenital anomalies",
-                          "Arteriovenous fistulas",
-                          "Connective tissue disorders"
-                        ],
-                        "answer": 3,
-                        "explanation": "Secondary varicose veins are caused by venous thrombosis, congenital anomalies, and arteriovenous fistulas. Connective tissue disorders cause primary varicose veins."
-                      },
-                      {
-                        "q": "Strain gauge plethysmography is useful for:",
-                        "options": [
-                          "Superficial vein thrombosis",
-                          "Iliofemoral venous thrombosis",
-                          "Varicose veins",
-                          "Axillary vein thrombosis"
-                        ],
-                        "answer": 1,
-                        "explanation": "Strain gauge plethysmography is useful for iliofemoral venous thrombosis."
-                      },
-                      {
-                        "q": "The deep veins of the leg contain:",
-                        "options": [
-                          "No valves",
-                          "Valves that prevent backflow",
-                          "Only one valve",
-                          "Valves that allow backflow"
-                        ],
-                        "answer": 1,
-                        "explanation": "The deep veins of the leg contain valves that prevent backflow."
-                      },
-                      {
-                        "q": "Venous stasis leads to:",
-                        "options": [
-                          "Decreased venous pressure",
-                          "Venous hypertension and edema",
-                          "Arterial hypertension",
-                          "Decreased edema"
-                        ],
-                        "answer": 1,
-                        "explanation": "Venous stasis leads to venous hypertension and edema."
-                      },
-                      {
-                        "q": "The gastrocsoleus pump is important for:",
-                        "options": [
-                          "Arterial flow",
-                          "Venous return",
-                          "Lymphatic drainage",
-                          "Nerve conduction"
-                        ],
-                        "answer": 1,
-                        "explanation": "The gastrocsoleus pump is important for venous return."
-                      },
-                      {
-                        "q": "Inherited thrombophilia includes all of the following EXCEPT:",
-                        "options": [
-                          "Protein C deficiency",
-                          "Protein S deficiency",
-                          "Antithrombin III deficiency",
-                          "Factor VIII excess"
-                        ],
-                        "answer": 3,
-                        "explanation": "Inherited thrombophilia includes Protein C deficiency, Protein S deficiency, and Antithrombin III deficiency. Factor VIII excess is not an inherited thrombophilia."
-                      },
-                      {
-                        "q": "The most common inherited thrombophilia is:",
-                        "options": [
-                          "Protein C deficiency",
-                          "Protein S deficiency",
-                          "Antithrombin III deficiency",
-                          "Factor V Leiden mutation"
-                        ],
-                        "answer": 3,
-                        "explanation": "The most common inherited thrombophilia is Factor V Leiden mutation."
-                      },
-                      {
-                        "q": "Sclerotherapy works by:",
-                        "options": [
-                          "Dissolving the vein",
-                          "Causing thrombophlebitis to prevent recanalization",
-                          "Dilating the vein",
-                          "Increasing venous flow"
-                        ],
-                        "answer": 1,
-                        "explanation": "Sclerotherapy works by causing thrombophlebitis to prevent recanalization."
+                        "explanation": "A calcified aortic valve is best seen on CXR in the lateral view."
                       }
                     ],
                     "qa": [
                       {
-                        "q": "What is Virchow's Triad?",
-                        "a": "Vessel wall changes, decreased blood flow, and increased blood coagulability."
+                        "q": "What is the definition of Aortic Stenosis?",
+                        "a": "Failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
                       },
                       {
-                        "q": "What is the most common cause of pulmonary embolism?",
-                        "a": "Deep Vein Thrombosis (DVT)."
+                        "q": "What is the most common location of obstruction?",
+                        "a": "Valvular."
                       },
                       {
-                        "q": "What is the most common diagnostic test for DVT?",
-                        "a": "Duplex ultrasound."
+                        "q": "What is the most common cause of Aortic Stenosis?",
+                        "a": "Calcific degeneration of a bicuspid valve."
                       },
                       {
-                        "q": "How is IV heparin monitored in DVT treatment?",
-                        "a": "APTT (Activated Partial Thromboplastin Time)."
+                        "q": "What is the classic triad of severe Aortic Stenosis?",
+                        "a": "Exertional Dyspnea, Angina Pectoris, Syncope."
                       },
                       {
-                        "q": "How is warfarin monitored in DVT treatment?",
-                        "a": "INR (International Normalized Ratio)."
+                        "q": "What is the characteristic pulse in Aortic Stenosis?",
+                        "a": "Pulsus parvus et tardus."
                       },
                       {
-                        "q": "What is the target INR for warfarin therapy in DVT?",
-                        "a": "2.5-3.5."
+                        "q": "Where is the pulse best examined?",
+                        "a": "Carotid artery."
                       },
                       {
-                        "q": "Does warfarin dissolve existing thrombus?",
-                        "a": "No, warfarin prevents recurrence but does not dissolve existing thrombus."
+                        "q": "What is the characteristic murmur of Aortic Stenosis?",
+                        "a": "Harsh, crescendo-decrescendo systolic murmur at aortic area, radiating to carotids."
                       },
                       {
-                        "q": "What is the treatment for recurrent VTE?",
-                        "a": "Lifelong anticoagulation."
+                        "q": "Does the intensity of the murmur correlate with severity?",
+                        "a": "No."
                       },
                       {
-                        "q": "What is thrombophlebitis migrans an indicator of?",
-                        "a": "Visceral malignancy."
+                        "q": "What is the pathophysiological consequence of Aortic Stenosis?",
+                        "a": "Pressure overload leading to concentric left ventricular hypertrophy."
                       },
                       {
-                        "q": "What is Axillary Vein Thrombosis associated with?",
-                        "a": "Strenuous exercise and cervical rib."
+                        "q": "Why does angina occur in Aortic Stenosis?",
+                        "a": "Due to increased O₂ demand by the hypertrophied LV."
                       },
                       {
-                        "q": "What does varicose veins in the thigh indicate?",
-                        "a": "Long Saphenous Vein (LSV) incompetence."
+                        "q": "Why does syncope occur in Aortic Stenosis?",
+                        "a": "During exertion, due to inadequate cardiac output."
                       },
                       {
-                        "q": "What does varicose veins in the calf indicate?",
-                        "a": "Short Saphenous Vein (SSV) incompetence."
+                        "q": "When do symptoms appear in Aortic Stenosis?",
+                        "a": "When valve area decreases to 1/3 of normal."
                       },
                       {
-                        "q": "What must be confirmed before sclerotherapy or surgery for varicose veins?",
-                        "a": "Deep veins must be patent."
+                        "q": "What is a systolic ejection click?",
+                        "a": "Heard when the valve is not calcified."
                       },
                       {
-                        "q": "What is the most common symptom of varicose veins?",
-                        "a": "Pain at the end of the day after standing."
+                        "q": "What does a soft or inaudible S2 indicate?",
+                        "a": "Calcified and immobile valve."
                       },
                       {
-                        "q": "What are the advantages of LMWH over standard heparin?",
-                        "a": "No monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
+                        "q": "What is the CXR finding in late Aortic Stenosis?",
+                        "a": "Post-stenotic dilatation of ascending aorta, LV enlargement, and calcified valve."
                       }
                     ],
                     "flashcards": [
                       {
-                        "front": "Virchow's Triad",
-                        "back": "1. Vessel wall changes (endothelial injury)\n2. Decreased blood flow (stasis)\n3. Increased blood coagulability (hypercoagulability)"
+                        "front": "What is the definition of Aortic Stenosis?",
+                        "back": "Failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
                       },
                       {
-                        "front": "Most common cause of pulmonary embolism",
-                        "back": "Deep Vein Thrombosis (DVT)."
+                        "front": "What is the most common location of obstruction in Aortic Stenosis?",
+                        "back": "Valvular (at the valve level)."
                       },
                       {
-                        "front": "Most common diagnostic test for DVT",
-                        "back": "Duplex ultrasound."
+                        "front": "What is the most common cause of Aortic Stenosis?",
+                        "back": "Calcific degeneration of a bicuspid valve."
                       },
                       {
-                        "front": "Standard treatment for established DVT",
-                        "back": "IV Heparin for 5 days (monitored by APTT) + Warfarin for 3 months (INR 2.5-3.5)."
+                        "front": "What is the classic triad of severe Aortic Stenosis?",
+                        "back": "1. Exertional Dyspnea\n2. Angina Pectoris\n3. Syncope (on exertion)"
                       },
                       {
-                        "front": "Does warfarin dissolve existing thrombus?",
-                        "back": "No. Warfarin prevents recurrence but does NOT dissolve existing thrombus."
+                        "front": "What is the characteristic pulse in Aortic Stenosis?",
+                        "back": "Pulsus parvus et tardus (slow-rising, low volume), best examined at the carotid artery."
                       },
                       {
-                        "front": "Treatment for recurrent VTE",
-                        "back": "Lifelong anticoagulation."
+                        "front": "What is the characteristic murmur of Aortic Stenosis?",
+                        "back": "Harsh, crescendo-decrescendo systolic murmur, best heard at the aortic area, radiating to the carotid arteries."
                       },
                       {
-                        "front": "Thrombophlebitis migrans",
-                        "back": "Superficial vein thrombosis that migrates; indicates visceral malignancy."
+                        "front": "Does the intensity of the murmur in Aortic Stenosis correlate with severity?",
+                        "back": "No. The intensity does NOT correlate with severity. It may be inaudible in very severe AS."
                       },
                       {
-                        "front": "Most common site for superficial vein thrombosis",
-                        "back": "Superficial veins used for IV applications."
+                        "front": "What is the pathophysiological consequence of Aortic Stenosis?",
+                        "back": "Pressure overload leading to concentric left ventricular hypertrophy."
                       },
                       {
-                        "front": "Axillary Vein Thrombosis associated with",
-                        "back": "Strenuous exercise and cervical rib."
+                        "front": "Why does angina occur in Aortic Stenosis?",
+                        "back": "Due to increased O₂ demand by the hypertrophied LV (supply-demand mismatch), even without CAD."
                       },
                       {
-                        "front": "Significance of varicose veins in the thigh",
-                        "back": "Long Saphenous Vein (LSV) incompetence."
+                        "front": "Why does syncope occur in Aortic Stenosis?",
+                        "back": "During exertion, due to inadequate cardiac output and decreased blood pressure."
                       },
                       {
-                        "front": "Significance of varicose veins in the calf",
-                        "back": "Short Saphenous Vein (SSV) incompetence."
+                        "front": "When do symptoms appear in Aortic Stenosis?",
+                        "back": "When the valve area decreases to 1/3 of normal. Without surgery, death occurs in 2-3 years."
                       },
                       {
-                        "front": "Difference between primary and secondary varicose veins",
-                        "back": "Primary: Connective tissue and muscle wall disorders.\nSecondary: Follows venous thrombosis."
+                        "front": "What is a systolic ejection click in Aortic Stenosis?",
+                        "back": "Heard when the valve is not calcified."
                       },
                       {
-                        "front": "Before sclerotherapy or surgery for varicose veins, what must be confirmed?",
-                        "back": "Deep veins must be patent. If DVT is present, surgery can cause venous gangrene."
+                        "front": "What does a soft or inaudible S2 in Aortic Stenosis indicate?",
+                        "back": "Calcified and immobile valve."
                       },
                       {
-                        "front": "Most common symptom of varicose veins",
-                        "back": "Pain at the end of the day after standing."
+                        "front": "What is the CXR finding in late Aortic Stenosis?",
+                        "back": "Post-stenotic dilatation of ascending aorta, LV enlargement, and calcified valve (lateral view)."
                       },
                       {
-                        "front": "Advantages of LMWH over standard heparin for DVT prophylaxis",
-                        "back": "No monitoring required, lower risk of thrombocytopenia, and lower risk of bleeding."
+                        "front": "What is the difficulty in elderly patients with Aortic Stenosis?",
+                        "back": "Difficult to differentiate mild AS from aortic sclerosis (thickened but NOT stenotic)."
                       }
                     ],
                     "mnemonics": [
                       {
-                        "title": "Virchow's Triad",
-                        "icon": "🔺",
-                        "code": "V-D-C",
+                        "title": "Classic Triad of Aortic Stenosis",
+                        "icon": "🧠",
+                        "code": "D-A-S",
                         "items": [
-                          { "letter": "V", "text": "Vessel wall changes (endothelial injury)" },
-                          { "letter": "D", "text": "Decreased blood flow (stasis)" },
-                          { "letter": "C", "text": "Coagulability changes (hypercoagulability)" }
+                          {"letter": "D", "text": "Dyspnea (Exertional)"},
+                          {"letter": "A", "text": "Angina Pectoris"},
+                          {"letter": "S", "text": "Syncope (on exertion)"}
                         ]
                       },
                       {
-                        "title": "DVT Risk Factors",
+                        "title": "Pulse in Aortic Stenosis",
+                        "icon": "💓",
+                        "code": "Parvus et Tardus",
+                        "items": [
+                          {"letter": "P", "text": "Parvus - Low volume"},
+                          {"letter": "T", "text": "Tardus - Slow-rising"},
+                          {"letter": "C", "text": "Best examined at CAROTID ARTERY"}
+                        ]
+                      },
+                      {
+                        "title": "Murmur of Aortic Stenosis",
+                        "icon": "🔊",
+                        "code": "Harsh Crescendo-Decrescendo",
+                        "items": [
+                          {"letter": "A", "text": "Best at AORTIC AREA"},
+                          {"letter": "C", "text": "Radiates to CAROTID ARTERIES"}
+                        ]
+                      },
+                      {
+                        "title": "Causes by Age",
+                        "icon": "👴",
+                        "code": "C-R-C",
+                        "items": [
+                          {"letter": "C", "text": "Congenital (Young)"},
+                          {"letter": "R", "text": "Rheumatic + Bicuspid (Young adults)"},
+                          {"letter": "C", "text": "Calcific degeneration (Elderly)"}
+                        ]
+                      },
+                      {
+                        "title": "Risk Factors for Calcific AS",
                         "icon": "⚠️",
-                        "code": "A-B-V-I-P-P-H-P-T",
+                        "code": "A-M-L-H-D-S",
                         "items": [
-                          { "letter": "A", "text": "Age" },
-                          { "letter": "B", "text": "Bed rest (> 4 days)" },
-                          { "letter": "V", "text": "Varicose veins" },
-                          { "letter": "I", "text": "Immobility" },
-                          { "letter": "P", "text": "Pregnancy" },
-                          { "letter": "P", "text": "Puerperium" },
-                          { "letter": "H", "text": "High-dose estrogen" },
-                          { "letter": "P", "text": "Previous DVT/PE" },
-                          { "letter": "T", "text": "Thrombophilia" }
+                          {"letter": "A", "text": "Age"},
+                          {"letter": "M", "text": "Male"},
+                          {"letter": "L", "text": "LDL/Lp(a)"},
+                          {"letter": "H", "text": "Hypertension"},
+                          {"letter": "D", "text": "Diabetes"},
+                          {"letter": "S", "text": "Smoking"}
                         ]
                       },
                       {
-                        "title": "DVT Treatment",
-                        "icon": "💊",
-                        "code": "H-W-3",
-                        "items": [
-                          { "letter": "H", "text": "Heparin (5 days, APTT)" },
-                          { "letter": "W", "text": "Warfarin (3 months, INR 2.5-3.5)" }
-                        ]
-                      },
-                      {
-                        "title": "Varicose Veins Location",
-                        "icon": "🦵",
-                        "code": "T-L, C-S",
-                        "items": [
-                          { "letter": "T", "text": "Thigh → Long saphenous" },
-                          { "letter": "C", "text": "Calf → Short saphenous" }
-                        ]
-                      },
-                      {
-                        "title": "DVT Prophylaxis",
-                        "icon": "🛡️",
-                        "code": "M-P",
-                        "items": [
-                          { "letter": "M", "text": "Mechanical (stockings, compression)" },
-                          { "letter": "P", "text": "Pharmacological (LMWH)" }
-                        ]
-                      },
-                      {
-                        "title": "Saphenofemoral Junction",
+                        "title": "Locations of Obstruction",
                         "icon": "📍",
-                        "code": "Above femoral artery, 4 cm medial",
+                        "code": "V-S-S",
                         "items": [
-                          { "letter": "S", "text": "Saphenofemoral junction location" }
+                          {"letter": "V", "text": "Valvular (most common)"},
+                          {"letter": "S", "text": "Supravalvular"},
+                          {"letter": "S", "text": "Subvalvular"}
                         ]
                       },
                       {
-                        "title": "DVT Diagnosis",
-                        "icon": "🔬",
-                        "code": "D-D",
+                        "title": "Pathophysiology",
+                        "icon": "⚙️",
+                        "code": "Pressure Overload → Concentric LVH",
                         "items": [
-                          { "letter": "D", "text": "Duplex ultrasound (most common)" },
-                          { "letter": "D", "text": "D-dimer (adjunct)" }
+                          {"letter": "P", "text": "Pressure overload"},
+                          {"letter": "C", "text": "Concentric left ventricular hypertrophy"}
                         ]
                       },
                       {
-                        "title": "Thrombophlebitis Migrans",
-                        "icon": "🔄",
-                        "code": "M = Malignancy",
+                        "title": "Symptoms Appear When",
+                        "icon": "⏰",
+                        "code": "Valve Area ↓ to 1/3 Normal",
                         "items": [
-                          { "letter": "M", "text": "Migrans indicates visceral malignancy" }
+                          {"letter": "1/3", "text": "Symptoms appear when valve area decreases to 1/3 of normal"},
+                          {"letter": "2-3", "text": "Death in 2-3 years without surgery"}
                         ]
                       },
                       {
-                        "title": "Axillary Vein Thrombosis",
-                        "icon": "💪",
-                        "code": "E-C",
+                        "title": "CXR Findings",
+                        "icon": "🩻",
+                        "code": "Post-stenotic Dilatation + Calcified Valve",
                         "items": [
-                          { "letter": "E", "text": "Exercise (strenuous)" },
-                          { "letter": "C", "text": "Cervical rib" }
+                          {"letter": "P", "text": "Post-stenotic dilatation of ascending aorta"},
+                          {"letter": "C", "text": "Calcified valve (lateral view)"}
                         ]
                       },
                       {
-                        "title": "Sclerotherapy/Surgery",
-                        "icon": "💉",
-                        "code": "P-P",
+                        "title": "Elderly Consideration",
+                        "icon": "👴",
+                        "code": "Difficult to Differentiate AS from Aortic Sclerosis",
                         "items": [
-                          { "letter": "P", "text": "Patent deep veins must be confirmed" },
-                          { "letter": "P", "text": "Prevent venous gangrene" }
+                          {"letter": "S", "text": "Sclerosis = thickened but NOT stenotic"}
                         ]
                       }
-                    ]
+                    ],
+                    "notes": [
+                      {
+                        "type": "important",
+                        "title": "Definition & General Considerations",
+                        "icon": "📖",
+                        "tags": ["definition", "high-yield"],
+                        "content": "{key}AORTIC STENOSIS (AS):{/key}\n• Failure of aortic valve to open adequately during {hl}LEFT VENTRICULAR SYSTOLE{/hl}\n• Creates obstruction to {hl}LEFT VENTRICULAR OUTFLOW{/hl}\n\n{key}LOCATIONS OF OBSTRUCTION:{/key}\n• {hl}VALVULAR:{/hl} At valve level (most common)\n• {hl}SUPRAVALVULAR:{/hl} Above valve\n• {hl}SUBVALVULAR:{/hl} Below valve (from muscular hypertrophy)\n\n{key}Most common cause:{/key} Calcific degeneration of a {hl}BICUSPID{/hl} valve"
+                      },
+                      {
+                        "type": "info",
+                        "title": "Causes & Pathology",
+                        "icon": "🔬",
+                        "tags": ["causes", "etiology", "high-yield"],
+                        "content": "{key}AGE-DEPENDENT ETIOLOGY:{/key}\n\n• {hl}YOUNG AGE:{/hl}\n  - Congenital aortic stenosis\n  - Supravalvular, subvalvular, valvular stenosis\n\n• {hl}YOUNG ADULTS & ADULTS:{/hl}\n  - Rheumatic valve disease\n  - Fibrosis + Calcification of BICUSPID valve\n\n• {hl}MIDDLE-AGED & ELDERLY:{/hl}\n  - Calcific degeneration\n  - Degenerative changes\n\n{key}RISK FACTORS FOR CALCIFIC AORTIC STENOSIS:{/key}\n• Advanced age\n• Male gender\n• ↑ Lipoprotein (a) and LDL\n• Hypertension\n• Diabetes Mellitus\n• Smoking\n\n{key}RARE CAUSES:{/key}\n• Infective endocarditis with obstruction\n• Paget disease\n• Rheumatoid lesions\n• Radiation damage"
+                      },
+                      {
+                        "type": "note",
+                        "title": "Pathophysiology",
+                        "icon": "⚙️",
+                        "tags": ["pathophysiology", "high-yield"],
+                        "content": "{key}NORMAL AORTIC VALVE:{/key}\n• Three leaflets\n• Orifice: {ok}3-4 cm²{/ok}\n• Opens during systole → Blood ejected to aorta\n• Closes during diastole → Prevents backflow\n\n{key}IN AORTIC STENOSIS:{/key}\n• Obstruction to LV outflow\n• Sustained pressure gradient across valve\n• Left ventricular {hl}PRESSURE OVERLOAD{/hl}\n• {hl}Concentric LEFT VENTRICULAR HYPERTROPHY{/hl}\n\n{key}CONSEQUENCES OF HYPERTROPHY:{/key}\n• Relative myocardial ischemia\n• Angina pectoris (even without CAD)\n• Arrhythmias\n• Left ventricular failure\n\n{key}PROGRESSION:{/key}\n• Early: Compensated (normal cardiac output maintained)\n• Late: LV dilates + Wall thins → Systolic dysfunction\n• During exercise: Cardiac output cannot increase adequately\n• → Syncope, Arrhythmias, Sudden death\n\n{warn}CRITICAL POINT:{/warn} When valve area ↓ to {hlpu}1/3 of normal{/hlpu}, symptoms appear; Without surgery, death occurs in {hlpu}2-3 years{/hlpu}"
+                      },
+                      {
+                        "type": "note",
+                        "title": "Clinical Findings - Symptoms",
+                        "icon": "🩺",
+                        "tags": ["symptoms", "clinical", "high-yield"],
+                        "content": "{key}HISTORY:{/key}\n• Murmur since childhood → Congenital\n• History of rheumatic fever → Rheumatic\n\n{key}ASYMPTOMATIC (Mild-Moderate):{/key}\n• For years, may be discovered incidentally\n\n{key}CLASSIC TRIAD (Severe AS) - D-A-S:{/key}\n\n1. {hl}EXERTIONAL DYSPNEA:{/hl}\n   • Due to ↑ pressure in non-compliant LV\n\n2. {hl}ANGINA PECTORIS:{/hl}\n   • Due to ↑ O₂ demand by hypertrophied LV\n   • Supply-demand mismatch (even without CAD)\n\n3. {hl}SYNCOPE{/hl} (Temporary loss of consciousness):\n   • During exertion\n   • Due to inadequate cardiac output + ↓ BP\n\n{key}OTHER SYMPTOMS:{/key}\n• Acute pulmonary edema (possible)\n• Sudden death (possible)"
+                      },
+                      {
+                        "type": "important",
+                        "title": "Clinical Findings - Signs",
+                        "icon": "👂",
+                        "tags": ["signs", "physical exam", "high-yield"],
+                        "content": "{key}PULSE:{/key}\n• {hl}Slow-rising (parvus et tardus){/hl}\n• Rapid fall in descending phase\n• Best examined at {hl}CAROTID ARTERY{/hl}\n• Narrow pulse pressure\n\n{key}PALPATION:{/key}\n• Apex beat: Usually normal position\n• Sustained or double impulse (S4 or atrial kick)\n• {hl}SYSTOLIC THRILL:{/hl} Palpable murmur at aortic area\n\n{key}AUSCULTATION - MURMUR:{/key}\n• Best heard at {hl}AORTIC AREA{/hl}\n• Radiates to {hl}CAROTID ARTERIES{/hl}\n• {hl}Harsh, crescendo-decrescendo{/hl} (saw-like)\n• \"Mew\" sound in elderly\n• Duration: Longer in severe obstruction\n• {warn}INTENSITY does NOT correlate with severity{/warn}\n• Very severe AS: Murmur may be {hlpu}INAUDIBLE{/hlpu}\n\n{key}OTHER AUSCULTATORY FINDINGS:{/key}\n• Systolic ejection click (if valve not calcified)\n• Soft or inaudible S2 (if valve immobile/calcified)\n• Reversed splitting of S2 (aortic component during expiration)\n• Prominent S4\n\n{key}SPECIAL CONSIDERATIONS IN ELDERLY (≥60 years):{/key}\n• 20% have hypertension (50% moderate-severe)\n• ↑ Arterial stiffness → Normal or rapid upstroke\n• Pressure pulse may be wide\n• Difficult to differentiate mild AS from aortic sclerosis (sclerosis = thickened but NOT stenotic)"
+                      },
+                      {
+                        "type": "warning",
+                        "title": "Diagnosis - Chest Radiography",
+                        "icon": "🩻",
+                        "tags": ["diagnosis", "investigations", "CXR", "high-yield"],
+                        "content": "{key}EARLY:{/key} May be {ok}NORMAL{/ok}\n\n{key}LATE (PA view):{/key}\n• {hl}POST-STENOTIC DILATATION{/hl} of ascending aorta\n• Left ventricular enlargement\n\n{key}LATERAL VIEW:{/key}\n• {hl}Calcified aortic valve{/hl} (clearly visible)\n\n{key}WITH HEART FAILURE:{/key}\n• ↑ Cardio-thoracic ratio"
+                      },
+                      {
+                        "type": "tip",
+                        "title": "Never Forget - High Yield Points",
+                        "icon": "⭐",
+                        "tags": ["high-yield", "exam", "important"],
+                        "content": "{ok}AS = Obstruction to LEFT VENTRICULAR OUTFLOW during systole{/ok}\n\n{ok}LOCATIONS: Valvular (most common), Supravalvular, Subvalvular{/ok}\n\n{ok}CAUSES BY AGE:{/ok}\n• Young: Congenital\n• Young adults: Rheumatic + Bicuspid calcification\n• Elderly: Calcific degeneration\n\n{ok}Most common: Calcific degeneration of BICUSPID valve{/ok}\n\n{ok}RISK FACTORS: Age, Male, ↑ LDL/Lp(a), HTN, DM, Smoking{/ok}\n\n{ok}PATHOPHYSIOLOGY:{/ok}\n• Pressure overload → Concentric LVH\n• Relative ischemia → Angina (even without CAD)\n• When valve area ↓ to 1/3 normal → Symptoms appear\n• Without surgery: Death in 2-3 years after symptoms\n\n{ok}CLASSIC TRIAD (Severe AS):{/ok}\n1. Exertional Dyspnea\n2. Angina Pectoris\n3. Syncope (on exertion)\n\n{ok}PULSE: Pulsus parvus et tardus (Slow-rising, low volume){/ok}\n• Best examined at CAROTID ARTERY\n\n{ok}MURMUR:{/ok}\n• Harsh, crescendo-decrescendo systolic murmur\n• Best at AORTIC AREA, radiates to CAROTIDS\n• Intensity does NOT correlate with severity\n• May be INAUDIBLE in very severe AS\n\n{ok}OTHER SIGNS:{/ok}\n• Systolic ejection click (non-calcified valve)\n• Soft/inaudible S2 (calcified valve)\n• Reversed S2 splitting\n• Prominent S4\n\n{ok}CXR:{/ok}\n• Post-stenotic dilatation of ascending aorta\n• LV enlargement\n• Calcified valve (lateral view)\n• ↑ Cardio-thoracic ratio (with HF)"
+                      }
+                    ],
+                    "images": [
+                      {
+                        "src": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/23046-aortic-valve-stenosis",
+                        "caption": "Aortic Valve Stenosis - Cleveland Clinic",
+                        "title": "Aortic Valve Stenosis"
+                      }
+                    ],
+                    "videos": [
+                      {
+                        "title": "Aortic Stenosis - Pathophysiology and Clinical Features",
+                        "src": "https://youtu.be/mFQ2ea687Ps?si=vCJzgQ4B8Vh5qKRg",
+                        "thumbnail": "https://img.youtube.com/vi/mFQ2ea687Ps/maxresdefault.jpg",
+                        "duration": "",
+                        "description": "Comprehensive overview of aortic stenosis including pathophysiology, clinical features, diagnosis, and management"
+                      }
+                    ],
+                    "links": []
                   }
                 }
               ]
