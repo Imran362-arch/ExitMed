@@ -4530,6 +4530,646 @@
                       "description": "American Heart Association guidelines on valvular heart disease management"
                     }
                   ]
+                },
+                {
+                  "id": "mitral_regurgitation",
+                  "name": "Mitral Regurgitation",
+                  "icon": "💔",
+                  "description": "Backflow of blood from left ventricle to left atrium during systole",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Mitral Regurgitation is defined as backflow of blood from:",
+                        "options": [
+                          "Left atrium to left ventricle during diastole",
+                          "Left ventricle to left atrium during systole",
+                          "Right ventricle to right atrium during systole",
+                          "Aorta to left ventricle during diastole"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mitral Regurgitation is defined as backflow of blood from the Left Ventricle to the Left Atrium during systole."
+                      },
+                      {
+                        "q": "Mitral Regurgitation is caused by:",
+                        "options": [
+                          "Pathology of mitral valve apparatus",
+                          "Dilation of mitral valve ring",
+                          "Both A and B",
+                          "Aortic stenosis"
+                        ],
+                        "answer": 2,
+                        "explanation": "MR is caused by both pathology of the mitral valve apparatus and dilation of the mitral valve ring."
+                      },
+                      {
+                        "q": "Which of the following is MORE COMMON in Mitral Regurgitation than Mitral Stenosis?",
+                        "options": [
+                          "Hemoptysis",
+                          "Pulmonary edema",
+                          "Opening snap",
+                          "Mitral facies"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pulmonary edema is MORE COMMON in MR than in MS."
+                      },
+                      {
+                        "q": "The symptom of fatigue in Mitral Regurgitation is due to:",
+                        "options": [
+                          "Pulmonary congestion",
+                          "Decreased cardiac output",
+                          "Atrial fibrillation",
+                          "Right heart failure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Fatigue in MR is due to decreased cardiac output."
+                      },
+                      {
+                        "q": "The symptom of dyspnea in Mitral Regurgitation is due to:",
+                        "options": [
+                          "Decreased cardiac output",
+                          "Pulmonary congestion",
+                          "Atrial fibrillation",
+                          "Right heart failure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Dyspnea in MR is due to pulmonary congestion."
+                      },
+                      {
+                        "q": "Palpitations in Mitral Regurgitation are due to:",
+                        "options": [
+                          "Pulmonary congestion",
+                          "Atrial fibrillation and increased stroke volume",
+                          "Decreased cardiac output",
+                          "Right heart failure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Palpitations in MR are due to atrial fibrillation and increased stroke volume."
+                      },
+                      {
+                        "q": "Edema and ascites in Mitral Regurgitation are due to:",
+                        "options": [
+                          "Pulmonary congestion",
+                          "Decreased cardiac output",
+                          "Right heart failure",
+                          "Atrial fibrillation"
+                        ],
+                        "answer": 2,
+                        "explanation": "Edema and ascites in MR are due to right heart failure."
+                      },
+                      {
+                        "q": "Atrial fibrillation and flutter in Mitral Regurgitation are due to:",
+                        "options": [
+                          "Pulmonary congestion",
+                          "Heart failure",
+                          "Decreased cardiac output",
+                          "Aortic stenosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Atrial fibrillation and flutter in MR are due to heart failure."
+                      },
+                      {
+                        "q": "The displaced apex beat in Mitral Regurgitation is due to:",
+                        "options": [
+                          "Right ventricular hypertrophy",
+                          "Increased LV blood volume and heart failure",
+                          "Left atrial enlargement",
+                          "Pulmonary hypertension"
+                        ],
+                        "answer": 1,
+                        "explanation": "Displaced apex beat in MR is due to increased LV blood volume and heart failure."
+                      },
+                      {
+                        "q": "S3 gallop in Mitral Regurgitation is due to:",
+                        "options": [
+                          "Left atrial dilation",
+                          "Left ventricular dilation",
+                          "Right ventricular hypertrophy",
+                          "Pulmonary hypertension"
+                        ],
+                        "answer": 1,
+                        "explanation": "S3 gallop in MR is due to left ventricular dilation."
+                      },
+                      {
+                        "q": "The mid-diastolic murmur in Mitral Regurgitation is due to:",
+                        "options": [
+                          "Regurgitant flow during systole",
+                          "Increased blood flow across mitral valve",
+                          "Aortic regurgitation",
+                          "Pulmonary hypertension"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mid-diastolic murmur in MR is due to increased blood flow across the mitral valve."
+                      },
+                      {
+                        "q": "The MOST IMPORTANT auscultatory sign of Mitral Regurgitation is:",
+                        "options": [
+                          "Opening snap",
+                          "Loud S1",
+                          "Apical pansystolic murmur",
+                          "Graham Steel murmur"
+                        ],
+                        "answer": 2,
+                        "explanation": "Apical pansystolic murmur is the MOST IMPORTANT auscultatory sign of MR."
+                      },
+                      {
+                        "q": "The apical pansystolic murmur of Mitral Regurgitation is due to:",
+                        "options": [
+                          "Increased blood flow across mitral valve",
+                          "Regurgitant blood flow from LV to LA during systole",
+                          "Aortic stenosis",
+                          "Pulmonary hypertension"
+                        ],
+                        "answer": 1,
+                        "explanation": "Apical pansystolic murmur in MR is due to regurgitant blood flow from LV to LA during systole."
+                      },
+                      {
+                        "q": "Which of the following is a sign of pulmonary hypertension in Mitral Regurgitation?",
+                        "options": [
+                          "Tapping impulse",
+                          "Prominent pulmonary component of S2",
+                          "Opening snap",
+                          "Mitral facies"
+                        ],
+                        "answer": 1,
+                        "explanation": "Prominent pulmonary component of S2 is a sign of pulmonary hypertension in MR."
+                      },
+                      {
+                        "q": "Which of the following is a sign of right heart failure in Mitral Regurgitation?",
+                        "options": [
+                          "Crepitations",
+                          "Jugular venous distension",
+                          "S3 gallop",
+                          "Displaced apex beat"
+                        ],
+                        "answer": 1,
+                        "explanation": "Jugular venous distension is a sign of right heart failure in MR."
+                      },
+                      {
+                        "q": "The most common ECG finding in Mitral Regurgitation is:",
+                        "options": [
+                          "Right ventricular hypertrophy",
+                          "Left ventricular hypertrophy",
+                          "ST elevation",
+                          "Heart block"
+                        ],
+                        "answer": 1,
+                        "explanation": "Left ventricular hypertrophy is the most common ECG finding in MR."
+                      },
+                      {
+                        "q": "Right ventricular hypertrophy on ECG in Mitral Regurgitation occurs in:",
+                        "options": [
+                          "All cases",
+                          "15% of cases",
+                          "50% of cases",
+                          "85% of cases"
+                        ],
+                        "answer": 1,
+                        "explanation": "Right ventricular hypertrophy on ECG in MR occurs in 15% of cases."
+                      },
+                      {
+                        "q": "Which of the following is NOT a symptom of Mitral Regurgitation?",
+                        "options": [
+                          "Fatigue",
+                          "Dyspnea",
+                          "Hemoptysis",
+                          "Palpitations"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hemoptysis is NOT a symptom of MR. It is a symptom of Mitral Stenosis."
+                      },
+                      {
+                        "q": "Which of the following is NOT a sign of Mitral Regurgitation?",
+                        "options": [
+                          "Apical pansystolic murmur",
+                          "Opening snap",
+                          "S3 gallop",
+                          "Displaced apex beat"
+                        ],
+                        "answer": 1,
+                        "explanation": "Opening snap is NOT a sign of MR. It is a sign of Mitral Stenosis."
+                      },
+                      {
+                        "q": "The mechanism of Mitral Regurgitation involves:",
+                        "options": [
+                          "Inadequate closure of mitral valve",
+                          "Inadequate opening of mitral valve",
+                          "Aortic valve stenosis",
+                          "Pulmonary valve stenosis"
+                        ],
+                        "answer": 0,
+                        "explanation": "The mechanism of MR involves inadequate closure of the mitral valve."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the definition of Mitral Regurgitation?",
+                        "a": "Backflow of blood from Left Ventricle to Left Atrium during systole."
+                      },
+                      {
+                        "q": "What are the causes of Mitral Regurgitation?",
+                        "a": "Pathology of mitral valve apparatus and Dilation of mitral valve ring."
+                      },
+                      {
+                        "q": "Which is more common in MR than MS?",
+                        "a": "Pulmonary edema."
+                      },
+                      {
+                        "q": "What are the symptoms of Mitral Regurgitation?",
+                        "a": "Fatigue, Dyspnea, Palpitations, Edema, Ascites."
+                      },
+                      {
+                        "q": "What causes fatigue in Mitral Regurgitation?",
+                        "a": "Decreased cardiac output."
+                      },
+                      {
+                        "q": "What causes dyspnea in Mitral Regurgitation?",
+                        "a": "Pulmonary congestion."
+                      },
+                      {
+                        "q": "What is the MOST IMPORTANT auscultatory sign of Mitral Regurgitation?",
+                        "a": "Apical pansystolic murmur."
+                      },
+                      {
+                        "q": "What causes the apical pansystolic murmur in MR?",
+                        "a": "Regurgitant blood flow from LV to LA during systole."
+                      },
+                      {
+                        "q": "What causes S3 gallop in Mitral Regurgitation?",
+                        "a": "Left ventricular dilation."
+                      },
+                      {
+                        "q": "What causes the mid-diastolic murmur in Mitral Regurgitation?",
+                        "a": "Increased blood flow across mitral valve."
+                      },
+                      {
+                        "q": "What are the signs of right heart failure in Mitral Regurgitation?",
+                        "a": "Jugular venous distension and systemic congestion."
+                      },
+                      {
+                        "q": "What is the most common ECG finding in Mitral Regurgitation?",
+                        "a": "Left ventricular hypertrophy."
+                      },
+                      {
+                        "q": "What is the most common arrhythmia in Mitral Regurgitation?",
+                        "a": "Atrial fibrillation."
+                      },
+                      {
+                        "q": "What causes the displaced apex beat in Mitral Regurgitation?",
+                        "a": "Increased LV blood volume and heart failure."
+                      },
+                      {
+                        "q": "What is the mechanism of Mitral Regurgitation?",
+                        "a": "Inadequate closure of mitral valve due to valve apparatus pathology or ring dilation."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is the definition of Mitral Regurgitation?",
+                        "back": "Backflow of blood from Left Ventricle to Left Atrium during systole."
+                      },
+                      {
+                        "front": "What are the causes of Mitral Regurgitation?",
+                        "back": "Pathology of mitral valve apparatus and Dilation of mitral valve ring."
+                      },
+                      {
+                        "front": "Which is more common in MR than MS?",
+                        "back": "Pulmonary edema."
+                      },
+                      {
+                        "front": "What are the symptoms of Mitral Regurgitation?",
+                        "back": "Fatigue, Dyspnea, Palpitations, Edema, Ascites."
+                      },
+                      {
+                        "front": "What causes fatigue in Mitral Regurgitation?",
+                        "back": "Decreased cardiac output."
+                      },
+                      {
+                        "front": "What causes dyspnea in Mitral Regurgitation?",
+                        "back": "Pulmonary congestion."
+                      },
+                      {
+                        "front": "What is the MOST IMPORTANT auscultatory sign of Mitral Regurgitation?",
+                        "back": "Apical pansystolic murmur."
+                      },
+                      {
+                        "front": "What causes the apical pansystolic murmur in MR?",
+                        "back": "Regurgitant blood flow from LV to LA during systole."
+                      },
+                      {
+                        "front": "What causes S3 gallop in Mitral Regurgitation?",
+                        "back": "Left ventricular dilation."
+                      },
+                      {
+                        "front": "What causes the mid-diastolic murmur in Mitral Regurgitation?",
+                        "back": "Increased blood flow across mitral valve."
+                      },
+                      {
+                        "front": "What are the signs of right heart failure in Mitral Regurgitation?",
+                        "back": "Jugular venous distension and systemic congestion."
+                      },
+                      {
+                        "front": "What is the most common ECG finding in Mitral Regurgitation?",
+                        "back": "Left ventricular hypertrophy."
+                      },
+                      {
+                        "front": "What is the most common arrhythmia in Mitral Regurgitation?",
+                        "back": "Atrial fibrillation."
+                      },
+                      {
+                        "front": "What causes the displaced apex beat in Mitral Regurgitation?",
+                        "back": "Increased LV blood volume and heart failure."
+                      },
+                      {
+                        "front": "What is the mechanism of Mitral Regurgitation?",
+                        "back": "Inadequate closure of mitral valve due to valve apparatus pathology or ring dilation."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "MR Definition",
+                        "icon": "🧠",
+                        "code": "Backflow LV → LA during SYSTOLE",
+                        "items": [
+                          {
+                            "letter": "LV",
+                            "text": "Left Ventricle"
+                          },
+                          {
+                            "letter": "LA",
+                            "text": "Left Atrium"
+                          },
+                          {
+                            "letter": "SYSTOLE",
+                            "text": "During systole"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Symptoms of MR",
+                        "icon": "🩺",
+                        "code": "F-D-P-E",
+                        "items": [
+                          {
+                            "letter": "F",
+                            "text": "Fatigue (↓ Cardiac output)"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Dyspnea (Pulmonary congestion)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Palpitations (AF + ↑ Stroke volume)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Edema + Ascites (Right heart failure)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Signs of MR",
+                        "icon": "👂",
+                        "code": "A-C-S-M-C-P-J-A",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Atrial fibrillation/flutter"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cardiac enlargement + Displaced apex beat"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "S3 gallop (LV dilation)"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Mid-diastolic murmur (↑ flow across valve)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Crepitations"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pulmonary edema"
+                          },
+                          {
+                            "letter": "J",
+                            "text": "JVD + Systemic congestion"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Apical pansystolic murmur (MOST IMPORTANT)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ECG Findings in MR",
+                        "icon": "📈",
+                        "code": "LVH + LAH + AF + RVH",
+                        "items": [
+                          {
+                            "letter": "LVH",
+                            "text": "Left ventricular hypertrophy"
+                          },
+                          {
+                            "letter": "LAH",
+                            "text": "Left atrial hypertrophy"
+                          },
+                          {
+                            "letter": "AF",
+                            "text": "Atrial fibrillation"
+                          },
+                          {
+                            "letter": "RVH",
+                            "text": "Right ventricular hypertrophy (15%)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Key Difference MS vs MR",
+                        "icon": "🔑",
+                        "code": "MR = More Pulmonary Edema",
+                        "items": [
+                          {
+                            "letter": "MR",
+                            "text": "Mitral Regurgitation"
+                          },
+                          {
+                            "letter": "MS",
+                            "text": "Mitral Stenosis"
+                          },
+                          {
+                            "letter": "PE",
+                            "text": "Pulmonary edema is MORE COMMON in MR than MS"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Most Important Sign",
+                        "icon": "⭐",
+                        "code": "Apical Pansystolic Murmur",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Apical"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pansystolic"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Murmur (MOST IMPORTANT sign of MR)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Causes of MR",
+                        "icon": "🫀",
+                        "code": "Valve + Ring",
+                        "items": [
+                          {
+                            "letter": "V",
+                            "text": "Pathology of mitral valve apparatus"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Dilation of mitral valve ring"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "S3 Gallop",
+                        "icon": "💓",
+                        "code": "LV Dilation",
+                        "items": [
+                          {
+                            "letter": "LV",
+                            "text": "Left ventricular dilation"
+                          },
+                          {
+                            "letter": "S3",
+                            "text": "S3 gallop in MR"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Mid-Diastolic Murmur",
+                        "icon": "🔊",
+                        "code": "↑ Flow Across Valve",
+                        "items": [
+                          {
+                            "letter": "↑",
+                            "text": "Increased blood flow"
+                          },
+                          {
+                            "letter": "MV",
+                            "text": "Across mitral valve"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Prominent Pulmonary S2",
+                        "icon": "🫁",
+                        "code": "Pulmonary Hypertension",
+                        "items": [
+                          {
+                            "letter": "P2",
+                            "text": "Prominent pulmonary component of S2"
+                          },
+                          {
+                            "letter": "PH",
+                            "text": "Indicates pulmonary hypertension"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "Definition",
+                      "icon": "📖",
+                      "tags": [
+                        "definition",
+                        "high-yield"
+                      ],
+                      "content": "{key}MITRAL REGURGITATION (MR):{/key}\n• Backflow of blood from {hl}LEFT VENTRICLE{/hl} to {hl}LEFT ATRIUM{/hl} during {hl}SYSTOLE{/hl}\n• Caused by:\n  - Pathology of mitral valve apparatus\n  - Dilation of mitral valve ring\n• Results in: Inadequate closure of mitral valve"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Pathophysiology",
+                      "icon": "⚙️",
+                      "tags": [
+                        "pathophysiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}MECHANISM:{/key}\n• Left ventricular dilation + changes in valve components (regardless of cause)\n• Valve becomes incompetent → Abnormal position\n\n{key}CONSEQUENCES:{/key}\n• Blood regurgitates from LV → LA during systole\n• Left atrial pressure increases\n• Pulmonary congestion develops\n• Left ventricular volume overload\n• Decreased cardiac output"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Clinical Findings - Symptoms",
+                      "icon": "🩺",
+                      "tags": [
+                        "symptoms",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}SYMPTOMS:{/key}\n• Symptoms usually related to RAPID progression of disease\n• Chronic MR shows symptoms similar to Mitral Stenosis\n• BUT: {hl}Pulmonary edema is MORE COMMON in MR{/hl}\n\n{key}SYMPTOMS (F-D-P-E):{/key}\n• {hl}FATIGUE:{/hl} Due to decreased cardiac output\n• {hl}DYSPNEA:{/hl} Due to pulmonary congestion\n• {hl}PALPITATIONS:{/hl} Due to atrial fibrillation + increased stroke volume\n• {hl}EDEMA and ASCITES:{/hl} Due to right heart failure"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Clinical Findings - Signs",
+                      "icon": "👂",
+                      "tags": [
+                        "signs",
+                        "physical exam",
+                        "high-yield"
+                      ],
+                      "content": "{key}SIGNS (A-C-S-M-C-P-J-A):{/key}\n\n• {hl}ATRIAL FIBRILLATION and FLUTTER:{/hl} Due to heart failure\n• {hl}CARDIAC ENLARGEMENT:{/hl} Apex beat displaced (due to increased LV blood volume, heart failure, large left ventricle)\n• {hl}S3 GALLOP:{/hl} Due to left ventricular dilation\n• {hl}MID-DIASTOLIC MURMUR:{/hl} Due to increased blood flow across mitral valve\n• {hl}CONGESTION SIGNS:{/hl} Crepitations, Pulmonary edema\n• {hl}PULMONARY HYPERTENSION & HEART FAILURE SIGNS:{/hl} Dry cough, Prominent pulmonary component of S2, Jugular venous distension, Systemic congestion\n• {hl}APICAL PANSYSTOLIC MURMUR:{/hl} MOST IMPORTANT AUSCULTATORY SIGN of MR (due to regurgitant blood flow from LV → LA during systole)"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Diagnosis",
+                      "icon": "🔬",
+                      "tags": [
+                        "diagnosis",
+                        "investigations",
+                        "high-yield"
+                      ],
+                      "content": "{key}ECG FINDINGS:{/key}\n• Left ventricular hypertrophy\n• Left atrial hypertrophy\n• Atrial fibrillation\n• Right ventricular hypertrophy (15% of cases)"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}MR = Backflow of blood from LV → LA during SYSTOLE{/ok}\n\n{ok}Caused by: Pathology of mitral valve apparatus + Dilation of mitral valve ring{/ok}\n\n{ok}Pulmonary edema is MORE COMMON in MR than MS{/ok}\n\n{ok}SYMPTOMS:{/ok}\n• Fatigue (↓ Cardiac output)\n• Dyspnea (Pulmonary congestion)\n• Palpitations (AF + ↑ Stroke volume)\n• Edema + Ascites (Right heart failure)\n\n{ok}SIGNS:{/ok}\n• Atrial fibrillation/flutter\n• Cardiac enlargement + Displaced apex beat\n• S3 gallop (LV dilation)\n• Mid-diastolic murmur (↑ flow across valve)\n• Crepitations + Pulmonary edema\n• Dry cough + Prominent pulmonary S2\n• JVD + Systemic congestion\n• APICAL PANSYSTOLIC MURMUR = MOST IMPORTANT SIGN\n\n{ok}ECG: LVH + LAH + AF + RVH (15%){/ok}"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://ukhealthcare.uky.edu/sites/default/files/inline-images/mitral-valve-regurgitation-diagram.jpg",
+                      "caption": "Mitral Valve Regurgitation Diagram",
+                      "title": "Mitral Valve Regurgitation"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Mitral Regurgitation - Pathophysiology and Clinical Features",
+                      "src": "https://youtu.be/uQ8Hz_c3bd4?si=ddc9Iy8ne8k2emih",
+                      "thumbnail": "https://img.youtube.com/vi/uQ8Hz_c3bd4/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of mitral regurgitation including pathophysiology, clinical features, diagnosis, and management"
+                    }
+                  ]
                 }
               ]
             }
