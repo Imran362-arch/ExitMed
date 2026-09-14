@@ -6664,6 +6664,971 @@
                       "description": "Comprehensive overview of intracranial hemorrhage including SAH, epidural, subdural hematomas, clinical features, diagnosis, and management"
                     }
                   ]
+                },
+                {
+                  "id": "disorders_of_consciousness",
+                  "name": "Disorders of Consciousness",
+                  "icon": "😴",
+                  "description": "Coma, locked-in syndrome, vegetative state, and brain death",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Coma is defined as:",
+                        "options": [
+                          "A state of sleep from which the patient can be aroused",
+                          "A state of unconsciousness in which the patient does NOT respond appropriately to external stimuli",
+                          "A state of paralysis with preserved consciousness",
+                          "A state of confusion with agitation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Coma is a state of unconsciousness in which the patient does NOT respond appropriately to external stimuli or internal needs."
+                      },
+                      {
+                        "q": "The causes of coma are divided into which two groups?",
+                        "options": [
+                          "Acute and Chronic",
+                          "Metabolic and Neurological",
+                          "Primary and Secondary",
+                          "Reversible and Irreversible"
+                        ],
+                        "answer": 1,
+                        "explanation": "The causes of coma are divided into Metabolic (e.g., hypoglycemia, renal failure) and Neurological (e.g., stroke, CNS infection)."
+                      },
+                      {
+                        "q": "In any comatose patient, the FIRST step is:",
+                        "options": [
+                          "CT scan",
+                          "ABCDE (Airway, Breathing, Circulation, Drug, Evaluation)",
+                          "Lumbar puncture",
+                          "Blood glucose"
+                        ],
+                        "answer": 1,
+                        "explanation": "In any comatose patient, the first step is ABCDE: Airway, Breathing, Circulation, Drug (Naloxone if opioid toxicity suspected), Evaluation."
+                      },
+                      {
+                        "q": "Which drug is given in coma if opioid toxicity is suspected?",
+                        "options": [
+                          "Flumazenil",
+                          "Naloxone",
+                          "Atropine",
+                          "Thiamine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Naloxone is given if opioid toxicity is suspected."
+                      },
+                      {
+                        "q": "A rapid pulse in a comatose patient suggests:",
+                        "options": [
+                          "↑ Intracranial pressure",
+                          "Fever, Infection, or Cardiac disease",
+                          "Hypothyroidism",
+                          "Cardiac block"
+                        ],
+                        "answer": 1,
+                        "explanation": "A rapid pulse in a comatose patient suggests fever, infection, or cardiac disease."
+                      },
+                      {
+                        "q": "A slow pulse in a comatose patient suggests:",
+                        "options": [
+                          "Fever",
+                          "Infection",
+                          "↑ Intracranial pressure",
+                          "Cardiac disease"
+                        ],
+                        "answer": 2,
+                        "explanation": "A slow pulse in a comatose patient suggests increased intracranial pressure, cardiac block, or hypothyroidism."
+                      },
+                      {
+                        "q": "High temperature in a comatose patient suggests all of the following EXCEPT:",
+                        "options": [
+                          "Meningitis",
+                          "Septicemia",
+                          "Heat stroke",
+                          "Hypoglycemia"
+                        ],
+                        "answer": 3,
+                        "explanation": "Hypoglycemia causes LOW temperature, not high temperature."
+                      },
+                      {
+                        "q": "Low temperature in a comatose patient suggests all of the following EXCEPT:",
+                        "options": [
+                          "Hypoglycemia",
+                          "Barbiturate toxicity",
+                          "Myxedema",
+                          "Meningitis"
+                        ],
+                        "answer": 3,
+                        "explanation": "Meningitis causes HIGH temperature, not low temperature."
+                      },
+                      {
+                        "q": "Acetone breath odor in a comatose patient suggests:",
+                        "options": [
+                          "Alcohol intoxication",
+                          "Diabetic coma",
+                          "Hepatic coma",
+                          "Uremia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Acetone breath odor suggests diabetic coma."
+                      },
+                      {
+                        "q": "Fetid (rotten) breath odor in a comatose patient suggests:",
+                        "options": [
+                          "Alcohol intoxication",
+                          "Diabetic coma",
+                          "Hepatic coma",
+                          "Uremia"
+                        ],
+                        "answer": 2,
+                        "explanation": "Fetid (rotten) breath odor suggests hepatic coma."
+                      },
+                      {
+                        "q": "Urine breath odor in a comatose patient suggests:",
+                        "options": [
+                          "Alcohol intoxication",
+                          "Diabetic coma",
+                          "Hepatic coma",
+                          "Uremia/Renal failure"
+                        ],
+                        "answer": 3,
+                        "explanation": "Urine breath odor suggests uremia/renal failure."
+                      },
+                      {
+                        "q": "Cheyne-Stokes breathing in a comatose patient suggests:",
+                        "options": [
+                          "Pontine lesions",
+                          "Bilateral cortical lesions",
+                          "Medullary lesions",
+                          "Brainstem lesions"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cheyne-Stokes breathing suggests bilateral cortical lesions."
+                      },
+                      {
+                        "q": "Kussmaul breathing in a comatose patient suggests:",
+                        "options": [
+                          "Uremia and Diabetic coma",
+                          "Pontine lesions",
+                          "Medullary lesions",
+                          "Brainstem lesions"
+                        ],
+                        "answer": 0,
+                        "explanation": "Kussmaul breathing suggests uremia and diabetic coma."
+                      },
+                      {
+                        "q": "Central neurogenic hyperventilation in a comatose patient suggests:",
+                        "options": [
+                          "Bilateral cortical lesions",
+                          "Brainstem lesions with POOR prognosis",
+                          "Medullary lesions with BAD prognosis",
+                          "Pontine lesions"
+                        ],
+                        "answer": 1,
+                        "explanation": "Central neurogenic hyperventilation suggests brainstem lesions with POOR prognosis."
+                      },
+                      {
+                        "q": "Apneustic breathing in a comatose patient suggests:",
+                        "options": [
+                          "Bilateral cortical lesions",
+                          "Pontine lesions",
+                          "Medullary lesions",
+                          "Brainstem lesions"
+                        ],
+                        "answer": 1,
+                        "explanation": "Apneustic breathing suggests pontine lesions."
+                      },
+                      {
+                        "q": "Ataxic breathing in a comatose patient suggests:",
+                        "options": [
+                          "Bilateral cortical lesions",
+                          "Pontine lesions",
+                          "Medullary lesions with BAD prognosis",
+                          "Brainstem lesions"
+                        ],
+                        "answer": 2,
+                        "explanation": "Ataxic breathing suggests medullary lesions with BAD prognosis."
+                      },
+                      {
+                        "q": "Gasping breathing in a comatose patient suggests:",
+                        "options": [
+                          "Bilateral cortical lesions",
+                          "Pontine lesions",
+                          "Medullary lesions",
+                          "Patient near DEATH"
+                        ],
+                        "answer": 3,
+                        "explanation": "Gasping breathing suggests the patient is near death."
+                      },
+                      {
+                        "q": "Kernig's sign is tested by:",
+                        "options": [
+                          "Passive neck flexion",
+                          "Hip and knee flexed then attempt to extend knee",
+                          "Turning head side to side",
+                          "Pressing on the eyeballs"
+                        ],
+                        "answer": 1,
+                        "explanation": "Kernig's sign is tested by flexing the hip and knee, then attempting to extend the knee. Positive if resistance and pain on extension."
+                      },
+                      {
+                        "q": "Brudzinski's sign is tested by:",
+                        "options": [
+                          "Passive neck flexion causing involuntary knee flexion",
+                          "Hip and knee flexed then attempt to extend knee",
+                          "Turning head side to side",
+                          "Pressing on the eyeballs"
+                        ],
+                        "answer": 0,
+                        "explanation": "Brudzinski's sign is tested by passive neck flexion causing involuntary knee flexion."
+                      },
+                      {
+                        "q": "Papilledema in a comatose patient suggests:",
+                        "options": [
+                          "Meningitis only",
+                          "↑ ICP from tumor, hemorrhage, or meningoencephalitis",
+                          "Hypoglycemia",
+                          "Drug overdose"
+                        ],
+                        "answer": 1,
+                        "explanation": "Papilledema suggests increased ICP from tumor, hemorrhage, or meningoencephalitis. NOTE: Normal fundoscopy does NOT rule out brain tumor."
+                      },
+                      {
+                        "q": "In hemispheric lesions, the eyes deviate:",
+                        "options": [
+                          "Away from the lesion",
+                          "Toward the lesion (patient looks at lesion)",
+                          "Down and in",
+                          "Toward the paralyzed side"
+                        ],
+                        "answer": 1,
+                        "explanation": "In hemispheric lesions, the eyes deviate TOWARD the lesion (patient looks at the lesion)."
+                      },
+                      {
+                        "q": "In irritative lesions (epilepsy), the eyes deviate:",
+                        "options": [
+                          "Toward the lesion",
+                          "Away from the lesion",
+                          "Down and in",
+                          "Toward the paralyzed side"
+                        ],
+                        "answer": 1,
+                        "explanation": "In irritative lesions (epilepsy), the eyes deviate AWAY from the lesion."
+                      },
+                      {
+                        "q": "In basal ganglia hemorrhage (HTN), the eyes deviate:",
+                        "options": [
+                          "Toward the lesion",
+                          "Away from the lesion",
+                          "Down and in",
+                          "Toward the paralyzed side"
+                        ],
+                        "answer": 2,
+                        "explanation": "In basal ganglia hemorrhage (HTN), the eyes deviate DOWN and IN."
+                      },
+                      {
+                        "q": "In brainstem lesions, the eyes deviate:",
+                        "options": [
+                          "Toward the lesion",
+                          "Away from the lesion",
+                          "Down and in",
+                          "Toward the paralyzed side"
+                        ],
+                        "answer": 3,
+                        "explanation": "In brainstem lesions, the eyes deviate toward the PARALYZED side."
+                      },
+                      {
+                        "q": "Doll's eye phenomenon: If midbrain is intact, eyes move:",
+                        "options": [
+                          "With the head",
+                          "Opposite to head movement",
+                          "Down and in",
+                          "No movement"
+                        ],
+                        "answer": 1,
+                        "explanation": "Doll's eye phenomenon: If midbrain is intact, eyes move OPPOSITE to head movement. If brainstem lesion, eyes move WITH the head."
+                      },
+                      {
+                        "q": "Pinpoint pupils in a comatose patient suggest:",
+                        "options": [
+                          "CN III palsy",
+                          "Thalamic, Pontine lesions, or Opioid toxicity",
+                          "Metabolic coma",
+                          "Hypoglycemia"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pinpoint pupils suggest thalamic, pontine lesions, or opioid toxicity."
+                      },
+                      {
+                        "q": "Dilated pupil (>5mm) with no light response in a comatose patient suggests:",
+                        "options": [
+                          "CN III palsy (cerebral peduncle lesions)",
+                          "Thalamic lesions",
+                          "Pontine lesions",
+                          "Opioid toxicity"
+                        ],
+                        "answer": 0,
+                        "explanation": "Dilated pupil (>5mm) with no light response suggests CN III palsy from cerebral peduncle lesions."
+                      },
+                      {
+                        "q": "Normal pupils with light response in a comatose patient suggests:",
+                        "options": [
+                          "CN III palsy",
+                          "Thalamic lesions",
+                          "Metabolic coma (uremia, hepatic)",
+                          "Opioid toxicity"
+                        ],
+                        "answer": 2,
+                        "explanation": "Normal pupils with light response suggest metabolic coma (uremia, hepatic)."
+                      },
+                      {
+                        "q": "Decorticate posturing is characterized by:",
+                        "options": [
+                          "Arms flexed and internally rotated, Legs extended",
+                          "All four limbs extended",
+                          "Arms extended, Legs flexed",
+                          "No movement"
+                        ],
+                        "answer": 0,
+                        "explanation": "Decorticate posturing (cortical lesion) is characterized by arms flexed and internally rotated, legs extended."
+                      },
+                      {
+                        "q": "Decerebrate posturing is characterized by:",
+                        "options": [
+                          "Arms flexed and internally rotated, Legs extended",
+                          "All four limbs extended",
+                          "Arms extended, Legs flexed",
+                          "No movement"
+                        ],
+                        "answer": 1,
+                        "explanation": "Decerebrate posturing (brainstem lesion) is characterized by all four limbs extended."
+                      },
+                      {
+                        "q": "Cherry red face and neck in a comatose patient suggests:",
+                        "options": [
+                          "Liver disease",
+                          "Carbon monoxide poisoning",
+                          "Hypoglycemia",
+                          "Diabetic acidosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cherry red face and neck suggest carbon monoxide poisoning."
+                      },
+                      {
+                        "q": "Profuse sweating in a comatose patient suggests:",
+                        "options": [
+                          "Liver disease",
+                          "Carbon monoxide poisoning",
+                          "Hypoglycemia",
+                          "Diabetic acidosis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Profuse sweating suggests hypoglycemia."
+                      },
+                      {
+                        "q": "Dry skin in a comatose patient suggests:",
+                        "options": [
+                          "Hypoglycemia",
+                          "Diabetic acidosis or Uremia",
+                          "Carbon monoxide poisoning",
+                          "Liver disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "Dry skin suggests diabetic acidosis or uremia."
+                      },
+                      {
+                        "q": "The Glasgow Coma Scale consists of which three components?",
+                        "options": [
+                          "Verbal, Eye, Motor",
+                          "Verbal, Eye, Reflex",
+                          "Motor, Sensory, Reflex",
+                          "Verbal, Motor, Sensory"
+                        ],
+                        "answer": 0,
+                        "explanation": "The Glasgow Coma Scale consists of Verbal, Eye, and Motor components."
+                      },
+                      {
+                        "q": "The maximum score on the Glasgow Coma Scale is:",
+                        "options": [
+                          "10",
+                          "12",
+                          "15",
+                          "20"
+                        ],
+                        "answer": 2,
+                        "explanation": "The maximum score on the Glasgow Coma Scale is 15."
+                      },
+                      {
+                        "q": "GCS 3-4 is associated with:",
+                        "options": [
+                          "Normal prognosis",
+                          "95% mortality",
+                          "Mild impairment",
+                          "Moderate impairment"
+                        ],
+                        "answer": 1,
+                        "explanation": "GCS 3-4 is associated with 95% mortality."
+                      },
+                      {
+                        "q": "Locked-in syndrome is caused by a lesion at:",
+                        "options": [
+                          "Cortex",
+                          "Base of pons",
+                          "Medulla",
+                          "Midbrain"
+                        ],
+                        "answer": 1,
+                        "explanation": "Locked-in syndrome is caused by a lesion at the base of the pons."
+                      },
+                      {
+                        "q": "In locked-in syndrome, the patient can:",
+                        "options": [
+                          "Speak",
+                          "Move all limbs",
+                          "Move eyes vertically",
+                          "Breathe spontaneously"
+                        ],
+                        "answer": 2,
+                        "explanation": "In locked-in syndrome, the patient can move eyes VERTICALLY. Patient is AWAKE but trapped."
+                      },
+                      {
+                        "q": "In vegetative state, which functions are preserved?",
+                        "options": [
+                          "Higher brain functions",
+                          "Sleep-wake cycle, Breathing, Heart rate",
+                          "Speech",
+                          "Voluntary movement"
+                        ],
+                        "answer": 1,
+                        "explanation": "In vegetative state, sleep-wake cycle, breathing, and heart rate are preserved. Higher brain functions are lost."
+                      },
+                      {
+                        "q": "Brain death criteria include all of the following EXCEPT:",
+                        "options": [
+                          "Loss of cortical function",
+                          "Loss of brainstem function",
+                          "Irreversible condition",
+                          "Preserved sleep-wake cycle"
+                        ],
+                        "answer": 3,
+                        "explanation": "Brain death criteria include loss of cortical function, loss of brainstem function, and irreversible condition. Preserved sleep-wake cycle is NOT a criterion."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the definition of coma?",
+                        "a": "A state of unconsciousness in which the patient does NOT respond appropriately to external stimuli or internal needs."
+                      },
+                      {
+                        "q": "What is the first step in managing any comatose patient?",
+                        "a": "ABCDE (Airway, Breathing, Circulation, Drug, Evaluation)."
+                      },
+                      {
+                        "q": "What drug is given in coma if opioid toxicity is suspected?",
+                        "a": "Naloxone."
+                      },
+                      {
+                        "q": "What does acetone breath odor suggest?",
+                        "a": "Diabetic coma."
+                      },
+                      {
+                        "q": "What does fetid breath odor suggest?",
+                        "a": "Hepatic coma."
+                      },
+                      {
+                        "q": "What does urine breath odor suggest?",
+                        "a": "Uremia/Renal failure."
+                      },
+                      {
+                        "q": "What does Cheyne-Stokes breathing suggest?",
+                        "a": "Bilateral cortical lesions."
+                      },
+                      {
+                        "q": "What does Kussmaul breathing suggest?",
+                        "a": "Uremia and Diabetic coma."
+                      },
+                      {
+                        "q": "What does central neurogenic hyperventilation suggest?",
+                        "a": "Brainstem lesions with POOR prognosis."
+                      },
+                      {
+                        "q": "What does ataxic breathing suggest?",
+                        "a": "Medullary lesions with BAD prognosis."
+                      },
+                      {
+                        "q": "What does gasping breathing suggest?",
+                        "a": "Patient near DEATH."
+                      },
+                      {
+                        "q": "What is the most important part of the neurological examination in coma?",
+                        "a": "Pupils."
+                      },
+                      {
+                        "q": "What do pinpoint pupils suggest?",
+                        "a": "Thalamic, Pontine lesions, or Opioid toxicity."
+                      },
+                      {
+                        "q": "What is decorticate posturing?",
+                        "a": "Arms flexed and internally rotated, Legs extended."
+                      },
+                      {
+                        "q": "What is decerebrate posturing?",
+                        "a": "All four limbs extended."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is the definition of coma?",
+                        "back": "A state of unconsciousness in which the patient does NOT respond appropriately to external stimuli or internal needs."
+                      },
+                      {
+                        "front": "What is the first step in managing any comatose patient?",
+                        "back": "ABCDE (Airway, Breathing, Circulation, Drug, Evaluation)."
+                      },
+                      {
+                        "front": "What drug is given in coma if opioid toxicity is suspected?",
+                        "back": "Naloxone."
+                      },
+                      {
+                        "front": "What does acetone breath odor suggest in a comatose patient?",
+                        "back": "Diabetic coma."
+                      },
+                      {
+                        "front": "What does fetid breath odor suggest in a comatose patient?",
+                        "back": "Hepatic coma."
+                      },
+                      {
+                        "front": "What does urine breath odor suggest in a comatose patient?",
+                        "back": "Uremia/Renal failure."
+                      },
+                      {
+                        "front": "What does Cheyne-Stokes breathing suggest in a comatose patient?",
+                        "back": "Bilateral cortical lesions."
+                      },
+                      {
+                        "front": "What does Kussmaul breathing suggest in a comatose patient?",
+                        "back": "Uremia and Diabetic coma."
+                      },
+                      {
+                        "front": "What does central neurogenic hyperventilation suggest in a comatose patient?",
+                        "back": "Brainstem lesions with POOR prognosis."
+                      },
+                      {
+                        "front": "What does ataxic breathing suggest in a comatose patient?",
+                        "back": "Medullary lesions with BAD prognosis."
+                      },
+                      {
+                        "front": "What does gasping breathing suggest in a comatose patient?",
+                        "back": "Patient near DEATH."
+                      },
+                      {
+                        "front": "What is the most important part of the neurological examination in coma?",
+                        "back": "Pupils."
+                      },
+                      {
+                        "front": "What do pinpoint pupils suggest in a comatose patient?",
+                        "back": "Thalamic, Pontine lesions, or Opioid toxicity."
+                      },
+                      {
+                        "front": "What is decorticate posturing?",
+                        "back": "Arms flexed and internally rotated, Legs extended (Cortical lesion)."
+                      },
+                      {
+                        "front": "What is decerebrate posturing?",
+                        "back": "All four limbs extended (Brainstem lesion)."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Initial Approach to Coma",
+                        "icon": "🚑",
+                        "code": "ABCDE",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Airway"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Breathing"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Circulation"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Drug (Naloxone)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Evaluation"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Breath Odors in Coma",
+                        "icon": "👃",
+                        "code": "A-A-F-U",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Alcohol"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Acetone (Diabetic)"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Fetid (Hepatic)"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Urine (Uremia)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Respiratory Patterns",
+                        "icon": "🫁",
+                        "code": "C-K-C-A-G",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Cheyne-Stokes (Cortical)"
+                          },
+                          {
+                            "letter": "K",
+                            "text": "Kussmaul (Uremia, Diabetic)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Central neurogenic (Brainstem, poor)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Ataxic (Medullary, bad)"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Gasping (Near death)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Pupils in Coma",
+                        "icon": "👁️",
+                        "code": "D-P-N",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Dilated (CN III, ↑ ICP)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pinpoint (Opioid, Pontine)"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Normal (Metabolic)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Posturing",
+                        "icon": "🧍",
+                        "code": "D-D",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Decorticate → Cortex → Arms flexed, Legs extended"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Decerebrate → Brainstem → All extended"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "GCS Components",
+                        "icon": "📊",
+                        "code": "V-E-M",
+                        "items": [
+                          {
+                            "letter": "V",
+                            "text": "Verbal (1-5)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Eye (1-4)"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Motor (1-6)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Unknown Coma Treatment",
+                        "icon": "💉",
+                        "code": "T-G-N",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Thiamine"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Glucose 50%"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Naloxone"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Eye Deviation",
+                        "icon": "👀",
+                        "code": "H-T, I-A, B-D, BS-P",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hemispheric - Toward lesion"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Irritative - Away from lesion"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Basal ganglia - Down and in"
+                          },
+                          {
+                            "letter": "BS",
+                            "text": "Brainstem - Toward paralyzed side"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Skin Findings",
+                        "icon": "🩸",
+                        "code": "Y-C-P-C-S-D",
+                        "items": [
+                          {
+                            "letter": "Y",
+                            "text": "Yellow (Liver)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cyanosis (Cardiac)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pale (Shock)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cherry red (CO poisoning)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Sweating (Hypoglycemia)"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Dry (Diabetic acidosis, Uremia)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Brain Death EEG",
+                        "icon": "🧠",
+                        "code": "Isoelectric 6 hrs (24 hrs apart)",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "Isoelectric line for 6 hours, 24 hours apart"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "EXCEPTIONS: Hypothermia, Drug intoxication"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "Definition of Coma",
+                      "icon": "📖",
+                      "tags": [
+                        "definition",
+                        "high-yield"
+                      ],
+                      "content": "{key}COMA:{/key} A state of {hl}UNCONSCIOUSNESS{/hl} in which the patient does NOT respond appropriately to external stimuli or internal needs\n\n{key}CAUSES DIVIDED INTO 2 GROUPS:{/key}\n• {hl}METABOLIC{/hl} (e.g., hypoglycemia, renal failure)\n• {hl}NEUROLOGICAL{/hl} (e.g., stroke, CNS infection)"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Initial Approach - ABCDE",
+                      "icon": "🚑",
+                      "tags": [
+                        "approach",
+                        "emergency",
+                        "high-yield"
+                      ],
+                      "content": "{key}In ANY comatose patient, BEFORE any other action:{/key}\n\n• {hl}A - Airway:{/hl} Open the airway\n• {hl}B - Breathing:{/hl} Assess breathing, ventilate if needed\n• {hl}C - Circulation:{/hl} Check circulation and blood pressure\n• {hl}D - Drug:{/hl} Consider drug overdose → Give {hl}Naloxone{/hl} if opioid toxicity suspected\n• {hl}E - Evaluation:{/hl} Evaluate"
+                    },
+                    {
+                      "type": "note",
+                      "title": "History Taking in Coma",
+                      "icon": "📋",
+                      "tags": [
+                        "history",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}KEY QUESTIONS:{/key}\n• How did coma start? Sudden or gradual?\n• Was there any discharge?\n• History of: Epilepsy, Alcohol addiction, Diabetes, HTN, Drug use\n• Drug history (some drugs can cause hypoglycemia)\n\n{key}BLOOD PRESSURE:{/key}\n• High BP: Hypertensive encephalopathy, Eclampsia, Pheochromocytoma, Adrenal disease, Shock, Cardiogenic\n• Low BP: Hypovolemic shock, Cardiogenic\n\n{key}PULSE:{/key}\n• Rapid pulse: Fever, Infection, Cardiac disease\n• Slow pulse: ↑ Intracranial pressure, Cardiac block, Hypothyroidism\n\n{key}TEMPERATURE:{/key}\n• High: Meningitis, Septicemia, Sun exposure, Heat stroke\n• Low: Hypoglycemia, Barbiturate toxicity, Myxedema, Hypothermia\n\n{key}BREATH ODOR:{/key}\n• Alcohol: Alcohol intoxication\n• Acetone: Diabetic coma\n• Fetid (rotten): Hepatic coma\n• Urine: Uremia / Renal failure"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Respiratory Patterns in Coma",
+                      "icon": "🫁",
+                      "tags": [
+                        "respiratory",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}BREATHING PATTERNS:{/key}\n\n1. {hl}NORMAL BREATHING{/hl}\n\n2. {hl}CHEYNE-STOKES:{/hl}\n• Bilateral cortical lesions\n• Breathing gradually increases → peaks → gradually decreases\n• Then short apnea phase → cycle restarts\n• Also seen in pseudobulbar palsy\n\n3. {hl}KUSSMAUL:{/hl}\n• Uremia and Diabetic coma\n\n4. {hl}CENTRAL NEUROGENIC HYPERVENTILATION:{/hl}\n• Rapid, deep breathing\n• Brainstem lesions\n• POOR prognosis\n\n5. {hl}APNEUSTIC:{/hl}\n• Pontine lesions\n• Especially after brain degeneration\n\n6. {hl}ATAXIC:{/hl}\n• Medullary lesions\n• BAD prognosis\n\n7. {hl}GASPING:{/hl}\n• Shallow, irregular breathing\n• Occasional gasps\n• Patient near DEATH"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Neurological Examination in Coma",
+                      "icon": "🧠",
+                      "tags": [
+                        "neurological exam",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}HEAD AND NECK EXAMINATION:{/key}\n\n• {hl}NECK STIFFNESS:{/hl} Check for meningeal signs\n• {hl}KERNIG'S SIGN:{/hl}\n  - Hip and knee flexed → Attempt to extend knee\n  - Positive: Resistance + pain on extension\n  - In neonates: Bulging fontanelle has diagnostic value\n• {hl}BRUDZINSKI'S SIGN:{/hl}\n  - Passive neck flexion → Involuntary knee flexion\n\n{key}FACE:{/key}\n• Check if nasolabial folds are symmetrical\n• Asymmetry → Central facial palsy\n\n{key}PAPILLEDEMA:{/key}\n• Sign of ↑ ICP from: Tumor, Hemorrhage, Meningoencephalitis\n• Retinal hemorrhage → Hypertensive encephalopathy or SAH\n• Hypercapnia after head trauma can also cause papilledema\n• {warn}IMPORTANT: Normal fundoscopy does NOT rule out brain tumor{/warn}\n\n{key}EYE POSITION:{/key}\n• Hemispheric lesions: Eyes deviate {hl}TOWARD{/hl} the lesion (patient looks at lesion)\n• Irritative lesions (epilepsy): Eyes deviate {hl}AWAY{/hl} from lesion\n• Basal ganglia hemorrhage (HTN): Eyes deviate {hl}DOWN and IN{/hl}\n• Brainstem lesions: Eyes deviate toward the {hl}PARALYZED{/hl} side\n\n{key}DOLL'S EYE PHENOMENON:{/key}\n• Rapidly turn head side to side\n• If midbrain intact → Eyes move {hl}OPPOSITE{/hl} to head movement\n• If brainstem lesion → Eyes move {hl}WITH{/hl} the head\n\n{key}PUPILS (MOST IMPORTANT):{/key}\n• Cerebral peduncle lesions → CN III palsy → Dilated pupil (>5mm) + No light response\n• ↑ ICP: First ipsilateral pupil dilates, then contralateral\n• Thalamic, Pontine lesions, Opioid toxicity → {hl}PINPOINT{/hl} pupils\n• Metabolic coma (uremia, hepatic): Pupils normal + light response\n• Blood glucose < 10 mg/dL → Deep coma, dilated pupils, bradycardia (Medullary stage of hypoglycemia)"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Motor Response in Coma",
+                      "icon": "💪",
+                      "tags": [
+                        "motor",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}EXAMINATION:{/key}\n• Hemiparesis → Flaccid limb, falls easily when lifted\n• Paralyzed limb: Wider, externally rotated\n• No movement on painful stimulus\n\n{key}POSTURING:{/key}\n\n1. {hl}DECORTICATE (Cortical lesion):{/hl}\n• Arms: Flexed + Internally rotated\n• Legs: Extended\n\n2. {hl}DECEREBRATE (Brainstem lesion):{/hl}\n• All four limbs: EXTENDED\n• Reversible in: Hypotension, Hepatic encephalopathy, Cerebral hypoxia"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Skin Examination in Coma",
+                      "icon": "🩸",
+                      "tags": [
+                        "skin",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}SKIN AND MUCOSA FINDINGS:{/key}\n• {hl}YELLOW:{/hl} Liver disease\n• {hl}CYANOSIS:{/hl} Cardiac disease, Circulatory failure\n• {hl}PALE:{/hl} Shock, Internal bleeding\n• {hl}CHERRY RED (face and neck):{/hl} Carbon monoxide poisoning\n• {hl}PROFUSE SWEATING:{/hl} Hypoglycemia\n• {hl}DRY SKIN:{/hl} Diabetic acidosis, Uremia"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Metabolic Causes of Coma",
+                      "icon": "⚙️",
+                      "tags": [
+                        "metabolic",
+                        "causes",
+                        "high-yield"
+                      ],
+                      "content": "{key}SYSTEMIC (METABOLIC) CAUSES:{/key}\n1. Hypoglycemia\n2. Hyperglycemia\n3. Hepatic failure\n4. Drug toxicity (Opium, Antiepileptics, Phenobarbital, Aspirin)\n5. Renal failure\n6. Hypothermia\n7. Hyperthermia\n8. Encephalopathy from ↑ ICP\n9. Respiratory failure\n10. Cardiac failure (MI)\n11. Alcohol intoxication\n12. Carbon monoxide poisoning\n13. Hyper-hypocalcemia\n14. Hyper-hyponatremia\n15. Septicemia\n16. Anoxia\n17. Cerebral herniation\n18. End-stage degenerative diseases"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Laboratory Investigations in Coma",
+                      "icon": "🔬",
+                      "tags": [
+                        "investigations",
+                        "diagnosis",
+                        "high-yield"
+                      ],
+                      "content": "{key}ROUTINE TESTS:{/key}\n1. CBC, WBC, ESR, Hb, HCT\n2. Glucose, Urea, Creatinine, Na, K, Cl, Ca, P\n3. Urinalysis\n4. Chest X-ray\n5. ECG\n\n{key}SPECIAL TESTS:{/key}\n1. HBS Antigen, SGOT, SGPT, CK, T3, T4\n2. Toxicology screen (Alcohol, Phenobarbital, etc.)\n3. Blood ammonia\n4. Blood culture\n5. Blood gases\n6. LP + CSF analysis (Culture, Cells, Glucose, Protein)\n7. HIV, Lyme disease\n8. VDRL\n9. EEG, CT Scan, MRI"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Brainstem Examination in Coma",
+                      "icon": "🧠",
+                      "tags": [
+                        "brainstem",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}SIGNS OF BRAINSTEM DYSFUNCTION:{/key}\n1. Central neurogenic hyperventilation\n2. Decerebrate posturing\n3. Doll's eye phenomenon (absent)\n4. Caloric test (no response)\n5. Dilated pupils + No light response\n6. Corneal reflex (absent)"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Glasgow Coma Scale (GCS)",
+                      "icon": "📊",
+                      "tags": [
+                        "GCS",
+                        "scoring",
+                        "high-yield"
+                      ],
+                      "content": "{key}THREE COMPONENTS:{/key}\n\n{key}1. BEST VERBAL RESPONSE:{/key}\n5 - Oriented to time, place, person\n4 - Confused, disoriented\n3 - Inappropriate words\n2 - Incomprehensible sounds\n1 - No sounds\n\n{key}2. BEST EYE OPENING:{/key}\n4 - Spontaneous\n3 - To voice\n2 - To pain\n1 - No response\n\n{key}3. BEST MOTOR RESPONSE:{/key}\n6 - Obeys commands\n5 - Localizes pain\n4 - Withdraws from pain\n3 - Flexion to pain (Decorticate)\n2 - Extension to pain (Decerebrate)\n1 - No response\n\n{key}INTERPRETATION:{/key}\n• GCS 15 = Normal\n• GCS 3-4 = {hlpu}95% mortality{/hlpu}\n• Lower score = Worse prognosis"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Differential Diagnosis of Coma",
+                      "icon": "🔍",
+                      "tags": [
+                        "differential",
+                        "diagnosis",
+                        "high-yield"
+                      ],
+                      "content": "{key}MUST DIFFERENTIATE COMA FROM:{/key}\n\n{key}1. LOCKED-IN SYNDROME:{/key}\n• Lesion: Base of pons + Corticobulbar + Corticospinal tracts\n• Arousal and consciousness pathways {hl}SPARED{/hl}\n• Patient {hl}CANNOT{/hl} speak or move\n• {hl}CAN{/hl} move eyes VERTICALLY\n• Patient is {hl}AWAKE{/hl} but trapped\n\n{key}2. VEGETATIVE STATE:{/key}\n• Also called: Alpha-coma\n• Follows brain injury (trauma, hypoxia)\n• ALL higher brain functions {hl}LOST{/hl}\n• BUT: Sleep-wake cycle, Breathing, Heart rate {hl}PRESERVED{/hl}\n• Can survive for {hl}YEARS{/hl} with care\n\n{key}3. BRAIN DEATH:{/key}\n• ALL cortical AND brainstem functions {hl}LOST{/hl}\n• {hl}IRREVERSIBLE{/hl}\n• Brain death criteria:\n  - Loss of cortical function\n  - Loss of brainstem function (spontaneous breathing stopped)\n  - Irreversible condition\n• EEG: {hl}Isoelectric line for 6 hours (24 hours apart){/hl}\n  - Isoelectric = No brain waves\n  - {warn}EXCEPTIONS: Hypothermia, Drug intoxication{/warn}\n\n{key}4. PSYCHOGENIC UNRESPONSIVENESS:{/key}\n• Psychiatric cause"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Nursing Care in Coma",
+                      "icon": "🩺",
+                      "tags": [
+                        "nursing",
+                        "management",
+                        "high-yield"
+                      ],
+                      "content": "{key}ESSENTIAL NURSING MEASURES:{/key}\n1. NG Tube: Feeding + Aspiration prevention\n2. Frequent suctioning\n3. Chest physiotherapy\n4. Air/water mattress (prevent bed sores)\n5. Change position every 2 hours\n6. Eye care (prevent corneal ulcers)\n7. Oral care\n8. Physiotherapy: Daily passive movements\n9. Chest physiotherapy\n10. Monitor Intake/Output + Electrolytes"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}COMA = Unconsciousness + No appropriate response to stimuli{/ok}\n\n{ok}FIRST STEP: ABCDE (Airway, Breathing, Circulation, Drug, Evaluation){/ok}\n\n{ok}BREATH ODORS:{/ok}\n• Alcohol = Alcohol intoxication\n• Acetone = Diabetic coma\n• Fetid = Hepatic coma\n• Urine = Uremia\n\n{ok}RESPIRATORY PATTERNS:{/ok}\n• Cheyne-Stokes = Bilateral cortical lesions\n• Kussmaul = Uremia, Diabetic coma\n• Central neurogenic hyperventilation = Brainstem, POOR prognosis\n• Ataxic = Medullary, BAD prognosis\n• Gasping = Near death\n\n{ok}PUPILS:{/ok}\n• Dilated + No light = CN III palsy (↑ ICP, herniation)\n• Pinpoint = Thalamic, Pontine, Opioid toxicity\n• Normal + Light response = Metabolic coma\n\n{ok}EYE POSITION:{/ok}\n• Hemispheric: Toward lesion (looks at lesion)\n• Irritative: Away from lesion\n• Basal ganglia hemorrhage: Down and in\n• Brainstem: Toward paralyzed side\n\n{ok}POSTURING:{/ok}\n• Decorticate (Cortex): Arms flexed, Legs extended\n• Decerebrate (Brainstem): All limbs extended\n\n{ok}GLASGOW COMA SCALE:{/ok}\n• 3 components: Verbal, Eye, Motor\n• Range: 3-15\n• GCS 3-4 = 95% mortality\n\n{ok}LOCKED-IN SYNDROME:{/ok}\n• Lesion at base of pons\n• Cannot speak or move\n• CAN move eyes VERTICALLY\n• AWAKE but trapped\n\n{ok}VEGETATIVE STATE:{/ok}\n• Higher brain functions lost\n• Sleep-wake cycle, breathing, heart rate PRESERVED\n• Can survive for years\n\n{ok}BRAIN DEATH:{/ok}\n• ALL cortical AND brainstem functions LOST\n• EEG: Isoelectric line for 6 hours (24 hours apart)\n• EXCEPTIONS: Hypothermia, Drug intoxication\n\n{ok}UNKNOWN COMA: Give Thiamine (Vit B1) + 50% Glucose + Naloxone IV{/ok}"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3muOdOagfE7IYyWsXhnX5YmTVZRmeLnKfjxoQPiVz1e5GrygeWi-sfZ4&s=10",
+                      "caption": "Disorders of Consciousness",
+                      "title": "Disorders of Consciousness"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Disorders of Consciousness - Coma, Locked-in Syndrome, Vegetative State, Brain Death",
+                      "src": "https://youtu.be/GQ2Z9BB5wW8?si=NKjStE5zfIz4oGy2",
+                      "thumbnail": "https://img.youtube.com/vi/GQ2Z9BB5wW8/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of disorders of consciousness including coma, locked-in syndrome, vegetative state, and brain death"
+                    }
+                  ]
                 }
               ]
             }
