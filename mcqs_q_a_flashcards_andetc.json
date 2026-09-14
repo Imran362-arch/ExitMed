@@ -5855,6 +5855,807 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "neurology",
+              "name": "Neurology",
+              "icon": "🧠",
+              "description": "Disorders of the nervous system",
+              "subtopics": [
+                {
+                  "id": "intracranial_hemorrhage",
+                  "name": "Intracranial Hemorrhage",
+                  "icon": "🩸",
+                  "description": "Bleeding within the skull including SAH, epidural, subdural, and intracerebral hemorrhage",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "What percentage of all strokes are hemorrhagic?",
+                        "options": [
+                          "5%",
+                          "10%",
+                          "20%",
+                          "50%"
+                        ],
+                        "answer": 2,
+                        "explanation": "20% of all strokes are hemorrhagic strokes."
+                      },
+                      {
+                        "q": "The most important risk factor for intracranial hemorrhage is:",
+                        "options": [
+                          "Diabetes",
+                          "Hypertension",
+                          "Smoking",
+                          "Alcohol"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hypertension is the most important risk factor for intracranial hemorrhage."
+                      },
+                      {
+                        "q": "The most common cause of Subarachnoid Hemorrhage (SAH) is:",
+                        "options": [
+                          "Arteriovenous Malformation",
+                          "Ruptured intracranial aneurysm",
+                          "Head trauma",
+                          "Hypertension"
+                        ],
+                        "answer": 1,
+                        "explanation": "Ruptured intracranial aneurysm is the most common cause of SAH."
+                      },
+                      {
+                        "q": "Which type of intracranial hemorrhage is due to rupture of the middle meningeal artery?",
+                        "options": [
+                          "Subarachnoid hemorrhage",
+                          "Epidural hematoma",
+                          "Subdural hematoma",
+                          "Intracerebral hemorrhage"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epidural hematoma is due to rupture of the middle meningeal artery."
+                      },
+                      {
+                        "q": "The CT finding of an epidural hematoma is:",
+                        "options": [
+                          "Crescent shape (concave)",
+                          "Lentiform shape (convex)",
+                          "Star shape",
+                          "Ring shape"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epidural hematoma appears as a lentiform (convex) shape on CT."
+                      },
+                      {
+                        "q": "The CT finding of a subdural hematoma is:",
+                        "options": [
+                          "Lentiform shape (convex)",
+                          "Crescent shape (concave)",
+                          "Star shape",
+                          "Ring shape"
+                        ],
+                        "answer": 1,
+                        "explanation": "Subdural hematoma appears as a crescent (concave) shape on CT."
+                      },
+                      {
+                        "q": "The source of bleeding in acute subdural hematoma is:",
+                        "options": [
+                          "Arterial",
+                          "Venous",
+                          "Capillary",
+                          "Lymphatic"
+                        ],
+                        "answer": 1,
+                        "explanation": "Acute subdural hematoma is usually from venous blood."
+                      },
+                      {
+                        "q": "What percentage of acute subdural hematomas are bilateral?",
+                        "options": [
+                          "10%",
+                          "20%",
+                          "30%",
+                          "50%"
+                        ],
+                        "answer": 2,
+                        "explanation": "30% of acute subdural hematomas are bilateral."
+                      },
+                      {
+                        "q": "Chronic subdural hematoma is most common in:",
+                        "options": [
+                          "Young adults",
+                          "Elderly, alcoholics, and Parkinson's patients",
+                          "Children",
+                          "Pregnant women"
+                        ],
+                        "answer": 1,
+                        "explanation": "Chronic subdural hematoma is most common in elderly, alcoholics, and Parkinson's patients."
+                      },
+                      {
+                        "q": "Chronic subdural hematoma often presents with symptoms resembling:",
+                        "options": [
+                          "Migraine",
+                          "Dementia or stroke",
+                          "Meningitis",
+                          "Epilepsy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Chronic subdural hematoma often presents with symptoms resembling dementia or stroke."
+                      },
+                      {
+                        "q": "Symptoms of chronic subdural hematoma appear how long after trauma?",
+                        "options": [
+                          "Immediately",
+                          "1-2 hours",
+                          "Days to 3 weeks",
+                          "6 months"
+                        ],
+                        "answer": 2,
+                        "explanation": "Symptoms of chronic subdural hematoma appear days to 3 weeks after trauma."
+                      },
+                      {
+                        "q": "The Hunt and Hess Stage I of SAH is characterized by:",
+                        "options": [
+                          "Deep coma",
+                          "Mild headache and neck stiffness",
+                          "Semicoma with rigidity",
+                          "Drowsiness and confusion"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hunt and Hess Stage I is characterized by mild headache and neck stiffness, no focal symptoms."
+                      },
+                      {
+                        "q": "The Hunt and Hess Stage V of SAH is characterized by:",
+                        "options": [
+                          "Mild headache",
+                          "Moderate headache",
+                          "Deep coma and decerebrate rigidity",
+                          "Drowsiness"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hunt and Hess Stage V is characterized by deep coma and decerebrate rigidity."
+                      },
+                      {
+                        "q": "Re-bleeding from a ruptured aneurysm is at HIGHEST risk during:",
+                        "options": [
+                          "First 24 hours",
+                          "Second week",
+                          "First month",
+                          "First year"
+                        ],
+                        "answer": 1,
+                        "explanation": "Re-bleeding from a ruptured aneurysm is at highest risk during the second week."
+                      },
+                      {
+                        "q": "The diagnostic test of choice for SAH is:",
+                        "options": [
+                          "MRI",
+                          "Brain CT scan with contrast",
+                          "EEG",
+                          "Lumbar puncture alone"
+                        ],
+                        "answer": 1,
+                        "explanation": "Brain CT scan with contrast is the diagnostic test of choice for SAH."
+                      },
+                      {
+                        "q": "CSF findings in SAH include:",
+                        "options": [
+                          "Clear CSF",
+                          "Bloody CSF",
+                          "Xanthochromic CSF",
+                          "Turbid CSF"
+                        ],
+                        "answer": 1,
+                        "explanation": "CSF in SAH is bloody."
+                      },
+                      {
+                        "q": "Four-vessel angiography in SAH is performed to:",
+                        "options": [
+                          "Measure intracranial pressure",
+                          "Find the location of the aneurysm",
+                          "Assess cerebral blood flow",
+                          "Rule out meningitis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Four-vessel angiography in SAH is performed to find the location of the aneurysm."
+                      },
+                      {
+                        "q": "The calcium channel blocker used in SAH is:",
+                        "options": [
+                          "Amlodipine",
+                          "Nimodipine",
+                          "Verapamil",
+                          "Diltiazem"
+                        ],
+                        "answer": 1,
+                        "explanation": "Nimodipine is the calcium channel blocker used in SAH."
+                      },
+                      {
+                        "q": "Laxatives are given in SAH to:",
+                        "options": [
+                          "Treat constipation",
+                          "Prevent straining and re-bleeding",
+                          "Reduce ICP",
+                          "Prevent seizures"
+                        ],
+                        "answer": 1,
+                        "explanation": "Laxatives are given in SAH to prevent straining and re-bleeding."
+                      },
+                      {
+                        "q": "The surgical treatment for SAH with hydrocephalus is:",
+                        "options": [
+                          "Aneurysm clipping",
+                          "Ventriculo-peritoneal shunt",
+                          "Craniotomy",
+                          "Burr hole"
+                        ],
+                        "answer": 1,
+                        "explanation": "Ventriculo-peritoneal shunt is the surgical treatment for SAH with hydrocephalus."
+                      },
+                      {
+                        "q": "The surgical treatment for SAH to secure the aneurysm is:",
+                        "options": [
+                          "Ventriculo-peritoneal shunt",
+                          "Aneurysm clipping",
+                          "Craniectomy",
+                          "Laminectomy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aneurysm clipping is the surgical treatment for SAH to secure the aneurysm."
+                      },
+                      {
+                        "q": "Which of the following is NOT a complication of SAH?",
+                        "options": [
+                          "Re-bleeding",
+                          "Hydrocephalus",
+                          "Cerebral ischemia",
+                          "Aortic dissection"
+                        ],
+                        "answer": 3,
+                        "explanation": "Aortic dissection is NOT a complication of SAH."
+                      },
+                      {
+                        "q": "The most common cause of epidural hematoma is:",
+                        "options": [
+                          "Hypertension",
+                          "Skull trauma",
+                          "Aneurysm rupture",
+                          "AVM"
+                        ],
+                        "answer": 1,
+                        "explanation": "Skull trauma is the most common cause of epidural hematoma."
+                      },
+                      {
+                        "q": "Epidural hematoma if treated quickly results in:",
+                        "options": [
+                          "Permanent disability",
+                          "Complete recovery without complications",
+                          "Death",
+                          "Chronic headache"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epidural hematoma if treated quickly results in complete recovery without complications."
+                      },
+                      {
+                        "q": "Epidural hematoma if treatment is delayed results in:",
+                        "options": [
+                          "Complete recovery",
+                          "Death",
+                          "Mild headache",
+                          "Memory loss"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epidural hematoma if treatment is delayed results in death."
+                      },
+                      {
+                        "q": "Which of the following is a measure to lower intracranial pressure?",
+                        "options": [
+                          "Hypotonic solutions",
+                          "Mannitol 20%",
+                          "Fluid overload",
+                          "Supine position"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mannitol 20% is a measure to lower intracranial pressure."
+                      },
+                      {
+                        "q": "Elevating the head of the bed in intracranial hemorrhage helps to:",
+                        "options": [
+                          "Increase ICP",
+                          "Lower ICP",
+                          "Increase blood pressure",
+                          "Decrease heart rate"
+                        ],
+                        "answer": 1,
+                        "explanation": "Elevating the head of the bed helps to lower ICP."
+                      },
+                      {
+                        "q": "Which of the following should be AVOIDED in intracranial hemorrhage?",
+                        "options": [
+                          "Mannitol",
+                          "Hypertonic saline",
+                          "Hypotonic solutions",
+                          "Oxygen therapy"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hypotonic solutions should be avoided in intracranial hemorrhage."
+                      },
+                      {
+                        "q": "Control of hypertension in intracranial hemorrhage prevents:",
+                        "options": [
+                          "Hydrocephalus",
+                          "Re-bleeding",
+                          "Seizures",
+                          "Memory loss"
+                        ],
+                        "answer": 1,
+                        "explanation": "Control of hypertension in intracranial hemorrhage prevents re-bleeding."
+                      },
+                      {
+                        "q": "The duration of strict bed rest in SAH is:",
+                        "options": [
+                          "2 days",
+                          "1 week",
+                          "2 weeks",
+                          "1 month"
+                        ],
+                        "answer": 2,
+                        "explanation": "Strict bed rest in SAH is for 2 weeks."
+                      },
+                      {
+                        "q": "Anti-epileptics are given in SAH to prevent:",
+                        "options": [
+                          "Re-bleeding",
+                          "Seizures",
+                          "Hydrocephalus",
+                          "Vasospasm"
+                        ],
+                        "answer": 1,
+                        "explanation": "Anti-epileptics are given in SAH to prevent seizures."
+                      },
+                      {
+                        "q": "Which of the following is a clinical feature of SAH due to vasospasm?",
+                        "options": [
+                          "Aphasia",
+                          "Hemiparesis",
+                          "Memory loss",
+                          "All of the above"
+                        ],
+                        "answer": 3,
+                        "explanation": "Aphasia, hemiparesis, and memory loss are all clinical features of SAH due to vasospasm."
+                      },
+                      {
+                        "q": "Rupture of the anterior communicating artery causing severe hemorrhage leads to:",
+                        "options": [
+                          "Chronic headache",
+                          "Sudden death",
+                          "Dementia",
+                          "Hemiparesis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Rupture of the anterior communicating artery causing severe hemorrhage leads to sudden death."
+                      },
+                      {
+                        "q": "The rule for suspecting acute subdural hematoma is:",
+                        "options": [
+                          "Symptoms improve after trauma",
+                          "Symptoms don't improve or worsen after trauma",
+                          "Symptoms appear immediately",
+                          "Symptoms appear after 6 months"
+                        ],
+                        "answer": 1,
+                        "explanation": "The rule for suspecting acute subdural hematoma is that symptoms don't improve or worsen after trauma."
+                      },
+                      {
+                        "q": "Which of the following is a differential diagnosis for chronic subdural hematoma?",
+                        "options": [
+                          "Dementia",
+                          "Stroke",
+                          "Both A and B",
+                          "Migraine"
+                        ],
+                        "answer": 2,
+                        "explanation": "Both dementia and stroke are differential diagnoses for chronic subdural hematoma."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What percentage of all strokes are hemorrhagic?",
+                        "a": "20%."
+                      },
+                      {
+                        "q": "What is the most important risk factor for intracranial hemorrhage?",
+                        "a": "Hypertension."
+                      },
+                      {
+                        "q": "What is the most common cause of Subarachnoid Hemorrhage?",
+                        "a": "Ruptured intracranial aneurysm."
+                      },
+                      {
+                        "q": "What is the CT finding of an epidural hematoma?",
+                        "a": "Lentiform (convex) shape."
+                      },
+                      {
+                        "q": "What is the CT finding of a subdural hematoma?",
+                        "a": "Crescent (concave) shape."
+                      },
+                      {
+                        "q": "What is the source of bleeding in an epidural hematoma?",
+                        "a": "Middle meningeal artery."
+                      },
+                      {
+                        "q": "What is the source of bleeding in a subdural hematoma?",
+                        "a": "Venous blood."
+                      },
+                      {
+                        "q": "What is the classic presentation of chronic subdural hematoma?",
+                        "a": "Dementia or stroke-like symptoms, days to 3 weeks after trauma."
+                      },
+                      {
+                        "q": "What is the Hunt and Hess Stage I of SAH?",
+                        "a": "Mild headache and neck stiffness, no focal symptoms."
+                      },
+                      {
+                        "q": "What is the Hunt and Hess Stage V of SAH?",
+                        "a": "Deep coma and decerebrate rigidity."
+                      },
+                      {
+                        "q": "When is re-bleeding risk highest in SAH?",
+                        "a": "During the second week."
+                      },
+                      {
+                        "q": "What is the diagnostic test of choice for SAH?",
+                        "a": "Brain CT scan with contrast."
+                      },
+                      {
+                        "q": "What is the calcium channel blocker used in SAH?",
+                        "a": "Nimodipine."
+                      },
+                      {
+                        "q": "What is the surgical treatment for SAH with hydrocephalus?",
+                        "a": "Ventriculo-peritoneal shunt."
+                      },
+                      {
+                        "q": "What is the surgical treatment for SAH to secure the aneurysm?",
+                        "a": "Aneurysm clipping."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What percentage of all strokes are hemorrhagic?",
+                        "back": "20%."
+                      },
+                      {
+                        "front": "What is the most important risk factor for intracranial hemorrhage?",
+                        "back": "Hypertension."
+                      },
+                      {
+                        "front": "What is the most common cause of Subarachnoid Hemorrhage?",
+                        "back": "Ruptured intracranial aneurysm."
+                      },
+                      {
+                        "front": "What is the CT finding of an epidural hematoma?",
+                        "back": "Lentiform (convex) shape."
+                      },
+                      {
+                        "front": "What is the CT finding of a subdural hematoma?",
+                        "back": "Crescent (concave) shape."
+                      },
+                      {
+                        "front": "What is the source of bleeding in an epidural hematoma?",
+                        "back": "Middle meningeal artery."
+                      },
+                      {
+                        "front": "What is the source of bleeding in a subdural hematoma?",
+                        "back": "Venous blood."
+                      },
+                      {
+                        "front": "What is the classic presentation of chronic subdural hematoma?",
+                        "back": "Dementia or stroke-like symptoms, days to 3 weeks after trauma."
+                      },
+                      {
+                        "front": "What is the Hunt and Hess Stage I of SAH?",
+                        "back": "Mild headache and neck stiffness, no focal symptoms."
+                      },
+                      {
+                        "front": "What is the Hunt and Hess Stage V of SAH?",
+                        "back": "Deep coma and decerebrate rigidity."
+                      },
+                      {
+                        "front": "When is re-bleeding risk highest in SAH?",
+                        "back": "During the second week."
+                      },
+                      {
+                        "front": "What is the diagnostic test of choice for SAH?",
+                        "back": "Brain CT scan with contrast."
+                      },
+                      {
+                        "front": "What is the calcium channel blocker used in SAH?",
+                        "back": "Nimodipine."
+                      },
+                      {
+                        "front": "What is the surgical treatment for SAH with hydrocephalus?",
+                        "back": "Ventriculo-peritoneal shunt."
+                      },
+                      {
+                        "front": "What is the surgical treatment for SAH to secure the aneurysm?",
+                        "back": "Aneurysm clipping."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Hemorrhagic Strokes",
+                        "icon": "🩸",
+                        "code": "20% of all strokes",
+                        "items": [
+                          {
+                            "letter": "20%",
+                            "text": "20% of all strokes are hemorrhagic"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "SAH Causes",
+                        "icon": "🧠",
+                        "code": "A-A-T",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Aneurysm (most common)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "AVM"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Trauma"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "SAH Stages (Hunt & Hess)",
+                        "icon": "📊",
+                        "code": "I-V",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "Mild headache + neck stiffness"
+                          },
+                          {
+                            "letter": "II",
+                            "text": "Moderate-severe headache, no focal symptoms"
+                          },
+                          {
+                            "letter": "III",
+                            "text": "Drowsiness, confusion + mild focal symptoms"
+                          },
+                          {
+                            "letter": "IV",
+                            "text": "Semicoma + rigidity"
+                          },
+                          {
+                            "letter": "V",
+                            "text": "Deep coma + rigidity"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Epidural vs Subdural CT",
+                        "icon": "🩻",
+                        "code": "LENTIFORM vs CRESCENT",
+                        "items": [
+                          {
+                            "letter": "E",
+                            "text": "Epidural → LENTIFORM (convex)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Subdural → CRESCENT (concave)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Epidural Source",
+                        "icon": "🩸",
+                        "code": "Middle Meningeal Artery",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Rupture of middle meningeal artery"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Subdural Source",
+                        "icon": "🩸",
+                        "code": "Venous",
+                        "items": [
+                          {
+                            "letter": "V",
+                            "text": "Venous blood (slower course than epidural)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Chronic Subdural Presentation",
+                        "icon": "🧠",
+                        "code": "DEMENTIA or STROKE",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Misleading presentation as dementia or stroke"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ICP Management",
+                        "icon": "⚙️",
+                        "code": "E-C-M-H-D-O-A",
+                        "items": [
+                          {
+                            "letter": "E",
+                            "text": "Elevate head"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cool head"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Mannitol 20%"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Hypertonic saline"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Diuretics"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Oxygen"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Avoid hypotonic solutions"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "SAH Treatment",
+                        "icon": "💊",
+                        "code": "I-B-L-A-N",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "ICU"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Bed rest 2 weeks"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "Laxatives"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Anti-emetics/Analgesics/Anti-epileptics"
+                          },
+                          {
+                            "letter": "N",
+                            "text": "Nimodipine (Calcium channel blocker)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "SAH Re-bleeding Risk",
+                        "icon": "⚠️",
+                        "code": "Highest in 2nd Week",
+                        "items": [
+                          {
+                            "letter": "2nd",
+                            "text": "Re-bleeding from aneurysm is at highest risk during the second week"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "Introduction - High Yield",
+                      "icon": "📖",
+                      "tags": [
+                        "introduction",
+                        "high-yield"
+                      ],
+                      "content": "{key}20% of all strokes are HEMORRHAGIC STROKES{/key}\n\n{key}TYPES:{/key}\n• {hl}INTRACEREBRAL HEMORRHAGE (ICH):{/hl} Blood in brain parenchyma\n• {hl}SUBARACHNOID HEMORRHAGE (SAH):{/hl} Blood in subarachnoid space\n• {hl}EPIDURAL HEMATOMA:{/hl} Blood between skull and dura\n• {hl}SUBDURAL HEMATOMA:{/hl} Blood between dura and arachnoid\n\n{key}SAH CAUSES:{/key}\n• Ruptured intracranial {hl}ANEURYSM{/hl} (most common)\n• Arteriovenous Malformation (AVM)\n• Head trauma\n\n{key}MOST IMPORTANT RISK FACTOR:{/key} {hl}HYPERTENSION{/hl}\n\n{key}Epidural and Subdural hematomas:{/key} Due to HEAD TRAUMA, require SURGICAL treatment"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Subarachnoid Hemorrhage (SAH)",
+                      "icon": "🩸",
+                      "tags": [
+                        "SAH",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}CLINICAL STAGES (Hunt & Hess):{/key}\n\n• {hl}Stage I:{/hl} No symptoms OR mild headache + neck stiffness\n• {hl}Stage II:{/hl} Moderate-severe headache + neck stiffness, NO focal/hemispheric symptoms\n• {hl}Stage III:{/hl} Drowsiness, confusion + mild focal symptoms\n• {hl}Stage IV:{/hl} Semicoma + rigidity (Decerebrate posture)\n• {hl}Stage V:{/hl} Deep coma + rigidity (Decerebrate posture)\n\n{key}ADDITIONAL CLINICAL FEATURES (due to vasospasm):{/key}\n• Aphasia\n• Hemiparesis\n• Memory loss\n\n{key}SEVERE HEMORRHAGE{/key} from Anterior Communicating Artery rupture:\n→ {hlpu}SUDDEN DEATH{/hlpu}\n\n{key}CLINICAL PRESENTATION:{/key}\n• SUDDEN SEVERE HEADACHE\n• Signs of meningeal irritation\n• In person with NO previous significant complaints\n\n{key}DIAGNOSIS:{/key}\n1. Brain CT scan with contrast: Shows blood in subarachnoid space\n2. CSF: Bloody\n3. Four-vessel angiography: Finds aneurysm location\n4. PT-PTT + Liver enzymes\n\n{key}COMPLICATIONS:{/key}\n• Re-bleeding from aneurysm ({hl}HIGHEST RISK in 2nd week{/hl})\n• Hydrocephalus (communicating)\n• Cerebral ischemia\n• Stress ulcer\n• Thrombophlebitis\n• Seizures\n\n{key}TREATMENT:{/key}\n\n{key}A. MEDICAL:{/key}\n1. ICU admission\n2. Strict bed rest for 2 weeks\n3. Laxatives (prevent straining → prevents re-bleeding)\n4. Anti-emetics + Analgesics\n5. Anti-epileptics\n6. Calcium channel blockers (Nimodipine)\n\n{key}B. SURGICAL:{/key}\n1. Aneurysm clipping\n2. Ventriculo-peritoneal shunt (if hydrocephalus develops)"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Epidural Hematoma",
+                      "icon": "⚠️",
+                      "tags": [
+                        "epidural",
+                        "hematoma",
+                        "high-yield"
+                      ],
+                      "content": "{key}DEFINITION:{/key}\n• Dangerous and fatal type of hemorrhage from skull trauma\n• Due to rupture of {hl}MIDDLE MENINGEAL ARTERY{/hl}\n• Artery located under the skull bone\n\n{key}CRITICAL POINT:{/key}\n• If treated {ok}QUICKLY{/ok} → Complete recovery without complications\n• If diagnosis/treatment {hlpu}DELAYED{/hlpu} → {hlpu}DEATH is certain{/hlpu}\n\n{key}CT FINDING:{/key} {hl}LENTIFORM (convex) shape{/hl}"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Acute Subdural Hematoma",
+                      "icon": "⚠️",
+                      "tags": [
+                        "subdural",
+                        "hematoma",
+                        "high-yield"
+                      ],
+                      "content": "{key}CAUSE:{/key} Usually from skull trauma\n{key}SOURCE:{/key} {hl}VENOUS blood{/hl} (slower course than epidural)\n\n{key}CLINICAL FEATURES:{/key}\n• 2-3 days after trauma: Headache (progressively worse)\n• Altered consciousness\n• Drowsiness\n• Hemiplegia\n\n{key}30% of cases are BILATERAL{/key}\n\n{key}RULE:{/key} Any patient whose neurological symptoms {hl}DON'T IMPROVE or WORSEN{/hl} after head trauma → Suspect ACUTE SUBDURAL\n\n{key}CT FINDING:{/key} {hl}CRESCENT shape (concave){/hl} - OPPOSITE of epidural"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Chronic Subdural Hematoma",
+                      "icon": "🧠",
+                      "tags": [
+                        "chronic subdural",
+                        "hematoma",
+                        "high-yield"
+                      ],
+                      "content": "{key}DESCRIPTION:{/key} One of the {hl}MISLEADING{/hl} neurological diseases\n\n{key}WHO GETS IT:{/key}\n• Elderly\n• Alcoholics\n• Parkinson's disease patients\n• Mentally retarded patients\n\n{key}HISTORY:{/key} Often {hl}NO remembered trauma{/hl} (even sudden head movement can tear cerebral vein)\n\n{key}TIMELINE:{/key}\n• Minor-severe head trauma\n• Patient continues normal activity\n• {hl}Days to 3 WEEKS later{/hl}: Neurological symptoms appear (due to gradual venous bleeding in subdural space)\n\n{key}CLINICAL FEATURES:{/key}\n• Hemiparesis\n• Headache\n• Dementia\n• EEG changes\n• MRI changes\n\n{key}MISLEADING PRESENTATION:{/key}\n• Patients present with {hl}DEMENTIA or STROKE{/hl} symptoms\n• Brain CT scan reveals the true diagnosis\n\n{key}DIAGNOSIS:{/key}\n• Brain CT scan\n• Angiography\n\n{key}TREATMENT:{/key}\n• Mild hemorrhage + improving patient → Some recommend NO surgery\n• If signs of ↑ ICP or progressive neurological symptoms → {hl}SURGICAL evacuation REQUIRED{/hl}"
+                    },
+                    {
+                      "type": "info",
+                      "title": "General Management of Hemorrhagic Stroke",
+                      "icon": "⚙️",
+                      "tags": [
+                        "management",
+                        "treatment",
+                        "high-yield"
+                      ],
+                      "content": "{key}Same as ISCHEMIC STROKE + Specific measures for ↑ ICP{/key}\n\n{key}MEASURES TO LOWER INTRACRANIAL PRESSURE:{/key}\n1. Elevate head of bed\n2. Cool the head\n3. Hypertonic solutions:\n   - Mannitol 20%\n   - Hypertonic Sodium Chloride\n4. Diuretics\n5. Oxygen therapy\n6. {warn}AVOID hypotonic solutions{/warn}\n\n{key}CONTROL HYPERTENSION:{/key}\n• Prevents re-bleeding"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}20% of all strokes are HEMORRHAGIC{/ok}\n\n{ok}SAH CAUSES: Ruptured aneurysm (most common), AVM, Trauma{/ok}\n{ok}MOST IMPORTANT RISK FACTOR: HYPERTENSION{/ok}\n\n{ok}SAH STAGES (Hunt & Hess): I to V{/ok}\n• Stage I: Mild headache + neck stiffness\n• Stage V: Deep coma + Decerebrate rigidity\n\n{ok}SAH DIAGNOSIS:{/ok}\n• CT scan with contrast: Blood in subarachnoid space\n• CSF: Bloody\n• Four-vessel angiography: Finds aneurysm\n\n{ok}SAH COMPLICATIONS:{/ok}\n• Re-bleeding (HIGHEST RISK in 2nd week)\n• Hydrocephalus\n• Cerebral ischemia\n\n{ok}SAH TREATMENT:{/ok}\n• Medical: ICU, Bed rest 2 weeks, Laxatives, Nimodipine\n• Surgical: Aneurysm clipping, VP shunt\n\n{ok}EPIDURAL HEMATOMA:{/ok}\n• Rupture of MIDDLE MENINGEAL ARTERY\n• CT: LENTIFORM (convex) shape\n• Early treatment = Complete recovery\n• Delayed treatment = DEATH\n\n{ok}ACUTE SUBDURAL HEMATOMA:{/ok}\n• VENOUS source\n• CT: CRESCENT (concave) shape\n• 30% BILATERAL\n• Suspect if symptoms worsen after trauma\n\n{ok}CHRONIC SUBDURAL HEMATOMA:{/ok}\n• Misleading disease → Presents as DEMENTIA or STROKE\n• Elderly, Alcoholics, Parkinson's, Mentally retarded\n• Often NO remembered trauma\n• Symptoms appear days to 3 WEEKS after trauma\n• Treatment: Surgery if ↑ ICP or progressive symptoms\n\n{ok}ICP MANAGEMENT:{/ok}\n• Elevate head, Cool head, Mannitol 20%, Hypertonic saline, Diuretics, Oxygen, AVOID hypotonic solutions\n\n{ok}CONTROL HYPERTENSION prevents re-bleeding{/ok}"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLz-vqv8oLEG8jrgS8bmj1s07ibwQCcFWwB7eizFnckK363n4ZwywAkSQ&s=10",
+                      "caption": "Intracranial Hemorrhage Types",
+                      "title": "Intracranial Hemorrhage"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Intracranial Hemorrhage - Pathophysiology and Clinical Features",
+                      "src": "https://youtu.be/Kb_wzb7-rvE?si=jR4kfXiRcRduMbhJ",
+                      "thumbnail": "https://img.youtube.com/vi/Kb_wzb7-rvE/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of intracranial hemorrhage including SAH, epidural, subdural hematomas, clinical features, diagnosis, and management"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "description": "Diagnosis and treatment of adult diseases"
