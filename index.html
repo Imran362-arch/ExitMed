@@ -8,6 +8,9 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="MedExit">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" type="image/png" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/inter@latest/index.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/noto-naskh-arabic@latest/index.css">
 <style>
@@ -759,7 +762,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <button class="lang-btn" data-lang="ps" onclick="setLanguage('ps')">پښتو</button>
 <button class="lang-btn" data-lang="dr" onclick="setLanguage('dr')">دری</button>
 </div>
-<button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" id="themeToggle">🌙</button>
+<button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" id="themeToggle"></button>
 </div>
 <div class="breadcrumb-nav" id="breadcrumb"></div>
 <div class="nav-list" id="navList"></div>
@@ -776,7 +779,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 </div>
 <div class="topbar-actions">
 <button class="topbar-btn" onclick="openSettings()" title="Settings">⚙️</button>
-<button class="topbar-btn" id="refreshBtn" onclick="refreshData()" title="Refresh">🔄</button>
+<button class="topbar-btn" id="refreshBtn" onclick="refreshData()" title="Refresh"></button>
 <button class="topbar-btn" onclick="openAboutModal()" title="About">ℹ️</button>
 </div>
 </div>
@@ -794,10 +797,10 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 </div>
 <div class="video-controls-row">
 <button class="video-ctrl-btn play-pause" id="videoPlayPause" onclick="toggleVideoPlay()">▶</button>
-<button class="video-ctrl-btn" onclick="skipVideo(-10)">⏪</button>
+<button class="video-ctrl-btn" onclick="skipVideo(-10)"></button>
 <button class="video-ctrl-btn" onclick="skipVideo(10)">⏩</button>
 <div class="video-volume-wrap">
-<button class="video-ctrl-btn" id="videoMuteBtn" onclick="toggleVideoMute()">🔊</button>
+<button class="video-ctrl-btn" id="videoMuteBtn" onclick="toggleVideoMute()"></button>
 <input type="range" class="video-volume-slider" id="videoVolume" min="0" max="1" step="0.05" value="1" oninput="setVideoVolume(this.value)">
 </div>
 <div class="video-time" id="videoTime">0:00 / 0:00</div>
@@ -962,8 +965,8 @@ function dirClass(t){return isRTLText(t)?'rtl-text':'ltr-text'}
 
 const i18n={
 en:{loading:'Loading content...',loadingDecrypt:'Decrypting content...',tagline:'Medical Exit Exam Prep',subtitle:'Browse exam preparation materials',refresh:'Refresh',about:'About',settings:'Settings',footer:'© 2026 MedExit — Medical Education',home:'Home',dashboard:'Dashboard',categories:'Categories',subjects:'Subjects',topics:'Topics',subtopics:'Subtopics',mcqs:'MCQs',qa:'Q&A',flashcards:'Flashcards',mnemonics:'Mnemonics',videos:'Videos',images:'Images',notes:'Notes',links:'Links',question:'Question',answer:'Answer',front:'Question',back:'Answer',tapToFlip:'Tap card to reveal answer',explanation:'Explanation',noContent:'No content available yet',noContentDesc:'This section does not have any items.',loadingFailed:'Failed to load content.',refreshSuccess:'Content refreshed successfully',card:'Card',of:'of',previous:'Previous',next:'Next',finish:'Finish Quiz',welcomeTitle:'Welcome to MedExit',welcomeDesc:'Your comprehensive medical exit exam preparation platform.',totalMCQs:'Total MCQs',totalQA:'Q&A Items',totalFlash:'Flashcards',totalMnem:'Mnemonics',aboutTitle:'About MedExit',aboutText:'MedExit is a comprehensive medical exit exam preparation platform.',features:'Features',featureList:['Multi-language UI (English, Pashto, Dari)','Auto RTL detection','Customizable font sizes','Interactive MCQs with progress tracking','Smart quiz starter with count selection','No-repeat MCQ system','Offline support with encrypted data','Premium flip flashcards','Built-in video player','Image gallery viewer','Rich Notes with custom styling','Notes and external links'],ok:'OK',back:'Back',exploreCategories:'Explore Categories',items:'items',correct:'Correct',wrong:'Wrong',remaining:'Remaining',progress:'Progress',quizComplete:'Quiz Complete!',youScored:'You scored',excellent:'Excellent! Outstanding performance!',great:'Great job! Keep up the good work!',good:'Good effort! Review the topics you missed.',keepGoing:'Keep studying! Practice makes perfect.',retry:'Retry Quiz',reviewAnswers:'Review Answers',backToTopic:'Back to Topic',newSession:'New Session',bookmark:'Bookmark',flag:'Flag for Review',addNote:'Add Note',shuffle:'Shuffle',sequential:'Sequential',randomMode:'Random',wrongOnly:'Wrong Only',streak:'Streak',flip:'Flip',again:'Again',hard:'Hard',goodRating:'Good',easy:'Easy',watchVideo:'Watch Video',viewImage:'View Image',openLink:'Open Link',noVideos:'No videos available',noImages:'No images available',noNotes:'No notes available',noNotesDesc:'Add notes via JSON with rich styling support',noLinks:'No links available',startQuiz:'Start Quiz',configureSession:'Configure your practice session',howMany:'How many questions?',quizMode:'Quiz mode',modeRandom:'Random',modeSequential:'Order',modeWrong:'Wrong',available:'Available',studied:'Studied',newQ:'New',cancel:'Cancel',start:'Start Quiz',quick:'Quick',standard:'Standard',extended:'Extended',complete:'Complete',allStudied:'All questions studied!',resetProgress:'Reset & Start Over',progressSaved:'Progress saved',decryptError:'Failed to decrypt content',exitQuiz:'Exit Quiz',exitQuizTitle:'Exit Quiz?',exitQuizDesc:'Your progress will be saved. You can resume or start a new session later.',continueQuiz:'Continue Quiz',confirmExit:'Exit Quiz',tapTwiceHint:'Tap again to exit',settingsTitle:'Settings',appearance:'Appearance',themeMode:'Theme Mode',themeDesc:'Switch between dark and light theme',darkTheme:' Dark',lightTheme:'☀️ Light',typography:'Typography',generalFont:'General Font Size',generalFontDesc:'Controls text size across the app',mcqFont:'MCQ Question Font Size',mcqFontDesc:'Specifically for quiz question text',livePreview:'Live Preview',dataProgress:'Data & Progress',resetAll:'Reset All Progress',resetAllDesc:'Clear all quiz answers, bookmarks, and study progress',reset:'Reset',done:'Done',resetConfirm:'Are you sure? This will erase ALL your progress, answers, and bookmarks.',resetYes:'Yes, Reset',resetNo:'Cancel',resetDone:'All progress has been reset',quizInProgress:'Quiz in progress',searchNotes:'Search notes...',allNotes:'All',tipNotes:'Tips',warningNotes:'Warnings',importantNotes:'Important',infoNotes:'Info',contentUpdated:'Content updated! Your progress has been preserved.',offlineMode:'You are offline — using cached data',onlineAgain:'Back online!',note:'Note',tip:'Tip',warning:'Warning',important:'Important',info:'Info'},
-ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — طبي زده کړې',home:'کور',dashboard:'ډشبور',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انځورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'ځواب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منځپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارډونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیفارم ده.',features:'ځانګړتیاوې',featureList:['د UI څو ژبې','اتوماتیک RTL','د فونټ اندازه تنظیم','تعاملی MCQs','فلاش کارډونه','یادګارې','آفلاین ملاتړ','ښکلي یادښتونه'],ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ښه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ټولې پوتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',exitQuizTitle:'ازموینه بند کړئ؟',exitQuizDesc:'ستاسو پرمختګ به خوندي شي.',continueQuiz:'ازموینه دوام',confirmExit:'بندول',tapTwiceHint:'د بندولو لپاره بیا کېکاږئ',settingsTitle:'تنظیمات',appearance:'کلا',themeMode:'موضوع',themeDesc:'تیاره یا روڼه موضوع',darkTheme:'🌙 تیاره',lightTheme:'☀️ روښانه',typography:'لیکنه',generalFont:'عمومي فونټ اندازه',generalFontDesc:'د ټول اپلیکیشن لیکنه',mcqFont:'د MCQ پوښتنې فونټ',mcqFontDesc:'یوازې د ازموینې پوښتنو لپاره',livePreview:'مخکتنه',dataProgress:'ډاټا او پرمختګ',resetAll:'ټول پرمختګ پاک کړئ',resetAllDesc:'ټول ځوابونه، نښې، او پرمختګ پاک کړئ',reset:'پاکول',done:'بشپړ',resetConfirm:'ډاډه یاست؟ ټول پرمختګ به پاک شي.',resetYes:'هو، پاک کړئ',resetNo:'لغوه',resetDone:'ټول پرمختګ پاک شو',quizInProgress:'ازموینه روانه ده',searchNotes:'یادښتونه لون...',allNotes:'ټول',tipNotes:'لارښوونې',warningNotes:'خبرداری',importantNotes:'مهم',infoNotes:'معلومات',contentUpdated:'منځپانګه تازه شوه! ستاسو پرمختګ ساتل شوی.',offlineMode:'تاسو آفلاین یاست —Cached ډاټا کارول کیي',onlineAgain:'بیا آنلاین!',note:'یادښت',tip:'لارښوونه',warning:'خبرداری',important:'مهم',info:'معلومات'},
-dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',settings:'تنظیمات',footer:'© ۲۰۶ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',featureList:['UI چند زبانه','تشخیص خودکار RTL','اندازه فونت قابل تنظیم','MCQs تعاملی','فلش کارت‌ها','یادیارها','پشتیبانی آفلاین','یادداشت‌های زیبا'],ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',exitQuizTitle:'خروج از آزمون؟',exitQuizDesc:'پیشرفت شما ذخیره خواهد شد.',continueQuiz:'ادامه آزمون',confirmExit:'خروج',tapTwiceHint:'برای خروج دوباره بزنید',settingsTitle:'تنظیمات',appearance:'ظاهر',themeMode:'حالت تم',themeDesc:'تغییر بین تم تیره و روشن',darkTheme:'🌙 تیره',lightTheme:'☀️ روشن',typography:'تایپوگرافی',generalFont:'اندازه فونت عمومی',generalFontDesc:'اندازه متن در کل برنامه',mcqFont:'اندازه فونت سوالات MCQ',mcqFontDesc:'مخصوص متن سوالات آزمون',livePreview:'پیش‌نمایش زنده',dataProgress:'داده و پیشرفت',resetAll:'بازنشانی کل پیشرفت',resetAllDesc:'پاک کردن همه پاسخ‌ها، نشان‌ها و پیشرفت',reset:'بازنشانی',done:'انجام شد',resetConfirm:'مطمئن هستید؟ تمام پیشرفت پاک خواهد شد.',resetYes:'بله، بازنشانی',resetNo:'لغو',resetDone:'تمام پیشرفت بازنشانی شد',quizInProgress:'آزمون در حال انجام',searchNotes:'جستجوی یادداشت‌ها...',allNotes:'همه',tipNotes:'نکات',warningNotes:'هشدارها',importantNotes:'مهم',infoNotes:'اطلاعات',contentUpdated:'محتوا به‌روز شد! پیشرفت شما حفظ شده است.',offlineMode:'آفلاین هستید — از داده‌های کش استفاده می‌شود',onlineAgain:'دوباره آنلاین!',note:'یادداشت',tip:'نکته',warning:'هشدار',important:'مهم',info:'اطلاعات'}
+ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — طبي زده کړې',home:'کور',dashboard:'شبورډ',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'ځواب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منځپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارډونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیفارم ده.',features:'ځانګړتیاوې',featureList:['د UI و ژبې','اتوماتیک RTL','د فونټ اندازه تنظیم','تعاملی MCQs','فلاش کارډونه','یادګارې','آفلاین ملاتړ','کلي یادښتونه'],ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ښه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ټولې پوتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',exitQuizTitle:'ازموینه بند کړئ؟',exitQuizDesc:'ستاسو پرمختګ به خوندي شي.',continueQuiz:'ازموینه دوام',confirmExit:'بندول',tapTwiceHint:'د بندولو لپاره بیا کېکاږئ',settingsTitle:'تنظیمات',appearance:'کلا',themeMode:'موضوع',themeDesc:'تیاره یا روڼه موضوع',darkTheme:'🌙 تیاره',lightTheme:'☀️ روښانه',typography:'لیکنه',generalFont:'عمومي فونټ اندازه',generalFontDesc:'د ټول اپلیکیشن لیکنه',mcqFont:'د MCQ پوښتنې فونټ',mcqFontDesc:'یوازې د ازموینې پوښتنو لپاره',livePreview:'مخکتنه',dataProgress:'ډاا او پرمختګ',resetAll:'ول پرمختګ پاک کړئ',resetAllDesc:'ول ځوابونه، نښې، او پرمختګ پاک کړئ',reset:'پاکول',done:'بشپړ',resetConfirm:'ډاډه یاست؟ ټول پرمختګ به پاک شي.',resetYes:'هو، پاک کړئ',resetNo:'لغوه',resetDone:'ول پرمختګ پاک شو',quizInProgress:'ازموینه روانه ده',searchNotes:'یادښتونه لون...',allNotes:'ټول',tipNotes:'لارښوونې',warningNotes:'خبرداری',importantNotes:'مهم',infoNotes:'معلومات',contentUpdated:'منځپانګه تازه شوه! ستاسو پرمختګ ساتل شوی.',offlineMode:'تاسو آفلاین یاست —Cached ډاټا کارول کیي',onlineAgain:'بیا آنلاین!',note:'یادښت',tip:'لارښوونه',warning:'خبرداری',important:'مهم',info:'معلومات'},
+dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',settings:'تنظیمات',footer:'© ۲۶ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',featureList:['UI چند زبانه','تشخیص خودکار RTL','اندازه فونت قابل تنظیم','MCQs تعاملی','فلش کارت‌ها','یادیارها','پشتیبانی آفلاین','یادداشت‌های زیبا'],ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',exitQuizTitle:'خروج از آزمون؟',exitQuizDesc:'پیشرفت شما ذخیره خواهد شد.',continueQuiz:'ادامه آزمون',confirmExit:'خروج',tapTwiceHint:'برای خروج دوباره بزنید',settingsTitle:'تنظیمات',appearance:'ظاهر',themeMode:'حالت تم',themeDesc:'تغییر بین تم تیره و روشن',darkTheme:' تیره',lightTheme:'☀️ روشن',typography:'تایپوگرافی',generalFont:'اندازه فونت عمومی',generalFontDesc:'اندازه متن در کل برنامه',mcqFont:'اندازه فونت سوالات MCQ',mcqFontDesc:'مخصوص متن سوالات آزمون',livePreview:'پیش‌نمایش زنده',dataProgress:'داده و پیشرفت',resetAll:'بازنشانی کل پیشرفت',resetAllDesc:'پاک کردن همه پاسخ‌ها، نشان‌ها و پیشرفت',reset:'بازنشانی',done:'انجام شد',resetConfirm:'مطمئن هستید؟ تمام پیشرفت پاک خواهد شد.',resetYes:'بله، بازنشانی',resetNo:'لغو',resetDone:'تمام پیشرفت بازنشانی شد',quizInProgress:'آزمون در حال انجام',searchNotes:'جستجوی یادداشت‌ها...',allNotes:'همه',tipNotes:'نکات',warningNotes:'هشدارها',importantNotes:'مهم',infoNotes:'اطلاعات',contentUpdated:'محتوا به‌روز شد! پیشرفت شما حفظ شده است.',offlineMode:'آفلاین هستید — از داده‌های کش استفاده می‌شود',onlineAgain:'دوباره آنلاین!',note:'یادداشت',tip:'نکته',warning:'هشدار',important:'مهم',info:'اطلاعات'}
 };
 
 let state={
@@ -1190,7 +1193,7 @@ renderAll();
 console.error('Load error:',err);
 document.getElementById('loadingScreen').innerHTML=`
 <div style="text-align:center;padding:20px;">
-<div style="font-size:56px;margin-bottom:16px;">⚠️</div>
+<div style="font-size:56px;margin-bottom:16px;">️</div>
 <h3 style="color:var(--text-1);margin-bottom:8px;font-size:18px;">${t('loadingFailed')}</h3>
 <p style="color:var(--text-3);font-size:13px;margin-bottom:20px;">${err.message}</p>
 <button class="btn btn-primary" onclick="location.reload()">🔄 ${t('refresh')}</button>
@@ -1270,7 +1273,7 @@ function normalizeItem(item){
 if(!item)return null;
 const result={
 id:item.id||('id_'+Math.random().toString(36).slice(2,8)),
-name:item.name||'',icon:item.icon||'📚',description:item.description||'',
+name:item.name||'',icon:item.icon||'',description:item.description||'',
 content:item.content||null,children:[]
 };
 const childSources=[item.children,item.subjects,item.topics,item.subtopics,item.categories];
@@ -1334,11 +1337,11 @@ function openSettings(){updateSettingsUI();document.getElementById('settingsOver
 function closeSettings(){document.getElementById('settingsOverlay').classList.remove('show')}
 function updateSettingsUI(){
 document.getElementById('settingsTitle').textContent=t('settingsTitle');
-document.getElementById('sgAppearance').innerHTML='🎨 '+t('appearance');
+document.getElementById('sgAppearance').innerHTML=' '+t('appearance');
 document.getElementById('sThemeLabel').textContent=t('themeMode');
 document.getElementById('sThemeDesc').textContent=t('themeDesc');
 document.getElementById('sThemeBtn').textContent=state.theme==='dark'?t('darkTheme'):t('lightTheme');
-document.getElementById('sgTypography').innerHTML='🔤 '+t('typography');
+document.getElementById('sgTypography').innerHTML=' '+t('typography');
 document.getElementById('sBaseLabel').textContent=t('generalFont');
 document.getElementById('sBaseDesc').textContent=t('generalFontDesc');
 document.getElementById('sMcqLabel').textContent=t('mcqFont');
@@ -1347,7 +1350,7 @@ document.getElementById('sPreviewLabel').textContent=t('livePreview');
 document.getElementById('sgData').innerHTML='💾 '+t('dataProgress');
 document.getElementById('sResetLabel').textContent=t('resetAll');
 document.getElementById('sResetDesc').textContent=t('resetAllDesc');
-document.getElementById('sResetBtn').innerHTML='🗑️ '+t('reset');
+document.getElementById('sResetBtn').innerHTML='️ '+t('reset');
 document.getElementById('sDoneBtn').innerHTML='✓ '+t('done');
 document.getElementById('baseFontSlider').value=state.baseFont;
 document.getElementById('baseFontValue').textContent=state.baseFont+'px';
@@ -1394,7 +1397,7 @@ let html=`<span class="breadcrumb-item ${state.navStack.length===0?'current':''}
 state.navStack.forEach((entry,idx)=>{
 const isLast=idx===state.navStack.length-1;
 html+=`<span class="breadcrumb-sep">›</span>`;
-html+=`<span class="breadcrumb-item ${isLast?'current':''}" onclick="goToIndex(${idx+1})">${entry.item.icon||'📚'} ${escapeHtml(entry.item.name)}</span>`;
+html+=`<span class="breadcrumb-item ${isLast?'current':''}" onclick="goToIndex(${idx+1})">${entry.item.icon||''} ${escapeHtml(entry.item.name)}</span>`;
 });
 bc.innerHTML=html;
 }
@@ -1450,7 +1453,7 @@ topbarSubtitle.textContent=t('subtitle');
 }else{
 const current=getCurrentItem();
 const type=getItemType(current);
-topbarTitle.innerHTML=`${current.icon||'📚'} ${escapeHtml(current.name)}`;
+topbarTitle.innerHTML=`${current.icon||''} ${escapeHtml(current.name)}`;
 topbarSubtitle.textContent=current.description?escapeHtml(current.description).substring(0,80):t(getNavTitle());
 if(type==='container')renderContainerView(current);
 else if(type==='leaf')renderLeafView(current);
@@ -1469,7 +1472,7 @@ let html=`<div class="dashboard"><div class="dashboard-hero">
 <div class="hero-stats">
 <div class="hero-stat"><div class="hs-icon">📋</div><div><div class="hs-value">${totalMCQs}</div><div class="hs-label">${t('totalMCQs')}</div></div></div>
 <div class="hero-stat"><div class="hs-icon">💬</div><div><div class="hs-value">${totalQA}</div><div class="hs-label">${t('totalQA')}</div></div></div>
-<div class="hero-stat"><div class="hs-icon">🎴</div><div><div class="hs-value">${totalFlash}</div><div class="hs-label">${t('totalFlash')}</div></div></div>
+<div class="hero-stat"><div class="hs-icon"></div><div><div class="hs-value">${totalFlash}</div><div class="hs-label">${t('totalFlash')}</div></div></div>
 <div class="hero-stat"><div class="hs-icon"></div><div><div class="hs-value">${totalMnem}</div><div class="hs-label">${t('totalMnem')}</div></div></div>
 ${totalNotes?`<div class="hero-stat"><div class="hs-icon">📝</div><div><div class="hs-value">${totalNotes}</div><div class="hs-label">${t('notes')}</div></div></div>`:''}
 ${totalVideos?`<div class="hero-stat"><div class="hs-icon">🎬</div><div><div class="hs-value">${totalVideos}</div><div class="hs-label">${t('videos')}</div></div></div>`:''}
@@ -1482,7 +1485,7 @@ const counts=countContent(cat);
 const theme=getThemeForIndex(idx);
 html+=`<div class="category-card" onclick="navigateToItem('${cat.id}')" style="--card-gradient:${theme.gradient};--card-glow:${theme.glow};">
 <div class="cc-header">
-<div class="cc-icon-wrap" style="background:${theme.gradient};box-shadow:0 8px 20px ${theme.glow};">${cat.icon||'📚'}</div>
+<div class="cc-icon-wrap" style="background:${theme.gradient};box-shadow:0 8px 20px ${theme.glow};">${cat.icon||''}</div>
 <div class="cc-title"><h3 class="${dirClass(cat.name)}">${escapeHtml(cat.name)}</h3>
 ${cat.description?`<div class="cc-desc ${dirClass(cat.description)}">${escapeHtml(cat.description)}</div>`:''}</div>
 </div>
@@ -1503,32 +1506,32 @@ const content=document.getElementById('content');
 const children=item.children||[];
 const counts=countContent(item);
 let html=`<div class="topic-viewer"><div class="topic-hero">
-<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||'📚'}</div><div class="topic-info">
+<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||''}</div><div class="topic-info">
 <h1 class="${dirClass(item.name)}">${escapeHtml(item.name)}</h1>
 <div class="topic-path">${buildPathDisplay()}</div>
 </div></div>
 ${item.description?`<div class="topic-description ${dirClass(item.description)}">${escapeHtml(item.description)}</div>`:''}
 <div class="topic-badges">
-<div class="topic-badge">📚 ${children.length} ${t(getNavTitle())}</div>
+<div class="topic-badge"> ${children.length} ${t(getNavTitle())}</div>
 ${counts.mcqs?`<div class="topic-badge"> ${counts.mcqs} MCQs</div>`:''}
 ${counts.qa?`<div class="topic-badge">💬 ${counts.qa} Q&A</div>`:''}
 ${counts.flash?`<div class="topic-badge">🎴 ${counts.flash}</div>`:''}
-${counts.mnem?`<div class="topic-badge">🧠 ${counts.mnem}</div>`:''}
-${counts.notes?`<div class="topic-badge"> ${counts.notes}</div>`:''}
+${counts.mnem?`<div class="topic-badge"> ${counts.mnem}</div>`:''}
+${counts.notes?`<div class="topic-badge">📝 ${counts.notes}</div>`:''}
 ${counts.videos?`<div class="topic-badge">🎬 ${counts.videos}</div>`:''}
-${counts.images?`<div class="topic-badge">🖼️ ${counts.images}</div>`:''}
+${counts.images?`<div class="topic-badge">️ ${counts.images}</div>`:''}
 </div></div>
 <div class="section-header"><div><h2>${t(getNavTitle())}</h2><div class="section-subtitle">${children.length} ${t('items')}</div></div></div>
 <div class="children-grid">`;
 children.forEach(child=>{
 const childCounts=countContent(child);
 html+=`<div class="child-card" onclick="navigateToItem('${child.id}')">
-<div class="child-icon">${child.icon||'📚'}</div>
+<div class="child-icon">${child.icon||''}</div>
 <div class="child-content">
 <div class="child-title ${dirClass(child.name)}">${escapeHtml(child.name)}</div>
 ${child.description?`<div style="font-size:12px;color:var(--text-3);margin-top:4px;line-height:1.5;" class="${dirClass(child.description)}">${escapeHtml(child.description).substring(0,80)}${child.description.length>80?'...':''}</div>`:''}
 <div class="content-badges">
-${childCounts.mcqs?`<span class="content-badge mcq">📋 ${childCounts.mcqs}</span>`:''}
+${childCounts.mcqs?`<span class="content-badge mcq"> ${childCounts.mcqs}</span>`:''}
 ${childCounts.qa?`<span class="content-badge qa">💬 ${childCounts.qa}</span>`:''}
 ${childCounts.flash?`<span class="content-badge flash">🎴 ${childCounts.flash}</span>`:''}
 ${childCounts.mnem?`<span class="content-badge mnem"> ${childCounts.mnem}</span>`:''}
@@ -1551,51 +1554,51 @@ content.innerHTML=`<div class="topic-viewer">${renderContentTabs(item)}</div>`;
 }
 function renderEmptyView(){
 const content=document.getElementById('content');
-content.innerHTML=`<div class="topic-viewer"><div class="empty-state"><div class="es-icon">📭</div><h3>${t('noContent')}</h3><p>${t('noContentDesc')}</p></div></div>`;
+content.innerHTML=`<div class="topic-viewer"><div class="empty-state"><div class="es-icon"></div><h3>${t('noContent')}</h3><p>${t('noContentDesc')}</p></div></div>`;
 }
 function buildPathDisplay(){
 const parts=[];
-state.navStack.forEach(entry=>{parts.push(`<span>${entry.item.icon||'📚'} ${escapeHtml(entry.item.name)}</span>`)});
+state.navStack.forEach(entry=>{parts.push(`<span>${entry.item.icon||''} ${escapeHtml(entry.item.name)}</span>`)});
 return parts.join('<span style="color:rgba(255,255,255,0.4)">›</span>');
 }
 function renderContentTabs(item){
 const c=item.content||{};
-const mcqs=c.mcqs||item.mcqs||[];
-const qa=c.qa||item.qa||[];
-const flashcards=c.flashcards||item.flashcards||[];
-const mnemonics=c.mnemonics||item.mnemonics||[];
-const videos=item.videos||c.videos||[];
-const images=item.images||c.images||[];
-const notes=item.notes||c.notes||[];
-const links=item.links||c.links||[];
+const mcqs=c.mcqs||[];
+const qa=c.qa||[];
+const flashcards=c.flashcards||[];
+const mnemonics=c.mnemonics||[];
+const videos=c.videos||[];
+const images=c.images||[];
+const notes=c.notes||[];
+const links=c.links||[];
 const topicKey=item.id;
 const allTabs=['mcqs','qa','flashcards','mnemonics','notes','videos','images','links'];
 if(!allTabs.includes(state.currentTab)){state.currentTab='mcqs'}
 let html=`<div class="topic-hero" style="margin-bottom:24px;">
-<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||'📚'}</div><div class="topic-info">
+<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||''}</div><div class="topic-info">
 <h1 class="${dirClass(item.name)}">${escapeHtml(item.name)}</h1>
 <div class="topic-path">${buildPathDisplay()}</div>
 </div></div>
 ${item.description?`<div class="topic-description ${dirClass(item.description)}">${escapeHtml(item.description)}</div>`:''}
 <div class="topic-badges">
-${mcqs.length?`<div class="topic-badge">📋 ${mcqs.length} ${t('mcqs')}</div>`:''}
+${mcqs.length?`<div class="topic-badge"> ${mcqs.length} ${t('mcqs')}</div>`:''}
 ${qa.length?`<div class="topic-badge">💬 ${qa.length} ${t('qa')}</div>`:''}
 ${flashcards.length?`<div class="topic-badge">🎴 ${flashcards.length} ${t('flashcards')}</div>`:''}
-${mnemonics.length?`<div class="topic-badge">🧠 ${mnemonics.length} ${t('mnemonics')}</div>`:''}
+${mnemonics.length?`<div class="topic-badge"> ${mnemonics.length} ${t('mnemonics')}</div>`:''}
 ${notes.length?`<div class="topic-badge">📝 ${notes.length} ${t('notes')}</div>`:''}
 ${videos.length?`<div class="topic-badge">🎬 ${videos.length} ${t('videos')}</div>`:''}
-${images.length?`<div class="topic-badge">🖼️ ${images.length} ${t('images')}</div>`:''}
-${links.length?`<div class="topic-badge">🔗 ${links.length} ${t('links')}</div>`:''}
+${images.length?`<div class="topic-badge">️ ${images.length} ${t('images')}</div>`:''}
+${links.length?`<div class="topic-badge"> ${links.length} ${t('links')}</div>`:''}
 </div></div>
 <div class="content-tabs">
-<button class="content-tab ${state.currentTab==='mcqs'?'active':''}" onclick="switchTab('mcqs')">📋 ${t('mcqs')} <span class="tab-count">${mcqs.length}</span></button>
+<button class="content-tab ${state.currentTab==='mcqs'?'active':''}" onclick="switchTab('mcqs')"> ${t('mcqs')} <span class="tab-count">${mcqs.length}</span></button>
 <button class="content-tab ${state.currentTab==='qa'?'active':''}" onclick="switchTab('qa')">💬 ${t('qa')} <span class="tab-count">${qa.length}</span></button>
 <button class="content-tab ${state.currentTab==='flashcards'?'active':''}" onclick="switchTab('flashcards')">🎴 ${t('flashcards')} <span class="tab-count">${flashcards.length}</span></button>
-<button class="content-tab ${state.currentTab==='mnemonics'?'active':''}" onclick="switchTab('mnemonics')">🧠 ${t('mnemonics')} <span class="tab-count">${mnemonics.length}</span></button>
-<button class="content-tab ${state.currentTab==='notes'?'active':''}" onclick="switchTab('notes')"> ${t('notes')} <span class="tab-count">${notes.length}</span></button>
+<button class="content-tab ${state.currentTab==='mnemonics'?'active':''}" onclick="switchTab('mnemonics')"> ${t('mnemonics')} <span class="tab-count">${mnemonics.length}</span></button>
+<button class="content-tab ${state.currentTab==='notes'?'active':''}" onclick="switchTab('notes')">📝 ${t('notes')} <span class="tab-count">${notes.length}</span></button>
 <button class="content-tab ${state.currentTab==='videos'?'active':''}" onclick="switchTab('videos')">🎬 ${t('videos')} <span class="tab-count">${videos.length}</span></button>
-<button class="content-tab ${state.currentTab==='images'?'active':''}" onclick="switchTab('images')">🖼️ ${t('images')} <span class="tab-count">${images.length}</span></button>
-<button class="content-tab ${state.currentTab==='links'?'active':''}" onclick="switchTab('links')">🔗 ${t('links')} <span class="tab-count">${links.length}</span></button>
+<button class="content-tab ${state.currentTab==='images'?'active':''}" onclick="switchTab('images')">️ ${t('images')} <span class="tab-count">${images.length}</span></button>
+<button class="content-tab ${state.currentTab==='links'?'active':''}" onclick="switchTab('links')"> ${t('links')} <span class="tab-count">${links.length}</span></button>
 </div>
 <div class="content-panel ${state.currentTab==='mcqs'?'active':''}" id="panel-mcqs">${mcqs.length?renderMCQStarter(mcqs,topicKey):renderEmpty()}</div>
 <div class="content-panel ${state.currentTab==='qa'?'active':''}" id="panel-qa">${qa.length?renderQA(qa,topicKey):renderEmpty()}</div>
@@ -1820,7 +1823,7 @@ ${streak>=2?`<div class="quiz-fs-streak ${streak>=5?'on-fire':''}">🔥 ${streak
 </div>
 <div class="quiz-fs-stats">
 <div class="quiz-fs-stat correct">✓ ${correct}</div>
-<div class="quiz-fs-stat wrong">✗ ${wrong}</div>
+<div class="quiz-fs-stat wrong"> ${wrong}</div>
 <div class="quiz-fs-stat remaining">${totalQ-answered} ${t('remaining')}</div>
 </div>
 </div>
@@ -2188,7 +2191,7 @@ const title=mn.title||'';
 const code=mn.code||'';
 const items=mn.items||[];
 html+=`<div class="mnemonic-card">
-<div class="mn-header"><div class="mn-icon-wrap">${mn.icon||'🧠'}</div><div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div></div>
+<div class="mn-header"><div class="mn-icon-wrap">${mn.icon||''}</div><div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div></div>
 ${code?`<div class="mn-code ${dirClass(code)}">${escapeHtml(code)}</div>`:''}
 <ul class="mn-items">${items.map(it=>`<li><span class="letter ${dirClass(it.letter)}">${escapeHtml(it.letter)}</span><span class="${dirClass(it.text)}">${escapeHtml(it.text)}</span></li>`).join('')}</ul>
 </div>`;
@@ -2198,11 +2201,11 @@ return html;
 }
 
 const noteTypeConfig={
-tip:{icon:'💡',accent:'linear-gradient(135deg,#f59e0b,#f97316)',accentSoft:'rgba(245,158,11,0.15)',accentColor:'#f59e0b',glow:'rgba(245,158,11,0.2)'},
+tip:{icon:'',accent:'linear-gradient(135deg,#f59e0b,#f97316)',accentSoft:'rgba(245,158,11,0.15)',accentColor:'#f59e0b',glow:'rgba(245,158,11,0.2)'},
 warning:{icon:'⚠️',accent:'linear-gradient(135deg,#ef4444,#dc2626)',accentSoft:'rgba(239,68,68,0.15)',accentColor:'#ef4444',glow:'rgba(239,68,68,0.2)'},
 important:{icon:'⭐',accent:'linear-gradient(135deg,#a855f7,#7c3aed)',accentSoft:'rgba(168,85,247,0.15)',accentColor:'#a855f7',glow:'rgba(168,85,247,0.2)'},
 info:{icon:'ℹ️',accent:'linear-gradient(135deg,#06b6d4,#0891b2)',accentSoft:'rgba(6,182,212,0.15)',accentColor:'#06b6d4',glow:'rgba(6,182,212,0.2)'},
-note:{icon:'📝',accent:'linear-gradient(135deg,#10b981,#059669)',accentSoft:'rgba(16,185,129,0.15)',accentColor:'#10b981',glow:'rgba(16,185,129,0.2)'}
+note:{icon:'',accent:'linear-gradient(135deg,#10b981,#059669)',accentSoft:'rgba(16,185,129,0.15)',accentColor:'#10b981',glow:'rgba(16,185,129,0.2)'}
 };
 function getNoteType(note){
 const type=(note.type||note.category||'note').toLowerCase();
@@ -2326,7 +2329,7 @@ ${thumb?`<img src="${escapeHtml(thumb)}" alt="${escapeHtml(title)}">`:''}
 <div class="video-title ${dirClass(title)}">${escapeHtml(title)}</div>
 <div class="video-meta">
 ${duration?`<span>⏱️ ${escapeHtml(duration)}</span>`:''}
-<span>🎬 ${t('watchVideo')}</span>
+<span> ${t('watchVideo')}</span>
 </div>
 ${desc?`<div style="font-size:12px;color:var(--text-3);margin-top:6px;line-height:1.4" class="${dirClass(desc)}">${escapeHtml(desc).substring(0,80)}</div>`:''}
 </div></div>`;
@@ -2343,7 +2346,7 @@ video.src=src;
 modal.classList.add('show');
 currentVideo=video;
 video.play().catch(()=>{});
-document.getElementById('videoPlayPause').textContent='⏸';
+document.getElementById('videoPlayPause').textContent='';
 }
 function closeVideoPlayer(){
 const modal=document.getElementById('videoPlayerModal');
@@ -2360,7 +2363,7 @@ else{currentVideo.pause();document.getElementById('videoPlayPause').textContent=
 }
 function skipVideo(sec){if(!currentVideo)return;currentVideo.currentTime=Math.max(0,Math.min(currentVideo.duration,currentVideo.currentTime+sec))}
 function setVideoSpeed(val){if(!currentVideo)return;currentVideo.playbackRate=parseFloat(val)}
-function setVideoVolume(val){if(!currentVideo)return;currentVideo.volume=parseFloat(val);document.getElementById('videoMuteBtn').textContent=val==0?'🔇':val<0.5?'🔉':'🔊'}
+function setVideoVolume(val){if(!currentVideo)return;currentVideo.volume=parseFloat(val);document.getElementById('videoMuteBtn').textContent=val==0?'🔇':val<0.5?'🔉':''}
 function toggleVideoMute(){
 if(!currentVideo)return;
 currentVideo.muted=!currentVideo.muted;
