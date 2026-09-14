@@ -744,6 +744,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 ::-webkit-scrollbar-thumb:hover{background:var(--text-4)}
 [dir="rtl"] .breadcrumb-sep{transform:scaleX(-1)}
+.video-player-controls{display:none!important}
 </style>
 </head>
 <body>
@@ -796,7 +797,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="video-player-modal landscape" id="videoPlayerModal">
 <div class="video-player-container" id="videoPlayerContainer">
 <button class="video-player-close" onclick="closeVideoPlayer()">✕</button>
-<video class="video-player-video" id="videoPlayerVideo" playsinline></video>
+<iframe class="video-player-video" id="videoPlayerIframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="video-player-controls">
 <div class="video-progress" id="videoProgress" onclick="seekVideo(event)">
 <div class="video-progress-fill" id="videoProgressFill" style="width:0%"></div>
@@ -2363,63 +2364,62 @@ html+=`</div>`;
 return html;
 }
 
-let currentVideo=null;
+function extractYouTubeId(url){
+  if(!url)return null;
+  const patterns=[
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([A-Za-z0-9_-]{11})/,
+    /youtube\.com\/watch\?.*v=([A-Za-z0-9_-]{11})/
+  ];
+  for(const p of patterns){
+    const m=url.match(p);
+    if(m)return m[1];
+  }
+  return null;
+}
+function isDirectVideo(url){
+  return /\.(mp4|webm|ogg|mov|m4v)(\?|$)/i.test(url||'');
+}
 function openVideoPlayer(src){
-const modal=document.getElementById('videoPlayerModal');
-const video=document.getElementById('videoPlayerVideo');
-video.src=src;
-modal.classList.add('show');
-currentVideo=video;
-video.play().catch(()=>{});
-document.getElementById('videoPlayPause').textContent='⏸';
+  const modal=document.getElementById('videoPlayerModal');
+  const iframe=document.getElementById('videoPlayerIframe');
+  const ytId=extractYouTubeId(src);
+  if(ytId){
+    iframe.src='https://www.youtube.com/embed/'+ytId+'?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+  }else{
+    iframe.src=src;
+  }
+  modal.classList.add('show');
 }
 function closeVideoPlayer(){
-const modal=document.getElementById('videoPlayerModal');
-const video=document.getElementById('videoPlayerVideo');
-video.pause();
-video.src='';
-modal.classList.remove('show');
-currentVideo=null;
+  const modal=document.getElementById('videoPlayerModal');
+  const iframe=document.getElementById('videoPlayerIframe');
+  iframe.src='';
+  modal.classList.remove('show');
 }
-function toggleVideoPlay(){
-if(!currentVideo)return;
-if(currentVideo.paused){currentVideo.play();document.getElementById('videoPlayPause').textContent='⏸'}
-else{currentVideo.pause();document.getElementById('videoPlayPause').textContent='▶'}
-}
-function skipVideo(sec){if(!currentVideo)return;currentVideo.currentTime=Math.max(0,Math.min(currentVideo.duration,currentVideo.currentTime+sec))}
-function setVideoSpeed(val){if(!currentVideo)return;currentVideo.playbackRate=parseFloat(val)}
-function setVideoVolume(val){if(!currentVideo)return;currentVideo.volume=parseFloat(val);document.getElementById('videoMuteBtn').textContent=val==0?'🔇':val<0.5?'🔉':'🔊'}
-function toggleVideoMute(){
-if(!currentVideo)return;
-currentVideo.muted=!currentVideo.muted;
-document.getElementById('videoMuteBtn').textContent=currentVideo.muted?'🔇':'🔊';
-document.getElementById('videoVolume').value=currentVideo.muted?0:currentVideo.volume;
-}
-function seekVideo(e){
-if(!currentVideo||!currentVideo.duration)return;
-const rect=e.currentTarget.getBoundingClientRect();
-const pct=(e.clientX-rect.left)/rect.width;
-currentVideo.currentTime=pct*currentVideo.duration;
-}
+function toggleVideoPlay(){}
+function skipVideo(sec){}
+function setVideoSpeed(val){}
+function setVideoVolume(val){}
+function toggleVideoMute(){}
+function seekVideo(e){}
 function toggleVideoOrientation(){
-const modal=document.getElementById('videoPlayerModal');
-const isLandscape=modal.classList.contains('landscape');
-if(isLandscape){modal.classList.remove('landscape');modal.classList.add('portrait');document.getElementById('videoOrientationIcon').textContent='📱';document.getElementById('videoOrientationLabel').textContent='Portrait'}
-else{modal.classList.remove('portrait');modal.classList.add('landscape');document.getElementById('videoOrientationIcon').textContent='🖥';document.getElementById('videoOrientationLabel').textContent='Landscape'}
+  const modal=document.getElementById('videoPlayerModal');
+  const isLandscape=modal.classList.contains('landscape');
+  if(isLandscape){
+    modal.classList.remove('landscape');modal.classList.add('portrait');
+    document.getElementById('videoOrientationIcon').textContent='📱';
+    document.getElementById('videoOrientationLabel').textContent='Portrait';
+  }else{
+    modal.classList.remove('portrait');modal.classList.add('landscape');
+    document.getElementById('videoOrientationIcon').textContent='🖥';
+    document.getElementById('videoOrientationLabel').textContent='Landscape';
+  }
 }
 function toggleVideoFullscreen(){
-const container=document.getElementById('videoPlayerContainer');
-if(!document.fullscreenElement){container.requestFullscreen?.()}
-else{document.exitFullscreen?.()}
+  const container=document.getElementById('videoPlayerContainer');
+  if(!document.fullscreenElement){container.requestFullscreen?.()}
+  else{document.exitFullscreen?.()}
 }
-setInterval(()=>{
-if(!currentVideo||!currentVideo.duration)return;
-const pct=(currentVideo.currentTime/currentVideo.duration)*100;
-const fill=document.getElementById('videoProgressFill');
-if(fill)fill.style.width=pct+'%';
-const time=document.getElementById('videoTime');
-if(time)time.textContent=formatTime(currentVideo.currentTime)+' / '+formatTime(currentVideo.duration);
-},250);
 
 function renderImages(images){
 let html=`<div class="images-grid">`;
