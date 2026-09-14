@@ -5170,6 +5170,689 @@
                       "description": "Comprehensive overview of mitral regurgitation including pathophysiology, clinical features, diagnosis, and management"
                     }
                   ]
+                },
+                {
+                  "id": "aortic_stenosis",
+                  "name": "Aortic Stenosis",
+                  "icon": "🚪",
+                  "description": "Failure of aortic valve to open adequately during left ventricular systole",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Aortic Stenosis is defined as failure of the aortic valve to open adequately during:",
+                        "options": [
+                          "Left ventricular diastole",
+                          "Left ventricular systole",
+                          "Right ventricular systole",
+                          "Right ventricular diastole"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aortic Stenosis is defined as failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
+                      },
+                      {
+                        "q": "The most common location of obstruction in Aortic Stenosis is:",
+                        "options": [
+                          "Supravalvular",
+                          "Subvalvular",
+                          "Valvular",
+                          "Supravalvular and subvalvular equally"
+                        ],
+                        "answer": 2,
+                        "explanation": "Valvular is the most common location of obstruction in Aortic Stenosis."
+                      },
+                      {
+                        "q": "The most common cause of Aortic Stenosis is:",
+                        "options": [
+                          "Rheumatic fever",
+                          "Congenital bicuspid valve",
+                          "Calcific degeneration of a bicuspid valve",
+                          "Infective endocarditis"
+                        ],
+                        "answer": 2,
+                        "explanation": "Calcific degeneration of a bicuspid valve is the most common cause of Aortic Stenosis."
+                      },
+                      {
+                        "q": "In young patients, the most common cause of Aortic Stenosis is:",
+                        "options": [
+                          "Rheumatic fever",
+                          "Congenital aortic stenosis",
+                          "Calcific degeneration",
+                          "Paget disease"
+                        ],
+                        "answer": 1,
+                        "explanation": "In young patients, congenital aortic stenosis is the most common cause."
+                      },
+                      {
+                        "q": "In young adults, the most common cause of Aortic Stenosis is:",
+                        "options": [
+                          "Congenital",
+                          "Rheumatic valve disease",
+                          "Calcific degeneration",
+                          "Radiation damage"
+                        ],
+                        "answer": 1,
+                        "explanation": "In young adults, rheumatic valve disease is the most common cause."
+                      },
+                      {
+                        "q": "In middle-aged and elderly patients, the most common cause of Aortic Stenosis is:",
+                        "options": [
+                          "Congenital",
+                          "Rheumatic",
+                          "Calcific degeneration",
+                          "Infective endocarditis"
+                        ],
+                        "answer": 2,
+                        "explanation": "In middle-aged and elderly patients, calcific degeneration is the most common cause."
+                      },
+                      {
+                        "q": "Which of the following is a risk factor for calcific Aortic Stenosis?",
+                        "options": [
+                          "Female gender",
+                          "Low LDL",
+                          "Hypertension",
+                          "Young age"
+                        ],
+                        "answer": 2,
+                        "explanation": "Hypertension is a risk factor for calcific Aortic Stenosis. Other risk factors include advanced age, male gender, elevated LDL/Lp(a), diabetes, and smoking."
+                      },
+                      {
+                        "q": "The normal aortic valve orifice area is:",
+                        "options": [
+                          "1-2 cm²",
+                          "2-3 cm²",
+                          "3-4 cm²",
+                          "4-6 cm²"
+                        ],
+                        "answer": 2,
+                        "explanation": "The normal aortic valve orifice area is 3-4 cm²."
+                      },
+                      {
+                        "q": "The pathophysiological consequence of Aortic Stenosis is:",
+                        "options": [
+                          "Volume overload",
+                          "Pressure overload",
+                          "Both volume and pressure overload",
+                          "No overload"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aortic Stenosis causes pressure overload of the left ventricle."
+                      },
+                      {
+                        "q": "The type of hypertrophy seen in Aortic Stenosis is:",
+                        "options": [
+                          "Eccentric hypertrophy",
+                          "Concentric hypertrophy",
+                          "Dilated hypertrophy",
+                          "No hypertrophy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Concentric left ventricular hypertrophy is seen in Aortic Stenosis due to pressure overload."
+                      },
+                      {
+                        "q": "Angina pectoris in Aortic Stenosis occurs due to:",
+                        "options": [
+                          "Coronary artery disease always",
+                          "Increased O₂ demand by hypertrophied LV",
+                          "Decreased heart rate",
+                          "Aortic regurgitation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Angina in Aortic Stenosis occurs due to increased O₂ demand by the hypertrophied LV, causing supply-demand mismatch even without CAD."
+                      },
+                      {
+                        "q": "The classic triad of severe Aortic Stenosis includes all of the following EXCEPT:",
+                        "options": [
+                          "Exertional dyspnea",
+                          "Angina pectoris",
+                          "Syncope",
+                          "Hemoptysis"
+                        ],
+                        "answer": 3,
+                        "explanation": "Hemoptysis is NOT part of the classic triad of Aortic Stenosis. The triad is Exertional Dyspnea, Angina Pectoris, and Syncope."
+                      },
+                      {
+                        "q": "Syncope in Aortic Stenosis typically occurs:",
+                        "options": [
+                          "At rest",
+                          "During exertion",
+                          "During sleep",
+                          "After meals"
+                        ],
+                        "answer": 1,
+                        "explanation": "Syncope in Aortic Stenosis typically occurs during exertion due to inadequate cardiac output and decreased blood pressure."
+                      },
+                      {
+                        "q": "The characteristic pulse in Aortic Stenosis is:",
+                        "options": [
+                          "Bounding pulse",
+                          "Pulsus parvus et tardus",
+                          "Water hammer pulse",
+                          "Pulsus alternans"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pulsus parvus et tardus (slow-rising, low volume) is characteristic of Aortic Stenosis."
+                      },
+                      {
+                        "q": "The pulse in Aortic Stenosis is best examined at:",
+                        "options": [
+                          "Radial artery",
+                          "Femoral artery",
+                          "Carotid artery",
+                          "Brachial artery"
+                        ],
+                        "answer": 2,
+                        "explanation": "The pulse in Aortic Stenosis is best examined at the carotid artery."
+                      },
+                      {
+                        "q": "The murmur of Aortic Stenosis is best heard at:",
+                        "options": [
+                          "Mitral area",
+                          "Aortic area",
+                          "Tricuspid area",
+                          "Pulmonary area"
+                        ],
+                        "answer": 1,
+                        "explanation": "The murmur of Aortic Stenosis is best heard at the aortic area."
+                      },
+                      {
+                        "q": "The murmur of Aortic Stenosis radiates to:",
+                        "options": [
+                          "Axilla",
+                          "Carotid arteries",
+                          "Back",
+                          "Neck"
+                        ],
+                        "answer": 1,
+                        "explanation": "The murmur of Aortic Stenosis radiates to the carotid arteries."
+                      },
+                      {
+                        "q": "The murmur of Aortic Stenosis is:",
+                        "options": [
+                          "Pansystolic",
+                          "Harsh, crescendo-decrescendo",
+                          "Early diastolic",
+                          "Mid-diastolic"
+                        ],
+                        "answer": 1,
+                        "explanation": "The murmur of Aortic Stenosis is harsh and crescendo-decrescendo (saw-like)."
+                      },
+                      {
+                        "q": "The intensity of the murmur in Aortic Stenosis:",
+                        "options": [
+                          "Correlates well with severity",
+                          "Does NOT correlate with severity",
+                          "Is always loud",
+                          "Is always soft"
+                        ],
+                        "answer": 1,
+                        "explanation": "The intensity of the murmur in Aortic Stenosis does NOT correlate with severity."
+                      },
+                      {
+                        "q": "In very severe Aortic Stenosis, the murmur may be:",
+                        "options": [
+                          "Very loud",
+                          "Inaudible",
+                          "Continuous",
+                          "Machinery-like"
+                        ],
+                        "answer": 1,
+                        "explanation": "In very severe Aortic Stenosis, the murmur may be inaudible."
+                      },
+                      {
+                        "q": "A systolic ejection click in Aortic Stenosis is heard when:",
+                        "options": [
+                          "Valve is heavily calcified",
+                          "Valve is not calcified",
+                          "Valve is regurgitant",
+                          "Valve is stenotic"
+                        ],
+                        "answer": 1,
+                        "explanation": "A systolic ejection click in Aortic Stenosis is heard when the valve is not calcified."
+                      },
+                      {
+                        "q": "A soft or inaudible S2 in Aortic Stenosis indicates:",
+                        "options": [
+                          "Mild stenosis",
+                          "Calcified and immobile valve",
+                          "Normal valve",
+                          "Aortic regurgitation"
+                        ],
+                        "answer": 1,
+                        "explanation": "A soft or inaudible S2 in Aortic Stenosis indicates a calcified and immobile valve."
+                      },
+                      {
+                        "q": "Reversed splitting of S2 in Aortic Stenosis means:",
+                        "options": [
+                          "Pulmonary component during expiration",
+                          "Aortic component during expiration",
+                          "Both components during inspiration",
+                          "Both components during expiration"
+                        ],
+                        "answer": 1,
+                        "explanation": "Reversed splitting of S2 in Aortic Stenosis means the aortic component occurs during expiration."
+                      },
+                      {
+                        "q": "The CXR finding in late Aortic Stenosis includes:",
+                        "options": [
+                          "Post-stenotic dilatation of ascending aorta",
+                          "Left atrial enlargement",
+                          "Right ventricular enlargement",
+                          "Pulmonary congestion"
+                        ],
+                        "answer": 0,
+                        "explanation": "Post-stenotic dilatation of the ascending aorta is a CXR finding in late Aortic Stenosis."
+                      },
+                      {
+                        "q": "A calcified aortic valve is best seen on CXR in which view?",
+                        "options": [
+                          "PA view",
+                          "AP view",
+                          "Lateral view",
+                          "Oblique view"
+                        ],
+                        "answer": 2,
+                        "explanation": "A calcified aortic valve is best seen on CXR in the lateral view."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the definition of Aortic Stenosis?",
+                        "a": "Failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
+                      },
+                      {
+                        "q": "What is the most common location of obstruction?",
+                        "a": "Valvular."
+                      },
+                      {
+                        "q": "What is the most common cause of Aortic Stenosis?",
+                        "a": "Calcific degeneration of a bicuspid valve."
+                      },
+                      {
+                        "q": "What is the classic triad of severe Aortic Stenosis?",
+                        "a": "Exertional Dyspnea, Angina Pectoris, Syncope."
+                      },
+                      {
+                        "q": "What is the characteristic pulse in Aortic Stenosis?",
+                        "a": "Pulsus parvus et tardus."
+                      },
+                      {
+                        "q": "Where is the pulse best examined?",
+                        "a": "Carotid artery."
+                      },
+                      {
+                        "q": "What is the characteristic murmur of Aortic Stenosis?",
+                        "a": "Harsh, crescendo-decrescendo systolic murmur at aortic area, radiating to carotids."
+                      },
+                      {
+                        "q": "Does the intensity of the murmur correlate with severity?",
+                        "a": "No."
+                      },
+                      {
+                        "q": "What is the pathophysiological consequence of Aortic Stenosis?",
+                        "a": "Pressure overload leading to concentric left ventricular hypertrophy."
+                      },
+                      {
+                        "q": "Why does angina occur in Aortic Stenosis?",
+                        "a": "Due to increased O₂ demand by the hypertrophied LV."
+                      },
+                      {
+                        "q": "Why does syncope occur in Aortic Stenosis?",
+                        "a": "During exertion, due to inadequate cardiac output."
+                      },
+                      {
+                        "q": "When do symptoms appear in Aortic Stenosis?",
+                        "a": "When valve area decreases to 1/3 of normal."
+                      },
+                      {
+                        "q": "What is a systolic ejection click?",
+                        "a": "Heard when the valve is not calcified."
+                      },
+                      {
+                        "q": "What does a soft or inaudible S2 indicate?",
+                        "a": "Calcified and immobile valve."
+                      },
+                      {
+                        "q": "What is the CXR finding in late Aortic Stenosis?",
+                        "a": "Post-stenotic dilatation of ascending aorta, LV enlargement, and calcified valve."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is the definition of Aortic Stenosis?",
+                        "back": "Failure of the aortic valve to open adequately during left ventricular systole, creating obstruction to left ventricular outflow."
+                      },
+                      {
+                        "front": "What is the most common location of obstruction in Aortic Stenosis?",
+                        "back": "Valvular (at the valve level)."
+                      },
+                      {
+                        "front": "What is the most common cause of Aortic Stenosis?",
+                        "back": "Calcific degeneration of a bicuspid valve."
+                      },
+                      {
+                        "front": "What is the classic triad of severe Aortic Stenosis?",
+                        "back": "1. Exertional Dyspnea\n2. Angina Pectoris\n3. Syncope (on exertion)"
+                      },
+                      {
+                        "front": "What is the characteristic pulse in Aortic Stenosis?",
+                        "back": "Pulsus parvus et tardus (slow-rising, low volume), best examined at the carotid artery."
+                      },
+                      {
+                        "front": "What is the characteristic murmur of Aortic Stenosis?",
+                        "back": "Harsh, crescendo-decrescendo systolic murmur, best heard at the aortic area, radiating to the carotid arteries."
+                      },
+                      {
+                        "front": "Does the intensity of the murmur in Aortic Stenosis correlate with severity?",
+                        "back": "No. The intensity does NOT correlate with severity. It may be inaudible in very severe AS."
+                      },
+                      {
+                        "front": "What is the pathophysiological consequence of Aortic Stenosis?",
+                        "back": "Pressure overload leading to concentric left ventricular hypertrophy."
+                      },
+                      {
+                        "front": "Why does angina occur in Aortic Stenosis?",
+                        "back": "Due to increased O₂ demand by the hypertrophied LV (supply-demand mismatch), even without CAD."
+                      },
+                      {
+                        "front": "Why does syncope occur in Aortic Stenosis?",
+                        "back": "During exertion, due to inadequate cardiac output and decreased blood pressure."
+                      },
+                      {
+                        "front": "When do symptoms appear in Aortic Stenosis?",
+                        "back": "When the valve area decreases to 1/3 of normal. Without surgery, death occurs in 2-3 years."
+                      },
+                      {
+                        "front": "What is a systolic ejection click in Aortic Stenosis?",
+                        "back": "Heard when the valve is not calcified."
+                      },
+                      {
+                        "front": "What does a soft or inaudible S2 in Aortic Stenosis indicate?",
+                        "back": "Calcified and immobile valve."
+                      },
+                      {
+                        "front": "What is the CXR finding in late Aortic Stenosis?",
+                        "back": "Post-stenotic dilatation of ascending aorta, LV enlargement, and calcified valve (lateral view)."
+                      },
+                      {
+                        "front": "What is the difficulty in elderly patients with Aortic Stenosis?",
+                        "back": "Difficult to differentiate mild AS from aortic sclerosis (thickened but NOT stenotic)."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Classic Triad of Aortic Stenosis",
+                        "icon": "🧠",
+                        "code": "D-A-S",
+                        "items": [
+                          {
+                            "letter": "D",
+                            "text": "Dyspnea (Exertional)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Angina Pectoris"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Syncope (on exertion)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Pulse in Aortic Stenosis",
+                        "icon": "💓",
+                        "code": "Parvus et Tardus",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Parvus - Low volume"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Tardus - Slow-rising"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Best examined at CAROTID ARTERY"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Murmur of Aortic Stenosis",
+                        "icon": "🔊",
+                        "code": "Harsh Crescendo-Decrescendo",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Best at AORTIC AREA"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Radiates to CAROTID ARTERIES"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Causes by Age",
+                        "icon": "👴",
+                        "code": "C-R-C",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Congenital (Young)"
+                          },
+                          {
+                            "letter": "R",
+                            "text": "Rheumatic + Bicuspid (Young adults)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Calcific degeneration (Elderly)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Risk Factors for Calcific AS",
+                        "icon": "⚠️",
+                        "code": "A-M-L-H-D-S",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Age"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Male"
+                          },
+                          {
+                            "letter": "L",
+                            "text": "LDL/Lp(a)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Hypertension"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Diabetes"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Smoking"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Locations of Obstruction",
+                        "icon": "📍",
+                        "code": "V-S-S",
+                        "items": [
+                          {
+                            "letter": "V",
+                            "text": "Valvular (most common)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Supravalvular"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Subvalvular"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Pathophysiology",
+                        "icon": "⚙️",
+                        "code": "Pressure Overload → Concentric LVH",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Pressure overload"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Concentric left ventricular hypertrophy"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Symptoms Appear When",
+                        "icon": "⏰",
+                        "code": "Valve Area ↓ to 1/3 Normal",
+                        "items": [
+                          {
+                            "letter": "1/3",
+                            "text": "Symptoms appear when valve area decreases to 1/3 of normal"
+                          },
+                          {
+                            "letter": "2-3",
+                            "text": "Death in 2-3 years without surgery"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "CXR Findings",
+                        "icon": "🩻",
+                        "code": "Post-stenotic Dilatation + Calcified Valve",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Post-stenotic dilatation of ascending aorta"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Calcified valve (lateral view)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Elderly Consideration",
+                        "icon": "👴",
+                        "code": "Difficult to Differentiate AS from Aortic Sclerosis",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Sclerosis = thickened but NOT stenotic"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "Definition & General Considerations",
+                      "icon": "📖",
+                      "tags": [
+                        "definition",
+                        "high-yield"
+                      ],
+                      "content": "{key}AORTIC STENOSIS (AS):{/key}\n• Failure of aortic valve to open adequately during {hl}LEFT VENTRICULAR SYSTOLE{/hl}\n• Creates obstruction to {hl}LEFT VENTRICULAR OUTFLOW{/hl}\n\n{key}LOCATIONS OF OBSTRUCTION:{/key}\n• {hl}VALVULAR:{/hl} At valve level (most common)\n• {hl}SUPRAVALVULAR:{/hl} Above valve\n• {hl}SUBVALVULAR:{/hl} Below valve (from muscular hypertrophy)\n\n{key}Most common cause:{/key} Calcific degeneration of a {hl}BICUSPID{/hl} valve"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Causes & Pathology",
+                      "icon": "🔬",
+                      "tags": [
+                        "causes",
+                        "etiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}AGE-DEPENDENT ETIOLOGY:{/key}\n\n• {hl}YOUNG AGE:{/hl}\n  - Congenital aortic stenosis\n  - Supravalvular, subvalvular, valvular stenosis\n\n• {hl}YOUNG ADULTS & ADULTS:{/hl}\n  - Rheumatic valve disease\n  - Fibrosis + Calcification of BICUSPID valve\n\n• {hl}MIDDLE-AGED & ELDERLY:{/hl}\n  - Calcific degeneration\n  - Degenerative changes\n\n{key}RISK FACTORS FOR CALCIFIC AORTIC STENOSIS:{/key}\n• Advanced age\n• Male gender\n• ↑ Lipoprotein (a) and LDL\n• Hypertension\n• Diabetes Mellitus\n• Smoking\n\n{key}RARE CAUSES:{/key}\n• Infective endocarditis with obstruction\n• Paget disease\n• Rheumatoid lesions\n• Radiation damage"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Pathophysiology",
+                      "icon": "⚙️",
+                      "tags": [
+                        "pathophysiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}NORMAL AORTIC VALVE:{/key}\n• Three leaflets\n• Orifice: {ok}3-4 cm²{/ok}\n• Opens during systole → Blood ejected to aorta\n• Closes during diastole → Prevents backflow\n\n{key}IN AORTIC STENOSIS:{/key}\n• Obstruction to LV outflow\n• Sustained pressure gradient across valve\n• Left ventricular {hl}PRESSURE OVERLOAD{/hl}\n• {hl}Concentric LEFT VENTRICULAR HYPERTROPHY{/hl}\n\n{key}CONSEQUENCES OF HYPERTROPHY:{/key}\n• Relative myocardial ischemia\n• Angina pectoris (even without CAD)\n• Arrhythmias\n• Left ventricular failure\n\n{key}PROGRESSION:{/key}\n• Early: Compensated (normal cardiac output maintained)\n• Late: LV dilates + Wall thins → Systolic dysfunction\n• During exercise: Cardiac output cannot increase adequately\n• → Syncope, Arrhythmias, Sudden death\n\n{warn}CRITICAL POINT:{/warn} When valve area ↓ to {hlpu}1/3 of normal{/hlpu}, symptoms appear; Without surgery, death occurs in {hlpu}2-3 years{/hlpu}"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Clinical Findings - Symptoms",
+                      "icon": "🩺",
+                      "tags": [
+                        "symptoms",
+                        "clinical",
+                        "high-yield"
+                      ],
+                      "content": "{key}HISTORY:{/key}\n• Murmur since childhood → Congenital\n• History of rheumatic fever → Rheumatic\n\n{key}ASYMPTOMATIC (Mild-Moderate):{/key}\n• For years, may be discovered incidentally\n\n{key}CLASSIC TRIAD (Severe AS) - D-A-S:{/key}\n\n1. {hl}EXERTIONAL DYSPNEA:{/hl}\n   • Due to ↑ pressure in non-compliant LV\n\n2. {hl}ANGINA PECTORIS:{/hl}\n   • Due to ↑ O₂ demand by hypertrophied LV\n   • Supply-demand mismatch (even without CAD)\n\n3. {hl}SYNCOPE{/hl} (Temporary loss of consciousness):\n   • During exertion\n   • Due to inadequate cardiac output + ↓ BP\n\n{key}OTHER SYMPTOMS:{/key}\n• Acute pulmonary edema (possible)\n• Sudden death (possible)"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Clinical Findings - Signs",
+                      "icon": "👂",
+                      "tags": [
+                        "signs",
+                        "physical exam",
+                        "high-yield"
+                      ],
+                      "content": "{key}PULSE:{/key}\n• {hl}Slow-rising (parvus et tardus){/hl}\n• Rapid fall in descending phase\n• Best examined at {hl}CAROTID ARTERY{/hl}\n• Narrow pulse pressure\n\n{key}PALPATION:{/key}\n• Apex beat: Usually normal position\n• Sustained or double impulse (S4 or atrial kick)\n• {hl}SYSTOLIC THRILL:{/hl} Palpable murmur at aortic area\n\n{key}AUSCULTATION - MURMUR:{/key}\n• Best heard at {hl}AORTIC AREA{/hl}\n• Radiates to {hl}CAROTID ARTERIES{/hl}\n• {hl}Harsh, crescendo-decrescendo{/hl} (saw-like)\n• \"Mew\" sound in elderly\n• Duration: Longer in severe obstruction\n• {warn}INTENSITY does NOT correlate with severity{/warn}\n• Very severe AS: Murmur may be {hlpu}INAUDIBLE{/hlpu}\n\n{key}OTHER AUSCULTATORY FINDINGS:{/key}\n• Systolic ejection click (if valve not calcified)\n• Soft or inaudible S2 (if valve immobile/calcified)\n• Reversed splitting of S2 (aortic component during expiration)\n• Prominent S4\n\n{key}SPECIAL CONSIDERATIONS IN ELDERLY (≥60 years):{/key}\n• 20% have hypertension (50% moderate-severe)\n• ↑ Arterial stiffness → Normal or rapid upstroke\n• Pressure pulse may be wide\n• Difficult to differentiate mild AS from aortic sclerosis (sclerosis = thickened but NOT stenotic)"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Diagnosis - Chest Radiography",
+                      "icon": "🩻",
+                      "tags": [
+                        "diagnosis",
+                        "investigations",
+                        "CXR",
+                        "high-yield"
+                      ],
+                      "content": "{key}EARLY:{/key} May be {ok}NORMAL{/ok}\n\n{key}LATE (PA view):{/key}\n• {hl}POST-STENOTIC DILATATION{/hl} of ascending aorta\n• Left ventricular enlargement\n\n{key}LATERAL VIEW:{/key}\n• {hl}Calcified aortic valve{/hl} (clearly visible)\n\n{key}WITH HEART FAILURE:{/key}\n• ↑ Cardio-thoracic ratio"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}AS = Obstruction to LEFT VENTRICULAR OUTFLOW during systole{/ok}\n\n{ok}LOCATIONS: Valvular (most common), Supravalvular, Subvalvular{/ok}\n\n{ok}CAUSES BY AGE:{/ok}\n• Young: Congenital\n• Young adults: Rheumatic + Bicuspid calcification\n• Elderly: Calcific degeneration\n\n{ok}Most common: Calcific degeneration of BICUSPID valve{/ok}\n\n{ok}RISK FACTORS: Age, Male, ↑ LDL/Lp(a), HTN, DM, Smoking{/ok}\n\n{ok}PATHOPHYSIOLOGY:{/ok}\n• Pressure overload → Concentric LVH\n• Relative ischemia → Angina (even without CAD)\n• When valve area ↓ to 1/3 normal → Symptoms appear\n• Without surgery: Death in 2-3 years after symptoms\n\n{ok}CLASSIC TRIAD (Severe AS):{/ok}\n1. Exertional Dyspnea\n2. Angina Pectoris\n3. Syncope (on exertion)\n\n{ok}PULSE: Pulsus parvus et tardus (Slow-rising, low volume){/ok}\n• Best examined at CAROTID ARTERY\n\n{ok}MURMUR:{/ok}\n• Harsh, crescendo-decrescendo systolic murmur\n• Best at AORTIC AREA, radiates to CAROTIDS\n• Intensity does NOT correlate with severity\n• May be INAUDIBLE in very severe AS\n\n{ok}OTHER SIGNS:{/ok}\n• Systolic ejection click (non-calcified valve)\n• Soft/inaudible S2 (calcified valve)\n• Reversed S2 splitting\n• Prominent S4\n\n{ok}CXR:{/ok}\n• Post-stenotic dilatation of ascending aorta\n• LV enlargement\n• Calcified valve (lateral view)\n• ↑ Cardio-thoracic ratio (with HF)"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://my.clevelandclinic.org/-/scassets/images/org/health/articles/23046-aortic-valve-stenosis",
+                      "caption": "Aortic Valve Stenosis - Cleveland Clinic",
+                      "title": "Aortic Valve Stenosis"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Aortic Stenosis - Pathophysiology and Clinical Features",
+                      "src": "https://youtu.be/mFQ2ea687Ps?si=vCJzgQ4B8Vh5qKRg",
+                      "thumbnail": "https://img.youtube.com/vi/mFQ2ea687Ps/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of aortic stenosis including pathophysiology, clinical features, diagnosis, and management"
+                    }
+                  ]
                 }
               ]
             }
