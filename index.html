@@ -9,8 +9,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="MedExit">
 <link rel="manifest" href="./manifest.json">
-<link rel="icon" type="image/png" href="./icon-192.png">
-<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="icon" type="image/png" href="./icon-512.png">
+<link rel="apple-touch-icon" href="./icon-512.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/inter@latest/index.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontsource/css/noto-naskh-arabic@latest/index.css">
 <style>
@@ -31,8 +32,6 @@
 --gradient-accent:linear-gradient(135deg,#06b6d4 0%,#6366f1 100%);
 --gradient-success:linear-gradient(135deg,#10b981 0%,#06b6d4 100%);
 --gradient-warm:linear-gradient(135deg,#f59e0b 0%,#ef4444 100%);
---gradient-cool:linear-gradient(135deg,#6366f1 0%,#06b6d4 100%);
---gradient-medical:linear-gradient(135deg,#0ea5e9 0%,#6366f1 50%,#a855f7 100%);
 --shadow-sm:0 2px 8px rgba(0,0,0,0.3);--shadow-md:0 8px 24px rgba(0,0,0,0.4);--shadow-lg:0 20px 50px rgba(0,0,0,0.5);
 --shadow-glow:0 0 40px rgba(99,102,241,0.25);
 --radius-sm:10px;--radius-md:14px;--radius-lg:20px;--radius-xl:28px;
@@ -55,6 +54,8 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .rtl-text{font-family:var(--font-arabic)!important;direction:rtl!important;text-align:right!important;line-height:1.9!important}
 .ltr-text{direction:ltr!important;text-align:left!important}
 .app{display:flex;height:100vh;height:100dvh;position:relative;z-index:1;overscroll-behavior:none}
+
+/* SIDEBAR */
 .sidebar{width:var(--sidebar-w);background:var(--bg-1);border-inline-end:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0;transition:transform .3s ease,opacity .3s;backdrop-filter:blur(20px);overscroll-behavior:none}
 .sidebar-header{padding:20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;background:linear-gradient(135deg,rgba(99,102,241,0.08),rgba(236,72,153,0.04))}
 .logo{width:48px;height:48px;border-radius:14px;background:var(--gradient-primary);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;box-shadow:0 8px 24px var(--primary-glow);position:relative;overflow:hidden}
@@ -76,7 +77,6 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .breadcrumb-sep{color:var(--text-4);font-size:10px}
 .nav-list{flex:1;overflow-y:auto;padding:12px;overscroll-behavior:contain}
 .nav-list::-webkit-scrollbar{width:5px}
-.nav-list::-webkit-scrollbar-track{background:transparent}
 .nav-list::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 .nav-section-title{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-4);padding:14px 12px 8px;display:flex;align-items:center;gap:8px}
 .nav-section-title::before{content:'';width:16px;height:2px;background:var(--gradient-primary);border-radius:2px}
@@ -90,6 +90,8 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .nav-item .ni-count{font-size:10px;background:var(--surface);color:var(--text-3);padding:3px 8px;border-radius:10px;font-weight:700}
 .nav-item.active .ni-count{background:var(--gradient-primary);color:white}
 .sidebar-footer{padding:14px 18px;border-top:1px solid var(--border);font-size:10px;color:var(--text-4);text-align:center;background:var(--surface);font-weight:500}
+
+/* MAIN */
 .main{flex:1;display:flex;flex-direction:column;min-width:0;overflow:hidden;transition:all .3s}
 .topbar{height:var(--topbar-h);padding:0 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;background:var(--bg-1);backdrop-filter:blur(20px);flex-shrink:0;transition:all .3s}
 .icon-btn{width:42px;height:42px;border:1px solid var(--border);background:var(--surface);color:var(--text-2);border-radius:12px;cursor:pointer;display:none;align-items:center;justify-content:center;font-size:18px;transition:all .2s;flex-shrink:0}
@@ -107,29 +109,23 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 @keyframes spin{to{transform:rotate(360deg)}}
 .content{flex:1;overflow-y:auto;overflow-x:hidden;padding:28px;scroll-behavior:smooth;overscroll-behavior:none;-webkit-overflow-scrolling:touch;transition:padding .3s}
 .content::-webkit-scrollbar{width:8px}
-.content::-webkit-scrollbar-track{background:transparent}
 .content::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
 
+/* QUIZ FULLSCREEN */
 .app.quiz-fullscreen .sidebar{transform:translateX(-100%);opacity:0;pointer-events:none;width:0;overflow:hidden;border:none}
 [dir="rtl"] .app.quiz-fullscreen .sidebar{transform:translateX(100%)}
 .app.quiz-fullscreen .topbar{display:none}
 .app.quiz-fullscreen .mobile-toggle{display:none!important}
 .app.quiz-fullscreen .content{padding:0}
 .app.quiz-fullscreen .main{background:var(--bg-0)}
-
 .quiz-fullscreen-page{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;background:var(--bg-0);position:relative;animation:fadeIn .4s ease}
 .quiz-fullscreen-page::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 60% at 20% 0%,rgba(99,102,241,0.1) 0%,transparent 50%),radial-gradient(ellipse 60% 50% at 80% 100%,rgba(236,72,153,0.06) 0%,transparent 50%);pointer-events:none;z-index:0}
 .quiz-fs-header{position:sticky;top:0;z-index:10;padding:14px 20px;background:rgba(4,7,13,0.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 [data-theme="light"] .quiz-fs-header{background:rgba(255,255,255,0.95)}
 .quiz-fs-exit{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--danger-soft),rgba(239,68,68,0.25));border:1.5px solid var(--danger);color:var(--danger);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;transition:all .25s;flex-shrink:0;position:relative;overflow:hidden}
-.quiz-fs-exit::before{content:'';position:absolute;inset:0;background:var(--danger);opacity:0;transition:opacity .25s}
-.quiz-fs-exit:hover::before{opacity:.15}
 .quiz-fs-exit:hover{transform:scale(1.05);box-shadow:0 4px 16px rgba(239,68,68,0.4)}
 .quiz-fs-exit:active{transform:scale(0.95)}
-.quiz-fs-exit .exit-icon{position:relative;z-index:1;display:flex;align-items:center;justify-content:center}
 .quiz-fs-exit.warn{animation:shake .5s ease;background:var(--danger);color:white}
-.quiz-fs-exit-label{position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);font-size:9px;color:var(--danger);font-weight:700;white-space:nowrap;opacity:0;transition:opacity .2s;pointer-events:none;text-transform:uppercase;letter-spacing:.5px}
-.quiz-fs-exit:hover .quiz-fs-exit-label{opacity:1}
 .quiz-fs-title{flex:1;min-width:0}
 .quiz-fs-title h2{font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .quiz-fs-title p{font-size:11px;color:var(--text-3);margin-top:2px}
@@ -163,6 +159,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 @keyframes scaleIn{from{transform:scale(.9);opacity:0}to{transform:scale(1);opacity:1}}
 @keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
 
+/* DASHBOARD */
 .dashboard{max-width:1280px;margin:0 auto;animation:fadeUp .5s ease}
 .dashboard-hero{position:relative;padding:48px 40px;margin-bottom:36px;border-radius:var(--radius-xl);background:linear-gradient(135deg,rgba(99,102,241,0.15) 0%,rgba(139,92,246,0.1) 40%,rgba(236,72,153,0.1) 100%);border:1px solid var(--border);overflow:hidden;backdrop-filter:blur(20px)}
 .dashboard-hero::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(99,102,241,0.3) 0%,transparent 70%);pointer-events:none;animation:float 8s ease-in-out infinite}
@@ -227,6 +224,9 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .content-badge.video{background:var(--pink-soft);color:var(--pink)}
 .content-badge.image{background:var(--info-soft);color:var(--info)}
 .content-badge.notes{background:var(--success-soft);color:var(--success)}
+.content-badge.links{background:var(--purple-soft);color:var(--purple)}
+
+/* TOPIC VIEWER */
 .topic-viewer{max-width:1100px;margin:0 auto;animation:fadeUp .4s ease}
 .topic-hero{position:relative;padding:32px;margin-bottom:24px;border-radius:var(--radius-xl);background:linear-gradient(135deg,rgba(99,102,241,0.12),rgba(6,182,212,0.08));border:1px solid var(--border);overflow:hidden}
 .topic-hero::before{content:'';position:absolute;top:-50%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(99,102,241,0.2) 0%,transparent 70%);pointer-events:none}
@@ -240,7 +240,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .topic-description{color:rgba(255,255,255,0.85);font-size:14px;line-height:1.7;margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.1)}
 .topic-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
 .topic-badge{padding:7px 14px;border-radius:20px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.15);color:white}
-.content-tabs{display:flex;gap:6px;padding:8px;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-md);margin-bottom:24px;overflow-x:auto;box-shadow:var(--shadow-sm)}
+.content-tabs{display:flex;gap:6px;padding:8px;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-md);margin-bottom:24px;overflow-x:auto;box-shadow:var(--shadow-sm);position:sticky;top:0;z-index:5;backdrop-filter:blur(20px)}
 .content-tabs::-webkit-scrollbar{display:none}
 .content-tab{padding:12px 20px;background:transparent;border:none;color:var(--text-3);font-size:13px;font-weight:700;cursor:pointer;border-radius:10px;transition:all .2s;font-family:inherit;white-space:nowrap;display:flex;align-items:center;gap:8px}
 .content-tab:hover:not(:disabled){color:var(--text-1);background:var(--surface-hover)}
@@ -251,6 +251,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .content-panel{display:none}
 .content-panel.active{display:block;animation:fadeUp .3s ease}
 
+/* QUIZ STARTER */
 .quiz-starter-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(12px);z-index:2500;display:none;align-items:center;justify-content:center;padding:20px}
 .quiz-starter-overlay.show{display:flex;animation:fadeIn .3s ease}
 .quiz-starter{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:520px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .4s cubic-bezier(.4,0,.2,1);max-height:90vh;overflow-y:auto}
@@ -283,23 +284,18 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .qs-footer{padding:18px 32px 24px;display:flex;gap:10px}
 .qs-footer .btn{flex:1;justify-content:center;padding:14px 20px;font-size:14px}
 
+/* SETTINGS */
 .settings-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(12px);z-index:2500;display:none;align-items:center;justify-content:center;padding:20px}
 .settings-overlay.show{display:flex;animation:fadeIn .3s ease}
 .settings-panel{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:560px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .4s cubic-bezier(.4,0,.2,1);max-height:90vh;overflow-y:auto}
 .settings-header{padding:24px 28px 18px;background:linear-gradient(135deg,rgba(99,102,241,0.1),rgba(6,182,212,0.05));border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
-.settings-header::before{content:'';position:absolute;top:-50%;right:-30%;width:300px;height:300px;background:radial-gradient(circle,rgba(6,182,212,0.15) 0%,transparent 70%);pointer-events:none}
-.settings-header>*{position:relative;z-index:1}
 .settings-header h3{font-size:20px;font-weight:800;display:flex;align-items:center;gap:10px;letter-spacing:-.3px}
 .settings-close{width:36px;height:36px;border-radius:10px;background:var(--surface);border:1px solid var(--border);color:var(--text-2);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;transition:all .2s}
 .settings-close:hover{background:var(--danger-soft);color:var(--danger);border-color:var(--danger)}
 .settings-body{padding:24px 28px}
 .settings-group{margin-bottom:24px}
-.settings-group:last-child{margin-bottom:0}
 .settings-group-title{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--text-3);margin-bottom:14px;display:flex;align-items:center;gap:8px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.settings-group-title::before{content:'';width:14px;height:2px;background:var(--gradient-accent);border-radius:2px}
-.settings-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:10px;transition:all .2s}
-.settings-row:hover{border-color:var(--border-strong);background:var(--surface-hover)}
-.settings-row:last-child{margin-bottom:0}
+.settings-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:10px}
 .settings-row-info{flex:1;min-width:0}
 .settings-row-label{font-size:13px;font-weight:600;color:var(--text-1);margin-bottom:2px}
 .settings-row-desc{font-size:11px;color:var(--text-3);line-height:1.4}
@@ -307,12 +303,12 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .settings-slider-wrap{display:flex;align-items:center;gap:10px;min-width:200px}
 .settings-slider{flex:1;height:6px;-webkit-appearance:none;appearance:none;background:var(--surface);border:1px solid var(--border);border-radius:3px;outline:none;cursor:pointer}
 .settings-slider::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--gradient-primary);cursor:pointer;box-shadow:0 2px 8px var(--primary-glow);border:2px solid white}
-.settings-slider::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--primary);cursor:pointer;border:2px solid white}
 .settings-slider-value{min-width:48px;text-align:center;padding:5px 10px;background:var(--bg-2);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:700;color:var(--primary-hover);font-variant-numeric:tabular-nums}
 .settings-preview{margin-top:12px;padding:14px 16px;background:var(--bg-2);border:1px dashed var(--border);border-radius:10px;font-size:13px;color:var(--text-2);line-height:1.6}
 .settings-preview-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-4);margin-bottom:6px}
 .settings-footer{padding:16px 28px 22px;border-top:1px solid var(--border);display:flex;gap:10px;justify-content:flex-end;background:var(--surface)}
 
+/* EXIT CONFIRM */
 .exit-confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(10px);z-index:2600;display:none;align-items:center;justify-content:center;padding:20px}
 .exit-confirm-overlay.show{display:flex;animation:fadeIn .2s ease}
 .exit-confirm{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:420px;overflow:hidden;box-shadow:var(--shadow-lg);animation:scaleIn .3s cubic-bezier(.4,0,.2,1);text-align:center}
@@ -322,6 +318,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .exit-confirm-actions{padding:16px 24px 24px;display:flex;gap:10px}
 .exit-confirm-actions .btn{flex:1;justify-content:center;padding:13px 20px;font-size:14px}
 
+/* QUIZ CARD */
 .quiz-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:32px;position:relative;overflow:hidden;animation:fadeUp .4s ease;transition:border-color .3s}
 .quiz-card::before{content:'';position:absolute;top:0;inset-inline-start:0;width:5px;height:100%;background:var(--gradient-primary)}
 .quiz-card.answered-correct::before{background:var(--gradient-success)}
@@ -340,19 +337,18 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-action-btn.bookmarked{background:var(--purple-soft);color:var(--purple);border-color:var(--purple)}
 .quiz-question{font-size:var(--fs-mcq);font-weight:600;line-height:1.7;margin-bottom:20px;letter-spacing:-.3px}
 .quiz-question-image{margin:16px 0;border-radius:var(--radius-md);overflow:hidden;border:1px solid var(--border);max-height:300px;display:flex;align-items:center;justify-content:center;background:var(--bg-2)}
-.quiz-question-image img{max-width:100%;max-height:300px;object-fit:contain;display:block}
+.quiz-question-image img{max-width:100%;max-height:300px;object-fit:contain;display:block;cursor:zoom-in}
 .quiz-options{display:grid;gap:10px}
 .quiz-option{padding:16px 18px;background:var(--surface);border:2px solid var(--border);border-radius:var(--radius-md);cursor:pointer;transition:all .25s;display:flex;align-items:flex-start;gap:14px;font-size:var(--fs-base);line-height:1.6;font-weight:500;position:relative;overflow:hidden}
 .quiz-option:hover:not(.disabled){border-color:var(--primary);background:var(--primary-soft);transform:translateX(4px)}
 [dir="rtl"] .quiz-option:hover:not(.disabled){transform:translateX(-4px)}
-.quiz-option .opt-letter{width:32px;height:32px;border-radius:10px;background:var(--bg-3);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;transition:all .2s;border:1px solid var(--border);position:relative;z-index:1}
-.quiz-option .opt-text{flex:1;padding-top:3px;position:relative;z-index:1}
+.quiz-option .opt-letter{width:32px;height:32px;border-radius:10px;background:var(--bg-3);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;transition:all .2s;border:1px solid var(--border)}
+.quiz-option .opt-text{flex:1;padding-top:3px}
 .quiz-option.correct{border-color:var(--success);background:var(--success-soft)}
 .quiz-option.correct .opt-letter{background:var(--success);color:white;border-color:var(--success)}
 .quiz-option.wrong{border-color:var(--danger);background:var(--danger-soft)}
 .quiz-option.wrong .opt-letter{background:var(--danger);color:white;border-color:var(--danger)}
 .quiz-option.disabled{cursor:default}
-.quiz-option.correct.disabled,.quiz-option.wrong.disabled{opacity:1}
 .quiz-option.disabled:not(.correct):not(.wrong){opacity:.5}
 .quiz-explanation{margin-top:20px;padding:20px 24px;background:linear-gradient(135deg,var(--primary-soft),var(--info-soft));border:1px solid var(--primary);border-radius:var(--radius-md);font-size:var(--fs-base);line-height:1.8;color:var(--text-2);display:none;position:relative}
 .quiz-explanation::before{content:'💡';position:absolute;top:-14px;inset-inline-start:16px;background:var(--bg-1);padding:4px 8px;border-radius:8px;font-size:16px;border:1px solid var(--primary)}
@@ -374,9 +370,10 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .quiz-dot.current{background:var(--gradient-primary);color:white;border-color:transparent;box-shadow:0 4px 12px var(--primary-glow)}
 .quiz-dot.answered-correct{background:var(--success);color:white;border-color:transparent}
 .quiz-dot.answered-wrong{background:var(--danger);color:white;border-color:transparent}
-.quiz-dot.flagged::after{content:'';position:absolute;top:-6px;inset-inline-end:-6px;font-size:10px}
+.quiz-dot.flagged::after{content:'🚩';position:absolute;top:-6px;inset-inline-end:-6px;font-size:10px}
 .quiz-dot.bookmarked::before{content:'⭐';position:absolute;top:-6px;inset-inline-start:-6px;font-size:10px}
 
+/* QUIZ RESULTS */
 .quiz-results-wrap{width:100%;max-width:720px;margin:0 auto;animation:fadeUp .5s ease}
 .quiz-results{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:48px 40px;text-align:center;position:relative;overflow:hidden}
 .quiz-results::before{content:'';position:absolute;top:-50%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,var(--primary-soft) 0%,transparent 70%);pointer-events:none}
@@ -396,6 +393,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .confetti-container{position:fixed;inset:0;pointer-events:none;z-index:9999;overflow:hidden}
 .confetti-piece{position:absolute;width:10px;height:10px;top:-20px;animation:confetti 3s ease-out forwards}
 
+/* STARTER CARD */
 .starter-card{max-width:600px;margin:0 auto;background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);padding:48px 40px;text-align:center;position:relative;overflow:hidden;animation:fadeUp .4s ease}
 .starter-card::before{content:'';position:absolute;top:-50%;right:-30%;width:400px;height:400px;background:radial-gradient(circle,rgba(99,102,241,0.15) 0%,transparent 70%);pointer-events:none}
 .starter-card>*{position:relative;z-index:1}
@@ -412,6 +410,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .starter-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
 .starter-actions .btn{padding:14px 28px;font-size:14px}
 
+/* Q&A */
 .qa-list{display:grid;gap:10px}
 .qa-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;transition:all .2s}
 .qa-card:hover{border-color:var(--success);box-shadow:var(--shadow-sm)}
@@ -425,8 +424,9 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .qa-card.open .qa-answer{max-height:1000px}
 .qa-answer-inner{padding:0 20px 20px 70px;font-size:var(--fs-base);color:var(--success);font-weight:500;line-height:1.7}
 .qa-answer-inner .arrow{color:var(--warning);margin-inline-end:8px;font-weight:800}
-.qa-answer-inner img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border)}
+.qa-answer-inner img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border);cursor:zoom-in}
 
+/* FLASHCARDS */
 .flashcard-wrapper{max-width:760px;margin:0 auto}
 .flashcard-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px;background:var(--bg-1);padding:14px 20px;border-radius:var(--radius-lg);border:1px solid var(--border)}
 .flashcard-counter{font-size:14px;font-weight:700;color:var(--text-2);display:flex;align-items:center;gap:10px}
@@ -443,10 +443,10 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .flashcard{width:100%;min-height:400px;position:relative;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.4,0,.2,1);cursor:pointer}
 .flashcard.flipped{transform:rotateY(180deg)}
 .flashcard-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--radius-xl);padding:48px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px solid var(--border);box-shadow:var(--shadow-lg);overflow:hidden}
-.flashcard-front{background:linear-gradient(135deg,#0f172a 0%,#1e1b4b 50%,#312e81 100%);position:relative}
+.flashcard-front{background:linear-gradient(135deg,#0f172a 0%,#1e1b4b 50%,#312e81 100%)}
 [data-theme="light"] .flashcard-front{background:linear-gradient(135deg,#eef2ff 0%,#e0e7ff 50%,#c7d2fe 100%)}
 .flashcard-front::before{content:'';position:absolute;top:-50%;right:-30%;width:500px;height:500px;background:radial-gradient(circle,rgba(99,102,241,0.4) 0%,transparent 70%);pointer-events:none;animation:float 6s ease-in-out infinite}
-.flashcard-back{background:linear-gradient(135deg,#064e3b 0%,#065f46 50%,#047857 100%);transform:rotateY(180deg);border-color:var(--success);position:relative}
+.flashcard-back{background:linear-gradient(135deg,#064e3b 0%,#065f46 50%,#047857 100%);transform:rotateY(180deg);border-color:var(--success)}
 [data-theme="light"] .flashcard-back{background:linear-gradient(135deg,#d1fae5 0%,#a7f3d0 50%,#6ee7b7 100%)}
 .flashcard-back::before{content:'';position:absolute;top:-40%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(16,185,129,0.3) 0%,transparent 70%);pointer-events:none;animation:float 7s ease-in-out infinite}
 .flashcard-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:3px;color:rgba(255,255,255,0.6);margin-bottom:24px;padding:8px 18px;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);border-radius:20px;border:1px solid rgba(255,255,255,0.15);position:relative;z-index:1}
@@ -467,7 +467,6 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .flashcard-nav-btn:hover:not(:disabled){background:var(--primary-soft);color:var(--primary-hover);border-color:var(--primary)}
 .flashcard-nav-btn:disabled{opacity:.3;cursor:not-allowed}
 .flashcard-nav-btn.flip-btn{background:var(--gradient-primary);color:white;border:none;box-shadow:0 4px 16px var(--primary-glow)}
-.flashcard-nav-btn.flip-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px var(--primary-glow)}
 .flashcard-stats-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}
 .flashcard-stat-item{background:var(--bg-1);border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center}
 .flashcard-stat-item .fs-value{font-size:20px;font-weight:800;line-height:1}
@@ -477,6 +476,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .flashcard-stat-item.good .fs-value{color:var(--info)}
 .flashcard-stat-item.easy .fs-value{color:var(--success)}
 
+/* MNEMONICS */
 .mnemonics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
 .mnemonic-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-lg);padding:24px;position:relative;overflow:hidden;transition:all .3s}
 .mnemonic-card::before{content:'';position:absolute;top:0;inset-inline-start:0;inset-inline-end:0;height:4px;background:var(--gradient-warm)}
@@ -490,6 +490,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .mn-items li:last-child{border-bottom:none}
 .mn-items li .letter{color:var(--success);font-weight:800;font-family:'JetBrains Mono',monospace;min-width:28px;background:var(--success-soft);padding:3px 10px;border-radius:8px;text-align:center;font-size:12px;border:1px solid var(--success)}
 
+/* VIDEOS */
 .videos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
 .video-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;cursor:pointer;transition:all .3s}
 .video-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--pink)}
@@ -503,7 +504,6 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .video-title{font-size:15px;font-weight:700;margin-bottom:6px;line-height:1.4}
 .video-meta{display:flex;gap:10px;font-size:11px;color:var(--text-3);font-weight:600}
 .video-meta span{display:inline-flex;align-items:center;gap:4px}
-
 .video-player-modal{position:fixed;inset:0;background:rgba(0,0,0,0.95);z-index:3000;display:none;align-items:center;justify-content:center;flex-direction:column}
 .video-player-modal.show{display:flex;animation:fadeIn .3s ease}
 .video-player-modal.portrait .video-player-container{width:min(90vw,500px);height:auto;aspect-ratio:9/16;max-height:85vh}
@@ -516,7 +516,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .video-player-container:hover .video-player-controls{opacity:1}
 .video-progress{width:100%;height:6px;background:rgba(255,255,255,0.2);border-radius:3px;cursor:pointer;position:relative;overflow:hidden}
 .video-progress:hover{height:8px}
-.video-progress-fill{height:100%;background:var(--gradient-primary);border-radius:3px;transition:width .1s linear;position:relative}
+.video-progress-fill{height:100%;background:var(--gradient-primary);border-radius:3px;transition:width .1s linear}
 .video-controls-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .video-ctrl-btn{width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.1);border:none;color:white;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s}
 .video-ctrl-btn:hover{background:rgba(255,255,255,0.25);transform:scale(1.1)}
@@ -531,10 +531,12 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .video-volume-slider{width:80px;height:4px;-webkit-appearance:none;appearance:none;background:rgba(255,255,255,0.2);border-radius:2px;outline:none;cursor:pointer}
 .video-volume-slider::-webkit-slider-thumb{-webkit-appearance:none;width:14px;height:14px;border-radius:50%;background:white;cursor:pointer;box-shadow:0 2px 6px rgba(0,0,0,0.3)}
 
+/* IMAGES */
 .images-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
 .image-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;cursor:pointer;transition:all .3s}
 .image-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--info)}
-.image-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.image-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .4s}
+.image-card:hover img{transform:scale(1.05)}
 .image-card-caption{padding:12px;font-size:13px;font-weight:600;color:var(--text-2);line-height:1.4}
 .image-viewer-modal{position:fixed;inset:0;background:rgba(0,0,0,0.95);z-index:3000;display:none;align-items:center;justify-content:center;padding:40px}
 .image-viewer-modal.show{display:flex;animation:fadeIn .3s ease}
@@ -542,6 +544,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .image-viewer-close{position:fixed;top:20px;inset-inline-end:20px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.2);color:white;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;transition:all .2s}
 .image-viewer-close:hover{background:rgba(239,68,68,0.8);transform:scale(1.1)}
 
+/* NOTES */
 .notes-toolbar{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;align-items:center}
 .notes-search{flex:1;min-width:200px;padding:12px 16px;background:var(--bg-1);border:1px solid var(--border);border-radius:12px;color:var(--text-1);font-family:inherit;font-size:14px;outline:none;transition:border-color .2s}
 .notes-search:focus{border-color:var(--success);box-shadow:0 0 0 3px var(--success-soft)}
@@ -551,31 +554,31 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .notes-filter-btn:hover{background:var(--surface-hover);color:var(--text-1)}
 .notes-filter-btn.active{background:var(--success-soft);color:var(--success);border-color:var(--success)}
 .notes-list{display:grid;gap:16px}
-.note-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0;position:relative;overflow:hidden;transition:all .3s}
+.note-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-lg);position:relative;overflow:hidden;transition:all .3s}
 .note-card:hover{border-color:var(--success);box-shadow:var(--shadow-md);transform:translateY(-2px)}
 .note-card-accent{height:4px;width:100%;background:var(--note-accent,var(--gradient-success))}
 .note-card-body{padding:22px 26px}
 .note-card-header{display:flex;align-items:flex-start;gap:14px;margin-bottom:14px}
-.note-card-icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;background:var(--note-accent-soft,var(--success-soft));border:1px solid var(--note-accent,var(--success));box-shadow:0 4px 12px var(--note-glow,rgba(16,185,129,0.2))}
+.note-card-icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;background:var(--note-accent-soft,var(--success-soft));border:1px solid var(--note-accent,var(--success))}
 .note-card-title-wrap{flex:1;min-width:0}
-.note-card-title{font-size:17px;font-weight:700;color:var(--text-1);display:flex;align-items:center;gap:8px;line-height:1.4}
+.note-card-title{font-size:17px;font-weight:700;color:var(--text-1);display:flex;align-items:center;gap:8px;line-height:1.4;flex-wrap:wrap}
 .note-card-type{display:inline-block;padding:3px 10px;border-radius:20px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;background:var(--note-accent-soft,var(--success-soft));color:var(--note-accent,var(--success));border:1px solid var(--note-accent,var(--success))}
 .note-card-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
 .note-tag{padding:2px 8px;background:var(--surface);border:1px solid var(--border);border-radius:6px;font-size:10px;color:var(--text-3);font-weight:600}
 .note-card-content{font-size:var(--fs-base);color:var(--text-2);line-height:1.8;white-space:pre-wrap;word-wrap:break-word}
-.note-card-content img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border)}
-.note-card-content .highlight{background:linear-gradient(120deg,rgba(245,158,11,0.2) 0%,rgba(245,158,11,0.3) 100%);padding:1px 4px;border-radius:3px;font-weight:600}
-.note-card-content .highlight-green{background:linear-gradient(120deg,rgba(16,185,129,0.2) 0%,rgba(16,185,129,0.3) 100%);padding:1px 4px;border-radius:3px;font-weight:600}
-.note-card-content .highlight-blue{background:linear-gradient(120deg,rgba(6,182,212,0.2) 0%,rgba(6,182,212,0.3) 100%);padding:1px 4px;border-radius:3px;font-weight:600}
-.note-card-content .highlight-pink{background:linear-gradient(120deg,rgba(236,72,153,0.2) 0%,rgba(236,72,153,0.3) 100%);padding:1px 4px;border-radius:3px;font-weight:600}
-.note-card-content .highlight-purple{background:linear-gradient(120deg,rgba(168,85,247,0.2) 0%,rgba(168,85,247,0.3) 100%);padding:1px 4px;border-radius:3px;font-weight:600}
-.note-card-content .code-inline{font-family:'JetBrains Mono',monospace;background:var(--bg-3);padding:2px 6px;border-radius:4px;font-size:0.9em;color:var(--pink);border:1px solid var(--border)}
+.note-card-content img{max-width:100%;border-radius:var(--radius-sm);margin:10px 0;border:1px solid var(--border);cursor:zoom-in}
+.note-card-content .highlight{background:linear-gradient(120deg,rgba(245,158,11,0.2),rgba(245,158,11,0.3));padding:1px 4px;border-radius:3px;font-weight:600}
+.note-card-content .highlight-green{background:linear-gradient(120deg,rgba(16,185,129,0.2),rgba(16,185,129,0.3));padding:1px 4px;border-radius:3px;font-weight:600}
+.note-card-content .highlight-blue{background:linear-gradient(120deg,rgba(6,182,212,0.2),rgba(6,182,212,0.3));padding:1px 4px;border-radius:3px;font-weight:600}
+.note-card-content .highlight-pink{background:linear-gradient(120deg,rgba(236,72,153,0.2),rgba(236,72,153,0.3));padding:1px 4px;border-radius:3px;font-weight:600}
+.note-card-content .highlight-purple{background:linear-gradient(120deg,rgba(168,85,247,0.2),rgba(168,85,247,0.3));padding:1px 4px;border-radius:3px;font-weight:600}
+.note-card-content .code-inline{font-family:'JetBrains Mono',monospace;background:var(--bg-3);padding:2px 6px;border-radius:4px;font-size:.9em;color:var(--pink);border:1px solid var(--border)}
 .note-card-content .key-point{display:block;padding:10px 14px;margin:10px 0;background:var(--primary-soft);border-inline-start:3px solid var(--primary);border-radius:6px;font-weight:600;color:var(--primary-hover)}
 .note-card-content .warning-box{display:block;padding:10px 14px;margin:10px 0;background:var(--warning-soft);border-inline-start:3px solid var(--warning);border-radius:6px;font-weight:600;color:var(--warning)}
 .note-card-content .success-box{display:block;padding:10px 14px;margin:10px 0;background:var(--success-soft);border-inline-start:3px solid var(--success);border-radius:6px;font-weight:600;color:var(--success)}
 .note-card-meta{margin-top:14px;padding-top:14px;border-top:1px solid var(--border);font-size:11px;color:var(--text-4);display:flex;gap:12px;font-weight:600;flex-wrap:wrap}
-.note-card-meta span{display:inline-flex;align-items:center;gap:4px}
 
+/* LINKS */
 .links-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
 .link-card{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-md);padding:18px 20px;display:flex;align-items:center;gap:14px;cursor:pointer;transition:all .25s;text-decoration:none;color:inherit}
 .link-card:hover{border-color:var(--purple);background:var(--purple-soft);transform:translateY(-2px);box-shadow:var(--shadow-md)}
@@ -586,15 +589,16 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .link-arrow{color:var(--text-4);font-size:16px;transition:transform .2s}
 .link-card:hover .link-arrow{color:var(--purple);transform:translateX(3px)}
 
+/* EMPTY & LOADING */
 .empty-state{text-align:center;padding:80px 20px;color:var(--text-3);background:var(--bg-1);border:1px dashed var(--border);border-radius:var(--radius-lg);animation:fadeUp .4s ease}
 .empty-state .es-icon{font-size:72px;margin-bottom:20px;opacity:.5}
 .empty-state h3{font-size:20px;color:var(--text-2);margin-bottom:10px;font-weight:700}
 .empty-state p{font-size:14px;line-height:1.6;max-width:400px;margin:0 auto}
-
 .loading-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:20px;background:var(--bg-0)}
 .loading-spinner{width:56px;height:56px;border:3px solid var(--border);border-top-color:var(--primary);border-radius:50%;animation:spin .8s linear infinite}
 .loading-text{font-size:14px;color:var(--text-3);font-weight:500}
 
+/* TOAST */
 .toast-container{position:fixed;top:20px;inset-inline-end:20px;z-index:2000;display:flex;flex-direction:column;gap:8px;max-width:calc(100vw - 40px)}
 .toast{background:var(--bg-2);border:1px solid var(--border);border-inline-start:4px solid var(--primary);border-radius:14px;padding:14px 18px;min-width:280px;max-width:420px;box-shadow:var(--shadow-lg);display:flex;align-items:center;gap:12px;animation:slideIn .3s ease;font-size:13px;font-weight:500;backdrop-filter:blur(20px)}
 .toast.success{border-inline-start-color:var(--success)}
@@ -603,6 +607,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .toast-icon{font-size:18px;flex-shrink:0}
 .toast-message{flex:1;color:var(--text-1)}
 
+/* MODAL */
 .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.75);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;z-index:1000;padding:20px}
 .modal-overlay.show{display:flex;animation:fadeIn .2s ease}
 .modal{background:var(--bg-1);border:1px solid var(--border);border-radius:var(--radius-xl);width:100%;max-width:520px;max-height:90vh;overflow-y:auto;box-shadow:var(--shadow-lg);animation:slideUp .3s cubic-bezier(.4,0,.2,1)}
@@ -617,6 +622,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .modal-body ul li{padding:8px 0 8px 26px;position:relative;font-size:13px;line-height:1.6}
 .modal-body ul li::before{content:'✦';position:absolute;inset-inline-start:4px;color:var(--primary);font-size:12px}
 .modal-footer{padding:18px 26px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:8px;background:var(--surface)}
+
 .btn{padding:11px 22px;border-radius:12px;border:none;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;font-family:inherit;display:inline-flex;align-items:center;gap:6px}
 .btn-primary{background:var(--gradient-primary);color:white;box-shadow:0 4px 16px var(--primary-glow)}
 .btn-primary:hover{transform:translateY(-1px);box-shadow:0 8px 24px var(--primary-glow)}
@@ -639,6 +645,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .update-banner .ub-text{flex:1}
 .update-banner .ub-close{background:none;border:none;color:var(--text-3);cursor:pointer;font-size:16px;padding:4px}
 
+/* RESPONSIVE */
 @media (max-width:900px){
 .sidebar{position:fixed;inset-inline-start:0;top:0;height:100vh;height:100dvh;z-index:150;transform:translateX(-100%);box-shadow:var(--shadow-lg);width:min(300px,85vw)}
 [dir="rtl"] .sidebar{transform:translateX(100%)}
@@ -734,14 +741,13 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 .topbar-btn{width:38px;height:38px;font-size:16px}
 }
 ::-webkit-scrollbar{width:6px;height:6px}
-::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 ::-webkit-scrollbar-thumb:hover{background:var(--text-4)}
 [dir="rtl"] .breadcrumb-sep{transform:scaleX(-1)}
 </style>
 </head>
 <body>
-<div class="offline-banner" id="offlineBanner"> <span id="offlineText">You are offline — using cached data</span></div>
+<div class="offline-banner" id="offlineBanner"><span id="offlineText">You are offline — using cached data</span></div>
 <div class="loading-screen" id="loadingScreen">
 <div class="loading-spinner"></div>
 <div class="loading-text" id="loadingText">Loading content...</div>
@@ -750,7 +756,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="app" id="app" style="display:none">
 <aside class="sidebar" id="sidebar">
 <div class="sidebar-header">
-<div class="logo"></div>
+<div class="logo">🩺</div>
 <div class="logo-text">
 <h1>MedExit</h1>
 <p id="taglineText">Medical Exit Exam Prep</p>
@@ -762,7 +768,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <button class="lang-btn" data-lang="ps" onclick="setLanguage('ps')">پښتو</button>
 <button class="lang-btn" data-lang="dr" onclick="setLanguage('dr')">دری</button>
 </div>
-<button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" id="themeToggle"></button>
+<button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme" id="themeToggle">☀️</button>
 </div>
 <div class="breadcrumb-nav" id="breadcrumb"></div>
 <div class="nav-list" id="navList"></div>
@@ -779,7 +785,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 </div>
 <div class="topbar-actions">
 <button class="topbar-btn" onclick="openSettings()" title="Settings">⚙️</button>
-<button class="topbar-btn" id="refreshBtn" onclick="refreshData()" title="Refresh"></button>
+<button class="topbar-btn" id="refreshBtn" onclick="refreshData()" title="Refresh">🔄</button>
 <button class="topbar-btn" onclick="openAboutModal()" title="About">ℹ️</button>
 </div>
 </div>
@@ -831,7 +837,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="settings-overlay" id="settingsOverlay">
 <div class="settings-panel">
 <div class="settings-header">
-<h3>️ <span id="settingsTitle">Settings</span></h3>
+<h3>⚙️ <span id="settingsTitle">Settings</span></h3>
 <button class="settings-close" onclick="closeSettings()">✕</button>
 </div>
 <div class="settings-body">
@@ -843,7 +849,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="settings-row-desc" id="sThemeDesc">Switch between dark and light theme</div>
 </div>
 <div class="settings-row-control">
-<button class="btn btn-secondary" onclick="toggleTheme();updateSettingsUI()" id="sThemeBtn"> Dark</button>
+<button class="btn btn-secondary" onclick="toggleTheme();updateSettingsUI()" id="sThemeBtn">🌙 Dark</button>
 </div>
 </div>
 </div>
@@ -886,7 +892,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="settings-row-desc" id="sResetDesc">Clear all quiz answers, bookmarks, and study progress</div>
 </div>
 <div class="settings-row-control">
-<button class="btn btn-danger" onclick="resetAllProgress()" id="sResetBtn">️ Reset</button>
+<button class="btn btn-danger" onclick="resetAllProgress()" id="sResetBtn">🗑️ Reset</button>
 </div>
 </div>
 </div>
@@ -899,7 +905,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 
 <div class="exit-confirm-overlay" id="exitConfirmOverlay">
 <div class="exit-confirm">
-<div class="exit-confirm-icon">️</div>
+<div class="exit-confirm-icon">🚪</div>
 <div class="exit-confirm-title" id="exitTitle">Exit Quiz?</div>
 <div class="exit-confirm-desc" id="exitDesc">Your progress will be saved. You can resume or start a new session later.</div>
 <div class="exit-confirm-actions">
@@ -912,7 +918,7 @@ body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellips
 <div class="quiz-starter-overlay" id="quizStarterOverlay">
 <div class="quiz-starter">
 <div class="qs-header">
-<div class="qs-icon"></div>
+<div class="qs-icon">📋</div>
 <div class="qs-title" id="qsTitle">Start Quiz</div>
 <div class="qs-subtitle" id="qsSubtitle">Configure your practice session</div>
 </div>
@@ -964,9 +970,9 @@ function isRTLText(t){if(!t)return false;return/[\u0600-\u06FF\u0750-\u077F\u08A
 function dirClass(t){return isRTLText(t)?'rtl-text':'ltr-text'}
 
 const i18n={
-en:{loading:'Loading content...',loadingDecrypt:'Decrypting content...',tagline:'Medical Exit Exam Prep',subtitle:'Browse exam preparation materials',refresh:'Refresh',about:'About',settings:'Settings',footer:'© 2026 MedExit — Medical Education',home:'Home',dashboard:'Dashboard',categories:'Categories',subjects:'Subjects',topics:'Topics',subtopics:'Subtopics',mcqs:'MCQs',qa:'Q&A',flashcards:'Flashcards',mnemonics:'Mnemonics',videos:'Videos',images:'Images',notes:'Notes',links:'Links',question:'Question',answer:'Answer',front:'Question',back:'Answer',tapToFlip:'Tap card to reveal answer',explanation:'Explanation',noContent:'No content available yet',noContentDesc:'This section does not have any items.',loadingFailed:'Failed to load content.',refreshSuccess:'Content refreshed successfully',card:'Card',of:'of',previous:'Previous',next:'Next',finish:'Finish Quiz',welcomeTitle:'Welcome to MedExit',welcomeDesc:'Your comprehensive medical exit exam preparation platform.',totalMCQs:'Total MCQs',totalQA:'Q&A Items',totalFlash:'Flashcards',totalMnem:'Mnemonics',aboutTitle:'About MedExit',aboutText:'MedExit is a comprehensive medical exit exam preparation platform.',features:'Features',featureList:['Multi-language UI (English, Pashto, Dari)','Auto RTL detection','Customizable font sizes','Interactive MCQs with progress tracking','Smart quiz starter with count selection','No-repeat MCQ system','Offline support with encrypted data','Premium flip flashcards','Built-in video player','Image gallery viewer','Rich Notes with custom styling','Notes and external links'],ok:'OK',back:'Back',exploreCategories:'Explore Categories',items:'items',correct:'Correct',wrong:'Wrong',remaining:'Remaining',progress:'Progress',quizComplete:'Quiz Complete!',youScored:'You scored',excellent:'Excellent! Outstanding performance!',great:'Great job! Keep up the good work!',good:'Good effort! Review the topics you missed.',keepGoing:'Keep studying! Practice makes perfect.',retry:'Retry Quiz',reviewAnswers:'Review Answers',backToTopic:'Back to Topic',newSession:'New Session',bookmark:'Bookmark',flag:'Flag for Review',addNote:'Add Note',shuffle:'Shuffle',sequential:'Sequential',randomMode:'Random',wrongOnly:'Wrong Only',streak:'Streak',flip:'Flip',again:'Again',hard:'Hard',goodRating:'Good',easy:'Easy',watchVideo:'Watch Video',viewImage:'View Image',openLink:'Open Link',noVideos:'No videos available',noImages:'No images available',noNotes:'No notes available',noNotesDesc:'Add notes via JSON with rich styling support',noLinks:'No links available',startQuiz:'Start Quiz',configureSession:'Configure your practice session',howMany:'How many questions?',quizMode:'Quiz mode',modeRandom:'Random',modeSequential:'Order',modeWrong:'Wrong',available:'Available',studied:'Studied',newQ:'New',cancel:'Cancel',start:'Start Quiz',quick:'Quick',standard:'Standard',extended:'Extended',complete:'Complete',allStudied:'All questions studied!',resetProgress:'Reset & Start Over',progressSaved:'Progress saved',decryptError:'Failed to decrypt content',exitQuiz:'Exit Quiz',exitQuizTitle:'Exit Quiz?',exitQuizDesc:'Your progress will be saved. You can resume or start a new session later.',continueQuiz:'Continue Quiz',confirmExit:'Exit Quiz',tapTwiceHint:'Tap again to exit',settingsTitle:'Settings',appearance:'Appearance',themeMode:'Theme Mode',themeDesc:'Switch between dark and light theme',darkTheme:' Dark',lightTheme:'☀️ Light',typography:'Typography',generalFont:'General Font Size',generalFontDesc:'Controls text size across the app',mcqFont:'MCQ Question Font Size',mcqFontDesc:'Specifically for quiz question text',livePreview:'Live Preview',dataProgress:'Data & Progress',resetAll:'Reset All Progress',resetAllDesc:'Clear all quiz answers, bookmarks, and study progress',reset:'Reset',done:'Done',resetConfirm:'Are you sure? This will erase ALL your progress, answers, and bookmarks.',resetYes:'Yes, Reset',resetNo:'Cancel',resetDone:'All progress has been reset',quizInProgress:'Quiz in progress',searchNotes:'Search notes...',allNotes:'All',tipNotes:'Tips',warningNotes:'Warnings',importantNotes:'Important',infoNotes:'Info',contentUpdated:'Content updated! Your progress has been preserved.',offlineMode:'You are offline — using cached data',onlineAgain:'Back online!',note:'Note',tip:'Tip',warning:'Warning',important:'Important',info:'Info'},
-ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',settings:'تنظیمات',footer:'© ۲۲ MedExit — طبي زده کړې',home:'کور',dashboard:'شبورډ',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'واب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیفارم ده.',features:'انګړتیاوې',featureList:['د UI و ژبې','اتوماتیک RTL','د فونټ اندازه تنظیم','تعاملی MCQs','فلاش کارډونه','یادګارې','آفلاین ملاتړ','کلي یادښتونه'],ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ولې پوتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',exitQuizTitle:'ازموینه بند کړئ؟',exitQuizDesc:'ستاسو پرمختګ به خوندي شي.',continueQuiz:'ازموینه دوام',confirmExit:'بندول',tapTwiceHint:'د بندولو لپاره بیا کېکاږئ',settingsTitle:'تنظیمات',appearance:'کلا',themeMode:'موضوع',themeDesc:'تیاره یا روڼه موضوع',darkTheme:'🌙 تیاره',lightTheme:'☀️ روښانه',typography:'لیکنه',generalFont:'عمومي فونټ اندازه',generalFontDesc:'د ټول اپلیکیشن لیکنه',mcqFont:'د MCQ پوښتنې فونټ',mcqFontDesc:'یوازې د ازموینې پوښتنو لپاره',livePreview:'مخکتنه',dataProgress:'اا او پرمختګ',resetAll:'ول پرمختګ پاک کړئ',resetAllDesc:'ول ځوابونه، نښې، او پرمختګ پاک کړئ',reset:'پاکول',done:'بشپړ',resetConfirm:'اډه یاست؟ ول پرمختګ به پاک شي.',resetYes:'هو، پاک کړئ',resetNo:'لغوه',resetDone:'ول پرمختګ پاک شو',quizInProgress:'ازموینه روانه ده',searchNotes:'یادښتونه لون...',allNotes:'ټول',tipNotes:'لارښوونې',warningNotes:'خبرداری',importantNotes:'مهم',infoNotes:'معلومات',contentUpdated:'منځپانګه تازه شوه! ستاسو پرمختګ ساتل شوی.',offlineMode:'تاسو آفلاین یاست —Cached ډاټا کارول کیي',onlineAgain:'بیا آنلاین!',note:'یادت',tip:'لارښوونه',warning:'خبرداری',important:'مهم',info:'معلومات'},
-dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',settings:'تنظیمات',footer:'© ۲ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',featureList:['UI چند زبانه','تشخیص خودکار RTL','اندازه فونت قابل تنظیم','MCQs تعاملی','فلش کارت‌ها','یادیارها','پشتیبانی آفلاین','یادداشت‌های زیبا'],ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',exitQuizTitle:'خروج از آزمون؟',exitQuizDesc:'پیشرفت شما ذخیره خواهد شد.',continueQuiz:'ادامه آزمون',confirmExit:'خروج',tapTwiceHint:'برای خروج دوباره بزنید',settingsTitle:'تنظیمات',appearance:'ظاهر',themeMode:'حالت تم',themeDesc:'تغییر بین تم تیره و روشن',darkTheme:' تیره',lightTheme:'☀️ روشن',typography:'تایپوگرافی',generalFont:'اندازه فونت عمومی',generalFontDesc:'اندازه متن در کل برنامه',mcqFont:'اندازه فونت سوالات MCQ',mcqFontDesc:'مخصوص متن سوالات آزمون',livePreview:'پیش‌نمایش زنده',dataProgress:'داده و پیشرفت',resetAll:'بازنشانی کل پیشرفت',resetAllDesc:'پاک کردن همه پاسخ‌ها، نشان‌ها و پیشرفت',reset:'بازنشانی',done:'انجام شد',resetConfirm:'مطمئن هستید؟ تمام پیشرفت پاک خواهد شد.',resetYes:'بله، بازنشانی',resetNo:'لغو',resetDone:'تمام پیشرفت بازنشانی شد',quizInProgress:'آزمون در حال انجام',searchNotes:'جستجوی یادداشت‌ها...',allNotes:'همه',tipNotes:'نکات',warningNotes:'هشدارها',importantNotes:'مهم',infoNotes:'اطلاعات',contentUpdated:'محتوا به‌روز شد! پیشرفت شما حفظ شده است.',offlineMode:'آفلاین هستید — از داده‌های کش استفاده می‌شود',onlineAgain:'دوباره آنلاین!',note:'یادداشت',tip:'نکته',warning:'هشدار',important:'مهم',info:'اطلاعات'}
+en:{loading:'Loading content...',loadingDecrypt:'Decrypting content...',tagline:'Medical Exit Exam Prep',subtitle:'Browse exam preparation materials',refresh:'Refresh',about:'About',settings:'Settings',footer:'© 2026 MedExit — Medical Education',home:'Home',dashboard:'Dashboard',categories:'Categories',subjects:'Subjects',topics:'Topics',subtopics:'Subtopics',mcqs:'MCQs',qa:'Q&A',flashcards:'Flashcards',mnemonics:'Mnemonics',videos:'Videos',images:'Images',notes:'Notes',links:'Links',question:'Question',answer:'Answer',front:'Question',back:'Answer',tapToFlip:'Tap card to reveal answer',explanation:'Explanation',noContent:'No content available yet',noContentDesc:'This section does not have any items.',loadingFailed:'Failed to load content.',refreshSuccess:'Content refreshed successfully',card:'Card',of:'of',previous:'Previous',next:'Next',finish:'Finish Quiz',welcomeTitle:'Welcome to MedExit',welcomeDesc:'Your comprehensive medical exit exam preparation platform.',totalMCQs:'Total MCQs',totalQA:'Q&A Items',totalFlash:'Flashcards',totalMnem:'Mnemonics',aboutTitle:'About MedExit',aboutText:'MedExit is a comprehensive medical exit exam preparation platform.',features:'Features',featureList:['Multi-language UI (English, Pashto, Dari)','Auto RTL detection','Customizable font sizes','Interactive MCQs with progress tracking','Smart quiz starter with count selection','No-repeat MCQ system','Offline support with encrypted data','Premium flip flashcards','Built-in video player','Image gallery viewer','Rich Notes with custom styling','Notes and external links'],ok:'OK',back:'Back',exploreCategories:'Explore Categories',items:'items',correct:'Correct',wrong:'Wrong',remaining:'Remaining',progress:'Progress',quizComplete:'Quiz Complete!',youScored:'You scored',excellent:'Excellent! Outstanding performance!',great:'Great job! Keep up the good work!',good:'Good effort! Review the topics you missed.',keepGoing:'Keep studying! Practice makes perfect.',retry:'Retry Quiz',reviewAnswers:'Review Answers',backToTopic:'Back to Topic',newSession:'New Session',bookmark:'Bookmark',flag:'Flag for Review',addNote:'Add Note',shuffle:'Shuffle',sequential:'Sequential',randomMode:'Random',wrongOnly:'Wrong Only',streak:'Streak',flip:'Flip',again:'Again',hard:'Hard',goodRating:'Good',easy:'Easy',watchVideo:'Watch Video',viewImage:'View Image',openLink:'Open Link',noVideos:'No videos available',noImages:'No images available',noNotes:'No notes available',noNotesDesc:'Add notes via JSON with rich styling support',noLinks:'No links available',startQuiz:'Start Quiz',configureSession:'Configure your practice session',howMany:'How many questions?',quizMode:'Quiz mode',modeRandom:'Random',modeSequential:'Order',modeWrong:'Wrong',available:'Available',studied:'Studied',newQ:'New',cancel:'Cancel',start:'Start Quiz',quick:'Quick',standard:'Standard',extended:'Extended',complete:'Complete',allStudied:'All questions studied!',resetProgress:'Reset & Start Over',progressSaved:'Progress saved',decryptError:'Failed to decrypt content',exitQuiz:'Exit Quiz',exitQuizTitle:'Exit Quiz?',exitQuizDesc:'Your progress will be saved. You can resume or start a new session later.',continueQuiz:'Continue Quiz',confirmExit:'Exit Quiz',tapTwiceHint:'Tap again to exit',settingsTitle:'Settings',appearance:'Appearance',themeMode:'Theme Mode',themeDesc:'Switch between dark and light theme',darkTheme:'🌙 Dark',lightTheme:'☀️ Light',typography:'Typography',generalFont:'General Font Size',generalFontDesc:'Controls text size across the app',mcqFont:'MCQ Question Font Size',mcqFontDesc:'Specifically for quiz question text',livePreview:'Live Preview',dataProgress:'Data & Progress',resetAll:'Reset All Progress',resetAllDesc:'Clear all quiz answers, bookmarks, and study progress',reset:'Reset',done:'Done',resetConfirm:'Are you sure? This will erase ALL your progress, answers, and bookmarks.',resetYes:'Yes, Reset',resetNo:'Cancel',resetDone:'All progress has been reset',quizInProgress:'Quiz in progress',searchNotes:'Search notes...',allNotes:'All',tipNotes:'Tips',warningNotes:'Warnings',importantNotes:'Important',infoNotes:'Info',contentUpdated:'Content updated! Your progress has been preserved.',offlineMode:'You are offline — using cached data',onlineAgain:'Back online!',note:'Note',tip:'Tip',warning:'Warning',important:'Important',info:'Info'},
+ps:{loading:'منځپانګه بار کیږي...',tagline:'د طب د فراغت ازموینې چمتووالی',subtitle:'د ازموینې چمتووالي مواد وګورئ',refresh:'تازه کول',about:'په اړه',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — طبي زده کړې',home:'کور',dashboard:'شبورډ',categories:'کټګورۍ',subjects:'مضمونونه',topics:'موضوعات',subtopics:'فرعي موضوعات',mcqs:'MCQs',qa:'پوښتنې/ځوابونه',flashcards:'فلاش کارډونه',mnemonics:'یادګارې',videos:'ویډیوګانې',images:'انځورونه',notes:'یادښتونه',links:'لینکونه',question:'پوښتنه',answer:'ځواب',front:'پوښتنه',back:'ځواب',tapToFlip:'د ځواب لپاره کارډ کېکاږئ',explanation:'تشریح',noContent:'تر اوسه هیڅ منځپانګه نشته',noContentDesc:'دا برخه هیڅ توکي نلري.',loadingFailed:'د منځپانګې بارول ناکام شول.',refreshSuccess:'منځپانګه تازه شوه',card:'کارډ',of:'د',previous:'مخکینی',next:'راتلونکی',finish:'ازموینه پای ته ورسول',welcomeTitle:'MedExit ته ښه راغلاست',welcomeDesc:'ستاسو د طبي فراغت ازموینې چمتووالي بشپړ پلیټفارم.',totalMCQs:'ټول MCQs',totalQA:'پوښتنې/ځوابونه',totalFlash:'فلاش کارډونه',totalMnem:'یادګارې',aboutTitle:'د MedExit په اړه',aboutText:'MedExit د طبي فراغت ازموینې چمتووالي یوه پراخه پلیټفارم ده.',features:'ځانګړتیاوې',ok:'سمه',back:'شاته',exploreCategories:'کټګورۍ وپلټئ',items:'توکي',correct:'سم',wrong:'غلط',remaining:'پاتې',progress:'پرمختګ',quizComplete:'ازموینه بشپړه شوه!',youScored:'ستاسو نمره',excellent:'عالی!',great:'ښه کار!',good:'ښه هڅه!',keepGoing:'زده کړه دوام ورکړئ!',retry:'ازموینه بیا',reviewAnswers:'ځوابونه وګورئ',backToTopic:'موضوع ته شاته',startQuiz:'ازموینه پیل کړئ',configureSession:'خپله ناسته تنظیم کړئ',howMany:'څو پوښتنې؟',quizMode:'د ازموینې حالت',modeRandom:'تصادفي',modeSequential:'ترتیب',modeWrong:'یوازې غلط',available:'شتون لري',studied:'زده شوي',newQ:'نوي',cancel:'لغوه',start:'پیل',allStudied:'ټولې پوښتنې زده شوې!',resetProgress:'بیا تنظیمول',progressSaved:'پرمختګ خوندي شو',exitQuiz:'ازموینه بند کړئ',exitQuizTitle:'ازموینه بند کړئ؟',exitQuizDesc:'ستاسو پرمختګ به خوندي شي.',continueQuiz:'ازموینه دوام',confirmExit:'بندول',tapTwiceHint:'د بندولو لپاره بیا کېکاږئ',settingsTitle:'تنظیمات',appearance:'ښکار',themeMode:'موضوع',themeDesc:'تیاره یا روښانه موضوع',darkTheme:'🌙 تیاره',lightTheme:'☀️ روښانه',typography:'لیکنه',generalFont:'عمومي فونټ اندازه',generalFontDesc:'د ټول اپلیکیشن لیکنه',mcqFont:'د MCQ پوښتنې فونټ',mcqFontDesc:'یوازې د ازموینې پوښتنو لپاره',livePreview:'مخکتنه',dataProgress:'ډاټا او پرمختګ',resetAll:'ټول پرمختګ پاک کړئ',resetAllDesc:'ټول ځوابونه، نښې، او پرمختګ پاک کړئ',reset:'پاکول',done:'بشپړ',resetConfirm:'اډه یاست؟ ټول پرمختګ به پاک شي.',resetYes:'هو، پاک کړئ',resetNo:'لغوه',resetDone:'ټول پرمختګ پاک شو',quizInProgress:'ازموینه روانه ده',searchNotes:'یادښتونه لټون...',allNotes:'ټول',tipNotes:'لارښوونې',warningNotes:'خبرداری',importantNotes:'مهم',infoNotes:'معلومات',contentUpdated:'منځپانګه تازه شوه! ستاسو پرمختګ ساتل شوی.',offlineMode:'تاسو آفلاین یاست — cached ډاټا کارول کیږي',onlineAgain:'بیا آنلاین!',note:'یادښت',tip:'لارښوونه',warning:'خبرداری',important:'مهم',info:'معلومات'},
+dr:{loading:'در حال بارگذاری...',tagline:'آمادگی امتحان فراغت طب',subtitle:'مرور مواد آمادگی امتحان',refresh:'تازه کردن',about:'درباره',settings:'تنظیمات',footer:'© ۲۰۲۶ MedExit — آموزش پزشکی',home:'خانه',dashboard:'داشبورد',categories:'دسته‌ها',subjects:'مضامین',topics:'موضوعات',subtopics:'زیرموضوعات',mcqs:'MCQs',qa:'پرسش/پاسخ',flashcards:'فلش کارت‌ها',mnemonics:'یادیارها',videos:'ویدیوها',images:'تصاویر',notes:'یادداشت‌ها',links:'لینک‌ها',question:'سوال',answer:'جواب',front:'سوال',back:'جواب',tapToFlip:'برای دیدن جواب کارت را بزنید',explanation:'توضیح',noContent:'هنوز محتوایی موجود نیست',noContentDesc:'این بخش موردی ندارد.',loadingFailed:'بارگذاری ناموفق بود.',refreshSuccess:'محتوا تازه شد',card:'کارت',of:'از',previous:'قبلی',next:'بعدی',finish:'پایان آزمون',welcomeTitle:'به MedExit خوش آمدید',welcomeDesc:'پلتفرم جامع آمادگی امتحان فراغت طب.',totalMCQs:'مجموع MCQs',totalQA:'پرسش/پاسخ',totalFlash:'فلش کارت‌ها',totalMnem:'یادیارها',aboutTitle:'درباره MedExit',aboutText:'MedExit یک پلتفرم جامع آمادگی امتحان فراغت طب است.',features:'ویژگی‌ها',ok:'باشه',back:'بازگشت',exploreCategories:'کاوش دسته‌ها',items:'مورد',correct:'درست',wrong:'نادرست',remaining:'باقی‌مانده',progress:'پیشرفت',quizComplete:'آزمون کامل شد!',youScored:'نمره شما',excellent:'عالی!',great:'آفرین!',good:'تلاش خوبی!',keepGoing:'به مطالعه ادامه دهید!',retry:'آزمون مجدد',reviewAnswers:'مرور جواب‌ها',backToTopic:'بازگشت به موضوع',startQuiz:'شروع آزمون',configureSession:'جلسه خود را تنظیم کنید',howMany:'چند سوال؟',quizMode:'حالت آزمون',modeRandom:'تصادفی',modeSequential:'ترتیبی',modeWrong:'فقط غلط',available:'موجود',studied:'خوانده شده',newQ:'جدید',cancel:'لغو',start:'شروع',allStudied:'همه سوالات خوانده شده!',resetProgress:'بازنشانی',progressSaved:'پیشرفت ذخیره شد',exitQuiz:'خروج از آزمون',exitQuizTitle:'خروج از آزمون؟',exitQuizDesc:'پیشرفت شما ذخیره خواهد شد.',continueQuiz:'ادامه آزمون',confirmExit:'خروج',tapTwiceHint:'برای خروج دوباره بزنید',settingsTitle:'تنظیمات',appearance:'ظاهر',themeMode:'حالت تم',themeDesc:'تغییر بین تم تیره و روشن',darkTheme:'🌙 تیره',lightTheme:'☀️ روشن',typography:'تایپوگرافی',generalFont:'اندازه فونت عمومی',generalFontDesc:'اندازه متن در کل برنامه',mcqFont:'اندازه فونت سوالات MCQ',mcqFontDesc:'مخصوص متن سوالات آزمون',livePreview:'پیش‌نمایش زنده',dataProgress:'داده و پیشرفت',resetAll:'بازنشانی کل پیشرفت',resetAllDesc:'پاک کردن همه پاسخ‌ها، نشان‌ها و پیشرفت',reset:'بازنشانی',done:'انجام شد',resetConfirm:'مطمئن هستید؟ تمام پیشرفت پاک خواهد شد.',resetYes:'بله، بازنشانی',resetNo:'لغو',resetDone:'تمام پیشرفت بازنشانی شد',quizInProgress:'آزمون در حال انجام',searchNotes:'جستجوی یادداشت‌ها...',allNotes:'همه',tipNotes:'نکات',warningNotes:'هشدارها',importantNotes:'مهم',infoNotes:'اطلاعات',contentUpdated:'محتوا به‌روز شد! پیشرفت شما حفظ شده است.',offlineMode:'آفلاین هستید — از داده‌های کش استفاده می‌شود',onlineAgain:'دوباره آنلاین!',note:'یادداشت',tip:'نکته',warning:'هشدار',important:'مهم',info:'اطلاعات'}
 };
 
 let state={
@@ -1005,27 +1011,22 @@ quizStarter:{topicKey:null,total:0,count:20,mode:'random'},
 exitPending:null
 };
 
-// FIX: This function recursively cleans all trailing/leading spaces from JSON keys and string values
-function cleanJsonData(obj) {
-    if (Array.isArray(obj)) {
-        return obj.map(item => cleanJsonData(item));
-    } else if (obj !== null && typeof obj === 'object') {
-        const cleaned = {};
-        for (const key in obj) {
-            if (Object.prototype.hasOwnProperty.call(obj, key)) {
-                const trimmedKey = key.trim();
-                let value = obj[key];
-                if (typeof value === 'string') {
-                    value = value.trim();
-                } else {
-                    value = cleanJsonData(value);
-                }
-                cleaned[trimmedKey] = value;
-            }
-        }
-        return cleaned;
-    }
-    return obj;
+function cleanJsonData(obj){
+if(Array.isArray(obj)){return obj.map(item=>cleanJsonData(item))}
+else if(obj!==null&&typeof obj==='object'){
+const cleaned={};
+for(const key in obj){
+if(Object.prototype.hasOwnProperty.call(obj,key)){
+const trimmedKey=key.trim();
+let value=obj[key];
+if(typeof value==='string'){value=value.trim()}
+else{value=cleanJsonData(value)}
+cleaned[trimmedKey]=value;
+}
+}
+return cleaned;
+}
+return obj;
 }
 
 async function hashString(str){
@@ -1172,32 +1173,24 @@ window.addEventListener('online',()=>{updateOnlineStatus();toast(t('onlineAgain'
 window.addEventListener('offline',updateOnlineStatus);
 
 const DATA_FILE='./mcqs_q_a_flashcards_andetc.json';
-const CACHE_NAME='medexit-data-v2';
 async function loadData(){
 try{
 let rawText=null;
 if(navigator.onLine){
 try{
-const response=await fetch(DATA_FILE+'?t='+Date.now());
-if(response.ok){
-rawText=await response.text();
-try{const cache=await caches.open(CACHE_NAME);await cache.put(DATA_FILE,new Response(rawText))}catch(e){}
-}
+const response=await fetch(DATA_FILE+'?t='+Date.now(),{cache:'no-store'});
+if(response.ok){rawText=await response.text()}
 }catch(e){console.warn('Network fetch failed, trying cache')}
 }
 if(!rawText){
 try{
-const cache=await caches.open(CACHE_NAME);
-const cachedResp=await cache.match(DATA_FILE);
+const cachedResp=await caches.match(DATA_FILE);
 if(cachedResp){rawText=await cachedResp.text()}
 }catch(e){}
 }
 if(!rawText)throw new Error('No data available');
 let parsed=JSON.parse(rawText);
-
-// FIX: Apply the JSON cleaner to remove all trailing spaces from keys and values
-parsed = cleanJsonData(parsed);
-
+parsed=cleanJsonData(parsed);
 if(isEncryptedFormat(parsed)){
 document.getElementById('loadingText').textContent=t('loadingDecrypt');
 parsed=await decryptData(parsed);
@@ -1220,7 +1213,7 @@ renderAll();
 console.error('Load error:',err);
 document.getElementById('loadingScreen').innerHTML=`
 <div style="text-align:center;padding:20px;">
-<div style="font-size:56px;margin-bottom:16px;">️</div>
+<div style="font-size:56px;margin-bottom:16px;">⚠️</div>
 <h3 style="color:var(--text-1);margin-bottom:8px;font-size:18px;">${t('loadingFailed')}</h3>
 <p style="color:var(--text-3);font-size:13px;margin-bottom:20px;">${err.message}</p>
 <button class="btn btn-primary" onclick="location.reload()">🔄 ${t('refresh')}</button>
@@ -1232,13 +1225,11 @@ const btn=document.getElementById('refreshBtn');
 btn.disabled=true;
 btn.innerHTML='<span class="spinner"></span>';
 try{
-try{const cache=await caches.open(CACHE_NAME);await cache.delete(DATA_FILE)}catch(e){}
-const response=await fetch(DATA_FILE+'?t='+Date.now());
+const response=await fetch(DATA_FILE+'?t='+Date.now(),{cache:'no-store'});
 if(!response.ok)throw new Error('HTTP '+response.status);
 const rawText=await response.text();
-try{const cache=await caches.open(CACHE_NAME);await cache.put(DATA_FILE,new Response(rawText))}catch(e){}
 let parsed=JSON.parse(rawText);
-parsed = cleanJsonData(parsed);
+parsed=cleanJsonData(parsed);
 if(isEncryptedFormat(parsed)){parsed=await decryptData(parsed)}
 const newHash=await computeDataHash(parsed);
 const oldHash=state.dataHash;
@@ -1250,30 +1241,16 @@ renderAll();
 toast(t('refreshSuccess'),'success');
 }catch(err){
 toast(t('loadingFailed'),'error');
-try{
-const cache=await caches.open(CACHE_NAME);
-const cachedResp=await cache.match(DATA_FILE);
-if(cachedResp){
-const rawText=await cachedResp.text();
-let parsed=JSON.parse(rawText);
-parsed = cleanJsonData(parsed);
-if(isEncryptedFormat(parsed)){parsed=await decryptData(parsed)}
-state.data=normalizeData(parsed);
-renderAll();
-toast(t('offlineMode'),'warning');
-}
-}catch(e2){}
 }
 finally{btn.disabled=false;btn.innerHTML='🔄'}
 }
 async function refreshDataQuiet(){
 try{
-const response=await fetch(DATA_FILE+'?t='+Date.now());
+const response=await fetch(DATA_FILE+'?t='+Date.now(),{cache:'no-store'});
 if(!response.ok)return;
 const rawText=await response.text();
-try{const cache=await caches.open(CACHE_NAME);await cache.put(DATA_FILE,new Response(rawText))}catch(e){}
 let parsed=JSON.parse(rawText);
-parsed = cleanJsonData(parsed);
+parsed=cleanJsonData(parsed);
 if(isEncryptedFormat(parsed)){parsed=await decryptData(parsed)}
 const newHash=await computeDataHash(parsed);
 if(state.dataHash&&state.dataHash!==newHash){
@@ -1304,7 +1281,12 @@ if(!item)return null;
 const result={
 id:item.id||('id_'+Math.random().toString(36).slice(2,8)),
 name:item.name||'',icon:item.icon||'',description:item.description||'',
-content:item.content||null,children:[]
+content:item.content||null,
+images:item.images||null,
+videos:item.videos||null,
+links:item.links||null,
+notes:item.notes||null,
+children:[]
 };
 const childSources=[item.children,item.subjects,item.topics,item.subtopics,item.categories];
 childSources.forEach(source=>{
@@ -1323,8 +1305,14 @@ function countContent(item){
 if(!item)return{mcqs:0,qa:0,flash:0,mnem:0,videos:0,images:0,notes:0,links:0,total:0};
 const c=item.content||{};
 const direct={
-mcqs:(c.mcqs||[]).length,qa:(c.qa||[]).length,flash:(c.flashcards||[]).length,mnem:(c.mnemonics||[]).length,
-videos:(c.videos||[]).length,images:(c.images||[]).length,notes:(c.notes||[]).length,links:(c.links||[]).length
+mcqs:(c.mcqs||item.mcqs||[]).length,
+qa:(c.qa||item.qa||[]).length,
+flash:(c.flashcards||item.flashcards||[]).length,
+mnem:(c.mnemonics||item.mnemonics||[]).length,
+videos:(item.videos||c.videos||[]).length,
+images:(item.images||c.images||[]).length,
+notes:(item.notes||c.notes||[]).length,
+links:(item.links||c.links||[]).length
 };
 let childCount={mcqs:0,qa:0,flash:0,mnem:0,videos:0,images:0,notes:0,links:0};
 (item.children||[]).forEach(child=>{const cc=countContent(child);Object.keys(childCount).forEach(k=>childCount[k]+=cc[k]||0)});
@@ -1337,7 +1325,15 @@ function getItemType(item){
 if(!item)return'empty';
 const hasChildren=(item.children||[]).length>0;
 const c=item.content||{};
-const hasContent=(c.mcqs||[]).length>0||(c.qa||[]).length>0||(c.flashcards||[]).length>0||(c.mnemonics||[]).length>0||(c.videos||[]).length>0||(c.images||[]).length>0||(c.notes||[]).length>0||(c.links||[]).length>0;
+const hasContent=
+(c.mcqs||item.mcqs||[]).length>0||
+(c.qa||item.qa||[]).length>0||
+(c.flashcards||item.flashcards||[]).length>0||
+(c.mnemonics||item.mnemonics||[]).length>0||
+(item.videos||c.videos||[]).length>0||
+(item.images||c.images||[]).length>0||
+(item.notes||c.notes||[]).length>0||
+(item.links||c.links||[]).length>0;
 if(hasChildren)return'container';
 if(hasContent)return'leaf';
 return'empty';
@@ -1367,11 +1363,11 @@ function openSettings(){updateSettingsUI();document.getElementById('settingsOver
 function closeSettings(){document.getElementById('settingsOverlay').classList.remove('show')}
 function updateSettingsUI(){
 document.getElementById('settingsTitle').textContent=t('settingsTitle');
-document.getElementById('sgAppearance').innerHTML=' '+t('appearance');
+document.getElementById('sgAppearance').innerHTML='🎨 '+t('appearance');
 document.getElementById('sThemeLabel').textContent=t('themeMode');
 document.getElementById('sThemeDesc').textContent=t('themeDesc');
 document.getElementById('sThemeBtn').textContent=state.theme==='dark'?t('darkTheme'):t('lightTheme');
-document.getElementById('sgTypography').innerHTML=' '+t('typography');
+document.getElementById('sgTypography').innerHTML='🔤 '+t('typography');
 document.getElementById('sBaseLabel').textContent=t('generalFont');
 document.getElementById('sBaseDesc').textContent=t('generalFontDesc');
 document.getElementById('sMcqLabel').textContent=t('mcqFont');
@@ -1380,7 +1376,7 @@ document.getElementById('sPreviewLabel').textContent=t('livePreview');
 document.getElementById('sgData').innerHTML='💾 '+t('dataProgress');
 document.getElementById('sResetLabel').textContent=t('resetAll');
 document.getElementById('sResetDesc').textContent=t('resetAllDesc');
-document.getElementById('sResetBtn').innerHTML='️ '+t('reset');
+document.getElementById('sResetBtn').innerHTML='🗑️ '+t('reset');
 document.getElementById('sDoneBtn').innerHTML='✓ '+t('done');
 document.getElementById('baseFontSlider').value=state.baseFont;
 document.getElementById('baseFontValue').textContent=state.baseFont+'px';
@@ -1423,7 +1419,7 @@ homeBtn.classList.toggle('visible',state.navStack.length>0);
 }
 function renderBreadcrumb(){
 const bc=document.getElementById('breadcrumb');
-let html=`<span class="breadcrumb-item ${state.navStack.length===0?'current':''}" onclick="goHome()"> ${t('home')}</span>`;
+let html=`<span class="breadcrumb-item ${state.navStack.length===0?'current':''}" onclick="goHome()">🏠 ${t('home')}</span>`;
 state.navStack.forEach((entry,idx)=>{
 const isLast=idx===state.navStack.length-1;
 html+=`<span class="breadcrumb-sep">›</span>`;
@@ -1435,10 +1431,10 @@ function renderNav(){
 const nav=document.getElementById('navList');
 if(state.navStack.length===0){
 let html=`<div class="nav-section-title">${t('categories')}</div>`;
-html+=`<div class="nav-item active" onclick="goHome()"><span class="ni-icon"></span><span class="ni-name">${t('dashboard')}</span></div>`;
+html+=`<div class="nav-item active" onclick="goHome()"><span class="ni-icon">🏠</span><span class="ni-name">${t('dashboard')}</span></div>`;
 (state.data?.categories||[]).forEach((cat)=>{
 const counts=countContent(cat);
-html+=`<div class="nav-item" onclick="navigateToItem('${cat.id}')"><span class="ni-icon">${cat.icon||''}</span><span class="ni-name">${escapeHtml(cat.name)}</span><span class="ni-count">${counts.total}</span></div>`;
+html+=`<div class="nav-item" onclick="navigateToItem('${cat.id}')"><span class="ni-icon">${cat.icon||'📁'}</span><span class="ni-name">${escapeHtml(cat.name)}</span><span class="ni-count">${counts.total}</span></div>`;
 });
 nav.innerHTML=html;
 }else{
@@ -1448,7 +1444,7 @@ const titleKey=getNavTitle();
 let html=`<div class="nav-section-title">${t(titleKey)}</div>`;
 children.forEach((child)=>{
 const counts=countContent(child);
-html+=`<div class="nav-item" onclick="navigateToItem('${child.id}')"><span class="ni-icon">${child.icon||''}</span><span class="ni-name">${escapeHtml(child.name)}</span><span class="ni-count">${counts.total}</span></div>`;
+html+=`<div class="nav-item" onclick="navigateToItem('${child.id}')"><span class="ni-icon">${child.icon||'📄'}</span><span class="ni-name">${escapeHtml(child.name)}</span><span class="ni-count">${counts.total}</span></div>`;
 });
 nav.innerHTML=html;
 }
@@ -1478,7 +1474,7 @@ const topbarTitle=document.getElementById('topbarTitle');
 const topbarSubtitle=document.getElementById('topbarSubtitle');
 if(state.navStack.length===0){
 renderDashboard();
-topbarTitle.innerHTML=' MedExit';
+topbarTitle.innerHTML='🩺 MedExit';
 topbarSubtitle.textContent=t('subtitle');
 }else{
 const current=getCurrentItem();
@@ -1493,20 +1489,21 @@ else renderEmptyView();
 function renderDashboard(){
 const content=document.getElementById('content');
 const categories=state.data?.categories||[];
-let totalMCQs=0,totalQA=0,totalFlash=0,totalMnem=0,totalVideos=0,totalImages=0,totalNotes=0;
-categories.forEach(cat=>{const c=countContent(cat);totalMCQs+=c.mcqs;totalQA+=c.qa;totalFlash+=c.flash;totalMnem+=c.mnem;totalVideos+=c.videos;totalImages+=c.images;totalNotes+=c.notes});
+let totalMCQs=0,totalQA=0,totalFlash=0,totalMnem=0,totalVideos=0,totalImages=0,totalNotes=0,totalLinks=0;
+categories.forEach(cat=>{const c=countContent(cat);totalMCQs+=c.mcqs;totalQA+=c.qa;totalFlash+=c.flash;totalMnem+=c.mnem;totalVideos+=c.videos;totalImages+=c.images;totalNotes+=c.notes;totalLinks+=c.links});
 let html=`<div class="dashboard"><div class="dashboard-hero">
 <div class="hero-badge">✨ ${t('dashboard')}</div>
 <h1>${t('welcomeTitle')}</h1>
 <p class="hero-desc">${t('welcomeDesc')}</p>
 <div class="hero-stats">
-<div class="hero-stat"><div class="hs-icon"></div><div><div class="hs-value">${totalMCQs}</div><div class="hs-label">${t('totalMCQs')}</div></div></div>
+<div class="hero-stat"><div class="hs-icon">📋</div><div><div class="hs-value">${totalMCQs}</div><div class="hs-label">${t('totalMCQs')}</div></div></div>
 <div class="hero-stat"><div class="hs-icon">💬</div><div><div class="hs-value">${totalQA}</div><div class="hs-label">${t('totalQA')}</div></div></div>
-<div class="hero-stat"><div class="hs-icon"></div><div><div class="hs-value">${totalFlash}</div><div class="hs-label">${t('totalFlash')}</div></div></div>
-<div class="hero-stat"><div class="hs-icon"></div><div><div class="hs-value">${totalMnem}</div><div class="hs-label">${t('totalMnem')}</div></div></div>
+<div class="hero-stat"><div class="hs-icon">🎴</div><div><div class="hs-value">${totalFlash}</div><div class="hs-label">${t('totalFlash')}</div></div></div>
+<div class="hero-stat"><div class="hs-icon">🧠</div><div><div class="hs-value">${totalMnem}</div><div class="hs-label">${t('totalMnem')}</div></div></div>
 ${totalNotes?`<div class="hero-stat"><div class="hs-icon">📝</div><div><div class="hs-value">${totalNotes}</div><div class="hs-label">${t('notes')}</div></div></div>`:''}
 ${totalVideos?`<div class="hero-stat"><div class="hs-icon">🎬</div><div><div class="hs-value">${totalVideos}</div><div class="hs-label">${t('videos')}</div></div></div>`:''}
-${totalImages?`<div class="hero-stat"><div class="hs-icon">️</div><div><div class="hs-value">${totalImages}</div><div class="hs-label">${t('images')}</div></div></div>`:''}
+${totalImages?`<div class="hero-stat"><div class="hs-icon">🖼️</div><div><div class="hs-value">${totalImages}</div><div class="hs-label">${t('images')}</div></div></div>`:''}
+${totalLinks?`<div class="hero-stat"><div class="hs-icon">🔗</div><div><div class="hs-value">${totalLinks}</div><div class="hs-label">${t('links')}</div></div></div>`:''}
 </div></div>
 <div class="section-header"><div><h2>${t('exploreCategories')}</h2><div class="section-subtitle">${categories.length} ${t('categories')}</div></div></div>
 <div class="category-grid">`;
@@ -1515,7 +1512,7 @@ const counts=countContent(cat);
 const theme=getThemeForIndex(idx);
 html+=`<div class="category-card" onclick="navigateToItem('${cat.id}')" style="--card-gradient:${theme.gradient};--card-glow:${theme.glow};">
 <div class="cc-header">
-<div class="cc-icon-wrap" style="background:${theme.gradient};box-shadow:0 8px 20px ${theme.glow};">${cat.icon||''}</div>
+<div class="cc-icon-wrap" style="background:${theme.gradient};box-shadow:0 8px 20px ${theme.glow};">${cat.icon||'📁'}</div>
 <div class="cc-title"><h3 class="${dirClass(cat.name)}">${escapeHtml(cat.name)}</h3>
 ${cat.description?`<div class="cc-desc ${dirClass(cat.description)}">${escapeHtml(cat.description)}</div>`:''}</div>
 </div>
@@ -1536,43 +1533,45 @@ const content=document.getElementById('content');
 const children=item.children||[];
 const counts=countContent(item);
 let html=`<div class="topic-viewer"><div class="topic-hero">
-<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||''}</div><div class="topic-info">
+<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||'📁'}</div><div class="topic-info">
 <h1 class="${dirClass(item.name)}">${escapeHtml(item.name)}</h1>
 <div class="topic-path">${buildPathDisplay()}</div>
 </div></div>
 ${item.description?`<div class="topic-description ${dirClass(item.description)}">${escapeHtml(item.description)}</div>`:''}
 <div class="topic-badges">
-<div class="topic-badge"> ${children.length} ${t(getNavTitle())}</div>
-${counts.mcqs?`<div class="topic-badge"> ${counts.mcqs} MCQs</div>`:''}
+<div class="topic-badge">📚 ${children.length} ${t(getNavTitle())}</div>
+${counts.mcqs?`<div class="topic-badge">📋 ${counts.mcqs} MCQs</div>`:''}
 ${counts.qa?`<div class="topic-badge">💬 ${counts.qa} Q&A</div>`:''}
-${counts.flash?`<div class="topic-badge"> ${counts.flash}</div>`:''}
-${counts.mnem?`<div class="topic-badge"> ${counts.mnem}</div>`:''}
-${counts.notes?`<div class="topic-badge"> ${counts.notes}</div>`:''}
-${counts.videos?`<div class="topic-badge"> ${counts.videos}</div>`:''}
-${counts.images?`<div class="topic-badge">️ ${counts.images}</div>`:''}
+${counts.flash?`<div class="topic-badge">🎴 ${counts.flash}</div>`:''}
+${counts.mnem?`<div class="topic-badge">🧠 ${counts.mnem}</div>`:''}
+${counts.notes?`<div class="topic-badge">📝 ${counts.notes}</div>`:''}
+${counts.videos?`<div class="topic-badge">🎬 ${counts.videos}</div>`:''}
+${counts.images?`<div class="topic-badge">🖼️ ${counts.images}</div>`:''}
+${counts.links?`<div class="topic-badge">🔗 ${counts.links}</div>`:''}
 </div></div>
 <div class="section-header"><div><h2>${t(getNavTitle())}</h2><div class="section-subtitle">${children.length} ${t('items')}</div></div></div>
 <div class="children-grid">`;
 children.forEach(child=>{
 const childCounts=countContent(child);
 html+=`<div class="child-card" onclick="navigateToItem('${child.id}')">
-<div class="child-icon">${child.icon||''}</div>
+<div class="child-icon">${child.icon||'📄'}</div>
 <div class="child-content">
 <div class="child-title ${dirClass(child.name)}">${escapeHtml(child.name)}</div>
 ${child.description?`<div style="font-size:12px;color:var(--text-3);margin-top:4px;line-height:1.5;" class="${dirClass(child.description)}">${escapeHtml(child.description).substring(0,80)}${child.description.length>80?'...':''}</div>`:''}
 <div class="content-badges">
-${childCounts.mcqs?`<span class="content-badge mcq"> ${childCounts.mcqs}</span>`:''}
+${childCounts.mcqs?`<span class="content-badge mcq">📋 ${childCounts.mcqs}</span>`:''}
 ${childCounts.qa?`<span class="content-badge qa">💬 ${childCounts.qa}</span>`:''}
 ${childCounts.flash?`<span class="content-badge flash">🎴 ${childCounts.flash}</span>`:''}
-${childCounts.mnem?`<span class="content-badge mnem"> ${childCounts.mnem}</span>`:''}
+${childCounts.mnem?`<span class="content-badge mnem">🧠 ${childCounts.mnem}</span>`:''}
 ${childCounts.notes?`<span class="content-badge notes">📝 ${childCounts.notes}</span>`:''}
 ${childCounts.videos?`<span class="content-badge video">🎬 ${childCounts.videos}</span>`:''}
-${childCounts.images?`<span class="content-badge image">️ ${childCounts.images}</span>`:''}
+${childCounts.images?`<span class="content-badge image">🖼️ ${childCounts.images}</span>`:''}
+${childCounts.links?`<span class="content-badge links">🔗 ${childCounts.links}</span>`:''}
 </div></div>
 <div class="child-arrow">→</div></div>`;
 });
 html+=`</div>`;
-if(item.content&&((item.content.mcqs||[]).length>0||(item.content.qa||[]).length>0||(item.content.flashcards||[]).length>0||(item.content.mnemonics||[]).length>0||(item.content.videos||[]).length>0||(item.content.images||[]).length>0||(item.content.notes||[]).length>0||(item.content.links||[]).length>0)){
+if(item.content&&((item.content.mcqs||[]).length>0||(item.content.qa||[]).length>0||(item.content.flashcards||[]).length>0||(item.content.mnemonics||[]).length>0||(item.videos||[]).length>0||(item.images||[]).length>0||(item.notes||[]).length>0||(item.links||[]).length>0)){
 html+=renderContentTabs(item);
 }
 html+=`</div>`;
@@ -1584,7 +1583,7 @@ content.innerHTML=`<div class="topic-viewer">${renderContentTabs(item)}</div>`;
 }
 function renderEmptyView(){
 const content=document.getElementById('content');
-content.innerHTML=`<div class="topic-viewer"><div class="empty-state"><div class="es-icon"></div><h3>${t('noContent')}</h3><p>${t('noContentDesc')}</p></div></div>`;
+content.innerHTML=`<div class="topic-viewer"><div class="empty-state"><div class="es-icon">📭</div><h3>${t('noContent')}</h3><p>${t('noContentDesc')}</p></div></div>`;
 }
 function buildPathDisplay(){
 const parts=[];
@@ -1593,42 +1592,43 @@ return parts.join('<span style="color:rgba(255,255,255,0.4)">›</span>');
 }
 function renderContentTabs(item){
 const c=item.content||{};
-const mcqs=c.mcqs||[];
-const qa=c.qa||[];
-const flashcards=c.flashcards||[];
-const mnemonics=c.mnemonics||[];
-const videos=c.videos||[];
-const images=c.images||[];
-const notes=c.notes||[];
-const links=c.links||[];
+// ✅ FIX: read from item level first, then fall back to item.content
+const mcqs=c.mcqs||item.mcqs||[];
+const qa=c.qa||item.qa||[];
+const flashcards=c.flashcards||item.flashcards||[];
+const mnemonics=c.mnemonics||item.mnemonics||[];
+const videos=item.videos||c.videos||[];
+const images=item.images||c.images||[];
+const notes=item.notes||c.notes||[];
+const links=item.links||c.links||[];
 const topicKey=item.id;
 const allTabs=['mcqs','qa','flashcards','mnemonics','notes','videos','images','links'];
 if(!allTabs.includes(state.currentTab)){state.currentTab='mcqs'}
 let html=`<div class="topic-hero" style="margin-bottom:24px;">
-<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||''}</div><div class="topic-info">
+<div class="topic-hero-top"><div class="topic-icon-wrap">${item.icon||'📄'}</div><div class="topic-info">
 <h1 class="${dirClass(item.name)}">${escapeHtml(item.name)}</h1>
 <div class="topic-path">${buildPathDisplay()}</div>
 </div></div>
 ${item.description?`<div class="topic-description ${dirClass(item.description)}">${escapeHtml(item.description)}</div>`:''}
 <div class="topic-badges">
-${mcqs.length?`<div class="topic-badge"> ${mcqs.length} ${t('mcqs')}</div>`:''}
+${mcqs.length?`<div class="topic-badge">📋 ${mcqs.length} ${t('mcqs')}</div>`:''}
 ${qa.length?`<div class="topic-badge">💬 ${qa.length} ${t('qa')}</div>`:''}
 ${flashcards.length?`<div class="topic-badge">🎴 ${flashcards.length} ${t('flashcards')}</div>`:''}
-${mnemonics.length?`<div class="topic-badge"> ${mnemonics.length} ${t('mnemonics')}</div>`:''}
-${notes.length?`<div class="topic-badge"> ${notes.length} ${t('notes')}</div>`:''}
+${mnemonics.length?`<div class="topic-badge">🧠 ${mnemonics.length} ${t('mnemonics')}</div>`:''}
+${notes.length?`<div class="topic-badge">📝 ${notes.length} ${t('notes')}</div>`:''}
 ${videos.length?`<div class="topic-badge">🎬 ${videos.length} ${t('videos')}</div>`:''}
-${images.length?`<div class="topic-badge">️ ${images.length} ${t('images')}</div>`:''}
-${links.length?`<div class="topic-badge"> ${links.length} ${t('links')}</div>`:''}
+${images.length?`<div class="topic-badge">🖼️ ${images.length} ${t('images')}</div>`:''}
+${links.length?`<div class="topic-badge">🔗 ${links.length} ${t('links')}</div>`:''}
 </div></div>
 <div class="content-tabs">
-<button class="content-tab ${state.currentTab==='mcqs'?'active':''}" onclick="switchTab('mcqs')"> ${t('mcqs')} <span class="tab-count">${mcqs.length}</span></button>
+<button class="content-tab ${state.currentTab==='mcqs'?'active':''}" onclick="switchTab('mcqs')">📋 ${t('mcqs')} <span class="tab-count">${mcqs.length}</span></button>
 <button class="content-tab ${state.currentTab==='qa'?'active':''}" onclick="switchTab('qa')">💬 ${t('qa')} <span class="tab-count">${qa.length}</span></button>
 <button class="content-tab ${state.currentTab==='flashcards'?'active':''}" onclick="switchTab('flashcards')">🎴 ${t('flashcards')} <span class="tab-count">${flashcards.length}</span></button>
-<button class="content-tab ${state.currentTab==='mnemonics'?'active':''}" onclick="switchTab('mnemonics')"> ${t('mnemonics')} <span class="tab-count">${mnemonics.length}</span></button>
+<button class="content-tab ${state.currentTab==='mnemonics'?'active':''}" onclick="switchTab('mnemonics')">🧠 ${t('mnemonics')} <span class="tab-count">${mnemonics.length}</span></button>
 <button class="content-tab ${state.currentTab==='notes'?'active':''}" onclick="switchTab('notes')">📝 ${t('notes')} <span class="tab-count">${notes.length}</span></button>
 <button class="content-tab ${state.currentTab==='videos'?'active':''}" onclick="switchTab('videos')">🎬 ${t('videos')} <span class="tab-count">${videos.length}</span></button>
-<button class="content-tab ${state.currentTab==='images'?'active':''}" onclick="switchTab('images')">️ ${t('images')} <span class="tab-count">${images.length}</span></button>
-<button class="content-tab ${state.currentTab==='links'?'active':''}" onclick="switchTab('links')"> ${t('links')} <span class="tab-count">${links.length}</span></button>
+<button class="content-tab ${state.currentTab==='images'?'active':''}" onclick="switchTab('images')">🖼️ ${t('images')} <span class="tab-count">${images.length}</span></button>
+<button class="content-tab ${state.currentTab==='links'?'active':''}" onclick="switchTab('links')">🔗 ${t('links')} <span class="tab-count">${links.length}</span></button>
 </div>
 <div class="content-panel ${state.currentTab==='mcqs'?'active':''}" id="panel-mcqs">${mcqs.length?renderMCQStarter(mcqs,topicKey):renderEmpty()}</div>
 <div class="content-panel ${state.currentTab==='qa'?'active':''}" id="panel-qa">${qa.length?renderQA(qa,topicKey):renderEmpty()}</div>
@@ -1641,7 +1641,7 @@ ${links.length?`<div class="topic-badge"> ${links.length} ${t('links')}</div>`:'
 return html;
 }
 function renderEmpty(msg,desc){
-return`<div class="empty-state"><div class="es-icon"></div><h3>${msg||t('noContent')}</h3><p>${desc||t('noContentDesc')}</p></div>`;
+return`<div class="empty-state"><div class="es-icon">📭</div><h3>${msg||t('noContent')}</h3><p>${desc||t('noContentDesc')}</p></div>`;
 }
 
 function renderMCQStarter(mcqs,topicKey){
@@ -1659,7 +1659,7 @@ return`<div class="starter-card">
 <div class="starter-stat"><div class="starter-stat-value remaining">${remaining}</div><div class="starter-stat-label">${t('newQ')}</div></div>
 </div>
 <div class="starter-actions">
-<button class="btn btn-primary" onclick="openQuizStarter('${topicKey}',${total})"> ${t('startQuiz')}</button>
+<button class="btn btn-primary" onclick="openQuizStarter('${topicKey}',${total})">🚀 ${t('startQuiz')}</button>
 ${studiedCount>0?`<button class="btn btn-secondary" onclick="resetTopicProgress('${topicKey}')">🔄 ${t('resetProgress')}</button>`:''}
 </div>
 </div>`;
@@ -1683,7 +1683,7 @@ document.getElementById('qsModeRandom').textContent=t('modeRandom');
 document.getElementById('qsModeSequential').textContent=t('modeSequential');
 document.getElementById('qsModeWrong').textContent=t('modeWrong');
 document.getElementById('qsCancelBtn').textContent=t('cancel');
-document.getElementById('qsStartBtn').innerHTML=' '+t('start');
+document.getElementById('qsStartBtn').innerHTML='🚀 '+t('start');
 document.querySelectorAll('.qs-count-btn').forEach(b=>b.classList.toggle('active',b.dataset.count==='20'));
 document.querySelectorAll('.qs-mode-btn').forEach(b=>b.classList.toggle('active',b.dataset.mode==='random'));
 document.getElementById('qsCustomInput').classList.remove('show');
@@ -1713,7 +1713,7 @@ function startQuizFromStarter(){
 const{topicKey,total,count,mode}=state.quizStarter;
 const item=findItemById(state.data?.categories||[],topicKey);
 if(!item)return;
-const mcqs=item.content?.mcqs||[];
+const mcqs=item.content?.mcqs||item.mcqs||[];
 const studied=state.mcqStudied[topicKey]||[];
 let available=[];
 if(mode==='wrong'){
@@ -1778,7 +1778,7 @@ state.mcqSessionActive[topicKey]=false;
 renderAll();
 return;
 }
-const mcqs=item.content?.mcqs||[];
+const mcqs=item.content?.mcqs||item.mcqs||[];
 const content=document.getElementById('content');
 if(state.mcqShowResults[topicKey]){
 content.innerHTML=renderFullscreenResults(mcqs,topicKey,item);
@@ -1837,13 +1837,12 @@ let html=`<div class="quiz-fullscreen-page">
 <div class="quiz-fs-header">
 <button class="quiz-fs-exit" id="quizExitBtn" onclick="handleQuizExitClick('${topicKey}')" title="${t('exitQuiz')}">
 <span class="exit-icon">✕</span>
-<span class="quiz-fs-exit-label">${t('tapTwiceHint')}</span>
 </button>
 <div class="quiz-fs-title">
 <h2>${item.icon||''} ${escapeHtml(item.name)}</h2>
 <p>${t('quizInProgress')} • ${mode}</p>
 </div>
-<div class="quiz-fs-timer"><span class="timer-icon">️</span><span id="quizTimerDisplay">${formatTime(state.mcqElapsed[topicKey])}</span></div>
+<div class="quiz-fs-timer"><span class="timer-icon">⏱️</span><span id="quizTimerDisplay">${formatTime(state.mcqElapsed[topicKey])}</span></div>
 ${streak>=2?`<div class="quiz-fs-streak ${streak>=5?'on-fire':''}">🔥 ${streak} ${t('streak')}</div>`:''}
 </div>
 <div class="quiz-fs-progress">
@@ -1853,7 +1852,7 @@ ${streak>=2?`<div class="quiz-fs-streak ${streak>=5?'on-fire':''}">🔥 ${streak
 </div>
 <div class="quiz-fs-stats">
 <div class="quiz-fs-stat correct">✓ ${correct}</div>
-<div class="quiz-fs-stat wrong"> ${wrong}</div>
+<div class="quiz-fs-stat wrong">✗ ${wrong}</div>
 <div class="quiz-fs-stat remaining">${totalQ-answered} ${t('remaining')}</div>
 </div>
 </div>
@@ -1864,7 +1863,7 @@ ${streak>=2?`<div class="quiz-fs-streak ${streak>=5?'on-fire':''}">🔥 ${streak
 <div class="quiz-number">${t('question')} ${activeIdx+1}</div>
 <div class="quiz-actions-top">
 <button class="quiz-action-btn ${isBookmarked?'bookmarked':''}" onclick="toggleBookmark('${topicKey}',${origIdx})" title="${t('bookmark')}">${isBookmarked?'⭐':'☆'}</button>
-<button class="quiz-action-btn ${isFlagged?'flagged':''}" onclick="toggleFlag('${topicKey}',${origIdx})" title="${t('flag')}">${isFlagged?'🚩':''}</button>
+<button class="quiz-action-btn ${isFlagged?'flagged':''}" onclick="toggleFlag('${topicKey}',${origIdx})" title="${t('flag')}">${isFlagged?'🚩':'⚐'}</button>
 </div>
 <div class="quiz-status">${isCorrect?'✓ '+t('correct'):'✗ '+t('wrong')}</div>
 </div>
@@ -1883,7 +1882,7 @@ html+=`</div>`;
 if(explanation){
 html+=`<div class="quiz-explanation ${wasAnswered?'show':''} ${dirClass(explanation)}"><strong>${t('explanation')}:</strong> ${escapeHtml(explanation)}</div>`;
 }
-html+=`<div class="quiz-note-box"><label> ${t('addNote')}</label><textarea placeholder="Write your note here..." oninput="saveMCQNote('${topicKey}',${origIdx},this.value)">${escapeHtml(userNote)}</textarea></div>`;
+html+=`<div class="quiz-note-box"><label>📝 ${t('addNote')}</label><textarea placeholder="Write your note here..." oninput="saveMCQNote('${topicKey}',${origIdx},this.value)">${escapeHtml(userNote)}</textarea></div>`;
 html+=`</div>`;
 html+=`<div class="quiz-nav">
 <button class="quiz-nav-btn" onclick="prevMCQ('${topicKey}')" ${activeIdx===0?'disabled':''}>← ${t('previous')}</button>
@@ -1913,8 +1912,8 @@ const percent=total>0?Math.round((correct/total)*100):0;
 const timeSpent=formatTime(state.mcqElapsed[topicKey]||0);
 const flagged=Object.keys(state.mcqFlags[topicKey]||{}).filter(k=>state.mcqFlags[topicKey][k]).length;
 let icon,message;
-if(percent>=90){icon='';message=t('excellent')}
-else if(percent>=70){icon='';message=t('great')}
+if(percent>=90){icon='🏆';message=t('excellent')}
+else if(percent>=70){icon='🎉';message=t('great')}
 else if(percent>=50){icon='📚';message=t('good')}
 else{icon='💪';message=t('keepGoing')}
 return`<div class="quiz-fullscreen-page">
@@ -1939,7 +1938,7 @@ return`<div class="quiz-fullscreen-page">
 <div class="results-stat"><div class="results-stat-value wrong">${wrong}</div><div class="results-stat-label">${t('wrong')}</div></div>
 <div class="results-stat"><div class="results-stat-value total">${total}</div><div class="results-stat-label">${t('question')}</div></div>
 </div>
-${flagged?`<div style="display:inline-block;padding:10px 16px;background:var(--warning-soft);border:1px solid var(--warning);border-radius:10px;font-size:13px;font-weight:600;color:var(--warning);margin-bottom:20px"> ${flagged} flagged</div>`:''}
+${flagged?`<div style="display:inline-block;padding:10px 16px;background:var(--warning-soft);border:1px solid var(--warning);border-radius:10px;font-size:13px;font-weight:600;color:var(--warning);margin-bottom:20px">🚩 ${flagged} flagged</div>`:''}
 <div class="results-message">${message}</div>
 <div class="results-actions">
 <button class="btn btn-primary" onclick="retryQuiz('${topicKey}')">🔄 ${t('retry')}</button>
@@ -2011,7 +2010,7 @@ function answerMCQ(topicKey,origIdx,optIdx){
 if(!state.mcqAnswers[topicKey])state.mcqAnswers[topicKey]={};
 state.mcqAnswers[topicKey][origIdx]=optIdx;
 const item=findItemById(state.data?.categories||[],topicKey);
-const mcqs=item?.content?.mcqs||[];
+const mcqs=item?.content?.mcqs||item?.mcqs||[];
 const isCorrect=optIdx===mcqs[origIdx].answer;
 if(isCorrect){
 state.mcqStreak[topicKey]=(state.mcqStreak[topicKey]||0)+1;
@@ -2028,8 +2027,6 @@ renderAll();
 }
 function prevMCQ(topicKey){if(state.mcqCurrentIndex[topicKey]>0){state.mcqCurrentIndex[topicKey]--;renderAll()}}
 function nextMCQ(topicKey){
-const item=findItemById(state.data?.categories||[],topicKey);
-const mcqs=item?.content?.mcqs||[];
 const sessionIndices=state.mcqSessionIndices[topicKey]||[];
 if(state.mcqCurrentIndex[topicKey]<sessionIndices.length-1){state.mcqCurrentIndex[topicKey]++;renderAll()}
 }
@@ -2043,7 +2040,7 @@ state.mcqShowResults[topicKey]=true;
 saveProgress();
 renderAll();
 const item=findItemById(state.data?.categories||[],topicKey);
-const mcqs=item?.content?.mcqs||[];
+const mcqs=item?.content?.mcqs||item?.mcqs||[];
 const sessionIndices=state.mcqSessionIndices[topicKey]||[];
 const answers=state.mcqAnswers[topicKey]||{};
 let correct=0;
@@ -2064,7 +2061,7 @@ function retryWrongOnly(topicKey){
 state.mcqMode[topicKey]='wrong';
 const wrongList=state.mcqWrongList[topicKey]||[];
 const item=findItemById(state.data?.categories||[],topicKey);
-const mcqs=item?.content?.mcqs||[];
+const mcqs=item?.content?.mcqs||item?.mcqs||[];
 state.mcqSessionIndices[topicKey]=wrongList.length>0?[...wrongList]:[...Array(mcqs.length).keys()];
 state.mcqAnswers[topicKey]={};
 state.mcqCurrentIndex[topicKey]=0;
@@ -2091,7 +2088,7 @@ html+=`<div class="qa-card ${isOpen?'open':''}" id="qa-${cardId}" onclick="toggl
 <div class="qa-question">
 <div class="q-icon">Q</div>
 <div class="q-text ${dirClass(q)}">${escapeHtml(q)}</div>
-<div class="q-toggle"></div>
+<div class="q-toggle">▼</div>
 </div>
 <div class="qa-answer">
 <div class="qa-answer-inner ${dirClass(a)}">
@@ -2146,7 +2143,7 @@ return`<div class="flashcard-wrapper">
 </div>
 <div class="flashcard-progress-mini"><div class="flashcard-progress-mini-fill" style="width:${progressPct}%"></div></div>
 <div class="flashcard-tools">
-<button class="flashcard-tool-btn ${state.flashcardShuffled[topicKey]?'active':''}" onclick="toggleFlashShuffle('${topicKey}')"> ${t('shuffle')}</button>
+<button class="flashcard-tool-btn ${state.flashcardShuffled[topicKey]?'active':''}" onclick="toggleFlashShuffle('${topicKey}')">🔀 ${t('shuffle')}</button>
 </div>
 </div>
 <div class="flashcard-container">
@@ -2173,7 +2170,7 @@ ${backImage?`<br><img src="${escapeHtml(backImage)}" alt="" onclick="event.stopP
 <button class="flashcard-nav-btn flip-btn" onclick="flipFlashcard('${topicKey}')">🔄 ${t('flip')}</button>
 <button class="flashcard-nav-btn" onclick="nextFlashcard('${topicKey}',${flashcards.length})" ${activeIdx===flashcards.length-1?'disabled':''}>${t('next')} →</button>
 </div>
-<div class="flashcard-rating" id="flashRating-${topicKey}">
+<div class="flashcard-rating hidden" id="flashRating-${topicKey}">
 <button class="rating-btn again" onclick="rateFlashcard('${topicKey}',${cardIdx},'again')">😓 ${t('again')}</button>
 <button class="rating-btn hard" onclick="rateFlashcard('${topicKey}',${cardIdx},'hard')">😐 ${t('hard')}</button>
 <button class="rating-btn good" onclick="rateFlashcard('${topicKey}',${cardIdx},'good')">😊 ${t('goodRating')}</button>
@@ -2203,7 +2200,7 @@ if(!state.flashcardRatings[topicKey])state.flashcardRatings[topicKey]={};
 state.flashcardRatings[topicKey][cardIdx]=rating;
 saveProgress();
 const item=getCurrentItem();
-const flashcards=item?.content?.flashcards||[];
+const flashcards=item?.content?.flashcards||item?.flashcards||[];
 if(state.flashcardIndex[topicKey]<flashcards.length-1){state.flashcardIndex[topicKey]++;renderAll()}
 else{toast('All cards rated! 🎉','success')}
 }
@@ -2221,7 +2218,7 @@ const title=mn.title||'';
 const code=mn.code||'';
 const items=mn.items||[];
 html+=`<div class="mnemonic-card">
-<div class="mn-header"><div class="mn-icon-wrap">${mn.icon||''}</div><div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div></div>
+<div class="mn-header"><div class="mn-icon-wrap">${mn.icon||'🧠'}</div><div class="mn-title ${dirClass(title)}">${escapeHtml(title)}</div></div>
 ${code?`<div class="mn-code ${dirClass(code)}">${escapeHtml(code)}</div>`:''}
 <ul class="mn-items">${items.map(it=>`<li><span class="letter ${dirClass(it.letter)}">${escapeHtml(it.letter)}</span><span class="${dirClass(it.text)}">${escapeHtml(it.text)}</span></li>`).join('')}</ul>
 </div>`;
@@ -2231,11 +2228,11 @@ return html;
 }
 
 const noteTypeConfig={
-tip:{icon:'',accent:'linear-gradient(135deg,#f59e0b,#f97316)',accentSoft:'rgba(245,158,11,0.15)',accentColor:'#f59e0b',glow:'rgba(245,158,11,0.2)'},
+tip:{icon:'💡',accent:'linear-gradient(135deg,#f59e0b,#f97316)',accentSoft:'rgba(245,158,11,0.15)',accentColor:'#f59e0b',glow:'rgba(245,158,11,0.2)'},
 warning:{icon:'⚠️',accent:'linear-gradient(135deg,#ef4444,#dc2626)',accentSoft:'rgba(239,68,68,0.15)',accentColor:'#ef4444',glow:'rgba(239,68,68,0.2)'},
 important:{icon:'⭐',accent:'linear-gradient(135deg,#a855f7,#7c3aed)',accentSoft:'rgba(168,85,247,0.15)',accentColor:'#a855f7',glow:'rgba(168,85,247,0.2)'},
 info:{icon:'ℹ️',accent:'linear-gradient(135deg,#06b6d4,#0891b2)',accentSoft:'rgba(6,182,212,0.15)',accentColor:'#06b6d4',glow:'rgba(6,182,212,0.2)'},
-note:{icon:'',accent:'linear-gradient(135deg,#10b981,#059669)',accentSoft:'rgba(16,185,129,0.15)',accentColor:'#10b981',glow:'rgba(16,185,129,0.2)'}
+note:{icon:'📝',accent:'linear-gradient(135deg,#10b981,#059669)',accentSoft:'rgba(16,185,129,0.15)',accentColor:'#10b981',glow:'rgba(16,185,129,0.2)'}
 };
 function getNoteType(note){
 const type=(note.type||note.category||'note').toLowerCase();
@@ -2254,7 +2251,6 @@ processed=processed.replace(/\{key\}([\s\S]*?)\{\/key\}/g,'<span class="key-poin
 processed=processed.replace(/\{warn\}([\s\S]*?)\{\/warn\}/g,'<span class="warning-box">$1</span>');
 processed=processed.replace(/\{ok\}([\s\S]*?)\{\/ok\}/g,'<span class="success-box">$1</span>');
 processed=processed.replace(/\*\*([\s\S]*?)\*\*/g,'<strong>$1</strong>');
-processed=processed.replace(/(?<!\*)\*(?!\*)([\s\S]*?)(?<!\*)\*(?!\*)/g,'<em>$1</em>');
 return processed;
 }
 function renderNotes(notes,topicKey){
@@ -2279,13 +2275,13 @@ let html=`<div class="notes-toolbar">
 <div class="notes-filter">
 <button class="notes-filter-btn ${state.notesFilter==='all'?'active':''}" onclick="filterNotes('all')">📋 ${t('allNotes')}</button>
 <button class="notes-filter-btn ${state.notesFilter==='tip'?'active':''}" onclick="filterNotes('tip')">💡 ${t('tipNotes')}</button>
-<button class="notes-filter-btn ${state.notesFilter==='warning'?'active':''}" onclick="filterNotes('warning')">️ ${t('warningNotes')}</button>
+<button class="notes-filter-btn ${state.notesFilter==='warning'?'active':''}" onclick="filterNotes('warning')">⚠️ ${t('warningNotes')}</button>
 <button class="notes-filter-btn ${state.notesFilter==='important'?'active':''}" onclick="filterNotes('important')">⭐ ${t('importantNotes')}</button>
 <button class="notes-filter-btn ${state.notesFilter==='info'?'active':''}" onclick="filterNotes('info')">ℹ️ ${t('infoNotes')}</button>
 </div>
 </div>`;
 if(filteredNotes.length===0){
-html+=`<div class="empty-state"><div class="es-icon"></div><h3>${t('noNotes')}</h3><p>${t('noNotesDesc')}</p></div>`;
+html+=`<div class="empty-state"><div class="es-icon">📭</div><h3>${t('noNotes')}</h3><p>${t('noNotesDesc')}</p></div>`;
 }else{
 html+=`<div class="notes-list">`;
 filteredNotes.forEach((n,idx)=>{
@@ -2294,10 +2290,9 @@ const title=n.title||n.name||t('note')+' '+(idx+1);
 const content=n.content||n.text||n.body||'';
 const date=n.date||'';
 const tags=n.tags||[];
-const customStyle=n.style||n.css||'';
 const noteType=(n.type||n.category||'note').toLowerCase();
 const typeLabel=t(noteType)||noteType;
-html+=`<div class="note-card" style="--note-accent:${type.accent};--note-accent-soft:${type.accentSoft};--note-glow:${type.glow};${customStyle?customStyle:''}">
+html+=`<div class="note-card" style="--note-accent:${type.accent};--note-accent-soft:${type.accentSoft};--note-glow:${type.glow};">
 <div class="note-card-accent"></div>
 <div class="note-card-body">
 <div class="note-card-header">
@@ -2311,7 +2306,7 @@ ${tags.length?`<div class="note-card-tags">${tags.map(tag=>`<span class="note-ta
 </div>
 </div>
 <div class="note-card-content ${dirClass(content)}">${processNoteContent(content)}</div>
-${date?`<div class="note-card-meta"><span> ${escapeHtml(date)}</span>${tags.length?`<span>🏷️ ${tags.length} tags</span>`:''}</div>`:''}
+${date?`<div class="note-card-meta"><span>📅 ${escapeHtml(date)}</span>${tags.length?`<span>🏷️ ${tags.length} tags</span>`:''}</div>`:''}
 </div>
 </div>`;
 });
@@ -2324,7 +2319,7 @@ state.notesSearch=query;
 const item=getCurrentItem();
 if(item){
 const panel=document.getElementById('panel-notes');
-const notes=item.content?.notes||[];
+const notes=item.content?.notes||item.notes||[];
 if(panel&&notes.length){
 panel.innerHTML=renderNotes(notes,item.id);
 }
@@ -2335,7 +2330,7 @@ state.notesFilter=filter;
 const item=getCurrentItem();
 if(item){
 const panel=document.getElementById('panel-notes');
-const notes=item.content?.notes||[];
+const notes=item.content?.notes||item.notes||[];
 if(panel&&notes.length){
 panel.innerHTML=renderNotes(notes,item.id);
 }
@@ -2359,7 +2354,7 @@ ${thumb?`<img src="${escapeHtml(thumb)}" alt="${escapeHtml(title)}">`:''}
 <div class="video-title ${dirClass(title)}">${escapeHtml(title)}</div>
 <div class="video-meta">
 ${duration?`<span>⏱️ ${escapeHtml(duration)}</span>`:''}
-<span> ${t('watchVideo')}</span>
+<span>▶ ${t('watchVideo')}</span>
 </div>
 ${desc?`<div style="font-size:12px;color:var(--text-3);margin-top:6px;line-height:1.4" class="${dirClass(desc)}">${escapeHtml(desc).substring(0,80)}</div>`:''}
 </div></div>`;
@@ -2376,7 +2371,7 @@ video.src=src;
 modal.classList.add('show');
 currentVideo=video;
 video.play().catch(()=>{});
-document.getElementById('videoPlayPause').textContent='';
+document.getElementById('videoPlayPause').textContent='⏸';
 }
 function closeVideoPlayer(){
 const modal=document.getElementById('videoPlayerModal');
@@ -2388,16 +2383,16 @@ currentVideo=null;
 }
 function toggleVideoPlay(){
 if(!currentVideo)return;
-if(currentVideo.paused){currentVideo.play();document.getElementById('videoPlayPause').textContent=''}
+if(currentVideo.paused){currentVideo.play();document.getElementById('videoPlayPause').textContent='⏸'}
 else{currentVideo.pause();document.getElementById('videoPlayPause').textContent='▶'}
 }
 function skipVideo(sec){if(!currentVideo)return;currentVideo.currentTime=Math.max(0,Math.min(currentVideo.duration,currentVideo.currentTime+sec))}
 function setVideoSpeed(val){if(!currentVideo)return;currentVideo.playbackRate=parseFloat(val)}
-function setVideoVolume(val){if(!currentVideo)return;currentVideo.volume=parseFloat(val);document.getElementById('videoMuteBtn').textContent=val==0?'🔇':val<0.5?'🔉':''}
+function setVideoVolume(val){if(!currentVideo)return;currentVideo.volume=parseFloat(val);document.getElementById('videoMuteBtn').textContent=val==0?'🔇':val<0.5?'🔉':'🔊'}
 function toggleVideoMute(){
 if(!currentVideo)return;
 currentVideo.muted=!currentVideo.muted;
-document.getElementById('videoMuteBtn').textContent=currentVideo.muted?'':'🔊';
+document.getElementById('videoMuteBtn').textContent=currentVideo.muted?'🔇':'🔊';
 document.getElementById('videoVolume').value=currentVideo.muted?0:currentVideo.volume;
 }
 function seekVideo(e){
@@ -2474,7 +2469,7 @@ function closeSidebar(){document.getElementById('sidebar').classList.remove('ope
 
 function openAboutModal(){
 const modal=document.getElementById('modal');
-modal.innerHTML=`<div class="modal-header"><h3>️ ${t('aboutTitle')}</h3><button class="modal-close" onclick="closeModal()">✕</button></div>
+modal.innerHTML=`<div class="modal-header"><h3>ℹ️ ${t('aboutTitle')}</h3><button class="modal-close" onclick="closeModal()">✕</button></div>
 <div class="modal-body"><p>${t('aboutText')}</p><h4>✨ ${t('features')}</h4><ul>${t('featureList').map(f=>`<li>${f}</li>`).join('')}</ul></div>
 <div class="modal-footer"><button class="btn btn-primary" onclick="closeModal()">✓ ${t('ok')}</button></div>`;
 document.getElementById('modalOverlay').classList.add('show');
@@ -2509,14 +2504,12 @@ setTimeout(()=>piece.remove(),4000);
 }
 }
 
+// Service Worker: Network-first with cache fallback
 if('serviceWorker' in navigator){
 const swCode=`
-const CACHE='medexit-v3';
-const PRECACHE=['./','./mcqs_q_a_flashcards_andetc.json'];
+const CACHE='medexit-v4';
 self.addEventListener('install',e=>{
-e.waitUntil(
-caches.open(CACHE).then(cache=>cache.addAll(PRECACHE)).catch(()=>{})
-);
+e.waitUntil(caches.open(CACHE).then(c=>c.addAll(['./']).catch(()=>{})));
 self.skipWaiting();
 });
 self.addEventListener('activate',e=>{
@@ -2527,6 +2520,10 @@ self.clients.claim();
 });
 self.addEventListener('fetch',e=>{
 if(e.request.method!=='GET')return;
+if(e.request.url.endsWith('.json')){
+e.respondWith(fetch(e.request,{cache:'no-store'}).catch(()=>caches.match(e.request)));
+return;
+}
 e.respondWith(
 fetch(e.request).then(r=>{
 const clone=r.clone();
@@ -2540,20 +2537,7 @@ const blob=new Blob([swCode],{type:'application/javascript'});
 const swUrl=URL.createObjectURL(blob);
 navigator.serviceWorker.register(swUrl,{scope:'./'}).catch(err=>{
 console.warn('SW registration failed:',err);
-setupCacheFallback();
 });
-}catch(e){
-setupCacheFallback();
-}
-}
-async function setupCacheFallback(){
-try{
-const cache=await caches.open('medexit-v3');
-const currentUrl=window.location.href;
-if(!await cache.match(currentUrl)){
-const resp=await fetch(currentUrl);
-if(resp.ok)await cache.put(currentUrl,resp);
-}
 }catch(e){}
 }
 
@@ -2571,7 +2555,7 @@ if(state.navStack.length>0){goBack();return}
 }
 const current=getCurrentItem();
 if(current&&state.currentTab==='flashcards'&&!isAnyQuizActive()){
-const flashcards=current.content?.flashcards||[];
+const flashcards=current.content?.flashcards||current.flashcards||[];
 if(flashcards.length){
 const topicKey=current.id;
 if(e.code==='Space'){e.preventDefault();flipFlashcard(topicKey)}
@@ -2586,7 +2570,7 @@ if(e.key==='4'){const card=document.querySelector('.rating-btn.easy');if(card)ca
 const activeTopic=getActiveQuizTopicKey();
 if(activeTopic){
 const item=findItemById(state.data?.categories||[],activeTopic);
-const mcqs=item?.content?.mcqs||[];
+const mcqs=item?.content?.mcqs||item?.mcqs||[];
 if(mcqs.length&&!state.mcqShowResults[activeTopic]){
 const topicKey=activeTopic;
 if(e.key==='ArrowLeft')prevMCQ(topicKey);
