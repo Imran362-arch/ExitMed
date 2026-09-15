@@ -8439,6 +8439,844 @@
                       "description": "Comprehensive overview of seizure disorders including definitions, classification, clinical features, diagnosis, and management"
                     }
                   ]
+                },
+                {
+                  "id": "headache",
+                  "name": "Headache",
+                  "icon": "🤕",
+                  "description": "Primary and secondary headaches including migraine, cluster, and tension headaches, plus vertigo",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "Headache is caused by stimulation of:",
+                        "options": [
+                          "Pain-insensitive receptors",
+                          "Pain-sensitive receptors around the head, neck, and inside the skull",
+                          "Motor neurons",
+                          "Sensory neurons only"
+                        ],
+                        "answer": 1,
+                        "explanation": "Headache is caused by stimulation of pain-sensitive receptors around the head, neck, and inside the skull."
+                      },
+                      {
+                        "q": "The MOST SEVERE headache is caused by:",
+                        "options": [
+                          "Migraine",
+                          "Tension headache",
+                          "Bacterial meningitis and meningeal destruction",
+                          "Cluster headache"
+                        ],
+                        "answer": 2,
+                        "explanation": "The most severe headache is caused by bacterial meningitis and meningeal destruction."
+                      },
+                      {
+                        "q": "Headaches are classified into which two main types?",
+                        "options": [
+                          "Acute and Chronic",
+                          "Primary and Secondary",
+                          "Vascular and Neuralgic",
+                          "Mild and Severe"
+                        ],
+                        "answer": 1,
+                        "explanation": "Headaches are classified into Primary (no specific cause) and Secondary (specific cause)."
+                      },
+                      {
+                        "q": "Primary headaches include all of the following EXCEPT:",
+                        "options": [
+                          "Migraine",
+                          "Cluster headache",
+                          "Tension headache",
+                          "Brain tumor"
+                        ],
+                        "answer": 3,
+                        "explanation": "Brain tumor is a secondary headache. Primary headaches include migraine, cluster, and tension headaches."
+                      },
+                      {
+                        "q": "Secondary headaches include all of the following EXCEPT:",
+                        "options": [
+                          "Brain tumors",
+                          "CNS infections",
+                          "Migraine",
+                          "Hydrocephalus"
+                        ],
+                        "answer": 2,
+                        "explanation": "Migraine is a primary headache. Secondary headaches include brain tumors, CNS infections, and hydrocephalus."
+                      },
+                      {
+                        "q": "Migraine is more common in:",
+                        "options": [
+                          "Men",
+                          "Women",
+                          "Children",
+                          "Elderly"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migraine is more common in women."
+                      },
+                      {
+                        "q": "Migraine pain is characteristically:",
+                        "options": [
+                          "Bilateral and pressing",
+                          "Unilateral and throbbing",
+                          "Stabbing and burning",
+                          "Dull and constant"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migraine pain is characteristically unilateral and throbbing."
+                      },
+                      {
+                        "q": "Migraine is associated with all of the following EXCEPT:",
+                        "options": [
+                          "Nausea and vomiting",
+                          "Photophobia",
+                          "Phonophobia",
+                          "Nasal congestion"
+                        ],
+                        "answer": 3,
+                        "explanation": "Nasal congestion is associated with cluster headache, not migraine. Migraine is associated with nausea/vomiting, photophobia, and phonophobia."
+                      },
+                      {
+                        "q": "The frequency and severity of migraine:",
+                        "options": [
+                          "Increases with age",
+                          "Decreases with age",
+                          "Remains constant",
+                          "Is unrelated to age"
+                        ],
+                        "answer": 1,
+                        "explanation": "The frequency and severity of migraine decrease with age."
+                      },
+                      {
+                        "q": "Migraine with aura was previously called:",
+                        "options": [
+                          "Common migraine",
+                          "Classic migraine",
+                          "Basilar migraine",
+                          "Hemiplegic migraine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migraine with aura was previously called classic migraine."
+                      },
+                      {
+                        "q": "Migraine without aura was previously called:",
+                        "options": [
+                          "Classic migraine",
+                          "Common migraine",
+                          "Basilar migraine",
+                          "Hemiplegic migraine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Migraine without aura was previously called common migraine."
+                      },
+                      {
+                        "q": "Which of the following is a prophylactic drug for migraine?",
+                        "options": [
+                          "Sumatriptan",
+                          "Ergotamine",
+                          "Propranolol",
+                          "Oxygen"
+                        ],
+                        "answer": 2,
+                        "explanation": "Propranolol is a prophylactic drug for migraine. Sumatriptan and Ergotamine are used for acute treatment."
+                      },
+                      {
+                        "q": "Cluster headache is characterized by pain:",
+                        "options": [
+                          "Bilaterally around the head",
+                          "Behind or around the eye",
+                          "In the occipital region",
+                          "In the temporal region only"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cluster headache is characterized by pain behind or around the eye."
+                      },
+                      {
+                        "q": "Cluster headache typically occurs:",
+                        "options": [
+                          "During the day",
+                          "At night",
+                          "In the morning only",
+                          "After meals"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cluster headache typically occurs at night."
+                      },
+                      {
+                        "q": "The duration of pain in cluster headache is:",
+                        "options": [
+                          "5-10 minutes",
+                          "30-60 minutes",
+                          "2-4 hours",
+                          "12-24 hours"
+                        ],
+                        "answer": 1,
+                        "explanation": "The duration of pain in cluster headache is 30-60 minutes."
+                      },
+                      {
+                        "q": "Autonomic signs in cluster headache include all of the following EXCEPT:",
+                        "options": [
+                          "Lacrimation",
+                          "Nasal congestion",
+                          "Facial redness",
+                          "Photophobia"
+                        ],
+                        "answer": 3,
+                        "explanation": "Photophobia is associated with migraine, not cluster headache. Cluster headache autonomic signs include lacrimation, nasal congestion, and facial redness."
+                      },
+                      {
+                        "q": "Partial Horner's syndrome in cluster headache includes:",
+                        "options": [
+                          "Mydriasis and Ptosis",
+                          "Miosis and Ptosis",
+                          "Miosis and Exophthalmos",
+                          "Mydriasis and Exophthalmos"
+                        ],
+                        "answer": 1,
+                        "explanation": "Partial Horner's syndrome in cluster headache includes miosis and ptosis."
+                      },
+                      {
+                        "q": "The acute treatment of cluster headache includes:",
+                        "options": [
+                          "100% Oxygen inhalation",
+                          "Propranolol",
+                          "Amitriptyline",
+                          "Valproic acid"
+                        ],
+                        "answer": 0,
+                        "explanation": "The acute treatment of cluster headache includes 100% oxygen inhalation."
+                      },
+                      {
+                        "q": "The prophylactic treatment of cluster headache includes:",
+                        "options": [
+                          "Sumatriptan",
+                          "Oxygen",
+                          "Lithium",
+                          "Dexamethasone"
+                        ],
+                        "answer": 2,
+                        "explanation": "The prophylactic treatment of cluster headache includes lithium."
+                      },
+                      {
+                        "q": "True vertigo is defined as:",
+                        "options": [
+                          "Feeling of fainting",
+                          "Patient feels environment is spinning around them",
+                          "Feeling of imbalance",
+                          "Feeling of lightheadedness"
+                        ],
+                        "answer": 1,
+                        "explanation": "True vertigo is defined as the patient feeling the environment is spinning around them or, if eyes are closed, feeling they are spinning themselves."
+                      },
+                      {
+                        "q": "Peripheral vertigo is due to:",
+                        "options": [
+                          "Brainstem lesions",
+                          "Cerebellar lesions",
+                          "Inner ear lesions",
+                          "Temporal lobe lesions"
+                        ],
+                        "answer": 2,
+                        "explanation": "Peripheral vertigo is due to inner ear (vestibular system/nerve) lesions."
+                      },
+                      {
+                        "q": "Central vertigo is due to:",
+                        "options": [
+                          "Inner ear lesions",
+                          "Vestibular nerve lesions",
+                          "Brainstem or cerebellar lesions",
+                          "Eye lesions"
+                        ],
+                        "answer": 2,
+                        "explanation": "Central vertigo is due to brainstem or cerebellar lesions."
+                      },
+                      {
+                        "q": "Nystagmus in peripheral vertigo is:",
+                        "options": [
+                          "Vertical and fixed",
+                          "Horizontal and short-duration",
+                          "Vertical and long-duration",
+                          "Horizontal and fixed"
+                        ],
+                        "answer": 1,
+                        "explanation": "Nystagmus in peripheral vertigo is horizontal and short-duration."
+                      },
+                      {
+                        "q": "Nystagmus in central vertigo is:",
+                        "options": [
+                          "Horizontal and short-duration",
+                          "Vertical and fixed",
+                          "Horizontal and long-duration",
+                          "Vertical and changing"
+                        ],
+                        "answer": 1,
+                        "explanation": "Nystagmus in central vertigo is vertical and fixed."
+                      },
+                      {
+                        "q": "Severity of vertigo in peripheral vertigo:",
+                        "options": [
+                          "Does not change with head position",
+                          "Decreases after changing head position several times",
+                          "Increases with head position change",
+                          "Is unrelated to head position"
+                        ],
+                        "answer": 1,
+                        "explanation": "Severity of vertigo in peripheral vertigo decreases after changing head position several times."
+                      },
+                      {
+                        "q": "Severity of vertigo in central vertigo:",
+                        "options": [
+                          "Decreases with head position change",
+                          "Does not change with head position",
+                          "Increases with head position change",
+                          "Is unrelated to head position"
+                        ],
+                        "answer": 1,
+                        "explanation": "Severity of vertigo in central vertigo does not change with head position."
+                      },
+                      {
+                        "q": "An example of peripheral vertigo is:",
+                        "options": [
+                          "Cerebellar hemorrhage",
+                          "Multiple Sclerosis",
+                          "Meniere's syndrome",
+                          "Brainstem stroke"
+                        ],
+                        "answer": 2,
+                        "explanation": "Meniere's syndrome is an example of peripheral vertigo."
+                      },
+                      {
+                        "q": "An example of central vertigo is:",
+                        "options": [
+                          "Meniere's syndrome",
+                          "Vestibular neuritis",
+                          "Cerebellar hemorrhage",
+                          "Benign paroxysmal positional vertigo"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cerebellar hemorrhage is an example of central vertigo."
+                      },
+                      {
+                        "q": "The initial diagnostic test in headache patients is:",
+                        "options": [
+                          "EEG",
+                          "Brain imaging",
+                          "Lumbar puncture",
+                          "Blood tests"
+                        ],
+                        "answer": 1,
+                        "explanation": "Brain imaging is the initial diagnostic test in headache patients."
+                      },
+                      {
+                        "q": "Tension headache presents as:",
+                        "options": [
+                          "Unilateral throbbing pain",
+                          "Neck stiffness extending to temples",
+                          "Severe stabbing eye pain",
+                          "Vertigo with nausea"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tension headache presents as neck stiffness extending to temples."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What causes headache?",
+                        "a": "Stimulation of pain-sensitive receptors around the head, neck, and inside the skull."
+                      },
+                      {
+                        "q": "What is the most severe headache?",
+                        "a": "Bacterial meningitis and meningeal destruction."
+                      },
+                      {
+                        "q": "What are the two main types of headache?",
+                        "a": "Primary (No specific cause) and Secondary (Specific cause)."
+                      },
+                      {
+                        "q": "What are the characteristics of Migraine?",
+                        "a": "Periodic, Hereditary, Unilateral, Throbbing, more common in Women, associated with Nausea/Vomiting, Photophobia, Phonophobia."
+                      },
+                      {
+                        "q": "What is the treatment of Migraine?",
+                        "a": "Prophylactic and Acute treatment."
+                      },
+                      {
+                        "q": "What are the characteristics of Cluster Headache?",
+                        "a": "Occurs at Night, severe stabbing/burning pain behind/around eye, 30-60 minutes, autonomic signs."
+                      },
+                      {
+                        "q": "What are the autonomic signs in Cluster Headache?",
+                        "a": "Lacrimation, Nasal congestion, Facial redness, Partial Horner's syndrome (Miosis + Ptosis)."
+                      },
+                      {
+                        "q": "What is the acute treatment of Cluster Headache?",
+                        "a": "100% Oxygen, Ergotamine inhalation, IV Dexamethasone, SC Sumatriptan."
+                      },
+                      {
+                        "q": "What is the prophylactic treatment of Cluster Headache?",
+                        "a": "Prednisolone, Ergotamine, Lithium, Calcium channel blockers, Valproic acid."
+                      },
+                      {
+                        "q": "What is True Vertigo?",
+                        "a": "Patient feels environment is spinning around them."
+                      },
+                      {
+                        "q": "What is Peripheral Vertigo?",
+                        "a": "Due to inner ear lesions; horizontal nystagmus; severity decreases with position change; Example: Meniere's syndrome."
+                      },
+                      {
+                        "q": "What is Central Vertigo?",
+                        "a": "Due to brainstem/cerebellum lesions; vertical nystagmus; no change with position; Example: Cerebellar hemorrhage."
+                      },
+                      {
+                        "q": "What is the initial diagnostic test in headache patients?",
+                        "a": "Brain imaging."
+                      },
+                      {
+                        "q": "What is Tension Headache?",
+                        "a": "Chronic headache presenting as neck stiffness extending to temples."
+                      },
+                      {
+                        "q": "What is the difference between Peripheral and Central Vertigo?",
+                        "a": "Peripheral: Inner ear, Horizontal nystagmus, Severity decreases with position change. Central: Brainstem/Cerebellum, Vertical nystagmus, No change with position."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What causes headache?",
+                        "back": "Stimulation of pain-sensitive receptors around the head, neck, and inside the skull."
+                      },
+                      {
+                        "front": "What is the most severe headache?",
+                        "back": "Bacterial meningitis and meningeal destruction."
+                      },
+                      {
+                        "front": "What are the two main types of headache?",
+                        "back": "Primary (No specific cause) and Secondary (Specific cause)."
+                      },
+                      {
+                        "front": "What are the characteristics of Migraine?",
+                        "back": "Periodic, Hereditary, Unilateral, Throbbing, more common in Women, associated with Nausea/Vomiting, Photophobia, Phonophobia."
+                      },
+                      {
+                        "front": "What is the treatment of Migraine?",
+                        "back": "Prophylactic (Ergotamine, Amitriptyline, Propranolol, Ca channel blockers) + Acute treatment."
+                      },
+                      {
+                        "front": "What are the characteristics of Cluster Headache?",
+                        "back": "Vascular type, occurs at Night, severe stabbing/burning pain behind/around eye, 30-60 minutes, autonomic signs."
+                      },
+                      {
+                        "front": "What are the autonomic signs in Cluster Headache?",
+                        "back": "Lacrimation, Nasal congestion, Facial redness, Facial sweating, Partial Horner's syndrome (Miosis + Ptosis)."
+                      },
+                      {
+                        "front": "What is the acute treatment of Cluster Headache?",
+                        "back": "100% Oxygen, Ergotamine inhalation, IV Dexamethasone, SC Sumatriptan."
+                      },
+                      {
+                        "front": "What is the prophylactic treatment of Cluster Headache?",
+                        "back": "Prednisolone, Ergotamine, Lithium, Calcium channel blockers, Valproic acid."
+                      },
+                      {
+                        "front": "What is True Vertigo?",
+                        "back": "Patient feels environment is spinning around them OR if eyes are closed, feels they are spinning themselves."
+                      },
+                      {
+                        "front": "What is Peripheral Vertigo?",
+                        "back": "Due to inner ear lesions; associated with horizontal nystagmus, severe nausea/vomiting; severity decreases with position change; Example: Meniere's syndrome."
+                      },
+                      {
+                        "front": "What is Central Vertigo?",
+                        "back": "Due to brainstem/cerebellum lesions; associated with vertical nystagmus; longer duration; no change with position; Example: Cerebellar hemorrhage, MS."
+                      },
+                      {
+                        "front": "What is the initial diagnostic test in headache patients?",
+                        "back": "Brain imaging."
+                      },
+                      {
+                        "front": "What is Tension Headache?",
+                        "back": "Chronic headache presenting as neck stiffness extending to temples."
+                      },
+                      {
+                        "front": "What is the difference between Peripheral and Central Vertigo?",
+                        "back": "Peripheral: Inner ear, Horizontal nystagmus, Severity decreases with position change.\nCentral: Brainstem/Cerebellum, Vertical nystagmus, No change with position."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Headache Types",
+                        "icon": "🧠",
+                        "code": "P-S",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Primary (No cause: Migraine, Cluster, Tension)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Secondary (Specific cause: Tumor, Infection)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Migraine Features",
+                        "icon": "🤕",
+                        "code": "P-H-U-W",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Periodic"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Hereditary"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Unilateral"
+                          },
+                          {
+                            "letter": "W",
+                            "text": "Women more common"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Migraine Associated Symptoms",
+                        "icon": "🤢",
+                        "code": "N-V-P-P",
+                        "items": [
+                          {
+                            "letter": "N",
+                            "text": "Nausea"
+                          },
+                          {
+                            "letter": "V",
+                            "text": "Vomiting"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Photophobia"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Phonophobia"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cluster Headache Features",
+                        "icon": "👁️",
+                        "code": "N-E-A-H",
+                        "items": [
+                          {
+                            "letter": "N",
+                            "text": "Night occurrence"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Eye (Behind/around)"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Autonomic signs (Lacrimation, Nasal congestion, Sweating)"
+                          },
+                          {
+                            "letter": "H",
+                            "text": "Horner's syndrome (Miosis + Ptosis)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cluster Acute Treatment",
+                        "icon": "💊",
+                        "code": "O-E-D-S",
+                        "items": [
+                          {
+                            "letter": "O",
+                            "text": "Oxygen 100%"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Ergotamine inhalation"
+                          },
+                          {
+                            "letter": "D",
+                            "text": "Dexamethasone IV"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Sumatriptan SC"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Vertigo Types",
+                        "icon": "🌀",
+                        "code": "P-C",
+                        "items": [
+                          {
+                            "letter": "P",
+                            "text": "Peripheral (Inner ear, Horizontal nystagmus)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Central (Brainstem, Vertical nystagmus)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Vertigo Diagnosis",
+                        "icon": "🔬",
+                        "code": "A-X-C-M-E-E",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Audiogram"
+                          },
+                          {
+                            "letter": "X",
+                            "text": "X-ray inner ear"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "CT Scan"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "MRI"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "ECG"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "EEG"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Migraine Prophylactic Drugs",
+                        "icon": "💊",
+                        "code": "E-A-C-P-C-C-P",
+                        "items": [
+                          {
+                            "letter": "E",
+                            "text": "Ergotamine"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Amitriptyline"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Cyproheptadine"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Propranolol"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Ca channel blockers"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Clonidine"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Phenytoin"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Most Severe Headache",
+                        "icon": "🚨",
+                        "code": "Bacterial Meningitis",
+                        "items": [
+                          {
+                            "letter": "B",
+                            "text": "Bacterial meningitis + meningeal destruction"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Tension Headache",
+                        "icon": "💆",
+                        "code": "Neck Stiffness to Temples",
+                        "items": [
+                          {
+                            "letter": "N",
+                            "text": "Presents as neck stiffness extending to temples"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "info",
+                      "title": "Learning Objectives",
+                      "icon": "🎯",
+                      "tags": [
+                        "objectives",
+                        "introduction"
+                      ],
+                      "content": "{key}After studying this chapter, the reader will know:{/key}\n1. Taking history from headache patients (Onset, radiation, severity, associated symptoms, character of pain, etc.)\n2. Classification of headache (Primary and Secondary)\n3. Treatment of headaches (Migraine, Tension, Cluster)\n4. Vertigo and its classification (Peripheral and Central)"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Causes of Headache",
+                      "icon": "📖",
+                      "tags": [
+                        "causes",
+                        "pathophysiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}CAUSE:{/key} Stimulation of {hl}PAIN-SENSITIVE RECEPTORS{/hl} around head, neck, and inside the skull.\n\n{key}If these receptors are temporarily blocked by analgesics, the patient will NOT feel headache.{/key}\n\n{key}STIMULATED BY:{/key}\n1. Arterial aneurysm\n2. Migraine\n3. Meningitis\n4. Increased intracranial pressure + Hemorrhage\n5. Vasculitis\n\n{warn}MOST SEVERE HEADACHE:{/warn} {hlpu}Bacterial Meningitis + Meningeal destruction{/hlpu}"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Approach to Patient",
+                      "icon": "📋",
+                      "tags": [
+                        "approach",
+                        "history",
+                        "high-yield"
+                      ],
+                      "content": "{key}HISTORY:{/key}\n1. Age + Sex\n2. Onset of headache\n3. Location\n4. Time of onset\n5. Quality of pain\n6. Duration\n7. Frequency\n8. Aggravating factors\n9. Relieving factors\n10. Associated symptoms\n11. Medication history"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Classification by Pathophysiology",
+                      "icon": "📊",
+                      "tags": [
+                        "classification",
+                        "pathophysiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}1. VASCULAR HEADACHES:{/key}\n• Migraine, Cluster headache, Pheochromocytoma, Hypertension, Cerebral aneurysm, Febrile conditions, Intracranial hemorrhage, AV Malformation, Drug-induced (Nitroglycerin, Isosorbide)\n\n{key}2. CHRONIC DAILY HEADACHE (Tension headache){/key}\n\n{key}3. DUE TO ↑ INTRACRANIAL PRESSURE:{/key}\n• Brain tumors, Colloid cyst, Abscess, Hydrocephalus, Hemorrhage, Encephalitis, Benign intracranial hypertension\n\n{key}4. DUE TO ↓ INTRACRANIAL PRESSURE{/key}\n\n{key}5. DUE TO MENINGEAL IRRITATION{/key}\n\n{key}6. NEURALGIAS{/key}\n\n{key}7. REFERRED PAINS{/key}\n\n{key}8. OTHER CAUSES{/key}"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Migraine",
+                      "icon": "🤕",
+                      "tags": [
+                        "migraine",
+                        "high-yield"
+                      ],
+                      "content": "{key}DEFINITION:{/key}\n• Most common type of headache in all human societies\n• {hl}12-15%{/hl} of people worldwide suffer from it\n• One of the most common causes of neurology clinic visits\n\n{key}CHARACTERISTICS:{/key}\n• PERIODIC, Hereditary, Familial\n• Starts: Childhood, Adolescence, Early adulthood\n• MORE COMMON IN {hl}WOMEN{/hl}\n\n{key}PAIN:{/key}\n• Mild to severe\n• {hl}UNILATERAL, Throbbing{/hl}\n• Associated with: Photophobia, Phonophobia, Nausea, Vomiting\n• Worsens with physical activity\n• Frequency/severity DECREASE with age\n\n{key}OLD CLASSIFICATION:{/key} Classic, Common, Basilar, Hemiplegic\n\n{key}NEW CLASSIFICATION:{/key}\n1. Migraine without aura\n2. Migraine with aura\n3. Migraine variants\n4. Cluster headache (Migrainous neuralgia)\n\n{key}DIFFERENTIAL DIAGNOSIS:{/key}\n• Bacterial sinusitis, Glaucoma, Bacterial meningitis,\n• Subarachnoid hemorrhage, Pheochromocytoma, AV Malformation,\n• Hypertension, TIA, Temporal lobe epilepsy (TLE),\n• Chronic stress, Cluster headache"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Treatment of Migraine",
+                      "icon": "💊",
+                      "tags": [
+                        "treatment",
+                        "migraine",
+                        "high-yield"
+                      ],
+                      "content": "{key}TWO TYPES:{/key}\nA. Prophylactic (Preventive)\nB. Treatment at onset/establishment\n\n{key}PROPHYLACTIC - NON-DRUG (AVOID TRIGGERS):{/key}\n1. Contraceptive pills, 2. Perfume/odors, 3. Sleep disturbance,\n4. Stress, 5. Certain foods, 6. Alcohol, 7. Chocolate,\n8. Head trauma, 9. Hot weather, 10. Nitroglycerin\n\n{key}PROPHYLACTIC - DRUGS:{/key}\n1. Ergotamine (small doses)\n2. Amitriptyline\n3. Cyproheptadine\n4. Propranolol\n5. Ca channel blockers\n6. Clonidine (small doses)\n7. Phenytoin (small doses)"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Cluster Headache",
+                      "icon": "👁️",
+                      "tags": [
+                        "cluster",
+                        "high-yield"
+                      ],
+                      "content": "{key}DEFINITION:{/key}\n• Vascular type\n• Usually occurs {hl}AT NIGHT{/hl}\n• Severe, Stabbing, Burning pain\n• Behind/around {hl}EYE{/hl}\n• Radiates to forehead, temple, face\n\n{key}DURATION & FREQUENCY:{/key}\n• {hl}30-60 minutes{/hl}\n• Several times in 24 hours\n• Night/early morning onset\n• May awaken patient from sleep\n\n{key}AUTONOMIC SIGNS (IPSILATERAL):{/key}\n• Lacrimation, Nasal congestion/discharge,\n• Facial redness, Facial sweating\n• Incomplete Horner's syndrome: {hl}Miosis + Ptosis{/hl}\n\n{key}DIFFERENTIAL DIAGNOSIS:{/key}\nMigraine, Glaucoma, Temporal arteritis, Local metastases, Hypnic headache"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Treatment of Cluster Headache",
+                      "icon": "💊",
+                      "tags": [
+                        "treatment",
+                        "cluster",
+                        "high-yield"
+                      ],
+                      "content": "{key}ACUTE ATTACK:{/key}\n1. {hl}100% Oxygen{/hl} (mask, 5-15 min)\n2. Ergotamine tartrate inhalation\n3. IV Dexamethasone\n4. SC Sumatriptan\n\n{key}PROPHYLACTIC:{/key}\n1. Prednisolone, 2. Ergotamine, 3. Lithium,\n4. Ca channel blockers, 5. Valproic acid"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Other Headache Types",
+                      "icon": "📝",
+                      "tags": [
+                        "other",
+                        "headache"
+                      ],
+                      "content": "• Chronic daily headaches, Temporal arteritis,\n• Trigeminal neuralgia, Carotidynia, Atypical facial pain\n(Discussion omitted)"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Vertigo",
+                      "icon": "🌀",
+                      "tags": [
+                        "vertigo",
+                        "high-yield"
+                      ],
+                      "content": "{key}TRUE VERTIGO:{/key}\n• Patient feels environment is spinning around them\n• OR (eyes closed) feels they are spinning themselves\n\n{key}ANATOMIC CENTERS:{/key}\n1. Vestibular system, 2. Eyes, 3. Brainstem,\n4. Cerebellum, 5. Temporal lobe, 6. Unknown pathways\n\n{key}PERIPHERAL VERTIGO:{/key}\n• Due to inner ear (Vestibular system/nerve)\n• {hl}Horizontal nystagmus{/hl} (short duration)\n• Severe nausea/vomiting\n• Severity {hl}DECREASES{/hl} with position change\n• Example: Meniere's syndrome\n\n{key}CENTRAL VERTIGO:{/key}\n• Due to brainstem, cerebellum, or pathways\n• {hl}FIXED VERTICAL nystagmus{/hl}\n• Longer duration\n• {hl}NO change{/hl} with position\n• Examples: Cerebellar hemorrhage, MS of brainstem"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Approach to Patient with Vertigo",
+                      "icon": "📋",
+                      "tags": [
+                        "vertigo",
+                        "approach",
+                        "high-yield"
+                      ],
+                      "content": "{key}HISTORY:{/key}\n1. Medication use, 2. Head trauma, 3. HTN + DM,\n4. Duration, 5. Tinnitus, 6. Hearing, 7. Associated symptoms,\n8. Age\n\n{key}NEUROLOGICAL EXAMINATION:{/key}\n1. CN 8 + adjacent (CN 5, 7), 2. Eye movements + Nystagmus,\n3. Cerebellar tests, 4. Position test, 5. Auscultation neck,\n6. Refractive errors\n\n{key}DIAGNOSTIC TESTS:{/key}\n1. Audiogram, 2. X-ray inner ear/Mastoid, 3. Brain CT,\n4. MRI (if needed), 5. ECG (elderly), 6. EEG (children - TLE),\n7. Evoked Potentials, 8. Electronevstagmography\n\n{key}COMMON CAUSES OF VERTIGO:{/key}\n1. Vestibular lesions, 2. Cerebellopontine angle lesions,\n3. Vertebrobasilar circulation, 4. Temporal cortex lesions,\n5. Rotan disorders, 6. Unclassified"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Chapter Summary",
+                      "icon": "📝",
+                      "tags": [
+                        "summary",
+                        "high-yield"
+                      ],
+                      "content": "{key}Headache is a common neurological disorder{/key}\n\n{key}TWO TYPES:{/key}\n1. {hl}PRIMARY HEADACHES:{/hl}\n• No specific cause\n• Chronic headaches\n• Migraine, Cluster, Tension\n\n2. {hl}SECONDARY HEADACHES:{/hl}\n• Specific causes\n• Brain tumors, CNS infections, Hydrocephalus, Sinusitis, ↑ Intraocular pressure\n\n{key}Treatment: Secondary → Treat underlying cause{/key}\n{key}If not treated timely → Life-threatening{/key}\n\n{key}MIGRAINE:{/key}\n• Primary, Women > Men, Unilateral\n• Nausea/Vomiting, Photophobia/Phonophobia\n• Family history positive\n\n{key}CLUSTER:{/key}\n• One eye, Flu-like symptoms (same side), Horner's\n\n{key}TENSION:{/key}\n• Chronic, Neck stiffness, Extends to temples\n\n{key}Brain imaging = Initial diagnostic test{/key}"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}MOST SEVERE HEADACHE: Bacterial Meningitis + Meningeal destruction{/ok}\n\n{ok}MIGRAINE:{/ok}\n• 12-15% worldwide, WOMEN > MEN\n• Periodic, Hereditary, Familial\n• UNILATERAL, Throbbing\n• Nausea/Vomiting, Photophobia/Phonophobia\n• Frequency/severity DECREASE with age\n\n{ok}MIGRAINE PROPHYLAXIS:{/ok}\n• Ergotamine, Amitriptyline, Cyproheptadine,\n• Propranolol, Ca channel blockers, Clonidine, Phenytoin\n\n{ok}CLUSTER HEADACHE:{/ok}\n• Vascular, NIGHT occurrence, Behind/around EYE\n• 30-60 min, Several times/24 hrs\n• IPSILATERAL autonomic signs: Lacrimation, Nasal congestion, Facial redness/sweating, Partial Horner's (Miosis + Ptosis)\n\n{ok}CLUSTER ACUTE:{/ok}\n• 100% O2 (5-15 min), Ergotamine inhalation,\n• IV Dexamethasone, SC Sumatriptan\n\n{ok}CLUSTER PROPHYLAXIS:{/ok}\n• Prednisolone, Ergotamine, Lithium,\n• Ca channel blockers, Valproic acid\n\n{ok}VERTIGO:{/ok}\n• PERIPHERAL: Inner ear, Horizontal nystagmus, Severity decreases with position change, Meniere's\n• CENTRAL: Brainstem/Cerebellum, VERTICAL nystagmus, Longer duration, NO change with position, MS, Cerebellar hemorrhage\n\n{ok}VERTIGO DIAGNOSIS:{/ok}\n• Audiogram, X-ray inner ear, Brain CT, MRI, ECG, EEG\n\n{ok}Brain imaging = Initial diagnostic test{/ok}"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://media.licdn.com/dms/image/v2/D4D22AQFx8u4D8PKwgQ/feedshare-shrink_800/B4DZsaNlBoJMAg-/0/1765671327171?e=2147483647&v=beta&t=YpfdycHH6IzRIL7Wy28CDKnSmfwFB9md_9bd8wgDbmA",
+                      "caption": "Headache Types and Classification",
+                      "title": "Headache Classification"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Headache - Types, Pathophysiology and Clinical Features",
+                      "src": "https://youtu.be/JMfmDAJo3qc?si=Zks5EGZ1-rD8ji0t",
+                      "thumbnail": "https://img.youtube.com/vi/JMfmDAJo3qc/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of headache including migraine, cluster, tension headaches, and vertigo"
+                    },
+                    {
+                      "title": "Vertigo - Peripheral vs Central",
+                      "src": "https://youtu.be/DMhKBUgizO8?si=0-h-TeDKOlGnc5US",
+                      "thumbnail": "https://img.youtube.com/vi/DMhKBUgizO8/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Overview of vertigo including classification, clinical features, and diagnostic approach"
+                    }
+                  ]
                 }
               ]
             }
