@@ -7650,6 +7650,795 @@
                       "description": "Kussmaul breathing — deep, rapid, labored breathing seen in uremia and diabetic coma (metabolic acidosis)."
                     }
                   ]
+                },
+                {
+                  "id": "seizure_disorders",
+                  "name": "Seizure Disorders",
+                  "icon": "⚡",
+                  "description": "Seizures, epilepsy, convulsions, and related conditions",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "A sudden, short-lived pathological electrical disturbance in the brain is called:",
+                        "options": [
+                          "Epilepsy",
+                          "Seizure",
+                          "Convulsion",
+                          "Pseudoseizure"
+                        ],
+                        "answer": 1,
+                        "explanation": "A seizure is a sudden, short-lived pathological electrical disturbance in the brain causing clinical symptoms/signs."
+                      },
+                      {
+                        "q": "Unprovoked seizures occurring at least 24 hours apart is the definition of:",
+                        "options": [
+                          "Seizure",
+                          "Epilepsy",
+                          "Convulsion",
+                          "Status epilepticus"
+                        ],
+                        "answer": 1,
+                        "explanation": "Epilepsy is defined as unprovoked seizures occurring at least 24 hours apart."
+                      },
+                      {
+                        "q": "The motor manifestation of a seizure characterized by abnormal tonic and clonic movements is called:",
+                        "options": [
+                          "Seizure",
+                          "Epilepsy",
+                          "Convulsion",
+                          "Aura"
+                        ],
+                        "answer": 2,
+                        "explanation": "Convulsion is the motor manifestation of a seizure, characterized by abnormal tonic and clonic movements."
+                      },
+                      {
+                        "q": "A false seizure of psychogenic origin with NO pathological electrical activity is called:",
+                        "options": [
+                          "Epilepsy",
+                          "Pseudoseizure",
+                          "Convulsion",
+                          "Status epilepticus"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pseudoseizure is a false seizure of psychogenic origin with NO pathological electrical activity in the brain."
+                      },
+                      {
+                        "q": "Focal neurological symptoms that occur SECONDS before a seizure and are important for localizing the seizure focus is called:",
+                        "options": [
+                          "Preictal phase",
+                          "Aura",
+                          "Postictal phase",
+                          "Interictal phase"
+                        ],
+                        "answer": 1,
+                        "explanation": "Aura refers to focal neurological symptoms (bad smell, bad taste, dizziness, visual symptoms) occurring SECONDS before a seizure."
+                      },
+                      {
+                        "q": "The phase AFTER a seizure ends, characterized by confusion, muscle pain, headache, and amnesia is called:",
+                        "options": [
+                          "Preictal phase",
+                          "Aura",
+                          "Postictal phase",
+                          "Interictal phase"
+                        ],
+                        "answer": 2,
+                        "explanation": "Postictal phase occurs after a seizure ends and is characterized by confusion, muscle pain, headache, and amnesia."
+                      },
+                      {
+                        "q": "The time BETWEEN two seizures is called:",
+                        "options": [
+                          "Preictal phase",
+                          "Aura",
+                          "Postictal phase",
+                          "Interictal phase"
+                        ],
+                        "answer": 3,
+                        "explanation": "Interictal phase is the time between two seizures. A shorter interval indicates a worse prognosis."
+                      },
+                      {
+                        "q": "Relatively coordinated involuntary motor symptoms (lip smacking, chewing) with postictal amnesia is called:",
+                        "options": [
+                          "Aura",
+                          "Automatism",
+                          "Convulsion",
+                          "Myoclonic jerk"
+                        ],
+                        "answer": 1,
+                        "explanation": "Automatism refers to relatively coordinated involuntary motor symptoms (lip smacking, chewing) with postictal amnesia."
+                      },
+                      {
+                        "q": "The most common cause of seizures in the elderly (>60 years) is:",
+                        "options": [
+                          "Idiopathic epilepsy",
+                          "Vascular disease (usually after stroke)",
+                          "Head trauma",
+                          "Brain tumors"
+                        ],
+                        "answer": 1,
+                        "explanation": "Vascular disease (usually after stroke) is the most common cause of seizures in the elderly."
+                      },
+                      {
+                        "q": "The most common cause of seizures in early childhood (6 months - 3 years) is:",
+                        "options": [
+                          "Idiopathic epilepsy",
+                          "Febrile convulsions",
+                          "Head trauma",
+                          "Brain tumors"
+                        ],
+                        "answer": 1,
+                        "explanation": "Febrile convulsions are the most common cause of seizures in early childhood (6 months - 3 years)."
+                      },
+                      {
+                        "q": "The type of seizure that starts with an aura and then becomes generalized is:",
+                        "options": [
+                          "Primary generalized tonic-clonic",
+                          "Secondary generalized tonic-clonic",
+                          "Simple partial",
+                          "Complex partial"
+                        ],
+                        "answer": 1,
+                        "explanation": "Secondary generalized tonic-clonic seizure starts with an aura (focal sign) and then becomes generalized."
+                      },
+                      {
+                        "q": "The tonic phase of a tonic-clonic seizure is characterized by:",
+                        "options": [
+                          "Clonic jerks of limbs",
+                          "Generalized stiffening of body and limbs",
+                          "Brief confusion",
+                          "Automatism"
+                        ],
+                        "answer": 1,
+                        "explanation": "The tonic phase of a tonic-clonic seizure is characterized by generalized stiffening of body and limbs, lasting 40-60 seconds."
+                      },
+                      {
+                        "q": "The clonic phase of a tonic-clonic seizure is characterized by:",
+                        "options": [
+                          "Generalized stiffening",
+                          "Clonic jerks of limbs, body, and head",
+                          "Postictal coma",
+                          "Aura"
+                        ],
+                        "answer": 1,
+                        "explanation": "The clonic phase of a tonic-clonic seizure is characterized by clonic jerks of limbs, body, and head, lasting about 40 seconds."
+                      },
+                      {
+                        "q": "A simple partial seizure is characterized by:",
+                        "options": [
+                          "Focal symptoms WITH consciousness impairment",
+                          "Focal symptoms WITHOUT consciousness impairment",
+                          "Generalized stiffening",
+                          "Automatism"
+                        ],
+                        "answer": 1,
+                        "explanation": "Simple partial seizure is characterized by focal symptoms WITHOUT consciousness impairment."
+                      },
+                      {
+                        "q": "Jacksonian epilepsy is a type of:",
+                        "options": [
+                          "Complex partial seizure",
+                          "Simple motor focal seizure that spreads to generalized",
+                          "Absence seizure",
+                          "Myoclonic seizure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Jacksonian epilepsy is a simple motor focal seizure that spreads to become generalized."
+                      },
+                      {
+                        "q": "Todd's paralysis is defined as:",
+                        "options": [
+                          "Post-seizure flaccid paralysis (up to 24 hours)",
+                          "Pre-seizure weakness",
+                          "Permanent paralysis after seizure",
+                          "Paralysis during seizure"
+                        ],
+                        "answer": 0,
+                        "explanation": "Todd's paralysis is post-seizure flaccid paralysis lasting up to 24 hours."
+                      },
+                      {
+                        "q": "Complex partial seizure most commonly originates from:",
+                        "options": [
+                          "Frontal lobe",
+                          "Temporal lobe",
+                          "Parietal lobe",
+                          "Occipital lobe"
+                        ],
+                        "answer": 1,
+                        "explanation": "Complex partial seizure most commonly originates from the temporal lobe."
+                      },
+                      {
+                        "q": "Complex partial seizure is also called:",
+                        "options": [
+                          "Jacksonian epilepsy",
+                          "Temporal lobe epilepsy",
+                          "Absence seizure",
+                          "Myoclonic epilepsy"
+                        ],
+                        "answer": 1,
+                        "explanation": "Complex partial seizure is also called temporal lobe epilepsy."
+                      },
+                      {
+                        "q": "Febrile convulsion occurs in children aged:",
+                        "options": [
+                          "0-3 months",
+                          "3 months to 5 years",
+                          "5-10 years",
+                          "10-15 years"
+                        ],
+                        "answer": 1,
+                        "explanation": "Febrile convulsion occurs in children aged 3 months to 5 years."
+                      },
+                      {
+                        "q": "Pseudoseizure is more common in:",
+                        "options": [
+                          "Elderly males",
+                          "Young girls",
+                          "Infants",
+                          "Middle-aged men"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pseudoseizure is more common in young girls."
+                      },
+                      {
+                        "q": "The diagnostic test for pseudoseizure is:",
+                        "options": [
+                          "EEG",
+                          "Serum prolactin level (elevated 20 min after REAL seizure)",
+                          "CT scan",
+                          "MRI"
+                        ],
+                        "answer": 1,
+                        "explanation": "Serum prolactin level is elevated 20 minutes after a REAL seizure, but normal in pseudoseizure."
+                      },
+                      {
+                        "q": "Status epilepticus is defined as:",
+                        "options": [
+                          "Continuous seizures WITHOUT consciousness recovery between attacks",
+                          "Single seizure lasting less than 5 minutes",
+                          "Seizures occurring 24 hours apart",
+                          "Pseudoseizure"
+                        ],
+                        "answer": 0,
+                        "explanation": "Status epilepticus is defined as continuous seizures WITHOUT consciousness recovery between attacks."
+                      },
+                      {
+                        "q": "The mortality rate of status epilepticus is:",
+                        "options": [
+                          "5%",
+                          "10%",
+                          "20%",
+                          "50%"
+                        ],
+                        "answer": 2,
+                        "explanation": "Status epilepticus has a 20% mortality rate."
+                      },
+                      {
+                        "q": "The treatment duration for epilepsy is at least:",
+                        "options": [
+                          "6 months without attacks",
+                          "1 year without attacks",
+                          "2 years without attacks",
+                          "5 years without attacks"
+                        ],
+                        "answer": 2,
+                        "explanation": "Treatment duration for epilepsy is at least 2 years without attacks, then gradually taper under doctor supervision."
+                      },
+                      {
+                        "q": "The drug of choice for absence (petit mal) seizures is:",
+                        "options": [
+                          "Phenytoin",
+                          "Carbamazepine",
+                          "Ethosuximide",
+                          "Phenobarbital"
+                        ],
+                        "answer": 2,
+                        "explanation": "Ethosuximide is the drug of choice for absence (petit mal) seizures."
+                      },
+                      {
+                        "q": "The drug of choice for myoclonic seizures is:",
+                        "options": [
+                          "Phenytoin",
+                          "Valproic acid",
+                          "Carbamazepine",
+                          "Ethosuximide"
+                        ],
+                        "answer": 1,
+                        "explanation": "Valproic acid is the drug of choice for myoclonic seizures."
+                      },
+                      {
+                        "q": "Which drug enhances GABA to treat seizures?",
+                        "options": [
+                          "Phenytoin",
+                          "Carbamazepine",
+                          "Benzodiazepines",
+                          "Ethosuximide"
+                        ],
+                        "answer": 2,
+                        "explanation": "Benzodiazepines enhance GABA to treat seizures."
+                      },
+                      {
+                        "q": "Which drug inhibits glutamate to treat seizures?",
+                        "options": [
+                          "Phenytoin",
+                          "Felbamate",
+                          "Valproic acid",
+                          "Ethosuximide"
+                        ],
+                        "answer": 1,
+                        "explanation": "Felbamate inhibits glutamate to treat seizures."
+                      },
+                      {
+                        "q": "Temporal lobe epilepsy may transform to:",
+                        "options": [
+                          "Status epilepticus",
+                          "Schizophrenia-like psychosis",
+                          "Febrile convulsion",
+                          "Pseudoseizure"
+                        ],
+                        "answer": 1,
+                        "explanation": "Temporal lobe epilepsy may transform to schizophrenia-like psychosis."
+                      },
+                      {
+                        "q": "In status epilepticus, which of the following is given IV?",
+                        "options": [
+                          "Glucose 50%",
+                          "Mannitol",
+                          "Hypertonic saline",
+                          "Naloxone"
+                        ],
+                        "answer": 0,
+                        "explanation": "In status epilepticus, Glucose 50% (25-50 mL IV) is given."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "What is the definition of a Seizure?",
+                        "a": "A sudden, short-lived pathological electrical disturbance in the brain causing clinical symptoms/signs."
+                      },
+                      {
+                        "q": "What is the definition of Epilepsy?",
+                        "a": "Unprovoked seizures occurring at least 24 hours apart."
+                      },
+                      {
+                        "q": "What is the definition of Convulsion?",
+                        "a": "The motor manifestation of a seizure, characterized by abnormal tonic and clonic movements."
+                      },
+                      {
+                        "q": "What is an Aura?",
+                        "a": "Focal neurological symptoms occurring SECONDS before a seizure; important for localizing the seizure focus."
+                      },
+                      {
+                        "q": "What is the Postictal phase?",
+                        "a": "The phase after a seizure ends, characterized by confusion, muscle pain, headache, and amnesia."
+                      },
+                      {
+                        "q": "What is the Interictal phase?",
+                        "a": "The time between two seizures. A shorter interval indicates a worse prognosis."
+                      },
+                      {
+                        "q": "What is Automatism?",
+                        "a": "Relatively coordinated involuntary motor symptoms with postictal amnesia."
+                      },
+                      {
+                        "q": "What is the most common cause of seizures in the elderly?",
+                        "a": "Vascular disease (usually after stroke)."
+                      },
+                      {
+                        "q": "What is the most common cause of seizures in early childhood?",
+                        "a": "Febrile convulsions."
+                      },
+                      {
+                        "q": "What is Jacksonian epilepsy?",
+                        "a": "A simple motor focal seizure that spreads to become generalized."
+                      },
+                      {
+                        "q": "What is Todd's paralysis?",
+                        "a": "Post-seizure flaccid paralysis lasting up to 24 hours."
+                      },
+                      {
+                        "q": "What is Complex Partial Seizure also called?",
+                        "a": "Temporal Lobe Epilepsy."
+                      },
+                      {
+                        "q": "What is the diagnostic test for Pseudoseizure?",
+                        "a": "Serum Prolactin level (elevated 20 min after a REAL seizure)."
+                      },
+                      {
+                        "q": "What is Status Epilepticus?",
+                        "a": "Continuous seizures WITHOUT consciousness recovery between attacks; a medical emergency with 20% mortality."
+                      },
+                      {
+                        "q": "What is the treatment duration for epilepsy?",
+                        "a": "At least 2 YEARS without attacks before gradually tapering."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "What is the definition of a Seizure?",
+                        "back": "A sudden, short-lived pathological electrical disturbance in the brain causing clinical symptoms/signs."
+                      },
+                      {
+                        "front": "What is the definition of Epilepsy?",
+                        "back": "Unprovoked seizures occurring at least 24 hours apart."
+                      },
+                      {
+                        "front": "What is the definition of Convulsion?",
+                        "back": "The motor manifestation of a seizure, characterized by abnormal tonic and clonic movements."
+                      },
+                      {
+                        "front": "What is an Aura?",
+                        "back": "Focal neurological symptoms (bad smell, bad taste, dizziness, visual symptoms) occurring SECONDS before a seizure; important for localizing the seizure focus."
+                      },
+                      {
+                        "front": "What is the Postictal phase?",
+                        "back": "The phase after a seizure ends, characterized by confusion, muscle pain, headache, amnesia, and slow waves on EEG."
+                      },
+                      {
+                        "front": "What is the Interictal phase?",
+                        "back": "The time between two seizures. A shorter interval indicates a worse prognosis."
+                      },
+                      {
+                        "front": "What is Automatism?",
+                        "back": "Relatively coordinated involuntary motor symptoms (lip smacking, chewing) with postictal amnesia."
+                      },
+                      {
+                        "front": "What is the most common cause of seizures in the elderly?",
+                        "back": "Vascular disease (usually after stroke)."
+                      },
+                      {
+                        "front": "What is the most common cause of seizures in early childhood (6 months - 3 years)?",
+                        "back": "Febrile convulsions."
+                      },
+                      {
+                        "front": "What is Jacksonian epilepsy?",
+                        "back": "A simple motor focal seizure that spreads to become generalized."
+                      },
+                      {
+                        "front": "What is Todd's paralysis?",
+                        "back": "Post-seizure flaccid paralysis lasting up to 24 hours."
+                      },
+                      {
+                        "front": "What is Complex Partial Seizure also called?",
+                        "back": "Temporal Lobe Epilepsy."
+                      },
+                      {
+                        "front": "What is the diagnostic test for Pseudoseizure?",
+                        "back": "Serum Prolactin level (elevated 20 min after a REAL seizure; normal in pseudoseizure)."
+                      },
+                      {
+                        "front": "What is Status Epilepticus?",
+                        "back": "Continuous seizures WITHOUT consciousness recovery between attacks. It is a medical emergency with 20% mortality."
+                      },
+                      {
+                        "front": "What is the treatment duration for epilepsy?",
+                        "back": "At least 2 YEARS without attacks before gradually tapering under doctor supervision."
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Terminology",
+                        "icon": "🧠",
+                        "code": "S-E-C",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Seizure (Electrical disturbance)"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Epilepsy (Recurrent unprovoked, 24h apart)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Convulsion (Motor manifestation)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Phases of Seizure",
+                        "icon": "⏱️",
+                        "code": "A-P-P-I",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Aura (Seconds before)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Preictal (Warning, longer)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Postictal (After, confusion)"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "Interictal (Between, prognosis)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Tonic-Clonic Seizure",
+                        "icon": "⚡",
+                        "code": "T-C-P",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Tonic (40-60 sec, stiffening)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Clonic (40 sec, jerks)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Postictal (Coma 1 min, then confusion)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Partial Seizures",
+                        "icon": "🎯",
+                        "code": "S-C",
+                        "items": [
+                          {
+                            "letter": "S",
+                            "text": "Simple (No consciousness impairment)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Complex (With consciousness impairment, Temporal lobe)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Special Seizure Types",
+                        "icon": "⭐",
+                        "code": "R-F-P-S",
+                        "items": [
+                          {
+                            "letter": "R",
+                            "text": "Reflex (Specific stimuli)"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Febrile (Children 3 mo-5 yr + Fever)"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Pseudoseizure (Young girls, Prolactin)"
+                          },
+                          {
+                            "letter": "S",
+                            "text": "Status Epilepticus (Emergency, 20% mortality)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Drugs by Seizure Type",
+                        "icon": "💊",
+                        "code": "G-A-M",
+                        "items": [
+                          {
+                            "letter": "G",
+                            "text": "Generalized: Phenytoin, Carbamazepine, Valproic acid"
+                          },
+                          {
+                            "letter": "A",
+                            "text": "Absence: Ethosuximide, Valproic acid, Clonazepam"
+                          },
+                          {
+                            "letter": "M",
+                            "text": "Myoclonic: Valproic acid, Clonazepam"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Mechanisms of Antiepileptic Drugs",
+                        "icon": "⚙️",
+                        "code": "N-C-G-G",
+                        "items": [
+                          {
+                            "letter": "N",
+                            "text": "Na+ channel (Phenytoin, Carbamazepine, Lamotrigine)"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Ca++ channel (Ethosuximide, Valproic acid)"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "GABA enhance (Benzodiazepines, Barbiturates)"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Glutamate inhibit (Felbamate, Topiramate)"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Treatment Duration",
+                        "icon": "📅",
+                        "code": "2 YEARS without attacks",
+                        "items": [
+                          {
+                            "letter": "2",
+                            "text": "At least 2 years without attacks before tapering"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Status Epilepticus",
+                        "icon": "🚨",
+                        "code": "Airway + O2 + IV + Glucose 50%",
+                        "items": [
+                          {
+                            "letter": "A",
+                            "text": "Maintain airway"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Oxygen"
+                          },
+                          {
+                            "letter": "I",
+                            "text": "IV access + Fluids"
+                          },
+                          {
+                            "letter": "G",
+                            "text": "Glucose 50%: 25-50 mL IV"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Prognosis",
+                        "icon": "🔮",
+                        "code": "Temporal lobe → Schizophrenia-like psychosis",
+                        "items": [
+                          {
+                            "letter": "T",
+                            "text": "Temporal lobe epilepsy may transform to schizophrenia-like psychosis"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "Definitions & Terminology",
+                      "icon": "📖",
+                      "tags": [
+                        "definitions",
+                        "terminology",
+                        "high-yield"
+                      ],
+                      "content": "{key}SEIZURE:{/key}\n• Sudden, short-lived pathological electrical disturbance in brain\n• Causes clinical symptoms/signs:\n  - Consciousness disturbances\n  - Motor, Psychic, Sensory, Autonomic symptoms\n• Recorded by EEG\n\n{key}EPILEPSY:{/key}\n• Unprovoked seizures occurring at least 24 hours apart\n\n{key}CONVULSION:{/key}\n• Motor manifestation of seizure\n• Characterized by abnormal TONIC and CLONIC movements\n\n{key}PSEUDOSEIZURE:{/key}\n• False seizure (psychogenic origin)\n• NO pathological electrical activity in brain\n\n{key}AURA:{/key}\n• Focal neurological symptoms (bad smell, bad taste, dizziness, visual symptoms)\n• Occurs SECONDS before seizure\n• Important for LOCALIZING seizure focus\n\n{key}MYOCLONIC JERKS:{/key}\n• Sudden, rapid, abnormal limb jerks\n• Due to rapid muscle contraction (especially flexor muscles)\n\n{key}PREICTAL PHASE:{/key}\n• Warning state before seizure\n• Symptoms: Nervousness, Euphoria, Fatigue, Food craving\n• DIFFERENT from Aura: Aura is SHORTER, Preictal is LONGER\n\n{key}POSTICTAL PHASE:{/key}\n• After seizure ends\n• Confusion, Muscle pain, Headache, Amnesia\n• EEG: Slow waves\n\n{key}INTERICTAL PHASE:{/key}\n• Time BETWEEN two seizures\n• SHORTER interval = WORSE prognosis\n\n{key}AUTOMATISM:{/key}\n• Relatively coordinated motor symptoms\n• Involuntary, automatic (lip smacking, chewing)\n• Patient UNAWARE + NO memory (Postictal amnesia)"
+                    },
+                    {
+                      "type": "info",
+                      "title": "Etiology - Causes of Seizures",
+                      "icon": "🔬",
+                      "tags": [
+                        "etiology",
+                        "causes",
+                        "high-yield"
+                      ],
+                      "content": "{key}TWO MAIN CATEGORIES:{/key}\n\n{key}A. IDIOPATHIC (Primary):{/key} Unknown cause\n\n{key}B. SYMPTOMATIC (Secondary):{/key} Known cause\n\n{key}KNOWN CAUSES:{/key}\n• Family/Genetic factors\n• Diseases during pregnancy and birth\n• Brain infections\n• Brain tumors\n• Cerebrovascular lesions\n• Metabolic disorders\n• Electrolyte imbalances\n• Toxins\n• Head trauma\n• Degenerative brain diseases"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Causes by Age Group",
+                      "icon": "👶",
+                      "tags": [
+                        "age",
+                        "causes",
+                        "high-yield"
+                      ],
+                      "content": "{key}NEWBORN (Neonatal):{/key}\n• Birth injury, Trauma during delivery\n• Hypoxia\n• Metabolic disorders (hypoglycemia, hypocalcemia, hypomagnesemia)\n• Phenylketonuria\n• Vitamin B6 deficiency\n• Infections\n\n{key}INFANTILE:{/key}\n• Infantile spasms\n\n{key}EARLY CHILDHOOD (6 months - 3 years):{/key}\n• Febrile convulsions\n• Cortical dysplasia\n\n{key}CHILDHOOD (3-10 years):{/key}\n• Idiopathic epilepsy (likely hereditary)\n• Absence seizures\n• Rolandic epilepsy\n\n{key}ADOLESCENCE (10-18 years):{/key}\n• Idiopathic epilepsy\n• Juvenile myoclonic epilepsy\n• Head trauma\n• Drugs\n\n{key}EARLY ADULTHOOD (18-35 years):{/key}\n• Idiopathic epilepsy\n• Head trauma\n• Neoplasm, Withdrawal, Alcohol, Drugs\n\n{key}ADULTHOOD (35-60 years):{/key}\n• Head trauma\n• Neoplasm\n• Vascular disease\n• Alcohol/Drug withdrawal\n\n{key}ELDERLY (>60 years):{/key}\n• Vascular disease\n• Usually AFTER stroke\n• Brain tumors\n• Abscess\n• Degenerative diseases\n• Head trauma"
+                    },
+                    {
+                      "type": "info",
+                      "title": "International Classification of Seizures",
+                      "icon": "📊",
+                      "tags": [
+                        "classification",
+                        "high-yield"
+                      ],
+                      "content": "{key}PRIMARY GENERALIZED SEIZURES:{/key}\n• Tonic Clonic Seizure\n• Tonic Seizure\n• Clonic Seizure\n• Myoclonic Seizure\n• Atonic Seizure\n• Petitmal Seizure (Atypical & Typical)\n\n{key}SECONDARY GENERALIZED SEIZURES{/key}\n\n{key}PARTIAL (FOCAL) SEIZURES:{/key}\n• Simple Partial\n• Complex Partial"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Tonic-Clonic Seizure (Grand Mal)",
+                      "icon": "⚡",
+                      "tags": [
+                        "tonic-clonic",
+                        "grand mal",
+                        "high-yield"
+                      ],
+                      "content": "{key}PHASES:{/key}\n\n{key}1. TONIC PHASE:{/key}\n• Duration: 40-60 seconds\n• Generalized stiffening of body and limbs\n• Back arched\n• Epileptic cry\n• Cyanosis\n• Incontinence\n\n{key}2. CLONIC PHASE:{/key}\n• Duration: 40 seconds\n• Clonic jerks of limbs, body, head\n• Rapid breathing\n• Salivary frothing\n• Cyanosis\n• Eyes blinking\n\n{key}3. POSTICTAL PHASE:{/key}\n• Patient goes into coma for 1 minute\n• Then consciousness returns\n• Brief confusion\n• Limb pain\n• May fall asleep\n\n{key}SECONDARY GENERALIZED TONIC-CLONIC:{/key}\n• Starts with AURA (focal sign) → Then generalized"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Partial (Focal) Seizures",
+                      "icon": "🎯",
+                      "tags": [
+                        "partial",
+                        "focal",
+                        "high-yield"
+                      ],
+                      "content": "{key}SIMPLE PARTIAL SEIZURE:{/key}\n• Focal symptoms WITHOUT consciousness impairment\n• Symptoms: Bad taste, Bad smell, Dizziness, Visual disturbances\n\n{key}SIMPLE MOTOR FOCAL SEIZURE:{/key}\n• Focal motor symptoms\n• Origin: Frontal lobe\n• Clonic movements of face/hands\n• {hl}JACKSONIAN EPILEPSY:{/hl} If spreads to generalized\n• {hl}TODD'S PARALYSIS:{/hl} Post-seizure flaccid paralysis (up to 24 hours)\n\n{key}OTHER PARTIAL SEIZURE TYPES:{/key}\n• Adverse\n• Somatosensorial\n• Autonomic\n• Abdominal\n\n{key}COMPLEX PARTIAL SEIZURE:{/key}\n• Focal origin + Generalized symptoms\n• Most commonly from {hl}TEMPORAL LOBE{/hl}\n• Also called: {hl}TEMPORAL LOBE EPILEPSY{/hl}\n• Associated with psychic/motor symptoms"
+                    },
+                    {
+                      "type": "important",
+                      "title": "Special Seizure Types",
+                      "icon": "⭐",
+                      "tags": [
+                        "special",
+                        "types",
+                        "high-yield"
+                      ],
+                      "content": "{key}REFLEX EPILEPSY:{/key}\n• Seizures triggered by specific stimuli (music, TV)\n\n{key}FEBRILE CONVULSION:{/key}\n• Children aged 3 months to 5 years\n• Always follows FEVER\n\n{key}PSEUDOSEIZURE:{/key}\n• False seizure\n• More common in {hl}YOUNG GIRLS{/hl}\n• Long duration\n• Worsens when trying to restrain movements\n• {hl}DIAGNOSIS:{/hl} Serum {hl}PROLACTIN{/hl} level (elevated 20 min after REAL seizure)\n\n{key}STATUS EPILEPTICUS:{/key}\n• Continuous seizures WITHOUT consciousness recovery between attacks\n• {hlpu}MEDICAL EMERGENCY{/hlpu} → Requires intensive care\n• Can be generalized or focal"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Diagnosis",
+                      "icon": "🔬",
+                      "tags": [
+                        "diagnosis",
+                        "investigations",
+                        "high-yield"
+                      ],
+                      "content": "{key}LABORATORY INVESTIGATIONS:{/key}\n• EEG (20 minutes)\n• Serum Prolactin (20 min after attack)\n• Brain CT scan\n• Skull X-Ray\n• Biochemical and serological tests\n\n{key}DIFFERENTIAL DIAGNOSIS:{/key}\n• Syncope\n• Panic attack\n• Tic\n• TIA\n• Pseudoseizure"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Treatment",
+                      "icon": "💊",
+                      "tags": [
+                        "treatment",
+                        "management",
+                        "high-yield"
+                      ],
+                      "content": "{key}GENERAL MEASURES:{/key}\n• Avoid: Sleep deprivation, Mental fatigue, High altitudes, Driving\n\n{key}MEDICAL TREATMENT:{/key}\n• Duration: At least {hl}2 YEARS{/hl} without attacks\n• Then gradually taper under doctor supervision\n• Aim: Start with {hl}ONE drug{/hl}\n\n{key}DRUGS BY SEIZURE TYPE:{/key}\n\n{key}1. GENERALIZED SEIZURES (Tonic-Clonic):{/key}\n• Phenytoin: 200-400 mg\n• Carbamazepine: 600-1200 mg\n• Valproic acid: 1500-2000 mg\n• Phenobarbital: 100-200 mg\n• Primidone: 750-1500 mg\n• Felbamate: 1200-3600 mg\n• Gabapentin: 900-1800 mg\n• Lamotrigine: 100-500 mg\n• Tiagabine: 32-56 mg\n\n{key}2. ABSENCE (Petit Mal) SEIZURES:{/key}\n• Ethosuximide: 100-1500 mg\n• Valproic acid: 1500-2000 mg\n• Clonazepam: 0.04-0.2 mg\n\n{key}3. MYOCLONIC SEIZURES:{/key}\n• Valproic acid: 1500-2000 mg\n• Clonazepam: 0.04-0.2 mg\n\n{key}MECHANISMS OF ANTIEPILEPTIC DRUGS:{/key}\n• Na+ channel blockers: Phenytoin, Carbamazepine, Lamotrigine, Topiramate, Valproic acid\n• Ca++ channel blockers: Ethosuximide, Valproic acid\n• Enhance GABA: Benzodiazepines, Barbiturates, Valproic acid, Gabapentin, Vigabatrin, Topiramate, Felbamate\n• Inhibit Glutamate: Felbamate, Topiramate\n\n{key}STATUS EPILEPTICUS TREATMENT (Tonic-Clonic):{/key}\n1. Maintain airway + Oxygen\n2. IV access + Fluids if indicated\n3. Glucose 50%: 25-50 mL IV\n4. Antiepileptic drugs (sequential if no response)\n\n{key}SURGICAL TREATMENT:{/key}\n• Vagal nerve stimulation\n• Surgery (in specialized centers)"
+                    },
+                    {
+                      "type": "note",
+                      "title": "Prognosis",
+                      "icon": "🔮",
+                      "tags": [
+                        "prognosis",
+                        "high-yield"
+                      ],
+                      "content": "{key}Better prognosis if:{/key}\n• Organic lesions present + Regular treatment given\n\n{key}Temporal lobe epilepsy:{/key}\n• May transform to {hl}SCHIZOPHRENIA-like psychosis{/hl}\n\n{key}Status epilepticus:{/key}\n• {hlpu}20% mortality{/hlpu} in USA"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "Never Forget - High Yield Points",
+                      "icon": "⭐",
+                      "tags": [
+                        "high-yield",
+                        "exam",
+                        "important"
+                      ],
+                      "content": "{ok}SEIZURE = Sudden, short-lived pathological electrical disturbance{/ok}\n{ok}EPILEPSY = Unprovoked seizures at least 24 hours apart{/ok}\n{ok}CONVULSION = Motor manifestation (Tonic + Clonic){/ok}\n\n{ok}AURA: Focal symptoms BEFORE seizure (seconds){/ok}\n{ok}PREICTAL: Warning symptoms BEFORE seizure (longer than aura){/ok}\n{ok}POSTICTAL: After seizure (Confusion, Amnesia, Slow EEG){/ok}\n{ok}INTERICTAL: BETWEEN seizures (Shorter = Worse prognosis){/ok}\n\n{ok}TONIC PHASE: 40-60 seconds (Stiffening, Cry, Cyanosis, Incontinence){/ok}\n{ok}CLONIC PHASE: 40 seconds (Jerks, Frothing, Cyanosis){/ok}\n\n{ok}JACKSONIAN EPILEPSY: Simple motor focal → Generalized{/ok}\n{ok}TODD'S PARALYSIS: Post-seizure flaccid paralysis (up to 24 hrs){/ok}\n{ok}TEMPORAL LOBE EPILEPSY = Complex partial seizure{/ok}\n\n{ok}FEBRILE CONVULSION: 3 months - 5 years + Fever{/ok}\n{ok}PSEUDOSEIZURE: Young girls, Long duration, Worsens with restraint, Serum PROLACTIN (↑ 20 min after REAL seizure){/ok}\n\n{ok}STATUS EPILEPTICUS: Continuous seizures WITHOUT consciousness recovery → MEDICAL EMERGENCY{/ok}\n• 20% mortality\n\n{ok}TREATMENT DURATION: At least 2 YEARS without attacks{/ok}\n{ok}Start with ONE drug{/ok}\n\n{ok}DRUGS:{/ok}\n• Generalized: Phenytoin, Carbamazepine, Valproic acid\n• Absence: Ethosuximide, Valproic acid, Clonazepam\n• Myoclonic: Valproic acid, Clonazepam\n\n{ok}MECHANISMS:{/ok}\n• Na+ channel: Phenytoin, Carbamazepine, Lamotrigine\n• Ca++ channel: Ethosuximide, Valproic acid\n• GABA enhance: Benzodiazepines, Barbiturates, Valproic acid\n• Glutamate inhibit: Felbamate, Topiramate\n\n{ok}STATUS EPILEPTICUS: Give Glucose 50% (25-50 mL IV){/ok}\n\n{ok}TEMPORAL LOBE EPILEPSY: May transform to SCHIZOPHRENIA-like psychosis{/ok}\n\n{ok}SURGICAL: Vagal nerve stimulation + Surgery (specialized centers){/ok}"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYCawe6Lv-NlpYX8QjhDgNhsFyqiz4A9d8Vkl0GI-X1G0mBq63yuwZRo&s=10",
+                      "caption": "Types of Generalized Seizures",
+                      "title": "Types of Seizures"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "Seizure Disorders - Pathophysiology and Clinical Features",
+                      "src": "https://youtu.be/frhzr8_spNo?si=mfMWoiiyFqxxe_DV",
+                      "thumbnail": "https://img.youtube.com/vi/frhzr8_spNo/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of seizure disorders including definitions, classification, clinical features, diagnosis, and management"
+                    }
+                  ]
                 }
               ]
             }
