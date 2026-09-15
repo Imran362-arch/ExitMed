@@ -2379,9 +2379,10 @@ function extractYouTubeId(url){
 function isDirectVideo(url){
   return /\.(mp4|webm|ogg|mov|m4v)(\?|$)/i.test(url||'');
 }
-function openVideoPlayer(src){
+async function openVideoPlayer(src){
   const modal=document.getElementById('videoPlayerModal');
   const iframe=document.getElementById('videoPlayerIframe');
+  const container=document.getElementById('videoPlayerContainer');
   const ytId=extractYouTubeId(src);
   if(ytId){
     iframe.src='https://www.youtube.com/embed/'+ytId+'?autoplay=1&rel=0&modestbranding=1&playsinline=1';
@@ -2389,6 +2390,19 @@ function openVideoPlayer(src){
     iframe.src=src;
   }
   modal.classList.add('show');
+  // Auto-enter fullscreen + lock landscape
+  setTimeout(async ()=>{
+    try{
+      if(document.fullscreenElement!==container){
+        await container.requestFullscreen?.();
+      }
+      if(screen.orientation&&screen.orientation.lock){
+        await screen.orientation.lock('landscape');
+      }
+    }catch(e){
+      console.warn('Auto-landscape failed:',e);
+    }
+  },300);
 }
 function closeVideoPlayer(){
   const modal=document.getElementById('videoPlayerModal');
@@ -2402,19 +2416,27 @@ function setVideoSpeed(val){}
 function setVideoVolume(val){}
 function toggleVideoMute(){}
 function seekVideo(e){}
-function toggleVideoOrientation(){
+async function toggleVideoOrientation(){
   const modal=document.getElementById('videoPlayerModal');
+  const container=document.getElementById('videoPlayerContainer');
   const isLandscape=modal.classList.contains('landscape');
-  if(isLandscape){
-    modal.classList.remove('landscape');modal.classList.add('portrait');
-    document.getElementById('videoOrientationIcon').textContent='📱';
-    document.getElementById('videoOrientationLabel').textContent='Portrait';
-  }else{
-    modal.classList.remove('portrait');modal.classList.add('landscape');
-    document.getElementById('videoOrientationIcon').textContent='🖥';
-    document.getElementById('videoOrientationLabel').textContent='Landscape';
+  const target=isLandscape?'portrait':'landscape';
+  modal.classList.remove('landscape','portrait');
+  modal.classList.add(target);
+  document.getElementById('videoOrientationIcon').textContent=target==='landscape'?'🖥':'📱';
+  document.getElementById('videoOrientationLabel').textContent=target==='landscape'?'Landscape':'Portrait';
+  try{
+    if(document.fullscreenElement!==container){
+      await container.requestFullscreen?.();
+    }
+    if(screen.orientation&&screen.orientation.lock){
+      await screen.orientation.lock(target);
+    }
+  }catch(e){
+    console.warn('Orientation lock failed:',e);
   }
 }
+
 function toggleVideoFullscreen(){
   const container=document.getElementById('videoPlayerContainer');
   if(!document.fullscreenElement){container.requestFullscreen?.()}
