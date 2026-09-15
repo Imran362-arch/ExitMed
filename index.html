@@ -2390,25 +2390,48 @@ async function openVideoPlayer(src){
     iframe.src=src;
   }
   modal.classList.add('show');
-  // Auto-enter fullscreen + lock landscape
+  // Force landscape via CSS transform + fullscreen
+  setTimeout(()=>{ enterVideoFullscreen('landscape'); },200);
+}
+
+async function enterVideoFullscreen(orientation){
+  const container=document.getElementById('videoPlayerContainer');
+  const modal=document.getElementById('videoPlayerModal');
+  // 1. Update classes
+  modal.classList.remove('landscape','portrait');
+  modal.classList.add(orientation);
+  document.getElementById('videoOrientationIcon').textContent=orientation==='landscape'?'🖥':'📱';
+  document.getElementById('videoOrientationLabel').textContent=orientation==='landscape'?'Landscape':'Portrait';
+  // 2. Request fullscreen
+  try{
+    if(document.fullscreenElement!==container){
+      if(container.requestFullscreen){ await container.requestFullscreen(); }
+      else if(container.webkitRequestFullscreen){ await container.webkitRequestFullscreen(); }
+      else if(container.mozRequestFullScreen){ await container.mozRequestFullScreen(); }
+      else if(container.msRequestFullscreen){ await container.msRequestFullscreen(); }
+    }
+  }catch(e){ console.warn('Fullscreen failed:',e); }
+  // 3. Try to lock orientation (only works after fullscreen)
   setTimeout(async ()=>{
     try{
-      if(document.fullscreenElement!==container){
-        await container.requestFullscreen?.();
+      const so=screen.orientation||screen.mozOrientation||screen.msOrientation;
+      if(so&&so.lock){
+        await so.lock(orientation);
+        console.log('Orientation locked:',orientation);
       }
-      if(screen.orientation&&screen.orientation.lock){
-        await screen.orientation.lock('landscape');
-      }
-    }catch(e){
-      console.warn('Auto-landscape failed:',e);
-    }
-  },300);
+    }catch(e){ console.warn('Orientation lock failed:',e); }
+  },500);
 }
 function closeVideoPlayer(){
   const modal=document.getElementById('videoPlayerModal');
   const iframe=document.getElementById('videoPlayerIframe');
   iframe.src='';
   modal.classList.remove('show');
+  if(document.fullscreenElement){ document.exitFullscreen?.(); }
+  try{
+    const so=screen.orientation||screen.mozOrientation||screen.msOrientation;
+    if(so&&so.unlock){ so.unlock(); }
+  }catch(e){}
 }
 function toggleVideoPlay(){}
 function skipVideo(sec){}
@@ -2418,29 +2441,19 @@ function toggleVideoMute(){}
 function seekVideo(e){}
 async function toggleVideoOrientation(){
   const modal=document.getElementById('videoPlayerModal');
-  const container=document.getElementById('videoPlayerContainer');
   const isLandscape=modal.classList.contains('landscape');
-  const target=isLandscape?'portrait':'landscape';
-  modal.classList.remove('landscape','portrait');
-  modal.classList.add(target);
-  document.getElementById('videoOrientationIcon').textContent=target==='landscape'?'🖥':'📱';
-  document.getElementById('videoOrientationLabel').textContent=target==='landscape'?'Landscape':'Portrait';
-  try{
-    if(document.fullscreenElement!==container){
-      await container.requestFullscreen?.();
-    }
-    if(screen.orientation&&screen.orientation.lock){
-      await screen.orientation.lock(target);
-    }
-  }catch(e){
-    console.warn('Orientation lock failed:',e);
-  }
+  await enterVideoFullscreen(isLandscape?'portrait':'landscape');
 }
 
 function toggleVideoFullscreen(){
   const container=document.getElementById('videoPlayerContainer');
-  if(!document.fullscreenElement){container.requestFullscreen?.()}
-  else{document.exitFullscreen?.()}
+  const modal=document.getElementById('videoPlayerModal');
+  const isLandscape=modal.classList.contains('landscape');
+  if(!document.fullscreenElement){
+    enterVideoFullscreen(isLandscape?'landscape':'portrait');
+  }else{
+    document.exitFullscreen?.();
+  }
 }
 
 function renderImages(images){
