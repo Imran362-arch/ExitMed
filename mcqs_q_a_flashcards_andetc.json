@@ -13655,8 +13655,856 @@
                   }
                 }
               ]
+            },
+            {
+              "id": "neurosurgery",
+              "name": "Neurosurgery",
+              "icon": "🧠",
+              "description": "Surgical disorders of the brain, spine, and nervous system",
+              "subtopics": [
+                {
+                  "id": "high_icp_syndrome",
+                  "name": "High ICP Syndrome",
+                  "icon": "📈",
+                  "description": "Elevated intracranial pressure, pathophysiology, herniation syndromes, and management",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "په یو روغ بالغ انسان کې د intracranial pressure (ICP) نورماله اندازه څومره ده؟",
+                        "options": [
+                          "۰-۵ mmHg",
+                          "۵-۱۵ mmHg",
+                          "۱۵-۲۰ mmHg",
+                          "۲۰-۲۵ mmHg"
+                        ],
+                        "answer": 1,
+                        "explanation": "د انسان د داخل قحفي فشار (ICP) نورماله اندازه ۵-۱۵ mmHg ده."
+                      },
+                      {
+                        "q": "د High ICP Syndrome تعریف دا دی چې د intracranial pressure له دې اندازې څخه لوړ شي:",
+                        "options": [
+                          "۱۰ mmHg",
+                          "۱۵ mmHg",
+                          "۲۰ mmHg",
+                          "۲۵ mmHg"
+                        ],
+                        "answer": 2,
+                        "explanation": "هر څه چې د داخل قحفي فشار له ۲۰ mmHg څخه زیات شي، High ICP Syndrome بلل کیږي."
+                      },
+                      {
+                        "q": "د Monro-Kellie Doctrine له مخې، د جمجمې دننه درې برخې دي. د دې برخو نورماله تناسب څه دی؟",
+                        "options": [
+                          "Brain ۸۰٪، Blood ۱۰٪، CSF ۱۰٪",
+                          "Brain ۷۰٪، Blood ۲۰٪، CSF ۱۰٪",
+                          "Brain ۶۰٪، Blood ۲۰٪، CSF ۲۰٪",
+                          "Brain ۵۰٪، Blood ۳۰٪، CSF ۲۰٪"
+                        ],
+                        "answer": 0,
+                        "explanation": "د نارمل ICP لپاره: Brain (۸۰٪)، Blood (۱۰٪)، CSF (۱۰٪)."
+                      },
+                      {
+                        "q": "د High ICP Syndrome بنسټیز پاتوفیزیولوژي کومه ده؟",
+                        "options": [
+                          "د مغز میتابولیزم کمیدل",
+                          "د intracranial برخو له یوې برخې حجم زیاتیدل پرته له جبران",
+                          "د مغز د وینې جریان کمیدل",
+                          "د CSF تولید له لاسه ورکول"
+                        ],
+                        "answer": 1,
+                        "explanation": "څرنګه چې د مغز هډوکي محوطه کې قرار لري او د انبساط قابلیت نلري، د هر څه چې د داخل قحفي اجزاوو په حجم کې زیاتوالی راشي، د High ICP Syndrome لامل ګرځي."
+                      },
+                      {
+                        "q": "د Monro-Kellie Doctrine له مخې، کومه برخه د جمجمې دننه ثابته حجم نه لري؟",
+                        "options": [
+                          "Brain",
+                          "Blood",
+                          "CSF",
+                          "Skull"
+                        ],
+                        "answer": 3,
+                        "explanation": "Skull د جمجمې دننه ثابته حجم نه لري. Brain, Blood, او CSF د Monro-Kellie Doctrine له مخې ثابت حجم لري."
+                      },
+                      {
+                        "q": "کوم جبرانی میکانيزم د CSF د spinal subarachnoid space ته د لېږدولو له لارې د ICP نورمال ساتلو کې مرسته کوي؟",
+                        "options": [
+                          "Autoregulation",
+                          "Volume Buffering System",
+                          "Cushing Response",
+                          "Monroe-Kellie Doctrine"
+                        ],
+                        "answer": 1,
+                        "explanation": "Volume Buffering System د CSF د spinal subarachnoid space ته د لېږدولو له لارې د ICP نورمال ساتلو کې مرسته کوي."
+                      },
+                      {
+                        "q": "کوم جبرانی میکانيزم د مغز د وینې د رګونو د تنګیدو له لارې د مغز د وینې حجم کموي؟",
+                        "options": [
+                          "Volume Buffering System",
+                          "Autoregulation",
+                          "Cushing Response",
+                          "Hydrocephalus"
+                        ],
+                        "answer": 1,
+                        "explanation": "Autoregulation د مغز د وینې د رګونو د تنګیدو له لارې د مغز د وینې حجم کموي."
+                      },
+                      {
+                        "q": "د Cushing Response د لوړ ICP نښه ده. کومه یوه د Cushing Response برخه نه ده؟",
+                        "options": [
+                          "Hypertension",
+                          "Bradycardia",
+                          "Tachypnea",
+                          "غیر منظم تنفسي نمونه"
+                        ],
+                        "answer": 2,
+                        "explanation": "Tachypnea د Cushing Response برخه نه ده. Cushing Response درې برخې لري: Hypertension, Bradycardia, Chyne-Stroke Respiration."
+                      },
+                      {
+                        "q": "د Cushing Response کې د تنفسي بدلونونو لپاره د مغز کومه برخه مسؤوله ده؟",
+                        "options": [
+                          "Cortex",
+                          "Cerebellum",
+                          "Medulla Oblongata",
+                          "Pons"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ICP د ډیر زیاتوالي له امله Medulla Oblongata تر فشار لاندې راخي او ناروغ ته تنفسي ستونزی پیدا کیږي (Chyne-Stroke Respiration)."
+                      },
+                      {
+                        "q": "د High ICP Syndrome ترټولو عام لامل چې د مغز د حجم زیاتیدو سره تړاو لري کوم دی؟",
+                        "options": [
+                          "Cerebral edema",
+                          "Hydrocephalus",
+                          "Intracranial hematoma",
+                          "Brain tumor"
+                        ],
+                        "answer": 0,
+                        "explanation": "Cerebral edema د High ICP Syndrome ترټولو عام لامل دی چې د مغز د حجم زیاتیدو سره تړاو لري."
+                      },
+                      {
+                        "q": "د High ICP Syndrome لامل چې د CSF د حجم زیاتیدو سره تړاو لري کوم دی؟",
+                        "options": [
+                          "Cerebral contusion",
+                          "Hydrocephalus",
+                          "Brain abscess",
+                          "Cerebral venous thrombosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hydrocephalus د CSF د حجم زیاتیدو سره تړاو لري."
+                      },
+                      {
+                        "q": "د High ICP Syndrome لامل چې د وینې د حجم زیاتیدو سره تړاو لري کوم دی؟",
+                        "options": [
+                          "Hydrocephalus",
+                          "Hyperemia",
+                          "Brain cyst",
+                          "Hypoventilation"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hyperemia د وینې د حجم زیاتیدو سره تړاو لري."
+                      },
+                      {
+                        "q": "د ICP د اندازه کولو لپاره ترټولو معیاري طریقه کومه ده؟",
+                        "options": [
+                          "Intra Ventricular Catheter insertion",
+                          "Intracerebral Catheter Insertion",
+                          "Subarachnoid Space Catheter Insertion",
+                          "Epidural Catheter insertion"
+                        ],
+                        "answer": 0,
+                        "explanation": "Intra Ventricular Catheter insertion د ICP د اندازه کولو لپاره ترټولو معیاري طریقه ده."
+                      },
+                      {
+                        "q": "د لوړ ICP لومړنی عام علامه کومه ده؟",
+                        "options": [
+                          "سهارنی سرخوږی",
+                          "دلبدی او استفراغ",
+                          "د شعور خرابوالی",
+                          "Papilledema"
+                        ],
+                        "answer": 0,
+                        "explanation": "Headache عمومآ د سهار لخوا وي او د لوړ ICP لومړنی عام علامه ده."
+                      },
+                      {
+                        "q": "د Cushing Triad درې برخې کومې دي؟",
+                        "options": [
+                          "Hypertension، Bradycardia، Chyne-Stroke Respiration",
+                          "Hypotension، Tachycardia، Tachypnea",
+                          "Headache، Papilledema، Seizure",
+                          "Fever، Neck stiffness، Photophobia"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Cushing Triad درې برخې: Hypertension، Bradycardia، Chyne-Stroke Respiration."
+                      },
+                      {
+                        "q": "د Uncal Herniation له امله د contralateral hemiplegia لامل څه دی؟",
+                        "options": [
+                          "د Kernohan Notch باندې فشار",
+                          "د cranial nerve III باندې فشار",
+                          "د brainstem باندې فشار",
+                          "د cerebellum باندې فشار"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Uncal Herniation له امله د Kernohan Notch باندې فشار د contralateral hemiplegia لامل ګرځي."
+                      },
+                      {
+                        "q": "د Hutchinson Pupil (Anisocoria) لامل څه دی؟",
+                        "options": [
+                          "د optic nerve باندې فشار",
+                          "د oculomotor nerve (CN III) باندې فشار",
+                          "د trigeminal nerve باندې فشار",
+                          "د facial nerve باندې فشار"
+                        ],
+                        "answer": 1,
+                        "explanation": "د oculomotor nerve (CN III) باندې فشار د Hutchinson Pupil (Anisocoria) لامل ګرځي."
+                      },
+                      {
+                        "q": "د Brain Herniation څو ډوله دي؟",
+                        "options": [
+                          "۲",
+                          "۳",
+                          "۴",
+                          "۵"
+                        ],
+                        "answer": 2,
+                        "explanation": "دماغي تفتق یا Brain Herniation عموما په ۴ ډوله ویشل شوي دي."
+                      },
+                      {
+                        "q": "کوم ډول Brain Herniation د Cingulate یا Subfalcine Herniation په نوم یادیږي؟",
+                        "options": [
+                          "لومړی",
+                          "دویم",
+                          "دریم",
+                          "څلورم"
+                        ],
+                        "answer": 0,
+                        "explanation": "Cingulate or Subfalcine Herniation لومړی ډول Brain Herniation دی."
+                      },
+                      {
+                        "q": "د Transtentorial Herniation کوم ډولونه دي؟",
+                        "options": [
+                          "Uncal، Upward Tonsillar، Central Tentorial",
+                          "Cingulate، Subfalcine، Transcalvarial",
+                          "Tonsillar، Foramen Magnum",
+                          "Subdural، Epidural"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Transtentorial Herniation ډولونه: Uncal Herniation، Upward Tonsillar Herniation، Central Tentorial herniation."
+                      },
+                      {
+                        "q": "د Tonsillar Herniation from Foramen Magnum کومه نښه لري؟",
+                        "options": [
+                          "سرخوږی",
+                          "د تنفس بندیدل",
+                          "دلبدی",
+                          "د لید کمیدل"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Tonsillar Herniation from Foramen Magnum د تنفس بندیدل لري."
+                      },
+                      {
+                        "q": "د Transcalvarial Herniation څه ته ویل کیږي؟",
+                        "options": [
+                          "د جمجمې د ماتیدو له لارې د مغز وتل",
+                          "د cerebellum د foramen magnum له لارې وتل",
+                          "د temporal lobe د tentorium له لارې وتل",
+                          "د cingulate gyrus د falx له لارې وتل"
+                        ],
+                        "answer": 0,
+                        "explanation": "Transcalvarial Herniation د جمجمې د ماتیدو له لارې د مغز وتل دي."
+                      },
+                      {
+                        "q": "د High ICP Syndrome درملنه کې د ناروغ بستر باید څه ډول وي؟",
+                        "options": [
+                          "Head On Bed ۳۰-۴۵ درجې",
+                          "Head On Bed ۰ درجې",
+                          "Head On Bed ۹۰ درجې",
+                          "Head On Bed ۱۵ درجې"
+                        ],
+                        "answer": 0,
+                        "explanation": "د High ICP Syndrome درملنه کې د ناروغ بستر باید Head On Bed ۳۰-۴۵ درجې وي."
+                      },
+                      {
+                        "q": "د High ICP Syndrome درملنه کې کوم درمل د Diuretics په توګه کارول کیږي؟",
+                        "options": [
+                          "Furosamide",
+                          "Mannitol",
+                          "Phenobarbital",
+                          "A او B دواړه"
+                        ],
+                        "answer": 3,
+                        "explanation": "Furosamide او Mannitol دواړه د Diuretics په توګه کارول کیږي."
+                      },
+                      {
+                        "q": "کوم درمل د Barbiturates په توګه کارول کیږي؟",
+                        "options": [
+                          "Furosamide",
+                          "Mannitol",
+                          "Phenobarbital",
+                          "Dexamethasone"
+                        ],
+                        "answer": 2,
+                        "explanation": "Phenobarbital د Barbiturates په توګه کارول کیږي."
+                      },
+                      {
+                        "q": "د High ICP Syndrome درملنه کې د جراحي مداخلې اړتیا کله ده؟",
+                        "options": [
+                          "که Hematoma یا Tumor وي",
+                          "که Shock وي",
+                          "که Hydrocephalus وي",
+                          "ټول پورتني"
+                        ],
+                        "answer": 3,
+                        "explanation": "د High ICP Syndrome درملنه کې د جراحي مداخلې اړتیا ټول پورتني دي: که Hematoma یا Tumor وي، که Shock وي، که Hydrocephalus وي."
+                      },
+                      {
+                        "q": "Decompressive Craniotomy کله ترسره کیږي؟",
+                        "options": [
+                          "په ټولو High ICP ناروغانو کې",
+                          "په ځینو واقعاتو کې",
+                          "یوازې د ماشومانو لپاره",
+                          "یوازې د زړو لپاره"
+                        ],
+                        "answer": 1,
+                        "explanation": "Decompressive Craniotomy په ځینو واقعاتو کې ترسره کیږي."
+                      },
+                      {
+                        "q": "د ICP د اندازه کولو لپاره کومه طریقه د Intra Ventricular Catheter insertion په نوم یادیږي؟",
+                        "options": [
+                          "د ventricle دننه catheter اچول",
+                          "د brain tissue دننه catheter اچول",
+                          "د subarachnoid space دننه catheter اچول",
+                          "د epidural space دننه catheter اچول"
+                        ],
+                        "answer": 0,
+                        "explanation": "Intra Ventricular Catheter insertion د ventricle دننه catheter اچول دي."
+                      },
+                      {
+                        "q": "د Autoregulation میکانيزم د ICP د کنټرول لپاره څه کوي؟",
+                        "options": [
+                          "د مغز د وینې رګونه تنګوي یا پراخوي",
+                          "د CSF تولید کموي",
+                          "د مغز حجم کموي",
+                          "د وینې فشار لوړوي"
+                        ],
+                        "answer": 0,
+                        "explanation": "Autoregulation د مغز د وینې رګونه تنګوي یا پراخوي تر څو CBF په نارمل حد کې وساتل شي."
+                      },
+                      {
+                        "q": "د Volume Buffering System میکانيزم د ICP د کنټرول لپاره څه کوي؟",
+                        "options": [
+                          "CSF د spinal subarachnoid space ته لېږدوي",
+                          "د مغز د وینې رګونه تنګوي",
+                          "د مغز حجم کموي",
+                          "د وینې فشار لوړوي"
+                        ],
+                        "answer": 0,
+                        "explanation": "Volume Buffering System د CSF د spinal subarachnoid space ته د لېږدولو له لارې د ICP کنټرول کې مرسته کوي."
+                      },
+                      {
+                        "q": "د Cushing Response په وخت کې د زړه د حرکاتو اندازه څه کیږي؟",
+                        "options": [
+                          "Tachycardia",
+                          "Bradycardia",
+                          "Normal",
+                          "Arrhythmia"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Cushing Response په وخت کې د زړه د حرکاتو اندازه Bradycardia کیږي."
+                      },
+                      {
+                        "q": "د Cushing Response په وخت کې د وینې فشار څه کیږي؟",
+                        "options": [
+                          "Hypotension",
+                          "Hypertension",
+                          "Normal",
+                          "fluctuating"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Cushing Response په وخت کې د وینې فشار Hypertension کیږي."
+                      },
+                      {
+                        "q": "د Cushing Response په وخت کې تنفس څه ډول کیږي؟",
+                        "options": [
+                          "Tachypnea",
+                          "Chyne-Stroke Respiration",
+                          "Bradypnea",
+                          "Apnea"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Cushing Response په وخت کې تنفس Chyne-Stroke Respiration کیږي."
+                      },
+                      {
+                        "q": "د High ICP Syndrome کې د Papilledema معنی څه ده؟",
+                        "options": [
+                          "د optic disc پړسوب",
+                          "د pupil غیر مساوي والی",
+                          "د سترګو سوروالی",
+                          "د لید کمیدل"
+                        ],
+                        "answer": 0,
+                        "explanation": "Papilledema د optic disc پړسوب دی."
+                      },
+                      {
+                        "q": "د High ICP Syndrome کې د شوي د مغز د فشار لوړیدو له امله د مرګ خطر کله دی؟",
+                        "options": [
+                          "کله چې ICP له ۲۰ mmHg څخه لوړ شي",
+                          "کله چې ICP له ۱۵ mmHg څخه لوړ شي",
+                          "کله چې ICP له ۱۰ mmHg څخه لوړ شي",
+                          "کله چې ICP له ۲۵ mmHg څخه لوړ شي"
+                        ],
+                        "answer": 0,
+                        "explanation": "د High ICP Syndrome کې د مرګ خطر هغه وخت دی چې ICP له ۲۰ mmHg څخه لوړ شي."
+                      }
+                    ],
+                    "qa": [
+                      {
+                        "q": "د ICP نورماله اندازه څومره ده؟",
+                        "a": "۵-۱۵ mmHg."
+                      },
+                      {
+                        "q": "د High ICP Syndrome تعریف څه دی؟",
+                        "a": "ICP له ۲۰ mmHg څخه لوړ."
+                      },
+                      {
+                        "q": "د Monro-Kellie Doctrine له مخې د جمجمې دننه درې برخې کومې دي؟",
+                        "a": "Brain، Blood، CSF."
+                      },
+                      {
+                        "q": "د Volume Buffering System دنده څه ده؟",
+                        "a": "CSF د spinal subarachnoid space ته لېږدول."
+                      },
+                      {
+                        "q": "د Autoregulation دنده څه ده؟",
+                        "a": "د مغز د وینې رګونو تنګول یا پراخول."
+                      },
+                      {
+                        "q": "د Cushing Response درې برخې کومې دي؟",
+                        "a": "Hypertension، Bradycardia، Chyne-Stroke Respiration."
+                      },
+                      {
+                        "q": "د Cushing Response لپاره مسؤوله برخه کومه ده؟",
+                        "a": "Medulla Oblongata."
+                      },
+                      {
+                        "q": "د High ICP Syndrome ترټولو عام لامل کوم دی؟",
+                        "a": "Cerebral edema."
+                      },
+                      {
+                        "q": "د Hydrocephalus لامل څه دی؟",
+                        "a": "د CSF د حجم زیاتیدل."
+                      },
+                      {
+                        "q": "د Hyperemia لامل څه دی؟",
+                        "a": "د وینې د حجم زیاتیدل."
+                      },
+                      {
+                        "q": "د ICP د اندازه کولو ترټولو معیاري طریقه کومه ده؟",
+                        "a": "Intra Ventricular Catheter insertion."
+                      },
+                      {
+                        "q": "د Brain Herniation څو ډوله دي؟",
+                        "a": "۴ ډوله."
+                      },
+                      {
+                        "q": "د Uncal Herniation له امله د contralateral hemiplegia لامل څه دی؟",
+                        "a": "د Kernohan Notch باندې فشار."
+                      },
+                      {
+                        "q": "د Hutchinson Pupil لامل څه دی؟",
+                        "a": "د oculomotor nerve (CN III) باندې فشار."
+                      },
+                      {
+                        "q": "د High ICP Syndrome درملنه کې د ناروغ بستر څه ډول وي؟",
+                        "a": "Head On Bed ۳۰-۴۵ درجې."
+                      }
+                    ],
+                    "flashcards": [
+                      {
+                        "front": "د ICP نورماله اندازه څومره ده؟",
+                        "back": "۵-۱۵ mmHg"
+                      },
+                      {
+                        "front": "د High ICP Syndrome تعریف څه دی؟",
+                        "back": "ICP له ۲۰ mmHg څخه لوړ"
+                      },
+                      {
+                        "front": "د Monro-Kellie Doctrine له مخې د جمجمې دننه درې برخې کومې دي؟",
+                        "back": "Brain (۸۰٪)، Blood (۱۰٪)، CSF (۱۰٪)"
+                      },
+                      {
+                        "front": "د Volume Buffering System دنده څه ده؟",
+                        "back": "CSF د spinal subarachnoid space ته لېږدول"
+                      },
+                      {
+                        "front": "د Autoregulation دنده څه ده؟",
+                        "back": "د مغز د وینې رګونو تنګول یا پراخول"
+                      },
+                      {
+                        "front": "د Cushing Response درې برخې کومې دي؟",
+                        "back": "Hypertension، Bradycardia، Chyne-Stroke Respiration"
+                      },
+                      {
+                        "front": "د Cushing Response لپاره مسؤوله برخه کومه ده؟",
+                        "back": "Medulla Oblongata"
+                      },
+                      {
+                        "front": "د High ICP Syndrome ترټولو عام لامل کوم دی؟",
+                        "back": "Cerebral edema"
+                      },
+                      {
+                        "front": "د Hydrocephalus لامل څه دی؟",
+                        "back": "د CSF د حجم زیاتیدل"
+                      },
+                      {
+                        "front": "د Hyperemia لامل څه دی؟",
+                        "back": "د وینې د حجم زیاتیدل"
+                      },
+                      {
+                        "front": "د ICP د اندازه کولو ترټولو معیاري طریقه کومه ده؟",
+                        "back": "Intra Ventricular Catheter insertion"
+                      },
+                      {
+                        "front": "د Brain Herniation څو ډوله دي؟",
+                        "back": "۴ ډوله"
+                      },
+                      {
+                        "front": "د Uncal Herniation له امله د contralateral hemiplegia لامل څه دی؟",
+                        "back": "د Kernohan Notch باندې فشار"
+                      },
+                      {
+                        "front": "د Hutchinson Pupil لامل څه دی؟",
+                        "back": "د oculomotor nerve (CN III) باندې فشار"
+                      },
+                      {
+                        "front": "د High ICP Syndrome درملنه کې د ناروغ بستر څه ډول وي؟",
+                        "back": "Head On Bed ۳۰-۴۵ درجې"
+                      }
+                    ],
+                    "mnemonics": [
+                      {
+                        "title": "Monro-Kellie Doctrine",
+                        "icon": "🧠",
+                        "code": "BBC",
+                        "items": [
+                          {
+                            "letter": "B",
+                            "text": "Brain"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Blood"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "CSF"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ICP Normal Range",
+                        "icon": "📏",
+                        "code": "۵-۱۵",
+                        "items": [
+                          {
+                            "letter": "۵",
+                            "text": "پنځه"
+                          },
+                          {
+                            "letter": "۱۵",
+                            "text": "تر پنځلس"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "High ICP Definition",
+                        "icon": "📈",
+                        "code": "۲۰",
+                        "items": [
+                          {
+                            "letter": "۲۰",
+                            "text": "شل mmHg"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cushing Triad",
+                        "icon": "⚠️",
+                        "code": "HBC",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hypertension"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Bradycardia"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Chyne-Stroke"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Brain Herniation Types",
+                        "icon": "🧠",
+                        "code": "CUTT",
+                        "items": [
+                          {
+                            "letter": "C",
+                            "text": "Cingulate"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Uncal"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Tonsillar"
+                          },
+                          {
+                            "letter": "T",
+                            "text": "Transcalvarial"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Transtentorial Herniation Types",
+                        "icon": "🧠",
+                        "code": "UUC",
+                        "items": [
+                          {
+                            "letter": "U",
+                            "text": "Uncal"
+                          },
+                          {
+                            "letter": "U",
+                            "text": "Upward Tonsillar"
+                          },
+                          {
+                            "letter": "C",
+                            "text": "Central Tentorial"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ICP Treatment",
+                        "icon": "💊",
+                        "code": "MOF",
+                        "items": [
+                          {
+                            "letter": "M",
+                            "text": "Mannitol"
+                          },
+                          {
+                            "letter": "O",
+                            "text": "Oxygen"
+                          },
+                          {
+                            "letter": "F",
+                            "text": "Furosamide"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "ICP Measurement",
+                        "icon": "📊",
+                        "code": "IVE",
+                        "items": [
+                          {
+                            "letter": "I",
+                            "text": "Intra Ventricular"
+                          },
+                          {
+                            "letter": "V",
+                            "text": "Intracerebral"
+                          },
+                          {
+                            "letter": "E",
+                            "text": "Epidural"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "High ICP Signs",
+                        "icon": "🩺",
+                        "code": "HBP",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Headache"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Bradycardia"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Papilledema"
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Cushing Response",
+                        "icon": "⚠️",
+                        "code": "HBP",
+                        "items": [
+                          {
+                            "letter": "H",
+                            "text": "Hypertension"
+                          },
+                          {
+                            "letter": "B",
+                            "text": "Bradycardia"
+                          },
+                          {
+                            "letter": "P",
+                            "text": "Papilledema (یا Chyne-Stroke)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "عموميات",
+                      "icon": "📖",
+                      "tags": [
+                        "general",
+                        "high-yield"
+                      ],
+                      "content": "{key}د انسان د داخل قحفي فشار (ICP) نورماله اندازه:{/key} {ok}۵-۱۵ mmHg{/ok} ده.\n\n{key}هر څه چې د داخل قحفي فشار له ۲۰ mmHg څخه زیات شي،{/key} {hlpu}High ICP Syndrome{/hlpu} بلل کیږي.\n\n{key}د نارمل ICP لپاره د لاندې اجزاوو رامنځته کیدل اړین دي:{/key}\n• {hl}Brain{/hl} (۸۰٪)\n• {hl}Blood{/hl} (۱۰٪)\n• {hl}CSF{/hl} (۱۰٪)"
+                    },
+                    {
+                      "type": "info",
+                      "title": "پاتوفیزیولوژي",
+                      "icon": "⚙️",
+                      "tags": [
+                        "pathophysiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}څرنګه چې د مغز هډوکي محوطه کې قرار لري او د انبساط قابلیت نلري،{/key} د هر څه چې د داخل قحفي اجزاوو په حجم کې زیاتوالی راشي، د High ICP Syndrome لامل ګرځي."
+                    },
+                    {
+                      "type": "note",
+                      "title": "د Monro-Kellie Doctrine فرضیه",
+                      "icon": "📜",
+                      "tags": [
+                        "monro-kellie",
+                        "doctrine",
+                        "high-yield"
+                      ],
+                      "content": "{key}د نوموړو دوه عالمانو په وینا د داخل قحف کې د لاندې اجزاوو اندازه ثابته ده:{/key}\n• Brain\n• Blood\n• CSF\n\n{key}همدارنګه دوی وایي چې که چیرته د نوموړي عناصرو څخه په یو کې زیاتوالی رامنځ ته شي، د High ICP لامل ګرځي.{/key}"
+                    },
+                    {
+                      "type": "important",
+                      "title": "د داخل قحفي فشار د کنټرول معاوضوي میکانيزمونه",
+                      "icon": "🔄",
+                      "tags": [
+                        "compensatory",
+                        "mechanisms",
+                        "high-yield"
+                      ],
+                      "content": "{key}Volume Buffering System:{/key}\n• که چیرته ICP لوړه شي نو د CSF په حجم کې کموالی راځي.\n• همدارنګه د Venoconstriction له امله د وریدي وینې په حجم کې هم کموالی راځي.\n• پورتني دواړه تغیرات تر یو حده د ICP د کنټرول سبب ګرځي.\n\n{key}Autoregulation:{/key}\n• د ICP د لوړوالي له امله د مغزي شریانونو توسع کوي تر څو CBF په نارمل حد کې وساتل شي.\n• که چیرته Autoregulation سیسټم له منځه لاړ شي نو CBF هم کمیږي."
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Cushing Response",
+                      "icon": "⚠️",
+                      "tags": [
+                        "cushing",
+                        "response",
+                        "high-yield"
+                      ],
+                      "content": "{key}که چیرته ICP دومره لوړه شي چې Volume Buffering system او Autoregulation دواړه ناکام شي او CBF کمه شي نو دماغ ته د O2 لیږد کمیږي او دماغي اسکیمیا رامنځ ته کیږي.{/key}\n\n• د دماغي اسکیمیا له امله {hl}Sympathetic Nervous System{/hl} فعالیږي او د وینې فشار لوړیږي ({hl}Hypertension{/hl}).\n• د لوړ فشار له امله {hl}Parasympathetic Nervous system{/hl} فعالیږي چې بالاخره د زړه حرکات کمیږي ({hl}Bradycardia{/hl}).\n• د ICP د ډیر زیاتوالي له امله {hl}Medulla Oblongata{/hl} تر فشار لاندې راخي او ناروغ ته تنفسي ستونزی پیدا کیږي ({hl}Chyne-Stroke Respiration{/hl})."
+                    },
+                    {
+                      "type": "note",
+                      "title": "د High ICP Syndrome سببونه",
+                      "icon": "🔬",
+                      "tags": [
+                        "causes",
+                        "etiology",
+                        "high-yield"
+                      ],
+                      "content": "{key}Brain:{/key}\n• دماغي صدمې – Cerebral Contusion – Intracranial Hematoma – Brain Abscess – Brain Cysts\n\n{key}Hyperemia{/key}\n\n{key}Hydrocephalus{/key}\n\n{key}Hypoventilation{/key}\n\n{key}Cerebral venous thrombosis{/key}"
+                    },
+                    {
+                      "type": "info",
+                      "title": "د داخل قحفي فشار تعینول",
+                      "icon": "📊",
+                      "tags": [
+                        "measurement",
+                        "monitoring",
+                        "high-yield"
+                      ],
+                      "content": "{key}د داخل قحفي فشار د اندازه کولو لپاره د لاندې میتود څخه استفاده کیږي:{/key}\n• {hl}Intra Ventricular Catheter insertion{/hl}\n• {hl}Intracerebral Catheter Insertion{/hl}\n• {hl}Subarachnoid Space Catheter Insertion{/hl}\n• {hl}Subdural Catheter Insertion{/hl}\n• {hl}Epidural Catheter insertion{/hl}"
+                    },
+                    {
+                      "type": "important",
+                      "title": "د High ICP Syndrome اعراض او علامې",
+                      "icon": "🩺",
+                      "tags": [
+                        "symptoms",
+                        "signs",
+                        "high-yield"
+                      ],
+                      "content": "{key}د High ICP Syndrome اعراض او علامې:{/key}\n• {hl}Headache{/hl} عمومآ د سهار لخوا وي\n• دلبدی او استفراغات\n• د شعوري حالت خرابوالی\n• {hl}Papilledema{/hl}\n• {hl}Cushing Tried:{/hl}\n  - Hypertension\n  - Bradycardia\n  - Chyne-Stroke Respiration\n• {hl}FND:{/hl}\n  - Contralateral hemiplegia due to Uncal Herniation\n  - Epsilateral Herniation Due to pressure on Kernohan Notch\n• {hl}Anisocoria{/hl} یا هم {hl}Hutchinson Pupil{/hl} یا غیر متناظره حدقه"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "Brain Herniation یا دماغي تفتق",
+                      "icon": "🧠",
+                      "tags": [
+                        "herniation",
+                        "high-yield"
+                      ],
+                      "content": "{key}کله چې ICP دومره لوړه شي چې ټول معاوضوي میکانيزمونه په کې ناکام شي نو د دماغ ځینې برخې د خپل اناتومیک موقعیت څخه بې ځایه کیږي چې د Brain Herniation په نوم سره یادیږي.{/key}"
+                    },
+                    {
+                      "type": "info",
+                      "title": "د Brain Herniation انواع",
+                      "icon": "📋",
+                      "tags": [
+                        "herniation",
+                        "types",
+                        "high-yield"
+                      ],
+                      "content": "{key}دماغي تفتق یا Brain Herniation عموما په ۴ ډوله ویشل شوي دي:{/key}\n\n۱. {hl}Cingulate or Subfalcine Herniation{/hl}\n\n۲. {hl}Transtentorial Herniation{/hl}\n   - Uncal Herniation\n   - Upward Tonsillar Herniation\n   - Central Tentorial herniation\n\n۳. {hl}Tonslillar Herniation from Foramin Magnum{/hl}\n\n۴. {hl}Transcalvarial Herniation{/hl}"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "د High ICP Syndrome درملنه",
+                      "icon": "💊",
+                      "tags": [
+                        "treatment",
+                        "management",
+                        "high-yield"
+                      ],
+                      "content": "{key}عمومی اهتمامات:{/key}\n• {hl}Head On Bed should Be ۳۰-۴۵*{/hl}\n• Oxygen Therapy\n• یخ تطبیقات\n• په ارام اطاق کی د ناروغ بستر کول\n• ناروغ ته serum Electrolyte معاینات ورکول کیږی ABG , Serum Glucose\n\n{key}طبي تداوى:{/key}\n• {hl}Diuretics{/hl} لکه Furosamide\n• {hl}Mannitol{/hl}\n• {hl}Barbiturates{/hl} لکه Phenobarbital\n\n{key}جراحی درملنه:{/key}\n• که چیرته هیماتوم یا Tumor وی نو باید عملیات شی\n• که چیرته Shock واجول شی Hydrocephalus موجود نو ناروغ ته\n• په ځینو واقعاتو کی ناروغ ته {hl}Decompressive Craniotomy{/hl} تر سره کیږی"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQafisabKWU7tbhEkdIAsytIHF0Yxh1zQ1XG_VrJqHCgg&s=10",
+                      "caption": "High ICP Syndrome - Brain Herniation Types",
+                      "title": "High ICP Syndrome"
+                    }
+                  ],
+                  "videos": [
+                    {
+                      "title": "High ICP Syndrome - Pathophysiology, Cushing Response, and Herniation",
+                      "src": "https://youtu.be/YN-EFnV3JB0?si=bvpuzfDBWr72DDUL",
+                      "thumbnail": "https://img.youtube.com/vi/YN-EFnV3JB0/maxresdefault.jpg",
+                      "duration": "",
+                      "description": "Comprehensive overview of High ICP Syndrome including Monro-Kellie Doctrine, Cushing Response, brain herniation types, and management"
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "description": "Surgical specialties and principles"
         }
       ]
     },
