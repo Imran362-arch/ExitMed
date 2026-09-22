@@ -17221,6 +17221,2243 @@
       "icon": "❤️",
       "description": "",
       "subjects": []
+    },
+    {
+      "id": "nmle_qbank",
+      "name": "NMLE Qbank",
+      "icon": "📚",
+      "description": "National Medical Licensing Examination Question Bank",
+      "subjects": [
+        {
+          "id": "surgery",
+          "name": "Surgery",
+          "icon": "🔪",
+          "description": "Surgical specialties and principles",
+          "topics": [
+            {
+              "id": "thoracic_surgery",
+              "name": "Thoracic Surgery",
+              "icon": "🫁",
+              "description": "Surgical disorders of the chest including thyroid, breast, and venous diseases",
+              "subtopics": [
+                {
+                  "id": "thoracic_surgery_mcqs",
+                  "name": "Thoracic Surgery MCQs",
+                  "icon": "❓",
+                  "description": "200 high-yield MCQs for Thoracic Surgery",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "درقيه غده چېرته موقعیت لري؟",
+                        "options": [
+                          "د عنق علوي",
+                          "د عنق سفلي",
+                          "د صدر علوي",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "درقيه غده د عنق سفلي برخه کې موقعیت لري."
+                      },
+                      {
+                        "q": "د درقيې غدې وزن څو ګرامه دی؟",
+                        "options": [
+                          "10–15 gr",
+                          "20–25 gr",
+                          "30–40 gr",
+                          "60 gr"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقيې غدې وزن 20–25 gr دی."
+                      },
+                      {
+                        "q": "درقيه غده له څو فصونو څخه تشکیل شوې ده؟",
+                        "options": [
+                          "دوه",
+                          "درې",
+                          "پنځه",
+                          "اووه"
+                        ],
+                        "answer": 0,
+                        "explanation": "درقيه غده له دوو فصونو څخه تشکیل شوې ده."
+                      },
+                      {
+                        "q": "د درقيې غدې فصونه د کوم جوړښت په واسطه یو له بل سره وصل شوي دي؟",
+                        "options": [
+                          "Lobule",
+                          "Lobe",
+                          "Isthmus",
+                          "ټول سم دي"
+                        ],
+                        "answer": 2,
+                        "explanation": "د درقيې غدې فصونه د Isthmus په واسطه یو له بل سره وصل شوي دي."
+                      },
+                      {
+                        "q": "د درقيې غدې سفلي قطب تر کومې ساحې پورې رسېږي؟",
+                        "options": [
+                          "ترقوي ته نږدې",
+                          "درقي غضروف ته نږدې",
+                          "د ترقوي تر ختمه",
+                          "د منصف علوي پورې"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقيې غدې سفلي قطب د منصف علوي پورې رسېږي."
+                      },
+                      {
+                        "q": "د درقيې غدې مضیق د شنډ د کومو حلقو سره توافق کوي؟",
+                        "options": [
+                          "1,6,7",
+                          "2,3,4",
+                          "5,6",
+                          "7,8"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقيې غدې مضیق د شنډ د 2,3,4 حلقو سره توافق کوي."
+                      },
+                      {
+                        "q": "د درقيې غدې وظیفوي واحد عبارت دی له:",
+                        "options": [
+                          "Follicle",
+                          "Lobule",
+                          "Isthmus",
+                          "Acinus"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقيې غدې وظیفوي واحد Follicle دی."
+                      },
+                      {
+                        "q": "د درقيې غدې یو لوبیول له څو فولیکولونو څخه متشکل دی؟",
+                        "options": [
+                          "70",
+                          "10",
+                          "24–40",
+                          "100"
+                        ],
+                        "answer": 2,
+                        "explanation": "د درقيې غدې یو لوبیول له 24–40 فولیکولونو څخه متشکل دی."
+                      },
+                      {
+                        "q": "د درقيې غدې فولیکولونه د کوم ډول حجرو په واسطه فرش شوي دي؟",
+                        "options": [
+                          "Squamous Epithelial",
+                          "Columnar Epithelial",
+                          "Fibroblasts",
+                          "Cuboidal Epithelial"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقيې غدې فولیکولونه د Cuboidal Epithelial حجرو په واسطه فرش شوي دي."
+                      },
+                      {
+                        "q": "د درقيې غدې علوي شریان د لاندې کوم شریان څخه منشأ اخلي؟",
+                        "options": [
+                          "External carotid",
+                          "Subclavian Artery",
+                          "Brachial Artery",
+                          "Axillary Artery"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقيې غدې علوي شریان د External carotid څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقيې غدې سفلي شریان د لاندې کوم شریان څخه منشأ اخلي؟",
+                        "options": [
+                          "Subclavian Artery",
+                          "External Carotid Artery",
+                          "Axillary Artery",
+                          "Radial artery"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقيې غدې سفلي شریان د Subclavian Artery څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقيې غدې کوم ورید په Internal Jugular vein کې تخلیه کېږي؟",
+                        "options": [
+                          "Middle thyroid vein",
+                          "Superior thyroid vein",
+                          "Inferior thyroid vein",
+                          "الف سم دی"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقيې غدې Superior thyroid vein په Internal Jugular vein کې تخلیه کېږي."
+                      },
+                      {
+                        "q": "د درقيې غدې کوم ورید په Jugular vein کې تخلیه کېږي؟",
+                        "options": [
+                          "Superior thyroid vein",
+                          "Middle thyroid vein",
+                          "Inferior thyroid vein",
+                          "All of them"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقيې غدې Middle thyroid vein په Jugular vein کې تخلیه کېږي."
+                      },
+                      {
+                        "q": "د درقيې غدې سفلي ورید د درقيې غدې له کومې برخې څخه خارجېږي؟",
+                        "options": [
+                          "د غدې له وحشي قسمت څخه",
+                          "د مضیق سفلي او د غدې د فصونو انسي څخه",
+                          "د غدې سفلي قسمت",
+                          "د مضیق علوي قسمت"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقيې غدې سفلي ورید د مضیق سفلي او د غدې د فصونو انسي څخه خارجېږي."
+                      },
+                      {
+                        "q": "د درقيې غدې سفلي ورید په کوم ورید ختمېږي؟",
+                        "options": [
+                          "Internal jugular vein",
+                          "Azygous venous system",
+                          "Internal thoracic vein",
+                          "Innominate vein"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقيې غدې سفلي ورید په Innominate vein ختمېږي."
+                      },
+                      {
+                        "q": "د کپسول لاندې د درقيې غدې د لمفاوي اوعیه‌وو شبکه په کومو عقداتو کې تخلیه کېږي؟",
+                        "options": [
+                          "Juxta thyroid nodes",
+                          "Brachiocephalic nodes",
+                          "Mediastinal nodes",
+                          "Internal mammary Nodes"
+                        ],
+                        "answer": 0,
+                        "explanation": "د کپسول لاندې د درقيې غدې د لمفاوي اوعیه‌وو شبکه په Juxta thyroid nodes کې تخلیه کېږي."
+                      },
+                      {
+                        "q": "د صدر په داخل کې راجعه عصب له کوم عصب څخه منشأ اخلي؟",
+                        "options": [
+                          "Vagus nerve",
+                          "Intercostal Nerve",
+                          "Cardiac plexus",
+                          "Esophageal plexus"
+                        ],
+                        "answer": 0,
+                        "explanation": "د صدر په داخل کې راجعه عصب له Vagus nerve څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقيې غدې د فولیکولونو په داخل کې ایودین د T3 او T4 د جوړولو لپاره له کوم امینواسید سره ترکیب کېږي؟",
+                        "options": [
+                          "Threonine",
+                          "Glutamine",
+                          "Glycine",
+                          "Tyrosine"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقيې غدې د فولیکولونو په داخل کې ایودین د T3 او T4 د جوړولو لپاره له Tyrosine سره ترکیب کېږي."
+                      },
+                      {
+                        "q": "لاندې کوم هورمون د درقيې غدې د Medullary Carcinoma د سیروم مارکر په توګه شمېرل کېږي؟",
+                        "options": [
+                          "T3",
+                          "T4",
+                          "Thyrocalcitonin",
+                          "TSH"
+                        ],
+                        "answer": 2,
+                        "explanation": "Thyrocalcitonin د درقيې غدې د Medullary Carcinoma د سیروم مارکر په توګه شمېرل کېږي."
+                      },
+                      {
+                        "q": "TSH د لاندې کومو هورمونونو افراز او آزادېدل تنبیه او کنټرولوي؟",
+                        "options": [
+                          "Thyroid hormones",
+                          "LH, FSH",
+                          "Cortisol",
+                          "Estrogen & progesterone"
+                        ],
+                        "answer": 0,
+                        "explanation": "TSH د Thyroid hormones افراز او آزادېدل تنبیه او کنټرولوي."
+                      },
+                      {
+                        "q": "په Hyperthyroidism کې د TSH هورمون په سویه کې څه ډول تغییر راځي؟",
+                        "options": [
+                          "پورته ځي",
+                          "ښکته ځي",
+                          "تغییر نه کوي",
+                          "افراز یې تنبیه کېږي"
+                        ],
+                        "answer": 1,
+                        "explanation": "په Hyperthyroidism کې د TSH هورمون ښکته ځي."
+                      },
+                      {
+                        "q": "د TSH افراز د کوم هورمون په واسطه تنظیمېږي؟",
+                        "options": [
+                          "CRH",
+                          "FSH",
+                          "Oxytocin",
+                          "TRH"
+                        ],
+                        "answer": 3,
+                        "explanation": "د TSH افراز د TRH په واسطه تنظیمېږي."
+                      },
+                      {
+                        "q": "Thyroid stimulating Antibodies په کوم ګروپ انتي‌باډي‌ګانو کې شاملېږي؟",
+                        "options": [
+                          "IgA",
+                          "IgE",
+                          "IgG",
+                          "IgM"
+                        ],
+                        "answer": 2,
+                        "explanation": "Thyroid stimulating Antibodies په IgG ګروپ انتي‌باډي‌ګانو کې شاملېږي."
+                      },
+                      {
+                        "q": "د تایروید منبه انتي‌باډي‌ګانو په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "له IgG ډلې څخه دي",
+                          "د TSH-R لپاسه عمل کوي",
+                          "نسبت TSH ته لږ تأثیرات لري",
+                          "اکثره د تایروتوکسیکوزس حالت مسؤل دي"
+                        ],
+                        "answer": 2,
+                        "explanation": "نسبت TSH ته لږ تأثیرات لري غلطه جمله ده."
+                      },
+                      {
+                        "q": "په لاندې کومو مریضانو کې د تایروید د معاینې لپاره له Pizzilo تخنیک څخه استفاده کېږي؟",
+                        "options": [
+                          "Obese patient",
+                          "Slim patients",
+                          "Tall patients",
+                          "Patients with barrel chest"
+                        ],
+                        "answer": 0,
+                        "explanation": "په Obese patient کې د تایروید د معاینې لپاره له Pizzilo تخنیک څخه استفاده کېږي."
+                      },
+                      {
+                        "q": "په طبیعي ډول د درقي غدې قوام څه ډول دی؟",
+                        "options": [
+                          "سخت",
+                          "نرم",
+                          "رابري او الاستیکي",
+                          "پنیرمانند"
+                        ],
+                        "answer": 2,
+                        "explanation": "په طبیعي ډول د درقي غدې قوام رابري او الاستیکي دی."
+                      },
+                      {
+                        "q": "په لاندې کوم مرض کې د درقي غدې قوام سخت او تیږي ته ورته کېږي؟",
+                        "options": [
+                          "Hashimoto",
+                          "Riedels thyroiditis",
+                          "Carcinoma",
+                          "ب او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "په Riedels thyroiditis او Carcinoma کې د درقي غدې قوام سخت او تیږي ته ورته کېږي."
+                      },
+                      {
+                        "q": "د وینې د سیروم د TSH ټیټه سویه په کوم مرض دلالت کوي؟",
+                        "options": [
+                          "Hypothyroidism",
+                          "Hyperthyroidism",
+                          "Euthyroid حالت",
+                          "Myxedema"
+                        ],
+                        "answer": 1,
+                        "explanation": "د وینې د سیروم د TSH ټیټه سویه په Hyperthyroidism دلالت کوي."
+                      },
+                      {
+                        "q": "د درقيې غدې په یوه برخه کې د نودول موجودیت، د نورو برخو د نورمالوالي سره، په کوم نوم یادېږي؟",
+                        "options": [
+                          "Solitary",
+                          "Isolated",
+                          "واحد نودول",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقيې غدې په یوه برخه کې د نودول موجودیت، د نورو برخو د نورمالوالي سره، په Solitary/Isolated/واحد نودول نوم یادېږي."
+                      },
+                      {
+                        "q": "د تایروید د غدې په کوم حالت کې د درقي هورمونونو تولید نارمل وي؟",
+                        "options": [
+                          "ساده جاغور",
+                          "توکسیک جاغور",
+                          "نیوپلاستیک جاغور",
+                          "التهابي جاغور"
+                        ],
+                        "answer": 0,
+                        "explanation": "د تایروید د غدې په ساده جاغور حالت کې د درقي هورمونونو تولید نارمل وي."
+                      },
+                      {
+                        "q": "ساده جاغور په کومو اشکالو رامنځته کېږي؟",
+                        "options": [
+                          "ابتدایي او ثانوي",
+                          "Sporadic & Endemic",
+                          "Malignant & Benign",
+                          "Granulomatous & Fibrosing"
+                        ],
+                        "answer": 1,
+                        "explanation": "ساده جاغور په Sporadic & Endemic اشکالو رامنځته کېږي."
+                      },
+                      {
+                        "q": "Toxic adenoma جاغور د کوم ډول جاغور له جملې څخه دی؟",
+                        "options": [
+                          "Neoplastic",
+                          "Toxic goiter",
+                          "Hyperplastic goiter",
+                          "Inflammatory goiter"
+                        ],
+                        "answer": 1,
+                        "explanation": "Toxic adenoma جاغور د Toxic goiter له جملې څخه دی."
+                      },
+                      {
+                        "q": "Hashimoto مرض د التهابي جاغور کومې برخې پورې مربوطېږي؟",
+                        "options": [
+                          "Granulomatous",
+                          "Infectious thyroiditis",
+                          "Fibrosing",
+                          "Autoimmune"
+                        ],
+                        "answer": 3,
+                        "explanation": "Hashimoto مرض د التهابي جاغور Autoimmune برخې پورې مربوطېږي."
+                      },
+                      {
+                        "q": "لاندې کوم مرض د فایبروزي التهابي جاغور پورې مربوط دی؟",
+                        "options": [
+                          "Hashimoto",
+                          "Amyloid goiter",
+                          "Riedels thyroiditis",
+                          "Graves"
+                        ],
+                        "answer": 2,
+                        "explanation": "Riedels thyroiditis د فایبروزي التهابي جاغور پورې مربوط دی."
+                      },
+                      {
+                        "q": "د اندیمیک جاغور مهمترین فکتور عبارت دی له:",
+                        "options": [
+                          "د ایودین کموالی",
+                          "اتوایمیون امراض",
+                          "د هورمونونو د سنتیز تنقیص",
+                          "انتانات"
+                        ],
+                        "answer": 0,
+                        "explanation": "د اندیمیک جاغور مهمترین فکتور د ایودین کموالی ده."
+                      },
+                      {
+                        "q": "د یو فرد د ایودین ضرورت په ورځ کې څو ملي‌ګرامه دی؟",
+                        "options": [
+                          "10–20 ملي‌ګرامه",
+                          "0.1–0.15 ملي‌ګرامه",
+                          "30 ملي‌ګرامه",
+                          "7 ملي‌ګرامه"
+                        ],
+                        "answer": 1,
+                        "explanation": "د یو فرد د ایودین ضرورت په ورځ کې 0.1–0.15 ملي‌ګرامه دی."
+                      },
+                      {
+                        "q": "د ساده جاغور اندیمیکې نواحۍ په کومو منطقو کې موقعیت لري؟",
+                        "options": [
+                          "صحراګانې",
+                          "غرونه",
+                          "د سند غاړې",
+                          "ځنګلونه"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ساده جاغور اندیمیکې نواحۍ په غرونو منطقو کې موقعیت لري."
+                      },
+                      {
+                        "q": "د سپورادیک جاغور مهمترین دلیل عبارت دی له:",
+                        "options": [
+                          "Iodine deficiency",
+                          "Dyshormonogenesis",
+                          "Goitrogens",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "د سپورادیک جاغور مهمترین دلیل Dyshormonogenesis دی."
+                      },
+                      {
+                        "q": "لاندې کوم نباتات Goitrogens خاصیت لري؟",
+                        "options": [
+                          "Brassica",
+                          "د سیتروس خاندان مېوې",
+                          "حبوبات",
+                          "شنې پاڼې لرونکي نباتات"
+                        ],
+                        "answer": 0,
+                        "explanation": "Brassica نباتات Goitrogens خاصیت لري."
+                      },
+                      {
+                        "q": "د منتشر هایپرپلاستیک جاغور په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "د TSH د دوامداره تنبیه له سببه رامنځته کېږي",
+                          "سپورادیک واقعات یې په ځوانۍ کې رامنځته کېږي",
+                          "د سټرس او حاملګۍ په وخت کې نکس کوي",
+                          "هېڅکله نورمال حالت ته رجعت نه کوي"
+                        ],
+                        "answer": 3,
+                        "explanation": "هېڅکله نورمال حالت ته رجعت نه کوي غلطه جمله ده."
+                      },
+                      {
+                        "q": "منتشر هایپرپلاستیک جاغور د جس په وخت کې کوم وصف لري؟",
+                        "options": [
+                          "سخت، له مجاورو اعضاوو سره ملتصق",
+                          "دانه‌داره سطحه او نامنظم حدود",
+                          "نرم، لشم، مشخص حدود، متحرک",
+                          "لوی، څو فصیصي، فشار ورکوونکی"
+                        ],
+                        "answer": 2,
+                        "explanation": "منتشر هایپرپلاستیک جاغور د جس په وخت کې نرم، لشم، مشخص حدود، متحرک وصف لري."
+                      },
+                      {
+                        "q": "د جس په وخت کې د کولویید جاغور وصف عبارت دی له:",
+                        "options": [
+                          "نرم او ارتجاعي",
+                          "سخت او دانه‌دار",
+                          "سخت او تیږي ته ورته",
+                          "هېڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د جس په وخت کې د کولویید جاغور وصف نرم او ارتجاعي دی."
+                      },
+                      {
+                        "q": "په اندیمیک جاغور کې نودولونه څه وخت رامنځته کېږي؟",
+                        "options": [
+                          "فوراً",
+                          "په مقدم ډول",
+                          "په مؤخر ډول",
+                          "نه رامنځته کېږي"
+                        ],
+                        "answer": 2,
+                        "explanation": "په اندیمیک جاغور کې نودولونه په مؤخر ډول رامنځته کېږي."
+                      },
+                      {
+                        "q": "په ښځو کې نسبت نارینه‌وو ته د ساده جاغورونو د زیات واقع کېدو علت عبارت دی له:",
+                        "options": [
+                          "د تایروید لویوالی",
+                          "په درقي حجرو کې د استروجن د اخذو موجودیت",
+                          "د اندروجن اخذې",
+                          "د ښځو د روحیاتو حساس والی"
+                        ],
+                        "answer": 1,
+                        "explanation": "په ښځو کې نسبت نارینه‌وو ته د ساده جاغورونو د زیات واقع کېدو علت په درقي حجرو کې د استروجن د اخذو موجودیت دی."
+                      },
+                      {
+                        "q": "په نودولر جاغور کې د درقي هورمونونو ترشح په کوم حالت کې قرار لري؟",
+                        "options": [
+                          "Euthyroid",
+                          "Hyperthyroid",
+                          "Hypothyroid",
+                          "هېڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "په نودولر جاغور کې د درقي هورمونونو ترشح په Euthyroid حالت کې قرار لري."
+                      },
+                      {
+                        "q": "د دې لپاره چې د نودولر جاغور تفریقي تشخیص له Lymphadenoid جاغور څخه وکړو، کومه معاینه ترسره کوو؟",
+                        "options": [
+                          "Serum TSH",
+                          "Thyroid Antibodies",
+                          "T3, T4",
+                          "US"
+                        ],
+                        "answer": 1,
+                        "explanation": "د نودولر جاغور تفریقي تشخیص له Lymphadenoid جاغور څخه د Thyroid Antibodies معاینې په واسطه ترسره کوو."
+                      },
+                      {
+                        "q": "په نودولر جاغور کې وینه بهېدنه د کوم اختلاط سبب کېدای شي؟",
+                        "options": [
+                          "Airway Obstruction",
+                          "Shock",
+                          "Thrombocytopenia",
+                          "Coagulopathy"
+                        ],
+                        "answer": 0,
+                        "explanation": "په نودولر جاغور کې وینه بهېدنه د Airway Obstruction اختلاط سبب کېدای شي."
+                      },
+                      {
+                        "q": "د نودولر جاغور څو فیصده مریضان په ثانوي تایروتوکسیکوزس اخته کېږي؟",
+                        "options": [
+                          "50%",
+                          "80%",
+                          "30%",
+                          "20%"
+                        ],
+                        "answer": 2,
+                        "explanation": "د نودولر جاغور 30% مریضان په ثانوي تایروتوکسیکوزس اخته کېږي."
+                      },
+                      {
+                        "q": "نودولر جاغور څو فیصده په واحد شکل وي؟",
+                        "options": [
+                          "50%",
+                          "80%",
+                          "70%",
+                          "20%"
+                        ],
+                        "answer": 1,
+                        "explanation": "نودولر جاغور 80% په واحد شکل وي."
+                      },
+                      {
+                        "q": "د قص هډوکي د خلف اکثریت جاغورونه له کوم ځای څخه منشأ اخلي؟",
+                        "options": [
+                          "منصف",
+                          "د درقي غدې علوي قطب",
+                          "د نودولر جاغور سفلي",
+                          "Stem cells"
+                        ],
+                        "answer": 2,
+                        "explanation": "د قص هډوکي د خلف اکثریت جاغورونه د نودولر جاغور سفلي څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "هر کله چې د قص عظم د خلف نودول د جس وړ وي، په کوم نوم یادېږي؟",
+                        "options": [
+                          "Plunging",
+                          "Substernal",
+                          "Intrathoracic",
+                          "None of them"
+                        ],
+                        "answer": 1,
+                        "explanation": "هر کله چې د قص عظم د خلف نودول د جس وړ وي، په Substernal نوم یادېږي."
+                      },
+                      {
+                        "q": "د قص عظم د خلف کوم ډول نودول د ټوخي کولو په وخت کې د جس وړ ګرځي؟",
+                        "options": [
+                          "Intrathoracic",
+                          "Substernal",
+                          "Plunging",
+                          "All are correct"
+                        ],
+                        "answer": 2,
+                        "explanation": "د قص عظم د خلف Plunging نودول د ټوخي کولو په وخت کې د جس وړ ګرځي."
+                      },
+                      {
+                        "q": "د قص هډوکي د خلف جاغور تنفسي علایم عبارت دي له:",
+                        "options": [
+                          "Stridor and cough",
+                          "Hemoptysis",
+                          "Wheezing and cough",
+                          "Dyspnea"
+                        ],
+                        "answer": 0,
+                        "explanation": "د قص هډوکي د خلف جاغور تنفسي علایم Stridor and cough دي."
+                      },
+                      {
+                        "q": "د قص هډوکي د خلف جاغور هضمي علایم عبارت دي له:",
+                        "options": [
+                          "Dysphagia",
+                          "Nausea, Vomiting",
+                          "Dyspepsia",
+                          "Flatulence"
+                        ],
+                        "answer": 0,
+                        "explanation": "د قص هډوکي د خلف جاغور هضمي علایم Dysphagia دي."
+                      },
+                      {
+                        "q": "د قص هډوکي د خلف جاغور د تشخیص دقیق ترینه معاینه عبارت ده له:",
+                        "options": [
+                          "Ultrasound",
+                          "Blood Exam",
+                          "Radiography",
+                          "CT-Scan"
+                        ],
+                        "answer": 3,
+                        "explanation": "د قص هډوکي د خلف جاغور د تشخیص دقیق ترینه معاینه CT-Scan ده."
+                      },
+                      {
+                        "q": "په توکسیک جاغور کې د درقيې غدې هورمونونه څه ډول تغییر کوي؟",
+                        "options": [
+                          "Hyperthyroid",
+                          "Hypothyroid",
+                          "Euthyroid",
+                          "هېڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "په توکسیک جاغور کې د درقيې غدې هورمونونه Hyperthyroid تغییر کوي."
+                      },
+                      {
+                        "q": "Graves Disease په بل کوم نوم یادېږي؟",
+                        "options": [
+                          "توکسیک نودولر جاغور",
+                          "منتشر توکسیک جاغور",
+                          "توکسیک نودول",
+                          "د نادر سبب له علته هایپرتایروییدیزم"
+                        ],
+                        "answer": 1,
+                        "explanation": "Graves Disease په منتشر توکسیک جاغور نوم یادېږي."
+                      },
+                      {
+                        "q": "Graves disease زیاتره په کومو اشخاصو کې رامنځته کېږي؟",
+                        "options": [
+                          "کاهل نارینه",
+                          "مسن اشخاص",
+                          "ځوانې ښځې",
+                          "ماشومان"
+                        ],
+                        "answer": 2,
+                        "explanation": "Graves disease زیاتره په ځوانې ښځې کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د ابتدایي تایروتوکسیکوزس په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "ممکن لوی، کوچنی، نرم یا سخت وي",
+                          "تریل او سوفل موجود وي",
+                          "قلبي عدم کفایه ډېره عامه وي",
+                          "ډېر وخیم دی"
+                        ],
+                        "answer": 3,
+                        "explanation": "ډېر وخیم دی غلطه جمله ده."
+                      },
+                      {
+                        "q": "لاندې کوم مرض همیشه د عین د کرې له علایمو سره مترافق وي؟",
+                        "options": [
+                          "Primary Thyrotoxicosis",
+                          "Nodular Toxic Goiter",
+                          "Toxic Nodule",
+                          "Simple Goiter"
+                        ],
+                        "answer": 0,
+                        "explanation": "Primary Thyrotoxicosis همیشه د عین د کرې له علایمو سره مترافق وي."
+                      },
+                      {
+                        "q": "د توکسیک نودولر جاغور په سیر کې کوم قلبي اختلاطات رامنځته کوي؟",
+                        "options": [
+                          "HF",
+                          "AMI",
+                          "Atrial fibrillation",
+                          "الف او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د توکسیک نودولر جاغور په سیر کې HF او Atrial fibrillation قلبي اختلاطات رامنځته کوي."
+                      },
+                      {
+                        "q": "د هایپرپلازیایي هایپرتایرویدیزم Acini د کومو حجرو په واسطه فرش شوي دي؟",
+                        "options": [
+                          "Columnar Epithelial",
+                          "Cuboidal Epithelial",
+                          "Squamous Epithelial",
+                          "Osteoblasts"
+                        ],
+                        "answer": 0,
+                        "explanation": "د هایپرپلازیایي هایپرتایرویدیزم Acini د Columnar Epithelial حجرو په واسطه فرش شوي دي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله د سترګې د عضلاتو ضعیفي د کوم مرض سره مشابه ده؟",
+                        "options": [
+                          "Multiple Sclerosis",
+                          "Myasthenia gravis",
+                          "Botulism",
+                          "Amyotrophic lateral Sclerosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "د تایروتوکسیکوزس له امله د سترګې د عضلاتو ضعیفي د Myasthenia gravis سره مشابه ده."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله اګزوفتلمیا څه ډول تظاهر کوي؟",
+                        "options": [
+                          "د سترګو نیمه خلاص پاتې کېدل",
+                          "د Iris په علوي حافه کې د صلبیې څرګندېدل",
+                          "د سترګې د کرې ښکته تلل",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د تایروتوکسیکوزس له امله اګزوفتلمیا د سترګو نیمه خلاص پاتې کېدل او د Iris په علوي حافه کې د صلبیې څرګندېدل تظاهر کوي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله Eye sign د کومې دوا سره اصلاح کېږي؟",
+                        "options": [
+                          "Muscarinic agents",
+                          "B-Blocker",
+                          "Alpha-Blocker",
+                          "Alpha-agonists"
+                        ],
+                        "answer": 1,
+                        "explanation": "د تایروتوکسیکوزس له امله Eye sign د B-Blocker سره اصلاح کېږي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس په سیر کې د سترګې د سفلي منحرفه عضلاتو ضعیفي د کوم اختلاط سبب کېږي؟",
+                        "options": [
+                          "Diplopia",
+                          "Glaucoma",
+                          "Cataract",
+                          "Blindness"
+                        ],
+                        "answer": 0,
+                        "explanation": "د تایروتوکسیکوزس په سیر کې د سترګې د سفلي منحرفه عضلاتو ضعیفي د Diplopia اختلاط سبب کېږي."
+                      },
+                      {
+                        "q": "Pretibial Myxedema د کومو موادو د رسوب په اثر تحت‌الجلد کې رامنځته کېږي؟",
+                        "options": [
+                          "وینه",
+                          "مایعات",
+                          "هیالورونیک اسید",
+                          "پلازما"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pretibial Myxedema د هیالورونیک اسید د رسوب په اثر تحت‌الجلد کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "Pretibial Myxedema د کومې دوا په تطبیق سره شفایاب کېږي؟",
+                        "options": [
+                          "Antibiotics",
+                          "Steroid and antithyroid",
+                          "Diuretics",
+                          "Antihypertensives"
+                        ],
+                        "answer": 1,
+                        "explanation": "Pretibial Myxedema د Steroid and antithyroid دوا په تطبیق سره شفایاب کېږي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس موجودیت باید په کومو ماشومانو کې مدنظر وي؟",
+                        "options": [
+                          "په غیرطبیعي نشوونما لرونکو ماشومانو",
+                          "په Myopathy باندې مصاب ماشومان",
+                          "د سلوک پرابلم لرونکي ماشومان",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د تایروتوکسیکوزس موجودیت باید په غیرطبیعي نشوونما لرونکو ماشومانو، Myopathy باندې مصاب ماشومان، او د سلوک پرابلم لرونکي ماشومان کې مدنظر وي."
+                      },
+                      {
+                        "q": "د یو شخص په وړاندې د غیرقابل توضیح اسهال موجودیت په صورت کې باید د درقي کوم مرض باندې مشکوک شو؟",
+                        "options": [
+                          "Nodular Goiter",
+                          "Thyrotoxicosis",
+                          "Carcinoma",
+                          "Hypothyroidism"
+                        ],
+                        "answer": 1,
+                        "explanation": "د یو شخص په وړاندې د غیرقابل توضیح اسهال موجودیت په صورت کې باید د درقي Thyrotoxicosis مرض باندې مشکوک شو."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس په تداوي کې لاندې کومه دوا رول نه لري؟",
+                        "options": [
+                          "Antithyroid",
+                          "B-Blocker",
+                          "Iodide",
+                          "Alpha-Agonists"
+                        ],
+                        "answer": 3,
+                        "explanation": "Alpha-Agonists د تایروتوکسیکوزس په تداوي کې رول نه لري."
+                      },
+                      {
+                        "q": "لاندې کوم اختلاطات ممکن د انتي‌تایروید د تطبیق په اثر رامنځته شي؟",
+                        "options": [
+                          "Agranulocytosis",
+                          "Aplastic Anemia",
+                          "Pernicious Anemia",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 0,
+                        "explanation": "Agranulocytosis ممکن د انتي‌تایروید د تطبیق په اثر رامنځته شي."
+                      },
+                      {
+                        "q": "د عملیاتو څخه وروسته څو فیصده مریضان بیاځل په تایروتوکسیکوزس باندې اخته کېږي؟",
+                        "options": [
+                          "20%",
+                          "50%",
+                          "30%",
+                          "5%"
+                        ],
+                        "answer": 3,
+                        "explanation": "د عملیاتو څخه وروسته 5% مریضان بیاځل په تایروتوکسیکوزس باندې اخته کېږي."
+                      },
+                      {
+                        "q": "د توکسیک نودولر جاغور قطعي تداوي عبارت ده له:",
+                        "options": [
+                          "Surgery",
+                          "Radioiodine",
+                          "Antithyroid",
+                          "B-blocker"
+                        ],
+                        "answer": 0,
+                        "explanation": "د توکسیک نودولر جاغور قطعي تداوي Surgery ده."
+                      },
+                      {
+                        "q": "د 45 کالو څخه کم عمر لرونکو مریضانو چې د درقي په توکسیک نودولر جاغور اخته وي، انتخابي تداوي عبارت ده له:",
+                        "options": [
+                          "Radioiodine",
+                          "Antithyroid",
+                          "Surgery",
+                          "Steroid"
+                        ],
+                        "answer": 2,
+                        "explanation": "د 45 کالو څخه کم عمر لرونکو مریضانو لپاره انتخابي تداوي Surgery ده."
+                      },
+                      {
+                        "q": "که چېرې له عملیاتو وروسته تایروتوکسیکوزس بیاځل نکس وکړي، لاندې کومه تداوي په نظر کې نیسو؟",
+                        "options": [
+                          "بیاځل جراحي",
+                          "راډیو ایوډین",
+                          "انتي‌تایروید",
+                          "ب او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "که چېرې له عملیاتو وروسته تایروتوکسیکوزس بیاځل نکس وکړي، راډیو ایوډین او انتي‌تایروید په نظر کې نیسو."
+                      },
+                      {
+                        "q": "د حامله ښځو لپاره د تایروتوکسیکوزس د تداوي کومه طریقه مطلق مضاد استطباب ده؟",
+                        "options": [
+                          "Surgery",
+                          "Radioiodine",
+                          "Antithyroid",
+                          "Multivitamin"
+                        ],
+                        "answer": 1,
+                        "explanation": "د حامله ښځو لپاره د تایروتوکسیکوزس د تداوي Radioiodine مطلق مضاد استطباب ده."
+                      },
+                      {
+                        "q": "د Thyrocardiac حالت زیاتره په کومو اشخاصو کې رامنځته کېږي؟",
+                        "options": [
+                          "ځوانې ښځې",
+                          "ماشومان",
+                          "مسن اشخاص",
+                          "نوي ځوانان"
+                        ],
+                        "answer": 2,
+                        "explanation": "د Thyrocardiac حالت زیاتره په مسن اشخاصو کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "لاندې کومه دوا د Thyrocardiac حالت د کنټرول سبب کېږي؟",
+                        "options": [
+                          "B-blocker",
+                          "Antithyroid",
+                          "Radioiodine",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "B-blocker، Antithyroid، او Radioiodine ټول د Thyrocardiac حالت د کنټرول سبب کېږي."
+                      },
+                      {
+                        "q": "Jod-Basedow Thyrotoxicosis د څه شي له سببه رامنځته کېږي؟",
+                        "options": [
+                          "د زیات مقدار ایودین تجویز",
+                          "د زیات مقدار انتي‌تایروید تجویز",
+                          "د زیات مقدار پروپرانولول تجویز",
+                          "هېڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "Jod-Basedow Thyrotoxicosis د زیات مقدار ایودین تجویز له سببه رامنځته کېږي."
+                      },
+                      {
+                        "q": "Neonatal Thyrotoxicosis په څومره وخت کې شفایاب کېږي؟",
+                        "options": [
+                          "3–4 هفتې",
+                          "8 هفتې",
+                          "یوه هفته",
+                          "یو کال"
+                        ],
+                        "answer": 0,
+                        "explanation": "Neonatal Thyrotoxicosis په 3–4 هفتو کې شفایاب کېږي."
+                      },
+                      {
+                        "q": "Thyrotoxicosis مریضان د عملیاتو په وخت کې باید د لاندې کوم حالت لرونکي وي؟",
+                        "options": [
+                          "Hyperthyroid",
+                          "Hypothyroid",
+                          "Euthyroid",
+                          "هېڅ یو"
+                        ],
+                        "answer": 2,
+                        "explanation": "Thyrotoxicosis مریضان د عملیاتو په وخت کې باید Euthyroid حالت لرونکي وي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس په عملیاتو کې په څو فیصده واقعاتو کې د راجعه عصب موقت فلج رامنځته کېږي؟",
+                        "options": [
+                          "2%",
+                          "3%",
+                          "50%",
+                          "30%"
+                        ],
+                        "answer": 0,
+                        "explanation": "د تایروتوکسیکوزس په عملیاتو کې په 2% واقعاتو کې د راجعه عصب موقت فلج رامنځته کېږي."
+                      },
+                      {
+                        "q": "د درقي په مریضانو کې د عملیاتو وروسته د کلوئید ندبې تداوي عبارت ده له:",
+                        "options": [
+                          "Methotrexate",
+                          "Antibiotics",
+                          "د داخل‌الجلدي کورتیزون زرق",
+                          "Betamethasone"
+                        ],
+                        "answer": 2,
+                        "explanation": "د درقي په مریضانو کې د عملیاتو وروسته د کلوئید ندبې تداوي د داخل‌الجلدي کورتیزون زرق ده."
+                      },
+                      {
+                        "q": "یو له لاندې تومورونو څخه د درقي سلیم تومور دی:",
+                        "options": [
+                          "Lymphoma",
+                          "Follicular Adenoma",
+                          "Parafollicular Tumor",
+                          "Local Infiltration"
+                        ],
+                        "answer": 1,
+                        "explanation": "Follicular Adenoma د درقي سلیم تومور دی."
+                      },
+                      {
+                        "q": "د درقي د سلیم تومور اصلي تداوي عبارت ده له:",
+                        "options": [
+                          "Lobectomy",
+                          "Radioiodine",
+                          "Methotrexate",
+                          "Vincristine"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقي د سلیم تومور اصلي تداوي Lobectomy ده."
+                      },
+                      {
+                        "q": "د نورو اعضاوو میتاستاتیک تومورونه له کومې لارې تایروید ته میتاستاز کوي؟",
+                        "options": [
+                          "لمفاوي",
+                          "دموي",
+                          "مجاورت",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "د نورو اعضاوو میتاستاتیک تومورونه له دموي لارې تایروید ته میتاستاز کوي."
+                      },
+                      {
+                        "q": "د درقي کارسینوما کوم شکل زیات واقع کېږي؟",
+                        "options": [
+                          "Malignant Lymphoma",
+                          "Papillary Carcinoma",
+                          "Anaplastic Carcinoma",
+                          "Follicular Carcinoma"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي کارسینوما Papillary Carcinoma شکل زیات واقع کېږي."
+                      },
+                      {
+                        "q": "د Follicular Carcinoma د تاسس اصلي علت عبارت دی له:",
+                        "options": [
+                          "په ماشومتوب کې له شعاع سره مواجه کېدل",
+                          "د رادیوایودین تجویز",
+                          "جنیتیک",
+                          "دخانیات"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Follicular Carcinoma د تاسس اصلي علت د رادیوایودین تجویز دی."
+                      },
+                      {
+                        "q": "د درقي د Papillary Carcinoma اعراض عبارت دي له:",
+                        "options": [
+                          "د درقي کتلي موجودیت",
+                          "درد چې غوږ ته سیر کوي",
+                          "د لمفاوي عقداتو ضخامت",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقي د Papillary Carcinoma اعراض د درقي کتلي موجودیت، درد چې غوږ ته سیر کوي، او د لمفاوي عقداتو ضخامت ټول دي."
+                      },
+                      {
+                        "q": "د درقي د اناپلاستیک تومور وصف څه ډول وي؟",
+                        "options": [
+                          "نرم، ارتجاعي، نامنظم حدود",
+                          "سخت، غیرمنظم، ارتشاحي",
+                          "سخت، دانه‌دار، ثابت",
+                          "نرم، متحرک، مدور"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي د اناپلاستیک تومور وصف سخت، غیرمنظم، ارتشاحي وي."
+                      },
+                      {
+                        "q": "د ثدیې متبارز قسمت د کومو اضلاعو په منځ کې توضع لري؟",
+                        "options": [
+                          "4–7",
+                          "2–6",
+                          "3–8",
+                          "1–4"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیې متبارز قسمت د 2–6 اضلاعو په منځ کې توضع لري."
+                      },
+                      {
+                        "q": "د ثدیې ابطي ذنب کوم سمت ته تمایل لري؟",
+                        "options": [
+                          "وحشي",
+                          "علوي",
+                          "سفلي",
+                          "انسي"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیې ابطي ذنب علوي سمت ته تمایل لري."
+                      },
+                      {
+                        "q": "د ثدیې ابطي ذنب په کومو حالاتو کې متبارز کېږي؟",
+                        "options": [
+                          "تحیض او حاملګي",
+                          "د تخم‌ګذارۍ فاز",
+                          "مینوپوز",
+                          "ځواني"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیې ابطي ذنب په تحیض او حاملګي حالاتو کې متبارز کېږي."
+                      },
+                      {
+                        "q": "د ثدیې ابطي ذنب له کومو امراضو سره مغالطه کېږي؟",
+                        "options": [
+                          "Lipoma",
+                          "Lymphadenopathy",
+                          "Duct ectasia",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې ابطي ذنب له Lipoma او Lymphadenopathy سره مغالطه کېږي."
+                      },
+                      {
+                        "q": "د ثدیې ساختماني واحد عبارت دی له:",
+                        "options": [
+                          "Lobule",
+                          "Duct",
+                          "Sinus",
+                          "Acinus"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیې ساختماني واحد Lobule دی."
+                      },
+                      {
+                        "q": "د ښځو په ثدیو کې د لوبولونو متوسط تعداد څو عدده دی؟",
+                        "options": [
+                          "200",
+                          "10–100",
+                          "2–5",
+                          "300"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ښځو په ثدیو کې د لوبولونو متوسط تعداد 10–100 عدده دی."
+                      },
+                      {
+                        "q": "د ثدیو د شیدو د قناتونو تعداد څو دی؟",
+                        "options": [
+                          "30",
+                          "40",
+                          "100",
+                          "15–20"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیو د شیدو د قناتونو تعداد 15–20 دی."
+                      },
+                      {
+                        "q": "د ثدیو د Ampullas وظیفه عبارت ده له:",
+                        "options": [
+                          "د انتاناتو په وړاندې دفاع",
+                          "د ثدیې د شیدو او افرازاتو تجمع",
+                          "تقلص",
+                          "د پرولکتین افراز"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیو د Ampullas وظیفه د ثدیې د شیدو او افرازاتو تجمع ده."
+                      },
+                      {
+                        "q": "Cooper ligaments کوم ډول شکل لري؟",
+                        "options": [
+                          "استوانه‌یي",
+                          "مکعبي",
+                          "مخروطي",
+                          "کروي"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cooper ligaments مخروطي شکل لري."
+                      },
+                      {
+                        "q": "د ثدیي نسج د کومو لیګامینتونو ترمنځ قرار لري؟",
+                        "options": [
+                          "Medial Collateral ligament",
+                          "Lateral collateral ligament",
+                          "Anterior Cruciate Ligament",
+                          "Cooper ligament"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیي نسج د Cooper ligament ترمنځ قرار لري."
+                      },
+                      {
+                        "q": "د ثدیو کوم جوړښت په کارسینوما کې د ثدیې د جلد د ښکته تلو مسؤل دی؟",
+                        "options": [
+                          "Lobule",
+                          "Areola",
+                          "Cooper ligaments",
+                          "Myoepithelial"
+                        ],
+                        "answer": 2,
+                        "explanation": "Cooper ligaments په کارسینوما کې د ثدیې د جلد د ښکته تلو مسؤل دی."
+                      },
+                      {
+                        "q": "د ثدیو د Areola وظیفه عبارت ده له:",
+                        "options": [
+                          "د ثدیو د حلیمې مرطوب کول",
+                          "له ثدیو څخه محافظت",
+                          "د شیدو افراز",
+                          "د شیدو تجمع"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیو د Areola وظیفه د ثدیو د حلیمې مرطوب کول ده."
+                      },
+                      {
+                        "q": "Areola حلیمه کوم غدوات احتوا کوي؟",
+                        "options": [
+                          "Sweating gland",
+                          "Mammary gland",
+                          "Sebaceous gland",
+                          "الف او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "Areola حلیمه Sweating gland او Sebaceous gland احتوا کوي."
+                      },
+                      {
+                        "q": "د ثدیو لمف څو ګروپه عقداتو ته تخلیه کېږي؟",
+                        "options": [
+                          "څلور",
+                          "پنځه",
+                          "دوه",
+                          "درې"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیو لمف درې ګروپه عقداتو ته تخلیه کېږي."
+                      },
+                      {
+                        "q": "د ثدیو زیات لمف کومو عقداتو ته تخلیه کېږي؟",
+                        "options": [
+                          "Axillary Nodes",
+                          "Internal Mammary Nodes",
+                          "Cervical Nodes",
+                          "Paratracheal Nodes"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیو زیات لمف Axillary Nodes ته تخلیه کېږي."
+                      },
+                      {
+                        "q": "د ثدیو د ټولو ابطي عقداتو لمف د کومو عقداتو په واسطه د صدري قنات داخل ته تخلیه کېږي؟",
+                        "options": [
+                          "Interpectoral nodes",
+                          "Apical Nodes",
+                          "Central Nodes",
+                          "Lateral Nodes"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیو د ټولو ابطي عقداتو لمف د Apical Nodes په واسطه د صدري قنات داخل ته تخلیه کېږي."
+                      },
+                      {
+                        "q": "د ثدیو انکشاف او وظایف د کومو هورمونونو د تأثیر لاندې قرار لري؟",
+                        "options": [
+                          "استروجن او پروجسترون",
+                          "اندروجن",
+                          "Thyroxine",
+                          "اکسي‌توسین"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیو انکشاف او وظایف د استروجن او پروجسترون هورمونونو د تأثیر لاندې قرار لري."
+                      },
+                      {
+                        "q": "لاندې کوم هورمون د ثدیو د لوبولونو د انکشاف سبب کېږي؟",
+                        "options": [
+                          "پروجسترون",
+                          "استروجن",
+                          "پرولکتین",
+                          "اندروجن"
+                        ],
+                        "answer": 0,
+                        "explanation": "پروجسترون د ثدیو د لوبولونو د انکشاف سبب کېږي."
+                      },
+                      {
+                        "q": "استروجن د ثدیو د کومو برخو د انکشاف باعث کېږي؟",
+                        "options": [
+                          "Ducts",
+                          "Stroma",
+                          "Lobules",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "استروجن د ثدیو د Ducts او Stroma د انکشاف باعث کېږي."
+                      },
+                      {
+                        "q": "په کوم ټرایمیسټر کې د پرولکتین افراز د شیدو د افراز سبب کېږي؟",
+                        "options": [
+                          "لومړی",
+                          "دوهم",
+                          "درېیم",
+                          "ټول سم دي"
+                        ],
+                        "answer": 2,
+                        "explanation": "په درېیم ټرایمیسټر کې د پرولکتین افراز د شیدو د افراز سبب کېږي."
+                      },
+                      {
+                        "q": "لاندې کوم هورمون د ثدیو د حلیمې د Myoepithelial حجرو د تقلص باعث کېږي؟",
+                        "options": [
+                          "ډوپامین",
+                          "سیروتونین",
+                          "اکسي‌توسین",
+                          "پرولکتین"
+                        ],
+                        "answer": 2,
+                        "explanation": "اکسي‌توسین د ثدیو د حلیمې د Myoepithelial حجرو د تقلص باعث کېږي."
+                      },
+                      {
+                        "q": "د مینوپوز په وخت کې د ثدیو په ساختمان کې کوم حجروي تغییر رامنځته کېږي؟",
+                        "options": [
+                          "Hyperplasia",
+                          "Metaplasia",
+                          "Dysplasia",
+                          "Atrophy"
+                        ],
+                        "answer": 3,
+                        "explanation": "د مینوپوز په وخت کې د ثدیو په ساختمان کې Atrophy حجروي تغییر رامنځته کېږي."
+                      },
+                      {
+                        "q": "یو له لاندې ځوابونو څخه د ثدیو د امراضو له اصلي اعراضو څخه نه دی؟",
+                        "options": [
+                          "د ثدیې کتله",
+                          "د ثدیې افرازات",
+                          "د ثدیې درد",
+                          "د ثدیې تورم"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې تورم د ثدیو د امراضو له اصلي اعراضو څخه نه دی."
+                      },
+                      {
+                        "q": "د Cooper ligament په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "مخروطي شکله تبارزات",
+                          "عمیق صفاق د ثدیې له جلد سره وصلوي",
+                          "ترمنځ یې د ثدیې نسج قرار لري",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "ټول سم دي غلطه جمله ده."
+                      },
+                      {
+                        "q": "د ثدیې مصلي افرازات په کومو حالاتو کې په ملاحظه رسېږي؟",
+                        "options": [
+                          "Carcinoma",
+                          "Duct ectasia",
+                          "Duct papilloma",
+                          "هېڅ یو"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ثدیې مصلي افرازات په Duct papilloma کې په ملاحظه رسېږي."
+                      },
+                      {
+                        "q": "په لاندې حالت کې 90 فیصده د ثدیو کتلات لیدل کېږي؟",
+                        "options": [
+                          "Lipoma",
+                          "Galactocele",
+                          "سارکوما",
+                          "هېڅ یو"
+                        ],
+                        "answer": 3,
+                        "explanation": "په هېڅ یو حالت کې 90 فیصده د ثدیو کتلات لیدل نه کېږي."
+                      },
+                      {
+                        "q": "د ثدیو د حلیمې همواري په څه شي دلالت کوي؟",
+                        "options": [
+                          "کانسر",
+                          "کیست",
+                          "التهاب",
+                          "نکروز"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیو د حلیمې همواري په کیست دلالت کوي."
+                      },
+                      {
+                        "q": "Antibioma څه ډول کتله ده؟",
+                        "options": [
+                          "کوچنۍ، استرومايي، استریل",
+                          "لویه، استرومايي، استریل",
+                          "متکمش، دانه‌لرونکی",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "Antibioma لویه، استرومايي، استریل کتله ده."
+                      },
+                      {
+                        "q": "د ثدیي په ابسې کې Fluctuation په کوم ډول رامنځته کېږي؟",
+                        "options": [
+                          "مقدم",
+                          "مؤخر",
+                          "فوري",
+                          "تاسس نه کوي"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیي په ابسې کې Fluctuation په مؤخر ډول رامنځته کېږي."
+                      },
+                      {
+                        "q": "د ځوانۍ د Mastitis په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "80 فیصده دوه‌طرفه وي",
+                          "زیاتره په 14 کلنۍ کې لیدل کېږي",
+                          "هېڅ وخت تقیح پکې نه رامنځته کېږي",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "ټول سم دي غلطه جمله ده."
+                      },
+                      {
+                        "q": "د Mondor مرض په اړه سمه جمله په نښه کړئ؟",
+                        "options": [
+                          "د ثدیې د عمیقې وریدې او د صدر د قدامي جدار ترومبوفلبیت",
+                          "د ثدیې د عمیقې وریدې او د صدر د خلفي جدار ترومبوفلبیت",
+                          "د ثدیو د سطحي ورید او د صدر د قدامي جدار ترومبوفلبیت",
+                          "یوازینۍ تداوي یې انتي‌بیوتیک دی"
+                        ],
+                        "answer": 2,
+                        "explanation": "د Mondor مرض د ثدیو د سطحي ورید او د صدر د قدامي جدار ترومبوفلبیت دی."
+                      },
+                      {
+                        "q": "د Ductectasia معمول ترین اعراض او علایم عبارت دي له:",
+                        "options": [
+                          "د حلیمې قیحي افرازات",
+                          "د حلیمې کش کېدل",
+                          "د اریولا د شاته برخې کتله",
+                          "الف او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د Ductectasia معمول ترین اعراض او علایم د حلیمې قیحي افرازات او د اریولا د شاته برخې کتله دي."
+                      },
+                      {
+                        "q": "Hadfield operation څه ته ویل کېږي؟",
+                        "options": [
+                          "د ثدیې د بعضو ماؤوفه قناتونو ویستل",
+                          "د ثدیې د ټولو ماؤوفه قناتونو ویستل",
+                          "د ثدیې کامل Resection",
+                          "ټول سم دي"
+                        ],
+                        "answer": 1,
+                        "explanation": "Hadfield operation د ثدیې د ټولو ماؤوفه قناتونو ویستل دي."
+                      },
+                      {
+                        "q": "د ثدیو سلیم تومورونه په څو نوع دي؟",
+                        "options": [
+                          "درې",
+                          "دوه",
+                          "څلور",
+                          "پنځه"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیو سلیم تومورونه په درې نوع دي."
+                      },
+                      {
+                        "q": "Fibroadenoma په کوم سن کې زیات لیدل کېږي؟",
+                        "options": [
+                          "15–20",
+                          "15–30",
+                          "10–25",
+                          "15–25"
+                        ],
+                        "answer": 3,
+                        "explanation": "Fibroadenoma په 15–25 سن کې زیات لیدل کېږي."
+                      },
+                      {
+                        "q": "د Phyllodes Tumor په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "له 40 کاله پورته عمر لرونکو ښځو کې لیدل کېږي",
+                          "د صدر له جدار سره التصاق کوي",
+                          "له دموي لارې میتاستازس کوي",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "ټول سم دي غلطه جمله ده."
+                      },
+                      {
+                        "q": "د ثدیې د خبیثو تومورونو سببي فکتورونه عبارت دي له:",
+                        "options": [
+                          "غذایي عادتونه",
+                          "جنس",
+                          "اندوکراین",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې د خبیثو تومورونو سببي فکتورونه غذایي عادتونه، جنس، او اندوکراین ټول دي."
+                      },
+                      {
+                        "q": "د تفکیک د درجې له نظره د ثدیو کانسر په څو درجو وېشل شوی دی؟",
+                        "options": [
+                          "دوه",
+                          "درې",
+                          "څلور",
+                          "شپږ"
+                        ],
+                        "answer": 1,
+                        "explanation": "د تفکیک د درجې له نظره د ثدیو کانسر په درې درجو وېشل شوی دی."
+                      },
+                      {
+                        "q": "د ثدیو کانسر په څو شکلونو سره انتشار کوي؟",
+                        "options": [
+                          "دوه",
+                          "درې",
+                          "پنځه",
+                          "څلور"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیو کانسر په درې شکلونو سره انتشار کوي."
+                      },
+                      {
+                        "q": "د ثدیو د کانسر واقعات زیاتره د ثدیې په کومه ربع کې رامنځته کېږي؟",
+                        "options": [
+                          "علوي انسي ربع",
+                          "سفلي انسي ربع",
+                          "علوي وحشي ربع",
+                          "سفلي وحشي ربع"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ثدیو د کانسر واقعات زیاتره د ثدیې په علوي وحشي ربع کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د Mammary dysplasia مریضان د کوم نوع افرازاتو درلودونکي وي؟",
+                        "options": [
+                          "وینه لرونکي",
+                          "قیحي",
+                          "مصلي",
+                          "شیدو ته ورته"
+                        ],
+                        "answer": 2,
+                        "explanation": "د Mammary dysplasia مریضان د مصلي افرازاتو درلودونکي وي."
+                      },
+                      {
+                        "q": "د ثدیو په کوم مرض کې تور او شین رنګه افرازات لیدل کېږي؟",
+                        "options": [
+                          "Duct papilloma",
+                          "Galactocele",
+                          "Duct ectasia",
+                          "Fat Necrosis"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ثدیو په Duct ectasia مرض کې تور او شین رنګه افرازات لیدل کېږي."
+                      },
+                      {
+                        "q": "شیري افرازات په کومو حالاتو کې مشاهده کېږي؟",
+                        "options": [
+                          "Lactation",
+                          "Galactocele",
+                          "Cystadenoma",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "شیري افرازات په Lactation او Galactocele حالاتو کې مشاهده کېږي."
+                      },
+                      {
+                        "q": "د ثدیې د کانسر درد څه ډول وي؟",
+                        "options": [
+                          "سوځونکی",
+                          "د ستنې د وهلو په شان",
+                          "څېرې کېدونکی",
+                          "فشار ورکوونکی"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې د کانسر درد فشار ورکوونکی وي."
+                      },
+                      {
+                        "q": "د Paget مرض په مقدمو مراحلو کې Areola څه ډول رنګ ځانته اختیاروي؟",
+                        "options": [
+                          "نصواري",
+                          "قهوه‌یي",
+                          "سور",
+                          "ژیړ"
+                        ],
+                        "answer": 2,
+                        "explanation": "د Paget مرض په مقدمو مراحلو کې Areola سور رنګ ځانته اختیاروي."
+                      },
+                      {
+                        "q": "د ثدیو د کومو امراضو په تشخیص کې الټراساوند کمک کوي؟",
+                        "options": [
+                          "کیستونه",
+                          "کتلات",
+                          "غیرقابل جس کتلات",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "الټراساوند د ثدیو د کیستونو، کتلاتو، او غیرقابل جس کتلاتو په تشخیص کې کمک کوي."
+                      },
+                      {
+                        "q": "ترضیضات د ثدیو د کومو امراضو سبب کېږي؟",
+                        "options": [
+                          "هیماټوما",
+                          "Fat necrosis",
+                          "کانسر",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "ترضیضات د ثدیو د هیماټوما او Fat necrosis سبب کېږي."
+                      },
+                      {
+                        "q": "د ثدیې شحمي نکروز د کومو حجروي تغییراتو سبب کېږي؟",
+                        "options": [
+                          "فایبروز او تکلس",
+                          "Atrophy",
+                          "Hypertrophy",
+                          "Metaplasia"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیې شحمي نکروز د فایبروز او تکلس حجروي تغییراتو سبب کېږي."
+                      },
+                      {
+                        "q": "د ثدیو شحمي نکروز څنګه تشخیصېږي؟",
+                        "options": [
+                          "الټراساوند",
+                          "بایوپسي",
+                          "Mammography",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیو شحمي نکروز د بایوپسي په واسطه تشخیصېږي."
+                      },
+                      {
+                        "q": "حاد باکتریایي التهاب زیاتره په کومه دوره کې واقع کېږي؟",
+                        "options": [
+                          "Pregnancy",
+                          "Lactation",
+                          "Ovulation",
+                          "Menopause"
+                        ],
+                        "answer": 1,
+                        "explanation": "حاد باکتریایي التهاب زیاتره په Lactation دوره کې واقع کېږي."
+                      },
+                      {
+                        "q": "د Mastitis مهمترین سببي عامل عبارت دی له:",
+                        "options": [
+                          "Haemophilus influenzae",
+                          "Staphylococcus aureus",
+                          "Pneumococcus",
+                          "Klebsiella"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Mastitis مهمترین سببي عامل Staphylococcus aureus دی."
+                      },
+                      {
+                        "q": "د Mastitis د انتاني عامل د سرایت مسیر عبارت دی له:",
+                        "options": [
+                          "د ماشوم خوله",
+                          "جلدي قرحات",
+                          "غربت",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د Mastitis د انتاني عامل د سرایت مسیر د ماشوم خوله، جلدي قرحات، او غربت ټول دي."
+                      },
+                      {
+                        "q": "د ثدیې د التهاب مقدمه مرحله څه ډول تظاهر کوي؟",
+                        "options": [
+                          "ابسه",
+                          "Cellulitis",
+                          "قرحه",
+                          "تورم"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیې د التهاب مقدمه مرحله Cellulitis تظاهر کوي."
+                      },
+                      {
+                        "q": "د ثدیو د التهاب د Cellulitis په مرحله کې د کومې دوا په واسطه تداوي کېږي؟",
+                        "options": [
+                          "Ceftriaxone",
+                          "Cefotaxime",
+                          "Flucloxacillin",
+                          "Amoxicillin"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ثدیو د التهاب د Cellulitis په مرحله کې د Flucloxacillin په واسطه تداوي کېږي."
+                      },
+                      {
+                        "q": "له لاندې کومې دوا څخه استفاده د Antibioma د تاسس سبب کېږي؟",
+                        "options": [
+                          "Steroid",
+                          "Antiviral",
+                          "Antibiotic",
+                          "Analgesics"
+                        ],
+                        "answer": 2,
+                        "explanation": "له Antibiotic څخه استفاده د Antibioma د تاسس سبب کېږي."
+                      },
+                      {
+                        "q": "د ثدیې توبرکلوز په کومې منظرې سره ظاهریږي؟",
+                        "options": [
+                          "واحد نودول",
+                          "متعددې او مزمنې ابسې",
+                          "Hemorrhagic cyst",
+                          "تکلسي نکات"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیې توبرکلوز په متعددې او مزمنې ابسې منظرې سره ظاهریږي."
+                      },
+                      {
+                        "q": "د ثدیې توبرکلوزیک سینوسونه په کوم رنګ تظاهر کوي؟",
+                        "options": [
+                          "سور",
+                          "آبي",
+                          "بنفش",
+                          "ژیړ"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ثدیې توبرکلوزیک سینوسونه په آبي رنګ تظاهر کوي."
+                      },
+                      {
+                        "q": "د ثدې د توبرکلوز مزمن واقعات په کوم روش سره تداوي کېږي؟",
+                        "options": [
+                          "Mastectomy",
+                          "Hadfield Operation",
+                          "Drainage",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدې د توبرکلوز مزمن واقعات د Mastectomy، Hadfield Operation، او Drainage ټول سم دي."
+                      },
+                      {
+                        "q": "د Mondor مرض په معاینه کې څه ترلاسه کوو؟",
+                        "options": [
+                          "حبل ته ورته جوړښت چې له جلد سره ملتصق وي",
+                          "متورمه ناحیه",
+                          "احمراري",
+                          "له قیح څخه ډکه ابسه"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Mondor مرض په معاینه کې حبل ته ورته جوړښت چې له جلد سره ملتصق وي ترلاسه کوو."
+                      },
+                      {
+                        "q": "د Mondor مرض تداوي عبارت ده له:",
+                        "options": [
+                          "د سطحي ورید Excision",
+                          "ماؤوفه طرف ته استراحت ورکول",
+                          "Steroid",
+                          "Antibiotic"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Mondor مرض تداوي ماؤوفه طرف ته استراحت ورکول ده."
+                      },
+                      {
+                        "q": "Mondor مرض څه وخت له منځه ځي؟",
+                        "options": [
+                          "یو کال وروسته",
+                          "څو میاشتې",
+                          "دوه هفتې",
+                          "20 ورځې"
+                        ],
+                        "answer": 1,
+                        "explanation": "Mondor مرض څو میاشتې وروسته له منځه ځي."
+                      },
+                      {
+                        "q": "Ductectasia څه ته وایي؟",
+                        "options": [
+                          "د صفراوي قناتونو توسع",
+                          "د شیري قناتونو توسع",
+                          "د صفراوي طرقو انسداد",
+                          "د امعاوو انسداد"
+                        ],
+                        "answer": 1,
+                        "explanation": "Ductectasia د شیري قناتونو توسع ته وایي."
+                      },
+                      {
+                        "q": "د کارسنوما او Ductectasia مشترک وصف عبارت دی له:",
+                        "options": [
+                          "د ثدیې د حلیمې کش کېدل",
+                          "Eczema",
+                          "احمرار",
+                          "درد"
+                        ],
+                        "answer": 0,
+                        "explanation": "د کارسنوما او Ductectasia مشترک وصف د ثدیې د حلیمې کش کېدل دي."
+                      },
+                      {
+                        "q": "د Ductectasia د تداوي لپاره غوره دوا عبارت ده له:",
+                        "options": [
+                          "Flucloxacillin",
+                          "Metronidazole",
+                          "Cefixime",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د Ductectasia د تداوي لپاره غوره دوا Flucloxacillin او Metronidazole دي."
+                      },
+                      {
+                        "q": "د ثدیو کیستونه په کوم سن کې رامنځته کېږي؟",
+                        "options": [
+                          "د بلوغ دوران",
+                          "د ژوند درېیمه لسیزه",
+                          "ځواني",
+                          "د ښځو د تولید او تناسل اخره لسیزه"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیو کیستونه د ښځو د تولید او تناسل اخره لسیزه کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د ثدیې د کیست د Aspiration څخه وروسته چې وینه لرونکی محتوی ولري، کوم اقدامات باید ترسره شي؟",
+                        "options": [
+                          "Biopsy and Excision",
+                          "Ultrasound",
+                          "Aspiration",
+                          "Drainage"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیې د کیست د Aspiration څخه وروسته چې وینه لرونکی محتوی ولري، Biopsy and Excision باید ترسره شي."
+                      },
+                      {
+                        "q": "Fibroadenoma د ثدیو د سلیمو تومورونو له جملې څخه کوم ډول تومور دی؟",
+                        "options": [
+                          "اپیتیلي تومور",
+                          "منضم تومور",
+                          "مختلط تومور",
+                          "هېڅ یو"
+                        ],
+                        "answer": 2,
+                        "explanation": "Fibroadenoma د ثدیو د سلیمو تومورونو له جملې څخه مختلط تومور دی."
+                      },
+                      {
+                        "q": "لاندې کوم تومور د ثدیې له منضم نسج څخه منشأ اخلي؟",
+                        "options": [
+                          "Fibroadenoma",
+                          "Lipoma",
+                          "Duct Papilloma",
+                          "Pure adenoma"
+                        ],
+                        "answer": 1,
+                        "explanation": "Lipoma د ثدیې له منضم نسج څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "فیبروادینوما د څه له سببه رامنځته کېږي؟",
+                        "options": [
+                          "د قناتونو Atrophy",
+                          "د حلیمې Hypertrophy",
+                          "د لوبول Hyperplasia",
+                          "د شیري قنات توسع"
+                        ],
+                        "answer": 2,
+                        "explanation": "فیبروادینوما د لوبول Hyperplasia له سببه رامنځته کېږي."
+                      },
+                      {
+                        "q": "Giant fibroadenoma د ژوند په کومه دوره کې رامنځته کېږي؟",
+                        "options": [
+                          "کهولت",
+                          "زړښت",
+                          "بلوغ",
+                          "له مینوپوز څخه وروسته"
+                        ],
+                        "answer": 2,
+                        "explanation": "Giant fibroadenoma د ژوند په بلوغ دوره کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د Phyllodes tumor سمه مشخصه په نښه کړئ؟",
+                        "options": [
+                          "د بلوغ په سن کې پیدا کېږي",
+                          "لوی او حجیم دی",
+                          "د صدر له جدار سره ملتصق دی",
+                          "لشم سطحه لري"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Phyllodes tumor سمه مشخصه لوی او حجیم دی."
+                      },
+                      {
+                        "q": "Phyllodes tumor له کومې لارې څخه میتاستاز کوي؟",
+                        "options": [
+                          "مجاورت",
+                          "دموي",
+                          "لمفاوي",
+                          "هېڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "Phyllodes tumor له دموي لارې څخه میتاستاز کوي."
+                      },
+                      {
+                        "q": "د ښځو په وړاندې د Phyllodes tumor د سلیمې نوعې تداوي څه ډول ده؟",
+                        "options": [
+                          "Enucleation",
+                          "Wide Excision",
+                          "Hadfield operation",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ښځو په وړاندې د Phyllodes tumor د سلیمې نوعې تداوي Enucleation او Wide Excision دي."
+                      },
+                      {
+                        "q": "د ثدیو معمول‌ترین کانسر عبارت دی له:",
+                        "options": [
+                          "Ductal Carcinoma",
+                          "Colloid Carcinoma",
+                          "Medullary Carcinoma",
+                          "Tubular Carcinoma"
+                        ],
+                        "answer": 0,
+                        "explanation": "د ثدیو معمول‌ترین کانسر Ductal Carcinoma دی."
+                      },
+                      {
+                        "q": "Colloid Carcinoma کومه ماده افرازوي؟",
+                        "options": [
+                          "Serous",
+                          "Mucin",
+                          "Pus",
+                          "Chyle"
+                        ],
+                        "answer": 1,
+                        "explanation": "Colloid Carcinoma Mucin ماده افرازوي."
+                      },
+                      {
+                        "q": "Tubular Carcinoma له کوم ځای څخه منشأ اخلي؟",
+                        "options": [
+                          "لوبول",
+                          "قنات",
+                          "حلیمه",
+                          "اریولا"
+                        ],
+                        "answer": 1,
+                        "explanation": "Tubular Carcinoma له قنات څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "لاندې کوم کانسر زیات مهاجم او خطرناک دی؟",
+                        "options": [
+                          "Inflammatory Carcinoma",
+                          "Carcinoma Insitu",
+                          "Tubular Carcinoma",
+                          "Colloid Carcinoma"
+                        ],
+                        "answer": 0,
+                        "explanation": "Inflammatory Carcinoma زیات مهاجم او خطرناک دی."
+                      },
+                      {
+                        "q": "د Carcinoma in situ اساسي تداوي عبارت ده له:",
+                        "options": [
+                          "Radiotherapy",
+                          "Mastectomy",
+                          "Chemotherapy",
+                          "ټول سم دي"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Carcinoma in situ اساسي تداوي Mastectomy ده."
+                      },
+                      {
+                        "q": "Paget یعنې څه؟",
+                        "options": [
+                          "د ثدیې د کارسنوما عمیق تظاهر",
+                          "د ثدیې د کارسنوما سطحي تظاهر",
+                          "د ثدیې تورم",
+                          "د ثدیې احمرار"
+                        ],
+                        "answer": 1,
+                        "explanation": "Paget د ثدیې د کارسنوما سطحي تظاهر دی."
+                      },
+                      {
+                        "q": "Paget څه ډول ظاهریږي؟",
+                        "options": [
+                          "پپول",
+                          "مکول",
+                          "نارنجي پوست",
+                          "د حلیمې اګزیما"
+                        ],
+                        "answer": 3,
+                        "explanation": "Paget د حلیمې اګزیما ډول ظاهریږي."
+                      },
+                      {
+                        "q": "Cancer en Cuirasse څه ته ویل کېږي؟",
+                        "options": [
+                          "دواړه ثدیې په کانسر اخته کېدل",
+                          "د صدر د جدار د وسیع ډول مصابېدل په کانسر باندې",
+                          "د جراحي په واسطه د ثدیې لیرې کول",
+                          "موضعي کانسر"
+                        ],
+                        "answer": 1,
+                        "explanation": "Cancer en Cuirasse د صدر د جدار د وسیع ډول مصابېدل په کانسر باندې ته ویل کېږي."
+                      },
+                      {
+                        "q": "Cancer en Cuirasse ولې رامنځته کېږي؟",
+                        "options": [
+                          "له مستیکتومي څخه وروسته د تومور د نکس په اثر",
+                          "وروسته د صدر د جدار له رادیوتراپي څخه",
+                          "د لمفاوي قنات د بندښت په اثر",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "Cancer en Cuirasse له مستیکتومي څخه وروسته د تومور د نکس په اثر او وروسته د صدر د جدار له رادیوتراپي څخه رامنځته کېږي."
+                      },
+                      {
+                        "q": "Lymphangiosarcoma په کوم شکل تاسس کوي؟",
+                        "options": [
+                          "ویزیکلونه",
+                          "جلدي پپولونه",
+                          "جلدي قرحات",
+                          "تحت‌الجلدي نودولونه"
+                        ],
+                        "answer": 3,
+                        "explanation": "Lymphangiosarcoma په تحت‌الجلدي نودولونه شکل تاسس کوي."
+                      },
+                      {
+                        "q": "د ثدیې د کانسرونو عمومي تداوي عبارت ده له:",
+                        "options": [
+                          "جراحي",
+                          "شیموتراپي او هورمونوتراپي",
+                          "رادیوتراپي",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې د کانسرونو عمومي تداوي جراحي، شیموتراپي او هورمونوتراپي، او رادیوتراپي ټول دي."
+                      },
+                      {
+                        "q": "د ثدیې د کانسر د هورموني تداوي لپاره له کومو دواګانو څخه استفاده کېږي؟",
+                        "options": [
+                          "LHRH",
+                          "Tamoxifen",
+                          "Methotrexate",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ثدیې د کانسر د هورموني تداوي لپاره له LHRH او Tamoxifen څخه استفاده کېږي."
+                      },
+                      {
+                        "q": "د نړۍ څو فیصده خلک په وریدي وریکوز باندې اخته دي؟",
+                        "options": [
+                          "10%",
+                          "20%",
+                          "5%",
+                          "30%"
+                        ],
+                        "answer": 3,
+                        "explanation": "د نړۍ 30% خلک په وریدي وریکوز باندې اخته دي."
+                      },
+                      {
+                        "q": "د عمیقې وریدې د ترومبوز وقوع په کوم ټیسټ سره تعینېږي؟",
+                        "options": [
+                          "PTT",
+                          "ESR",
+                          "CBC",
+                          "Fibrinogen uptake test"
+                        ],
+                        "answer": 3,
+                        "explanation": "د عمیقې وریدې د ترومبوز وقوع د Fibrinogen uptake test سره تعینېږي."
+                      },
+                      {
+                        "q": "د عمیقې وریدې په ترومبوز اخته مریضان په څو ګروپونو وېشل شوي دي؟",
+                        "options": [
+                          "اووه",
+                          "څلور",
+                          "درې",
+                          "پنځه"
+                        ],
+                        "answer": 2,
+                        "explanation": "د عمیقې وریدې په ترومبوز اخته مریضان په درې ګروپونو وېشل شوي دي."
+                      },
+                      {
+                        "q": "یو ځوان شخص چې خفیفه مریضي لري او عملیات یې له 30 دقیقو څخه کم وخت دوام کړی وي، د DVT کوم Risk Group پورې مربوطېږي؟",
+                        "options": [
+                          "High risk",
+                          "Moderate Risk",
+                          "Low risk",
+                          "هېڅ یو"
+                        ],
+                        "answer": 2,
+                        "explanation": "یو ځوان شخص چې خفیفه مریضي لري او عملیات یې له 30 دقیقو څخه کم وخت دوام کړی وي، د DVT Low risk ګروپ پورې مربوطېږي."
+                      },
+                      {
+                        "q": "یو 60 کلن چاغ مریض چې د MI د تاریخچې لرونکی وي او لوی عملیات یې تېر کړی وي، د DVT کوم Risk Group پورې مربوطېږي؟",
+                        "options": [
+                          "High risk",
+                          "Low risk",
+                          "Moderate risk",
+                          "ټول سم دي"
+                        ],
+                        "answer": 0,
+                        "explanation": "یو 60 کلن چاغ مریض چې د MI د تاریخچې لرونکی وي او لوی عملیات یې تېر کړی وي، د DVT High risk ګروپ پورې مربوطېږي."
+                      },
+                      {
+                        "q": "له لاندې کومو وسیلو څخه استفاده د DVT د وقوعاتو د کموالي سبب کېږي؟",
+                        "options": [
+                          "فشاري جوراب",
+                          "External pneumatic compression",
+                          "یخ کمپرس",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "فشاري جوراب او External pneumatic compression د DVT د وقوعاتو د کموالي سبب کېږي."
+                      },
+                      {
+                        "q": "له لاندې دواګانو څخه یوه په داخل‌بستر مریضانو کې د DVT د وقایې لپاره استفاده کېږي:",
+                        "options": [
+                          "Aspirin",
+                          "Indomethacin",
+                          "Heparin",
+                          "Clopidogrel"
+                        ],
+                        "answer": 2,
+                        "explanation": "Heparin په داخل‌بستر مریضانو کې د DVT د وقایې لپاره استفاده کېږي."
+                      },
+                      {
+                        "q": "له لاندې دواګانو څخه یوه د DVT د تداوي لپاره تجویز کېږي:",
+                        "options": [
+                          "هیپارین",
+                          "Enoxaparin",
+                          "Warfarin",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "هیپارین، Enoxaparin، او Warfarin ټول د DVT د تداوي لپاره تجویز کېږي."
+                      },
+                      {
+                        "q": "Thrombophlebitis زیاتره په کومه وریده کې رامنځته کېږي؟",
+                        "options": [
+                          "هغه وریده چې وریدي تطبیقات په صورت نیسي",
+                          "عمیقه وریده",
+                          "ریوي ورید",
+                          "علوي اجوف ورید"
+                        ],
+                        "answer": 0,
+                        "explanation": "Thrombophlebitis زیاتره په هغه وریده کې رامنځته کېږي چې وریدي تطبیقات په صورت نیسي."
+                      },
+                      {
+                        "q": "Thrombophlebitis migrans د کوم مرض مخربه علامه ده؟",
+                        "options": [
+                          "د امعاوو انسداد",
+                          "Crohn disease",
+                          "Ulcerative colitis",
+                          "حشوي کانسر"
+                        ],
+                        "answer": 3,
+                        "explanation": "Thrombophlebitis migrans د حشوي کانسر مخربه علامه ده."
+                      },
+                      {
+                        "q": "د Thrombophlebitis تداوي څه ډول ترسره کېږي؟",
+                        "options": [
+                          "کمپریس جوراب",
+                          "بنداژ",
+                          "د التهاب ضد دواګانې",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د Thrombophlebitis تداوي کمپریس جوراب، بنداژ، او د التهاب ضد دواګانې ټول دي."
+                      },
+                      {
+                        "q": "د ابطي وریدي ترومبوز د تاسس علت عبارت دی له:",
+                        "options": [
+                          "وریدي زرقیات",
+                          "زیات تمرینات",
+                          "د عضد هډوکي کسر",
+                          "د اوږې د مفصل خلع"
+                        ],
+                        "answer": 1,
+                        "explanation": "د ابطي وریدي ترومبوز د تاسس علت زیات تمرینات دي."
+                      },
+                      {
+                        "q": "د ابطي وریدي ترومبوز علایم عبارت دي له:",
+                        "options": [
+                          "د سطحي وریدونو توسع",
+                          "تورم",
+                          "درد",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ابطي وریدي ترومبوز علایم د سطحي وریدونو توسع، تورم، او درد ټول دي."
+                      },
+                      {
+                        "q": "د لاندې کومې دوا تجویز د ابطي وریدي ترومبوز د سریع جذب سبب کېږي؟",
+                        "options": [
+                          "انتي‌بیوتیک",
+                          "NSAIDs",
+                          "Anticoagulants",
+                          "Steroids"
+                        ],
+                        "answer": 2,
+                        "explanation": "د Anticoagulants تجویز د ابطي وریدي ترومبوز د سریع جذب سبب کېږي."
+                      },
+                      {
+                        "q": "وریدي وریکوز د فزیولوژي له نظره یعنې څه؟",
+                        "options": [
+                          "د سطحي وریدونو د دساماتو عدم کفایه",
+                          "په وریده کې د ترومبوز تشکیل",
+                          "د وریدې د جدار انشقاق",
+                          "د وریدې د جریان مسدود کېدل"
+                        ],
+                        "answer": 0,
+                        "explanation": "وریدي وریکوز د فزیولوژي له نظره د سطحي وریدونو د دساماتو عدم کفایه ده."
+                      },
+                      {
+                        "q": "وریدي وریکوز معمولاً د کومې برخې په وریده کې رامنځته کېږي؟",
+                        "options": [
+                          "علوي اطراف",
+                          "سفلي اطراف",
+                          "حشوي ورید",
+                          "د زړه د اطرافو وریدونه"
+                        ],
+                        "answer": 1,
+                        "explanation": "وریدي وریکوز معمولاً د سفلي اطراف په وریده کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "وریدي وریکوز په کومو اشکالو تاسس کوي؟",
+                        "options": [
+                          "سلیم او خبیث",
+                          "ابتدایي او ثانوي",
+                          "خفیف او پرمختللی",
+                          "Grade 1 and Grade 2"
+                        ],
+                        "answer": 1,
+                        "explanation": "وریدي وریکوز په ابتدایي او ثانوي اشکالو تاسس کوي."
+                      },
+                      {
+                        "q": "د وریدي وریکوز مریض کوم شکایت د دې سبب کېږي چې مریض ډاکتر ته مراجعه وکړي؟",
+                        "options": [
+                          "خارښت",
+                          "د ورځې په جریان کې درد",
+                          "تورم",
+                          "جلدي تغییرات"
+                        ],
+                        "answer": 1,
+                        "explanation": "د وریدي وریکوز مریض د ورځې په جریان کې درد شکایت د دې سبب کېږي چې مریض ډاکتر ته مراجعه وکړي."
+                      },
+                      {
+                        "q": "یو له لاندې ځوابونو څخه د وریدي وریکوز له جلدي اعراضو څخه نه دی:",
+                        "options": [
+                          "اګزیما",
+                          "Lipodermatosclerosis",
+                          "تقریح",
+                          "Bulla"
+                        ],
+                        "answer": 3,
+                        "explanation": "Bulla د وریدي وریکوز له جلدي اعراضو څخه نه دی."
+                      },
+                      {
+                        "q": "د Long saphenous عدم کفایه د کوم قسمت د وریدي وریکوز نښه ده؟",
+                        "options": [
+                          "فخذ",
+                          "ساق",
+                          "قدم",
+                          "بازو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Long saphenous عدم کفایه د فخذ د وریدي وریکوز نښه ده."
+                      },
+                      {
+                        "q": "د وریدي وریکوز د تداوۍ لپاره کوم مواد تزریق کېږي؟",
+                        "options": [
+                          "سکلروز ورکوونکي مواد",
+                          "هیپارین",
+                          "فایبرینولیتیک مواد",
+                          "هېڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د وریدي وریکوز د تداوۍ لپاره سکلروز ورکوونکي مواد تزریق کېږي."
+                      },
+                      {
+                        "q": "یو له لاندې ځوابونو څخه د وریدي وریکوز له اختلاطاتو څخه نه دی:",
+                        "options": [
+                          "ترومبوفلبایتس",
+                          "هیمورژ",
+                          "پریتونایتس",
+                          "Persistent ulcer"
+                        ],
+                        "answer": 2,
+                        "explanation": "پریتونایتس د وریدي وریکوز له اختلاطاتو څخه نه دی."
+                      },
+                      {
+                        "q": "Talipes equinus د کوم وعایي مرض اختلاط دی؟",
+                        "options": [
+                          "ترومبوفلبایتس",
+                          "DVT",
+                          "Varicose veins",
+                          "AVT"
+                        ],
+                        "answer": 2,
+                        "explanation": "Talipes equinus د Varicose veins وعایي مرض اختلاط دی."
+                      },
+                      {
+                        "q": "د Venography په طریقه کې کثیفه مواد د کوم ورید له لارې زرقېږي؟",
+                        "options": [
+                          "Fibular vein",
+                          "Dorsal pedis vein",
+                          "Popliteal vein",
+                          "External iliac vein"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Venography په طریقه کې کثیفه مواد د Dorsal pedis vein له لارې زرقېږي."
+                      }
+                    ],
+                    "qa": [],
+                    "flashcards": [],
+                    "mnemonics": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
