@@ -12902,7 +12902,7 @@
               "id": "thoracic_surgery",
               "name": "Thoracic Surgery",
               "icon": "🫁",
-              "description": "",
+              "description": "Surgical disorders of the chest including thyroid, breast, and venous diseases",
               "subtopics": [
                 {
                   "id": "venous_disorders",
@@ -13653,6 +13653,943 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "thyroid_surgery",
+                  "name": "Thyroid Surgery",
+                  "icon": "🦋",
+                  "description": "Thyroid gland anatomy, physiology, and surgical conditions including goiter and thyrotoxicosis",
+                  "content": {
+                    "mcqs": [
+                      {
+                        "q": "درقي غده چیرته موقعیت لري؟",
+                        "options": [
+                          "د عنق علوي",
+                          "د صدر علوي",
+                          "د عنق سفلي",
+                          "هیڅ یو"
+                        ],
+                        "answer": 2,
+                        "explanation": "درقي غده د عنق سفلي برخه کې موقعیت لري."
+                      },
+                      {
+                        "q": "د درقي غدې وزن څومره دی؟",
+                        "options": [
+                          "10-15 gr",
+                          "20-25 gr",
+                          "30-40 gr",
+                          "60 gr"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې وزن 20-25 gr دی."
+                      },
+                      {
+                        "q": "درقي غده له څو فصونو څخه تشکیل شوې ده؟",
+                        "options": [
+                          "درې",
+                          "دوه",
+                          "څلور",
+                          "پنځه"
+                        ],
+                        "answer": 1,
+                        "explanation": "درقي غده له دوو فصونو څخه تشکیل شوې ده."
+                      },
+                      {
+                        "q": "د درقي غدې فصونه یو له بل سره د کوم واسطې په واسطه وصل شوي دي؟",
+                        "options": [
+                          "Lobe",
+                          "Isthmus",
+                          "Lobule",
+                          "Acinus"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې فصونه د Isthmus په واسطه وصل شوي دي."
+                      },
+                      {
+                        "q": "د درقي غدې سفلي قطب تر کوم ساحې پورې رسیږي؟",
+                        "options": [
+                          "د ترقوي تر لومړی حلقې",
+                          "د منصف علوي پورې",
+                          "د ترقوي تر شپږمې حلقې",
+                          "هیڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې سفلي قطب د منصف علوي پورې رسیږي."
+                      },
+                      {
+                        "q": "د درقي غدې مضیق د شزن د کومو حلقو سره توافق کوي؟",
+                        "options": [
+                          "1,6,7",
+                          "2,3,4",
+                          "5,6",
+                          "7,8"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې مضیق د شزن د 2,3,4 حلقو سره توافق کوي."
+                      },
+                      {
+                        "q": "د درقي غدې وظیفوي واحد عبارت دی له؟",
+                        "options": [
+                          "Follicle",
+                          "Lobule",
+                          "Isthmus",
+                          "Acinus"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقي غدې وظیفوي واحد Follicle دی."
+                      },
+                      {
+                        "q": "د درقي غدې یو لوبیول له څو فولیکولونو څخه متشکل دی؟",
+                        "options": [
+                          "7-10",
+                          "40-50",
+                          "24-40",
+                          "100"
+                        ],
+                        "answer": 2,
+                        "explanation": "د درقي غدې یو لوبیول له 24-40 فولیکولونو څخه متشکل دی دی."
+                      },
+                      {
+                        "q": "د درقي غدې فولیکولونه د کوم نوع حجرو په واسطه فرش شوي دي؟",
+                        "options": [
+                          "Squamous Epithelial",
+                          "Columnar Epithelial",
+                          "Cuboidal Epithelial",
+                          "Fibroblasts"
+                        ],
+                        "answer": 2,
+                        "explanation": "د درقي غدې فولیکولونه د Cuboidal Epithelial حجرو په واسطه فرش شوي دي."
+                      },
+                      {
+                        "q": "د درقي غدې علوي شریان د لاندې کوم شریان څخه منشأ اخلي؟",
+                        "options": [
+                          "External Carotid",
+                          "Subclavian Artery",
+                          "Brachial Artery",
+                          "Axillary Artery"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقي غدې علوي شریان د External Carotid څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقي غدې سفلي شریان د لاندې کوم شریان څخه منشأ اخلي؟",
+                        "options": [
+                          "Subclavian Artery",
+                          "External Carotid Artery",
+                          "Axillary Artery",
+                          "Radial artery"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقي غدې سفلي شریان د Subclavian Artery څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقي غدې کوم ورید د Inferior Jugular ورید سره تخلیه کېږي؟",
+                        "options": [
+                          "Superior thyroid vein",
+                          "Middle thyroid vein",
+                          "Inferior thyroid vein",
+                          "د الف سم دي"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې Middle thyroid vein د Inferior Jugular ورید سره تخلیه کېږي."
+                      },
+                      {
+                        "q": "د درقي غدې کوم ورید د Jugular ورید سره تخلیه کېږي؟",
+                        "options": [
+                          "Superior thyroid vein",
+                          "Middle thyroid vein",
+                          "Inferior thyroid vein",
+                          "All of them"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې Middle thyroid vein د Jugular ورید سره تخلیه کېږي."
+                      },
+                      {
+                        "q": "د درقي غدې سفلي ورید د درقي غدې له کومې برخې څخه خارجېږي؟",
+                        "options": [
+                          "د غدې د سفلي برخې",
+                          "د غدې د علوي منصف برخې",
+                          "د عضوي علوي برخې",
+                          "د منصف علوي برخه"
+                        ],
+                        "answer": 1,
+                        "explanation": "د درقي غدې سفلي ورید د غدې د علوي منصف له برخې څخه خارجېږي."
+                      },
+                      {
+                        "q": "د درقي غدې سفلي ورید په کوم ورید کې تخلیه کېږي؟",
+                        "options": [
+                          "Internal jugular vein",
+                          "Azygous venous system",
+                          "Internal thoracic vein",
+                          "Innominate vein"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقي غدې سفلي ورید په Innominate vein کې تخلیه کېږي."
+                      },
+                      {
+                        "q": "د کپسول لاندې د درقي غدې د لمفاوي رګونو شبکه په کومو عقداتو کې تخلیه کېږي؟",
+                        "options": [
+                          "Juxta thyroid nodes",
+                          "Brachiocephalic nodes",
+                          "Mediastinal nodes",
+                          "Internal mammary Nodes"
+                        ],
+                        "answer": 0,
+                        "explanation": "د کپسول لاندې د درقي غدې د لمفاوي رګونو شبکه په Juxta thyroid nodes کې تخلیه کېږي."
+                      },
+                      {
+                        "q": "د صدر په دننه کې راجعه عصب له کوم عصب څخه منشأ اخلي؟",
+                        "options": [
+                          "Vagus nerve",
+                          "Intercostal Nerve",
+                          "Cardiac plexus",
+                          "Esophageal plexus"
+                        ],
+                        "answer": 0,
+                        "explanation": "د صدر په دننه کې راجعه عصب له Vagus nerve څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "د درقي غدې د فولیکولونو په داخل کې ایوډین د T3,T4 له جوړولو لپاره له کوم امینو اسید سره ترکیب کېږي؟",
+                        "options": [
+                          "Threonine",
+                          "Glutamine",
+                          "Glycine",
+                          "Tyrosine"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقي غدې د فولیکولونو په داخل کې ایوډین د T3,T4 له جوړولو لپاره له Tyrosine سره ترکیب کېږي."
+                      },
+                      {
+                        "q": "لاندې کوم هورمونونه د Medullary Carcinoma د سیروم مارکر په توګه شمېرل کېږي؟",
+                        "options": [
+                          "T3",
+                          "T4",
+                          "Thyrocalcitonin",
+                          "TSH"
+                        ],
+                        "answer": 2,
+                        "explanation": "Thyrocalcitonin د Medullary Carcinoma د سیروم مارکر په توګه شمېرل کېږي."
+                      },
+                      {
+                        "q": "TSH د لاندې کومو هورمونونو افراز او ازادېدل تنبیه او کنټرولوي؟",
+                        "options": [
+                          "Thyroid hormones",
+                          "LH, FSH",
+                          "Cortisol",
+                          "Estrogen & progesterone"
+                        ],
+                        "answer": 0,
+                        "explanation": "TSH د Thyroid hormones افراز او ازادېدل تنبیه او کنټرولوي."
+                      },
+                      {
+                        "q": "د Hyperthyroidism په حالت کې TSH څه ډول بدلون راولي؟",
+                        "options": [
+                          "پورته ځي",
+                          "ښکته شي",
+                          "بدلون نه کوي",
+                          "افراز یې تنبیه کېږي"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Hyperthyroidism په حالت کې TSH ښکته شي."
+                      },
+                      {
+                        "q": "TSH د افراز د کوم هورمون په واسطه تنظیمېږي؟",
+                        "options": [
+                          "CRH",
+                          "FSH",
+                          "oxytocin",
+                          "TRH"
+                        ],
+                        "answer": 3,
+                        "explanation": "TSH د افراز د TRH په واسطه تنظیمېږي."
+                      },
+                      {
+                        "q": "Thyroid stimulating Antibodies به کوم ګروپ انټي‌باډي‌ګانو کې شاملېږي؟",
+                        "options": [
+                          "IgA",
+                          "IgE",
+                          "IgG",
+                          "IgM"
+                        ],
+                        "answer": 2,
+                        "explanation": "Thyroid stimulating Antibodies د IgG ګروپ انټي‌باډي‌ګانو کې شاملېږي."
+                      },
+                      {
+                        "q": "د درقي غدې محرک انټي‌باډي‌ګانو په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "IgG څخه دي",
+                          "TSH-R پلاسه عمل کوي",
+                          "د TSH په نسبت لږ اغېز لري",
+                          "اکثرا د درقي توکسیکوزس حالت مسول دی"
+                        ],
+                        "answer": 2,
+                        "explanation": "د TSH په نسبت لږ اغېز لري غلطه جمله ده."
+                      },
+                      {
+                        "q": "په لاندې کومو ناروغانو کې د درقي غدې د معاینې لپاره له Pizzilo تخنیک څخه استفاده کېږي؟",
+                        "options": [
+                          "Obese patient",
+                          "Slim patients",
+                          "Tall patients",
+                          "Patients with barrel chest"
+                        ],
+                        "answer": 0,
+                        "explanation": "د Obese patient لپاره له Pizzilo تخنیک څخه استفاده کېږي."
+                      },
+                      {
+                        "q": "په طبیعي ډول د درقي غدې قوام څه ډول دی؟",
+                        "options": [
+                          "سخت",
+                          "ډَبری او ارتجاعي",
+                          "ګرد او هموار",
+                          "هیڅ یو"
+                        ],
+                        "answer": 1,
+                        "explanation": "په طبیعي ډول د درقي غدې قوام ډَبری او ارتجاعي دی."
+                      },
+                      {
+                        "q": "په لاندې کوم مرض کې د درقي غدې قوام سخت او تیږي ته ورته کېږي؟",
+                        "options": [
+                          "Hashimoto",
+                          "Riedel's thyroiditis",
+                          "Carcinoma",
+                          "د ب او ج سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د Riedels thyroiditis او Carcinoma په ناروغیو کې د درقي غدې قوام سخت او تیږي ته ورته کېږي."
+                      },
+                      {
+                        "q": "د وینې د سیروم د TSH ټیټه کچه په کوم مرض داللت کوي؟",
+                        "options": [
+                          "Hypothyroidism",
+                          "Hyperthyroidism",
+                          "Euthiroid",
+                          "Myxedema"
+                        ],
+                        "answer": 1,
+                        "explanation": "د وینې د سیروم د TSH ټیټه کچه په Hyperthyroidism داللت کوي."
+                      },
+                      {
+                        "q": "د درقي غدې په یوه برخه کې د نوډول شتون، په داسې حال کې چې نورې برخې نورمالې وي، په کوم نوم یادېږي؟",
+                        "options": [
+                          "Solitary",
+                          "Isolated",
+                          "واحد نوډول",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د درقي غدې په یو برخه کې د نوډول شتون د نورو قسمنونو د نورمالوالی سره Solitary/Isolated/واحد نوډول یادېږي."
+                      },
+                      {
+                        "q": "د درقي غدې په کوم حالت کې د درقي هورمونونو تولید نورمال وي؟",
+                        "options": [
+                          "ساده جاغور",
+                          "نيوبالستيك جاغور",
+                          "التهابي جاغور",
+                          "هیڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د درقي غدې په ساده جاغور حالت کې د درقي هورمونونو تولید نورمال وي."
+                      },
+                      {
+                        "q": "ساده جاغور په کومو بڼو رامنځته کېږي؟",
+                        "options": [
+                          "ابتدایی او تالی",
+                          "endemic & Sporadic",
+                          "Malignant & Benign",
+                          "Granulomatous & Fibrosing"
+                        ],
+                        "answer": 1,
+                        "explanation": "ساده جاغور په endemic & Sporadic اشکالو رامنځته کوي."
+                      },
+                      {
+                        "q": "Toxic adenoma د کوم ډول جاغور له جملې څخه دی؟",
+                        "options": [
+                          "Neoplastic",
+                          "Toxic goiter",
+                          "hyperplastic goiter",
+                          "inflammatory goiter"
+                        ],
+                        "answer": 1,
+                        "explanation": "Toxic adenoma د Toxic goiter له جملې څخه دی."
+                      },
+                      {
+                        "q": "Hashimoto مرض د التهابي جاغور کوم بخش پورې مربوطېږي؟",
+                        "options": [
+                          "granulomatous",
+                          "Infectious thyroiditis",
+                          "Fibrosing",
+                          "Auto immune"
+                        ],
+                        "answer": 3,
+                        "explanation": "Hashimoto مرض د التهابي جاغور Auto immune بخش پورې مربوطېږي."
+                      },
+                      {
+                        "q": "لاندې کوم مرض د فایبروزي التهابي جاغور پورې مربوط دی؟",
+                        "options": [
+                          "hashimoto",
+                          "Amyloid goiter",
+                          "Riedel's thyroiditis",
+                          "Graves"
+                        ],
+                        "answer": 2,
+                        "explanation": "Riedel's thyroiditis د فایبروزي التهابي جاغور پورې مربوط دی."
+                      },
+                      {
+                        "q": "د اندیمیک جاغور تر ټولو مهم عامل عبارت دی له؟",
+                        "options": [
+                          "د ایوډین کموالي",
+                          "د هورمونونو د سنتز کموالی",
+                          "انتانات",
+                          "هیڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د اندیمیک جاغور تر ټولو مهم فکتور د ایوډین کموالي ده."
+                      },
+                      {
+                        "q": "د یوه فرد د ایوډین اړتیا په ورځ کې څو ملي ګرامه دی؟",
+                        "options": [
+                          "10-15 ملي ګرامه",
+                          "30 ملي ګرامه",
+                          "7 ملي ګرامه",
+                          "هیڅ یو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د یوه فرد د ایوډین اړتیا په ورځ کې 10-15 ملي ګرامه دی."
+                      },
+                      {
+                        "q": "د ساده جاغور اندیمیکې سیمې په کومو جغرافیایي سیمو کې موقعیت لري؟",
+                        "options": [
+                          "صحرايي",
+                          "د سند غاړې",
+                          "ځنګلونه",
+                          "غرونه"
+                        ],
+                        "answer": 3,
+                        "explanation": "د ساده جاغور اندیمیکې سیمې په غرونو سیمو کې موقعیت لري."
+                      },
+                      {
+                        "q": "د سپورادیک جاغور تر ټولو مهم دلیل عبارت دی له؟",
+                        "options": [
+                          "iodine deficiency",
+                          "Dyshormonogenesis",
+                          "Goitrogens",
+                          "هیڅ يو"
+                        ],
+                        "answer": 1,
+                        "explanation": "د سپورادیک جاغور تر ټولو مهم دلیل Dyshormonogenesis دی."
+                      },
+                      {
+                        "q": "لاندې کوم نباتات Goitrogens ځانګړتیا لري؟",
+                        "options": [
+                          "Brassica",
+                          "د ستروس خاندان میوه جات",
+                          "حبوبات",
+                          "شنې پاڼې لرونکي نباتات"
+                        ],
+                        "answer": 0,
+                        "explanation": "Brassica نباتات Goitrogens ځانګړتیا لري."
+                      },
+                      {
+                        "q": "د منتشر هایپرپلاستیک جاغور په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "د TSH د دوامدارې تنبیه له امله رامنځته کېږي",
+                          "سپورادیک پېښې یې په ځوانۍ کې رامنځته کېږي",
+                          "د سټرس او حاملګۍ پر مهال بېرته رامنځته کېږي",
+                          "هیڅکله بېرته نورمال حالت ته نه راګرځي"
+                        ],
+                        "answer": 3,
+                        "explanation": "هیڅکله بېرته نورمال حالت ته نه راګرځي غلطه جمله ده."
+                      },
+                      {
+                        "q": "منتشر هایپرپلاستیک جاغور د لمس پر مهال څه ډول قوام لري؟",
+                        "options": [
+                          "سخت، له مجاورو اعضاوو سره نښتی",
+                          "دانه‌داره سطحه او نامنظم حدود",
+                          "نرم، نرم، مشخص حدود، متحرک",
+                          "لوی، څو فصیلي، فشار ورکوونکی"
+                        ],
+                        "answer": 2,
+                        "explanation": "منتشر هایپرپلاستیک جاغور د لمس پر مهال نرم، لشم، مشخص حدود او متحرک وصف لري."
+                      },
+                      {
+                        "q": "د لمس پر مهال د کولویډ جاغور وصف عبارت دی له؟",
+                        "options": [
+                          "نرم او ارتجاعي",
+                          "دانه‌داره سطحه او نامنظم حدود",
+                          "سخت او تیږي ته ورته",
+                          "هیڅ يو"
+                        ],
+                        "answer": 0,
+                        "explanation": "د لمس پر مهال د کولویډ جاغور وصف نرم او ارتجاعي دی."
+                      },
+                      {
+                        "q": "په اندیمیک جاغور کې نوډولونه څه وخت رامنځته کېږي؟",
+                        "options": [
+                          "سمدستي",
+                          "په لومړني ډول",
+                          "په وروسته ډول",
+                          "نه رامنځته کېږي"
+                        ],
+                        "answer": 2,
+                        "explanation": "په اندیمیک جاغور کې نوډولونه په وروسته ډول رامنځته کېږي."
+                      },
+                      {
+                        "q": "د نارینه‌وو په نسبت په ښځو کې د ساده جاغور د زیاتې پېښېدو علت عبارت دی له؟",
+                        "options": [
+                          "د درقي لویوال",
+                          "په درقي حجرو کې د استروجن د اخیستونکو شتون",
+                          "د اندروجن اخلي",
+                          "د ښځو د روحي حساس والی"
+                        ],
+                        "answer": 1,
+                        "explanation": "په ښځو کې د ساده جاغور د زیاتې پېښېدو علت په درقي حجرو کې د استروجن د اخیستونکو شتون دی."
+                      },
+                      {
+                        "q": "په نوډولر جاغور کې د درقي هورمونونو ترشح په کوم حالت کې قرار لري؟",
+                        "options": [
+                          "Euthyroid",
+                          "Hypotyroid",
+                          "Hyperthyroid",
+                          "هیڅ يو"
+                        ],
+                        "answer": 0,
+                        "explanation": "په نوډولر جاغور کې د درقي هورمونونو ترشح په Euthyroid حالت کې وي."
+                      },
+                      {
+                        "q": "د دې لپاره چې د نوډولر جاغور تفریقي تشخیص له Lymphadenoid جاغور څخه وکړو کومه معاینه ترسره کوو؟",
+                        "options": [
+                          "Serum TSH",
+                          "T3, T4",
+                          "US",
+                          "Thyroid Antibodies"
+                        ],
+                        "answer": 3,
+                        "explanation": "د نوډولر جاغور تفریقي تشخیص له Lymphadenoid جاغور څخه د Thyroid Antibodies معاینې په واسطه ترسره کوو."
+                      },
+                      {
+                        "q": "په نوډولر جاغور کې وینه‌بهېدنه د کوم اختلاط سبب کېدای شي؟",
+                        "options": [
+                          "Airway Obstruction",
+                          "Shock",
+                          "دواړه",
+                          "هیڅ يو"
+                        ],
+                        "answer": 0,
+                        "explanation": "په نوډولر جاغور کې وینه‌بهېدنه د Airway Obstruction سبب کېدای شي."
+                      },
+                      {
+                        "q": "د نوډولر جاغور څو سلنه ناروغان په ثانوي تایروتوکسیکوز اخته کېږي؟",
+                        "options": [
+                          "%50",
+                          "%80",
+                          "%30",
+                          "%20"
+                        ],
+                        "answer": 2,
+                        "explanation": "د نوډولر جاغور ۳۰٪ ناروغان په ثانوي تایروتوکسیکوز اخته کېږي."
+                      },
+                      {
+                        "q": "نوډولر جاغور څو سلنه په واحده بڼه وي؟",
+                        "options": [
+                          "%50",
+                          "%80",
+                          "%30",
+                          "%20"
+                        ],
+                        "answer": 1,
+                        "explanation": "نوډولر جاغور ۸۰٪ په واحده بڼه وي."
+                      },
+                      {
+                        "q": "د قص هډوکي شاته د ډېرو جاغورونو له کوم ځای څخه منشأ اخلي؟",
+                        "options": [
+                          "منصف",
+                          "د درقي غدې علوى قطب",
+                          "د نوډولر جاغور سفلي",
+                          "Stem cells"
+                        ],
+                        "answer": 2,
+                        "explanation": "د قص هډوکي شاته د ډېرو جاغورونو د نوډولر جاغور سفلي څخه منشأ اخلي."
+                      },
+                      {
+                        "q": "هر کله چې د قص هډوکي شاته نوډول د لمس وړ وي په کوم نوم یادېږي؟",
+                        "options": [
+                          "Plunging",
+                          "Substernal",
+                          "Intrathoracic",
+                          "none of them"
+                        ],
+                        "answer": 1,
+                        "explanation": "هر کله چې د قص هډوکي شاته نوډول د لمس وړ وي Substernal نوم یادېږي."
+                      },
+                      {
+                        "q": "د قص هډوکي شاته کوم ډول نوډول د ټوخي پر مهال د لمس وړ ګرځي؟",
+                        "options": [
+                          "Intrathoracic",
+                          "Substernal",
+                          "Plunging",
+                          "All are correct"
+                        ],
+                        "answer": 2,
+                        "explanation": "د قص هډوکي شاته Plunging نوډول د ټوخي پر مهال د لمس وړ ګرځي."
+                      },
+                      {
+                        "q": "د قص هډوکي شاته جاغور تنفسي نښې عبارت دي له؟",
+                        "options": [
+                          "Stridor and cough",
+                          "Hemoptysis",
+                          "Wheezing anf cough",
+                          "Dyspnea"
+                        ],
+                        "answer": 0,
+                        "explanation": "د قص هډوکي شاته جاغور تنفسي نښې Stridor and cough دي."
+                      },
+                      {
+                        "q": "د قص هډوکي شاته جاغور هضمي نښې عبارت دي له؟",
+                        "options": [
+                          "Dysphagia",
+                          "Nausea ,Vomiting",
+                          "Dyspepsia",
+                          "Flatulence"
+                        ],
+                        "answer": 0,
+                        "explanation": "د قص هډوکي شاته جاغور هضمي نښې Dysphagia دي."
+                      },
+                      {
+                        "q": "د قص هډوکي شاته جاغور د تشخیص تر ټولو دقیقه معاینه عبارت ده له؟",
+                        "options": [
+                          "ultrasound",
+                          "Blood Exam",
+                          "Radiography",
+                          "CT-Scan"
+                        ],
+                        "answer": 3,
+                        "explanation": "د قص هډوکي شاته جاغور د تشخیص تر ټولو دقیقه معاینه CT-Scan ده."
+                      },
+                      {
+                        "q": "په توکسیک جاغور کې د درقي غدې هورمونونه څه ډول بدلون کوي؟",
+                        "options": [
+                          "hyperthyroid",
+                          "Hypothyroid",
+                          "Euthyroid",
+                          "هیڅ يو"
+                        ],
+                        "answer": 0,
+                        "explanation": "په توکسیک جاغور کې د درقي غدې هورمونونه لوړ وي (Hyperthyroid)."
+                      },
+                      {
+                        "q": "Graves Disease په بل کوم نوم یادېږي؟",
+                        "options": [
+                          "منتشر توکسیک جاغور",
+                          "توکسیک نوډولر جاغور",
+                          "د نادر سبب له علته هایپرتایرایډیزم",
+                          "هیڅ يو"
+                        ],
+                        "answer": 0,
+                        "explanation": "Graves Disease په نوم منتشر توکسیک جاغور یادېږي."
+                      },
+                      {
+                        "q": "Graves disease زياتره په کومو اشخاصو کې رامنځته کېږي؟",
+                        "options": [
+                          "بالغ نارینه",
+                          "مسن اشخاص",
+                          "ځوانې ښځې",
+                          "ماشومان"
+                        ],
+                        "answer": 2,
+                        "explanation": "Graves disease زیاتره په ځوانو ښځو کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د ابتدایي تایروتوکسیکوزس په اړه غلطه جمله په نښه کړئ؟",
+                        "options": [
+                          "ممکن لوی، کوچنی، نرم یا سخت وي",
+                          "تریل او سوا ل موجود وي",
+                          "قلبي عدم کفایه ډېره عامه وي",
+                          "ډېر وخیم دی"
+                        ],
+                        "answer": 3,
+                        "explanation": "ډېر وخیم دی غلطه جمله ده."
+                      },
+                      {
+                        "q": "لاندې کوم مرض تل د عین د کرې له نښو سره مل وي؟",
+                        "options": [
+                          "Primary Thyrotoxicosis",
+                          "Nodular Toxic Goiter",
+                          "Toxic Nodule",
+                          "Simple Goiter"
+                        ],
+                        "answer": 0,
+                        "explanation": "Primary Thyrotoxicosis د عین د کرې له نښو سره مل وي."
+                      },
+                      {
+                        "q": "د توکسیک نوډولر جاغور په سیر کې کوم قلبي اختلاطات رامنځته کوي؟",
+                        "options": [
+                          "HF",
+                          "AMI",
+                          "Atrial fibrillation",
+                          "هیڅ يو"
+                        ],
+                        "answer": 2,
+                        "explanation": "د توکسیک نوډولر جاغور په سیر کې Atrial fibrillation قلبي اختلاطات رامنځته کوي."
+                      },
+                      {
+                        "q": "د هایپرپلازیا هایپرتایرایډیزم د کومو حجرو په واسطه فرش شوي دي؟",
+                        "options": [
+                          "Columnar Epithelial",
+                          "Cuboidal Epithelial",
+                          "Squamous Epithelial",
+                          "Osteoblasts"
+                        ],
+                        "answer": 0,
+                        "explanation": "د هایپرپلازیا هایپرتایرایډیزم د Columnar Epithelial حجراتو په واسطه فرش شوي دي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله د سترګو د عضلاتو کمزوري د کوم مرض سره مشابه ده؟",
+                        "options": [
+                          "Multiple Sclerosis",
+                          "Myasthenia gravis",
+                          "Botulism",
+                          "Amyotrophic lateral Sclerosis"
+                        ],
+                        "answer": 1,
+                        "explanation": "د تایروتوکسیکوزس له امله د سترګو د عضلاتو کمزوري د Myasthenia gravis سره مشابه ده."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله اګزوفتلمیا څه ډول تظاهر کوي؟",
+                        "options": [
+                          "د سترګو نیمه خلاص پاتې کېدل",
+                          "د Iris په علوي حافه کې د صلبیه ښکاره کېدل کېدل",
+                          "د سترګې د برخې سترګي تلل",
+                          "الف او ب سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د تایروتوکسیکوزس له امله اګزوفتلمیا د سترګو نیمه خلاص پاتې کېدل او د Iris په علوي حافه کې د صلبیې ښکاره کېدل تظاهر کوي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس له امله Eye sign د کومې دوا سره اصالح کېږي؟",
+                        "options": [
+                          "Muscarinic agents",
+                          "B-Blocker",
+                          "Alpha - Blocker",
+                          "Alpha- agonists"
+                        ],
+                        "answer": 1,
+                        "explanation": "د تایروتوکسیکوزس له امله Eye sign د B-Blocker سره اصالح کېږي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس په سیر کې د سترګې د سفلي مخروطه عضلاتو ضعیفي د کوم اختلاط سبب کېږي؟",
+                        "options": [
+                          "diplopia",
+                          "Glaucoma",
+                          "Cataract",
+                          "Blindness"
+                        ],
+                        "answer": 0,
+                        "explanation": "د تایروتوکسیکوزس په سیر کې د سترګې د سفلي مخروطه عضلاتو ضعیفي د diplopia اختلاط سبب کېږي."
+                      },
+                      {
+                        "q": "Pretibial Myxedema د کومو موادو د رسوب په اثر په تحت الجلد کې رامنځته کېږي؟",
+                        "options": [
+                          "وینه",
+                          "مایعات",
+                          "هیالورونیک اسید",
+                          "پلازما"
+                        ],
+                        "answer": 2,
+                        "explanation": "Pretibial Myxedema د هیالورونیک اسید د رسوب په اثر په تحت الجلد کې رامنځته کېږي."
+                      },
+                      {
+                        "q": "د Pretibial Myxedema د کومې دوا په کارولو سره روغېږي؟",
+                        "options": [
+                          "Antithyroid",
+                          "Steroid and antithyroid",
+                          "Diuretics",
+                          "Antihypertensives"
+                        ],
+                        "answer": 1,
+                        "explanation": "د Pretibial Myxedema د Steroid and antithyroid دوا په کارولو سره روغېږي."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس شتون باید په کومو ماشومانو کې په پام کې ونیول شي؟",
+                        "options": [
+                          "هغه ماشومان چې غیرطبیعي نشوونما لري",
+                          "په Myopathy باندې اخته ماشومان",
+                          "د سلوکي ستونزې لرونکي ماشومان",
+                          "ټول سم دي"
+                        ],
+                        "answer": 3,
+                        "explanation": "د تایروتوکسیکوزس شتون باید د غیر طبیعي شیوع نمو شرم ماشومان، Myopathy باندې اخته ماشومان، او د سلوکي ستونزې لرونکي ماشومان کې په پام کې ونیول شي."
+                      },
+                      {
+                        "q": "په یو شخص کې بې دلیله اسهال شتون په صورت کې باید د درقي کومې ناروغۍ په اړه مشکوک شو؟",
+                        "options": [
+                          "Nodular Goitar",
+                          "Thyrotoxicosis",
+                          "Carcinoma",
+                          "Hypothyroidism"
+                        ],
+                        "answer": 1,
+                        "explanation": "په یو شخص کې بې دلیله اسهال شتون په صورت کې باید د درقي Thyrotoxicosis ناروغۍ په اړه مشکوک شو."
+                      },
+                      {
+                        "q": "د تایروتوکسیکوزس په درملنه کې لاندې کومه دوا رول نه لري؟",
+                        "options": [
+                          "Antithyroid",
+                          "B-Blocker",
+                          "Iodide",
+                          "Alpha-Agonists"
+                        ],
+                        "answer": 3,
+                        "explanation": "Alpha-Agonists د تایروتوکسیکوزس په درملنه کې رول نه لري."
+                      },
+                      {
+                        "q": "لاندې کوم اختلاطات ممکن د انټي‌تایرایډ د کارولو له امله رامنځته شي؟",
+                        "options": [
+                          "Agranulocytosis",
+                          "Aplastic Anemia",
+                          "Pernicious Anemia",
+                          "د ټولو سره"
+                        ],
+                        "answer": 0,
+                        "explanation": "Agranulocytosis ممکن د انټي‌تایرایډ د کارولو له امله رامنځته شي."
+                      },
+                      {
+                        "q": "له عملیاتو وروسته څو سلنه ناروغان په تایروتوکسیکوزس باندې اخته کېږي؟",
+                        "options": [
+                          "%20",
+                          "%5",
+                          "%30",
+                          "%40"
+                        ],
+                        "answer": 1,
+                        "explanation": "له عملیاتو وروسته ۵٪ ناروغان په تایروتوکسیکوزس باندې اخته کېږي."
+                      },
+                      {
+                        "q": "د توکسیک نوډولر جاغور قطعي درملنه عبارت ده له؟",
+                        "options": [
+                          "Antithyroid",
+                          "Radiodine",
+                          "Surgery",
+                          "B_blocker"
+                        ],
+                        "answer": 2,
+                        "explanation": "د توکسیک نوډولر جاغور قطعي درملنه Surgery ده."
+                      },
+                      {
+                        "q": "د ۵۰ کلونو څخه کم عمر لرونکو ناروغانو چې د درقي توکسیک نوډولر جاغور باندې اخته وي، انتخابي درملنه عبارت ده له؟",
+                        "options": [
+                          "Radiodine",
+                          "Antithyroid",
+                          "Surgery",
+                          "Steroid"
+                        ],
+                        "answer": 2,
+                        "explanation": "د ۵۰ کلونو څخه کم عمر لرونکو ناروغانو لپاره انتخابي درملنه Surgery ده."
+                      }
+                    ],
+                    "qa": [],
+                    "flashcards": [],
+                    "mnemonics": []
+                  },
+                  "notes": [
+                    {
+                      "type": "important",
+                      "title": "د درقي غدې اناتومي",
+                      "icon": "🦋",
+                      "tags": [
+                        "anatomy",
+                        "thyroid",
+                        "high-yield"
+                      ],
+                      "content": "{key}موقعیت:{/key} د عنق سفلي برخه\n{key}وزن:{/key} 20-25 gr\n{key}فصونه:{/key} دوه فصونه چې د Isthmus په واسطه وصل دي\n{key}سفلي قطب:{/key} د منصف علوي پورې رسیږي\n{key}مضیق:{/key} د شزن د 2,3,4 حلقو سره توافق کوي\n{key}وظیفوي واحد:{/key} Follicle\n{key}لوبیول:{/key} له 24-40 فولیکولونو څخه متشکل دی\n{key}حجرې:{/key} Cuboidal Epithelial"
+                    },
+                    {
+                      "type": "info",
+                      "title": "د درقي غدې وینه رسونه",
+                      "icon": "🩸",
+                      "tags": [
+                        "blood supply",
+                        "thyroid",
+                        "high-yield"
+                      ],
+                      "content": "{key}علوي شریان:{/key} External Carotid\n{key}سفلي شریان:{/key} Subclavian Artery\n{key}وریدونه:{/key}\n• Superior thyroid vein\n• Middle thyroid vein (د Inferior Jugular ورید سره تخلیه کېږي)\n• Inferior thyroid vein (په Innominate vein کې تخلیه کېږي)"
+                    },
+                    {
+                      "type": "note",
+                      "title": "د درقي غدې هورمونونه",
+                      "icon": "⚗️",
+                      "tags": [
+                        "hormones",
+                        "thyroid",
+                        "high-yield"
+                      ],
+                      "content": "{key}T3, T4 جوړول:{/key} ایوډین د Tyrosine سره ترکیب کېږي\n{key}Medullary Carcinoma مارکر:{/key} Thyrocalcitonin\n{key}TSH:{/key} د Thyroid hormones افراز تنبیه کوي\n{key}Hyperthyroidism:{/key} TSH ښکته شي\n{key}TSH تنظیم:{/key} د TRH په واسطه"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "د درقي غدې معاینې",
+                      "icon": "🩺",
+                      "tags": [
+                        "examination",
+                        "thyroid",
+                        "high-yield"
+                      ],
+                      "content": "{key}طبیعي قوام:{/key} ربړي او ارتجاعي\n{key}سخت قوام:{/key} Riedel's thyroiditis او Carcinoma\n{key}TSH ټیټه سویه:{/key} Hyperthyroidism\n{key}Pizzilo تخنیک:{/key} د Obese patient لپاره"
+                    },
+                    {
+                      "type": "important",
+                      "title": "جاغور (Goiter)",
+                      "icon": "🦋",
+                      "tags": [
+                        "goiter",
+                        "high-yield"
+                      ],
+                      "content": "{key}ساده جاغور:{/key} د درقي هورمونونو تولید نورمال\n{key}اشکال:{/key} endemic & Sporadic\n{key}Toxic adenoma:{/key} د Toxic goiter له جملې\n{key}Hashimoto:{/key} Auto immune\n{key}Riedel's thyroiditis:{/key} فایبروزي التهابي جاغور\n{key}اندیمیک جاغور:{/key} د ایوډین کموالي\n{key}د ایوډین ضرورت:{/key} 10-15 ملي ګرامه په ورځ\n{key}سپورادیک جاغور:{/key} Dyshormonogenesis\n{key}Goitrogens:{/key} Brassica نباتات"
+                    },
+                    {
+                      "type": "note",
+                      "title": "د جاغور ډولونه",
+                      "icon": "📋",
+                      "tags": [
+                        "goiter",
+                        "types",
+                        "high-yield"
+                      ],
+                      "content": "{key}منتشر هایپرپلاستیک جاغور:{/key}\n• د TSH دوامداره تنبیه\n• نرم، لشم، مشخص حدود او متحرک\n• هیڅکله بېرته نورمال حالت ته نه راګرځي\n\n{key}کولویډ جاغور:{/key} نرم او ارتجاعي\n\n{key}نوډولر جاغور:{/key}\n• ۳۰٪ ثانوي تایروتوکسیکوز\n• ۸۰٪ واحده بڼه\n• Euthyroid\n• د Lymphadenoid جاغور څخه تفریقي تشخیص د Thyroid Antibodies په واسطه\n• وینه‌بهېدنه د Airway Obstruction سبب"
+                    },
+                    {
+                      "type": "warning",
+                      "title": "د قص هډوکي شاته جاغور",
+                      "icon": "🫁",
+                      "tags": [
+                        "retrosternal",
+                        "goiter",
+                        "high-yield"
+                      ],
+                      "content": "{key}منشأ:{/key} د نوډولر جاغور سفلي\n{key}Substernal:{/key} د لمس وړ\n{key}Plunging:{/key} د ټوخي پر مهال د لمس وړ\n{key}تنفسي نښې:{/key} Stridor and cough\n{key}هضمي نښې:{/key} Dysphagia\n{key}تشخیص:{/key} CT-Scan"
+                    },
+                    {
+                      "type": "important",
+                      "title": "تایروتوکسیکوزس",
+                      "icon": "⚠️",
+                      "tags": [
+                        "thyrotoxicosis",
+                        "high-yield"
+                      ],
+                      "content": "{key}Graves Disease:{/key} منتشر توکسیک جاغور\n{key}زياتره:{/key} ځوانې ښځې\n{key}Primary Thyrotoxicosis:{/key} د عین د کرې له نښو سره مل\n{key}قلبي اختلاطات:{/key} Atrial fibrillation\n{key}د سترګو د عضلاتو کمزوري:{/key} Myasthenia gravis سره مشابه\n{key}Eye sign درملنه:{/key} B-Blocker\n{key}دیپلوپیا:{/key} د سترګو د سفلي منحرفه عضلاتو کمزوري\n{key}Pretibial Myxedema:{/key} هیالورونیک اسید\n{key}درملنه:{/key} Steroid and antithyroid"
+                    },
+                    {
+                      "type": "tip",
+                      "title": "د تایروتوکسیکوزس درملنه",
+                      "icon": "💊",
+                      "tags": [
+                        "treatment",
+                        "thyrotoxicosis",
+                        "high-yield"
+                      ],
+                      "content": "{key}دواګانې:{/key}\n• Antithyroid\n• B-Blocker\n• Iodide\n• Alpha-Agonists (رول نه لري)\n\n{key}اختلاطات:{/key} Agranulocytosis\n\n{key}له عملیاتو وروسته:{/key} ۵٪ تایروتوکسیکوزس\n\n{key}توکسیک نوډولر جاغور:\n• قطعي درملنه: Surgery\n• د ۵۰ کلونو څخه کم عمر لپاره: Surgery"
+                    }
+                  ]
                 }
               ]
             },
